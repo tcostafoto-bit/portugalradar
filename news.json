@@ -1,12 +1,60 @@
 {
- "version": "1.1.5",
- "updated": "2026-09-29T12:13:42Z",
+ "version": "1.1.6",
+ "updated": "2026-09-29T13:14:28Z",
  "brief": [
-  "O Governo retoma hoje as negociações do Orçamento do Estado para 2027, com PS e Chega a criticar a falta de apoios às famílias, e reúne-se também com sindicatos da PSP e associações da GNR.",
-  "O caso das gémeas continua a dominar a política, com reações à acusação que inclui o filho do Presidente Marcelo Rebelo de Sousa.",
-  "O IPMA mantém avisos amarelos de chuva e vento em vários distritos, e a Seleção prepara em Malmo o jogo de quinta-feira com a Dinamarca."
+  "O Governo retoma hoje as negociações do Orçamento do Estado para 2027 com os partidos, com PS e Chega a apontar falta de apoios às famílias.",
+  "O MAI reúne-se com sindicatos da PSP e associações da GNR para discutir carreiras e remunerações.",
+  "O caso das gémeas continua a marcar a atualidade após a acusação do Ministério Público, que inclui o filho de Marcelo Rebelo de Sousa.",
+  "A Seleção prepara em Malmo o jogo de quinta-feira com a Dinamarca; há aviso amarelo de chuva e vento em vários distritos."
  ],
  "items": [
+  {
+   "id": "ng-casados-novo-noivo-ricardo",
+   "ts": "2026-09-29T12:30:00Z",
+   "source": "Nova Gente",
+   "lado": "pt",
+   "url": "https://www.novagente.pt/surpreendente-novo-noivo-de-casados-a-primeira-vista-ja-namorou-com-rosto-conhecido-da-tvi/",
+   "title": "Novo noivo de Casados à Primeira Vista já namorou com rosto conhecido da TVI",
+   "topic": "rosa",
+   "sub": "reality",
+   "impacto": "baixo",
+   "setores": [
+    "Casados à Primeira Vista",
+    "TVI"
+   ],
+   "tickers": [],
+   "resumo": "Ricardo Paixão, novo participante de Casados à Primeira Vista, esteve quatro anos com Andreia Silva, ex-concorrente de Love on Top. A relação terminou em novembro e ele avisou-a da participação."
+  },
+  {
+   "id": "cm-97anos-cascais-tribunal",
+   "ts": "2026-09-29T12:21:05Z",
+   "source": "CM",
+   "lado": "pt",
+   "url": "https://m.facebook.com/cmjornal/posts/pfbid02GCx7CXakjeCGJ3AehTCFsz7LMhY5HASeHp2gEF51saZ1cx1HdZxKwBwabuEhWvBQl",
+   "title": "Norte-americana de 97 anos quebra o silêncio e vai depor por videochamada no tribunal de Cascais",
+   "topic": "justica",
+   "sub": "",
+   "impacto": "baixo",
+   "setores": [],
+   "tickers": [],
+   "resumo": "Uma mulher norte-americana de 97 anos vai prestar depoimento por videochamada no tribunal de Cascais, quebrando o silêncio pela primeira vez, segundo o Correio da Manhã."
+  },
+  {
+   "id": "cm-fcporto-macaco-clube",
+   "ts": "2026-09-29T12:01:25Z",
+   "source": "CM",
+   "lado": "pt",
+   "url": "https://m.facebook.com/cmjornal/posts/pfbid0NNPz2KNNZZw7JD3iHConGQFaErfC6Y6riib4Ho9XpvgAv3b5yzpogfyD3LQMX5VBl",
+   "title": "Dragões pagaram despesas de clube do qual 'Macaco' é acionista",
+   "topic": "desporto",
+   "sub": "porto",
+   "impacto": "medio",
+   "setores": [
+    "FC Porto"
+   ],
+   "tickers": [],
+   "resumo": "Segundo o Correio da Manhã, o FC Porto pagou despesas de um clube do qual 'Macaco' é acionista."
+  },
   {
    "id": "ng-sergio-rossi-processo",
    "ts": "2026-09-29T11:44:11Z",
@@ -24,6 +72,70 @@
    "resumo": "O Ministério Público arquivou a queixa de violência doméstica apresentada por Ana Rita contra o cantor Sérgio Rossi. Ela avançou com um processo separado por difamação e o cantor garante que vai defender a sua inocência."
   },
   {
+   "id": "abola-topa-buscas-pj",
+   "ts": "2026-09-29T11:43:30Z",
+   "source": "A Bola",
+   "lado": "pt",
+   "url": "https://www.abola.pt/noticias/novas-buscas-da-pj-na-investigacao-a-paulo-topa-2026092911390990322",
+   "title": "Novas buscas da PJ na investigação a Paulo Topa",
+   "topic": "justica",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "PJ"
+   ],
+   "tickers": [],
+   "resumo": "A PJ realizou novas buscas em Vila Nova de Gaia no âmbito da investigação a Paulo Topa. O processo envolve suspeitas de desvio de cerca de dez milhões de euros e posterior branqueamento."
+  },
+  {
+   "id": "abola-alonso-aston-martin",
+   "ts": "2026-09-29T11:31:18Z",
+   "source": "A Bola",
+   "lado": "pt",
+   "url": "https://www.abola.pt/noticias/fernando-alonso-prega-partida-vou-retirar-me-mas-ainda-nao-e-ja-2026092911115698875",
+   "title": "Fernando Alonso prega partida: «Vou retirar-me... mas ainda não é já»",
+   "topic": "desporto",
+   "sub": "motores",
+   "impacto": "medio",
+   "setores": [
+    "Fórmula 1"
+   ],
+   "tickers": [],
+   "resumo": "Fernando Alonso renovou com a Aston Martin e continua na Fórmula 1. O piloto espanhol diz que vai retirar-se, mas ainda não é já."
+  },
+  {
+   "id": "cm-despesa-estudante-ocde",
+   "ts": "2026-09-29T11:22:06Z",
+   "source": "CM",
+   "lado": "pt",
+   "url": "https://m.facebook.com/cmjornal/posts/pfbid0Sm5JiwQoXFjCXHwjYQHpB6YD6ZGPPaQu3FppsMxMTD7GatUoJaZbYU42V5i4wz9Hl",
+   "title": "Despesa do Estado por estudante ronda os 10.206 euros anuais, abaixo da média da OCDE",
+   "topic": "outros",
+   "sub": "",
+   "impacto": "baixo",
+   "setores": [
+    "Educação"
+   ],
+   "tickers": [],
+   "resumo": "Do 1.º ciclo à universidade, a despesa do Estado português por estudante rondava os 10.206 euros anuais em 2023, ligeiramente abaixo da média da OCDE, de 11.962 euros."
+  },
+  {
+   "id": "abola-cabral-hangzhou",
+   "ts": "2026-09-29T10:33:57Z",
+   "source": "A Bola",
+   "lado": "pt",
+   "url": "https://www.abola.pt/noticias/francisco-cabral-revalida-titulo-com-novo-par-em-hangzhou-2026092910271618184",
+   "title": "Francisco Cabral revalida título com novo par em Hangzhou",
+   "topic": "desporto",
+   "sub": "tenis",
+   "impacto": "medio",
+   "setores": [
+    "Pares"
+   ],
+   "tickers": [],
+   "resumo": "Francisco Cabral venceu o torneio de pares de Hangzhou, ao lado do norte-americano JJ Tracy. É o sétimo título da carreira do tenista português."
+  },
+  {
    "id": "ipma-precipitacao-amarelo-20260929",
    "ts": "2026-09-29T09:13:00Z",
    "source": "IPMA",
@@ -39,6 +151,36 @@
    ],
    "tickers": [],
    "resumo": "Aviso amarelo para chuva persistente, por vezes forte, nos distritos de Viana do Castelo, Braga, Vila Real, Porto, Aveiro, Coimbra e Viseu, com início a partir das 15h de hoje e até à manhã de quarta-feira."
+  },
+  {
+   "id": "cm-susana-werner-portugal",
+   "ts": "2026-09-29T09:07:09Z",
+   "source": "CM",
+   "lado": "pt",
+   "url": "https://m.facebook.com/cmjornal/posts/pfbid02TLGpC6K2ULNQiSuDxvyigo4i3fGT2uVe7E4enEp5ZqVPsgh6oHUx3sMUcLh6xppvl",
+   "title": "Susana Werner anuncia que vai deixar Portugal com o marido",
+   "topic": "rosa",
+   "sub": "famosos",
+   "impacto": "baixo",
+   "setores": [],
+   "tickers": [],
+   "resumo": "Susana Werner comunicou nas redes sociais que ela e o marido vão deixar Portugal, com a casa ainda por vender e muita coisa por decidir."
+  },
+  {
+   "id": "abola-balakin-arbitro-dinamarca",
+   "ts": "2026-09-29T09:00:52Z",
+   "source": "A Bola",
+   "lado": "pt",
+   "url": "https://www.abola.pt/noticias/ucraniano-talisma-para-portugueses-apita-selecao-na-dinamarca-2026092909005257575",
+   "title": "Ucraniano talismã para portugueses apita Seleção na Dinamarca",
+   "topic": "desporto",
+   "sub": "selecao",
+   "impacto": "baixo",
+   "setores": [
+    "Liga das Nações"
+   ],
+   "tickers": [],
+   "resumo": "O ucraniano Mykola Balakin foi nomeado para arbitrar o jogo entre a Dinamarca e Portugal, marcado para quinta-feira, em Copenhaga, da Liga das Nações."
   },
   {
    "id": "ng-miguel-vicente-bb",
@@ -190,6 +332,38 @@
    "resumo": "Um ataque aéreo contra um mercado no Myanmar fez pelo menos 50 mortos, segundo o novo balanço divulgado hoje."
   },
   {
+   "id": "cm-daniela-martins-100mil",
+   "ts": "2026-09-29T07:18:30Z",
+   "source": "CM",
+   "lado": "pt",
+   "url": "https://m.facebook.com/cmjornal/posts/pfbid02K6UkRRM2rXqL1Mcm7YvCdp7Fqo4UtHnKYauYAajyezt7L6brcTfmCQHuyDE75t9zl",
+   "title": "Daniela Martins pediu ajuda para tudo, até para comprar leite, tendo mais de 100 mil euros na conta",
+   "topic": "justica",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Caso das gémeas"
+   ],
+   "tickers": [],
+   "resumo": "Segundo o Correio da Manhã, a mãe das gémeas pediu ajuda para tudo, incluindo para comprar leite, apesar de ter mais de 100 mil euros na conta bancária. A informação consta da acusação do caso das gémeas."
+  },
+  {
+   "id": "ojogo-ronaldo-amuo-jesus",
+   "ts": "2026-09-29T07:17:00Z",
+   "source": "O Jogo",
+   "lado": "pt",
+   "url": "https://www.ojogo.pt/internacional/artigo/amuo-de-cristiano-ronaldo-deu-a-volta-ao-mundo-e-jesus-falou-com-o-capitao/18131560",
+   "title": "Amuo de Cristiano Ronaldo deu a volta ao mundo e Jesus falou com o capitão",
+   "topic": "desporto",
+   "sub": "selecao",
+   "impacto": "medio",
+   "setores": [
+    "Liga das Nações"
+   ],
+   "tickers": [],
+   "resumo": "Cristiano Ronaldo não jogou contra a Noruega e foi diretamente para o balneário, caso que a imprensa internacional analisou. O capitão e o selecionador Jorge Jesus já falaram sobre o assunto."
+  },
+  {
    "id": "rtp-1768351",
    "ts": "2026-09-29T07:10:11Z",
    "source": "RTP",
@@ -205,6 +379,22 @@
    ],
    "tickers": [],
    "resumo": "A PSP registou 4.075 ocorrências nas escolas no último ano letivo, mais 4,6% do que no anterior. Os crimes de ofensas corporais e com armas atingiram máximos de cinco anos e também subiram as ofensas sexuais e o tráfico de droga."
+  },
+  {
+   "id": "cm-marcelo-sabia-tratamento",
+   "ts": "2026-09-29T07:02:01Z",
+   "source": "CM",
+   "lado": "pt",
+   "url": "https://m.facebook.com/cmjornal/posts/pfbid026yvvqf8rf17G3jpyzhZUawXBaKDzqgHAp2EUd5TX7VmkypgRve5caTREgiJrYHHcl",
+   "title": "Ex-Presidente da República sabia que as crianças vinham para Portugal apenas para receber tratamento",
+   "topic": "justica",
+   "sub": "",
+   "impacto": "alto",
+   "setores": [
+    "Caso das gémeas"
+   ],
+   "tickers": [],
+   "resumo": "O Correio da Manhã avança que o ex-Presidente da República sabia que as crianças vinham para Portugal apenas para receber tratamento. A informação surge no âmbito da acusação do Ministério Público no caso das gémeas."
   },
   {
    "id": "rtp-1768101",
@@ -322,6 +512,23 @@
    ],
    "tickers": [],
    "resumo": "O ministro da Administração Interna reúne-se hoje com os sindicatos da PSP e as associações da GNR para negociar a reestruturação dos suplementos e a revisão do estatuto profissional. Na véspera, cerca de 200 polícias e guardas manifestaram-se em silêncio no Porto."
+  },
+  {
+   "id": "cm-hormuz-plano-ira",
+   "ts": "2026-09-29T06:05:43Z",
+   "source": "CM",
+   "lado": "pt",
+   "url": "https://m.facebook.com/cmjornal/posts/pfbid02EerQPKvgqKomY5vb29eTBZbxmP7tAutQmJVVkT5DEKDkdypd8qLXR4eDoFP1xm9zl",
+   "title": "Irão apresenta na ONU plano para reabrir o estreito de Ormuz em sete dias",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "alto",
+   "setores": [
+    "Irão",
+    "Ormuz"
+   ],
+   "tickers": [],
+   "resumo": "À margem da Assembleia Geral da ONU, o Irão apresentou um projeto para reabrir o estreito de Ormuz no prazo de sete dias e retomar as negociações nucleares."
   },
   {
    "id": "zz-1217110",
@@ -591,6 +798,20 @@
    "resumo": "Quinze anos após a explosão que mudou a sua vida, Sónia Brazão regressou à televisão, disse estar de novo apaixonada e falou de casamento e maternidade."
   },
   {
+   "id": "record-sporting-zekri",
+   "ts": "2026-09-29T00:00:00Z",
+   "source": "Record",
+   "lado": "pt",
+   "url": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/sporting/detalhe/sporting-regressa-ao-trabalho-ja-com-zekri-as-ordens-de-rui-borges",
+   "title": "Sporting regressa ao trabalho já com Zekri às ordens de Rui Borges",
+   "topic": "desporto",
+   "sub": "sporting",
+   "impacto": "baixo",
+   "setores": [],
+   "tickers": [],
+   "resumo": "O Sporting voltou aos treinos com Zekri já às ordens de Rui Borges. O grupo continua muito reduzido devido aos compromissos das seleções."
+  },
+  {
    "id": "obs-gpt61-astra-cancelado",
    "ts": "2026-09-28T23:29:08Z",
    "source": "Observador",
@@ -856,6 +1077,22 @@
    ],
    "tickers": [],
    "resumo": "A APCVD vai notificar o Ministério Público sobre a agressão a um árbitro assistente no Olímpico do Montijo-Cova da Piedade, da Taça da AF Setúbal, que acabou aos 43 minutos. A APAF exige uma resposta clara de todas as entidades."
+  },
+  {
+   "id": "rtp-1768276",
+   "ts": "2026-09-28T19:21:38Z",
+   "source": "RTP Desporto",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/selecao-nacional/selecao-portuguesa-de-sub-21-focada-em-carimbar-acesso-ao-europeu-de-futebol_d1768276",
+   "title": "Seleção portuguesa de sub-21 focada em carimbar acesso ao Europeu de futebol",
+   "topic": "desporto",
+   "sub": "selecao",
+   "impacto": "baixo",
+   "setores": [
+    "Sub-21"
+   ],
+   "tickers": [],
+   "resumo": "A seleção de sub-21 procura garantir o apuramento para o Europeu diante de Gibraltar. O médio Gonçalo Moreira diz que o grupo está focado em reagir à derrota no último jogo."
   },
   {
    "id": "zz-torreense-sete-vitorias",
@@ -1596,6 +1833,12 @@
    "b": "rtp-1768101",
    "tema": "Passos e Governo sobre o ritmo das reformas",
    "nota": "Passos Coelho pede mais caminho e abre a referendo; Gonçalo Matias responde que o Governo tem quatro anos para as reformas."
+  },
+  {
+   "a": "cm-marcelo-sabia-tratamento",
+   "b": "cnn-6aba651bd34e53c759c7418f",
+   "tema": "Caso das gémeas: o que sabia Marcelo",
+   "nota": "Marcelo diz que ninguém está acima da lei; o CM avança que o ex-PR sabia que as crianças vinham só para tratamento."
   },
   {
    "a": "obs-gemeas-psd-marcelo",
