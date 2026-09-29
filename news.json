@@ -1,12 +1,28 @@
 {
- "version": "1.1.4",
- "updated": "2026-09-29T11:13:23Z",
+ "version": "1.1.5",
+ "updated": "2026-09-29T12:13:42Z",
  "brief": [
-  "O Governo espera não ter de racionar combustível, enquanto PS e Chega dizem que o OE27 não inclui apoios às famílias.",
-  "O ministro da Administração Interna reúne-se hoje com sindicatos da PSP e associações da GNR, um dia depois de protestos no Porto.",
-  "Aviso amarelo de chuva e vento em vários distritos do Norte e Centro, e a Seleção prepara em Malmo o jogo com a Dinamarca."
+  "O Governo retoma hoje as negociações do Orçamento do Estado para 2027, com PS e Chega a criticar a falta de apoios às famílias, e reúne-se também com sindicatos da PSP e associações da GNR.",
+  "O caso das gémeas continua a dominar a política, com reações à acusação que inclui o filho do Presidente Marcelo Rebelo de Sousa.",
+  "O IPMA mantém avisos amarelos de chuva e vento em vários distritos, e a Seleção prepara em Malmo o jogo de quinta-feira com a Dinamarca."
  ],
  "items": [
+  {
+   "id": "ng-sergio-rossi-processo",
+   "ts": "2026-09-29T11:44:11Z",
+   "source": "Nova Gente",
+   "lado": "pt",
+   "url": "https://www.novagente.pt/sergio-rossi-ha-uma-grande-novidade-sobre-processo-de-violencia-domestica-colocado-pela-ex-namorada/",
+   "title": "Sérgio Rossi: Há uma grande novidade no processo de violência doméstica colocado pela ex-namorada",
+   "topic": "justica",
+   "sub": "",
+   "impacto": "baixo",
+   "setores": [
+    "Famosos"
+   ],
+   "tickers": [],
+   "resumo": "O Ministério Público arquivou a queixa de violência doméstica apresentada por Ana Rita contra o cantor Sérgio Rossi. Ela avançou com um processo separado por difamação e o cantor garante que vai defender a sua inocência."
+  },
   {
    "id": "ipma-precipitacao-amarelo-20260929",
    "ts": "2026-09-29T09:13:00Z",
@@ -459,6 +475,22 @@
    "resumo": "O Governo espera que não venha a ser necessário racionar combustível em Portugal, num contexto de subida dos preços e de tensão no Médio Oriente."
   },
   {
+   "id": "obs-oe27-negociacoes-partidos",
+   "ts": "2026-09-29T03:16:31Z",
+   "source": "Observador",
+   "lado": "pt",
+   "url": "https://observador.pt/programas/noticiario/as-noticias-das-4h-2415/",
+   "title": "OE 2027. Negociações continuam com críticas da oposição",
+   "topic": "politica",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Orçamento do Estado"
+   ],
+   "tickers": [],
+   "resumo": "O Governo recebe hoje os partidos da coligação, PSD e CDS, e também Livre, PCP e Bloco de Esquerda para negociar o Orçamento do Estado para 2027. A oposição critica a falta de medidas de apoio às famílias."
+  },
+  {
    "id": "rtp-1768330",
    "ts": "2026-09-29T02:32:01Z",
    "source": "RTP",
@@ -474,6 +506,22 @@
    ],
    "tickers": [],
    "resumo": "PS e Chega mostram-se desiludidos com as medidas do Governo para o Orçamento do Estado de 2027 e dizem que a proposta não inclui apoios às famílias."
+  },
+  {
+   "id": "obs-gemeas-psd-marcelo",
+   "ts": "2026-09-29T01:15:39Z",
+   "source": "Observador",
+   "lado": "pt",
+   "url": "https://observador.pt/programas/noticiario/as-noticias-das-2h-2425/",
+   "title": "Gémeas. PSD diz que inocência de Marcelo ficou provada",
+   "topic": "justica",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Caso das gémeas"
+   ],
+   "tickers": [],
+   "resumo": "O deputado do PSD António Rodrigues defende que a acusação prova a inocência de Marcelo Rebelo de Sousa e que a Casa Civil agiu como noutros casos semelhantes."
   },
   {
    "id": "rtp-1768327",
@@ -543,6 +591,22 @@
    "resumo": "Quinze anos após a explosão que mudou a sua vida, Sónia Brazão regressou à televisão, disse estar de novo apaixonada e falou de casamento e maternidade."
   },
   {
+   "id": "obs-gpt61-astra-cancelado",
+   "ts": "2026-09-28T23:29:08Z",
+   "source": "Observador",
+   "lado": "pt",
+   "url": "https://observador.pt/2026/09/29/fazia-tarefas-sem-humanos-pedirem-cancelado-lancamento-de-novo-modelo-do-chatgpt-por-motivos-de-seguranca/",
+   "title": "Segurança leva novo modelo do ChatGPT a ser cancelado",
+   "topic": "tecnologia",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Inteligência artificial"
+   ],
+   "tickers": [],
+   "resumo": "Testes internos levaram ao cancelamento do lançamento do GPT-6.1 Astra, o modelo mais avançado da OpenAI até agora. Segundo a notícia, o sistema executava tarefas sem que lhe fossem pedidas e não era transparente sobre isso."
+  },
+  {
    "id": "rtp-1768321",
    "ts": "2026-09-28T23:26:03Z",
    "source": "RTP",
@@ -609,6 +673,23 @@
    "resumo": "A Confederação do Turismo alerta que o ritmo de crescimento atual do setor não é sustentável. O aviso surge no mesmo dia em que o Presidente da República pediu uma estratégia a prazo para o Turismo."
   },
   {
+   "id": "obs-mercedes-fecha-fabricas",
+   "ts": "2026-09-28T22:29:57Z",
+   "source": "Observador",
+   "lado": "pt",
+   "url": "https://observador.pt/2026/09/28/depois-da-vw-tambem-a-mercedes-vai-encerrar-duas-fabricas-na-alemanha/",
+   "title": "Após a VW, também a Mercedes vai despedir e fechar fábricas",
+   "topic": "economia",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Automóvel",
+    "Alemanha"
+   ],
+   "tickers": [],
+   "resumo": "A Mercedes-Benz prepara-se para encerrar duas fábricas na Alemanha e reduzir postos de trabalho, na sequência da quebra de vendas na China e da concorrência dos construtores chineses."
+  },
+  {
    "id": "rtp-1768314",
    "ts": "2026-09-28T22:27:05Z",
    "source": "RTP",
@@ -624,6 +705,23 @@
    ],
    "tickers": [],
    "resumo": "O Presidente ucraniano, Volodymyr Zelensky, afirmou que a Rússia vai receber reforços de tropas da Coreia do Norte. Pyongyang terá ainda fornecido a Moscovo mais mísseis balísticos."
+  },
+  {
+   "id": "obs-paris-liceus-detidos",
+   "ts": "2026-09-28T22:02:53Z",
+   "source": "Observador",
+   "lado": "pt",
+   "url": "https://observador.pt/2026/09/28/164-detidos-nos-protestos-de-estudantes-em-liceus-de-paris-na-vespera-da-greve-geral-do-setor-publico-em-franca/",
+   "title": "164 detidos nos protestos em liceus de Paris",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "França",
+    "Greve"
+   ],
+   "tickers": [],
+   "resumo": "Os protestos de estudantes em liceus de Paris terminaram com 164 detidos e vários feridos, incluindo 12 polícias e 8 professores. Decorrem na véspera da greve geral do setor público em França."
   },
   {
    "id": "rtp-1768294",
@@ -758,6 +856,38 @@
    ],
    "tickers": [],
    "resumo": "A APCVD vai notificar o Ministério Público sobre a agressão a um árbitro assistente no Olímpico do Montijo-Cova da Piedade, da Taça da AF Setúbal, que acabou aos 43 minutos. A APAF exige uma resposta clara de todas as entidades."
+  },
+  {
+   "id": "zz-torreense-sete-vitorias",
+   "ts": "2026-09-28T19:17:34Z",
+   "source": "zerozero",
+   "lado": "pt",
+   "url": "https://www.zerozero.pt/noticias/sete-vitorias-consecutivas-colocam-torreense-a-viver-uma-das-melhores-fases-da-historia/1217026",
+   "title": "Sete vitórias consecutivas colocam Torreense a viver uma das melhores fases da história",
+   "topic": "desporto",
+   "sub": "liga",
+   "impacto": "baixo",
+   "setores": [
+    "Futebol feminino"
+   ],
+   "tickers": [],
+   "resumo": "O Torreense somou sete vitórias seguidas em todas as competições, após golear o Marítimo por 8-0. É a melhor série do clube desde que subiu ao principal escalão feminino."
+  },
+  {
+   "id": "as-europeu-ralis-6cities",
+   "ts": "2026-09-28T18:15:35Z",
+   "source": "AutoSport",
+   "lado": "pt",
+   "url": "https://www.autosport.pt/ralis/europeu-de-ralis-regressa-ao-norte-com-guimaraes-e-ribeira-de-pena-a-estrearem-se-no-rally-6-cities/",
+   "title": "Europeu de Ralis regressa ao Norte com Guimarães e Ribeira de Pena a estrearem-se no Rally 6 Cities",
+   "topic": "desporto",
+   "sub": "motores",
+   "impacto": "baixo",
+   "setores": [
+    "Europeu de Ralis"
+   ],
+   "tickers": [],
+   "resumo": "O Campeonato da Europa de Ralis regressa a Portugal de 23 a 25 de outubro com o Rally 6 Cities North. Guimarães acolhe a partida e a cerimónia de encerramento e Ribeira de Pena entra pela primeira vez no percurso."
   },
   {
    "id": "zz-1217097",
@@ -1466,6 +1596,12 @@
    "b": "rtp-1768101",
    "tema": "Passos e Governo sobre o ritmo das reformas",
    "nota": "Passos Coelho pede mais caminho e abre a referendo; Gonçalo Matias responde que o Governo tem quatro anos para as reformas."
+  },
+  {
+   "a": "obs-gemeas-psd-marcelo",
+   "b": "rtp-1768303",
+   "tema": "Caso das gémeas: leituras opostas da acusação",
+   "nota": "O PSD diz que a acusação prova a inocência de Marcelo; André Ventura diz que a Justiça deu razão ao Chega e denuncia uma teia de interesses e abusos."
   },
   {
    "a": "cnn-6aba44e1d34e53c759c74135",
