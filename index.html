@@ -96,8 +96,7 @@ a.bcard:hover .tx{text-decoration:underline}
 .chip.zero{color:var(--ink2);border-style:dashed;opacity:.7}
 .chip.zero[aria-pressed="true"]{background:var(--paper2);color:var(--ink);border-color:var(--ink2);opacity:1}
 .chip.zero[aria-pressed="true"] .n{color:var(--ink2)}
-.nav button.zero{color:var(--ink2);opacity:.6}
-.nav button.zero[aria-pressed="true"]{opacity:1}
+.filters .zl{font-size:11px;color:var(--ink2);font-style:italic;letter-spacing:0;text-transform:none}
 
 /* capa */
 .front{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:0 28px;padding-top:18px}
@@ -441,7 +440,7 @@ function story(it,cls="",opts={}){const im=img(it);return `<article class="story
 
 function renderNav(){const cnt=t=>data.items.filter(i=>i.topic===t).length;
   let h=`<button type="button" data-v="capa" aria-pressed="${view==="capa"}">Capa</button>`;
-  h+=CATS.map(c=>{const n=cnt(c[0]);return `<button type="button" data-v="${c[0]}" aria-pressed="${view===c[0]}"${n?"":' class="zero" title="Sem notícias nos últimos 5 dias"'}>${esc(c[1])}<span class="n">${n}</span></button>`}).join("");
+  h+=CATS.map(c=>{const n=cnt(c[0]);if(!n&&view!==c[0])return "";return `<button type="button" data-v="${c[0]}" aria-pressed="${view===c[0]}">${esc(c[1])}<span class="n">${n}</span></button>`}).join("");
   const ex=[];if((data.pairs||[]).length)ex.push(`data-v="pairs" aria-pressed="${view==="pairs"}">Frente a frente<span class="n">${data.pairs.length}</span>`);
   if((data.arquivo||0)>0)ex.push(`data-v="arquivo" aria-pressed="${view==="arquivo"}">Arquivo<span class="n">${data.arquivo}</span>`);
   h+=ex.map((x,k)=>`<button type="button" ${k?"":'class="ff" '}${x}</button>`).join("");
@@ -489,8 +488,9 @@ function renderBrief(){const b=data.brief||[];const el=$("#brief");if(!b.length|
     const inner=`<span class="w">${it?`<span class="bt">${isToday(it)?fmtT.format(new Date(it.ts)):fmtDT.format(new Date(it.ts))} · ${esc(it.source)}</span>`:""}<span class="tx">${esc(o.texto)}</span>${it?`<span class="go">Ler →</span>`:""}</span>${im}`;
     return it?`<a class="bcard" href="${esc(it.url)}" target="_blank" rel="noopener" data-read="${esc(it.id)}">${inner}</a>`:`<div class="bcard">${inner}</div>`}).join("")+`</div>`}
 
-function chip(key,label,on,n){return `<button class="chip${n===0?" zero":""}" type="button" data-k="${esc(key)}" aria-pressed="${on}"${n===0?' title="Sem notícias nos últimos 5 dias"':""}>${esc(label)}${n!==undefined?`<span class="n">${n}</span>`:""}</button>`}
-function renderFilters(){const el=$("#filters");const c=CAT[view];if(!c){el.hidden=true;return}el.hidden=false;
+let zeroList=[];
+function chip(key,label,on,n){if(n===0&&!on){zeroList.push(label);return ""}return `<button class="chip" type="button" data-k="${esc(key)}" aria-pressed="${on}">${esc(label)}${n!==undefined?`<span class="n">${n}</span>`:""}</button>`}
+function renderFilters(){const el=$("#filters");const c=CAT[view];if(!c){el.hidden=true;return}el.hidden=false;zeroList=[];
   const base=data.items.filter(i=>i.topic===view);let h="";
   if(view==="desporto"){const isF=i=>FUTK.has(i.sub);
     h+=`<span class="k">Desporto</span>`+chip("d:","Tudo",!fSport,base.length)+chip("d:futebol","Futebol",fSport==="futebol",base.filter(isF).length)+MOD.map(m=>chip("d:"+m[0],m[1],fSport===m[0],base.filter(i=>i.sub===m[0]).length)).join("");
@@ -498,6 +498,7 @@ function renderFilters(){const el=$("#filters");const c=CAT[view];if(!c){el.hidd
     h+=`<span class="brk"></span>`}
   else if(c[3]){h+=`<span class="k">Dentro</span>`+chip("","Tudo",fSub.size===0,base.length)+c[3].map(s=>chip("s:"+s[0],s[1],fSub.has(s[0]),base.filter(i=>i.sub===s[0]).length)).join("")}
   h+=`<span class="k" style="margin-left:${c[3]&&view!=="desporto"?"10px":"0"}">Impacto</span>`+chip("i:","Todos",fImp.size===0)+IMPS.map(([k,n])=>chip("i:"+k,n,fImp.has(k),base.filter(i=>i.impacto===k).length)).join("");
+  if(zeroList.length&&(view==="desporto"||c[3]))h+=`<span class="brk"></span><span class="zl">Sem notícias nos últimos 5 dias: ${zeroList.map(esc).join(", ")}</span>`;
   el.innerHTML=h}
 $("#filters").addEventListener("click",e=>{const b=e.target.closest(".chip");if(!b)return;const k=b.dataset.k;
   if(k.startsWith("d:")){const v=k.slice(2);fSport=(fSport===v?"":v);fSub.clear();render();return}
