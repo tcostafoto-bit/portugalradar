@@ -1,7 +1,15 @@
 {
- "version": "1.1.16",
- "updated": "2026-09-29T21:15:36Z",
+ "version": "1.1.17",
+ "updated": "2026-09-29T22:16:08Z",
  "recent": [
+  {
+   "id": "ng-blaya-globos-ouro",
+   "ts": "2026-09-29T21:30:00Z",
+   "topic": "rosa",
+   "sub": "famosos",
+   "source": "Nova Gente",
+   "title": "Blaya faz dura crítica aos Globos de Ouro: \"Não há pretos?\""
+  },
   {
    "id": "ng-elisabete-moutinho-pedro-cell",
    "ts": "2026-09-29T21:00:00Z",
@@ -843,6 +851,14 @@
    "title": "Rússia reforça-se com tropas e mísseis norte-coreanos"
   },
   {
+   "id": "obs-ig-estrangeiras-44",
+   "ts": "2026-09-28T22:23:52Z",
+   "topic": "saude",
+   "sub": "",
+   "source": "Observador",
+   "title": "44% das interrupções da gravidez foram de estrangeiras"
+  },
+  {
    "id": "obs-paris-liceus-detidos",
    "ts": "2026-09-28T22:02:53Z",
    "topic": "mundo",
@@ -945,22 +961,6 @@
    "sub": "motores",
    "source": "AutoSport",
    "title": "Europeu de Ralis regressa ao Norte com Guimarães e Ribeira de Pena a estrearem-se no Rally 6 Cities"
-  },
-  {
-   "id": "zz-1217097",
-   "ts": "2026-09-28T18:15:06Z",
-   "topic": "desporto",
-   "sub": "liga",
-   "source": "zerozero",
-   "title": "Tribunal da Relação de Coimbra volta a chumbar plano de insolvência da Académica"
-  },
-  {
-   "id": "nit-neto-compra-casa-avo",
-   "ts": "2026-09-28T18:14:34Z",
-   "topic": "outros",
-   "sub": "",
-   "source": "NiT",
-   "title": "Aos 87 anos, recebeu uma ordem de despejo. Agora, o neto comprou-lhe a casa em Almada"
   }
  ],
  "paired": [

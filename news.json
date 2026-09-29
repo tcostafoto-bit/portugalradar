@@ -1,22 +1,39 @@
 {
- "version": "1.1.16",
- "updated": "2026-09-29T21:15:36Z",
+ "version": "1.1.17",
+ "updated": "2026-09-29T22:16:08Z",
  "brief": [
   {
-   "texto": "Presidente da República promulga o suplemento extraordinário para pensionistas, a pagar em dezembro."
+   "texto": "Presidente da República promulga suplemento extraordinário para pensionistas, a pagar em dezembro."
   },
   {
-   "texto": "Sindicatos da banca ligados à UGT convocam greve para 30 de novembro, contra aumentos de apenas 2%."
+   "texto": "Sindicatos da banca ligados à UGT convocam greve para 30 de novembro e juntam-se ao SNQTB."
   },
   {
    "texto": "Caso das gémeas: PSD acusa o Chega de querer pôr o Parlamento a fazer trabalho da polícia."
   },
   {
-   "texto": "Amuo de Ronaldo contra a Noruega dá a volta ao mundo e Jorge Jesus falou com o capitão.",
-   "id": "ojogo-ronaldo-amuo-jesus"
+   "texto": "Euribor a seis meses atinge novo máximo desde setembro de 2024."
   }
  ],
  "items": [
+  {
+   "id": "ng-blaya-globos-ouro",
+   "ts": "2026-09-29T21:30:00Z",
+   "source": "Nova Gente",
+   "lado": "pt",
+   "url": "https://www.novagente.pt/blaya-faz-dura-critica-aos-globos-de-ouro-nao-ha-pretos/",
+   "title": "Blaya faz dura crítica aos Globos de Ouro: \"Não há pretos?\"",
+   "topic": "rosa",
+   "sub": "famosos",
+   "impacto": "baixo",
+   "setores": [
+    "Globos de Ouro",
+    "SIC"
+   ],
+   "tickers": [],
+   "resumo": "A cantora Blaya criticou a falta de inclusividade na gala dos Globos de Ouro, questionando a ausência de pessoas negras entre os nomeados e os presentes.",
+   "img": "https://www.novagente.pt/wp-content/uploads/2026/09/NG-Destaque-2.jpg"
+  },
   {
    "id": "ng-elisabete-moutinho-pedro-cell",
    "ts": "2026-09-29T21:00:00Z",
@@ -1838,6 +1855,23 @@
    "tickers": [],
    "resumo": "O Presidente ucraniano, Volodymyr Zelensky, afirmou que a Rússia vai receber reforços de tropas da Coreia do Norte. Pyongyang terá ainda fornecido a Moscovo mais mísseis balísticos.",
    "img": ""
+  },
+  {
+   "id": "obs-ig-estrangeiras-44",
+   "ts": "2026-09-28T22:23:52Z",
+   "source": "Observador",
+   "lado": "pt",
+   "url": "https://observador.pt/2026/09/28/dgs-quatro-em-cada-dez-interrupcoes-da-gravidez-sao-feitas-por-mulheres-estrangeiras/",
+   "title": "44% das interrupções da gravidez foram de estrangeiras",
+   "topic": "saude",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "DGS"
+   ],
+   "tickers": [],
+   "resumo": "Segundo a DGS, o número de interrupções da gravidez manteve-se estável em 2025, perto das 18.869, mas 44% foram feitas por mulheres estrangeiras, sobretudo angolanas, brasileiras e cabo-verdianas. A DGS alerta para barreiras linguísticas e culturais no acesso.",
+   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2000:1126:nowe:0:129/q:70/plain/https://s3.observador.pt/wp-content/uploads/sites/5/2014/05/7278889.jpg"
   },
   {
    "id": "obs-paris-liceus-detidos",
