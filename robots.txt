@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /v2.html
+Disallow: /inbox/
+
+Sitemap: https://portugalradar.pt/sitemap.xml

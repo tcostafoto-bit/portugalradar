@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - "inbox/**"
+      - "seo_build.py"
   workflow_dispatch:
 
 permissions:
@@ -40,12 +41,24 @@ jobs:
             git rm -q "$f"
           done
 
+      - name: SEO (capa estática, páginas por secção, sitemap, RSS)
+        run: python3 seo_build.py .
+
       - name: Publicar
         run: |
           git config user.name "Portugal Radar bot"
           git config user.email "tcostafoto-bit@users.noreply.github.com"
-          git add news.json archive.json state.json
+          git add -A
           if git diff --cached --quiet; then echo "Sem alterações"; exit 0; fi
           git commit -q -m "Atualização automática das notícias"
           git pull -q --rebase origin main || true
           git push -q origin main
+
+      - name: Avisar Bing/Yandex (IndexNow)
+        continue-on-error: true
+        run: |
+          KEY=3dce3190845ad84d85c0088bc4641e3a
+          URLS=$(python3 -c "import re,json;print(json.dumps(re.findall(r'<loc>([^<]+)</loc>',open('sitemap.xml').read())))")
+          curl -s -o /dev/null -w "IndexNow: %{http_code}\n" -X POST https://api.indexnow.org/indexnow \
+            -H "Content-Type: application/json; charset=utf-8" \
+            -d "{\"host\":\"portugalradar.pt\",\"key\":\"$KEY\",\"keyLocation\":\"https://portugalradar.pt/$KEY.txt\",\"urlList\":$URLS}"
