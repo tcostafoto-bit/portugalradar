@@ -192,6 +192,14 @@ dialog::backdrop{background:rgba(0,0,0,.45)}
 #sugg select{width:100%;font:inherit;font-size:15px;padding:8px 10px;border:1px solid var(--rule);background:var(--paper2);color:var(--ink);border-radius:2px}
 #sugg .hp{position:absolute;left:-9999px;width:1px;height:1px;opacity:0}
 .sugg{background:none;cursor:pointer;color:inherit}
+.sugg.pri{background:var(--red);border-color:var(--red);color:var(--red-fg)}
+.sugg.pri:hover{background:var(--ink);border-color:var(--ink)}
+.hb{display:flex;gap:6px;flex-wrap:wrap;justify-content:flex-end}
+#shr{position:fixed}
+#shr .x{font-family:var(--ui);font-size:22px;line-height:1;color:var(--ink2);padding:2px 6px;position:absolute;top:8px;right:8px;border:0;background:none;cursor:pointer}
+.shg{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:8px}
+.shg .btn{text-decoration:none;text-align:center;cursor:pointer}
+footer .lnk{font:inherit;color:inherit;text-decoration:underline;cursor:pointer;padding:0}
 footer a{color:inherit}
 
 @media (max-width:900px){
@@ -219,7 +227,7 @@ footer a{color:inherit}
 <header class="mast">
   <div class="l"><span id="date">—</span><span class="live"><span class="dot" id="dot"></span><span id="upd">a carregar</span></span></div>
   <h1><a href="/" data-home><img class="logo" src="logo.png" alt="Portugal Radar" width="1400" height="281" fetchpriority="high"></a><span class="txt">Portugal Radar</span></h1>
-  <div class="r"><span>Edição <span class="ver" id="ver">1.0</span> · hora a hora</span><button type="button" class="sugg" id="open-sugg">Sugestões e contacto</button></div>
+  <div class="r"><span>Edição <span class="ver" id="ver">1.0</span> · hora a hora</span><span class="hb"><button type="button" class="sugg pri" id="share-site">Partilhar o site</button><button type="button" class="sugg" id="open-sugg">Sugestões e contacto</button></span></div>
 </header>
 <div class="tag">As notícias de Portugal que interessam · por tema · sem repetições · com a fonte</div>
 <nav class="nav" id="nav" aria-label="Secções"></nav>
@@ -229,6 +237,23 @@ footer a{color:inherit}
 <main id="main"><div class="empty">A abrir a edição de hoje…</div></main>
 
 <dialog id="reader" aria-labelledby="r-title"><div class="dlg" id="r-body"></div></dialog>
+
+<dialog id="shr" aria-labelledby="h-title">
+  <div class="dlg">
+    <button type="button" class="x" data-xclose aria-label="Fechar">×</button>
+    <h2 id="h-title">Partilhar o Portugal Radar</h2>
+    <p>Manda o site a quem gosta de estar a par das notícias sem perder tempo.</p>
+    <div class="shg">
+      <a class="btn" data-sh="wa" target="_blank" rel="noopener">WhatsApp</a>
+      <a class="btn" data-sh="fb" target="_blank" rel="noopener">Facebook</a>
+      <a class="btn" data-sh="x" target="_blank" rel="noopener">X</a>
+      <a class="btn" data-sh="tg" target="_blank" rel="noopener">Telegram</a>
+      <a class="btn" data-sh="mail">Email</a>
+      <button type="button" class="btn pri" id="copy-link">Copiar link</button>
+    </div>
+    <div class="msg" id="h-msg" aria-live="polite"></div>
+  </div>
+</dialog>
 
 <dialog id="sugg" aria-labelledby="s-title">
   <form class="dlg" id="sugg-form" novalidate>
@@ -259,7 +284,7 @@ footer a{color:inherit}
 </dialog>
 
 <footer>
-  <div>Fontes: Lusa, RTP, CNN Portugal, Observador, Correio da Manhã, RTP Desporto, A Bola, Record, O Jogo, zerozero, AutoSport, ECO, Idealista, HealthNews, IPMA, Fogos.pt, NiT, Nova Gente, Caras, VIP. Cada notícia liga à fonte original. Horas de Lisboa. Frente a frente: duas notícias que se contradizem, lado a lado, sem dar nenhuma como verdadeira. Contacto: <a href="mailto:contacto@portugalradar.pt">contacto@portugalradar.pt</a>.</div>
+  <div>Fontes: Lusa, RTP, CNN Portugal, Observador, Correio da Manhã, RTP Desporto, A Bola, Record, O Jogo, zerozero, AutoSport, ECO, Idealista, HealthNews, IPMA, Fogos.pt, NiT, Nova Gente, Caras, VIP. Cada notícia liga à fonte original. Horas de Lisboa. Frente a frente: duas notícias que se contradizem, lado a lado, sem dar nenhuma como verdadeira. Contacto: <a href="mailto:contacto@portugalradar.pt">contacto@portugalradar.pt</a>. <button type="button" class="lnk" data-share-site>Partilhar o site</button></div>
   <div class="cnt" id="cnt"></div>
 </footer>
 </div>
@@ -422,6 +447,20 @@ function render(){$("#ver").textContent=data.version||"1.0";renderNav();renderBr
 function setStatus(ok){const u=data.updated?new Date(data.updated):null;$("#dot").className="dot"+(ok?" ok":"");if(!u){$("#upd").textContent=ok?"sem dados":"sem ligação";return}const m=Math.max(0,Math.round((Date.now()-u)/60000));$("#upd").textContent=`atualizado ${m<1?"agora":m<60?"há "+m+" min":"há "+Math.round(m/60)+" h"} · ${fmtT.format(u)}`}
 async function load(){try{const r=await fetch("news.json?t="+Date.now(),{cache:"no-store"});if(!r.ok)throw 0;const j=await r.json();if(JSON.stringify(j)!==JSON.stringify(data)){if(j.arquivo!==data.arquivo)arch=null;data=j;render()}setStatus(true);openDeep()}catch(e){setStatus(false)}}
 load();setInterval(load,60000);setInterval(()=>setStatus(!!data.updated),30000);
+
+/* ===== partilhar o site ===== */
+const SH_TXT="Portugal Radar: as notícias de Portugal que interessam, por tema, sem repetições e com a fonte.";
+const SHD=$("#shr");
+function shareSite(){gc("partilha-site","Partilhar o site");
+  if(navigator.share){navigator.share({title:"Portugal Radar",text:SH_TXT,url:SITE}).catch(()=>{});return}
+  const u=encodeURIComponent(SITE),t=encodeURIComponent(SH_TXT);
+  const L={wa:"https://wa.me/?text="+t+"%20"+u,fb:"https://www.facebook.com/sharer/sharer.php?u="+u,x:"https://twitter.com/intent/tweet?text="+t+"&url="+u,tg:"https://t.me/share/url?url="+u+"&text="+t,mail:"mailto:?subject="+encodeURIComponent("Portugal Radar")+"&body="+t+"%0A"+u};
+  SHD.querySelectorAll("[data-sh]").forEach(a=>a.href=L[a.dataset.sh]);$("#h-msg").textContent="";SHD.showModal()}
+$("#share-site").addEventListener("click",shareSite);
+document.querySelector("[data-share-site]").addEventListener("click",shareSite);
+SHD.querySelector("[data-xclose]").addEventListener("click",()=>SHD.close());
+SHD.addEventListener("click",e=>{if(e.target===SHD)SHD.close()});
+$("#copy-link").addEventListener("click",async()=>{try{await navigator.clipboard.writeText(SITE);$("#h-msg").textContent="Link copiado: "+SITE;$("#h-msg").className="msg ok"}catch(e){$("#h-msg").textContent=SITE;$("#h-msg").className="msg"}});
 
 /* ===== sugestões e contacto ===== */
 const SG=$("#sugg"), SGF=$("#sugg-form"), SGM=$("#s-msgbox");
