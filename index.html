@@ -55,7 +55,21 @@ button:focus-visible,a:focus-visible,textarea:focus-visible,input:focus-visible{
 .nav button.ff{margin-left:auto}
 .nav button.ff[aria-pressed="true"]{color:var(--ink);border-bottom-color:var(--ink)}
 
-/* última hora */
+/* barra última hora (a correr) */
+.ticker{display:flex;align-items:stretch;border-bottom:1px solid var(--rule);background:var(--paper);overflow:hidden}
+.ticker .k{flex:none;font-family:var(--ui);font-weight:700;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--red-fg);background:var(--red);padding:7px 10px;display:flex;align-items:center;white-space:nowrap}
+.ticker .tk{flex:1;overflow:hidden;position:relative;-webkit-mask-image:linear-gradient(90deg,transparent,#000 24px,#000 calc(100% - 24px),transparent);mask-image:linear-gradient(90deg,transparent,#000 24px,#000 calc(100% - 24px),transparent)}
+.ticker .run{display:flex;width:max-content;align-items:center;animation:tk var(--dur,60s) linear infinite;padding-left:12px}
+.ticker:hover .run,.ticker:focus-within .run{animation-play-state:paused}
+.ticker a{font-family:var(--ui);font-size:13px;text-decoration:none;white-space:nowrap;padding:7px 18px 7px 0;display:inline-flex;gap:8px;align-items:baseline}
+.ticker a:hover{text-decoration:underline}
+.ticker a .t{font-weight:700;color:var(--red);font-variant-numeric:tabular-nums;font-size:11px;letter-spacing:.06em}
+.ticker a .s{color:var(--ink2);font-size:11px}
+.ticker a::after{content:"■";color:var(--rule);font-size:7px;margin-left:18px;align-self:center}
+@keyframes tk{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@media (prefers-reduced-motion:reduce){.ticker .run{animation:none}.ticker .tk{overflow-x:auto;scrollbar-width:thin}}
+
+/* em destaque */
 .brief{padding:14px 0 6px;border-bottom:1px solid var(--rule)}
 .brief .k{display:inline-block;font-family:var(--ui);font-weight:700;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--red-fg);background:var(--red);padding:4px 8px}
 .brief .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,250px),1fr));gap:0 22px;margin-top:8px}
@@ -232,6 +246,7 @@ footer a{color:inherit}
 <div class="tag">As notícias de Portugal que interessam · por tema · sem repetições · com a fonte</div>
 <nav class="nav" id="nav" aria-label="Secções"></nav>
 
+<div class="ticker" id="ticker" hidden aria-label="Última hora"><span class="k">Última hora</span><div class="tk"><div class="run" id="tk-run"></div></div></div>
 <section class="brief" id="brief" hidden></section>
 <div id="filters" class="filters" hidden></div>
 <main id="main"><div class="empty">A abrir a edição de hoje…</div></main>
@@ -364,7 +379,8 @@ document.querySelector("[data-home]").addEventListener("click",e=>{e.preventDefa
 $("#nav").addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;view=b.dataset.v;fSub.clear();fImp.clear();fSport="";saveV();render();window.scrollTo({top:0,behavior:"smooth"})});
 
 function renderBrief(){const b=data.brief||[];const el=$("#brief");if(!b.length||view!=="capa"){el.hidden=true;return}el.hidden=false;
-  el.innerHTML=`<div class="k">Última hora</div><div class="cards">`+b.map(x=>{const o=typeof x==="string"?{texto:x}:x;const it=o.id?findIt(o.id):null;
+  const ents=b.map(x=>{const o=typeof x==="string"?{texto:x}:x;return {o,it:o.id?findIt(o.id):null}}).sort((a,c)=>(c.it?new Date(c.it.ts).getTime():0)-(a.it?new Date(a.it.ts).getTime():0));
+  el.innerHTML=`<div class="k">Em destaque</div><div class="cards">`+ents.map(({o,it})=>{
     const im=it&&okImg(it.img)?`<img src="${esc(it.img)}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.remove()">`:"";
     const inner=`<span class="w">${it?`<span class="bt">${isToday(it)?fmtT.format(new Date(it.ts)):fmtDT.format(new Date(it.ts))} · ${esc(it.source)}</span>`:""}<span class="tx">${esc(o.texto)}</span>${it?`<span class="go">Ler →</span>`:""}</span>${im}`;
     return it?`<a class="bcard" href="${esc(it.url)}" target="_blank" rel="noopener" data-read="${esc(it.id)}">${inner}</a>`:`<div class="bcard">${inner}</div>`}).join("")+`</div>`}
@@ -442,7 +458,12 @@ $("#reader").addEventListener("click",e=>{if(e.target===e.currentTarget)e.curren
 let deep=(()=>{try{const h=decodeURIComponent((location.hash||"").slice(1));return h.startsWith("n/")?h.slice(2):""}catch(e){return ""}})();
 function openDeep(){if(!deep)return;const it=findIt(deep);deep="";if(it){openReader(it);try{history.replaceState(null,"",location.pathname)}catch(e){}}}
 
-function render(){$("#ver").textContent=data.version||"1.0";renderNav();renderBrief();renderFilters();
+function renderTicker(){const el=$("#ticker");const items=[...data.items].sort(byTs);if(!items.length){el.hidden=true;return}
+  const cut=Date.now()-12*3600e3;let l=items.filter(i=>i.impacto==="alto"&&new Date(i.ts).getTime()>cut).slice(0,8);
+  if(l.length<4)l=[...l,...items.filter(i=>!l.includes(i)).slice(0,4-l.length)].sort(byTs);
+  const html=l.map(i=>`<a href="${esc(i.url)}" target="_blank" rel="noopener" data-read="${esc(i.id)}"><span class="t">${isToday(i)?fmtT.format(new Date(i.ts)):fmtDT.format(new Date(i.ts))}</span>${esc(i.title)}<span class="s">${esc(i.source)}</span></a>`).join("");
+  el.hidden=false;const run=$("#tk-run");if(run.dataset.h!==html){run.dataset.h=html;run.innerHTML=html+html;run.style.setProperty("--dur",Math.max(30,Math.round(run.scrollWidth/2/60))+"s")}}
+function render(){$("#ver").textContent=data.version||"1.0";renderNav();renderTicker();renderBrief();renderFilters();
   if(view==="capa")renderFront();else if(view==="pairs")renderPairs();else if(view==="arquivo")renderArchive();else if(CAT[view])renderTopic();else{view="capa";renderFront()}}
 function setStatus(ok){const u=data.updated?new Date(data.updated):null;$("#dot").className="dot"+(ok?" ok":"");if(!u){$("#upd").textContent=ok?"sem dados":"sem ligação";return}const m=Math.max(0,Math.round((Date.now()-u)/60000));$("#upd").textContent=`atualizado ${m<1?"agora":m<60?"há "+m+" min":"há "+Math.round(m/60)+" h"} · ${fmtT.format(u)}`}
 async function load(){try{const r=await fetch("news.json?t="+Date.now(),{cache:"no-store"});if(!r.ok)throw 0;const j=await r.json();if(JSON.stringify(j)!==JSON.stringify(data)){if(j.arquivo!==data.arquivo)arch=null;data=j;render()}setStatus(true);openDeep()}catch(e){setStatus(false)}}
