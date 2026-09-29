@@ -1,11 +1,10 @@
 {
- "version": "1.1.6",
- "updated": "2026-09-29T13:14:28Z",
+ "version": "1.1.7",
+ "updated": "2026-09-29T13:27:43Z",
  "brief": [
-  "O Governo retoma hoje as negociações do Orçamento do Estado para 2027 com os partidos, com PS e Chega a apontar falta de apoios às famílias.",
-  "O MAI reúne-se com sindicatos da PSP e associações da GNR para discutir carreiras e remunerações.",
-  "O caso das gémeas continua a marcar a atualidade após a acusação do Ministério Público, que inclui o filho de Marcelo Rebelo de Sousa.",
-  "A Seleção prepara em Malmo o jogo de quinta-feira com a Dinamarca; há aviso amarelo de chuva e vento em vários distritos."
+  "O Governo retoma hoje as negociações do Orçamento do Estado para 2027 com os partidos, com PS e Chega a criticarem a falta de apoios às famílias, e o ministro da Administração Interna reúne-se com os sindicatos da PSP e as associações da GNR.",
+  "Depois da acusação no caso das gémeas, PSD e Chega interpretam de forma oposta o desfecho para Marcelo Rebelo de Sousa, e o Governo espera não ter de racionar combustíveis.",
+  "O IPMA tem oito distritos sob aviso amarelo de chuva e vento, e a Seleção prepara em Malmo o jogo de quinta-feira com a Dinamarca, para a Liga das Nações."
  ],
  "items": [
   {
@@ -120,6 +119,36 @@
    "resumo": "Do 1.º ciclo à universidade, a despesa do Estado português por estudante rondava os 10.206 euros anuais em 2023, ligeiramente abaixo da média da OCDE, de 11.962 euros."
   },
   {
+   "id": "abola-circati-brasil",
+   "ts": "2026-09-29T10:56:21Z",
+   "source": "A Bola",
+   "lado": "pt",
+   "url": "https://www.abola.pt/noticias/video-depois-de-irankunda-circati-tambem-marca-ao-brasil-e-que-remate-2026092910562102752",
+   "title": "Depois de Irankunda, Circati também marca ao Brasil",
+   "topic": "desporto",
+   "sub": "benfica",
+   "impacto": "baixo",
+   "setores": [
+    "Seleção da Austrália"
+   ],
+   "tickers": [],
+   "resumo": "O central do Benfica Alessandro Circati marcou pela Austrália ao Brasil, restabelecendo a igualdade no encontro entre as duas seleções. O golo surgiu depois de um também apontado por Irankunda."
+  },
+  {
+   "id": "ojogo-salvador-braga-balanco",
+   "ts": "2026-09-29T10:47:00Z",
+   "source": "O Jogo",
+   "lado": "pt",
+   "url": "https://www.ojogo.pt/futebol/artigo/braga-exige-mais-do-que-aquilo-que-apresentamos-ate-aqui-vinca-antonio-salvador/18131633",
+   "title": "\"Braga exige mais do que aquilo que apresentámos até aqui\", vinca António Salvador",
+   "topic": "desporto",
+   "sub": "braga",
+   "impacto": "baixo",
+   "setores": [],
+   "tickers": [],
+   "resumo": "O presidente do Braga, António Salvador, fez um balanço da temporada até agora e considera que a equipa vai mostrar melhorias depois da pausa para as seleções."
+  },
+  {
    "id": "abola-cabral-hangzhou",
    "ts": "2026-09-29T10:33:57Z",
    "source": "A Bola",
@@ -134,6 +163,39 @@
    ],
    "tickers": [],
    "resumo": "Francisco Cabral venceu o torneio de pares de Hangzhou, ao lado do norte-americano JJ Tracy. É o sétimo título da carreira do tenista português."
+  },
+  {
+   "id": "abola-duarte-gomes-luciano",
+   "ts": "2026-09-29T10:30:00Z",
+   "source": "A Bola",
+   "lado": "pt",
+   "url": "https://www.abola.pt/noticias/duarte-gomes-jamais-voltarei-a-trabalhar-com-luciano-goncalves-2026092900333458302",
+   "title": "Duarte Gomes: «Jamais voltarei a trabalhar com Luciano Gonçalves»",
+   "topic": "desporto",
+   "sub": "liga",
+   "impacto": "medio",
+   "setores": [
+    "Arbitragem"
+   ],
+   "tickers": [],
+   "resumo": "O ex-diretor técnico nacional de arbitragem falou pela primeira vez sobre a sua saída do cargo e garantiu que nunca mais trabalhará com Luciano Gonçalves. Classificou ainda como inadmissível que o presidente do Conselho de Arbitragem se tenha deslocado sozinho a uma reunião com o presidente da SAD."
+  },
+  {
+   "id": "cm-professores-salario-13",
+   "ts": "2026-09-29T09:39:48Z",
+   "source": "CM",
+   "lado": "pt",
+   "url": "https://m.facebook.com/cmjornal/posts/pfbid02t6VitcUFJNjrQch8kJzP4ZcA3b7hmwc7uS1EiFnyC7QyZixhQuauFr2FC1wKSJhRl",
+   "title": "Só 13,4% dos professores portugueses estão satisfeitos com o salário",
+   "topic": "economia",
+   "sub": "",
+   "impacto": "baixo",
+   "setores": [
+    "Professores",
+    "Salários"
+   ],
+   "tickers": [],
+   "resumo": "Apenas 13,4% dos professores portugueses dizem estar contentes com o seu salário, segundo os dados noticiados pelo Correio da Manhã."
   },
   {
    "id": "ipma-precipitacao-amarelo-20260929",
@@ -198,6 +260,22 @@
    ],
    "tickers": [],
    "resumo": "Espetadores do Big Brother All Stars especulam que um fogo de artifício foi um sinal para Catarina Miranda, mas Miguel Vicente diz que era para ele."
+  },
+  {
+   "id": "record-jaime-faria-toquio",
+   "ts": "2026-09-29T08:56:42Z",
+   "source": "Record",
+   "lado": "pt",
+   "url": "https://www.record.pt/modalidades/tenis/detalhe/jaime-faria-falha-acesso-ao-quadro-principal-do-torneio-de-toquio",
+   "title": "Jaime Faria falha acesso ao quadro principal do torneio de Tóquio",
+   "topic": "desporto",
+   "sub": "tenis",
+   "impacto": "baixo",
+   "setores": [
+    "Torneio de Tóquio"
+   ],
+   "tickers": [],
+   "resumo": "O tenista Jaime Faria, número 61 do mundo, foi eliminado na última ronda de qualificação do torneio de Tóquio pelo paraguaio Adolfo Daniel Vallejo. Fica assim fora do quadro principal."
   },
   {
    "id": "rtp-1768376",
@@ -283,6 +361,22 @@
    "resumo": "Os dois principais partidos reclamam vitória nas eleições em São Tomé e Príncipe. Os dados provisórios apontam para uma vantagem tangencial do MLSTP."
   },
   {
+   "id": "cm-armas-mesmo-serie-caparica",
+   "ts": "2026-09-29T08:01:39Z",
+   "source": "CM",
+   "lado": "pt",
+   "url": "https://m.facebook.com/cmjornal/posts/pfbid0HxWxgEPKZ1kcBQ7SuvBHH9j36r8f19u9WfgtB67jbkDjV1EzTw7Mb4kBA9kJr76el",
+   "title": "Apreendidas três armas com o mesmo número de série, a última na Caparica",
+   "topic": "justica",
+   "sub": "",
+   "impacto": "baixo",
+   "setores": [
+    "Armas"
+   ],
+   "tickers": [],
+   "resumo": "Foram apreendidas três armas com o mesmo número de série, a última das quais no sábado, na Caparica. Todas ficaram em depósito à guarda da Polícia."
+  },
+  {
    "id": "ng-andrea-francisco-monteiro",
    "ts": "2026-09-29T08:00:00Z",
    "source": "Nova Gente",
@@ -314,6 +408,22 @@
    ],
    "tickers": [],
    "resumo": "Um relatório oficial indica que a qualidade da água da torneira em Portugal ronda os 100% de conformidade com os padrões exigidos."
+  },
+  {
+   "id": "ojogo-vagiannidis-grecia",
+   "ts": "2026-09-29T07:33:00Z",
+   "source": "O Jogo",
+   "lado": "pt",
+   "url": "https://www.ojogo.pt/futebol/artigo/sporting-em-alerta-por-vagiannidis-lateral-com-queixas-na-grecia/18131570",
+   "title": "Sporting em alerta por Vagiannidis: lateral com queixas na Grécia",
+   "topic": "desporto",
+   "sub": "sporting",
+   "impacto": "baixo",
+   "setores": [
+    "Seleção da Grécia"
+   ],
+   "tickers": [],
+   "resumo": "O lateral do Sporting Vagiannidis sentiu um desconforto muscular no jogo com a Alemanha e deve falhar o encontro com os Países Baixos. O selecionador grego chamou outro lateral para o lugar."
   },
   {
    "id": "lusa-47853808",
@@ -680,6 +790,57 @@
    ],
    "tickers": [],
    "resumo": "O Governo espera que não venha a ser necessário racionar combustível em Portugal, num contexto de subida dos preços e de tensão no Médio Oriente."
+  },
+  {
+   "id": "hn-ebola-rdcongo-8000",
+   "ts": "2026-09-29T05:07:07Z",
+   "source": "HealthNews",
+   "lado": "pt",
+   "url": "https://healthnews.pt/2026/09/29/ebola-na-rdcongo-ultrapassa-8-000-casos-e-aproxima-se-das-4-000-mortes/",
+   "title": "Ébola na RDCongo ultrapassa 8.000 casos e aproxima-se das 4.000 mortes",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Ébola",
+    "Saúde pública"
+   ],
+   "tickers": [],
+   "resumo": "A epidemia de ébola na República Democrática do Congo somava 8.067 casos confirmados e 3.901 mortes a 26 de setembro, uma letalidade de 48,4%. A falta de profissionais de saúde e os atrasos nos pagamentos ameaçam a capacidade de resposta."
+  },
+  {
+   "id": "hn-funchal-taxa-urgencia",
+   "ts": "2026-09-29T05:04:31Z",
+   "source": "HealthNews",
+   "lado": "pt",
+   "url": "https://healthnews.pt/2026/09/29/pulseiras-verde-e-azul-passam-a-pagar-taxa-moderadora-na-urgencia-do-funchal/",
+   "title": "Pulseiras verde e azul passam a pagar taxa moderadora na urgência do Funchal",
+   "topic": "saude",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Madeira",
+    "Taxas moderadoras"
+   ],
+   "tickers": [],
+   "resumo": "O serviço de saúde da Madeira começou a cobrar taxa moderadora nas idas à urgência classificadas como pouco ou nada urgentes. Ficam isentos menores, grávidas, pessoas com deficiência e desempregados."
+  },
+  {
+   "id": "hn-siteu-aphp-proposta",
+   "ts": "2026-09-29T05:03:51Z",
+   "source": "HealthNews",
+   "lado": "pt",
+   "url": "https://healthnews.pt/2026/09/29/a-dignidade-nao-se-vende-siteu-recusa-proposta-da-aphp/",
+   "title": "\"A dignidade não se vende\": SITEU recusa proposta da APHP",
+   "topic": "saude",
+   "sub": "",
+   "impacto": "baixo",
+   "setores": [
+    "Enfermeiros",
+    "Hospitais privados"
+   ],
+   "tickers": [],
+   "resumo": "O sindicato de enfermeiros SITEU rejeitou a proposta da associação dos hospitais privados, que previa aumentos salariais de 60 euros por ano em 2027 e 2028. O sindicato exige paridade salarial com o setor público e a revisão do contrato coletivo."
   },
   {
    "id": "obs-oe27-negociacoes-partidos",
