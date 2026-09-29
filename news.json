@@ -1,10 +1,79 @@
 {
- "version": "1.1.9",
- "updated": "2026-09-29T16:08:41Z",
+ "version": "1.1.10",
+ "updated": "2026-09-29T16:36:07Z",
  "brief": [
-  "Teste de sincronização automática do site."
+  "A Seleção venceu na Noruega por 2-1 e lidera o grupo da Liga das Nações, enquanto Vasco Vilaça se sagrou campeão do mundo de triatlo.",
+  "O Orçamento do Estado para 2027 domina a política, com o Governo a receber os partidos e os sindicatos da função pública, e a oposição a criticar a falta de apoios às famílias.",
+  "O aviso amarelo por chuva e vento afeta vários distritos do Norte e Centro e continuam as negociações do MAI com os sindicatos da PSP e as associações da GNR."
  ],
  "items": [
+  {
+   "id": "ng-magui-corceiro-kika",
+   "ts": "2026-09-29T16:30:47Z",
+   "source": "Nova Gente",
+   "lado": "pt",
+   "url": "https://www.novagente.pt/guerra-seria-magui-corceiro-nao-se-fica-e-ataca-kika-cerqueira-gomes-com-ex-namorada-de-pierre-gasly/",
+   "title": "Guerra séria! Magui Corceiro não se fica e 'ataca' Kika Cerqueira Gomes com ex-namorada de Pierre Gasly",
+   "topic": "rosa",
+   "sub": "famosos",
+   "impacto": "baixo",
+   "setores": [],
+   "tickers": [],
+   "resumo": "Magui Corceiro e Kika Cerqueira Gomes estão numa troca de provocações nas redes sociais, que envolve agora a ex-namorada do piloto Pierre Gasly.",
+   "img": ""
+  },
+  {
+   "id": "ng-marcia-soares-zaza",
+   "ts": "2026-09-29T14:45:23Z",
+   "source": "Nova Gente",
+   "lado": "pt",
+   "url": "https://www.novagente.pt/por-esta-ninguem-esperava-marcia-soares-quebra-silencio-sobre-polemica-curva-da-vida-de-zaza-tenho-pena/",
+   "title": "Marcia Soares quebra silêncio sobre polémica Curva da Vida de Zaza: \"Tenho pena…\"",
+   "topic": "rosa",
+   "sub": "reality",
+   "impacto": "baixo",
+   "setores": [
+    "Big Brother All Stars"
+   ],
+   "tickers": [],
+   "resumo": "Márcia Soares comentou a confusão gerada pela Curva da Vida de Francisco Monteiro dentro da casa do Big Brother All Stars.",
+   "img": ""
+  },
+  {
+   "id": "cnn-6abbcb4cd34e9a786e75a257",
+   "ts": "2026-09-29T14:29:31Z",
+   "source": "CNN Portugal",
+   "lado": "pt",
+   "url": "https://cnnportugal.iol.pt/transporte-ferroviario/comboios/governo-apoia-com-300-000-euros-reforco-do-transporte-ferroviario-de-mercadorias/20260929/6abbcb4cd34e9a786e75a257",
+   "title": "Governo apoia com 300.000 euros reforço do transporte ferroviário de mercadorias",
+   "topic": "economia",
+   "sub": "",
+   "impacto": "baixo",
+   "setores": [
+    "Ferrovia"
+   ],
+   "tickers": [],
+   "resumo": "O Governo atribui 300.000 euros para reforçar o transporte ferroviário de mercadorias. O valor pode aumentar consoante a procura e a disponibilidade do Fundo para a Mobilidade e Transportes.",
+   "img": "https://img.iol.pt/image/id/681b2ae8d34e3f0bae9dd2f8/200.jpg"
+  },
+  {
+   "id": "cnn-6abbbf0ed34e53c759c744d3",
+   "ts": "2026-09-29T13:36:00Z",
+   "source": "CNN Portugal",
+   "lado": "pt",
+   "url": "https://cnnportugal.iol.pt/espanha/crise/plano-anti-crise-espanha-aprova-teto-no-preco-da-gasolina-e-alarga-descontos-nos-combustiveis/20260929/6abbbf0ed34e53c759c744d3",
+   "title": "Plano anti-crise: Espanha aprova teto no preço da gasolina e alarga descontos nos combustíveis",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Combustíveis",
+    "Espanha"
+   ],
+   "tickers": [],
+   "resumo": "O Conselho de Ministros de Espanha aprovou um pacote anti-crise com teto no preço da gasolina, descontos alargados nos combustíveis e ajudas à agricultura, aos transportes e à ferrovia.",
+   "img": "https://img.iol.pt/image/id/69aabca6d34edcee7c618fe5/200.jpg"
+  },
   {
    "id": "ng-tania-laranjo-flavio-furtado",
    "ts": "2026-09-29T13:30:57Z",
@@ -71,6 +140,23 @@
    "tickers": [],
    "resumo": "Segundo o Correio da Manhã, o FC Porto pagou despesas de um clube do qual 'Macaco' é acionista.",
    "img": ""
+  },
+  {
+   "id": "cnn-6abba229d34e53c759c74393",
+   "ts": "2026-09-29T11:47:00Z",
+   "source": "CNN Portugal",
+   "lado": "pt",
+   "url": "https://cnnportugal.iol.pt/eslovaquia/aluno/aluno-mata-professora-e-fere-outras-duas-pessoas-na-eslovaquia/20260929/6abba229d34e53c759c74393",
+   "title": "Aluno mata professora e fere outras duas pessoas na Eslováquia",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Eslováquia"
+   ],
+   "tickers": [],
+   "resumo": "Um aluno matou uma professora e feriu outras duas pessoas numa escola na Eslováquia. O menor já foi detido pelas autoridades.",
+   "img": "https://img.iol.pt/image/id/6abba1dbd34e53c759c74391/200.jpg"
   },
   {
    "id": "ng-sergio-rossi-processo",
@@ -141,6 +227,23 @@
    "img": ""
   },
   {
+   "id": "abola-benfica-bayern-vespera",
+   "ts": "2026-09-29T11:21:09Z",
+   "source": "A Bola",
+   "lado": "pt",
+   "url": "https://www.abola.pt/video/classe-e-boa-disposicao-benfica-prepara-rececao-a-gigante-europeu-2026092911210931773",
+   "title": "Classe e boa disposição: Benfica prepara receção a gigante europeu",
+   "topic": "desporto",
+   "sub": "benfica",
+   "impacto": "medio",
+   "setores": [
+    "Liga dos Campeões"
+   ],
+   "tickers": [],
+   "resumo": "O Benfica treinou com o plantel quase na máxima força na véspera do jogo com o Bayern.",
+   "img": "https://sportal365images.com/process/smp-images-production/abola.pt/29092026/adcb5b41-9902-4834-bf4a-9f7849c2340b.jpg?operations=autocrop(1200:630)"
+  },
+  {
    "id": "cm-passageiros-porta-emergencia",
    "ts": "2026-09-29T11:00:57Z",
    "source": "CM",
@@ -174,6 +277,23 @@
    "tickers": [],
    "resumo": "O central do Benfica Alessandro Circati marcou pela Austrália ao Brasil, restabelecendo a igualdade no encontro entre as duas seleções. O golo surgiu depois de um também apontado por Irankunda.",
    "img": ""
+  },
+  {
+   "id": "cnn-6abb97efd34e9a786e75a0f5",
+   "ts": "2026-09-29T10:50:00Z",
+   "source": "CNN Portugal",
+   "lado": "pt",
+   "url": "https://cnnportugal.iol.pt/orcamento-do-estado/ces/conselho-economico-e-social-alerta-para-subexecucao-do-investimento-que-contribui-para-contas-certas/20260929/6abb97efd34e9a786e75a0f5",
+   "title": "Conselho Económico e Social alerta para subexecução do investimento que contribui para \"contas certas\"",
+   "topic": "economia",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Orçamento do Estado"
+   ],
+   "tickers": [],
+   "resumo": "O CES alerta que a sobreorçamentação e a subexecução do investimento público limitam a execução das contas públicas e ajudam às \"contas certas\".",
+   "img": "https://img.iol.pt/image/id/6708ed7ed34e94b829062447/200.jpg"
   },
   {
    "id": "ojogo-salvador-braga-balanco",
@@ -677,6 +797,23 @@
    "img": ""
   },
   {
+   "id": "lusa-47853869",
+   "ts": "2026-09-29T06:30:00Z",
+   "source": "Lusa",
+   "lado": "pt",
+   "url": "https://www.lusa.pt/article/47853869",
+   "title": "Número de vítimas mortais de inundações na Tailândia sobe para 23 - Governo",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "baixo",
+   "setores": [
+    "Tailândia"
+   ],
+   "tickers": [],
+   "resumo": "O Governo tailandês confirmou que o número de mortos nas inundações subiu para 23.",
+   "img": ""
+  },
+  {
    "id": "rtp-1768344",
    "ts": "2026-09-29T06:23:02Z",
    "source": "RTP",
@@ -713,6 +850,23 @@
    "img": ""
   },
   {
+   "id": "rtp-1768337",
+   "ts": "2026-09-29T06:10:13Z",
+   "source": "RTP",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/economia/acoes-da-shein-caem-ate-14-em-hong-kong-apos-queda-de-666-do-lucro-ajustado_n1768337",
+   "title": "Ações da Shein caem até 14% em Hong Kong após queda de 66,6% do lucro ajustado",
+   "topic": "economia",
+   "sub": "",
+   "impacto": "baixo",
+   "setores": [
+    "Bolsa"
+   ],
+   "tickers": [],
+   "resumo": "A Shein caiu até 14% na bolsa de Hong Kong ao divulgar os primeiros resultados desde a entrada em bolsa, com uma queda de 66,6% do lucro ajustado.",
+   "img": "https://cdn-images.rtp.pt/icm/noticias/images/e2/e29fc0e09c08a15f3c3a4fbea3b70ac1?w=350&q=50&rect=0,142,1200,658&auto=format"
+  },
+  {
    "id": "cm-hormuz-plano-ira",
    "ts": "2026-09-29T06:05:43Z",
    "source": "CM",
@@ -745,6 +899,23 @@
    ],
    "tickers": [],
    "resumo": "Águas Santas e Benfica iniciam a campanha na EHF European League de andebol. Os maiatos deslocam-se à Roménia e o Benfica recebe uma equipa espanhola.",
+   "img": ""
+  },
+  {
+   "id": "lusa-47853872",
+   "ts": "2026-09-29T05:59:00Z",
+   "source": "Lusa",
+   "lado": "pt",
+   "url": "https://www.lusa.pt/article/47853872",
+   "title": "EUA iniciam proibição de importação de álcool, laticínios e motociclos do Canadá",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "baixo",
+   "setores": [
+    "Comércio"
+   ],
+   "tickers": [],
+   "resumo": "Os Estados Unidos iniciaram a proibição de importação de álcool, laticínios e motociclos vindos do Canadá.",
    "img": ""
   },
   {
