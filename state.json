@@ -1,7 +1,15 @@
 {
- "version": "1.1.15",
- "updated": "2026-09-29T20:16:05Z",
+ "version": "1.1.16",
+ "updated": "2026-09-29T21:15:36Z",
  "recent": [
+  {
+   "id": "ng-elisabete-moutinho-pedro-cell",
+   "ts": "2026-09-29T21:00:00Z",
+   "topic": "rosa",
+   "sub": "famosos",
+   "source": "Nova Gente",
+   "title": "A forma como Pedro Cell reagiu após Elisabete Moutinho terminar relação de nove anos"
+  },
   {
    "id": "ng-diana-chaves-claudia-vieira",
    "ts": "2026-09-29T20:00:00Z",
@@ -715,6 +723,14 @@
    "title": "Porto Covo. Encontrados os dois corpos dos trabalhadores soterrados"
   },
   {
+   "id": "rtp-1768326",
+   "ts": "2026-09-29T00:45:47Z",
+   "topic": "politica",
+   "sub": "",
+   "source": "RTP",
+   "title": "Em véspera de negociações. Cerca de 200 agentes da PSP e GNR em protesto no Porto"
+  },
+  {
    "id": "caras-diana-chaves-globos",
    "ts": "2026-09-29T00:37:29Z",
    "topic": "rosa",
@@ -945,22 +961,6 @@
    "sub": "",
    "source": "NiT",
    "title": "Aos 87 anos, recebeu uma ordem de despejo. Agora, o neto comprou-lhe a casa em Almada"
-  },
-  {
-   "id": "vip-nuno-albuquerque-gaspar",
-   "ts": "2026-09-28T18:00:30Z",
-   "topic": "rosa",
-   "sub": "realeza",
-   "source": "VIP",
-   "title": "Morre aos 38 anos e deixa D. Duarte Pio de luto: \"Esteve sempre presente\""
-  },
-  {
-   "id": "ng-bb-allstars-curva",
-   "ts": "2026-09-28T17:30:03Z",
-   "topic": "rosa",
-   "sub": "reality",
-   "source": "Nova Gente",
-   "title": "Big Brother All Stars: revelado o que Luís disse e que fez Francisco perder a cabeça após Curva da Vida"
   }
  ],
  "paired": [

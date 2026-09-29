@@ -1,23 +1,37 @@
 {
- "version": "1.1.15",
- "updated": "2026-09-29T20:16:05Z",
+ "version": "1.1.16",
+ "updated": "2026-09-29T21:15:36Z",
  "brief": [
   {
-   "texto": "Presidente da República promulga suplemento extraordinário para pensionistas, a pagar em dezembro com a pensão desse mês."
+   "texto": "Presidente da República promulga o suplemento extraordinário para pensionistas, a pagar em dezembro."
   },
   {
-   "texto": "Sindicatos da banca afetos à UGT convocam greve para 30 de novembro e juntam-se ao SNQTB."
+   "texto": "Sindicatos da banca ligados à UGT convocam greve para 30 de novembro, contra aumentos de apenas 2%."
   },
   {
-   "texto": "Caso das gémeas: acusação do Ministério Público diz que a mãe tinha mais de 100 mil euros na conta enquanto pedia ajuda.",
-   "id": "cm-daniela-martins-100mil"
+   "texto": "Caso das gémeas: PSD acusa o Chega de querer pôr o Parlamento a fazer trabalho da polícia."
   },
   {
-   "texto": "Seleção prepara o jogo com a Dinamarca, na quinta-feira, com Francisco Conceição em dúvida.",
-   "id": "rtp-1768376"
+   "texto": "Amuo de Ronaldo contra a Noruega dá a volta ao mundo e Jorge Jesus falou com o capitão.",
+   "id": "ojogo-ronaldo-amuo-jesus"
   }
  ],
  "items": [
+  {
+   "id": "ng-elisabete-moutinho-pedro-cell",
+   "ts": "2026-09-29T21:00:00Z",
+   "source": "Nova Gente",
+   "lado": "pt",
+   "url": "https://www.novagente.pt/a-forma-como-pedro-cell-reagiu-apos-elisabete-moutinho-terminar-relacao-de-nove-anos-achou-que/",
+   "title": "A forma como Pedro Cell reagiu após Elisabete Moutinho terminar relação de nove anos",
+   "topic": "rosa",
+   "sub": "famosos",
+   "impacto": "baixo",
+   "setores": [],
+   "tickers": [],
+   "resumo": "Elisabete Moutinho revelou pormenores do fim da relação de nove anos com Pedro Cell, explicando que foi ela a tomar a decisão e que precisou de tempo para se reencontrar.",
+   "img": "https://www.novagente.pt/wp-content/uploads/2026/09/nv-miniatura-655858.jpg"
+  },
   {
    "id": "ng-diana-chaves-claudia-vieira",
    "ts": "2026-09-29T20:00:00Z",
@@ -1563,6 +1577,24 @@
    "tickers": [],
    "resumo": "Dois trabalhadores morreram soterrados durante uma escavação na obra de um hotel em Porto Covo. Os dois corpos foram encontrados durante a noite.",
    "img": ""
+  },
+  {
+   "id": "rtp-1768326",
+   "ts": "2026-09-29T00:45:47Z",
+   "source": "RTP",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/pais/em-vespera-de-negociacoes-cerca-de-200-agentes-da-psp-e-gnr-em-protesto-no-porto_v1768326",
+   "title": "Em véspera de negociações. Cerca de 200 agentes da PSP e GNR em protesto no Porto",
+   "topic": "politica",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "PSP",
+    "GNR"
+   ],
+   "tickers": [],
+   "resumo": "Cerca de duas centenas de polícias e militares da GNR manifestaram-se no Porto, na véspera da reunião com o Ministério da Administração Interna sobre carreiras e organização do tempo de trabalho.",
+   "img": "https://cdn-images.rtp.pt/icm/images/5b/5b8b938c9826a0a7886b89a2b6187da1_N.jpg?"
   },
   {
    "id": "caras-diana-chaves-globos",
