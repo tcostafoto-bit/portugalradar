@@ -1,6 +1,6 @@
 {
- "version": "1.1.11",
- "updated": "2026-09-29T16:41:50Z",
+ "version": "1.1.12",
+ "updated": "2026-09-29T17:15:09Z",
  "recent": [
   {
    "id": "ng-magui-corceiro-kika",
@@ -27,12 +27,28 @@
    "title": "Governo apoia com 300.000 euros reforço do transporte ferroviário de mercadorias"
   },
   {
+   "id": "cnn-6abbcab1d34e53c759c744e6",
+   "ts": "2026-09-29T14:26:00Z",
+   "topic": "tecnologia",
+   "sub": "",
+   "source": "CNN Portugal",
+   "title": "Portugal junta-se a iniciativa para acelerar implementação de veículos autónomos"
+  },
+  {
    "id": "cnn-6abbbf0ed34e53c759c744d3",
    "ts": "2026-09-29T13:36:00Z",
    "topic": "mundo",
    "sub": "",
    "source": "CNN Portugal",
    "title": "Plano anti-crise: Espanha aprova teto no preço da gasolina e alarga descontos nos combustíveis"
+  },
+  {
+   "id": "cnn-6abbbddad34e9a786e75a23e",
+   "ts": "2026-09-29T13:32:00Z",
+   "topic": "economia",
+   "sub": "",
+   "source": "CNN Portugal",
+   "title": "Von der Leyen quer \"união dos transportes\" e aponta desafio Lisboa-Madrid"
   },
   {
    "id": "ng-tania-laranjo-flavio-furtado",
@@ -65,6 +81,14 @@
    "sub": "porto",
    "source": "CM",
    "title": "Dragões pagaram despesas de clube do qual 'Macaco' é acionista"
+  },
+  {
+   "id": "cnn-6abba47dd34e9a786e75a115",
+   "ts": "2026-09-29T11:47:00Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "CNN Portugal",
+   "title": "Responsáveis do setor da IA vão reunir-se com Trump. Encontro acontece num momento muito conturbado"
   },
   {
    "id": "cnn-6abba229d34e53c759c74393",
@@ -113,6 +137,14 @@
    "sub": "benfica",
    "source": "A Bola",
    "title": "Classe e boa disposição: Benfica prepara receção a gigante europeu"
+  },
+  {
+   "id": "cnn-6abb7a8cd34e53c759c74323",
+   "ts": "2026-09-29T11:08:00Z",
+   "topic": "rosa",
+   "sub": "famosos",
+   "source": "CNN Portugal",
+   "title": "Morreu Dennis Haskins, conhecido ator de \"Saved by the Bell\""
   },
   {
    "id": "cm-passageiros-porta-emergencia",
@@ -411,6 +443,14 @@
    "title": "Irão apresenta na ONU plano para reabrir o estreito de Ormuz em sete dias"
   },
   {
+   "id": "rtp-n1768336",
+   "ts": "2026-09-29T06:05:36Z",
+   "topic": "cultura",
+   "sub": "",
+   "source": "RTP",
+   "title": "Lídia Jorge toca leitor da China ou Portugal com as mesmas inquietações"
+  },
+  {
    "id": "zz-1217110",
    "ts": "2026-09-29T06:00:03Z",
    "topic": "desporto",
@@ -585,6 +625,14 @@
    "sub": "",
    "source": "RTP",
    "title": "Menos sal e açúcar, facilitar a amamentação. DGS lança orientações para alimentação nas creches"
+  },
+  {
+   "id": "rtp-n1768320",
+   "ts": "2026-09-29T00:08:59Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "RTP",
+   "title": "Governo brasileiro processa bets e pede 168,76 milhões de euros em danos morais coletivos"
   },
   {
    "id": "caras-sonia-brazao-maternidade",
@@ -859,6 +907,14 @@
    "title": "União Europeia está a criar uma resposta tipo NATO contra os ataques híbridos russos"
   },
   {
+   "id": "vip-maria-rueff-sic-globos",
+   "ts": "2026-09-28T13:30:41Z",
+   "topic": "rosa",
+   "sub": "famosos",
+   "source": "VIP",
+   "title": "Humorista portuguesa lança farpas à SIC após prémio a Ricardo Araújo Pereira e envolve Joana Marques"
+  },
+  {
    "id": "cnn-6aba6bf4d34e53c759c74196",
    "ts": "2026-09-28T13:29:54Z",
    "topic": "economia",
@@ -905,62 +961,6 @@
    "sub": "selecao",
    "source": "zerozero",
    "title": "Dinamarca com baixa de peso para a receção a Portugal"
-  },
-  {
-   "id": "cnn-6aba560fd34e53c759c7416d",
-   "ts": "2026-09-28T12:17:00Z",
-   "topic": "politica",
-   "sub": "",
-   "source": "CNN Portugal",
-   "title": "Passos Coelho não quer \"debates proibidos\" e abre portas a um referendo"
-  },
-  {
-   "id": "rtp-d1768192",
-   "ts": "2026-09-28T12:04:58Z",
-   "topic": "desporto",
-   "sub": "tenis",
-   "source": "RTP Desporto",
-   "title": "Jaime Faria avança na qualificação do torneio de Tóquio"
-  },
-  {
-   "id": "cnn-6aba56dfd34e9a786e759ee4",
-   "ts": "2026-09-28T12:00:00Z",
-   "topic": "justica",
-   "sub": "",
-   "source": "CNN Portugal",
-   "title": "\"Portugal foi a nossa casa\": mãe das gémeas aliviada e triste após conhecer acusação"
-  },
-  {
-   "id": "zz-1216877",
-   "ts": "2026-09-28T11:44:24Z",
-   "topic": "desporto",
-   "sub": "selecao",
-   "source": "zerozero",
-   "title": "Schjelderup: «Não foi justo, deviam ter sido três pontos para nós»"
-  },
-  {
-   "id": "rtp-d1768185",
-   "ts": "2026-09-28T11:30:57Z",
-   "topic": "desporto",
-   "sub": "tenis",
-   "source": "RTP Desporto",
-   "title": "Francisco Cabral na final de pares em Hangzhou"
-  },
-  {
-   "id": "cnn-6aba4d9dd34e9a786e759ecc",
-   "ts": "2026-09-28T11:25:00Z",
-   "topic": "politica",
-   "sub": "",
-   "source": "CNN Portugal",
-   "title": "Ministro da Reforma do Estado estima que redução da burocracia poderá libertar até 10 mil milhões de euros"
-  },
-  {
-   "id": "vip-ipma-alerta-sete-distritos",
-   "ts": "2026-09-28T11:15:22Z",
-   "topic": "tempo",
-   "sub": "",
-   "source": "VIP",
-   "title": "IPMA lança alerta: sete distritos em risco de trovoadas, granizo e rajadas até 90 km/h"
   }
  ],
  "paired": [
