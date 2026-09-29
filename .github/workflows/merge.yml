@@ -1,0 +1,51 @@
+name: Fundir notícias da caixa de entrada
+
+on:
+  push:
+    paths:
+      - "inbox/**"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: merge
+  cancel-in-progress: false
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Fundir cada ficheiro da caixa de entrada
+        run: |
+          set -e
+          shopt -s nullglob
+          files=(inbox/*.json)
+          if [ ${#files[@]} -eq 0 ]; then echo "Caixa de entrada vazia"; exit 0; fi
+          for f in $(ls inbox/*.json | sort); do
+            echo "== $f"
+            python3 - "$f" <<'PY'
+          import json, sys
+          d = json.load(open(sys.argv[1], encoding="utf-8"))
+          json.dump(d.get("new_items", []), open("new_items.json", "w", encoding="utf-8"), ensure_ascii=False)
+          json.dump(d.get("market", {}), open("market.json", "w", encoding="utf-8"), ensure_ascii=False)
+          PY
+            python3 radar_merge.py .
+            rm -f new_items.json market.json
+            git rm -q "$f"
+          done
+
+      - name: Publicar
+        run: |
+          git config user.name "Portugal Radar bot"
+          git config user.email "tcostafoto-bit@users.noreply.github.com"
+          git add news.json archive.json state.json
+          if git diff --cached --quiet; then echo "Sem alterações"; exit 0; fi
+          git commit -q -m "Atualização automática das notícias"
+          git pull -q --rebase origin main || true
+          git push -q origin main
