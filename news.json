@@ -1,10 +1,23 @@
 {
- "version": "1.1.10",
- "updated": "2026-09-29T16:36:07Z",
+ "version": "1.1.11",
+ "updated": "2026-09-29T16:41:50Z",
  "brief": [
-  "A Seleção venceu na Noruega por 2-1 e lidera o grupo da Liga das Nações, enquanto Vasco Vilaça se sagrou campeão do mundo de triatlo.",
-  "O Orçamento do Estado para 2027 domina a política, com o Governo a receber os partidos e os sindicatos da função pública, e a oposição a criticar a falta de apoios às famílias.",
-  "O aviso amarelo por chuva e vento afeta vários distritos do Norte e Centro e continuam as negociações do MAI com os sindicatos da PSP e as associações da GNR."
+  {
+   "texto": "Portugal vence na Noruega por 2-1 e lidera o grupo da Liga das Nações.",
+   "id": "rtp-1768057"
+  },
+  {
+   "texto": "Vasco Vilaça sagra-se campeão do mundo de triatlo.",
+   "id": "rtp-1768067"
+  },
+  {
+   "texto": "Aviso amarelo de precipitação em sete distritos do Norte e Centro.",
+   "id": "ipma-precipitacao-amarelo-20260929"
+  },
+  {
+   "texto": "MAI volta a reunir-se com os sindicatos da PSP e as associações da GNR.",
+   "id": "rtp-1768338"
+  }
  ],
  "items": [
   {
