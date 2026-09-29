@@ -97,8 +97,8 @@ button:focus-visible,a:focus-visible,textarea:focus-visible,input:focus-visible{
 .sec .h b{font-family:var(--ui);font-weight:700;font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--c,var(--ink))}
 .sec .h button{font-family:var(--ui);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink2)}
 .sec .h button:hover{color:var(--red)}
-.sec .story:first-child h3{font-size:19px}
-.sec .story:first-child p{display:block}
+.sec .h+.story h3{font-size:19px}
+.sec .h+.story p{display:block}
 
 /* secção (lista) */
 .list{padding-top:6px}
@@ -119,8 +119,8 @@ button:focus-visible,a:focus-visible,textarea:focus-visible,input:focus-visible{
 .story.sm.hasimg>.im{width:72px}
 .list .story.hasimg{grid-template-columns:56px minmax(0,1fr) auto}
 .list .story.hasimg>.im{grid-column:3;width:132px}
-.sec .story.hasimg:first-child{display:block}
-.sec .story.hasimg:first-child>.im{width:100%;aspect-ratio:16/9;margin:0 0 8px}
+.sec .h+.story.hasimg{display:block}
+.sec .h+.story.hasimg>.im{width:100%;aspect-ratio:16/9;margin:0 0 8px}
 
 /* novo + partilhar */
 .meta .novo{background:var(--red);color:var(--red-fg);font-weight:700;font-size:10px;letter-spacing:.1em;text-transform:uppercase;padding:1px 5px;border-radius:2px}
