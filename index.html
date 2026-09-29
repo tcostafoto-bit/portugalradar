@@ -178,6 +178,13 @@ dialog::backdrop{background:rgba(0,0,0,.45)}
 .btn:disabled{opacity:.5;cursor:default}
 .msg{font-family:var(--ui);font-size:13px;min-height:18px}
 .msg.ok{color:#2f8f4e}.msg.err{color:var(--alto)}
+#sugg .x{font-family:var(--ui);font-size:22px;line-height:1;color:var(--ink2);padding:2px 6px;position:absolute;top:8px;right:8px;border:0;background:none;cursor:pointer}
+#sugg{position:fixed}
+#sugg .lbl{display:flex;flex-direction:column;gap:4px;font-family:var(--ui);font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink2)}
+#sugg select{width:100%;font:inherit;font-size:15px;padding:8px 10px;border:1px solid var(--rule);background:var(--paper2);color:var(--ink);border-radius:2px}
+#sugg .hp{position:absolute;left:-9999px;width:1px;height:1px;opacity:0}
+.sugg{background:none;cursor:pointer;color:inherit}
+footer a{color:inherit}
 
 @media (max-width:900px){
   .front{grid-template-columns:1fr}
@@ -204,7 +211,7 @@ dialog::backdrop{background:rgba(0,0,0,.45)}
 <header class="mast">
   <div class="l"><span id="date">—</span><span class="live"><span class="dot" id="dot"></span><span id="upd">a carregar</span></span></div>
   <h1><a href="/" data-home><img class="logo" src="logo.png" alt="Portugal Radar" width="1400" height="281" fetchpriority="high"></a><span class="txt">Portugal Radar</span></h1>
-  <div class="r"><span>Edição <span class="ver" id="ver">1.0</span> · hora a hora</span><a class="sugg" id="open-sugg" href="#" target="_blank" rel="noopener" hidden>Sugestões</a></div>
+  <div class="r"><span>Edição <span class="ver" id="ver">1.0</span> · hora a hora</span><button type="button" class="sugg" id="open-sugg">Sugestões e contacto</button></div>
 </header>
 <div class="tag">As notícias de Portugal que interessam · por tema · sem repetições · com a fonte</div>
 <nav class="nav" id="nav" aria-label="Secções"></nav>
@@ -215,8 +222,36 @@ dialog::backdrop{background:rgba(0,0,0,.45)}
 
 <dialog id="reader" aria-labelledby="r-title"><div class="dlg" id="r-body"></div></dialog>
 
+<dialog id="sugg" aria-labelledby="s-title">
+  <form class="dlg" id="sugg-form" novalidate>
+    <button type="button" class="x" data-close aria-label="Fechar">×</button>
+    <h2 id="s-title">Sugestões e contacto</h2>
+    <p>Viste um erro, falta uma fonte ou tens uma ideia? Diz-nos. Também podes escrever para <a href="mailto:contacto@portugalradar.pt">contacto@portugalradar.pt</a>.</p>
+    <label class="lbl">Assunto
+      <select name="assunto" id="s-assunto">
+        <option>Sugestão</option>
+        <option>Erro numa notícia</option>
+        <option>Fonte em falta</option>
+        <option>Contacto</option>
+      </select>
+    </label>
+    <label class="lbl">Mensagem
+      <textarea name="mensagem" id="s-msg" required maxlength="2000" placeholder="Escreve aqui…"></textarea>
+    </label>
+    <label class="lbl">O teu email (opcional, só para te respondermos)
+      <input type="email" name="email" id="s-email" autocomplete="email" placeholder="nome@exemplo.pt">
+    </label>
+    <input type="text" name="botcheck" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+    <div class="msg" id="s-msgbox" aria-live="polite"></div>
+    <div class="row">
+      <button type="button" class="btn" data-close>Cancelar</button>
+      <button type="submit" class="btn pri" id="s-send">Enviar</button>
+    </div>
+  </form>
+</dialog>
+
 <footer>
-  <div>Fontes: Lusa, RTP, CNN Portugal, Observador, Correio da Manhã, RTP Desporto, A Bola, Record, O Jogo, zerozero, AutoSport, ECO, Idealista, HealthNews, IPMA, Fogos.pt, NiT, Nova Gente, Caras, VIP. Cada notícia liga à fonte original. Horas de Lisboa. Frente a frente: duas notícias que se contradizem, lado a lado, sem dar nenhuma como verdadeira.</div>
+  <div>Fontes: Lusa, RTP, CNN Portugal, Observador, Correio da Manhã, RTP Desporto, A Bola, Record, O Jogo, zerozero, AutoSport, ECO, Idealista, HealthNews, IPMA, Fogos.pt, NiT, Nova Gente, Caras, VIP. Cada notícia liga à fonte original. Horas de Lisboa. Frente a frente: duas notícias que se contradizem, lado a lado, sem dar nenhuma como verdadeira. Contacto: <a href="mailto:contacto@portugalradar.pt">contacto@portugalradar.pt</a>.</div>
   <div class="cnt" id="cnt"></div>
 </footer>
 </div>
@@ -241,8 +276,9 @@ const CATS=[
  ["mundo","Mundo","#4a4a4a"],
  ["outros","Outros","#6b675c"],
 ];
-/* Contactos alternativos para sugestões quando o visitante não pode gravar (link público). Preenche com um link https (formulário, WhatsApp wa.me, etc.). */
-const SUGG_LINK="";
+/* Caixa de sugestões: chave pública do Web3Forms (entrega em contacto@portugalradar.pt). Vazia = abre o email do visitante com a mensagem. */
+const FORM_KEY="";
+const CONTACT="contacto@portugalradar.pt";
 
 const CAT=Object.fromEntries(CATS.map(c=>[c[0],c]));
 const IMPS=[["alto","Alto"],["medio","Médio"],["baixo","Baixo"]];
@@ -375,8 +411,31 @@ function setStatus(ok){const u=data.updated?new Date(data.updated):null;$("#dot"
 async function load(){try{const r=await fetch("news.json?t="+Date.now(),{cache:"no-store"});if(!r.ok)throw 0;const j=await r.json();if(JSON.stringify(j)!==JSON.stringify(data)){if(j.arquivo!==data.arquivo)arch=null;data=j;render()}setStatus(true);openDeep()}catch(e){setStatus(false)}}
 load();setInterval(load,60000);setInterval(()=>setStatus(!!data.updated),30000);
 
-/* ===== sugestões: o botão só aparece quando SUGG_LINK tiver o link do formulário ===== */
-if(SUGG_LINK){const s=$("#open-sugg");s.href=SUGG_LINK;s.hidden=false}
+/* ===== sugestões e contacto ===== */
+const SG=$("#sugg"), SGF=$("#sugg-form"), SGM=$("#s-msgbox");
+$("#open-sugg").addEventListener("click",()=>{SGM.textContent="";SGM.className="msg";SG.showModal();gc("sugestoes-abrir");$("#s-msg").focus()});
+SG.querySelectorAll("[data-close]").forEach(b=>b.addEventListener("click",()=>SG.close()));
+SG.addEventListener("click",e=>{if(e.target===SG)SG.close()});
+SGF.addEventListener("submit",async e=>{
+  e.preventDefault();
+  const assunto=$("#s-assunto").value, msg=$("#s-msg").value.trim(), email=$("#s-email").value.trim();
+  if(!msg){SGM.textContent="Escreve a mensagem primeiro.";SGM.className="msg err";return}
+  if(SGF.botcheck.value)return;
+  const ctx="Página: "+location.href+" | Vista: "+view+(fSport?"/"+fSport:"")+" | Edição "+($("#ver").textContent||"");
+  if(!FORM_KEY){
+    location.href="mailto:"+CONTACT+"?subject="+encodeURIComponent("[Portugal Radar] "+assunto)+"&body="+encodeURIComponent(msg+"\n\n"+(email?"Responder para: "+email+"\n":"")+ctx);
+    gc("sugestoes-mailto");return;
+  }
+  const btn=$("#s-send");btn.disabled=true;SGM.textContent="A enviar…";SGM.className="msg";
+  try{
+    const r=await fetch("https://api.web3forms.com/submit",{method:"POST",headers:{"Content-Type":"application/json",Accept:"application/json"},
+      body:JSON.stringify({access_key:FORM_KEY,subject:"[Portugal Radar] "+assunto,from_name:"Portugal Radar",assunto,mensagem:msg,email:email||"(não indicado)",contexto:ctx,botcheck:SGF.botcheck.value})});
+    const j=await r.json().catch(()=>({}));
+    if(r.ok&&j.success!==false){SGM.textContent="Obrigado! Mensagem enviada.";SGM.className="msg ok";SGF.reset();gc("sugestoes-enviar");setTimeout(()=>SG.close(),1600)}
+    else throw new Error(j.message||"erro");
+  }catch(err){SGM.innerHTML="Não foi possível enviar. Escreve para <a href=\"mailto:"+CONTACT+"\">"+CONTACT+"</a>.";SGM.className="msg err"}
+  btn.disabled=false;
+});
 </script>
 
 <script data-goatcounter="https://portugalradar.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
