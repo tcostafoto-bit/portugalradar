@@ -56,6 +56,13 @@ button:focus-visible,a:focus-visible,textarea:focus-visible,input:focus-visible{
 .nav button.ff[aria-pressed="true"]{color:var(--ink);border-bottom-color:var(--ink)}
 
 /* em destaque */
+.brief .bh{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
+.listen{display:inline-flex;align-items:center;gap:8px;font-family:var(--ui);font-weight:600;font-size:12px;letter-spacing:.1em;text-transform:uppercase;border:1px solid var(--ink);padding:6px 12px;cursor:pointer;background:none;color:inherit}
+.listen svg{width:14px;height:14px;flex:none}
+.listen[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.listen .ic-stop{display:none}.listen[aria-pressed="true"] .ic-play{display:none}.listen[aria-pressed="true"] .ic-stop{display:block}
+.lnow{font-family:var(--ui);font-size:12px;color:var(--ink2);flex-basis:100%;min-height:0}
+.lnow:empty{display:none}
 .brief{padding:14px 0 6px;border-bottom:1px solid var(--rule)}
 .brief .k{display:inline-block;font-family:var(--ui);font-weight:700;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--red-fg);background:var(--red);padding:4px 8px}
 .brief .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,250px),1fr));gap:0 22px;margin-top:8px}
@@ -157,6 +164,7 @@ a.bcard:hover .tx{text-decoration:underline}
 #reader .x{font-family:var(--ui);font-size:22px;line-height:1;color:var(--ink2);padding:2px 6px;position:absolute;top:8px;right:8px}
 #reader{position:fixed}
 #reader .meta .shr{display:none}
+#reader [data-say][aria-pressed="true"]{background:var(--ink);color:var(--paper)}
 
 /* frente a frente */
 .pairs{display:flex;flex-direction:column;gap:22px;padding-top:18px}
@@ -364,9 +372,42 @@ function renderNav(){const cnt=t=>data.items.filter(i=>i.topic===t).length;
 document.querySelector("[data-home]").addEventListener("click",e=>{e.preventDefault();view="capa";fSub.clear();fImp.clear();fSport="";saveV();render();window.scrollTo({top:0,behavior:"smooth"})});
 $("#nav").addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;view=b.dataset.v;fSub.clear();fImp.clear();fSport="";saveV();render();window.scrollTo({top:0,behavior:"smooth"})});
 
+/* ===== ouvir: lê as notícias mais importantes com a voz do dispositivo (pt-PT) ===== */
+const TTS="speechSynthesis" in window&&"SpeechSynthesisUtterance" in window;
+let speaking=false,ptVoice=null;
+function pickVoice(){if(!TTS)return;const v=speechSynthesis.getVoices();ptVoice=v.find(x=>/^pt[-_]PT/i.test(x.lang)&&/premium|enhanced|neural|natural/i.test(x.name))||v.find(x=>/^pt[-_]PT/i.test(x.lang))||v.find(x=>/^pt/i.test(x.lang))||null}
+if(TTS){pickVoice();speechSynthesis.addEventListener?.("voiceschanged",pickVoice)}
+const clean=t=>String(t||"").replace(/\s+/g," ").replace(/[«»"“”]/g,"").trim();
+function audioScript(){const out=[];const now=new Date();
+  out.push({t:`Portugal Radar. Notícias de ${fmtD.format(now)}, ${fmtT.format(now).replace(":"," e ")}.`});
+  const used=new Set();
+  const ents=(data.brief||[]).map(x=>typeof x==="string"?{texto:x}:x).map(o=>({o,it:o.id?findIt(o.id):null}));
+  if(ents.length){out.push({t:"Em destaque."});for(const {o,it} of ents){if(it)used.add(it.id);out.push({t:clean(o.texto)+(it?` Fonte: ${it.source}.`:""),id:it?.id,lbl:clean(o.texto)})}}
+  const cut=Date.now()-18*3600e3;
+  const top=[...data.items].filter(i=>!used.has(i.id)&&i.impacto==="alto"&&new Date(i.ts).getTime()>cut).sort(byTs).slice(0,6);
+  if(top.length){out.push({t:"Outras notícias importantes."});for(const i of top)out.push({t:`${clean(i.title)}. ${clean(i.resumo)}`,id:i.id,lbl:clean(i.title)})}
+  out.push({t:"Estas foram as notícias. Mais em portugalradar ponto p t."});return out}
+function stopAudio(){speaking=false;try{speechSynthesis.cancel()}catch(e){}const b=$("#listen");if(b){b.setAttribute("aria-pressed","false");b.querySelector("span").textContent="Ouvir as notícias"}const n=$("#lnow");if(n)n.textContent=""}
+function playAudio(){if(!TTS)return;const parts=audioScript();speaking=true;gc("ouvir","Ouvir as notícias");
+  const b=$("#listen");b.setAttribute("aria-pressed","true");b.querySelector("span").textContent="Parar";
+  try{speechSynthesis.cancel()}catch(e){}
+  parts.forEach((p,k)=>{const u=new SpeechSynthesisUtterance(p.t);u.lang="pt-PT";if(ptVoice)u.voice=ptVoice;u.rate=1.02;
+    u.onstart=()=>{const n=$("#lnow");if(n)n.textContent=p.lbl?"A ouvir: "+p.lbl:""};
+    if(k===parts.length-1)u.onend=()=>{if(speaking)stopAudio()};
+    u.onerror=e=>{if(e.error!=="interrupted"&&e.error!=="canceled")stopAudio()};
+    speechSynthesis.speak(u)})}
+function sayItem(btn){if(!TTS)return;if(btn.getAttribute("aria-pressed")==="true"){stopAudio();btn.setAttribute("aria-pressed","false");btn.textContent="Ouvir";return}
+  const it=findIt(btn.dataset.say);if(!it)return;stopAudio();gc("ouvir-"+it.source,it.title);
+  const u=new SpeechSynthesisUtterance(`${clean(it.title)}. ${clean(it.resumo)} Fonte: ${it.source}.`);u.lang="pt-PT";if(ptVoice)u.voice=ptVoice;u.rate=1.02;
+  btn.setAttribute("aria-pressed","true");btn.textContent="Parar";
+  const done=()=>{btn.setAttribute("aria-pressed","false");btn.textContent="Ouvir"};u.onend=done;u.onerror=done;speechSynthesis.speak(u)}
+$("#reader").addEventListener("close",()=>{try{speechSynthesis.cancel()}catch(e){}});
+document.addEventListener("click",e=>{if(e.target.closest("#listen")){e.preventDefault();speaking?stopAudio():playAudio()}});
+window.addEventListener("pagehide",()=>{if(speaking)stopAudio()});
+
 function renderBrief(){const b=data.brief||[];const el=$("#brief");if(!b.length||view!=="capa"){el.hidden=true;return}el.hidden=false;
   const ents=b.map(x=>{const o=typeof x==="string"?{texto:x}:x;return {o,it:o.id?findIt(o.id):null}}).sort((a,c)=>(c.it?new Date(c.it.ts).getTime():0)-(a.it?new Date(a.it.ts).getTime():0));
-  el.innerHTML=`<div class="k">Em destaque</div><div class="cards">`+ents.map(({o,it})=>{
+  el.innerHTML=`<div class="bh"><div class="k">Em destaque</div>${TTS?`<button type="button" class="listen" id="listen" aria-pressed="${speaking}"><svg class="ic-play" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" aria-hidden="true"><path d="M4 2.5v11l9-5.5z"/></svg><svg class="ic-stop" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3.5" y="3.5" width="9" height="9"/></svg><span>${speaking?"Parar":"Ouvir as notícias"}</span></button>`:""}<div class="lnow" id="lnow" aria-live="polite"></div></div><div class="cards">`+ents.map(({o,it})=>{
     const im=it&&okImg(it.img)?`<img src="${esc(it.img)}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.remove()">`:"";
     const inner=`<span class="w">${it?`<span class="bt">${isToday(it)?fmtT.format(new Date(it.ts)):fmtDT.format(new Date(it.ts))} · ${esc(it.source)}</span>`:""}<span class="tx">${esc(o.texto)}</span>${it?`<span class="go">Ler →</span>`:""}</span>${im}`;
     return it?`<a class="bcard" href="${esc(it.url)}" target="_blank" rel="noopener" data-read="${esc(it.id)}">${inner}</a>`:`<div class="bcard">${inner}</div>`}).join("")+`</div>`}
@@ -433,11 +474,12 @@ function renderPairs(){const byid=Object.fromEntries(data.items.map(i=>[i.id,i])
 /* ===== leitor: abre o resumo no site antes de ir para o jornal ===== */
 const findIt=id=>data.items.find(i=>i.id===id)||(arch||[]).find(i=>i.id===id);
 function openReader(it){const c=CAT[it.topic]||CAT.outros;gc("ler-"+it.source,it.title);
-  $("#r-body").innerHTML=`<button type="button" class="x" data-close aria-label="Fechar">×</button><div class="kick">${esc(c[1])}${subOf(it)?" · "+esc(subOf(it)[1]):""}</div><h2 id="r-title">${esc(it.title)}</h2>${okImg(it.img)?`<div class="im"><img src="${esc(big(it.img))}" alt="" referrerpolicy="no-referrer" onerror="this.parentNode.remove()"></div>`:""}<p class="txt">${esc(it.resumo)}</p>${meta(it)}<div class="row"><div class="go"><a class="btn pri" href="${esc(it.url)}" target="_blank" rel="noopener" data-out="${esc(it.source)}">Ler no ${esc(it.source)} →</a><button type="button" class="btn" data-share="${esc(it.id)}">Partilhar</button></div><button type="button" class="btn" data-close>Fechar</button></div>`;
+  $("#r-body").innerHTML=`<button type="button" class="x" data-close aria-label="Fechar">×</button><div class="kick">${esc(c[1])}${subOf(it)?" · "+esc(subOf(it)[1]):""}</div><h2 id="r-title">${esc(it.title)}</h2>${okImg(it.img)?`<div class="im"><img src="${esc(big(it.img))}" alt="" referrerpolicy="no-referrer" onerror="this.parentNode.remove()"></div>`:""}<p class="txt">${esc(it.resumo)}</p>${meta(it)}<div class="row"><div class="go"><a class="btn pri" href="${esc(it.url)}" target="_blank" rel="noopener" data-out="${esc(it.source)}">Ler no ${esc(it.source)} →</a><button type="button" class="btn" data-share="${esc(it.id)}">Partilhar</button>${TTS?`<button type="button" class="btn" data-say="${esc(it.id)}">Ouvir</button>`:""}</div><button type="button" class="btn" data-close>Fechar</button></div>`;
   const d=$("#reader");if(!d.open)d.showModal()}
 document.addEventListener("click",e=>{
   const s=e.target.closest("[data-share]");if(s){e.preventDefault();const it=findIt(s.dataset.share);if(it)share(it);return}
   if(e.target.closest("[data-close]")){$("#reader").close();return}
+  const sy=e.target.closest("[data-say]");if(sy){e.preventDefault();sayItem(sy);return}
   const o=e.target.closest("[data-out]");if(o){gc("saida-"+o.dataset.out,"Saída para "+o.dataset.out);return}
   const r=e.target.closest("[data-read]");if(r&&!e.ctrlKey&&!e.metaKey&&!e.shiftKey&&e.button===0){const it=findIt(r.dataset.read);if(it){e.preventDefault();openReader(it)}}});
 $("#reader").addEventListener("click",e=>{if(e.target===e.currentTarget)e.currentTarget.close()});
