@@ -1,7 +1,23 @@
 {
- "version": "1.1.14",
- "updated": "2026-09-29T19:15:42Z",
+ "version": "1.1.15",
+ "updated": "2026-09-29T20:16:05Z",
  "recent": [
+  {
+   "id": "ng-diana-chaves-claudia-vieira",
+   "ts": "2026-09-29T20:00:00Z",
+   "topic": "rosa",
+   "sub": "famosos",
+   "source": "Nova Gente",
+   "title": "Diana Chaves revela episódio insólito com Cláudia Vieira nos bastidores dos Globos de Ouro"
+  },
+  {
+   "id": "ng-joana-diniz-jessica-maria",
+   "ts": "2026-09-29T18:30:00Z",
+   "topic": "rosa",
+   "sub": "reality",
+   "source": "Nova Gente",
+   "title": "Joana Diniz revela o que realmente acha de Jéssica Maria, após polémica com ex Flávio Miguel"
+  },
   {
    "id": "ng-diogo-marcelino-bb",
    "ts": "2026-09-29T18:00:00Z",
@@ -83,6 +99,22 @@
    "title": "Tânia Laranjo responde a Flávio Furtado sobre casinos ilegais: \"História inventada\""
   },
   {
+   "id": "cnn-6abbb819d34e53c759c744b4",
+   "ts": "2026-09-29T13:07:00Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "CNN Portugal",
+   "title": "Eleições no Brasil: Lula e Flávio empatam na reta final e campanha sobe de tom"
+  },
+  {
+   "id": "cnn-6a9957a0d34ed0733ba832fd",
+   "ts": "2026-09-29T13:00:00Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "CNN Portugal",
+   "title": "Brasileiros em Portugal votaram contra o governo nos últimos anos. Agora, o país prepara-se para eleições históricas"
+  },
+  {
    "id": "ng-casados-novo-noivo-ricardo",
    "ts": "2026-09-29T12:30:00Z",
    "topic": "rosa",
@@ -147,6 +179,14 @@
    "title": "Fernando Alonso prega partida: «Vou retirar-me... mas ainda não é já»"
   },
   {
+   "id": "cnn-6abb99fad34e9a786e75a0fe",
+   "ts": "2026-09-29T11:29:00Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "CNN Portugal",
+   "title": "Escolas encerradas, vários incêndios e estudantes detidos ou feridos: o que se está a passar em França?"
+  },
+  {
    "id": "cm-despesa-estudante-ocde",
    "ts": "2026-09-29T11:22:06Z",
    "topic": "outros",
@@ -169,6 +209,14 @@
    "sub": "famosos",
    "source": "CNN Portugal",
    "title": "Morreu Dennis Haskins, conhecido ator de \"Saved by the Bell\""
+  },
+  {
+   "id": "abola-fifa-uefa-assedio-infantino",
+   "ts": "2026-09-29T11:07:54Z",
+   "topic": "desporto",
+   "sub": "liga",
+   "source": "A Bola",
+   "title": "FIFA acusa agora UEFA de «assédio» contra Infantino"
   },
   {
    "id": "cm-passageiros-porta-emergencia",
@@ -315,12 +363,28 @@
    "title": "Revelada lista dos artistas que vão atuar nos concertos para celebrar Luís Represas"
   },
   {
+   "id": "ojogo-pogacar-europeu",
+   "ts": "2026-09-29T08:12:00Z",
+   "topic": "desporto",
+   "sub": "ciclismo",
+   "source": "O Jogo",
+   "title": "Pogacar quer voltar no Europeu: médico autorizou, falta convencer a UAE Emirates"
+  },
+  {
    "id": "rtp-1768360",
    "ts": "2026-09-29T08:04:47Z",
    "topic": "mundo",
    "sub": "",
    "source": "RTP",
    "title": "Papa Leão XIV alerta para os perigos reais da Inteligência Artificial"
+  },
+  {
+   "id": "ojogo-norris-colapinto",
+   "ts": "2026-09-29T08:02:00Z",
+   "topic": "desporto",
+   "sub": "motores",
+   "source": "O Jogo",
+   "title": "Lando Norris arrependido do ataque a Franco Colapinto: \"Estava com os ânimos exaltados\""
   },
   {
    "id": "rtp-1768358",
@@ -897,70 +961,6 @@
    "sub": "reality",
    "source": "Nova Gente",
    "title": "Big Brother All Stars: revelado o que Luís disse e que fez Francisco perder a cabeça após Curva da Vida"
-  },
-  {
-   "id": "zz-1217042",
-   "ts": "2026-09-28T16:46:56Z",
-   "topic": "desporto",
-   "sub": "lafora",
-   "source": "zerozero",
-   "title": "Quarto treinador português na Roménia: Rui Duarte assume o FC Otelul"
-  },
-  {
-   "id": "nit-the-voice-2026",
-   "ts": "2026-09-28T16:28:07Z",
-   "topic": "cultura",
-   "sub": "",
-   "source": "NiT",
-   "title": "\"The Voice Portugal\" regressa com dois novos mentores. E já tem data de estreia"
-  },
-  {
-   "id": "nit-maria-rueff-globos",
-   "ts": "2026-09-28T16:24:57Z",
-   "topic": "cultura",
-   "sub": "",
-   "source": "NiT",
-   "title": "Maria Rueff reage ao prémio de Ricardo Araújo Pereira nos Globos: \"Falta de memória\""
-  },
-  {
-   "id": "as-f1-pirelli-2027",
-   "ts": "2026-09-28T16:00:44Z",
-   "topic": "desporto",
-   "sub": "motores",
-   "source": "AutoSport",
-   "title": "F1: Pirelli deverá aumentar a degradação dos pneus de 2027"
-  },
-  {
-   "id": "as-f1-mercedes-vitorias",
-   "ts": "2026-09-28T15:13:57Z",
-   "topic": "desporto",
-   "sub": "motores",
-   "source": "AutoSport",
-   "title": "F1: Mercedes ultrapassa Ferrari e é agora o fornecedor de motores com mais vitórias"
-  },
-  {
-   "id": "cnn-6aba78ebd34e9a786e759f31",
-   "ts": "2026-09-28T14:15:00Z",
-   "topic": "outros",
-   "sub": "",
-   "source": "CNN Portugal",
-   "title": "Novo incidente com avião da Delta em Portugal: voo para Nova Iorque obrigado a regressar a Lisboa"
-  },
-  {
-   "id": "cnn-6aba6e61d34e53c759c741a4",
-   "ts": "2026-09-28T14:00:00Z",
-   "topic": "mundo",
-   "sub": "",
-   "source": "CNN Portugal",
-   "title": "União Europeia está a criar uma resposta tipo NATO contra os ataques híbridos russos"
-  },
-  {
-   "id": "vip-maria-rueff-sic-globos",
-   "ts": "2026-09-28T13:30:41Z",
-   "topic": "rosa",
-   "sub": "famosos",
-   "source": "VIP",
-   "title": "Humorista portuguesa lança farpas à SIC após prémio a Ricardo Araújo Pereira e envolve Joana Marques"
   }
  ],
  "paired": [
