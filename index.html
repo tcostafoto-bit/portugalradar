@@ -56,10 +56,18 @@ button:focus-visible,a:focus-visible,textarea:focus-visible,input:focus-visible{
 .nav button.ff[aria-pressed="true"]{color:var(--ink);border-bottom-color:var(--ink)}
 
 /* última hora */
-.brief{display:grid;grid-template-columns:auto 1fr;gap:14px;align-items:start;padding:14px 0;border-bottom:1px solid var(--rule)}
-.brief .k{font-family:var(--ui);font-weight:700;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--red-fg);background:var(--red);padding:4px 8px;margin-top:2px}
-.brief ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:4px;font-size:15px;line-height:1.45}
-.brief li::before{content:"■";color:var(--red);font-size:8px;vertical-align:middle;margin-right:8px}
+.brief{padding:14px 0 6px;border-bottom:1px solid var(--rule)}
+.brief .k{display:inline-block;font-family:var(--ui);font-weight:700;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--red-fg);background:var(--red);padding:4px 8px}
+.brief .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,250px),1fr));gap:0 22px;margin-top:8px}
+.bcard{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:0 12px;align-items:start;text-decoration:none;color:inherit;padding:10px 0;border-bottom:1px solid var(--rule2);min-width:0}
+.bcard:last-child{border-bottom:0}
+.bcard .w{display:flex;flex-direction:column;gap:3px;min-width:0}
+.bcard .bt{font-family:var(--ui);font-size:11px;letter-spacing:.1em;text-transform:uppercase;font-weight:700;color:var(--red);font-variant-numeric:tabular-nums}
+.bcard .tx{font-family:var(--display);font-weight:700;font-size:16px;line-height:1.25;text-wrap:balance}
+a.bcard:hover .tx{text-decoration:underline}
+.bcard .go{font-family:var(--ui);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink2)}
+.bcard img{width:88px;aspect-ratio:4/3;object-fit:cover;display:block;background:var(--paper2);margin-top:2px}
+@media (min-width:901px){.brief .cards .bcard{border-bottom:0;border-right:1px solid var(--rule2);padding-right:22px}.brief .cards .bcard:last-child{border-right:0}}
 
 /* filtros de secção */
 .filters{display:flex;flex-wrap:wrap;gap:6px 14px;padding:12px 0;border-bottom:1px solid var(--rule);font-family:var(--ui);font-size:13px;align-items:center}
@@ -330,7 +338,11 @@ function renderNav(){const cnt=t=>data.items.filter(i=>i.topic===t).length;
 document.querySelector("[data-home]").addEventListener("click",e=>{e.preventDefault();view="capa";fSub.clear();fImp.clear();fSport="";saveV();render();window.scrollTo({top:0,behavior:"smooth"})});
 $("#nav").addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;view=b.dataset.v;fSub.clear();fImp.clear();fSport="";saveV();render();window.scrollTo({top:0,behavior:"smooth"})});
 
-function renderBrief(){const b=data.brief||[];const el=$("#brief");if(!b.length||view!=="capa"){el.hidden=true;return}el.hidden=false;el.innerHTML=`<span class="k">Última hora</span><ul>${b.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>`}
+function renderBrief(){const b=data.brief||[];const el=$("#brief");if(!b.length||view!=="capa"){el.hidden=true;return}el.hidden=false;
+  el.innerHTML=`<div class="k">Última hora</div><div class="cards">`+b.map(x=>{const o=typeof x==="string"?{texto:x}:x;const it=o.id?findIt(o.id):null;
+    const im=it&&okImg(it.img)?`<img src="${esc(it.img)}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.remove()">`:"";
+    const inner=`<span class="w">${it?`<span class="bt">${isToday(it)?fmtT.format(new Date(it.ts)):fmtDT.format(new Date(it.ts))} · ${esc(it.source)}</span>`:""}<span class="tx">${esc(o.texto)}</span>${it?`<span class="go">Ler →</span>`:""}</span>${im}`;
+    return it?`<a class="bcard" href="${esc(it.url)}" target="_blank" rel="noopener" data-read="${esc(it.id)}">${inner}</a>`:`<div class="bcard">${inner}</div>`}).join("")+`</div>`}
 
 function chip(key,label,on,n){return `<button class="chip${n===0?" zero":""}" type="button" data-k="${esc(key)}" aria-pressed="${on}"${n===0?' title="Sem notícias nos últimos 5 dias"':""}>${esc(label)}${n!==undefined?`<span class="n">${n}</span>`:""}</button>`}
 function renderFilters(){const el=$("#filters");const c=CAT[view];if(!c){el.hidden=true;return}el.hidden=false;

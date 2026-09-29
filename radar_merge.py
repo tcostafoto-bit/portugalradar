@@ -233,7 +233,19 @@ while len(ver) < 3:
     ver.append(0)
 ver[2] += 1
 version = ".".join(map(str, ver))
-brief = [str(b) for b in (market.get("brief") or data.get("brief") or []) if str(b).strip()][:4]
+# brief: cada entrada é texto ("...") ou {"texto": "...", "id": "<id de um item>"}; o id só fica se o item existir
+_ids = {it["id"] for it in items}
+brief = []
+for b in (market.get("brief") or data.get("brief") or []):
+    if isinstance(b, dict):
+        t = str(b.get("texto") or b.get("text") or "").strip()
+        if not t:
+            continue
+        i = str(b.get("id") or "").strip()
+        brief.append({"texto": t, "id": i} if i in _ids else {"texto": t})
+    elif str(b).strip():
+        brief.append({"texto": str(b).strip()})
+brief = brief[:4]
 
 out = {
     "version": version,
