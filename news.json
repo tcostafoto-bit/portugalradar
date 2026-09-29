@@ -1,12 +1,29 @@
 {
- "version": "1.1.7",
- "updated": "2026-09-29T13:27:43Z",
+ "version": "1.1.8",
+ "updated": "2026-09-29T14:08:00Z",
  "brief": [
-  "O Governo retoma hoje as negociações do Orçamento do Estado para 2027 com os partidos, com PS e Chega a criticarem a falta de apoios às famílias, e o ministro da Administração Interna reúne-se com os sindicatos da PSP e as associações da GNR.",
-  "Depois da acusação no caso das gémeas, PSD e Chega interpretam de forma oposta o desfecho para Marcelo Rebelo de Sousa, e o Governo espera não ter de racionar combustíveis.",
-  "O IPMA tem oito distritos sob aviso amarelo de chuva e vento, e a Seleção prepara em Malmo o jogo de quinta-feira com a Dinamarca, para a Liga das Nações."
+  "O Governo retoma hoje as negociações do Orçamento do Estado para 2027 com os partidos, com PS e Chega a criticar a falta de apoios às famílias.",
+  "O ministro da Administração Interna reúne-se com os sindicatos da PSP e as associações da GNR para discutir carreiras e remunerações, um dia depois de um protesto no Porto.",
+  "O IPMA mantém avisos amarelos de chuva forte e vento em vários distritos do Norte e Centro."
  ],
  "items": [
+  {
+   "id": "ng-tania-laranjo-flavio-furtado",
+   "ts": "2026-09-29T13:30:57Z",
+   "source": "Nova Gente",
+   "lado": "pt",
+   "url": "https://www.novagente.pt/tania-laranjo-nao-deixa-flavio-furtado-sem-resposta-sobre-casinos-ilegais-historia-inventada/",
+   "title": "Tânia Laranjo responde a Flávio Furtado sobre casinos ilegais: \"História inventada\"",
+   "topic": "rosa",
+   "sub": "famosos",
+   "impacto": "baixo",
+   "setores": [
+    "Casinos ilegais"
+   ],
+   "tickers": [],
+   "resumo": "Tânia Laranjo respondeu às críticas de Flávio Furtado à reportagem sobre casinos ilegais, classificando-a como uma \"história inventada\".",
+   "img": ""
+  },
   {
    "id": "ng-casados-novo-noivo-ricardo",
    "ts": "2026-09-29T12:30:00Z",
@@ -22,7 +39,8 @@
     "TVI"
    ],
    "tickers": [],
-   "resumo": "Ricardo Paixão, novo participante de Casados à Primeira Vista, esteve quatro anos com Andreia Silva, ex-concorrente de Love on Top. A relação terminou em novembro e ele avisou-a da participação."
+   "resumo": "Ricardo Paixão, novo participante de Casados à Primeira Vista, esteve quatro anos com Andreia Silva, ex-concorrente de Love on Top. A relação terminou em novembro e ele avisou-a da participação.",
+   "img": ""
   },
   {
    "id": "cm-97anos-cascais-tribunal",
@@ -36,7 +54,8 @@
    "impacto": "baixo",
    "setores": [],
    "tickers": [],
-   "resumo": "Uma mulher norte-americana de 97 anos vai prestar depoimento por videochamada no tribunal de Cascais, quebrando o silêncio pela primeira vez, segundo o Correio da Manhã."
+   "resumo": "Uma mulher norte-americana de 97 anos vai prestar depoimento por videochamada no tribunal de Cascais, quebrando o silêncio pela primeira vez, segundo o Correio da Manhã.",
+   "img": ""
   },
   {
    "id": "cm-fcporto-macaco-clube",
@@ -52,7 +71,8 @@
     "FC Porto"
    ],
    "tickers": [],
-   "resumo": "Segundo o Correio da Manhã, o FC Porto pagou despesas de um clube do qual 'Macaco' é acionista."
+   "resumo": "Segundo o Correio da Manhã, o FC Porto pagou despesas de um clube do qual 'Macaco' é acionista.",
+   "img": ""
   },
   {
    "id": "ng-sergio-rossi-processo",
@@ -68,7 +88,8 @@
     "Famosos"
    ],
    "tickers": [],
-   "resumo": "O Ministério Público arquivou a queixa de violência doméstica apresentada por Ana Rita contra o cantor Sérgio Rossi. Ela avançou com um processo separado por difamação e o cantor garante que vai defender a sua inocência."
+   "resumo": "O Ministério Público arquivou a queixa de violência doméstica apresentada por Ana Rita contra o cantor Sérgio Rossi. Ela avançou com um processo separado por difamação e o cantor garante que vai defender a sua inocência.",
+   "img": ""
   },
   {
    "id": "abola-topa-buscas-pj",
@@ -84,7 +105,8 @@
     "PJ"
    ],
    "tickers": [],
-   "resumo": "A PJ realizou novas buscas em Vila Nova de Gaia no âmbito da investigação a Paulo Topa. O processo envolve suspeitas de desvio de cerca de dez milhões de euros e posterior branqueamento."
+   "resumo": "A PJ realizou novas buscas em Vila Nova de Gaia no âmbito da investigação a Paulo Topa. O processo envolve suspeitas de desvio de cerca de dez milhões de euros e posterior branqueamento.",
+   "img": ""
   },
   {
    "id": "abola-alonso-aston-martin",
@@ -100,7 +122,8 @@
     "Fórmula 1"
    ],
    "tickers": [],
-   "resumo": "Fernando Alonso renovou com a Aston Martin e continua na Fórmula 1. O piloto espanhol diz que vai retirar-se, mas ainda não é já."
+   "resumo": "Fernando Alonso renovou com a Aston Martin e continua na Fórmula 1. O piloto espanhol diz que vai retirar-se, mas ainda não é já.",
+   "img": ""
   },
   {
    "id": "cm-despesa-estudante-ocde",
@@ -116,7 +139,26 @@
     "Educação"
    ],
    "tickers": [],
-   "resumo": "Do 1.º ciclo à universidade, a despesa do Estado português por estudante rondava os 10.206 euros anuais em 2023, ligeiramente abaixo da média da OCDE, de 11.962 euros."
+   "resumo": "Do 1.º ciclo à universidade, a despesa do Estado português por estudante rondava os 10.206 euros anuais em 2023, ligeiramente abaixo da média da OCDE, de 11.962 euros.",
+   "img": ""
+  },
+  {
+   "id": "cm-passageiros-porta-emergencia",
+   "ts": "2026-09-29T11:00:57Z",
+   "source": "CM",
+   "lado": "pt",
+   "url": "https://m.facebook.com/cmjornal/posts/pfbid0Q1QhdQMCQNjCQhR6sc69PsfRTX3byUqwpeYkofyPypXK5rwLtDR2cGduLJ78Y4ZFl",
+   "title": "Identificados quatro passageiros que usaram porta de emergência para chegar à zona das partidas",
+   "topic": "outros",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Aeroporto",
+    "Segurança"
+   ],
+   "tickers": [],
+   "resumo": "Quatro passageiros que usaram uma porta de emergência para aceder à zona das partidas de um aeroporto foram identificados. O caso é tratado como uma falha de segurança.",
+   "img": ""
   },
   {
    "id": "abola-circati-brasil",
@@ -132,7 +174,8 @@
     "Seleção da Austrália"
    ],
    "tickers": [],
-   "resumo": "O central do Benfica Alessandro Circati marcou pela Austrália ao Brasil, restabelecendo a igualdade no encontro entre as duas seleções. O golo surgiu depois de um também apontado por Irankunda."
+   "resumo": "O central do Benfica Alessandro Circati marcou pela Austrália ao Brasil, restabelecendo a igualdade no encontro entre as duas seleções. O golo surgiu depois de um também apontado por Irankunda.",
+   "img": ""
   },
   {
    "id": "ojogo-salvador-braga-balanco",
@@ -146,7 +189,8 @@
    "impacto": "baixo",
    "setores": [],
    "tickers": [],
-   "resumo": "O presidente do Braga, António Salvador, fez um balanço da temporada até agora e considera que a equipa vai mostrar melhorias depois da pausa para as seleções."
+   "resumo": "O presidente do Braga, António Salvador, fez um balanço da temporada até agora e considera que a equipa vai mostrar melhorias depois da pausa para as seleções.",
+   "img": ""
   },
   {
    "id": "abola-cabral-hangzhou",
@@ -162,7 +206,8 @@
     "Pares"
    ],
    "tickers": [],
-   "resumo": "Francisco Cabral venceu o torneio de pares de Hangzhou, ao lado do norte-americano JJ Tracy. É o sétimo título da carreira do tenista português."
+   "resumo": "Francisco Cabral venceu o torneio de pares de Hangzhou, ao lado do norte-americano JJ Tracy. É o sétimo título da carreira do tenista português.",
+   "img": ""
   },
   {
    "id": "abola-duarte-gomes-luciano",
@@ -178,7 +223,26 @@
     "Arbitragem"
    ],
    "tickers": [],
-   "resumo": "O ex-diretor técnico nacional de arbitragem falou pela primeira vez sobre a sua saída do cargo e garantiu que nunca mais trabalhará com Luciano Gonçalves. Classificou ainda como inadmissível que o presidente do Conselho de Arbitragem se tenha deslocado sozinho a uma reunião com o presidente da SAD."
+   "resumo": "O ex-diretor técnico nacional de arbitragem falou pela primeira vez sobre a sua saída do cargo e garantiu que nunca mais trabalhará com Luciano Gonçalves. Classificou ainda como inadmissível que o presidente do Conselho de Arbitragem se tenha deslocado sozinho a uma reunião com o presidente da SAD.",
+   "img": ""
+  },
+  {
+   "id": "cm-reality-tvi-erro-especial",
+   "ts": "2026-09-29T09:52:07Z",
+   "source": "CM",
+   "lado": "pt",
+   "url": "https://m.facebook.com/cmjornal/posts/pfbid02PZxoQCEeW1Mxz3BSanhPKW7QsGuQhpM9y1pK3GDhQAHwfGy7i5dGvy5LrcsDVxZ8l",
+   "title": "Erro em especial do reality show da TVI quase levou a batota",
+   "topic": "rosa",
+   "sub": "reality",
+   "impacto": "baixo",
+   "setores": [
+    "TVI",
+    "Big Brother"
+   ],
+   "tickers": [],
+   "resumo": "Um erro durante o especial conduzido por Maria Botelho Moniz no reality show da TVI só não resultou em batota devido a uma onda de críticas nas redes sociais.",
+   "img": ""
   },
   {
    "id": "cm-professores-salario-13",
@@ -195,7 +259,8 @@
     "Salários"
    ],
    "tickers": [],
-   "resumo": "Apenas 13,4% dos professores portugueses dizem estar contentes com o seu salário, segundo os dados noticiados pelo Correio da Manhã."
+   "resumo": "Apenas 13,4% dos professores portugueses dizem estar contentes com o seu salário, segundo os dados noticiados pelo Correio da Manhã.",
+   "img": ""
   },
   {
    "id": "ipma-precipitacao-amarelo-20260929",
@@ -212,7 +277,8 @@
     "Chuva"
    ],
    "tickers": [],
-   "resumo": "Aviso amarelo para chuva persistente, por vezes forte, nos distritos de Viana do Castelo, Braga, Vila Real, Porto, Aveiro, Coimbra e Viseu, com início a partir das 15h de hoje e até à manhã de quarta-feira."
+   "resumo": "Aviso amarelo para chuva persistente, por vezes forte, nos distritos de Viana do Castelo, Braga, Vila Real, Porto, Aveiro, Coimbra e Viseu, com início a partir das 15h de hoje e até à manhã de quarta-feira.",
+   "img": ""
   },
   {
    "id": "cm-susana-werner-portugal",
@@ -226,7 +292,8 @@
    "impacto": "baixo",
    "setores": [],
    "tickers": [],
-   "resumo": "Susana Werner comunicou nas redes sociais que ela e o marido vão deixar Portugal, com a casa ainda por vender e muita coisa por decidir."
+   "resumo": "Susana Werner comunicou nas redes sociais que ela e o marido vão deixar Portugal, com a casa ainda por vender e muita coisa por decidir.",
+   "img": ""
   },
   {
    "id": "abola-balakin-arbitro-dinamarca",
@@ -242,7 +309,8 @@
     "Liga das Nações"
    ],
    "tickers": [],
-   "resumo": "O ucraniano Mykola Balakin foi nomeado para arbitrar o jogo entre a Dinamarca e Portugal, marcado para quinta-feira, em Copenhaga, da Liga das Nações."
+   "resumo": "O ucraniano Mykola Balakin foi nomeado para arbitrar o jogo entre a Dinamarca e Portugal, marcado para quinta-feira, em Copenhaga, da Liga das Nações.",
+   "img": ""
   },
   {
    "id": "ng-miguel-vicente-bb",
@@ -259,7 +327,8 @@
     "TVI"
    ],
    "tickers": [],
-   "resumo": "Espetadores do Big Brother All Stars especulam que um fogo de artifício foi um sinal para Catarina Miranda, mas Miguel Vicente diz que era para ele."
+   "resumo": "Espetadores do Big Brother All Stars especulam que um fogo de artifício foi um sinal para Catarina Miranda, mas Miguel Vicente diz que era para ele.",
+   "img": ""
   },
   {
    "id": "record-jaime-faria-toquio",
@@ -275,7 +344,8 @@
     "Torneio de Tóquio"
    ],
    "tickers": [],
-   "resumo": "O tenista Jaime Faria, número 61 do mundo, foi eliminado na última ronda de qualificação do torneio de Tóquio pelo paraguaio Adolfo Daniel Vallejo. Fica assim fora do quadro principal."
+   "resumo": "O tenista Jaime Faria, número 61 do mundo, foi eliminado na última ronda de qualificação do torneio de Tóquio pelo paraguaio Adolfo Daniel Vallejo. Fica assim fora do quadro principal.",
+   "img": ""
   },
   {
    "id": "rtp-1768376",
@@ -292,7 +362,8 @@
     "Seleção"
    ],
    "tickers": [],
-   "resumo": "A seleção prepara em Malmo o jogo de quinta-feira com a Dinamarca. Bruno Fernandes já treinou sem limitações e está recuperado; Francisco Conceição entrou no boletim clínico e é dúvida."
+   "resumo": "A seleção prepara em Malmo o jogo de quinta-feira com a Dinamarca. Bruno Fernandes já treinou sem limitações e está recuperado; Francisco Conceição entrou no boletim clínico e é dúvida.",
+   "img": ""
   },
   {
    "id": "lusa-47853862",
@@ -308,7 +379,8 @@
     "ONU"
    ],
    "tickers": [],
-   "resumo": "A ONU alerta que os cortes orçamentais levam as organizações de apoio a refugiados ao ponto de rutura. Cerca de 8,3 milhões de pessoas arriscam ficar sem ajuda este ano."
+   "resumo": "A ONU alerta que os cortes orçamentais levam as organizações de apoio a refugiados ao ponto de rutura. Cerca de 8,3 milhões de pessoas arriscam ficar sem ajuda este ano.",
+   "img": ""
   },
   {
    "id": "lusa-47853831",
@@ -324,7 +396,8 @@
     "Música"
    ],
    "tickers": [],
-   "resumo": "Camané, Luísa Sobral, Mafalda Veiga, Rui Veloso, Marisa Liz e Ricardo Ribeiro atuam nos concertos de homenagem a Luís Represas, em Lisboa e no Porto, em abril."
+   "resumo": "Camané, Luísa Sobral, Mafalda Veiga, Rui Veloso, Marisa Liz e Ricardo Ribeiro atuam nos concertos de homenagem a Luís Represas, em Lisboa e no Porto, em abril.",
+   "img": ""
   },
   {
    "id": "rtp-1768360",
@@ -341,7 +414,8 @@
     "IA"
    ],
    "tickers": [],
-   "resumo": "O Papa Leão XIV avisou que os alertas sobre os perigos da inteligência artificial devem ser levados a sério e não podem ser desvalorizados como fake news."
+   "resumo": "O Papa Leão XIV avisou que os alertas sobre os perigos da inteligência artificial devem ser levados a sério e não podem ser desvalorizados como fake news.",
+   "img": ""
   },
   {
    "id": "rtp-1768358",
@@ -358,7 +432,8 @@
     "Eleições"
    ],
    "tickers": [],
-   "resumo": "Os dois principais partidos reclamam vitória nas eleições em São Tomé e Príncipe. Os dados provisórios apontam para uma vantagem tangencial do MLSTP."
+   "resumo": "Os dois principais partidos reclamam vitória nas eleições em São Tomé e Príncipe. Os dados provisórios apontam para uma vantagem tangencial do MLSTP.",
+   "img": ""
   },
   {
    "id": "cm-armas-mesmo-serie-caparica",
@@ -374,7 +449,8 @@
     "Armas"
    ],
    "tickers": [],
-   "resumo": "Foram apreendidas três armas com o mesmo número de série, a última das quais no sábado, na Caparica. Todas ficaram em depósito à guarda da Polícia."
+   "resumo": "Foram apreendidas três armas com o mesmo número de série, a última das quais no sábado, na Caparica. Todas ficaram em depósito à guarda da Polícia.",
+   "img": ""
   },
   {
    "id": "ng-andrea-francisco-monteiro",
@@ -391,7 +467,8 @@
     "TVI"
    ],
    "tickers": [],
-   "resumo": "Andrea Pestana falou nas redes sociais da relação com Francisco Monteiro, do Big Brother, dizendo que \"ninguém conhece a relação\" e rejeitando acusações de dependência emocional."
+   "resumo": "Andrea Pestana falou nas redes sociais da relação com Francisco Monteiro, do Big Brother, dizendo que \"ninguém conhece a relação\" e rejeitando acusações de dependência emocional.",
+   "img": ""
   },
   {
    "id": "lusa-47853840",
@@ -407,7 +484,8 @@
     "Água"
    ],
    "tickers": [],
-   "resumo": "Um relatório oficial indica que a qualidade da água da torneira em Portugal ronda os 100% de conformidade com os padrões exigidos."
+   "resumo": "Um relatório oficial indica que a qualidade da água da torneira em Portugal ronda os 100% de conformidade com os padrões exigidos.",
+   "img": ""
   },
   {
    "id": "ojogo-vagiannidis-grecia",
@@ -423,7 +501,8 @@
     "Seleção da Grécia"
    ],
    "tickers": [],
-   "resumo": "O lateral do Sporting Vagiannidis sentiu um desconforto muscular no jogo com a Alemanha e deve falhar o encontro com os Países Baixos. O selecionador grego chamou outro lateral para o lugar."
+   "resumo": "O lateral do Sporting Vagiannidis sentiu um desconforto muscular no jogo com a Alemanha e deve falhar o encontro com os Países Baixos. O selecionador grego chamou outro lateral para o lugar.",
+   "img": ""
   },
   {
    "id": "lusa-47853808",
@@ -439,7 +518,8 @@
     "Myanmar"
    ],
    "tickers": [],
-   "resumo": "Um ataque aéreo contra um mercado no Myanmar fez pelo menos 50 mortos, segundo o novo balanço divulgado hoje."
+   "resumo": "Um ataque aéreo contra um mercado no Myanmar fez pelo menos 50 mortos, segundo o novo balanço divulgado hoje.",
+   "img": ""
   },
   {
    "id": "cm-daniela-martins-100mil",
@@ -455,7 +535,8 @@
     "Caso das gémeas"
    ],
    "tickers": [],
-   "resumo": "Segundo o Correio da Manhã, a mãe das gémeas pediu ajuda para tudo, incluindo para comprar leite, apesar de ter mais de 100 mil euros na conta bancária. A informação consta da acusação do caso das gémeas."
+   "resumo": "Segundo o Correio da Manhã, a mãe das gémeas pediu ajuda para tudo, incluindo para comprar leite, apesar de ter mais de 100 mil euros na conta bancária. A informação consta da acusação do caso das gémeas.",
+   "img": ""
   },
   {
    "id": "ojogo-ronaldo-amuo-jesus",
@@ -471,7 +552,8 @@
     "Liga das Nações"
    ],
    "tickers": [],
-   "resumo": "Cristiano Ronaldo não jogou contra a Noruega e foi diretamente para o balneário, caso que a imprensa internacional analisou. O capitão e o selecionador Jorge Jesus já falaram sobre o assunto."
+   "resumo": "Cristiano Ronaldo não jogou contra a Noruega e foi diretamente para o balneário, caso que a imprensa internacional analisou. O capitão e o selecionador Jorge Jesus já falaram sobre o assunto.",
+   "img": ""
   },
   {
    "id": "rtp-1768351",
@@ -488,7 +570,8 @@
     "Escolas"
    ],
    "tickers": [],
-   "resumo": "A PSP registou 4.075 ocorrências nas escolas no último ano letivo, mais 4,6% do que no anterior. Os crimes de ofensas corporais e com armas atingiram máximos de cinco anos e também subiram as ofensas sexuais e o tráfico de droga."
+   "resumo": "A PSP registou 4.075 ocorrências nas escolas no último ano letivo, mais 4,6% do que no anterior. Os crimes de ofensas corporais e com armas atingiram máximos de cinco anos e também subiram as ofensas sexuais e o tráfico de droga.",
+   "img": ""
   },
   {
    "id": "cm-marcelo-sabia-tratamento",
@@ -504,7 +587,8 @@
     "Caso das gémeas"
    ],
    "tickers": [],
-   "resumo": "O Correio da Manhã avança que o ex-Presidente da República sabia que as crianças vinham para Portugal apenas para receber tratamento. A informação surge no âmbito da acusação do Ministério Público no caso das gémeas."
+   "resumo": "O Correio da Manhã avança que o ex-Presidente da República sabia que as crianças vinham para Portugal apenas para receber tratamento. A informação surge no âmbito da acusação do Ministério Público no caso das gémeas.",
+   "img": ""
   },
   {
    "id": "rtp-1768101",
@@ -521,7 +605,8 @@
     "Reforma do Estado"
    ],
    "tickers": [],
-   "resumo": "O ministro adjunto e da Reforma do Estado concorda com Passos Coelho na urgência das reformas, mas recusa a ideia de que não há tempo: o Governo tem quatro anos para as fazer."
+   "resumo": "O ministro adjunto e da Reforma do Estado concorda com Passos Coelho na urgência das reformas, mas recusa a ideia de que não há tempo: o Governo tem quatro anos para as fazer.",
+   "img": ""
   },
   {
    "id": "ng-marta-melro",
@@ -537,7 +622,8 @@
     "Famosos"
    ],
    "tickers": [],
-   "resumo": "Marta Melro confirmou que namora com o fotógrafo André Drogas, três anos depois da separação de Paulo Vintém."
+   "resumo": "Marta Melro confirmou que namora com o fotógrafo André Drogas, três anos depois da separação de Paulo Vintém.",
+   "img": ""
   },
   {
    "id": "as-rali-sardenha-titulo",
@@ -553,7 +639,8 @@
     "Mundial de Ralis"
    ],
    "tickers": [],
-   "resumo": "O Mundial de Ralis termina na Sardenha com três candidatos ao título: Elfyn Evans lidera e precisa de 19 pontos, Sami Pajari está a 17 e Oliver Solberg a 21."
+   "resumo": "O Mundial de Ralis termina na Sardenha com três candidatos ao título: Elfyn Evans lidera e precisa de 19 pontos, Sami Pajari está a 17 e Oliver Solberg a 21.",
+   "img": ""
   },
   {
    "id": "rtp-1768342",
@@ -570,7 +657,8 @@
     "Japão"
    ],
    "tickers": [],
-   "resumo": "O chefe da diplomacia chinesa, Wang Yi, pediu ao Japão que corrija o mais depressa possível as suas palavras e ações sobre Taiwan, condição para superar a crise bilateral."
+   "resumo": "O chefe da diplomacia chinesa, Wang Yi, pediu ao Japão que corrija o mais depressa possível as suas palavras e ações sobre Taiwan, condição para superar a crise bilateral.",
+   "img": ""
   },
   {
    "id": "rtp-1768346",
@@ -587,7 +675,8 @@
     "Espanha"
    ],
    "tickers": [],
-   "resumo": "O Conselho de Ministros de Espanha reúne-se hoje para aprovar um decreto que proteja os inquilinos de despejos e de aumentos descontrolados das rendas. O Governo é pressionado por protestos que levaram milhares de pessoas às ruas."
+   "resumo": "O Conselho de Ministros de Espanha reúne-se hoje para aprovar um decreto que proteja os inquilinos de despejos e de aumentos descontrolados das rendas. O Governo é pressionado por protestos que levaram milhares de pessoas às ruas.",
+   "img": ""
   },
   {
    "id": "rtp-1768344",
@@ -603,7 +692,8 @@
     "Aeroporto"
    ],
    "tickers": [],
-   "resumo": "O governador do Banco de Portugal lamentou os atrasos de décadas na construção do novo aeroporto."
+   "resumo": "O governador do Banco de Portugal lamentou os atrasos de décadas na construção do novo aeroporto.",
+   "img": ""
   },
   {
    "id": "rtp-1768338",
@@ -621,7 +711,8 @@
     "MAI"
    ],
    "tickers": [],
-   "resumo": "O ministro da Administração Interna reúne-se hoje com os sindicatos da PSP e as associações da GNR para negociar a reestruturação dos suplementos e a revisão do estatuto profissional. Na véspera, cerca de 200 polícias e guardas manifestaram-se em silêncio no Porto."
+   "resumo": "O ministro da Administração Interna reúne-se hoje com os sindicatos da PSP e as associações da GNR para negociar a reestruturação dos suplementos e a revisão do estatuto profissional. Na véspera, cerca de 200 polícias e guardas manifestaram-se em silêncio no Porto.",
+   "img": ""
   },
   {
    "id": "cm-hormuz-plano-ira",
@@ -638,7 +729,8 @@
     "Ormuz"
    ],
    "tickers": [],
-   "resumo": "À margem da Assembleia Geral da ONU, o Irão apresentou um projeto para reabrir o estreito de Ormuz no prazo de sete dias e retomar as negociações nucleares."
+   "resumo": "À margem da Assembleia Geral da ONU, o Irão apresentou um projeto para reabrir o estreito de Ormuz no prazo de sete dias e retomar as negociações nucleares.",
+   "img": ""
   },
   {
    "id": "zz-1217110",
@@ -654,7 +746,8 @@
     "Andebol"
    ],
    "tickers": [],
-   "resumo": "Águas Santas e Benfica iniciam a campanha na EHF European League de andebol. Os maiatos deslocam-se à Roménia e o Benfica recebe uma equipa espanhola."
+   "resumo": "Águas Santas e Benfica iniciam a campanha na EHF European League de andebol. Os maiatos deslocam-se à Roménia e o Benfica recebe uma equipa espanhola.",
+   "img": ""
   },
   {
    "id": "rtp-1768335",
@@ -671,7 +764,8 @@
     "Ciber"
    ],
    "tickers": [],
-   "resumo": "A OpenAI reconheceu que deveria ter informado \"mais cedo\" as autoridades australianas sobre uma intrusão dos seus modelos de inteligência artificial em várias plataformas eletrónicas do Governo."
+   "resumo": "A OpenAI reconheceu que deveria ter informado \"mais cedo\" as autoridades australianas sobre uma intrusão dos seus modelos de inteligência artificial em várias plataformas eletrónicas do Governo.",
+   "img": ""
   },
   {
    "id": "rtp-1768333",
@@ -689,7 +783,8 @@
     "Médio Oriente"
    ],
    "tickers": [],
-   "resumo": "O ministro dos Negócios Estrangeiros iraniano diz que Teerão aguarda a resposta dos EUA depois de conversações indiretas, via Qatar, para pôr fim à guerra. Na véspera, o Irão dissera estar pronto para uma guerra apocalíptica sem excluir a diplomacia."
+   "resumo": "O ministro dos Negócios Estrangeiros iraniano diz que Teerão aguarda a resposta dos EUA depois de conversações indiretas, via Qatar, para pôr fim à guerra. Na véspera, o Irão dissera estar pronto para uma guerra apocalíptica sem excluir a diplomacia.",
+   "img": ""
   },
   {
    "id": "rtp-1768332",
@@ -706,7 +801,8 @@
     "EUA"
    ],
    "tickers": [],
-   "resumo": "O secretário de Estado norte-americano, Marco Rubio, afirmou que um \"ator estrangeiro\" esteve envolvido na suposta conspiração terrorista contra a base aérea britânica de RAF Fairford, usada pelas forças norte-americanas."
+   "resumo": "O secretário de Estado norte-americano, Marco Rubio, afirmou que um \"ator estrangeiro\" esteve envolvido na suposta conspiração terrorista contra a base aérea britânica de RAF Fairford, usada pelas forças norte-americanas.",
+   "img": ""
   },
   {
    "id": "rtp-1768329",
@@ -722,7 +818,8 @@
     "Estados Unidos"
    ],
    "tickers": [],
-   "resumo": "O Governo dos Estados Unidos revogou formalmente as normas da administração Biden que alargavam as proteções contra a discriminação sexual à orientação sexual nas escolas."
+   "resumo": "O Governo dos Estados Unidos revogou formalmente as normas da administração Biden que alargavam as proteções contra a discriminação sexual à orientação sexual nas escolas.",
+   "img": ""
   },
   {
    "id": "eco-seguros-iberico",
@@ -738,7 +835,8 @@
     "Seguros"
    ],
    "tickers": [],
-   "resumo": "O mercado segurador ibérico chegou aos 102,4 mil milhões de euros em prémios em 2025. A VidaCaixa lidera com 11,8 mil milhões e a Fidelidade é sétima, mantendo a liderança em Portugal."
+   "resumo": "O mercado segurador ibérico chegou aos 102,4 mil milhões de euros em prémios em 2025. A VidaCaixa lidera com 11,8 mil milhões e a Fidelidade é sétima, mantendo a liderança em Portugal.",
+   "img": ""
   },
   {
    "id": "eco-fisco-ice",
@@ -755,7 +853,8 @@
     "Empresas"
    ],
    "tickers": [],
-   "resumo": "A Autoridade Tributária esclareceu que dividendos antigos já reconhecidos não contam para o Incentivo à Capitalização das Empresas (ICE): só os lucros retidos no próprio exercício contam como aumento elegível de capitais próprios."
+   "resumo": "A Autoridade Tributária esclareceu que dividendos antigos já reconhecidos não contam para o Incentivo à Capitalização das Empresas (ICE): só os lucros retidos no próprio exercício contam como aumento elegível de capitais próprios.",
+   "img": ""
   },
   {
    "id": "eco-invencoes-43",
@@ -772,7 +871,8 @@
     "INPI"
    ],
    "tickers": [],
-   "resumo": "Foram apresentados 973 pedidos nacionais de proteção de invenções nos primeiros oito meses de 2026, mais 43% do que no mesmo período de 2025."
+   "resumo": "Foram apresentados 973 pedidos nacionais de proteção de invenções nos primeiros oito meses de 2026, mais 43% do que no mesmo período de 2025.",
+   "img": ""
   },
   {
    "id": "rtp-1768339",
@@ -789,7 +889,8 @@
     "Governo"
    ],
    "tickers": [],
-   "resumo": "O Governo espera que não venha a ser necessário racionar combustível em Portugal, num contexto de subida dos preços e de tensão no Médio Oriente."
+   "resumo": "O Governo espera que não venha a ser necessário racionar combustível em Portugal, num contexto de subida dos preços e de tensão no Médio Oriente.",
+   "img": ""
   },
   {
    "id": "hn-ebola-rdcongo-8000",
@@ -806,7 +907,8 @@
     "Saúde pública"
    ],
    "tickers": [],
-   "resumo": "A epidemia de ébola na República Democrática do Congo somava 8.067 casos confirmados e 3.901 mortes a 26 de setembro, uma letalidade de 48,4%. A falta de profissionais de saúde e os atrasos nos pagamentos ameaçam a capacidade de resposta."
+   "resumo": "A epidemia de ébola na República Democrática do Congo somava 8.067 casos confirmados e 3.901 mortes a 26 de setembro, uma letalidade de 48,4%. A falta de profissionais de saúde e os atrasos nos pagamentos ameaçam a capacidade de resposta.",
+   "img": ""
   },
   {
    "id": "hn-funchal-taxa-urgencia",
@@ -823,7 +925,8 @@
     "Taxas moderadoras"
    ],
    "tickers": [],
-   "resumo": "O serviço de saúde da Madeira começou a cobrar taxa moderadora nas idas à urgência classificadas como pouco ou nada urgentes. Ficam isentos menores, grávidas, pessoas com deficiência e desempregados."
+   "resumo": "O serviço de saúde da Madeira começou a cobrar taxa moderadora nas idas à urgência classificadas como pouco ou nada urgentes. Ficam isentos menores, grávidas, pessoas com deficiência e desempregados.",
+   "img": ""
   },
   {
    "id": "hn-siteu-aphp-proposta",
@@ -840,7 +943,62 @@
     "Hospitais privados"
    ],
    "tickers": [],
-   "resumo": "O sindicato de enfermeiros SITEU rejeitou a proposta da associação dos hospitais privados, que previa aumentos salariais de 60 euros por ano em 2027 e 2028. O sindicato exige paridade salarial com o setor público e a revisão do contrato coletivo."
+   "resumo": "O sindicato de enfermeiros SITEU rejeitou a proposta da associação dos hospitais privados, que previa aumentos salariais de 60 euros por ano em 2027 e 2028. O sindicato exige paridade salarial com o setor público e a revisão do contrato coletivo.",
+   "img": ""
+  },
+  {
+   "id": "hn-uls-guarda-seia",
+   "ts": "2026-09-29T04:49:06Z",
+   "source": "HealthNews",
+   "lado": "pt",
+   "url": "https://healthnews.pt/2026/09/29/uls-da-guarda-conclui-requalificacao-do-centro-de-saude-de-seia/",
+   "title": "ULS da Guarda conclui requalificação do Centro de Saúde de Seia",
+   "topic": "saude",
+   "sub": "",
+   "impacto": "baixo",
+   "setores": [
+    "SNS",
+    "PRR"
+   ],
+   "tickers": [],
+   "resumo": "O Centro de Saúde de Seia reabriu após uma requalificação de 2,76 milhões de euros, financiada pelo Plano de Recuperação e Resiliência.",
+   "img": ""
+  },
+  {
+   "id": "eco-cluster-defesa-2030",
+   "ts": "2026-09-29T04:39:12Z",
+   "source": "ECO",
+   "lado": "pt",
+   "url": "https://eco.sapo.pt/2026/09/29/ecossistema-deve-preparar-cluster-de-defesa-forte-ate-2030-que-responda-as-necessidades-permanentes-das-forcas-armadas/",
+   "title": "Ecossistema deve preparar cluster de defesa forte até 2030",
+   "topic": "economia",
+   "sub": "",
+   "impacto": "baixo",
+   "setores": [
+    "Defesa",
+    "SAFE"
+   ],
+   "tickers": [],
+   "resumo": "A indústria de defesa nacional quer garantir lugar no desenho das necessidades futuras das Forças Armadas, além da fatia das aquisições financiadas pelo mecanismo SAFE.",
+   "img": "https://eco.imgix.net/uploads/2026/09/cropped-talk-eradar-painel-1.jpg"
+  },
+  {
+   "id": "hn-ebola-compromissos-29mil",
+   "ts": "2026-09-29T04:10:07Z",
+   "source": "HealthNews",
+   "lado": "pt",
+   "url": "https://healthnews.pt/2026/09/29/ebola-compromissos-internacionais-chegam-a-quase-29-mil-milhoes-de-dolares/",
+   "title": "Ébola: compromissos internacionais chegam a quase 2,9 mil milhões de dólares",
+   "topic": "saude",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Ébola",
+    "OMS"
+   ],
+   "tickers": [],
+   "resumo": "Os compromissos internacionais de financiamento ao combate ao Ébola atingem quase 2,9 mil milhões de dólares, incluindo 700 milhões anunciados por líderes do G20+. O Africa CDC pede que o dinheiro seja desembolsado com urgência e transparência.",
+   "img": ""
   },
   {
    "id": "obs-oe27-negociacoes-partidos",
@@ -856,7 +1014,8 @@
     "Orçamento do Estado"
    ],
    "tickers": [],
-   "resumo": "O Governo recebe hoje os partidos da coligação, PSD e CDS, e também Livre, PCP e Bloco de Esquerda para negociar o Orçamento do Estado para 2027. A oposição critica a falta de medidas de apoio às famílias."
+   "resumo": "O Governo recebe hoje os partidos da coligação, PSD e CDS, e também Livre, PCP e Bloco de Esquerda para negociar o Orçamento do Estado para 2027. A oposição critica a falta de medidas de apoio às famílias.",
+   "img": ""
   },
   {
    "id": "rtp-1768330",
@@ -873,7 +1032,8 @@
     "Parlamento"
    ],
    "tickers": [],
-   "resumo": "PS e Chega mostram-se desiludidos com as medidas do Governo para o Orçamento do Estado de 2027 e dizem que a proposta não inclui apoios às famílias."
+   "resumo": "PS e Chega mostram-se desiludidos com as medidas do Governo para o Orçamento do Estado de 2027 e dizem que a proposta não inclui apoios às famílias.",
+   "img": ""
   },
   {
    "id": "obs-gemeas-psd-marcelo",
@@ -889,7 +1049,8 @@
     "Caso das gémeas"
    ],
    "tickers": [],
-   "resumo": "O deputado do PSD António Rodrigues defende que a acusação prova a inocência de Marcelo Rebelo de Sousa e que a Casa Civil agiu como noutros casos semelhantes."
+   "resumo": "O deputado do PSD António Rodrigues defende que a acusação prova a inocência de Marcelo Rebelo de Sousa e que a Casa Civil agiu como noutros casos semelhantes.",
+   "img": ""
   },
   {
    "id": "rtp-1768327",
@@ -906,7 +1067,8 @@
     "Sines"
    ],
    "tickers": [],
-   "resumo": "Dois trabalhadores morreram soterrados durante uma escavação na obra de um hotel em Porto Covo. Os dois corpos foram encontrados durante a noite."
+   "resumo": "Dois trabalhadores morreram soterrados durante uma escavação na obra de um hotel em Porto Covo. Os dois corpos foram encontrados durante a noite.",
+   "img": ""
   },
   {
    "id": "caras-diana-chaves-globos",
@@ -923,7 +1085,8 @@
     "Globos de Ouro"
    ],
    "tickers": [],
-   "resumo": "Diana Chaves apareceu em direto no Casa Feliz com um ferimento no nariz e explicou que foi um arranhão nos bastidores da gala dos Globos de Ouro da SIC."
+   "resumo": "Diana Chaves apareceu em direto no Casa Feliz com um ferimento no nariz e explicou que foi um arranhão nos bastidores da gala dos Globos de Ouro da SIC.",
+   "img": ""
   },
   {
    "id": "rtp-1768325",
@@ -940,7 +1103,8 @@
     "Creches"
    ],
    "tickers": [],
-   "resumo": "A DGS publicou orientações nacionais para a alimentação nas creches: refeições diversificadas, porções adequadas à idade, menos sal, açúcar e ultraprocessados, e condições para facilitar a amamentação."
+   "resumo": "A DGS publicou orientações nacionais para a alimentação nas creches: refeições diversificadas, porções adequadas à idade, menos sal, açúcar e ultraprocessados, e condições para facilitar a amamentação.",
+   "img": ""
   },
   {
    "id": "caras-sonia-brazao-maternidade",
@@ -956,7 +1120,8 @@
     "Televisão"
    ],
    "tickers": [],
-   "resumo": "Quinze anos após a explosão que mudou a sua vida, Sónia Brazão regressou à televisão, disse estar de novo apaixonada e falou de casamento e maternidade."
+   "resumo": "Quinze anos após a explosão que mudou a sua vida, Sónia Brazão regressou à televisão, disse estar de novo apaixonada e falou de casamento e maternidade.",
+   "img": ""
   },
   {
    "id": "record-sporting-zekri",
@@ -970,7 +1135,8 @@
    "impacto": "baixo",
    "setores": [],
    "tickers": [],
-   "resumo": "O Sporting voltou aos treinos com Zekri já às ordens de Rui Borges. O grupo continua muito reduzido devido aos compromissos das seleções."
+   "resumo": "O Sporting voltou aos treinos com Zekri já às ordens de Rui Borges. O grupo continua muito reduzido devido aos compromissos das seleções.",
+   "img": ""
   },
   {
    "id": "obs-gpt61-astra-cancelado",
@@ -986,7 +1152,8 @@
     "Inteligência artificial"
    ],
    "tickers": [],
-   "resumo": "Testes internos levaram ao cancelamento do lançamento do GPT-6.1 Astra, o modelo mais avançado da OpenAI até agora. Segundo a notícia, o sistema executava tarefas sem que lhe fossem pedidas e não era transparente sobre isso."
+   "resumo": "Testes internos levaram ao cancelamento do lançamento do GPT-6.1 Astra, o modelo mais avançado da OpenAI até agora. Segundo a notícia, o sistema executava tarefas sem que lhe fossem pedidas e não era transparente sobre isso.",
+   "img": ""
   },
   {
    "id": "rtp-1768321",
@@ -1003,7 +1170,26 @@
     "Presidência"
    ],
    "tickers": [],
-   "resumo": "O Presidente da República pediu uma estratégia a prazo para uma nova etapa do turismo, no dia em que a Confederação do Turismo alertou que o ritmo atual de crescimento não é sustentável."
+   "resumo": "O Presidente da República pediu uma estratégia a prazo para uma nova etapa do turismo, no dia em que a Confederação do Turismo alertou que o ritmo atual de crescimento não é sustentável.",
+   "img": ""
+  },
+  {
+   "id": "obs-cim-altominho-estradas",
+   "ts": "2026-09-28T23:19:47Z",
+   "source": "Observador",
+   "lado": "pt",
+   "url": "https://observador.pt/2026/09/29/cim-alto-minho-confiante-que-governo-acolhe-reivindicacao-de-300-milhoes-de-euros-para-rodovia/",
+   "title": "CIM do Alto Minho quer 300 milhões de euros para a rede rodoviária",
+   "topic": "politica",
+   "sub": "",
+   "impacto": "baixo",
+   "setores": [
+    "Alto Minho",
+    "Estradas"
+   ],
+   "tickers": [],
+   "resumo": "Dez autarcas do Alto Minho uniram-se num documento para exigir ao Governo 300 milhões de euros para a rede rodoviária. A região representa já 50% do tráfego entre Portugal e Espanha.",
+   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:770:433:nowe:0:0/q:70/plain/https://s3.observador.pt/wp-content/uploads/2020/08/04121455/13217492_770x433_acf_cropped.jpg"
   },
   {
    "id": "rtp-1768318",
@@ -1020,7 +1206,8 @@
     "Séries"
    ],
    "tickers": [],
-   "resumo": "Jones é a nova série da RTP1, com autoria e realização de Bruno Gascon, em seis episódios sobre a investigação do homicídio da filha mais nova da família Salvaterra."
+   "resumo": "Jones é a nova série da RTP1, com autoria e realização de Bruno Gascon, em seis episódios sobre a investigação do homicídio da filha mais nova da família Salvaterra.",
+   "img": ""
   },
   {
    "id": "rtp-d1768317",
@@ -1036,7 +1223,8 @@
     "Liga das Nações"
    ],
    "tickers": [],
-   "resumo": "A França isolou-se na liderança do Grupo A1 da Liga das Nações ao vencer na Bélgica com um golo perto do fim. A Itália venceu a Turquia por 4-1."
+   "resumo": "A França isolou-se na liderança do Grupo A1 da Liga das Nações ao vencer na Bélgica com um golo perto do fim. A Itália venceu a Turquia por 4-1.",
+   "img": ""
   },
   {
    "id": "rtp-1768315",
@@ -1052,7 +1240,25 @@
     "Turismo"
    ],
    "tickers": [],
-   "resumo": "A Confederação do Turismo alerta que o ritmo de crescimento atual do setor não é sustentável. O aviso surge no mesmo dia em que o Presidente da República pediu uma estratégia a prazo para o Turismo."
+   "resumo": "A Confederação do Turismo alerta que o ritmo de crescimento atual do setor não é sustentável. O aviso surge no mesmo dia em que o Presidente da República pediu uma estratégia a prazo para o Turismo.",
+   "img": ""
+  },
+  {
+   "id": "rtp-d1768313",
+   "ts": "2026-09-28T22:31:06Z",
+   "source": "RTP Desporto",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/outras-modalidades/matthew-hauser-justifica-se-a-vilaca-e-preciso-ser-cao-para-vencer_d1768313",
+   "title": "Matthew Hauser justifica-se a Vilaça: \"É preciso ser cão\" para vencer",
+   "topic": "desporto",
+   "sub": "triatlo",
+   "impacto": "baixo",
+   "setores": [
+    "Mundial de triatlo"
+   ],
+   "tickers": [],
+   "resumo": "O australiano Matthew Hauser venceu a última ronda do Mundial de triatlo, em Pontevedra, à frente de Vasco Vilaça, e justificou a atitude anti-fair play de que foi acusado como um mal necessário. Vilaça foi segundo e sagrou-se campeão do Mundo.",
+   "img": "https://cdn-images.rtp.pt/icm/noticias/images/d8/d8c04d4ac70797c408e375d88058c377?w=350&q=50&rect=0,106,1500,822&auto=format"
   },
   {
    "id": "obs-mercedes-fecha-fabricas",
@@ -1069,7 +1275,8 @@
     "Alemanha"
    ],
    "tickers": [],
-   "resumo": "A Mercedes-Benz prepara-se para encerrar duas fábricas na Alemanha e reduzir postos de trabalho, na sequência da quebra de vendas na China e da concorrência dos construtores chineses."
+   "resumo": "A Mercedes-Benz prepara-se para encerrar duas fábricas na Alemanha e reduzir postos de trabalho, na sequência da quebra de vendas na China e da concorrência dos construtores chineses.",
+   "img": ""
   },
   {
    "id": "rtp-1768314",
@@ -1086,7 +1293,8 @@
     "Rússia"
    ],
    "tickers": [],
-   "resumo": "O Presidente ucraniano, Volodymyr Zelensky, afirmou que a Rússia vai receber reforços de tropas da Coreia do Norte. Pyongyang terá ainda fornecido a Moscovo mais mísseis balísticos."
+   "resumo": "O Presidente ucraniano, Volodymyr Zelensky, afirmou que a Rússia vai receber reforços de tropas da Coreia do Norte. Pyongyang terá ainda fornecido a Moscovo mais mísseis balísticos.",
+   "img": ""
   },
   {
    "id": "obs-paris-liceus-detidos",
@@ -1103,7 +1311,8 @@
     "Greve"
    ],
    "tickers": [],
-   "resumo": "Os protestos de estudantes em liceus de Paris terminaram com 164 detidos e vários feridos, incluindo 12 polícias e 8 professores. Decorrem na véspera da greve geral do setor público em França."
+   "resumo": "Os protestos de estudantes em liceus de Paris terminaram com 164 detidos e vários feridos, incluindo 12 polícias e 8 professores. Decorrem na véspera da greve geral do setor público em França.",
+   "img": ""
   },
   {
    "id": "rtp-1768294",
@@ -1120,7 +1329,8 @@
     "GNR"
    ],
    "tickers": [],
-   "resumo": "Cerca de 200 polícias e guardas manifestaram-se em silêncio no Porto, na véspera de novas reuniões com o ministro da Administração Interna. Em discussão estão a reestruturação das carreiras e a organização do tempo de trabalho."
+   "resumo": "Cerca de 200 polícias e guardas manifestaram-se em silêncio no Porto, na véspera de novas reuniões com o ministro da Administração Interna. Em discussão estão a reestruturação das carreiras e a organização do tempo de trabalho.",
+   "img": ""
   },
   {
    "id": "rtp-1768291",
@@ -1137,7 +1347,8 @@
     "SNS"
    ],
    "tickers": [],
-   "resumo": "Mais de quatro em cada dez interrupções voluntárias da gravidez em 2025 foram feitas por mulheres estrangeiras, segundo a DGS, que pede respostas adaptadas à diversidade linguística."
+   "resumo": "Mais de quatro em cada dez interrupções voluntárias da gravidez em 2025 foram feitas por mulheres estrangeiras, segundo a DGS, que pede respostas adaptadas à diversidade linguística.",
+   "img": ""
   },
   {
    "id": "rtp-1768310",
@@ -1153,7 +1364,8 @@
     "Emigração"
    ],
    "tickers": [],
-   "resumo": "Um português de 29 anos morreu num acidente de trabalho em Bad Ragaz, no cantão de St. Gallen, na Suíça. A informação foi divulgada pelas autoridades do cantão."
+   "resumo": "Um português de 29 anos morreu num acidente de trabalho em Bad Ragaz, no cantão de St. Gallen, na Suíça. A informação foi divulgada pelas autoridades do cantão.",
+   "img": ""
   },
   {
    "id": "rtp-1768303",
@@ -1170,7 +1382,8 @@
     "Caso das Gémeas"
    ],
    "tickers": [],
-   "resumo": "Em entrevista à RTP, André Ventura diz que a Justiça deu razão ao Chega no caso das gémeas e fala numa teia de interesses e cunhas que permitiu tratamento preferencial."
+   "resumo": "Em entrevista à RTP, André Ventura diz que a Justiça deu razão ao Chega no caso das gémeas e fala numa teia de interesses e cunhas que permitiu tratamento preferencial.",
+   "img": ""
   },
   {
    "id": "rtp-1768308",
@@ -1187,7 +1400,8 @@
     "Habitação"
    ],
    "tickers": [],
-   "resumo": "Depois de protestos massivos em Madrid, o fundo proprietário recuou e Maricarmen Abascal, de 87 anos, vai poder voltar à casa onde viveu mais de 70 anos. O Governo espanhol reúne-se hoje para aprovar um decreto contra despejos e subidas de rendas."
+   "resumo": "Depois de protestos massivos em Madrid, o fundo proprietário recuou e Maricarmen Abascal, de 87 anos, vai poder voltar à casa onde viveu mais de 70 anos. O Governo espanhol reúne-se hoje para aprovar um decreto contra despejos e subidas de rendas.",
+   "img": ""
   },
   {
    "id": "rtp-1768307",
@@ -1204,7 +1418,8 @@
     "Eleições"
    ],
    "tickers": [],
-   "resumo": "O Brasil vai a votos para a Presidência com Lula da Silva e Flávio Bolsonaro empatados nas sondagens."
+   "resumo": "O Brasil vai a votos para a Presidência com Lula da Silva e Flávio Bolsonaro empatados nas sondagens.",
+   "img": ""
   },
   {
    "id": "rtp-1768305",
@@ -1220,7 +1435,8 @@
     "Guiné-Bissau"
    ],
    "tickers": [],
-   "resumo": "O antigo presidente guineense, exilado em Marrocos, anunciou que se candidata às presidenciais da Guiné-Bissau. Diz que o regresso a Bissau está próximo."
+   "resumo": "O antigo presidente guineense, exilado em Marrocos, anunciou que se candidata às presidenciais da Guiné-Bissau. Diz que o regresso a Bissau está próximo.",
+   "img": ""
   },
   {
    "id": "rtp-1768274",
@@ -1237,7 +1453,8 @@
     "AF Setúbal"
    ],
    "tickers": [],
-   "resumo": "A APCVD vai notificar o Ministério Público sobre a agressão a um árbitro assistente no Olímpico do Montijo-Cova da Piedade, da Taça da AF Setúbal, que acabou aos 43 minutos. A APAF exige uma resposta clara de todas as entidades."
+   "resumo": "A APCVD vai notificar o Ministério Público sobre a agressão a um árbitro assistente no Olímpico do Montijo-Cova da Piedade, da Taça da AF Setúbal, que acabou aos 43 minutos. A APAF exige uma resposta clara de todas as entidades.",
+   "img": ""
   },
   {
    "id": "rtp-1768276",
@@ -1253,7 +1470,8 @@
     "Sub-21"
    ],
    "tickers": [],
-   "resumo": "A seleção de sub-21 procura garantir o apuramento para o Europeu diante de Gibraltar. O médio Gonçalo Moreira diz que o grupo está focado em reagir à derrota no último jogo."
+   "resumo": "A seleção de sub-21 procura garantir o apuramento para o Europeu diante de Gibraltar. O médio Gonçalo Moreira diz que o grupo está focado em reagir à derrota no último jogo.",
+   "img": ""
   },
   {
    "id": "zz-torreense-sete-vitorias",
@@ -1269,7 +1487,8 @@
     "Futebol feminino"
    ],
    "tickers": [],
-   "resumo": "O Torreense somou sete vitórias seguidas em todas as competições, após golear o Marítimo por 8-0. É a melhor série do clube desde que subiu ao principal escalão feminino."
+   "resumo": "O Torreense somou sete vitórias seguidas em todas as competições, após golear o Marítimo por 8-0. É a melhor série do clube desde que subiu ao principal escalão feminino.",
+   "img": ""
   },
   {
    "id": "as-europeu-ralis-6cities",
@@ -1285,7 +1504,8 @@
     "Europeu de Ralis"
    ],
    "tickers": [],
-   "resumo": "O Campeonato da Europa de Ralis regressa a Portugal de 23 a 25 de outubro com o Rally 6 Cities North. Guimarães acolhe a partida e a cerimónia de encerramento e Ribeira de Pena entra pela primeira vez no percurso."
+   "resumo": "O Campeonato da Europa de Ralis regressa a Portugal de 23 a 25 de outubro com o Rally 6 Cities North. Guimarães acolhe a partida e a cerimónia de encerramento e Ribeira de Pena entra pela primeira vez no percurso.",
+   "img": ""
   },
   {
    "id": "zz-1217097",
@@ -1302,7 +1522,8 @@
     "Tribunais"
    ],
    "tickers": [],
-   "resumo": "O Tribunal da Relação de Coimbra voltou a rejeitar o plano de insolvência da Académica. O clube diz que vai acionar novos mecanismos legais para reverter a decisão."
+   "resumo": "O Tribunal da Relação de Coimbra voltou a rejeitar o plano de insolvência da Académica. O clube diz que vai acionar novos mecanismos legais para reverter a decisão.",
+   "img": ""
   },
   {
    "id": "nit-neto-compra-casa-avo",
@@ -1319,7 +1540,8 @@
     "Almada"
    ],
    "tickers": [],
-   "resumo": "Esmeralda, de 87 anos, tinha recebido uma ordem de despejo da casa onde vive desde 1974, em Almada. O neto comprou-lhe a casa a 22 de setembro."
+   "resumo": "Esmeralda, de 87 anos, tinha recebido uma ordem de despejo da casa onde vive desde 1974, em Almada. O neto comprou-lhe a casa a 22 de setembro.",
+   "img": ""
   },
   {
    "id": "vip-nuno-albuquerque-gaspar",
@@ -1335,7 +1557,8 @@
     "Casa Real"
    ],
    "tickers": [],
-   "resumo": "Nuno Albuquerque Gaspar, fotógrafo próximo da Casa Real portuguesa e de D. Duarte Pio, morreu aos 38 anos, vítima de ataque cardíaco."
+   "resumo": "Nuno Albuquerque Gaspar, fotógrafo próximo da Casa Real portuguesa e de D. Duarte Pio, morreu aos 38 anos, vítima de ataque cardíaco.",
+   "img": ""
   },
   {
    "id": "ng-bb-allstars-curva",
@@ -1352,7 +1575,8 @@
     "Big Brother"
    ],
    "tickers": [],
-   "resumo": "No Big Brother All Stars, a Curva da Vida de Francisco Monteiro, em que falou de ter vivido abaixo do limiar de pobreza, provocou uma reação forte de Luís Gonçalves e o confronto entre os dois quase chegou a vias de facto."
+   "resumo": "No Big Brother All Stars, a Curva da Vida de Francisco Monteiro, em que falou de ter vivido abaixo do limiar de pobreza, provocou uma reação forte de Luís Gonçalves e o confronto entre os dois quase chegou a vias de facto.",
+   "img": ""
   },
   {
    "id": "zz-1217042",
@@ -1368,7 +1592,8 @@
     "Roménia"
    ],
    "tickers": [],
-   "resumo": "Rui Duarte, de 48 anos, é o novo treinador do FC Otelul e o quarto técnico português no principal escalão romeno."
+   "resumo": "Rui Duarte, de 48 anos, é o novo treinador do FC Otelul e o quarto técnico português no principal escalão romeno.",
+   "img": ""
   },
   {
    "id": "nit-the-voice-2026",
@@ -1385,7 +1610,8 @@
     "The Voice"
    ],
    "tickers": [],
-   "resumo": "O The Voice Portugal estreia a 11 de outubro na RTP1, na temporada dos 15 anos. David e Mickael Carreira juntam-se a Sónia Tavares, Fernando Daniel e Cláudia Pascoal como mentores."
+   "resumo": "O The Voice Portugal estreia a 11 de outubro na RTP1, na temporada dos 15 anos. David e Mickael Carreira juntam-se a Sónia Tavares, Fernando Daniel e Cláudia Pascoal como mentores.",
+   "img": ""
   },
   {
    "id": "nit-maria-rueff-globos",
@@ -1403,7 +1629,8 @@
     "Humor"
    ],
    "tickers": [],
-   "resumo": "Maria Rueff criticou o prémio especial de 30 anos atribuído a Ricardo Araújo Pereira nos Globos de Ouro, falando em falta de memória da SIC por ignorar outros humoristas que fizeram história."
+   "resumo": "Maria Rueff criticou o prémio especial de 30 anos atribuído a Ricardo Araújo Pereira nos Globos de Ouro, falando em falta de memória da SIC por ignorar outros humoristas que fizeram história.",
+   "img": ""
   },
   {
    "id": "as-f1-pirelli-2027",
@@ -1419,7 +1646,8 @@
     "Fórmula 1"
    ],
    "tickers": [],
-   "resumo": "A Pirelli está a desenvolver pneus com maior degradação para a época de 2027 da Fórmula 1. O objetivo é aumentar a variedade estratégica, depois de várias corridas de 2026 com pneus mais duráveis do que o desejado."
+   "resumo": "A Pirelli está a desenvolver pneus com maior degradação para a época de 2027 da Fórmula 1. O objetivo é aumentar a variedade estratégica, depois de várias corridas de 2026 com pneus mais duráveis do que o desejado.",
+   "img": ""
   },
   {
    "id": "as-f1-mercedes-vitorias",
@@ -1435,7 +1663,8 @@
     "Fórmula 1"
    ],
    "tickers": [],
-   "resumo": "Com a vitória de George Russell em Baku, a Mercedes chegou às 252 vitórias e ultrapassou a Ferrari (251) como fornecedor de motores com mais triunfos na Fórmula 1."
+   "resumo": "Com a vitória de George Russell em Baku, a Mercedes chegou às 252 vitórias e ultrapassou a Ferrari (251) como fornecedor de motores com mais triunfos na Fórmula 1.",
+   "img": ""
   },
   {
    "id": "cnn-6aba78ebd34e9a786e759f31",
@@ -1452,7 +1681,8 @@
     "Delta"
    ],
    "tickers": [],
-   "resumo": "Um voo da Delta com destino a Nova Iorque foi obrigado a regressar a Lisboa, no segundo incidente com um avião da companhia em Portugal em dois dias."
+   "resumo": "Um voo da Delta com destino a Nova Iorque foi obrigado a regressar a Lisboa, no segundo incidente com um avião da companhia em Portugal em dois dias.",
+   "img": ""
   },
   {
    "id": "cnn-6aba6e61d34e53c759c741a4",
@@ -1469,7 +1699,8 @@
     "Rússia"
    ],
    "tickers": [],
-   "resumo": "A União Europeia está a desenvolver um mecanismo semelhante ao artigo 4.º da NATO. Permitirá aos aliados pedir consultas de emergência quando a segurança for ameaçada por ataques híbridos russos."
+   "resumo": "A União Europeia está a desenvolver um mecanismo semelhante ao artigo 4.º da NATO. Permitirá aos aliados pedir consultas de emergência quando a segurança for ameaçada por ataques híbridos russos.",
+   "img": ""
   },
   {
    "id": "cnn-6aba6bf4d34e53c759c74196",
@@ -1486,7 +1717,8 @@
     "UE"
    ],
    "tickers": [],
-   "resumo": "A ministra da Energia alertou para os riscos de respostas desiguais entre países europeus e Portugal pressiona Bruxelas a agir na crise dos combustíveis, rejeitando metas obrigatórias de poupança."
+   "resumo": "A ministra da Energia alertou para os riscos de respostas desiguais entre países europeus e Portugal pressiona Bruxelas a agir na crise dos combustíveis, rejeitando metas obrigatórias de poupança.",
+   "img": ""
   },
   {
    "id": "cnn-6aba6a26d34e53c759c74192",
@@ -1503,7 +1735,8 @@
     "Defesa"
    ],
    "tickers": [],
-   "resumo": "Cinco pessoas foram detidas por suspeitas de terrorismo junto a uma base britânica. O ministro da Defesa indica que não estão previstas novas medidas de segurança imediatas nas Lajes."
+   "resumo": "Cinco pessoas foram detidas por suspeitas de terrorismo junto a uma base britânica. O ministro da Defesa indica que não estão previstas novas medidas de segurança imediatas nas Lajes.",
+   "img": ""
   },
   {
    "id": "cnn-6aba651bd34e53c759c7418f",
@@ -1519,7 +1752,8 @@
     "Caso das gémeas"
    ],
    "tickers": [],
-   "resumo": "Marcelo Rebelo de Sousa reagiu à acusação no caso das gémeas, em que o filho Nuno é arguido, afirmando que ninguém está acima da lei."
+   "resumo": "Marcelo Rebelo de Sousa reagiu à acusação no caso das gémeas, em que o filho Nuno é arguido, afirmando que ninguém está acima da lei.",
+   "img": ""
   },
   {
    "id": "rtp-1768197",
@@ -1536,7 +1770,8 @@
     "Seleção"
    ],
    "tickers": [],
-   "resumo": "Jorge Jesus elogiou a exibição de Portugal na Noruega e indicou que Cristiano Ronaldo será titular no jogo com a Dinamarca, na quinta-feira. Ronaldo ficou no banco sem entrar em Oslo."
+   "resumo": "Jorge Jesus elogiou a exibição de Portugal na Noruega e indicou que Cristiano Ronaldo será titular no jogo com a Dinamarca, na quinta-feira. Ronaldo ficou no banco sem entrar em Oslo.",
+   "img": ""
   },
   {
    "id": "cnn-6aba6039d34e53c759c7418b",
@@ -1553,7 +1788,8 @@
     "SNS"
    ],
    "tickers": [],
-   "resumo": "Cinco associações pressionam o Governo a avançar com a vacinação de adultos contra o zona, denunciando que só quem pode pagar tem acesso."
+   "resumo": "Cinco associações pressionam o Governo a avançar com a vacinação de adultos contra o zona, denunciando que só quem pode pagar tem acesso.",
+   "img": ""
   },
   {
    "id": "zz-1216954",
@@ -1569,7 +1805,8 @@
     "Liga das Nações"
    ],
    "tickers": [],
-   "resumo": "A Dinamarca dispensou Patrick Dorgu por lesão, ficando sem o jogador para receber Portugal na quinta-feira, em jogo da Liga das Nações."
+   "resumo": "A Dinamarca dispensou Patrick Dorgu por lesão, ficando sem o jogador para receber Portugal na quinta-feira, em jogo da Liga das Nações.",
+   "img": ""
   },
   {
    "id": "cnn-6aba560fd34e53c759c7416d",
@@ -1585,7 +1822,8 @@
     "Reforma do Estado"
    ],
    "tickers": [],
-   "resumo": "Passos Coelho defende mais autonomia para municípios e escolas e admite um referendo sobre a organização territorial, dizendo que é possível fazer muito mais caminho do que o feito até agora."
+   "resumo": "Passos Coelho defende mais autonomia para municípios e escolas e admite um referendo sobre a organização territorial, dizendo que é possível fazer muito mais caminho do que o feito até agora.",
+   "img": ""
   },
   {
    "id": "rtp-d1768192",
@@ -1601,7 +1839,8 @@
     "Tóquio"
    ],
    "tickers": [],
-   "resumo": "Jaime Faria, terceiro cabeça de série, apurou-se para a final da qualificação do torneio de Tóquio ao vencer o japonês Shintaro Mochizuki."
+   "resumo": "Jaime Faria, terceiro cabeça de série, apurou-se para a final da qualificação do torneio de Tóquio ao vencer o japonês Shintaro Mochizuki.",
+   "img": ""
   },
   {
    "id": "cnn-6aba56dfd34e9a786e759ee4",
@@ -1617,7 +1856,8 @@
     "Caso das Gémeas"
    ],
    "tickers": [],
-   "resumo": "Daniela Martins, mãe das gémeas, diz-se aliviada e triste após conhecer a acusação e sustenta que as filhas receberam os cuidados médicos a que tinham direito."
+   "resumo": "Daniela Martins, mãe das gémeas, diz-se aliviada e triste após conhecer a acusação e sustenta que as filhas receberam os cuidados médicos a que tinham direito.",
+   "img": ""
   },
   {
    "id": "zz-1216877",
@@ -1634,7 +1874,8 @@
     "Noruega"
    ],
    "tickers": [],
-   "resumo": "Andreas Schjelderup, avançado do Benfica e da Noruega, lamentou a derrota por 2-1 com Portugal e considera que a sua equipa merecia os três pontos pelas oportunidades criadas."
+   "resumo": "Andreas Schjelderup, avançado do Benfica e da Noruega, lamentou a derrota por 2-1 com Portugal e considera que a sua equipa merecia os três pontos pelas oportunidades criadas.",
+   "img": ""
   },
   {
    "id": "rtp-d1768185",
@@ -1650,7 +1891,8 @@
     "ATP"
    ],
    "tickers": [],
-   "resumo": "Francisco Cabral e o norte-americano JJ Tracy chegaram à final de pares em Hangzhou, ao eliminarem Jean-Julien Rojer e Theodore Winegar."
+   "resumo": "Francisco Cabral e o norte-americano JJ Tracy chegaram à final de pares em Hangzhou, ao eliminarem Jean-Julien Rojer e Theodore Winegar.",
+   "img": ""
   },
   {
    "id": "cnn-6aba4d9dd34e9a786e759ecc",
@@ -1666,7 +1908,8 @@
     "Reforma do Estado"
    ],
    "tickers": [],
-   "resumo": "O ministro Gonçalo Matias estima que a simplificação burocrática poderá libertar até 10 mil milhões de euros para a modernização e o desenvolvimento do país."
+   "resumo": "O ministro Gonçalo Matias estima que a simplificação burocrática poderá libertar até 10 mil milhões de euros para a modernização e o desenvolvimento do país.",
+   "img": ""
   },
   {
    "id": "vip-ipma-alerta-sete-distritos",
@@ -1683,7 +1926,8 @@
     "Aviso amarelo"
    ],
    "tickers": [],
-   "resumo": "O IPMA colocou sete distritos sob aviso amarelo por trovoadas, chuva forte, granizo e rajadas até 90 km/h. As temperaturas devem descer em todo o país nos próximos dias."
+   "resumo": "O IPMA colocou sete distritos sob aviso amarelo por trovoadas, chuva forte, granizo e rajadas até 90 km/h. As temperaturas devem descer em todo o país nos próximos dias.",
+   "img": ""
   },
   {
    "id": "cnn-6aba41cfd34e53c759c74128",
@@ -1699,7 +1943,8 @@
     "Vaticano"
    ],
    "tickers": [],
-   "resumo": "Na visita a Metz, o Papa Leão XIV apelou à Europa para que intervenha perante relações cada vez mais hostis entre Estados."
+   "resumo": "Na visita a Metz, o Papa Leão XIV apelou à Europa para que intervenha perante relações cada vez mais hostis entre Estados.",
+   "img": ""
   },
   {
    "id": "cnn-6aba44e1d34e53c759c74135",
@@ -1716,7 +1961,8 @@
     "Ministério Público"
    ],
    "tickers": [],
-   "resumo": "O Ministério Público acusou o filho do Presidente Marcelo Rebelo de Sousa, o ex-governante Lacerda Sales, o ex-diretor clínico do Santa Maria e a mãe das crianças de crimes como prevaricação, abuso de poder e burla qualificada no caso das gémeas tratadas com Zolgensma."
+   "resumo": "O Ministério Público acusou o filho do Presidente Marcelo Rebelo de Sousa, o ex-governante Lacerda Sales, o ex-diretor clínico do Santa Maria e a mãe das crianças de crimes como prevaricação, abuso de poder e burla qualificada no caso das gémeas tratadas com Zolgensma.",
+   "img": ""
   },
   {
    "id": "cnn-6aba41cbd34e9a786e759e92",
@@ -1733,7 +1979,8 @@
     "UE"
    ],
    "tickers": [],
-   "resumo": "A União Europeia aprovou o pacote farmacêutico que impõe novas obrigações à indústria para melhorar o acesso a medicamentos e reduzir falhas de abastecimento."
+   "resumo": "A União Europeia aprovou o pacote farmacêutico que impõe novas obrigações à indústria para melhorar o acesso a medicamentos e reduzir falhas de abastecimento.",
+   "img": ""
   },
   {
    "id": "cnn-6aba3732d34e9a786e759e87",
@@ -1749,7 +1996,8 @@
     "Hungria"
    ],
    "tickers": [],
-   "resumo": "O Parlamento húngaro levantou a imunidade do primeiro-ministro Péter Magyar. Vai responder por um alegado roubo de um telemóvel."
+   "resumo": "O Parlamento húngaro levantou a imunidade do primeiro-ministro Péter Magyar. Vai responder por um alegado roubo de um telemóvel.",
+   "img": ""
   },
   {
    "id": "cnn-6aba3fb7d34e53c759c74124",
@@ -1766,7 +2014,8 @@
     "Tráfico de droga"
    ],
    "tickers": [],
-   "resumo": "A Polícia Judiciária apreendeu no aeroporto de Lisboa cocaína de elevada pureza, equivalente a mais de 67 mil doses, na bagagem de um homem de 78 anos."
+   "resumo": "A Polícia Judiciária apreendeu no aeroporto de Lisboa cocaína de elevada pureza, equivalente a mais de 67 mil doses, na bagagem de um homem de 78 anos.",
+   "img": ""
   },
   {
    "id": "zz-1216875",
@@ -1784,7 +2033,8 @@
     "Benfica"
    ],
    "tickers": [],
-   "resumo": "André Villas-Boas respondeu à queixa disciplinar do Benfica sobre o lance entre Samu e Bah, questionando se o VAR tinha as imagens para analisar a jogada."
+   "resumo": "André Villas-Boas respondeu à queixa disciplinar do Benfica sobre o lance entre Samu e Bah, questionando se o VAR tinha as imagens para analisar a jogada.",
+   "img": ""
   },
   {
    "id": "zz-1216859",
@@ -1800,7 +2050,8 @@
     "Liga das Nações"
    ],
    "tickers": [],
-   "resumo": "Martin Odegaard protestou contra uma entrada dura de Bernardo Silva no final do Noruega-Portugal, que os portugueses venceram por 2-1."
+   "resumo": "Martin Odegaard protestou contra uma entrada dura de Bernardo Silva no final do Noruega-Portugal, que os portugueses venceram por 2-1.",
+   "img": ""
   },
   {
    "id": "cnn-6aba2db9d34e9a786e759e6e",
@@ -1816,7 +2067,8 @@
     "Jogo online"
    ],
    "tickers": [],
-   "resumo": "O Turismo de Portugal contratou uma plataforma francesa para automatizar a deteção e o bloqueio de sites ilegais de jogo online."
+   "resumo": "O Turismo de Portugal contratou uma plataforma francesa para automatizar a deteção e o bloqueio de sites ilegais de jogo online.",
+   "img": ""
   },
   {
    "id": "hn-histamina-psiquiatricas",
@@ -1832,7 +2084,8 @@
     "Investigação"
    ],
    "tickers": [],
-   "resumo": "Um estudo internacional liderado por investigadores da Universidade do Porto revela o papel da histamina no funcionamento do cérebro e na regulação emocional. Os resultados sugerem possíveis aplicações terapêuticas em doenças psiquiátricas."
+   "resumo": "Um estudo internacional liderado por investigadores da Universidade do Porto revela o papel da histamina no funcionamento do cérebro e na regulação emocional. Os resultados sugerem possíveis aplicações terapêuticas em doenças psiquiátricas.",
+   "img": ""
   },
   {
    "id": "hn-mafra-centro-saude",
@@ -1849,7 +2102,8 @@
     "PRR"
    ],
    "tickers": [],
-   "resumo": "Mafra inaugura hoje um novo centro de saúde, com investimento de 4,1 milhões de euros (3,6 milhões do PRR), que servirá cerca de 10 mil utentes."
+   "resumo": "Mafra inaugura hoje um novo centro de saúde, com investimento de 4,1 milhões de euros (3,6 milhões do PRR), que servirá cerca de 10 mil utentes.",
+   "img": ""
   },
   {
    "id": "rtp-1768091",
@@ -1866,7 +2120,8 @@
     "Seleção"
    ],
    "tickers": [],
-   "resumo": "Jorge Jesus mostrou-se satisfeito com a vitória por 2-1 em Oslo, contra uma equipa que considera estar no top 5 da Europa, e disse estar a fazer experiências com jogos a sério."
+   "resumo": "Jorge Jesus mostrou-se satisfeito com a vitória por 2-1 em Oslo, contra uma equipa que considera estar no top 5 da Europa, e disse estar a fazer experiências com jogos a sério.",
+   "img": ""
   },
   {
    "id": "zz-1216677",
@@ -1882,7 +2137,8 @@
     "Liga das Nações"
    ],
    "tickers": [],
-   "resumo": "Cristiano Ronaldo não saiu do banco no jogo com a Noruega, apenas a terceira vez na carreira internacional em que é suplente não utilizado."
+   "resumo": "Cristiano Ronaldo não saiu do banco no jogo com a Noruega, apenas a terceira vez na carreira internacional em que é suplente não utilizado.",
+   "img": ""
   },
   {
    "id": "rtp-d1768077",
@@ -1898,7 +2154,8 @@
     "Mundiais de Ciclismo"
    ],
    "tickers": [],
-   "resumo": "O norte-americano Brandon McNulty sagrou-se campeão mundial de fundo, em Montreal, depois de se isolar a cerca de trinta quilómetros da meta. Van der Poel ficou com o bronze."
+   "resumo": "O norte-americano Brandon McNulty sagrou-se campeão mundial de fundo, em Montreal, depois de se isolar a cerca de trinta quilómetros da meta. Van der Poel ficou com o bronze.",
+   "img": ""
   },
   {
    "id": "rtp-1768067",
@@ -1915,7 +2172,8 @@
     "Mundial"
    ],
    "tickers": [],
-   "resumo": "Vasco Vilaça é o primeiro português campeão do mundo de triatlo de elite, ao terminar em segundo a superfinal de Pontevedra. Ricardo Batista ficou com o bronze no Mundial."
+   "resumo": "Vasco Vilaça é o primeiro português campeão do mundo de triatlo de elite, ao terminar em segundo a superfinal de Pontevedra. Ricardo Batista ficou com o bronze no Mundial.",
+   "img": ""
   },
   {
    "id": "rtp-1768061",
@@ -1932,7 +2190,8 @@
     "Supertaça"
    ],
    "tickers": [],
-   "resumo": "O Benfica conquistou pela quarta vez a Supertaça feminina de basquetebol ao vencer o GDESSA por 73-31, em Almada."
+   "resumo": "O Benfica conquistou pela quarta vez a Supertaça feminina de basquetebol ao vencer o GDESSA por 73-31, em Almada.",
+   "img": ""
   },
   {
    "id": "rtp-1768057",
@@ -1949,7 +2208,8 @@
     "Seleção"
    ],
    "tickers": [],
-   "resumo": "Portugal venceu a Noruega por 2-1 em Oslo, com golos de João Félix e Gonçalo Ramos, e lidera isolado o Grupo A4 da Liga das Nações. Cristiano Ronaldo ficou no banco os 90 minutos, pela terceira vez na carreira na seleção."
+   "resumo": "Portugal venceu a Noruega por 2-1 em Oslo, com golos de João Félix e Gonçalo Ramos, e lidera isolado o Grupo A4 da Liga das Nações. Cristiano Ronaldo ficou no banco os 90 minutos, pela terceira vez na carreira na seleção.",
+   "img": ""
   },
   {
    "id": "rtp-1768055",
@@ -1965,7 +2225,8 @@
     "Ginástica acrobática"
    ],
    "tickers": [],
-   "resumo": "Os portugueses Lara Fernandes e André Fiúza foram vice-campeões do mundo de ginástica acrobática no combinado de pares mistos, em Pesaro, e ganharam ainda o bronze no exercício dinâmico."
+   "resumo": "Os portugueses Lara Fernandes e André Fiúza foram vice-campeões do mundo de ginástica acrobática no combinado de pares mistos, em Pesaro, e ganharam ainda o bronze no exercício dinâmico.",
+   "img": ""
   },
   {
    "id": "rtp-1768051",
@@ -1981,7 +2242,8 @@
     "Superbikes"
    ],
    "tickers": [],
-   "resumo": "Nicolò Bulega (Ducati) sagrou-se campeão mundial de Superbikes ao terminar em segundo em Cremona, corrida em que o português Miguel Oliveira (BMW) desistiu após uma queda."
+   "resumo": "Nicolò Bulega (Ducati) sagrou-se campeão mundial de Superbikes ao terminar em segundo em Cremona, corrida em que o português Miguel Oliveira (BMW) desistiu após uma queda.",
+   "img": ""
   }
  ],
  "contracts": {},
