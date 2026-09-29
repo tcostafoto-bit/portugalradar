@@ -1,18 +1,20 @@
 {
- "version": "1.1.17",
- "updated": "2026-09-29T22:16:08Z",
+ "version": "1.1.18",
+ "updated": "2026-09-29T23:14:59Z",
  "brief": [
   {
-   "texto": "Presidente da República promulga suplemento extraordinário para pensionistas, a pagar em dezembro."
+   "texto": "Sindicatos da banca afetos à UGT convocam greve para 30 de novembro, contra uma proposta de aumentos de 2%."
   },
   {
-   "texto": "Sindicatos da banca ligados à UGT convocam greve para 30 de novembro e juntam-se ao SNQTB."
+   "texto": "O Presidente da República promulgou o suplemento extraordinário para pensionistas, a pagar em dezembro."
   },
   {
-   "texto": "Caso das gémeas: PSD acusa o Chega de querer pôr o Parlamento a fazer trabalho da polícia."
+   "texto": "O Governo retoma as negociações do Orçamento do Estado para 2027 com os partidos, entre críticas da oposição.",
+   "id": "obs-oe27-negociacoes-partidos"
   },
   {
-   "texto": "Euribor a seis meses atinge novo máximo desde setembro de 2024."
+   "texto": "A Seleção prepara em Malmo o jogo com a Dinamarca, com Francisco Conceição em dúvida.",
+   "id": "rtp-1768376"
   }
  ],
  "items": [
