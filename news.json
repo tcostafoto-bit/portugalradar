@@ -1,11 +1,10 @@
 {
- "version": "1.1.3",
- "updated": "2026-09-29T10:14:00Z",
+ "version": "1.1.4",
+ "updated": "2026-09-29T11:13:23Z",
  "brief": [
-  "Portugal-Dinamarca da Liga das Nações é na quinta-feira e Francisco Conceição continua em dúvida.",
-  "O MAI reúne-se hoje com sindicatos da PSP e associações da GNR, depois do protesto de cerca de 200 agentes no Porto.",
-  "O Governo espera não ter de racionar combustível, enquanto PS e Chega criticam a falta de apoios às famílias no OE27.",
-  "O IPMA mantém avisos amarelos de chuva e vento no Norte e Centro."
+  "O Governo espera não ter de racionar combustível, enquanto PS e Chega dizem que o OE27 não inclui apoios às famílias.",
+  "O ministro da Administração Interna reúne-se hoje com sindicatos da PSP e associações da GNR, um dia depois de protestos no Porto.",
+  "Aviso amarelo de chuva e vento em vários distritos do Norte e Centro, e a Seleção prepara em Malmo o jogo com a Dinamarca."
  ],
  "items": [
   {
@@ -728,6 +727,22 @@
    "resumo": "O Brasil vai a votos para a Presidência com Lula da Silva e Flávio Bolsonaro empatados nas sondagens."
   },
   {
+   "id": "rtp-1768305",
+   "ts": "2026-09-28T21:08:15Z",
+   "source": "RTP",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/mundo/sissoco-embalo-anuncia-candidatura-as-presidenciais-da-guine-bissau_n1768305",
+   "title": "Sissoco Embaló anuncia candidatura às presidenciais da Guiné-Bissau",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Guiné-Bissau"
+   ],
+   "tickers": [],
+   "resumo": "O antigo presidente guineense, exilado em Marrocos, anunciou que se candidata às presidenciais da Guiné-Bissau. Diz que o regresso a Bissau está próximo."
+  },
+  {
    "id": "rtp-1768274",
    "ts": "2026-09-28T19:21:47Z",
    "source": "RTP Desporto",
@@ -863,6 +878,22 @@
    "resumo": "Maria Rueff criticou o prémio especial de 30 anos atribuído a Ricardo Araújo Pereira nos Globos de Ouro, falando em falta de memória da SIC por ignorar outros humoristas que fizeram história."
   },
   {
+   "id": "as-f1-pirelli-2027",
+   "ts": "2026-09-28T16:00:44Z",
+   "source": "AutoSport",
+   "lado": "pt",
+   "url": "https://www.autosport.pt/formula1/f1-pirelli-devera-aumentar-a-degradacao-dos-pneus-de-2027/",
+   "title": "F1: Pirelli deverá aumentar a degradação dos pneus de 2027",
+   "topic": "desporto",
+   "sub": "motores",
+   "impacto": "baixo",
+   "setores": [
+    "Fórmula 1"
+   ],
+   "tickers": [],
+   "resumo": "A Pirelli está a desenvolver pneus com maior degradação para a época de 2027 da Fórmula 1. O objetivo é aumentar a variedade estratégica, depois de várias corridas de 2026 com pneus mais duráveis do que o desejado."
+  },
+  {
    "id": "as-f1-mercedes-vitorias",
    "ts": "2026-09-28T15:13:57Z",
    "source": "AutoSport",
@@ -894,6 +925,23 @@
    ],
    "tickers": [],
    "resumo": "Um voo da Delta com destino a Nova Iorque foi obrigado a regressar a Lisboa, no segundo incidente com um avião da companhia em Portugal em dois dias."
+  },
+  {
+   "id": "cnn-6aba6e61d34e53c759c741a4",
+   "ts": "2026-09-28T14:00:00Z",
+   "source": "CNN Portugal",
+   "lado": "pt",
+   "url": "https://cnnportugal.iol.pt/guerra/ucrania/uniao-europeia-esta-a-criar-uma-resposta-tipo-nato-contra-os-ataques-hibridos-russos/20260928/6aba6e61d34e53c759c741a4",
+   "title": "União Europeia está a criar uma resposta tipo NATO contra os ataques híbridos russos",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "UE",
+    "Rússia"
+   ],
+   "tickers": [],
+   "resumo": "A União Europeia está a desenvolver um mecanismo semelhante ao artigo 4.º da NATO. Permitirá aos aliados pedir consultas de emergência quando a segurança for ameaçada por ataques híbridos russos."
   },
   {
    "id": "cnn-6aba6bf4d34e53c759c74196",
@@ -1061,6 +1109,22 @@
    "resumo": "Andreas Schjelderup, avançado do Benfica e da Noruega, lamentou a derrota por 2-1 com Portugal e considera que a sua equipa merecia os três pontos pelas oportunidades criadas."
   },
   {
+   "id": "rtp-d1768185",
+   "ts": "2026-09-28T11:30:57Z",
+   "source": "RTP Desporto",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/tenis/francisco-cabral-na-final-de-pares-em-hangzhou_d1768185",
+   "title": "Francisco Cabral na final de pares em Hangzhou",
+   "topic": "desporto",
+   "sub": "tenis",
+   "impacto": "baixo",
+   "setores": [
+    "ATP"
+   ],
+   "tickers": [],
+   "resumo": "Francisco Cabral e o norte-americano JJ Tracy chegaram à final de pares em Hangzhou, ao eliminarem Jean-Julien Rojer e Theodore Winegar."
+  },
+  {
    "id": "cnn-6aba4d9dd34e9a786e759ecc",
    "ts": "2026-09-28T11:25:00Z",
    "source": "CNN Portugal",
@@ -1092,6 +1156,22 @@
    ],
    "tickers": [],
    "resumo": "O IPMA colocou sete distritos sob aviso amarelo por trovoadas, chuva forte, granizo e rajadas até 90 km/h. As temperaturas devem descer em todo o país nos próximos dias."
+  },
+  {
+   "id": "cnn-6aba41cfd34e53c759c74128",
+   "ts": "2026-09-28T10:57:00Z",
+   "source": "CNN Portugal",
+   "lado": "pt",
+   "url": "https://cnnportugal.iol.pt/papa-leao-xiv/leao-xiv/leao-xiv-pede-a-europa-que-intervenha-perante-relacoes-as-cada-vez-mais-barbaras-entre-estados/20260928/6aba41cfd34e53c759c74128",
+   "title": "Leão XIV pede à Europa que intervenha perante as relações \"cada vez mais bárbaras\" entre Estados",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "baixo",
+   "setores": [
+    "Vaticano"
+   ],
+   "tickers": [],
+   "resumo": "Na visita a Metz, o Papa Leão XIV apelou à Europa para que intervenha perante relações cada vez mais hostis entre Estados."
   },
   {
    "id": "cnn-6aba44e1d34e53c759c74135",
@@ -1126,6 +1206,22 @@
    ],
    "tickers": [],
    "resumo": "A União Europeia aprovou o pacote farmacêutico que impõe novas obrigações à indústria para melhorar o acesso a medicamentos e reduzir falhas de abastecimento."
+  },
+  {
+   "id": "cnn-6aba3732d34e9a786e759e87",
+   "ts": "2026-09-28T10:24:00Z",
+   "source": "CNN Portugal",
+   "lado": "pt",
+   "url": "https://cnnportugal.iol.pt/peter-magyar/imunidade/parlamento-hungaro-levanta-imunidade-do-primeiro-ministro-peter-magyar-vai-responder-por-alegado-roubo-de-um-telemovel/20260928/6aba3732d34e9a786e759e87",
+   "title": "Parlamento húngaro levanta imunidade do primeiro-ministro Péter Magyar",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Hungria"
+   ],
+   "tickers": [],
+   "resumo": "O Parlamento húngaro levantou a imunidade do primeiro-ministro Péter Magyar. Vai responder por um alegado roubo de um telemóvel."
   },
   {
    "id": "cnn-6aba3fb7d34e53c759c74124",
@@ -1193,6 +1289,22 @@
    ],
    "tickers": [],
    "resumo": "O Turismo de Portugal contratou uma plataforma francesa para automatizar a deteção e o bloqueio de sites ilegais de jogo online."
+  },
+  {
+   "id": "hn-histamina-psiquiatricas",
+   "ts": "2026-09-28T08:40:51Z",
+   "source": "HealthNews",
+   "lado": "pt",
+   "url": "https://healthnews.pt/2026/09/28/histamina-pode-ser-novo-alvo-terapeutico-em-doencas-psiquiatricas/",
+   "title": "Histamina pode ser novo alvo terapêutico em doenças psiquiátricas",
+   "topic": "saude",
+   "sub": "",
+   "impacto": "baixo",
+   "setores": [
+    "Investigação"
+   ],
+   "tickers": [],
+   "resumo": "Um estudo internacional liderado por investigadores da Universidade do Porto revela o papel da histamina no funcionamento do cérebro e na regulação emocional. Os resultados sugerem possíveis aplicações terapêuticas em doenças psiquiátricas."
   },
   {
    "id": "hn-mafra-centro-saude",
