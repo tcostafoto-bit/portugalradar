@@ -407,7 +407,8 @@ footer a{color:inherit}
   .hero{min-height:0}
   .hero .im{position:relative;aspect-ratio:16/10}
   .hero .im::after{display:none}
-  .hero .c{background:var(--ink);padding:18px 16px 18px}
+  .hero:not(.noimg) .c{background:var(--ink)}
+  .hero .c{padding:18px 16px 18px}
   .hero h2{font-size:28px}
   .hero p{font-size:16px}
   .secs{grid-template-columns:1fr}
