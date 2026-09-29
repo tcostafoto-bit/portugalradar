@@ -1,7 +1,15 @@
 {
- "version": "1.1.12",
- "updated": "2026-09-29T17:15:09Z",
+ "version": "1.1.13",
+ "updated": "2026-09-29T18:14:04Z",
  "recent": [
+  {
+   "id": "ng-diogo-marcelino-bb",
+   "ts": "2026-09-29T18:00:00Z",
+   "topic": "rosa",
+   "sub": "reality",
+   "source": "Nova Gente",
+   "title": "A inesperada razão pelo qual Diogo Marcelino quer abandonar o Big Brother All Stars: \"Sinto que...\""
+  },
   {
    "id": "ng-magui-corceiro-kika",
    "ts": "2026-09-29T16:30:47Z",
@@ -755,6 +763,14 @@
    "title": "Português de 29 anos morre em acidente de trabalho na Suíça"
   },
   {
+   "id": "rtp-1768309",
+   "ts": "2026-09-28T21:36:47Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "RTP",
+   "title": "Irão pronto para \"guerra apocalíptica\" mas não exclui diplomacia"
+  },
+  {
    "id": "rtp-1768303",
    "ts": "2026-09-28T21:30:38Z",
    "topic": "politica",
@@ -945,22 +961,6 @@
    "sub": "selecao",
    "source": "RTP Desporto",
    "title": "Portugal-Noruega. Elogio de Jesus e Ronaldo titular na Dinamarca"
-  },
-  {
-   "id": "cnn-6aba6039d34e53c759c7418b",
-   "ts": "2026-09-28T12:39:51Z",
-   "topic": "saude",
-   "sub": "",
-   "source": "CNN Portugal",
-   "title": "Vacina contra a zona: associações denunciam que só quem pode pagar tem acesso"
-  },
-  {
-   "id": "zz-1216954",
-   "ts": "2026-09-28T12:20:18Z",
-   "topic": "desporto",
-   "sub": "selecao",
-   "source": "zerozero",
-   "title": "Dinamarca com baixa de peso para a receção a Portugal"
   }
  ],
  "paired": [

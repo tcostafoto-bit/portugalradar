@@ -1,21 +1,40 @@
 {
- "version": "1.1.12",
- "updated": "2026-09-29T17:15:09Z",
+ "version": "1.1.13",
+ "updated": "2026-09-29T18:14:04Z",
  "brief": [
   {
-   "texto": "Presidente da República promulga suplemento extraordinário para pensionistas, a pagar em dezembro."
+   "texto": "Presidente da República promulga o suplemento extraordinário para pensionistas, a pagar em dezembro."
   },
   {
-   "texto": "Sindicatos da banca ligados à UGT convocam greve para 30 de novembro."
+   "texto": "Sindicatos da banca ligados à UGT convocam greve para 30 de novembro contra aumentos de apenas 2%."
   },
   {
-   "texto": "Caso das gémeas: PSD acusa o Chega de querer que o Parlamento faça o trabalho da polícia."
+   "texto": "Caso das gémeas: acusação diz que a mãe pediu apoio para leite tendo mais de 100 mil euros na conta.",
+   "id": "cm-daniela-martins-100mil"
   },
   {
-   "texto": "Ronaldo não treinou com a Seleção depois de não ter entrado no jogo com a Noruega."
+   "texto": "Ronaldo falta ao treino da Seleção depois de ficar no banco frente à Noruega."
   }
  ],
  "items": [
+  {
+   "id": "ng-diogo-marcelino-bb",
+   "ts": "2026-09-29T18:00:00Z",
+   "source": "Nova Gente",
+   "lado": "pt",
+   "url": "https://www.novagente.pt/a-inesperada-razao-pelo-qual-diogo-marcelino-quer-abandonar-o-big-brother-all-stars-sinto-que/",
+   "title": "A inesperada razão pelo qual Diogo Marcelino quer abandonar o Big Brother All Stars: \"Sinto que...\"",
+   "topic": "rosa",
+   "sub": "reality",
+   "impacto": "medio",
+   "setores": [
+    "Big Brother All Stars",
+    "TVI"
+   ],
+   "tickers": [],
+   "resumo": "Diogo Marcelino, nomeado para expulsão no Big Brother All Stars, admite pela primeira vez que já não se identifica com o ambiente da casa.",
+   "img": ""
+  },
   {
    "id": "ng-magui-corceiro-kika",
    "ts": "2026-09-29T16:30:47Z",
@@ -1647,6 +1666,24 @@
    "tickers": [],
    "resumo": "Um português de 29 anos morreu num acidente de trabalho em Bad Ragaz, no cantão de St. Gallen, na Suíça. A informação foi divulgada pelas autoridades do cantão.",
    "img": ""
+  },
+  {
+   "id": "rtp-1768309",
+   "ts": "2026-09-28T21:36:47Z",
+   "source": "RTP",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/mundo/irao-pronto-para-guerra-apocaliptica-mas-nao-exclui-diplomacia_v1768309",
+   "title": "Irão pronto para \"guerra apocalíptica\" mas não exclui diplomacia",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Irão",
+    "EUA"
+   ],
+   "tickers": [],
+   "resumo": "O Irão diz estar pronto para uma guerra apocalíptica com os Estados Unidos, mas não exclui a via diplomática.",
+   "img": "https://cdn-images.rtp.pt/icm/noticias/images/29/2965fc20ca784e004a0b3b6a95f21387?w=350&q=50&rect=20,0,1459,800&auto=format"
   },
   {
    "id": "rtp-1768303",
