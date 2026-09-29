@@ -1,0 +1,1372 @@
+{
+ "version": "1.1.3",
+ "updated": "2026-09-29T10:14:00Z",
+ "brief": [
+  "Portugal-Dinamarca da Liga das Nações é na quinta-feira e Francisco Conceição continua em dúvida.",
+  "O MAI reúne-se hoje com sindicatos da PSP e associações da GNR, depois do protesto de cerca de 200 agentes no Porto.",
+  "O Governo espera não ter de racionar combustível, enquanto PS e Chega criticam a falta de apoios às famílias no OE27.",
+  "O IPMA mantém avisos amarelos de chuva e vento no Norte e Centro."
+ ],
+ "items": [
+  {
+   "id": "ipma-precipitacao-amarelo-20260929",
+   "ts": "2026-09-29T09:13:00Z",
+   "source": "IPMA",
+   "lado": "pt",
+   "url": "https://www.ipma.pt/pt/otempo/prev-sam/",
+   "title": "Aviso amarelo de precipitação em sete distritos",
+   "topic": "tempo",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Aviso amarelo",
+    "Chuva"
+   ],
+   "tickers": [],
+   "resumo": "Aviso amarelo para chuva persistente, por vezes forte, nos distritos de Viana do Castelo, Braga, Vila Real, Porto, Aveiro, Coimbra e Viseu, com início a partir das 15h de hoje e até à manhã de quarta-feira."
+  },
+  {
+   "id": "ng-miguel-vicente-bb",
+   "ts": "2026-09-29T09:00:00Z",
+   "source": "Nova Gente",
+   "lado": "pt",
+   "url": "https://www.novagente.pt/codigo-secreto-o-gesto-suspeito-de-miguel-vicente-que-ninguem-viu-no-big-brother/",
+   "title": "Código secreto? O gesto suspeito de Miguel Vicente que ninguém viu no Big Brother",
+   "topic": "rosa",
+   "sub": "reality",
+   "impacto": "baixo",
+   "setores": [
+    "Big Brother",
+    "TVI"
+   ],
+   "tickers": [],
+   "resumo": "Espetadores do Big Brother All Stars especulam que um fogo de artifício foi um sinal para Catarina Miranda, mas Miguel Vicente diz que era para ele."
+  },
+  {
+   "id": "rtp-1768376",
+   "ts": "2026-09-29T08:36:01Z",
+   "source": "RTP Desporto",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/futebol-internacional/selecao-portuguesa-treina-em-malmo-com-conceicao-em-duvida_d1768376",
+   "title": "Seleção portuguesa treina em Malmo com Conceição em dúvida",
+   "topic": "desporto",
+   "sub": "selecao",
+   "impacto": "medio",
+   "setores": [
+    "Liga das Nações",
+    "Seleção"
+   ],
+   "tickers": [],
+   "resumo": "A seleção prepara em Malmo o jogo de quinta-feira com a Dinamarca. Bruno Fernandes já treinou sem limitações e está recuperado; Francisco Conceição entrou no boletim clínico e é dúvida."
+  },
+  {
+   "id": "lusa-47853862",
+   "ts": "2026-09-29T08:33:00Z",
+   "source": "Lusa",
+   "lado": "pt",
+   "url": "https://www.lusa.pt/article/47853862/redução-da-ajuda-ameaça-mais-de-oito-milhões-de-refugiados-e-deslocados-onu",
+   "title": "Redução da ajuda ameaça mais de oito milhões de refugiados e deslocados - ONU",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "ONU"
+   ],
+   "tickers": [],
+   "resumo": "A ONU alerta que os cortes orçamentais levam as organizações de apoio a refugiados ao ponto de rutura. Cerca de 8,3 milhões de pessoas arriscam ficar sem ajuda este ano."
+  },
+  {
+   "id": "lusa-47853831",
+   "ts": "2026-09-29T08:15:00Z",
+   "source": "Lusa",
+   "lado": "pt",
+   "url": "https://www.lusa.pt/article/47853831/revelada-lista-dos-artistas-que-vão-atuar-nos-concertos-para-celebrar-luís-represas",
+   "title": "Revelada lista dos artistas que vão atuar nos concertos para celebrar Luís Represas",
+   "topic": "cultura",
+   "sub": "",
+   "impacto": "baixo",
+   "setores": [
+    "Música"
+   ],
+   "tickers": [],
+   "resumo": "Camané, Luísa Sobral, Mafalda Veiga, Rui Veloso, Marisa Liz e Ricardo Ribeiro atuam nos concertos de homenagem a Luís Represas, em Lisboa e no Porto, em abril."
+  },
+  {
+   "id": "rtp-1768360",
+   "ts": "2026-09-29T08:04:47Z",
+   "source": "RTP",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/mundo/papa-leao-xiv-alerta-para-os-perigos-reais-da-inteligencia-artificial_v1768360",
+   "title": "Papa Leão XIV alerta para os perigos reais da Inteligência Artificial",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Vaticano",
+    "IA"
+   ],
+   "tickers": [],
+   "resumo": "O Papa Leão XIV avisou que os alertas sobre os perigos da inteligência artificial devem ser levados a sério e não podem ser desvalorizados como fake news."
+  },
+  {
+   "id": "rtp-1768358",
+   "ts": "2026-09-29T08:01:47Z",
+   "source": "RTP",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/mundo/eleicoes-sao-tome-ambos-os-partidos-reclamam-vitoria_v1768358",
+   "title": "Eleições São Tomé. Ambos os partidos reclamam vitória",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "São Tomé",
+    "Eleições"
+   ],
+   "tickers": [],
+   "resumo": "Os dois principais partidos reclamam vitória nas eleições em São Tomé e Príncipe. Os dados provisórios apontam para uma vantagem tangencial do MLSTP."
+  },
+  {
+   "id": "ng-andrea-francisco-monteiro",
+   "ts": "2026-09-29T08:00:00Z",
+   "source": "Nova Gente",
+   "lado": "pt",
+   "url": "https://www.novagente.pt/andrea-quebra-o-silencio-e-fala-sobre-romance-com-francisco-monteiro-ninguem-conhece-a-nossa-relacao-e/",
+   "title": "Andrea quebra o silêncio e fala sobre romance com Francisco Monteiro",
+   "topic": "rosa",
+   "sub": "reality",
+   "impacto": "baixo",
+   "setores": [
+    "Big Brother",
+    "TVI"
+   ],
+   "tickers": [],
+   "resumo": "Andrea Pestana falou nas redes sociais da relação com Francisco Monteiro, do Big Brother, dizendo que \"ninguém conhece a relação\" e rejeitando acusações de dependência emocional."
+  },
+  {
+   "id": "lusa-47853840",
+   "ts": "2026-09-29T08:00:00Z",
+   "source": "Lusa",
+   "lado": "pt",
+   "url": "https://www.lusa.pt/article/47853840/qualidade-da-água-da-torneira-quase-a-100-relatório",
+   "title": "Qualidade da água da torneira quase a 100% - relatório",
+   "topic": "outros",
+   "sub": "",
+   "impacto": "baixo",
+   "setores": [
+    "Água"
+   ],
+   "tickers": [],
+   "resumo": "Um relatório oficial indica que a qualidade da água da torneira em Portugal ronda os 100% de conformidade com os padrões exigidos."
+  },
+  {
+   "id": "lusa-47853808",
+   "ts": "2026-09-29T07:27:00Z",
+   "source": "Lusa",
+   "lado": "pt",
+   "url": "https://www.lusa.pt/article/47853808/pelo-menos-50-mortos-ataque-aéreo-mercado-myanmar",
+   "title": "Pelo menos 50 mortos em ataque aéreo contra mercado no Myanmar - Novo balanço",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "alto",
+   "setores": [
+    "Myanmar"
+   ],
+   "tickers": [],
+   "resumo": "Um ataque aéreo contra um mercado no Myanmar fez pelo menos 50 mortos, segundo o novo balanço divulgado hoje."
+  },
+  {
+   "id": "rtp-1768351",
+   "ts": "2026-09-29T07:10:11Z",
+   "source": "RTP",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/pais/ocorrencias-nas-escolas-aumentaram-no-ultimo-ano-letivo-para-mais-de-4000_n1768351",
+   "title": "Ocorrências nas escolas aumentaram no último ano letivo para mais de 4.000",
+   "topic": "justica",
+   "sub": "",
+   "impacto": "alto",
+   "setores": [
+    "PSP",
+    "Escolas"
+   ],
+   "tickers": [],
+   "resumo": "A PSP registou 4.075 ocorrências nas escolas no último ano letivo, mais 4,6% do que no anterior. Os crimes de ofensas corporais e com armas atingiram máximos de cinco anos e também subiram as ofensas sexuais e o tráfico de droga."
+  },
+  {
+   "id": "rtp-1768101",
+   "ts": "2026-09-29T07:02:01Z",
+   "source": "RTP",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/politica/goncalo-matias-responde-a-passos-temos-quatro-anos-para-fazer-as-reformas_v1768101",
+   "title": "Gonçalo Matias responde a Passos: \"Temos quatro anos para fazer as reformas\"",
+   "topic": "politica",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Governo",
+    "Reforma do Estado"
+   ],
+   "tickers": [],
+   "resumo": "O ministro adjunto e da Reforma do Estado concorda com Passos Coelho na urgência das reformas, mas recusa a ideia de que não há tempo: o Governo tem quatro anos para as fazer."
+  },
+  {
+   "id": "ng-marta-melro",
+   "ts": "2026-09-29T07:00:06Z",
+   "source": "Nova Gente",
+   "lado": "pt",
+   "url": "https://www.novagente.pt/tudo-sobre-andre-drogas-o-novo-namorado-de-marta-melro/",
+   "title": "Tudo sobre André Drogas, o novo namorado de Marta Melro",
+   "topic": "rosa",
+   "sub": "famosos",
+   "impacto": "baixo",
+   "setores": [
+    "Famosos"
+   ],
+   "tickers": [],
+   "resumo": "Marta Melro confirmou que namora com o fotógrafo André Drogas, três anos depois da separação de Paulo Vintém."
+  },
+  {
+   "id": "as-rali-sardenha-titulo",
+   "ts": "2026-09-29T06:54:36Z",
+   "source": "AutoSport",
+   "lado": "pt",
+   "url": "https://www.autosport.pt/ralis/rally-da-sardenha-luta-a-tres-pelo-titulo-mundial-de-ralis/",
+   "title": "Rally da Sardenha: Luta a três pelo título Mundial de Ralis",
+   "topic": "desporto",
+   "sub": "motores",
+   "impacto": "baixo",
+   "setores": [
+    "Mundial de Ralis"
+   ],
+   "tickers": [],
+   "resumo": "O Mundial de Ralis termina na Sardenha com três candidatos ao título: Elfyn Evans lidera e precisa de 19 pontos, Sami Pajari está a 17 e Oliver Solberg a 21."
+  },
+  {
+   "id": "rtp-1768342",
+   "ts": "2026-09-29T06:39:48Z",
+   "source": "RTP",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/mundo/china-pede-ao-japao-que-retifique-posicao-sobre-taiwan-para-superar-crise-bilateral_n1768342",
+   "title": "China pede ao Japão que retifique posição sobre Taiwan para superar crise bilateral",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "China",
+    "Japão"
+   ],
+   "tickers": [],
+   "resumo": "O chefe da diplomacia chinesa, Wang Yi, pediu ao Japão que corrija o mais depressa possível as suas palavras e ações sobre Taiwan, condição para superar a crise bilateral."
+  },
+  {
+   "id": "rtp-1768346",
+   "ts": "2026-09-29T06:32:03Z",
+   "source": "RTP",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/mundo/governo-espanhol-pressionado-nas-ruas-a-aprovar-hoje-decreto-para-habitacao_n1768346",
+   "title": "Governo espanhol pressionado nas ruas a aprovar hoje decreto para habitação",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Habitação",
+    "Espanha"
+   ],
+   "tickers": [],
+   "resumo": "O Conselho de Ministros de Espanha reúne-se hoje para aprovar um decreto que proteja os inquilinos de despejos e de aumentos descontrolados das rendas. O Governo é pressionado por protestos que levaram milhares de pessoas às ruas."
+  },
+  {
+   "id": "rtp-1768344",
+   "ts": "2026-09-29T06:23:02Z",
+   "source": "RTP",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/noticiario-antena1/6h-governador-do-bdp-lamenta-atrasos-de-decadas-no-novo-aeroporto_a1_1768344",
+   "title": "Governador do BdP lamenta atrasos de décadas no novo aeroporto",
+   "topic": "economia",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Aeroporto"
+   ],
+   "tickers": [],
+   "resumo": "O governador do Banco de Portugal lamentou os atrasos de décadas na construção do novo aeroporto."
+  },
+  {
+   "id": "rtp-1768338",
+   "ts": "2026-09-29T06:16:31Z",
+   "source": "RTP",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/pais/mai-volta-hoje-a-reunir-se-com-sindicatos-da-psp-e-associacoes-da-gnr_n1768338",
+   "title": "MAI volta hoje a reunir-se com sindicatos da PSP e associações da GNR",
+   "topic": "politica",
+   "sub": "",
+   "impacto": "alto",
+   "setores": [
+    "PSP",
+    "GNR",
+    "MAI"
+   ],
+   "tickers": [],
+   "resumo": "O ministro da Administração Interna reúne-se hoje com os sindicatos da PSP e as associações da GNR para negociar a reestruturação dos suplementos e a revisão do estatuto profissional. Na véspera, cerca de 200 polícias e guardas manifestaram-se em silêncio no Porto."
+  },
+  {
+   "id": "zz-1217110",
+   "ts": "2026-09-29T06:00:03Z",
+   "source": "zerozero",
+   "lado": "pt",
+   "url": "https://www.zerozero.pt/noticias/aguas-santas-e-benfica-dao-inicio-a-missao-na-ehf-european-league/1217110",
+   "title": "Águas Santas e Benfica dão início à missão na EHF European League",
+   "topic": "desporto",
+   "sub": "andebol",
+   "impacto": "baixo",
+   "setores": [
+    "Andebol"
+   ],
+   "tickers": [],
+   "resumo": "Águas Santas e Benfica iniciam a campanha na EHF European League de andebol. Os maiatos deslocam-se à Roménia e o Benfica recebe uma equipa espanhola."
+  },
+  {
+   "id": "rtp-1768335",
+   "ts": "2026-09-29T05:55:36Z",
+   "source": "RTP",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/economia/openai-admite-falha-em-alerta-sobre-intrusao-de-ia-em-plataformas-do-governo-da-australia_n1768335",
+   "title": "OpenAI admite falha em alerta sobre intrusão de IA em plataformas do Governo da Austrália",
+   "topic": "tecnologia",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "IA",
+    "Ciber"
+   ],
+   "tickers": [],
+   "resumo": "A OpenAI reconheceu que deveria ter informado \"mais cedo\" as autoridades australianas sobre uma intrusão dos seus modelos de inteligência artificial em várias plataformas eletrónicas do Governo."
+  },
+  {
+   "id": "rtp-1768333",
+   "ts": "2026-09-29T05:48:41Z",
+   "source": "RTP",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/guerra-no-medio-oriente/teerao-afirma-que-aguarda-resposta-dos-eua-apos-conversacoes-indiretas_n1768333",
+   "title": "Teerão afirma que aguarda resposta dos EUA após conversações indiretas",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "alto",
+   "setores": [
+    "Irão",
+    "EUA",
+    "Médio Oriente"
+   ],
+   "tickers": [],
+   "resumo": "O ministro dos Negócios Estrangeiros iraniano diz que Teerão aguarda a resposta dos EUA depois de conversações indiretas, via Qatar, para pôr fim à guerra. Na véspera, o Irão dissera estar pronto para uma guerra apocalíptica sem excluir a diplomacia."
+  },
+  {
+   "id": "rtp-1768332",
+   "ts": "2026-09-29T05:43:09Z",
+   "source": "RTP",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/mundo/rubio-afirma-que-ator-estrangeiro-esta-envolvido-em-conspiracao-contra-base-britanica_n1768332",
+   "title": "Rubio afirma que \"ator estrangeiro\" está envolvido em conspiração contra base britânica",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Terrorismo",
+    "EUA"
+   ],
+   "tickers": [],
+   "resumo": "O secretário de Estado norte-americano, Marco Rubio, afirmou que um \"ator estrangeiro\" esteve envolvido na suposta conspiração terrorista contra a base aérea britânica de RAF Fairford, usada pelas forças norte-americanas."
+  },
+  {
+   "id": "rtp-1768329",
+   "ts": "2026-09-29T05:40:50Z",
+   "source": "RTP",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/mundo/trump-revoga-normas-que-protegem-alunos-lgbti-de-discriminacao-sexual_n1768329",
+   "title": "Trump revoga normas que protegem alunos LGBTI de discriminação sexual",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Estados Unidos"
+   ],
+   "tickers": [],
+   "resumo": "O Governo dos Estados Unidos revogou formalmente as normas da administração Biden que alargavam as proteções contra a discriminação sexual à orientação sexual nas escolas."
+  },
+  {
+   "id": "eco-seguros-iberico",
+   "ts": "2026-09-29T05:40:00Z",
+   "source": "ECO",
+   "lado": "pt",
+   "url": "https://eco.sapo.pt/2026/09/29/dona-da-bpi-vep-lidera-ranking-iberico-dos-seguros-fidelidade-e-setima/",
+   "title": "Dona da BPI VeP lidera ranking ibérico dos seguros, Fidelidade é sétima",
+   "topic": "economia",
+   "sub": "",
+   "impacto": "baixo",
+   "setores": [
+    "Seguros"
+   ],
+   "tickers": [],
+   "resumo": "O mercado segurador ibérico chegou aos 102,4 mil milhões de euros em prémios em 2025. A VidaCaixa lidera com 11,8 mil milhões e a Fidelidade é sétima, mantendo a liderança em Portugal."
+  },
+  {
+   "id": "eco-fisco-ice",
+   "ts": "2026-09-29T05:39:16Z",
+   "source": "ECO",
+   "lado": "pt",
+   "url": "https://eco.sapo.pt/2026/09/29/fisco-trava-uso-de-dividendos-antigos-no-incentivo-a-capitalizacao-das-empresas/",
+   "title": "Fisco trava uso de dividendos antigos no incentivo à capitalização das empresas",
+   "topic": "economia",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Impostos",
+    "Empresas"
+   ],
+   "tickers": [],
+   "resumo": "A Autoridade Tributária esclareceu que dividendos antigos já reconhecidos não contam para o Incentivo à Capitalização das Empresas (ICE): só os lucros retidos no próprio exercício contam como aumento elegível de capitais próprios."
+  },
+  {
+   "id": "eco-invencoes-43",
+   "ts": "2026-09-29T05:37:44Z",
+   "source": "ECO",
+   "lado": "pt",
+   "url": "https://eco.sapo.pt/2026/09/29/pedidos-de-invencoes-disparam-43-em-portugal/",
+   "title": "Pedidos de invenções disparam 43% em Portugal",
+   "topic": "tecnologia",
+   "sub": "",
+   "impacto": "baixo",
+   "setores": [
+    "Patentes",
+    "INPI"
+   ],
+   "tickers": [],
+   "resumo": "Foram apresentados 973 pedidos nacionais de proteção de invenções nos primeiros oito meses de 2026, mais 43% do que no mesmo período de 2025."
+  },
+  {
+   "id": "rtp-1768339",
+   "ts": "2026-09-29T05:24:02Z",
+   "source": "RTP",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/noticiario-antena1/5h-governo-espera-que-nao-seja-preciso-racionar-combustivel_a1_1768339",
+   "title": "Governo espera que não seja preciso racionar combustível",
+   "topic": "economia",
+   "sub": "",
+   "impacto": "alto",
+   "setores": [
+    "Combustíveis",
+    "Governo"
+   ],
+   "tickers": [],
+   "resumo": "O Governo espera que não venha a ser necessário racionar combustível em Portugal, num contexto de subida dos preços e de tensão no Médio Oriente."
+  },
+  {
+   "id": "rtp-1768330",
+   "ts": "2026-09-29T02:32:01Z",
+   "source": "RTP",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/noticiario-antena1/2h-ps-e-chega-dizem-que-oe27-nao-inclui-apoios-as-familias_a1_1768330",
+   "title": "PS e Chega dizem que OE27 não inclui apoios às famílias",
+   "topic": "politica",
+   "sub": "",
+   "impacto": "alto",
+   "setores": [
+    "OE2027",
+    "Parlamento"
+   ],
+   "tickers": [],
+   "resumo": "PS e Chega mostram-se desiludidos com as medidas do Governo para o Orçamento do Estado de 2027 e dizem que a proposta não inclui apoios às famílias."
+  },
+  {
+   "id": "rtp-1768327",
+   "ts": "2026-09-29T00:47:47Z",
+   "source": "RTP",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/pais/porto-covo-encontrados-os-dois-corpos-dos-trabalhadores-soterrados_v1768327",
+   "title": "Porto Covo. Encontrados os dois corpos dos trabalhadores soterrados",
+   "topic": "outros",
+   "sub": "",
+   "impacto": "alto",
+   "setores": [
+    "Acidente de trabalho",
+    "Sines"
+   ],
+   "tickers": [],
+   "resumo": "Dois trabalhadores morreram soterrados durante uma escavação na obra de um hotel em Porto Covo. Os dois corpos foram encontrados durante a noite."
+  },
+  {
+   "id": "caras-diana-chaves-globos",
+   "ts": "2026-09-29T00:37:29Z",
+   "source": "Caras",
+   "lado": "pt",
+   "url": "https://caras.pt/famosos/2026-09-29-diana-chaves-surge-em-direto-com-marca-no-rosto-e-revela-incidente-nos-globos-de-ouro/",
+   "title": "Diana Chaves surge em direto com marca no rosto e revela incidente nos Globos de Ouro",
+   "topic": "rosa",
+   "sub": "famosos",
+   "impacto": "baixo",
+   "setores": [
+    "SIC",
+    "Globos de Ouro"
+   ],
+   "tickers": [],
+   "resumo": "Diana Chaves apareceu em direto no Casa Feliz com um ferimento no nariz e explicou que foi um arranhão nos bastidores da gala dos Globos de Ouro da SIC."
+  },
+  {
+   "id": "rtp-1768325",
+   "ts": "2026-09-29T00:32:22Z",
+   "source": "RTP",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/pais/menos-sal-e-acucar-facilitar-a-amamentacao-dgs-lanca-orientacoes-para-alimentacao-nas-creches_n1768325",
+   "title": "Menos sal e açúcar, facilitar a amamentação. DGS lança orientações para alimentação nas creches",
+   "topic": "saude",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "DGS",
+    "Creches"
+   ],
+   "tickers": [],
+   "resumo": "A DGS publicou orientações nacionais para a alimentação nas creches: refeições diversificadas, porções adequadas à idade, menos sal, açúcar e ultraprocessados, e condições para facilitar a amamentação."
+  },
+  {
+   "id": "caras-sonia-brazao-maternidade",
+   "ts": "2026-09-29T00:08:49Z",
+   "source": "Caras",
+   "lado": "pt",
+   "url": "https://caras.pt/famosos/2026-09-29-sonia-brazao-faz-confissao-sobre-possibilidade-de-maternidade-sempre-soube/",
+   "title": "Sónia Brazão faz confissão sobre possibilidade de maternidade",
+   "topic": "rosa",
+   "sub": "famosos",
+   "impacto": "baixo",
+   "setores": [
+    "Televisão"
+   ],
+   "tickers": [],
+   "resumo": "Quinze anos após a explosão que mudou a sua vida, Sónia Brazão regressou à televisão, disse estar de novo apaixonada e falou de casamento e maternidade."
+  },
+  {
+   "id": "rtp-1768321",
+   "ts": "2026-09-28T23:26:03Z",
+   "source": "RTP",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/noticiario-antena1/23h-pr-pede-uma-estrategia-a-prazo-para-uma-nova-etapa-no-turismo_a1_1768321",
+   "title": "PR pede uma estratégia a prazo para uma nova etapa no Turismo",
+   "topic": "economia",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Turismo",
+    "Presidência"
+   ],
+   "tickers": [],
+   "resumo": "O Presidente da República pediu uma estratégia a prazo para uma nova etapa do turismo, no dia em que a Confederação do Turismo alertou que o ritmo atual de crescimento não é sustentável."
+  },
+  {
+   "id": "rtp-1768318",
+   "ts": "2026-09-28T23:15:25Z",
+   "source": "RTP",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/cultura/serie-da-rtp-jones-apresenta-um-inspetor-de-policia-com-metodos-pouco-convencionais_n1768318",
+   "title": "Série da RTP \"Jones\" apresenta um inspetor de polícia com métodos pouco convencionais",
+   "topic": "cultura",
+   "sub": "",
+   "impacto": "baixo",
+   "setores": [
+    "RTP1",
+    "Séries"
+   ],
+   "tickers": [],
+   "resumo": "Jones é a nova série da RTP1, com autoria e realização de Bruno Gascon, em seis episódios sobre a investigação do homicídio da filha mais nova da família Salvaterra."
+  },
+  {
+   "id": "rtp-d1768317",
+   "ts": "2026-09-28T23:03:30Z",
+   "source": "RTP Desporto",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/futebol-internacional/liga-nacoes-franca-vence-belgica-perto-do-fim-italia-reergue-se-na-turquia_d1768317",
+   "title": "Liga Nações. França vence Bélgica perto do fim, Itália reergue-se na Turquia",
+   "topic": "desporto",
+   "sub": "selecao",
+   "impacto": "baixo",
+   "setores": [
+    "Liga das Nações"
+   ],
+   "tickers": [],
+   "resumo": "A França isolou-se na liderança do Grupo A1 da Liga das Nações ao vencer na Bélgica com um golo perto do fim. A Itália venceu a Turquia por 4-1."
+  },
+  {
+   "id": "rtp-1768315",
+   "ts": "2026-09-28T22:42:01Z",
+   "source": "RTP",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/noticiario-antena1/22h-turismo-crescimento-atual-nao-e-sustentavel-alerta-a-confederacao-do-turismo_a1_1768315",
+   "title": "Turismo: crescimento atual não é sustentável, alerta a Confederação do Turismo",
+   "topic": "economia",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Turismo"
+   ],
+   "tickers": [],
+   "resumo": "A Confederação do Turismo alerta que o ritmo de crescimento atual do setor não é sustentável. O aviso surge no mesmo dia em que o Presidente da República pediu uma estratégia a prazo para o Turismo."
+  },
+  {
+   "id": "rtp-1768314",
+   "ts": "2026-09-28T22:27:05Z",
+   "source": "RTP",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/mundo/russia-reforca-se-com-tropas-e-misseis-norte-coreanos_n1768314",
+   "title": "Rússia reforça-se com tropas e mísseis norte-coreanos",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Ucrânia",
+    "Rússia"
+   ],
+   "tickers": [],
+   "resumo": "O Presidente ucraniano, Volodymyr Zelensky, afirmou que a Rússia vai receber reforços de tropas da Coreia do Norte. Pyongyang terá ainda fornecido a Moscovo mais mísseis balísticos."
+  },
+  {
+   "id": "rtp-1768294",
+   "ts": "2026-09-28T21:58:31Z",
+   "source": "RTP",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/pais/cerca-de-200-policias-manifestam-se-na-vespera-de-reuniao-com-mai_n1768294",
+   "title": "Cerca de 200 polícias manifestam-se na véspera de reunião com MAI",
+   "topic": "politica",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "PSP",
+    "GNR"
+   ],
+   "tickers": [],
+   "resumo": "Cerca de 200 polícias e guardas manifestaram-se em silêncio no Porto, na véspera de novas reuniões com o ministro da Administração Interna. Em discussão estão a reestruturação das carreiras e a organização do tempo de trabalho."
+  },
+  {
+   "id": "rtp-1768291",
+   "ts": "2026-09-28T21:58:13Z",
+   "source": "RTP",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/pais/quatro-em-cada-dez-interrupcoes-da-gravidez-feitas-por-mulheres-estrangeiras_n1768291",
+   "title": "Quatro em cada dez interrupções da gravidez feitas por mulheres estrangeiras",
+   "topic": "saude",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "DGS",
+    "SNS"
+   ],
+   "tickers": [],
+   "resumo": "Mais de quatro em cada dez interrupções voluntárias da gravidez em 2025 foram feitas por mulheres estrangeiras, segundo a DGS, que pede respostas adaptadas à diversidade linguística."
+  },
+  {
+   "id": "rtp-1768310",
+   "ts": "2026-09-28T21:57:54Z",
+   "source": "RTP",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/mundo/portugues-de-29-anos-morre-em-acidente-de-trabalho-na-suica_n1768310",
+   "title": "Português de 29 anos morre em acidente de trabalho na Suíça",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "baixo",
+   "setores": [
+    "Emigração"
+   ],
+   "tickers": [],
+   "resumo": "Um português de 29 anos morreu num acidente de trabalho em Bad Ragaz, no cantão de St. Gallen, na Suíça. A informação foi divulgada pelas autoridades do cantão."
+  },
+  {
+   "id": "rtp-1768303",
+   "ts": "2026-09-28T21:30:38Z",
+   "source": "RTP",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/politica/entrevista-a-andre-ventura-justica-deu-razao-ao-chega-no-caso-das-gemeas_n1768303",
+   "title": "Entrevista a André Ventura. \"Justiça deu razão ao Chega\" no caso das Gémeas",
+   "topic": "politica",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Chega",
+    "Caso das Gémeas"
+   ],
+   "tickers": [],
+   "resumo": "Em entrevista à RTP, André Ventura diz que a Justiça deu razão ao Chega no caso das gémeas e fala numa teia de interesses e cunhas que permitiu tratamento preferencial."
+  },
+  {
+   "id": "rtp-1768308",
+   "ts": "2026-09-28T21:22:07Z",
+   "source": "RTP",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/mundo/protestos-em-madrid-imobiliaria-recua-e-permite-regresso-de-maricarmen-a-casa_n1768308",
+   "title": "Protestos em Madrid. Imobiliária recua e permite regresso de Maricarmen a casa",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Espanha",
+    "Habitação"
+   ],
+   "tickers": [],
+   "resumo": "Depois de protestos massivos em Madrid, o fundo proprietário recuou e Maricarmen Abascal, de 87 anos, vai poder voltar à casa onde viveu mais de 70 anos. O Governo espanhol reúne-se hoje para aprovar um decreto contra despejos e subidas de rendas."
+  },
+  {
+   "id": "rtp-1768307",
+   "ts": "2026-09-28T21:10:48Z",
+   "source": "RTP",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/mundo/brasil-vai-a-votos-para-a-presidencia-com-empate-nas-sondagens_v1768307",
+   "title": "Brasil vai a votos para a Presidência com empate nas sondagens",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "alto",
+   "setores": [
+    "Brasil",
+    "Eleições"
+   ],
+   "tickers": [],
+   "resumo": "O Brasil vai a votos para a Presidência com Lula da Silva e Flávio Bolsonaro empatados nas sondagens."
+  },
+  {
+   "id": "rtp-1768274",
+   "ts": "2026-09-28T19:21:47Z",
+   "source": "RTP Desporto",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/futebol-nacional/apcvd-notifica-ministerio-publico-sobre-agressao-a-arbitro-no-montijo_d1768274",
+   "title": "APCVD notifica Ministério Público sobre agressão a árbitro no Montijo",
+   "topic": "desporto",
+   "sub": "liga",
+   "impacto": "medio",
+   "setores": [
+    "Arbitragem",
+    "AF Setúbal"
+   ],
+   "tickers": [],
+   "resumo": "A APCVD vai notificar o Ministério Público sobre a agressão a um árbitro assistente no Olímpico do Montijo-Cova da Piedade, da Taça da AF Setúbal, que acabou aos 43 minutos. A APAF exige uma resposta clara de todas as entidades."
+  },
+  {
+   "id": "zz-1217097",
+   "ts": "2026-09-28T18:15:06Z",
+   "source": "zerozero",
+   "lado": "pt",
+   "url": "https://www.zerozero.pt/noticias/tribunal-da-relacao-de-coimbra-volta-a-chumbar-plano-de-insolvencia-da-academica/1217097",
+   "title": "Tribunal da Relação de Coimbra volta a chumbar plano de insolvência da Académica",
+   "topic": "desporto",
+   "sub": "liga",
+   "impacto": "medio",
+   "setores": [
+    "Académica",
+    "Tribunais"
+   ],
+   "tickers": [],
+   "resumo": "O Tribunal da Relação de Coimbra voltou a rejeitar o plano de insolvência da Académica. O clube diz que vai acionar novos mecanismos legais para reverter a decisão."
+  },
+  {
+   "id": "nit-neto-compra-casa-avo",
+   "ts": "2026-09-28T18:14:34Z",
+   "source": "NiT",
+   "lado": "pt",
+   "url": "https://www.nit.pt/fora-de-casa/na-cidade/aos-87-anos-recebeu-uma-ordem-de-despejo-agora-o-neto-comprou-lhe-a-casa-em-almada",
+   "title": "Aos 87 anos, recebeu uma ordem de despejo. Agora, o neto comprou-lhe a casa em Almada",
+   "topic": "outros",
+   "sub": "",
+   "impacto": "baixo",
+   "setores": [
+    "Habitação",
+    "Almada"
+   ],
+   "tickers": [],
+   "resumo": "Esmeralda, de 87 anos, tinha recebido uma ordem de despejo da casa onde vive desde 1974, em Almada. O neto comprou-lhe a casa a 22 de setembro."
+  },
+  {
+   "id": "vip-nuno-albuquerque-gaspar",
+   "ts": "2026-09-28T18:00:30Z",
+   "source": "VIP",
+   "lado": "pt",
+   "url": "https://www.vip.pt/nuno-albuquerque-gaspar-morre-aos-38-anos-e-deixa-d-duarte-pio-de-luto-esteve-sempre-presente",
+   "title": "Morre aos 38 anos e deixa D. Duarte Pio de luto: \"Esteve sempre presente\"",
+   "topic": "rosa",
+   "sub": "realeza",
+   "impacto": "medio",
+   "setores": [
+    "Casa Real"
+   ],
+   "tickers": [],
+   "resumo": "Nuno Albuquerque Gaspar, fotógrafo próximo da Casa Real portuguesa e de D. Duarte Pio, morreu aos 38 anos, vítima de ataque cardíaco."
+  },
+  {
+   "id": "ng-bb-allstars-curva",
+   "ts": "2026-09-28T17:30:03Z",
+   "source": "Nova Gente",
+   "lado": "pt",
+   "url": "https://www.novagente.pt/big-brother-all-stars-revelado-o-que-luis-goncalves-disse-e-que-fez-francisco-monteiro-perder-a-cabeca-apos-curva-da-vida/",
+   "title": "Big Brother All Stars: revelado o que Luís disse e que fez Francisco perder a cabeça após Curva da Vida",
+   "topic": "rosa",
+   "sub": "reality",
+   "impacto": "medio",
+   "setores": [
+    "TVI",
+    "Big Brother"
+   ],
+   "tickers": [],
+   "resumo": "No Big Brother All Stars, a Curva da Vida de Francisco Monteiro, em que falou de ter vivido abaixo do limiar de pobreza, provocou uma reação forte de Luís Gonçalves e o confronto entre os dois quase chegou a vias de facto."
+  },
+  {
+   "id": "zz-1217042",
+   "ts": "2026-09-28T16:46:56Z",
+   "source": "zerozero",
+   "lado": "pt",
+   "url": "https://www.zerozero.pt/noticias/quarto-treinador-portugues-na-romenia-rui-duarte-assume-o-fc-otelul/1217042",
+   "title": "Quarto treinador português na Roménia: Rui Duarte assume o FC Otelul",
+   "topic": "desporto",
+   "sub": "lafora",
+   "impacto": "baixo",
+   "setores": [
+    "Roménia"
+   ],
+   "tickers": [],
+   "resumo": "Rui Duarte, de 48 anos, é o novo treinador do FC Otelul e o quarto técnico português no principal escalão romeno."
+  },
+  {
+   "id": "nit-the-voice-2026",
+   "ts": "2026-09-28T16:28:07Z",
+   "source": "NiT",
+   "lado": "pt",
+   "url": "https://www.nit.pt/cultura/televisao/the-voice-portugal-regressa-com-dois-novos-mentores-e-ja-tem-data-de-estreia",
+   "title": "\"The Voice Portugal\" regressa com dois novos mentores. E já tem data de estreia",
+   "topic": "cultura",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "RTP1",
+    "The Voice"
+   ],
+   "tickers": [],
+   "resumo": "O The Voice Portugal estreia a 11 de outubro na RTP1, na temporada dos 15 anos. David e Mickael Carreira juntam-se a Sónia Tavares, Fernando Daniel e Cláudia Pascoal como mentores."
+  },
+  {
+   "id": "nit-maria-rueff-globos",
+   "ts": "2026-09-28T16:24:57Z",
+   "source": "NiT",
+   "lado": "pt",
+   "url": "https://www.nit.pt/cultura/televisao/maria-rueff-reage-ao-premio-de-ricardo-araujo-pereira-nos-globos-falta-de-memoria",
+   "title": "Maria Rueff reage ao prémio de Ricardo Araújo Pereira nos Globos: \"Falta de memória\"",
+   "topic": "cultura",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "SIC",
+    "Globos de Ouro",
+    "Humor"
+   ],
+   "tickers": [],
+   "resumo": "Maria Rueff criticou o prémio especial de 30 anos atribuído a Ricardo Araújo Pereira nos Globos de Ouro, falando em falta de memória da SIC por ignorar outros humoristas que fizeram história."
+  },
+  {
+   "id": "as-f1-mercedes-vitorias",
+   "ts": "2026-09-28T15:13:57Z",
+   "source": "AutoSport",
+   "lado": "pt",
+   "url": "https://www.autosport.pt/formula1/f1-mercedes-ultrapassa-ferrari-e-e-agora-o-fornecedor-de-motores-com-mais-vitorias/",
+   "title": "F1: Mercedes ultrapassa Ferrari e é agora o fornecedor de motores com mais vitórias",
+   "topic": "desporto",
+   "sub": "motores",
+   "impacto": "baixo",
+   "setores": [
+    "Fórmula 1"
+   ],
+   "tickers": [],
+   "resumo": "Com a vitória de George Russell em Baku, a Mercedes chegou às 252 vitórias e ultrapassou a Ferrari (251) como fornecedor de motores com mais triunfos na Fórmula 1."
+  },
+  {
+   "id": "cnn-6aba78ebd34e9a786e759f31",
+   "ts": "2026-09-28T14:15:00Z",
+   "source": "CNN Portugal",
+   "lado": "pt",
+   "url": "https://cnnportugal.iol.pt/aterragem/delta-airlines/novo-incidente-com-aviao-da-delta-em-portugal-voo-para-nova-iorque-obrigado-a-regressar-a-lisboa/20260928/6aba78ebd34e9a786e759f31",
+   "title": "Novo incidente com avião da Delta em Portugal: voo para Nova Iorque obrigado a regressar a Lisboa",
+   "topic": "outros",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Aviação",
+    "Delta"
+   ],
+   "tickers": [],
+   "resumo": "Um voo da Delta com destino a Nova Iorque foi obrigado a regressar a Lisboa, no segundo incidente com um avião da companhia em Portugal em dois dias."
+  },
+  {
+   "id": "cnn-6aba6bf4d34e53c759c74196",
+   "ts": "2026-09-28T13:29:54Z",
+   "source": "CNN Portugal",
+   "lado": "pt",
+   "url": "https://cnnportugal.iol.pt/combustiveis/gas/portugal-pressiona-bruxelas-a-agir-na-crise-dos-combustiveis-e-rejeita-metas-obrigatorias-de-poupanca/20260928/6aba6bf4d34e53c759c74196",
+   "title": "Portugal pressiona Bruxelas a agir na crise dos combustíveis e rejeita metas obrigatórias de poupança",
+   "topic": "economia",
+   "sub": "",
+   "impacto": "alto",
+   "setores": [
+    "Combustíveis",
+    "UE"
+   ],
+   "tickers": [],
+   "resumo": "A ministra da Energia alertou para os riscos de respostas desiguais entre países europeus e Portugal pressiona Bruxelas a agir na crise dos combustíveis, rejeitando metas obrigatórias de poupança."
+  },
+  {
+   "id": "cnn-6aba6a26d34e53c759c74192",
+   "ts": "2026-09-28T13:22:12Z",
+   "source": "CNN Portugal",
+   "lado": "pt",
+   "url": "https://cnnportugal.iol.pt/defesa/terrorismo/cinco-detidos-por-suspeitas-de-terrorismo-junto-a-base-britanica-e-a-seguranca-nas-lajes/20260928/6aba6a26d34e53c759c74192",
+   "title": "Cinco detidos por suspeitas de terrorismo junto a base britânica. E a segurança nas Lajes?",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Lajes",
+    "Defesa"
+   ],
+   "tickers": [],
+   "resumo": "Cinco pessoas foram detidas por suspeitas de terrorismo junto a uma base britânica. O ministro da Defesa indica que não estão previstas novas medidas de segurança imediatas nas Lajes."
+  },
+  {
+   "id": "cnn-6aba651bd34e53c759c7418f",
+   "ts": "2026-09-28T13:00:00Z",
+   "source": "CNN Portugal",
+   "lado": "pt",
+   "url": "https://cnnportugal.iol.pt/marcelo-rebelo-de-sousa/ninguem-esta-acima-da-lei-a-reacao-de-marcelo-ao-caso-em-que-o-proprio-filho-esta-acusado/20260928/6aba651bd34e53c759c7418f",
+   "title": "\"Ninguém está acima da Lei\": a reação de Marcelo ao caso em que o próprio filho está acusado",
+   "topic": "justica",
+   "sub": "",
+   "impacto": "alto",
+   "setores": [
+    "Caso das gémeas"
+   ],
+   "tickers": [],
+   "resumo": "Marcelo Rebelo de Sousa reagiu à acusação no caso das gémeas, em que o filho Nuno é arguido, afirmando que ninguém está acima da lei."
+  },
+  {
+   "id": "rtp-1768197",
+   "ts": "2026-09-28T12:46:47Z",
+   "source": "RTP Desporto",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/ligadasnacoes/portugal-noruega-elogio-de-jesus-e-ronaldo-titular-na-dinamarca_v1768197",
+   "title": "Portugal-Noruega. Elogio de Jesus e Ronaldo titular na Dinamarca",
+   "topic": "desporto",
+   "sub": "selecao",
+   "impacto": "medio",
+   "setores": [
+    "Liga das Nações",
+    "Seleção"
+   ],
+   "tickers": [],
+   "resumo": "Jorge Jesus elogiou a exibição de Portugal na Noruega e indicou que Cristiano Ronaldo será titular no jogo com a Dinamarca, na quinta-feira. Ronaldo ficou no banco sem entrar em Oslo."
+  },
+  {
+   "id": "cnn-6aba6039d34e53c759c7418b",
+   "ts": "2026-09-28T12:39:51Z",
+   "source": "CNN Portugal",
+   "lado": "pt",
+   "url": "https://cnnportugal.iol.pt/herpes/vacinacao/vacina-contra-a-zona-associacoes-denunciam-que-so-quem-pode-pagar-tem-acesso/20260928/6aba6039d34e53c759c7418b",
+   "title": "Vacina contra a zona: associações denunciam que só quem pode pagar tem acesso",
+   "topic": "saude",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Vacinação",
+    "SNS"
+   ],
+   "tickers": [],
+   "resumo": "Cinco associações pressionam o Governo a avançar com a vacinação de adultos contra o zona, denunciando que só quem pode pagar tem acesso."
+  },
+  {
+   "id": "zz-1216954",
+   "ts": "2026-09-28T12:20:18Z",
+   "source": "zerozero",
+   "lado": "pt",
+   "url": "https://www.zerozero.pt/noticias/dinamarca-com-baixa-de-peso-para-a-rececao-a-portugal/1216954",
+   "title": "Dinamarca com baixa de peso para a receção a Portugal",
+   "topic": "desporto",
+   "sub": "selecao",
+   "impacto": "baixo",
+   "setores": [
+    "Liga das Nações"
+   ],
+   "tickers": [],
+   "resumo": "A Dinamarca dispensou Patrick Dorgu por lesão, ficando sem o jogador para receber Portugal na quinta-feira, em jogo da Liga das Nações."
+  },
+  {
+   "id": "cnn-6aba560fd34e53c759c7416d",
+   "ts": "2026-09-28T12:17:00Z",
+   "source": "CNN Portugal",
+   "lado": "pt",
+   "url": "https://cnnportugal.iol.pt/passos-coelho/descentralizacao/e-possivel-fazer-muito-mais-caminho-do-que-aquilo-que-tem-sido-feito-passos-coelho-nao-quer-debates-proibidos-e-abre-portas-a-um-referendo/20260928/6aba560fd34e53c759c7416d",
+   "title": "Passos Coelho não quer \"debates proibidos\" e abre portas a um referendo",
+   "topic": "politica",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Reforma do Estado"
+   ],
+   "tickers": [],
+   "resumo": "Passos Coelho defende mais autonomia para municípios e escolas e admite um referendo sobre a organização territorial, dizendo que é possível fazer muito mais caminho do que o feito até agora."
+  },
+  {
+   "id": "rtp-d1768192",
+   "ts": "2026-09-28T12:04:58Z",
+   "source": "RTP Desporto",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/tenis/jaime-faria-avanca-na-qualificacao-do-torneio-de-toquio_d1768192",
+   "title": "Jaime Faria avança na qualificação do torneio de Tóquio",
+   "topic": "desporto",
+   "sub": "tenis",
+   "impacto": "baixo",
+   "setores": [
+    "Tóquio"
+   ],
+   "tickers": [],
+   "resumo": "Jaime Faria, terceiro cabeça de série, apurou-se para a final da qualificação do torneio de Tóquio ao vencer o japonês Shintaro Mochizuki."
+  },
+  {
+   "id": "cnn-6aba56dfd34e9a786e759ee4",
+   "ts": "2026-09-28T12:00:00Z",
+   "source": "CNN Portugal",
+   "lado": "pt",
+   "url": "https://cnnportugal.iol.pt/daniela-martins/caso-das-gemeas/portugal-foi-a-nossa-casa-mae-das-gemeas-aliviada-e-triste-apos-conhecer-acusacao/20260928/6aba56dfd34e9a786e759ee4",
+   "title": "\"Portugal foi a nossa casa\": mãe das gémeas aliviada e triste após conhecer acusação",
+   "topic": "justica",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Caso das Gémeas"
+   ],
+   "tickers": [],
+   "resumo": "Daniela Martins, mãe das gémeas, diz-se aliviada e triste após conhecer a acusação e sustenta que as filhas receberam os cuidados médicos a que tinham direito."
+  },
+  {
+   "id": "zz-1216877",
+   "ts": "2026-09-28T11:44:24Z",
+   "source": "zerozero",
+   "lado": "pt",
+   "url": "https://www.zerozero.pt/noticias/schjelderup-nao-foi-justo-deviam-ter-sido-tres-pontos-para-nos/1216877",
+   "title": "Schjelderup: «Não foi justo, deviam ter sido três pontos para nós»",
+   "topic": "desporto",
+   "sub": "selecao",
+   "impacto": "medio",
+   "setores": [
+    "Liga das Nações",
+    "Noruega"
+   ],
+   "tickers": [],
+   "resumo": "Andreas Schjelderup, avançado do Benfica e da Noruega, lamentou a derrota por 2-1 com Portugal e considera que a sua equipa merecia os três pontos pelas oportunidades criadas."
+  },
+  {
+   "id": "cnn-6aba4d9dd34e9a786e759ecc",
+   "ts": "2026-09-28T11:25:00Z",
+   "source": "CNN Portugal",
+   "lado": "pt",
+   "url": "https://cnnportugal.iol.pt/ministro-da-reforma-do-estado/burocracia/eliminar-os-bloqueios-transformar-o-pais-ministro-da-reforma-do-estado-estima-que-reducao-da-burocracia-podera-libertar-ate-10-mil-milhoes-de-euros/20260928/6aba4d9dd34e9a786e759ecc",
+   "title": "Ministro da Reforma do Estado estima que redução da burocracia poderá libertar até 10 mil milhões de euros",
+   "topic": "politica",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Reforma do Estado"
+   ],
+   "tickers": [],
+   "resumo": "O ministro Gonçalo Matias estima que a simplificação burocrática poderá libertar até 10 mil milhões de euros para a modernização e o desenvolvimento do país."
+  },
+  {
+   "id": "vip-ipma-alerta-sete-distritos",
+   "ts": "2026-09-28T11:15:22Z",
+   "source": "VIP",
+   "lado": "pt",
+   "url": "https://www.vip.pt/meteorologia-ipma-lanca-alerta-sete-distritos-em-risco-de-trovoadas-granizo-e-rajadas-ate-90-km-h",
+   "title": "IPMA lança alerta: sete distritos em risco de trovoadas, granizo e rajadas até 90 km/h",
+   "topic": "tempo",
+   "sub": "",
+   "impacto": "alto",
+   "setores": [
+    "IPMA",
+    "Aviso amarelo"
+   ],
+   "tickers": [],
+   "resumo": "O IPMA colocou sete distritos sob aviso amarelo por trovoadas, chuva forte, granizo e rajadas até 90 km/h. As temperaturas devem descer em todo o país nos próximos dias."
+  },
+  {
+   "id": "cnn-6aba44e1d34e53c759c74135",
+   "ts": "2026-09-28T10:43:00Z",
+   "source": "CNN Portugal",
+   "lado": "pt",
+   "url": "https://cnnportugal.iol.pt/caso-das-gemeas/santa-maria/caso-das-gemeas-filho-de-marcelo-lacerda-sales-ex-diretor-clinico-do-santa-maria-e-mae-das-criancas-sao-os-acusados/20260928/6aba44e1d34e53c759c74135",
+   "title": "Caso das gémeas: filho de Marcelo, Lacerda Sales, ex-diretor clínico do Santa Maria e mãe das crianças são os acusados",
+   "topic": "justica",
+   "sub": "",
+   "impacto": "alto",
+   "setores": [
+    "Caso das Gémeas",
+    "Ministério Público"
+   ],
+   "tickers": [],
+   "resumo": "O Ministério Público acusou o filho do Presidente Marcelo Rebelo de Sousa, o ex-governante Lacerda Sales, o ex-diretor clínico do Santa Maria e a mãe das crianças de crimes como prevaricação, abuso de poder e burla qualificada no caso das gémeas tratadas com Zolgensma."
+  },
+  {
+   "id": "cnn-6aba41cbd34e9a786e759e92",
+   "ts": "2026-09-28T10:30:35Z",
+   "source": "CNN Portugal",
+   "lado": "pt",
+   "url": "https://cnnportugal.iol.pt/medicamentos/ue/medicamentos-mais-acessiveis-e-menos-falhas-no-abastecimento-ue-aprova-novas-regras/20260928/6aba41cbd34e9a786e759e92",
+   "title": "Medicamentos mais acessíveis e menos falhas no abastecimento: UE aprova novas regras",
+   "topic": "saude",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Medicamentos",
+    "UE"
+   ],
+   "tickers": [],
+   "resumo": "A União Europeia aprovou o pacote farmacêutico que impõe novas obrigações à indústria para melhorar o acesso a medicamentos e reduzir falhas de abastecimento."
+  },
+  {
+   "id": "cnn-6aba3fb7d34e53c759c74124",
+   "ts": "2026-09-28T10:21:00Z",
+   "source": "CNN Portugal",
+   "lado": "pt",
+   "url": "https://cnnportugal.iol.pt/trafico-de-droga/pj/cocaina-para-mais-de-67-mil-doses-escondida-na-bagagem-de-um-homem-de-78-anos/20260928/6aba3fb7d34e53c759c74124",
+   "title": "Idoso de 78 anos apanhado com 67 mil doses de cocaína no aeroporto de Lisboa",
+   "topic": "justica",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "PJ",
+    "Tráfico de droga"
+   ],
+   "tickers": [],
+   "resumo": "A Polícia Judiciária apreendeu no aeroporto de Lisboa cocaína de elevada pureza, equivalente a mais de 67 mil doses, na bagagem de um homem de 78 anos."
+  },
+  {
+   "id": "zz-1216875",
+   "ts": "2026-09-28T10:16:49Z",
+   "source": "zerozero",
+   "lado": "pt",
+   "url": "https://www.zerozero.pt/noticias/villas-boas-se-calhar-o-var-nao-tinha-as-imagens-para-analisar-a-festinha-que-o-samu-fez-ao-bah/1216875",
+   "title": "Villas-Boas: «Se calhar o VAR não tinha as imagens para analisar a festinha que o Samu fez ao Bah»",
+   "topic": "desporto",
+   "sub": "porto",
+   "impacto": "medio",
+   "setores": [
+    "Liga",
+    "FC Porto",
+    "Benfica"
+   ],
+   "tickers": [],
+   "resumo": "André Villas-Boas respondeu à queixa disciplinar do Benfica sobre o lance entre Samu e Bah, questionando se o VAR tinha as imagens para analisar a jogada."
+  },
+  {
+   "id": "zz-1216859",
+   "ts": "2026-09-28T09:57:07Z",
+   "source": "zerozero",
+   "lado": "pt",
+   "url": "https://www.zerozero.pt/noticias/odegaard-critica-acao-de-bernardo-silva-isto-nao-tem-lugar-num-campo-de-futebol/1216859",
+   "title": "Odegaard critica ação de Bernardo Silva: «Isto não tem lugar num campo de futebol»",
+   "topic": "desporto",
+   "sub": "selecao",
+   "impacto": "baixo",
+   "setores": [
+    "Liga das Nações"
+   ],
+   "tickers": [],
+   "resumo": "Martin Odegaard protestou contra uma entrada dura de Bernardo Silva no final do Noruega-Portugal, que os portugueses venceram por 2-1."
+  },
+  {
+   "id": "cnn-6aba2db9d34e9a786e759e6e",
+   "ts": "2026-09-28T09:04:00Z",
+   "source": "CNN Portugal",
+   "lado": "pt",
+   "url": "https://cnnportugal.iol.pt/sites-ilegais/apostas-online/portugal-vai-usar-tecnologia-para-detetar-e-bloquear-sites-ilegais-de-jogo-online/20260928/6aba2db9d34e9a786e759e6e",
+   "title": "Portugal vai usar tecnologia para detetar e bloquear sites ilegais de jogo online",
+   "topic": "tecnologia",
+   "sub": "",
+   "impacto": "baixo",
+   "setores": [
+    "Jogo online"
+   ],
+   "tickers": [],
+   "resumo": "O Turismo de Portugal contratou uma plataforma francesa para automatizar a deteção e o bloqueio de sites ilegais de jogo online."
+  },
+  {
+   "id": "hn-mafra-centro-saude",
+   "ts": "2026-09-28T08:06:21Z",
+   "source": "HealthNews",
+   "lado": "pt",
+   "url": "https://healthnews.pt/2026/09/28/mafra-inaugura-novo-centro-de-saude-para-cerca-de-10-mil-utentes/",
+   "title": "Mafra inaugura novo centro de saúde para cerca de 10 mil utentes",
+   "topic": "saude",
+   "sub": "",
+   "impacto": "baixo",
+   "setores": [
+    "SNS",
+    "PRR"
+   ],
+   "tickers": [],
+   "resumo": "Mafra inaugura hoje um novo centro de saúde, com investimento de 4,1 milhões de euros (3,6 milhões do PRR), que servirá cerca de 10 mil utentes."
+  },
+  {
+   "id": "rtp-1768091",
+   "ts": "2026-09-27T22:28:47Z",
+   "source": "RTP Desporto",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/desporto/jorge-jesus-satisfeito-com-o-triunfo-de-portugal_v1768091",
+   "title": "Jorge Jesus \"satisfeito\" com o triunfo de Portugal",
+   "topic": "desporto",
+   "sub": "selecao",
+   "impacto": "medio",
+   "setores": [
+    "Liga das Nações",
+    "Seleção"
+   ],
+   "tickers": [],
+   "resumo": "Jorge Jesus mostrou-se satisfeito com a vitória por 2-1 em Oslo, contra uma equipa que considera estar no top 5 da Europa, e disse estar a fazer experiências com jogos a sério."
+  },
+  {
+   "id": "zz-1216677",
+   "ts": "2026-09-27T21:11:30Z",
+   "source": "zerozero",
+   "lado": "pt",
+   "url": "https://www.zerozero.pt/noticias/portugal-terceira-vez-que-cristiano-ronaldo-e-suplente-nao-utilizado/1216677",
+   "title": "Portugal: terceira vez que Cristiano Ronaldo é suplente não utilizado",
+   "topic": "desporto",
+   "sub": "selecao",
+   "impacto": "medio",
+   "setores": [
+    "Liga das Nações"
+   ],
+   "tickers": [],
+   "resumo": "Cristiano Ronaldo não saiu do banco no jogo com a Noruega, apenas a terceira vez na carreira internacional em que é suplente não utilizado."
+  },
+  {
+   "id": "rtp-d1768077",
+   "ts": "2026-09-27T20:47:42Z",
+   "source": "RTP Desporto",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/outras-modalidades/brandon-mcnulty-fugiu-para-o-arco-iris-na-prova-de-fundo_d1768077",
+   "title": "Brandon McNulty fugiu para o arco-íris na prova de fundo",
+   "topic": "desporto",
+   "sub": "ciclismo",
+   "impacto": "baixo",
+   "setores": [
+    "Mundiais de Ciclismo"
+   ],
+   "tickers": [],
+   "resumo": "O norte-americano Brandon McNulty sagrou-se campeão mundial de fundo, em Montreal, depois de se isolar a cerca de trinta quilómetros da meta. Van der Poel ficou com o bronze."
+  },
+  {
+   "id": "rtp-1768067",
+   "ts": "2026-09-27T18:40:38Z",
+   "source": "RTP Desporto",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/outras-modalidades/triatlo-vasco-vilaca-sagra-se-campeao-do-mundo-ricardo-batista-conquista-o-bronze_d1768067",
+   "title": "Triatlo. Vasco Vilaça sagra-se Campeão do Mundo, Ricardo Batista conquista o bronze",
+   "topic": "desporto",
+   "sub": "triatlo",
+   "impacto": "alto",
+   "setores": [
+    "Triatlo",
+    "Mundial"
+   ],
+   "tickers": [],
+   "resumo": "Vasco Vilaça é o primeiro português campeão do mundo de triatlo de elite, ao terminar em segundo a superfinal de Pontevedra. Ricardo Batista ficou com o bronze no Mundial."
+  },
+  {
+   "id": "rtp-1768061",
+   "ts": "2026-09-27T18:13:26Z",
+   "source": "RTP Desporto",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/outras-modalidades/benfica-vence-gdessa-e-conquista-supertaca-feminina-de-basquetebol_d1768061",
+   "title": "Benfica vence GDESSA e conquista Supertaça feminina de basquetebol",
+   "topic": "desporto",
+   "sub": "basquetebol",
+   "impacto": "baixo",
+   "setores": [
+    "Basquetebol",
+    "Supertaça"
+   ],
+   "tickers": [],
+   "resumo": "O Benfica conquistou pela quarta vez a Supertaça feminina de basquetebol ao vencer o GDESSA por 73-31, em Almada."
+  },
+  {
+   "id": "rtp-1768057",
+   "ts": "2026-09-27T17:35:37Z",
+   "source": "RTP Desporto",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/selecao-nacional/portugal-com-vitoria-sofrida-na-noruega_d1768057",
+   "title": "Portugal com vitória sofrida na Noruega",
+   "topic": "desporto",
+   "sub": "selecao",
+   "impacto": "alto",
+   "setores": [
+    "Liga das Nações",
+    "Seleção"
+   ],
+   "tickers": [],
+   "resumo": "Portugal venceu a Noruega por 2-1 em Oslo, com golos de João Félix e Gonçalo Ramos, e lidera isolado o Grupo A4 da Liga das Nações. Cristiano Ronaldo ficou no banco os 90 minutos, pela terceira vez na carreira na seleção."
+  },
+  {
+   "id": "rtp-1768055",
+   "ts": "2026-09-27T17:03:33Z",
+   "source": "RTP Desporto",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/outras-modalidades/lara-fernandes-e-andre-fiuza-vice-campeoes-mundiais-de-acrobatica-em-exercicio-combinado_d1768055",
+   "title": "Lara Fernandes e André Fiúza vice-campeões mundiais de acrobática em exercício combinado",
+   "topic": "desporto",
+   "sub": "outros",
+   "impacto": "medio",
+   "setores": [
+    "Ginástica acrobática"
+   ],
+   "tickers": [],
+   "resumo": "Os portugueses Lara Fernandes e André Fiúza foram vice-campeões do mundo de ginástica acrobática no combinado de pares mistos, em Pesaro, e ganharam ainda o bronze no exercício dinâmico."
+  },
+  {
+   "id": "rtp-1768051",
+   "ts": "2026-09-27T16:07:24Z",
+   "source": "RTP Desporto",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/motores/piloto-italiano-nicolo-bulega-conquista-titulo-mundial-de-superbikes_d1768051",
+   "title": "Piloto italiano Nicolò Bulega conquista título mundial de Superbikes",
+   "topic": "desporto",
+   "sub": "motores",
+   "impacto": "medio",
+   "setores": [
+    "Superbikes"
+   ],
+   "tickers": [],
+   "resumo": "Nicolò Bulega (Ducati) sagrou-se campeão mundial de Superbikes ao terminar em segundo em Cremona, corrida em que o português Miguel Oliveira (BMW) desistiu após uma queda."
+  }
+ ],
+ "contracts": {},
+ "quotes": {},
+ "quotesAt": null,
+ "series": {},
+ "pairs": [
+  {
+   "a": "cnn-6aba560fd34e53c759c7416d",
+   "b": "rtp-1768101",
+   "tema": "Passos e Governo sobre o ritmo das reformas",
+   "nota": "Passos Coelho pede mais caminho e abre a referendo; Gonçalo Matias responde que o Governo tem quatro anos para as reformas."
+  },
+  {
+   "a": "cnn-6aba44e1d34e53c759c74135",
+   "b": "cnn-6aba56dfd34e9a786e759ee4",
+   "tema": "Acusação no caso das gémeas",
+   "nota": "O Ministério Público acusa a mãe e outros três arguidos; a mãe diz que as filhas tiveram os cuidados a que tinham direito."
+  },
+  {
+   "a": "rtp-1768091",
+   "b": "zz-1216877",
+   "tema": "Noruega-Portugal: quem merecia ganhar?",
+   "nota": "Jorge Jesus diz-se satisfeito com a vitória contra um top 5 europeu; Schjelderup, da Noruega e do Benfica, garante que os três pontos deviam ter sido noruegueses."
+  }
+ ],
+ "arquivo": 0
+}
