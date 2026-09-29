@@ -217,6 +217,56 @@ dialog::backdrop{background:rgba(0,0,0,.45)}
 footer .lnk{font:inherit;color:inherit;text-decoration:underline;cursor:pointer;padding:0}
 footer a{color:inherit}
 
+/* ===== tempo: previsão ===== */
+:root{--rain:#2f6db3;--warm:#c2571a}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--rain:#6fa3e8;--warm:#e88a4a}}
+:root[data-theme="dark"]{--rain:#6fa3e8;--warm:#e88a4a}
+.wx{padding:16px 0 8px;display:flex;flex-direction:column;gap:18px}
+.wxh{display:flex;justify-content:space-between;align-items:flex-end;gap:12px;flex-wrap:wrap}
+.wxh h2{font-family:var(--display);font-weight:900;font-size:26px;margin:0;line-height:1.1}
+.wxsel{display:flex;flex-direction:column;gap:3px;font-family:var(--ui);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink2)}
+.wxsel select{font:inherit;font-size:15px;letter-spacing:0;text-transform:none;color:var(--ink);background:var(--paper2);border:1px solid var(--rule);padding:6px 8px;border-radius:2px}
+.wxnow{display:grid;grid-template-columns:auto minmax(0,1fr);gap:4px 18px;align-items:center}
+.wxnow .ic{width:64px;height:64px;color:var(--ink);grid-row:1/span 2}
+.wxnow .t{font-family:var(--display);font-weight:900;font-size:56px;line-height:1;font-variant-numeric:tabular-nums}
+.wxnow .t small{font-family:var(--ui);font-size:18px;font-weight:600;color:var(--ink2);margin-left:10px;letter-spacing:.02em}
+.wxnow .d{font-family:var(--ui);font-size:14px;color:var(--ink2)}
+.wxtiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:0;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule)}
+.wxtile{padding:10px 12px 10px 0;display:flex;flex-direction:column;gap:2px;min-width:0}
+.wxtile .k{font-family:var(--ui);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink2);font-weight:600}
+.wxtile .v{font-family:var(--display);font-weight:700;font-size:22px;line-height:1.15;font-variant-numeric:tabular-nums}
+.wxtile .s{font-family:var(--ui);font-size:12px;color:var(--ink2)}
+.wxsec{font-family:var(--ui);font-weight:700;font-size:12px;letter-spacing:.14em;text-transform:uppercase;padding-bottom:5px;border-bottom:2px solid var(--ink);display:flex;justify-content:space-between;gap:10px}
+.wxsec span+span{font-weight:500;color:var(--ink2);letter-spacing:.06em}
+.wxc{position:relative}
+.wxc svg{display:block;width:100%;height:auto;overflow:visible;touch-action:pan-y}
+.wxc .ax{font-family:var(--ui);font-size:11px;fill:var(--ink2)}
+.wxc .lb{font-family:var(--ui);font-size:12px;font-weight:600;fill:var(--ink)}
+.wxc .gl{stroke:var(--rule2);stroke-width:1}
+.wxtip{position:absolute;top:0;pointer-events:none;background:var(--paper);border:1px solid var(--ink);padding:6px 9px;font-family:var(--ui);font-size:12px;line-height:1.4;white-space:nowrap;transform:translateX(-50%);box-shadow:0 2px 6px rgba(0,0,0,.12)}
+.wxtip b{font-size:14px}
+.wxtip[hidden]{display:none}
+.wxdays{display:flex;flex-direction:column}
+.wxday{display:grid;grid-template-columns:64px 30px 44px 36px minmax(60px,1fr) 36px;gap:10px;align-items:center;padding:8px 0;border-bottom:1px solid var(--rule2);font-family:var(--ui);font-size:14px;font-variant-numeric:tabular-nums}
+.wxday:last-child{border-bottom:0}
+.wxday .n{font-weight:600;text-transform:capitalize}
+.wxday .ic{width:26px;height:26px}
+.wxday .p{color:var(--rain);font-weight:600;font-size:12px}
+.wxday .lo{color:var(--ink2);text-align:right}
+.wxday .hi{font-weight:700}
+.wxday .bar{height:6px;border-radius:3px;background:var(--rule2);position:relative}
+.wxday .bar i{position:absolute;top:0;bottom:0;border-radius:3px;background:linear-gradient(90deg,var(--rain),var(--warm))}
+.wxpais{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:0 18px}
+.wxcity{display:grid;grid-template-columns:26px minmax(0,1fr) auto;gap:8px;align-items:center;padding:7px 0;border-bottom:1px solid var(--rule2);font-family:var(--ui);font-size:13px;cursor:pointer;background:none;border-left:0;border-right:0;border-top:0;text-align:left;color:inherit;width:100%}
+.wxcity:hover .c,.wxcity[aria-current="true"] .c{color:var(--red)}
+.wxcity .ic{width:22px;height:22px}
+.wxcity .c{font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.wxcity .v{font-variant-numeric:tabular-nums;white-space:nowrap}
+.wxcity .v span{color:var(--ink2)}
+.wxsrc{font-family:var(--ui);font-size:11px;color:var(--ink2)}
+@media (min-width:901px){.wxgrid{display:grid;grid-template-columns:minmax(0,3fr) minmax(0,2fr);gap:0 32px;align-items:start}}
+@media (max-width:640px){.wxnow .t{font-size:46px}.wxday{grid-template-columns:52px 26px 38px 32px minmax(40px,1fr) 32px;gap:8px;font-size:13px}}
+
 @media (max-width:900px){
   .front{grid-template-columns:1fr}
   .lead{grid-column:1}
@@ -453,12 +503,103 @@ function emptyMsg(){const c=CAT[view];let lbl=c[1];
   if(fSub.size){const s=(c[3]||[]).find(x=>fSub.has(x[0]));if(s)lbl=s[1]}
   const imp=fImp.size?` com impacto ${(IMPS.find(x=>fImp.has(x[0]))||[,""])[1].toLowerCase()}`:"";
   return `<div class="empty"><b>Sem notícias de ${esc(lbl)}${esc(imp)}</b>Não houve nada nos últimos 5 dias. Assim que houver, aparece aqui.</div>`}
+
+/* ===== tempo: previsão meteorológica (Open-Meteo, sem chave) ===== */
+const WXC=[["Viana do Castelo",41.69,-8.83],["Braga",41.55,-8.42],["Vila Real",41.30,-7.74],["Bragança",41.81,-6.76],["Porto",41.15,-8.61],["Aveiro",40.64,-8.65],["Viseu",40.66,-7.91],["Guarda",40.54,-7.27],["Coimbra",40.21,-8.43],["Castelo Branco",39.82,-7.49],["Leiria",39.74,-8.81],["Santarém",39.24,-8.69],["Portalegre",39.29,-7.43],["Lisboa",38.72,-9.14],["Setúbal",38.52,-8.89],["Évora",38.57,-7.91],["Beja",38.02,-7.87],["Faro",37.02,-7.93],["Funchal",32.65,-16.91],["Ponta Delgada",37.74,-25.67]];
+let wxCity="Lisboa";try{const c=localStorage.getItem("pr.wx");if(c&&WXC.some(x=>x[0]===c))wxCity=c}catch(e){}
+const wxCache={};let wxBusy=false,wxHours=[];
+const WXI={
+ sun:'<circle cx="12" cy="12" r="4"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6"/>',
+ moon:'<path d="M19 14.5A7.5 7.5 0 0 1 9.5 5a7.5 7.5 0 1 0 9.5 9.5z"/>',
+ part:'<path d="M9 3.5v1.6M3.5 9h1.6M5.1 5.1l1.1 1.1M12.9 5.1l-1.1 1.1"/><path d="M6.4 11.2A3.2 3.2 0 1 1 12 8.2"/><path d="M8 20h9a3.5 3.5 0 0 0 .4-7 5 5 0 0 0-9.6 1.2A2.9 2.9 0 0 0 8 20z"/>',
+ cloud:'<path d="M7 19h10.5a4 4 0 0 0 .5-8 5.8 5.8 0 0 0-11.1 1.5A3.3 3.3 0 0 0 7 19z"/>',
+ fog:'<path d="M4 9h16M3 13h18M5 17h14"/>',
+ rain:'<path d="M7 15h10.5a4 4 0 0 0 .5-8 5.8 5.8 0 0 0-11.1 1.5A3.3 3.3 0 0 0 7 15z"/><path d="M8.5 18l-1 2.5M12.5 18l-1 2.5M16.5 18l-1 2.5"/>',
+ snow:'<path d="M7 15h10.5a4 4 0 0 0 .5-8 5.8 5.8 0 0 0-11.1 1.5A3.3 3.3 0 0 0 7 15z"/><path d="M8 19h.01M12 20.5h.01M16 19h.01"/>',
+ storm:'<path d="M7 15h10.5a4 4 0 0 0 .5-8 5.8 5.8 0 0 0-11.1 1.5A3.3 3.3 0 0 0 7 15z"/><path d="M12.5 15.5l-2 3.5h3l-2 3"/>'};
+const wxSvg=(k,cls="ic")=>`<svg class="${cls}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${WXI[k]||WXI.cloud}</svg>`;
+function wxCode(c,day=1){c=+c;
+ if(c===0)return["Céu limpo",day?"sun":"moon"];if(c===1)return["Pouco nublado",day?"part":"moon"];if(c===2)return["Parcialmente nublado","part"];if(c===3)return["Nublado","cloud"];
+ if(c===45||c===48)return["Nevoeiro","fog"];if(c>=51&&c<=57)return["Chuvisco","rain"];if(c>=61&&c<=67)return[c>=65?"Chuva forte":"Chuva","rain"];
+ if(c>=71&&c<=77)return["Neve","snow"];if(c>=80&&c<=82)return[c===82?"Aguaceiros fortes":"Aguaceiros","rain"];if(c===85||c===86)return["Aguaceiros de neve","snow"];if(c>=95)return["Trovoada","storm"];return["—","cloud"]}
+const WDIR=["N","NE","E","SE","S","SO","O","NO"];const wdir=d=>WDIR[Math.round(((+d%360)+360)%360/45)%8];
+const uvLvl=u=>u<3?"Baixo":u<6?"Moderado":u<8?"Elevado":u<11?"Muito elevado":"Extremo";
+const aqLvl=a=>a<=20?"Boa":a<=40?"Razoável":a<=60?"Moderada":a<=80?"Fraca":a<=100?"Muito fraca":"Extremamente fraca";
+const r0=v=>Math.round(+v);
+async function wxLoad(){const key=wxCity,now=Date.now(),w=wxCache[key];
+ if(w&&now-w.at<(w.err?120e3:15*60e3)&&wxCache.pais&&now-wxCache.pais.at<30*60e3)return;if(wxBusy)return;wxBusy=true;
+ const [,la,lo]=WXC.find(x=>x[0]===key),tz="&timezone=Europe%2FLisbon";
+ const J=u=>fetch(u).then(r=>r.ok?r.json():null).catch(()=>null);
+ const needP=!wxCache.pais||now-wxCache.pais.at>30*60e3;
+ const [fr,mr,ar,pr]=await Promise.all([
+  (w&&!w.err&&now-w.at<15*60e3)?Promise.resolve(null):J(`https://api.open-meteo.com/v1/forecast?latitude=${la}&longitude=${lo}&current=temperature_2m,apparent_temperature,relative_humidity_2m,weather_code,wind_speed_10m,wind_gusts_10m,wind_direction_10m,is_day&hourly=temperature_2m,precipitation_probability,precipitation,weather_code,is_day&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max,precipitation_sum,uv_index_max,sunrise,sunset,wind_speed_10m_max&forecast_days=7${tz}`),
+  (w&&!w.err&&now-w.at<15*60e3)?Promise.resolve(null):J(`https://marine-api.open-meteo.com/v1/marine?latitude=${la}&longitude=${lo}&current=wave_height,sea_surface_temperature${tz}`),
+  (w&&!w.err&&now-w.at<15*60e3)?Promise.resolve(null):J(`https://air-quality-api.open-meteo.com/v1/air-quality?latitude=${la}&longitude=${lo}&current=european_aqi${tz}`),
+  needP?J(`https://api.open-meteo.com/v1/forecast?latitude=${WXC.map(x=>x[1]).join(",")}&longitude=${WXC.map(x=>x[2]).join(",")}&daily=weather_code,temperature_2m_max,temperature_2m_min&forecast_days=1${tz}`):Promise.resolve(null)]);
+ wxBusy=false;
+ if(fr)wxCache[key]={at:now,f:fr,m:mr,a:ar};else if(!w||w.err)wxCache[key]={at:now,err:true};
+ if(pr)wxCache.pais={at:now,d:Array.isArray(pr)?pr:[pr]};
+ const el=$("#wx");if(el&&view==="tempo")el.innerHTML=wxHTML()}
+function wxChart(f,cur){const H=f.hourly;let i0=H.time.findIndex(t=>t.slice(0,13)===String(cur.time).slice(0,13));if(i0<0)i0=0;
+ const n=Math.min(25,H.time.length-i0);wxHours=[];for(let k=0;k<n;k++){const i=i0+k;wxHours.push({t:H.time[i],temp:H.temperature_2m[i],p:H.precipitation_probability?.[i]??0,mm:H.precipitation?.[i]??0,c:H.weather_code[i],d:H.is_day?.[i]??1})}
+ if(n<2)return"";
+ const W=720,L=34,R=14,T1=22,B1=150,T2=178,B2=236,HH=258,xs=k=>L+k*(W-L-R)/(n-1);
+ const tv=wxHours.map(h=>h.temp),lo=Math.floor(Math.min(...tv))-1,hi=Math.ceil(Math.max(...tv))+1,yt=v=>B1-(v-lo)/(hi-lo||1)*(B1-T1),yp=v=>B2-v/100*(B2-T2);
+ let g="";const st=Math.max(1,Math.round((hi-lo)/3));for(let v=lo;v<=hi;v+=st){g+=`<line class="gl" x1="${L}" x2="${W-R}" y1="${yt(v)}" y2="${yt(v)}"/><text class="ax" x="${L-6}" y="${yt(v)+4}" text-anchor="end">${v}°</text>`}
+ g+=`<line class="gl" x1="${L}" x2="${W-R}" y1="${B2}" y2="${B2}"/><text class="ax" x="${L-6}" y="${T2+4}" text-anchor="end">100%</text><text class="ax" x="${L}" y="${T2-8}">Probabilidade de chuva</text>`;
+ const pts=wxHours.map((h,k)=>`${xs(k).toFixed(1)},${yt(h.temp).toFixed(1)}`);
+ const area=`M${xs(0)},${B1} L${pts.join(" L")} L${xs(n-1)},${B1} Z`;
+ const bw=Math.max(4,(W-L-R)/(n-1)*.55);
+ const bars=wxHours.map((h,k)=>h.p>0?`<rect x="${(xs(k)-bw/2).toFixed(1)}" y="${yp(h.p).toFixed(1)}" width="${bw.toFixed(1)}" height="${(B2-yp(h.p)).toFixed(1)}" rx="2" fill="var(--rain)" opacity="${h.p>=50?1:.55}"/>`:"").join("");
+ const kmax=tv.indexOf(Math.max(...tv)),kmin=tv.indexOf(Math.min(...tv));
+ const lab=(k,up)=>`<text class="lb" x="${xs(k)}" y="${yt(tv[k])+(up?-9:17)}" text-anchor="${k<2?"start":k>n-3?"end":"middle"}">${r0(tv[k])}°</text>`;
+ let xl="";for(let k=0;k<n;k+=3)xl+=`<text class="ax" x="${xs(k)}" y="${HH}" text-anchor="${k===0?"start":"middle"}">${k===0?"Agora":String(wxHours[k].t).slice(11,13)+"h"}</text>`;
+ return `<div class="wxc" id="wxc"><svg viewBox="0 0 ${W} ${HH+4}" role="img" aria-label="Temperatura e probabilidade de chuva nas próximas 24 horas">${g}<path d="${area}" fill="var(--warm)" opacity=".1"/><polyline points="${pts.join(" ")}" fill="none" stroke="var(--warm)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>${bars}${lab(kmax,true)}${kmin!==kmax?lab(kmin,false):""}${xl}<g id="wxx" style="display:none"><line y1="${T1-6}" y2="${B2}" stroke="var(--ink2)" stroke-width="1" stroke-dasharray="3 3"/><circle r="5" fill="var(--warm)" stroke="var(--paper)" stroke-width="2"/></g><rect id="wxhit" x="${L}" y="0" width="${W-L-R}" height="${HH}" fill="transparent"/></svg><div class="wxtip" id="wxtip" hidden></div></div>`}
+function wxHover(e){const svg=e.target.closest?.("#wxc svg");if(!svg||!wxHours.length)return;const n=wxHours.length,W=720,L=34,R=14;
+ const b=svg.getBoundingClientRect(),vx=(e.clientX-b.left)/b.width*W;let k=Math.round((vx-L)/((W-L-R)/(n-1)));k=Math.max(0,Math.min(n-1,k));
+ const h=wxHours[k],x=L+k*(W-L-R)/(n-1),tv=wxHours.map(z=>z.temp),lo=Math.floor(Math.min(...tv))-1,hi=Math.ceil(Math.max(...tv))+1,y=150-(h.temp-lo)/(hi-lo||1)*128;
+ const g=svg.querySelector("#wxx");g.style.display="";g.querySelector("line").setAttribute("x1",x);g.querySelector("line").setAttribute("x2",x);const c=g.querySelector("circle");c.setAttribute("cx",x);c.setAttribute("cy",y);
+ const tip=$("#wxtip");tip.hidden=false;tip.innerHTML=`${k===0?"Agora":String(h.t).slice(11,16)} · ${esc(wxCode(h.c,h.d)[0])}<br><b>${r0(h.temp)}°</b> · chuva ${r0(h.p)}%${h.mm>0?` · ${(+h.mm).toFixed(1)} mm`:""}`;
+ const px=x/W*b.width;tip.style.left=Math.max(70,Math.min(b.width-70,px))+"px"}
+function wxHide(){const g=$("#wxx");if(g)g.style.display="none";const t=$("#wxtip");if(t)t.hidden=true}
+document.addEventListener("pointermove",e=>{if(e.target.closest?.("#wxc"))wxHover(e);else if($("#wxtip")&&!$("#wxtip").hidden)wxHide()});
+document.addEventListener("pointerdown",e=>{if(e.target.closest?.("#wxc"))wxHover(e)});
+function wxHTML(){const sel=`<label class="wxsel"><span>Localidade</span><select id="wx-city">${WXC.map(c=>`<option${c[0]===wxCity?" selected":""}>${esc(c[0])}</option>`).join("")}</select></label>`;
+ const head=t=>`<div class="wxh"><h2>${t}</h2>${sel}</div>`;
+ const w=wxCache[wxCity];if(!w){wxLoad();return head("O tempo em "+esc(wxCity))+`<div class="empty">A carregar a previsão…</div>`}
+ if(w.err)return head("O tempo em "+esc(wxCity))+`<div class="empty">Previsão indisponível de momento. <a href="https://www.ipma.pt/pt/otempo/prev.localidade.hora/" target="_blank" rel="noopener">Ver no IPMA</a></div>`;
+ const f=w.f,c=f.current,d=f.daily,[lbl,ic]=wxCode(c.weather_code,c.is_day);
+ let h=head("O tempo em "+esc(wxCity));
+ h+=`<div class="wxgrid"><div style="display:flex;flex-direction:column;gap:18px;min-width:0">`;
+ h+=`<div class="wxnow">${wxSvg(ic)}<div class="t">${r0(c.temperature_2m)}°<small>${esc(lbl)}</small></div><div class="d">Máx. ${r0(d.temperature_2m_max[0])}° · Mín. ${r0(d.temperature_2m_min[0])}° · Sensação ${r0(c.apparent_temperature)}° · Humidade ${r0(c.relative_humidity_2m)}% · Vento ${r0(c.wind_speed_10m)} km/h ${wdir(c.wind_direction_10m)}${c.wind_gusts_10m>=40?` (rajadas ${r0(c.wind_gusts_10m)})`:""}</div></div>`;
+ const tiles=[];
+ tiles.push(["Chuva hoje",`${r0(d.precipitation_probability_max[0]??0)}%`,(+d.precipitation_sum[0]>0?`${(+d.precipitation_sum[0]).toFixed(1)} mm previstos`:"sem acumulação prevista")]);
+ const uv=+d.uv_index_max[0];tiles.push(["Índice UV",isFinite(uv)?uv.toFixed(0):"—",isFinite(uv)?uvLvl(uv):""]);
+ tiles.push(["Sol",`${String(d.sunrise[0]).slice(11,16)} · ${String(d.sunset[0]).slice(11,16)}`,"nascer · pôr"]);
+ const m=w.m?.current;if(m&&m.wave_height!=null)tiles.push(["Mar",`${(+m.wave_height).toFixed(1)} m`,m.sea_surface_temperature!=null?`água a ${r0(m.sea_surface_temperature)}°`:"ondulação"]);
+ const a=w.a?.current?.european_aqi;if(a!=null)tiles.push(["Qualidade do ar",aqLvl(+a),`índice europeu ${r0(a)}`]);
+ h+=`<div class="wxtiles">${tiles.map(t=>`<div class="wxtile"><span class="k">${t[0]}</span><span class="v">${t[1]}</span><span class="s">${esc(t[2])}</span></div>`).join("")}</div>`;
+ h+=`<div><div class="wxsec"><span>Próximas 24 horas</span><span>temperatura e chuva</span></div>${wxChart(f,c)}</div></div>`;
+ const lo=Math.min(...d.temperature_2m_min),hi=Math.max(...d.temperature_2m_max),sp=(hi-lo)||1;
+ const dn=(t,i)=>i===0?"Hoje":i===1?"Amanhã":new Intl.DateTimeFormat("pt-PT",{weekday:"short"}).format(new Date(t+"T12:00:00")).replace(".","");
+ h+=`<div style="display:flex;flex-direction:column;gap:18px;min-width:0"><div><div class="wxsec"><span>Próximos 7 dias</span><span>mín. · máx.</span></div><div class="wxdays">`+d.time.map((t,i)=>{const [dl,di]=wxCode(d.weather_code[i],1),p=d.precipitation_probability_max[i]??0,a=d.temperature_2m_min[i],b=d.temperature_2m_max[i];
+   return `<div class="wxday" title="${esc(dl)}"><span class="n">${dn(t,i)}</span>${wxSvg(di)}<span class="p">${p>=10?r0(p)+"%":""}</span><span class="lo">${r0(a)}°</span><span class="bar"><i style="left:${((a-lo)/sp*100).toFixed(1)}%;width:${Math.max(4,(b-a)/sp*100).toFixed(1)}%"></i></span><span class="hi">${r0(b)}°</span></div>`}).join("")+`</div></div>`;
+ const P=wxCache.pais?.d;if(P&&P.length===WXC.length){h+=`<div><div class="wxsec"><span>O país hoje</span><span>máx. · mín.</span></div><div class="wxpais">`+WXC.map((c,i)=>{const z=P[i]?.daily;if(!z)return"";const [zl,zi]=wxCode(z.weather_code[0],1);
+   return `<button type="button" class="wxcity" data-city="${esc(c[0])}" aria-current="${c[0]===wxCity}" title="${esc(zl)}">${wxSvg(zi)}<span class="c">${esc(c[0])}</span><span class="v">${r0(z.temperature_2m_max[0])}° <span>${r0(z.temperature_2m_min[0])}°</span></span></button>`}).join("")+`</div></div>`}
+ h+=`</div></div><div class="wxsrc">Previsão: Open-Meteo, atualizada a cada 15 min. Avisos oficiais: <a href="https://www.ipma.pt/pt/otempo/prev-sam/" target="_blank" rel="noopener">IPMA</a>. Os avisos e notícias do tempo estão em baixo.</div>`;
+ return h}
+function wxSet(c){if(!WXC.some(x=>x[0]===c))return;wxCity=c;try{localStorage.setItem("pr.wx",c)}catch(e){}gc("tempo-"+c,"Tempo em "+c);const el=$("#wx");if(el)el.innerHTML=wxHTML()}
+document.addEventListener("change",e=>{if(e.target.id==="wx-city")wxSet(e.target.value)});
+document.addEventListener("click",e=>{const b=e.target.closest?.(".wxcity");if(b){wxSet(b.dataset.city);$("#wx")?.scrollIntoView({behavior:"smooth",block:"start"})}});
+setInterval(()=>{if(view==="tempo")wxLoad()},5*60e3);
+
 function renderTopic(){let items=data.items.filter(i=>i.topic===view);
   if(view==="desporto"&&fSport)items=items.filter(i=>fSport==="futebol"?FUTK.has(i.sub):i.sub===fSport);
   if(fSub.size)items=items.filter(i=>fSub.has(i.sub));if(fImp.size)items=items.filter(i=>fImp.has(i.impacto));
-  items.sort(byTs);if(!items.length){$("#main").innerHTML=emptyMsg();return}
+  const pre=view==="tempo"?`<section class="wx" id="wx">${wxHTML()}</section><div class="wxsec" style="margin-top:18px"><span>Avisos e notícias</span><span></span></div>`:"";
+  items.sort(byTs);if(!items.length){$("#main").innerHTML=pre+emptyMsg();return}
   const groups=new Map();for(const it of items){const k=dayKey(new Date(it.ts));if(!groups.has(k))groups.set(k,[]);groups.get(k).push(it)}
-  let h=`<div class="list">`;for(const [k,list] of groups){h+=`<div class="day"><span>${k===dayKey(new Date())?"Hoje · ":""}${fmtD.format(new Date(list[0].ts))}</span><span>${list.length}</span></div>`+list.map(i=>story(i,"",{time:true})).join("")}
+  let h=pre+`<div class="list">`;for(const [k,list] of groups){h+=`<div class="day"><span>${k===dayKey(new Date())?"Hoje · ":""}${fmtD.format(new Date(list[0].ts))}</span><span>${list.length}</span></div>`+list.map(i=>story(i,"",{time:true})).join("")}
   $("#main").innerHTML=h+"</div>"}
 
 let arch=null,archTopic="",archN=100;
