@@ -1,0 +1,904 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Portugal Radar 2.0 (pré-visualização)</title>
+<meta name="robots" content="noindex">
+<meta name="description" content="As notícias de Portugal que interessam, por tema, sem repetições e com a fonte. Atualizado de hora a hora.">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+<meta name="theme-color" content="#f7f5f0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="PT Radar">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta property="og:title" content="Portugal Radar"><meta property="og:description" content="Notícias de Portugal e do mundo, por tema, sem repetições e com a fonte. Atualizado de hora a hora."><meta property="og:image" content="https://portugalradar.pt/og.jpg"><meta property="og:url" content="https://portugalradar.pt/"><meta property="og:type" content="website"><meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;0,900;1,500&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=IBM+Plex+Sans+Condensed:wght@400;500;600;700&display=swap">
+<style>
+/* Layout: jornal diário. Cabeçalho (nome, data, estado) → barra de secções → "Última hora" → capa (manchete + destaques + secções em colunas) ou secção (lista por dia) ou frente a frente. */
+:root{
+  --paper:#f7f5f0; --paper2:#efece5; --ink:#17150f; --ink2:#5a564c; --rule:#cfc9bc; --rule2:#e5e0d4;
+  --red:#a8121f; --red-fg:#ffffff;
+  --alto:#a8121f; --medio:#8a6d0b; --baixo:#8c877b;
+  --display:"Playfair Display",Georgia,"Times New Roman",serif;
+  --body:"Source Serif 4",Georgia,"Times New Roman",serif;
+  --ui:"IBM Plex Sans Condensed","Arial Narrow",system-ui,sans-serif;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--paper:#15140f;--paper2:#1e1c15;--ink:#ece8dd;--ink2:#a39e90;--rule:#3a372d;--rule2:#2a281f;--red:#e0475a;--alto:#e0475a;--medio:#d3aa2c;--baixo:#8c877b;color-scheme:dark}}
+:root[data-theme="dark"]{--paper:#15140f;--paper2:#1e1c15;--ink:#ece8dd;--ink2:#a39e90;--rule:#3a372d;--rule2:#2a281f;--red:#e0475a;--alto:#e0475a;--medio:#d3aa2c;--baixo:#8c877b;color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.5;margin:0}
+a{color:inherit}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+button:focus-visible,a:focus-visible,textarea:focus-visible,input:focus-visible{outline:2px solid var(--red);outline-offset:2px}
+.page{max-width:1180px;margin:0 auto;padding-block:0 48px;padding-inline:16px}
+.wrap{width:100%}
+
+/* cabeçalho */
+.mast{display:grid;grid-template-columns:1fr auto 1fr;align-items:end;gap:12px;padding:18px 0 10px;border-bottom:3px double var(--ink)}
+.mast .l,.mast .r{font-family:var(--ui);font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink2);display:flex;flex-direction:column;gap:3px}
+.mast .r{text-align:right;align-items:flex-end}
+.mast h1{margin:0;text-align:center;font-family:var(--display);font-weight:900;font-size:clamp(40px,7vw,74px);line-height:.95;letter-spacing:-.01em;text-wrap:balance}
+.mast h1 span{color:var(--red)}
+.mast h1 .logo{display:block;margin:0 auto;width:min(520px,88vw);height:auto}
+.mast h1 .txt{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .mast h1 .logo{background:#f7f5f0;padding:10px 18px;border-radius:6px}}
+:root[data-theme="dark"] .mast h1 .logo{background:#f7f5f0;padding:10px 18px;border-radius:6px}
+.tag{font-family:var(--ui);font-size:11px;letter-spacing:.14em;text-transform:uppercase;text-align:center;color:var(--ink2);padding:6px 0;border-bottom:1px solid var(--ink)}
+.live{display:inline-flex;align-items:center;gap:6px}
+.dot{width:7px;height:7px;border-radius:50%;background:var(--baixo);display:inline-block}
+.dot.ok{background:#2f8f4e}
+@media (prefers-reduced-motion:no-preference){.dot.ok{animation:pulse 2.4s infinite}}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
+.ver{font-variant-numeric:tabular-nums}
+.sugg{text-decoration:none;border:1px solid var(--ink);padding:4px 10px;font-family:var(--ui);font-size:11px;letter-spacing:.12em;text-transform:uppercase;font-weight:600}
+.sugg:hover{background:var(--ink);color:var(--paper)}
+
+/* secções */
+.nav{display:flex;gap:0;overflow-x:auto;scrollbar-width:none;border-bottom:1px solid var(--ink);position:sticky;top:env(safe-area-inset-top,0px);background:var(--paper);z-index:5}
+.nav::-webkit-scrollbar{display:none}
+.nav button{font-family:var(--ui);font-weight:600;font-size:13px;letter-spacing:.08em;text-transform:uppercase;padding:11px 12px;white-space:nowrap;border-bottom:3px solid transparent;margin-bottom:-1px;display:inline-flex;gap:6px;align-items:baseline}
+.nav button .n{font-size:10px;color:var(--ink2);font-weight:500}
+.nav button[aria-pressed="true"]{border-bottom-color:var(--red);color:var(--red)}
+.nav button.ff{margin-left:auto}
+.nav button.ff[aria-pressed="true"]{color:var(--ink);border-bottom-color:var(--ink)}
+@media (min-width:641px){
+  .nav{flex-wrap:wrap;overflow:visible;justify-content:center;column-gap:2px}
+  .nav button{padding:9px 8px;font-size:12px;letter-spacing:.06em}
+  .nav button:hover{color:var(--red)}
+  .nav button.ff{margin-left:0}
+}
+
+/* em destaque */
+.brief .bh{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
+.listen{display:inline-flex;align-items:center;gap:8px;font-family:var(--ui);font-weight:600;font-size:12px;letter-spacing:.1em;text-transform:uppercase;border:1px solid var(--ink);padding:6px 12px;cursor:pointer;background:none;color:inherit}
+.listen svg{width:14px;height:14px;flex:none}
+.listen[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.listen .ic-stop{display:none}.listen[aria-pressed="true"] .ic-play{display:none}.listen[aria-pressed="true"] .ic-stop{display:block}
+.lnow{font-family:var(--ui);font-size:12px;color:var(--ink2);flex-basis:100%;min-height:0}
+.lnow:empty{display:none}
+.brief{padding:14px 0 6px;border-bottom:1px solid var(--rule)}
+.brief .k{display:inline-block;font-family:var(--ui);font-weight:700;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--red-fg);background:var(--red);padding:4px 8px}
+.brief .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,250px),1fr));gap:0 22px;margin-top:8px}
+.bcard{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:0 12px;align-items:start;text-decoration:none;color:inherit;padding:10px 0;border-bottom:1px solid var(--rule2);min-width:0}
+.bcard:last-child{border-bottom:0}
+.bcard .w{display:flex;flex-direction:column;gap:3px;min-width:0}
+.bcard .bt{font-family:var(--ui);font-size:11px;letter-spacing:.1em;text-transform:uppercase;font-weight:700;color:var(--red);font-variant-numeric:tabular-nums}
+.bcard .tx{font-family:var(--display);font-weight:700;font-size:16px;line-height:1.25;text-wrap:balance}
+a.bcard:hover .tx{text-decoration:underline}
+.bcard .go{font-family:var(--ui);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink2)}
+.bcard img{width:88px;aspect-ratio:4/3;object-fit:cover;display:block;background:var(--paper2);margin-top:2px}
+@media (min-width:901px){.brief .cards .bcard{border-bottom:0;border-right:1px solid var(--rule2);padding-right:22px}.brief .cards .bcard:last-child{border-right:0}}
+
+/* filtros de secção */
+.filters{display:flex;flex-wrap:wrap;gap:6px 14px;padding:12px 0;border-bottom:1px solid var(--rule);font-family:var(--ui);font-size:13px;align-items:center}
+.filters .k{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink2);font-weight:600;margin-right:2px}
+.chip{padding:3px 9px;border:1px solid var(--rule);border-radius:2px;font-weight:500;display:inline-flex;gap:6px;align-items:center}
+.filters .brk{flex-basis:100%;height:0}
+.chip .n{font-size:11px;color:var(--ink2)}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.chip[aria-pressed="true"] .n{color:var(--paper);opacity:.8}
+.chip.zero{color:var(--ink2);border-style:dashed;opacity:.7}
+.chip.zero[aria-pressed="true"]{background:var(--paper2);color:var(--ink);border-color:var(--ink2);opacity:1}
+.chip.zero[aria-pressed="true"] .n{color:var(--ink2)}
+.nav button.zero{color:var(--ink2);opacity:.6}
+.nav button.zero[aria-pressed="true"]{opacity:1}
+
+/* capa */
+.front{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:0 28px;padding-top:18px}
+.lead{grid-column:1;padding-bottom:18px;border-bottom:1px solid var(--ink);min-width:0}
+.lead .kick{font-family:var(--ui);font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:700;color:var(--red);margin-bottom:6px}
+.lead h2{font-family:var(--display);font-weight:900;font-size:clamp(28px,4.4vw,46px);line-height:1.05;margin:0 0 10px;letter-spacing:-.01em;text-wrap:balance}
+.lead h2 a{text-decoration:none}
+.lead h2 a:hover{text-decoration:underline}
+.lead p{font-size:19px;line-height:1.45;margin:0 0 10px;max-width:62ch}
+.side{grid-column:2;grid-row:1/span 2;border-left:1px solid var(--rule);padding-left:28px;min-width:0}
+.side .h{font-family:var(--ui);font-weight:700;font-size:12px;letter-spacing:.14em;text-transform:uppercase;padding-bottom:6px;border-bottom:2px solid var(--ink);margin-bottom:4px}
+.story{padding:11px 0;border-bottom:1px solid var(--rule2);min-width:0}
+.story:last-child{border-bottom:0}
+.story h3{font-family:var(--display);font-weight:700;font-size:18px;line-height:1.2;margin:0 0 4px;text-wrap:balance}
+.story h3 a{text-decoration:none}
+.story h3 a:hover{text-decoration:underline}
+.story p{margin:0 0 4px;font-size:15px;line-height:1.45;color:var(--ink)}
+.story.sm h3{font-size:16px}
+.story.sm p{display:none}
+.meta{font-family:var(--ui);font-size:12px;color:var(--ink2);display:flex;flex-wrap:wrap;gap:4px 10px;align-items:center;font-variant-numeric:tabular-nums}
+.meta .src{font-weight:600;color:var(--ink)}
+.meta .imp{font-weight:700;letter-spacing:.08em;text-transform:uppercase;font-size:10px}
+.imp.alto{color:var(--alto)}.imp.medio{color:var(--medio)}.imp.baixo{color:var(--baixo)}
+.meta .sub{border:1px solid var(--rule);padding:0 5px;border-radius:2px;font-weight:600}
+.meta .setor{color:var(--ink2)}
+.sections{grid-column:1;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 28px;padding-top:6px}
+.sec{padding:14px 0;border-bottom:1px solid var(--rule);min-width:0}
+.sec .h{display:flex;justify-content:space-between;align-items:baseline;padding-bottom:5px;border-bottom:2px solid var(--c,var(--ink));margin-bottom:2px}
+.sec .h b{font-family:var(--ui);font-weight:700;font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--c,var(--ink))}
+.sec .h button{font-family:var(--ui);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink2)}
+.sec .h button:hover{color:var(--red)}
+.sec .h+.story h3{font-size:19px}
+.sec .h+.story p{display:block}
+
+/* secção (lista) */
+.list{padding-top:6px}
+.day{font-family:var(--ui);font-weight:700;font-size:12px;letter-spacing:.14em;text-transform:uppercase;padding:16px 0 6px;border-bottom:2px solid var(--ink);margin-bottom:2px;display:flex;justify-content:space-between}
+.list .story{display:grid;grid-template-columns:56px minmax(0,1fr);gap:2px 14px}
+.list .story .t{font-family:var(--ui);font-weight:600;font-size:14px;color:var(--ink2);padding-top:3px;font-variant-numeric:tabular-nums;grid-row:1/span 3}
+.list .story h3{font-size:20px}
+.list .story p{display:block;font-size:16px}
+.empty{color:var(--ink2);text-align:center;padding:48px 0;font-style:italic}
+.empty b{display:block;font-family:var(--display);font-style:normal;font-size:22px;color:var(--ink);margin-bottom:6px}
+
+/* imagens */
+.lead .im{display:block;margin:0 0 12px;aspect-ratio:16/9;overflow:hidden;background:var(--paper2)}
+.lead .im img{width:100%;height:100%;object-fit:cover;display:block}
+.story.hasimg{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:0 12px;align-items:start}
+.story.hasimg>.im{grid-column:2;grid-row:1/span 3;width:96px;aspect-ratio:4/3;overflow:hidden;background:var(--paper2);display:block;margin-top:3px}
+.story.hasimg>.im img{width:100%;height:100%;object-fit:cover;display:block}
+.story.sm.hasimg>.im{width:72px}
+.list .story.hasimg{grid-template-columns:56px minmax(0,1fr) auto}
+.list .story.hasimg>.im{grid-column:3;width:132px}
+.sec .h+.story.hasimg{display:block}
+.sec .h+.story.hasimg>.im{width:100%;aspect-ratio:16/9;margin:0 0 8px}
+
+/* novo + partilhar */
+.meta .novo{background:var(--red);color:var(--red-fg);font-weight:700;font-size:10px;letter-spacing:.1em;text-transform:uppercase;padding:1px 5px;border-radius:2px}
+.meta .shr{font-family:var(--ui);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink2);border-bottom:1px solid var(--rule);padding:0;margin-left:auto}
+.meta .shr:hover{color:var(--red);border-color:var(--red)}
+
+/* leitor */
+#reader{width:min(640px,calc(100vw - 24px));max-height:calc(100vh - 32px)}
+#reader .dlg{gap:12px}
+#reader .kick{font-family:var(--ui);font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:700;color:var(--red)}
+#reader h2{font-size:clamp(24px,4vw,32px);line-height:1.1;text-wrap:balance}
+#reader .im{aspect-ratio:16/9;overflow:hidden;background:var(--paper2)}
+#reader .im img{width:100%;height:100%;object-fit:cover;display:block}
+#reader .txt{font-size:18px;line-height:1.5;color:var(--ink);margin:0}
+#reader .row{justify-content:space-between;align-items:center}
+#reader .row .go{display:flex;gap:8px;flex-wrap:wrap}
+#reader a.btn{text-decoration:none;display:inline-block}
+#reader .x{font-family:var(--ui);font-size:22px;line-height:1;color:var(--ink2);padding:2px 6px;position:absolute;top:8px;right:8px}
+#reader{position:fixed}
+#reader .meta .shr{display:none}
+#reader [data-say][aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+
+/* frente a frente */
+.pairs{display:flex;flex-direction:column;gap:22px;padding-top:18px}
+.pair{border-top:3px solid var(--ink);padding-top:10px}
+.pair .tema{font-family:var(--display);font-weight:900;font-size:26px;line-height:1.1;margin:0 0 4px;text-wrap:balance}
+.pair .nota{font-size:15px;color:var(--ink2);margin:0 0 12px;font-style:italic}
+.pair .duo{display:grid;grid-template-columns:minmax(0,1fr) 40px minmax(0,1fr);gap:12px;align-items:start}
+.pair .vs{font-family:var(--display);font-weight:900;font-size:22px;color:var(--red);text-align:center;padding-top:22px}
+.pair .box{border:1px solid var(--rule);padding:12px 14px;min-width:0}
+.pair .box h3{font-family:var(--display);font-size:18px;font-weight:700;margin:0 0 6px;line-height:1.2}
+.pair .box p{margin:0 0 6px;font-size:15px}
+
+footer{margin-top:28px;padding-top:12px;border-top:3px double var(--ink);font-family:var(--ui);font-size:12px;color:var(--ink2);line-height:1.6;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+footer .cnt{font-variant-numeric:tabular-nums}
+
+/* sugestões */
+dialog{border:1px solid var(--ink);background:var(--paper);color:var(--ink);padding:0;width:min(520px,calc(100vw - 32px));font-family:var(--body)}
+dialog::backdrop{background:rgba(0,0,0,.45)}
+.dlg{padding:18px 20px 20px;display:flex;flex-direction:column;gap:10px}
+.dlg h2{font-family:var(--display);font-size:24px;margin:0;font-weight:900}
+.dlg p{margin:0;font-size:14px;color:var(--ink2)}
+.dlg textarea,.dlg input{width:100%;font:inherit;font-size:15px;padding:8px 10px;border:1px solid var(--rule);background:var(--paper2);color:var(--ink);border-radius:2px}
+.dlg textarea{min-height:110px;resize:vertical}
+.dlg .row{display:flex;gap:8px;justify-content:flex-end;flex-wrap:wrap}
+.btn{font-family:var(--ui);font-weight:600;font-size:13px;letter-spacing:.08em;text-transform:uppercase;padding:8px 14px;border:1px solid var(--ink)}
+.btn.pri{background:var(--ink);color:var(--paper)}
+.btn:disabled{opacity:.5;cursor:default}
+.msg{font-family:var(--ui);font-size:13px;min-height:18px}
+.msg.ok{color:#2f8f4e}.msg.err{color:var(--alto)}
+#sugg .x{font-family:var(--ui);font-size:22px;line-height:1;color:var(--ink2);padding:2px 6px;position:absolute;top:8px;right:8px;border:0;background:none;cursor:pointer}
+#sugg{position:fixed}
+#sugg .lbl{display:flex;flex-direction:column;gap:4px;font-family:var(--ui);font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink2)}
+#sugg select{width:100%;font:inherit;font-size:15px;padding:8px 10px;border:1px solid var(--rule);background:var(--paper2);color:var(--ink);border-radius:2px}
+#sugg .hp{position:absolute;left:-9999px;width:1px;height:1px;opacity:0}
+.sugg{background:none;cursor:pointer;color:inherit}
+.sugg.pri{background:var(--red);border-color:var(--red);color:var(--red-fg)}
+.sugg.pri:hover{background:var(--ink);border-color:var(--ink)}
+.hb{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px;min-width:220px}
+.hb .sugg{width:100%;text-align:center;white-space:nowrap;padding:6px 8px}
+#shr{position:fixed}
+#shr .x{font-family:var(--ui);font-size:22px;line-height:1;color:var(--ink2);padding:2px 6px;position:absolute;top:8px;right:8px;border:0;background:none;cursor:pointer}
+.shg{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:8px}
+.shg .btn{text-decoration:none;text-align:center;cursor:pointer}
+.inst{display:flex;align-items:center;gap:10px;padding:8px 0;border-bottom:1px solid var(--rule);font-family:var(--ui);font-size:13px}
+.inst span{flex:1;min-width:0}
+.inst .ib{font-family:var(--ui);font-weight:700;font-size:12px;letter-spacing:.1em;text-transform:uppercase;background:var(--red);color:var(--red-fg);padding:6px 12px;border:0;cursor:pointer;white-space:nowrap}
+.inst .ix{font-size:20px;line-height:1;color:var(--ink2);padding:2px 6px;background:none;border:0;cursor:pointer}
+#ios{position:fixed}
+#ios .x{font-family:var(--ui);font-size:22px;line-height:1;color:var(--ink2);padding:2px 6px;position:absolute;top:8px;right:8px;border:0;background:none;cursor:pointer}
+.steps{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:8px;font-size:15px}
+.steps svg{width:18px;height:18px;vertical-align:-3px;margin:0 2px}
+footer .lnk{font:inherit;color:inherit;text-decoration:underline;cursor:pointer;padding:0}
+footer a{color:inherit}
+
+/* ===== tempo: previsão ===== */
+:root{--rain:#2f6db3;--warm:#c2571a}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--rain:#6fa3e8;--warm:#e88a4a}}
+:root[data-theme="dark"]{--rain:#6fa3e8;--warm:#e88a4a}
+.wx{padding:16px 0 8px;display:flex;flex-direction:column;gap:18px}
+.wxh{display:flex;justify-content:space-between;align-items:flex-end;gap:12px;flex-wrap:wrap}
+.wxh h2{font-family:var(--display);font-weight:900;font-size:26px;margin:0;line-height:1.1}
+.wxsel{display:flex;flex-direction:column;gap:3px;font-family:var(--ui);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink2)}
+.wxsel select{font:inherit;font-size:15px;letter-spacing:0;text-transform:none;color:var(--ink);background:var(--paper2);border:1px solid var(--rule);padding:6px 8px;border-radius:2px}
+.wxnow{display:grid;grid-template-columns:auto minmax(0,1fr);gap:4px 18px;align-items:center}
+.wxnow .ic{width:64px;height:64px;color:var(--ink);grid-row:1/span 2}
+.wxnow .t{font-family:var(--display);font-weight:900;font-size:56px;line-height:1;font-variant-numeric:tabular-nums}
+.wxnow .t small{font-family:var(--ui);font-size:18px;font-weight:600;color:var(--ink2);margin-left:10px;letter-spacing:.02em}
+.wxnow .d{font-family:var(--ui);font-size:14px;color:var(--ink2)}
+.wxtiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:0;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule)}
+.wxtile{padding:10px 12px 10px 0;display:flex;flex-direction:column;gap:2px;min-width:0}
+.wxtile .k{font-family:var(--ui);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink2);font-weight:600}
+.wxtile .v{font-family:var(--display);font-weight:700;font-size:22px;line-height:1.15;font-variant-numeric:tabular-nums}
+.wxtile .s{font-family:var(--ui);font-size:12px;color:var(--ink2)}
+.wxsec{font-family:var(--ui);font-weight:700;font-size:12px;letter-spacing:.14em;text-transform:uppercase;padding-bottom:5px;border-bottom:2px solid var(--ink);display:flex;justify-content:space-between;gap:10px}
+.wxsec span+span{font-weight:500;color:var(--ink2);letter-spacing:.06em}
+.wxc{position:relative}
+.wxc svg{display:block;width:100%;height:auto;overflow:visible;touch-action:pan-y}
+.wxc .ax{font-family:var(--ui);font-size:11px;fill:var(--ink2)}
+.wxc .lb{font-family:var(--ui);font-size:12px;font-weight:600;fill:var(--ink)}
+.wxc .gl{stroke:var(--rule2);stroke-width:1}
+.wxtip{position:absolute;top:0;pointer-events:none;background:var(--paper);border:1px solid var(--ink);padding:6px 9px;font-family:var(--ui);font-size:12px;line-height:1.4;white-space:nowrap;transform:translateX(-50%);box-shadow:0 2px 6px rgba(0,0,0,.12)}
+.wxtip b{font-size:14px}
+.wxtip[hidden]{display:none}
+.wxdays{display:flex;flex-direction:column}
+.wxday{display:grid;grid-template-columns:64px 30px 44px 36px minmax(60px,1fr) 36px;gap:10px;align-items:center;padding:8px 0;border-bottom:1px solid var(--rule2);font-family:var(--ui);font-size:14px;font-variant-numeric:tabular-nums}
+.wxday:last-child{border-bottom:0}
+.wxday .n{font-weight:600;text-transform:capitalize}
+.wxday .ic{width:26px;height:26px}
+.wxday .p{color:var(--rain);font-weight:600;font-size:12px}
+.wxday .lo{color:var(--ink2);text-align:right}
+.wxday .hi{font-weight:700}
+.wxday .bar{height:6px;border-radius:3px;background:var(--rule2);position:relative}
+.wxday .bar i{position:absolute;top:0;bottom:0;border-radius:3px;background:linear-gradient(90deg,var(--rain),var(--warm))}
+.wxpais{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:0 18px}
+.wxcity{display:grid;grid-template-columns:26px minmax(0,1fr) auto;gap:8px;align-items:center;padding:7px 0;border-bottom:1px solid var(--rule2);font-family:var(--ui);font-size:13px;cursor:pointer;background:none;border-left:0;border-right:0;border-top:0;text-align:left;color:inherit;width:100%}
+.wxcity:hover .c,.wxcity[aria-current="true"] .c{color:var(--red)}
+.wxcity .ic{width:22px;height:22px}
+.wxcity .c{font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.wxcity .v{font-variant-numeric:tabular-nums;white-space:nowrap}
+.wxcity .v span{color:var(--ink2)}
+.wxsrc{font-family:var(--ui);font-size:11px;color:var(--ink2)}
+@media (min-width:901px){.wxgrid{display:grid;grid-template-columns:minmax(0,3fr) minmax(0,2fr);gap:0 32px;align-items:start}}
+@media (max-width:640px){.wxnow .t{font-size:46px}.wxday{grid-template-columns:52px 26px 38px 32px minmax(40px,1fr) 32px;gap:8px;font-size:13px}}
+
+
+/* ===== v2 ===== */
+.mast2{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:12px;padding:14px 0 12px}
+.mast2 h1{margin:0;text-align:center;font-family:var(--display);font-weight:900;font-size:0}
+.mast2 h1 .logo{display:block;margin:0 auto;width:min(430px,88vw);height:auto}
+.mast2 h1 .txt{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .mast2 h1 .logo{background:#f7f5f0;padding:10px 18px;border-radius:6px}}
+:root[data-theme="dark"] .mast2 h1 .logo{background:#f7f5f0;padding:10px 18px;border-radius:6px}
+.hl{display:flex;align-items:center;gap:6px;font-family:var(--ui);font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink2)}
+.hl .hd{display:flex;flex-direction:column;gap:3px;padding-left:10px;border-left:1px solid var(--rule);margin-left:6px}
+.ib2{width:36px;height:36px;display:inline-flex;align-items:center;justify-content:center;color:var(--ink);border-radius:4px}
+.ib2 svg{width:22px;height:22px}
+.ib2:hover{background:var(--paper2)}
+.hr{display:flex;flex-direction:column;align-items:flex-end;gap:8px;font-family:var(--ui);font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink2)}
+.hr .ed{display:flex;gap:18px}
+.hr .ed span+span::before{content:"";display:inline-block;width:1px;height:12px;background:var(--rule);margin-right:18px;vertical-align:-2px}
+.hb{display:flex;gap:8px;min-width:0}
+.hb .sugg{width:auto;display:inline-flex;align-items:center;gap:8px;padding:8px 14px;font-size:12px;border-radius:3px;white-space:nowrap}
+.hb .sugg svg{width:15px;height:15px}
+.navwrap{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--paper);border-top:1px solid var(--ink);border-bottom:1px solid var(--ink);display:flex;align-items:stretch}
+.nav{position:static;border:0;flex:1;flex-wrap:nowrap!important;overflow-x:auto!important;justify-content:flex-start!important;scroll-behavior:smooth}
+.nav button{font-family:var(--display)!important;font-weight:700!important;font-size:14px!important;letter-spacing:.04em!important;padding:13px 16px!important;text-transform:uppercase}
+.nav button .n{display:none}
+.nav button.ff{margin-left:0!important}
+.narr{flex:none;width:40px;display:inline-flex;align-items:center;justify-content:center;border-left:1px solid var(--rule);color:var(--ink)}
+.narr svg{width:18px;height:18px}
+.narr[hidden]{display:none}
+.srch{display:flex;gap:8px;padding:12px 0;border-bottom:1px solid var(--rule)}
+.srch input{flex:1;font:inherit;font-size:16px;padding:10px 12px;border:1px solid var(--ink);background:var(--paper2);color:var(--ink);border-radius:3px}
+.menu{border-bottom:1px solid var(--rule);padding:12px 0;display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:4px 16px;font-family:var(--ui)}
+.menu button{text-align:left;padding:8px 6px;font-size:14px;border-radius:3px}
+.menu button:hover{background:var(--paper2)}
+.menu button b{display:block;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink2);margin-bottom:4px}
+.menu .mh{grid-column:1/-1;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink2);font-weight:700;padding:4px 6px;border-bottom:1px solid var(--rule2)}
+
+/* agora */
+.brief{padding:16px 0 0;border:0}
+.agora{display:grid;grid-template-columns:200px minmax(0,1fr) 40px;border:1px solid var(--rule);background:var(--paper2)}
+.agora .ag{background:var(--red);color:var(--red-fg);padding:18px 24px;display:flex;flex-direction:column;justify-content:center;gap:10px}
+.agora .ag .k{font-family:var(--ui);font-weight:700;font-size:20px;letter-spacing:.14em;text-transform:uppercase;display:flex;align-items:center;gap:14px}
+.agora .ag .k i{width:9px;height:9px;border-radius:50%;background:#fff;display:inline-block}
+.agora .ag .k small{font-size:15px;font-weight:600;letter-spacing:.08em}
+.agora .ag .s{font-family:var(--ui);font-size:11px;letter-spacing:.14em;text-transform:uppercase;opacity:.9}
+.agora .ag .listen{border-color:rgba(255,255,255,.7);color:#fff;padding:5px 10px;font-size:11px;width:max-content}
+.agora .ag .listen[aria-pressed="true"]{background:#fff;color:var(--red)}
+.agora .cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;margin:0}
+.bcard{display:grid;grid-template-columns:auto minmax(0,1fr);gap:0 14px;padding:16px 20px;border:0;border-right:1px solid var(--rule);background:var(--paper);align-items:start}
+.bcard:last-child{border-right:0}
+.bcard .num{font-family:var(--display);font-weight:500;font-size:28px;line-height:1;color:var(--ink2);padding-top:2px}
+.bcard .w{gap:5px}
+.bcard .bt{color:var(--red);font-size:10px}
+.bcard .tx{font-size:16px;line-height:1.28}
+.bcard .go,.bcard .lnow{display:none}
+.bcard img{display:none}
+.agora .nx{display:flex;align-items:center;justify-content:center;border-left:1px solid var(--rule);color:var(--ink)}
+.agora .nx svg{width:20px;height:20px}
+.lnow{padding:6px 0 0}
+
+/* capa v2 */
+.front2{display:grid;grid-template-columns:minmax(0,2fr) minmax(0,1fr);gap:26px 32px;padding-top:22px}
+.hero{position:relative;min-height:440px;background:var(--ink);color:#fff;display:flex;flex-direction:column;justify-content:flex-end;overflow:hidden;border-radius:2px}
+.hero .im{position:absolute;inset:0;background-size:cover;background-position:center}
+.hero .im::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.05) 25%,rgba(0,0,0,.72) 75%,rgba(0,0,0,.85))}
+.hero .c{position:relative;padding:34px 40px 30px;display:flex;flex-direction:column;gap:12px}
+.hero .kick{align-self:flex-start;background:var(--red);color:#fff;font-family:var(--ui);font-weight:700;font-size:11px;letter-spacing:.16em;text-transform:uppercase;padding:5px 10px}
+.hero h2{font-family:var(--display);font-weight:900;font-size:clamp(30px,4.6vw,58px);line-height:1.02;margin:0;letter-spacing:-.01em;text-wrap:balance}
+.hero h2 a{text-decoration:none;color:inherit}
+.hero p{font-size:19px;line-height:1.4;margin:0;max-width:60ch;opacity:.95}
+.hero .meta,.hero .meta .src{color:#fff}
+.hero .meta .shr{color:#fff;border-color:rgba(255,255,255,.5)}
+.hero.noimg{background:var(--paper2);color:var(--ink);border:1px solid var(--rule);min-height:0}
+.hero.noimg .c{padding:28px 32px}
+.hero.noimg .meta,.hero.noimg .meta .src{color:var(--ink2)}
+.hero.noimg .meta .src{color:var(--ink)}
+.hero.noimg .meta .shr{color:var(--ink2);border-color:var(--rule)}
+.hero .imp{display:none}
+.toplist .h{display:flex;justify-content:space-between;align-items:center;gap:10px;font-family:var(--ui);font-weight:700;font-size:13px;letter-spacing:.18em;text-transform:uppercase;padding-bottom:10px;border-bottom:1px solid var(--rule)}
+.toplist .h::before{content:"";width:28px;height:3px;background:var(--red);margin-right:12px}
+.toplist .h span{flex:1}
+.toplist .h button{font-weight:500;font-size:11px;letter-spacing:.08em;color:var(--ink2)}
+.tl{display:grid;grid-template-columns:42px auto minmax(0,1fr);gap:0 14px;padding:14px 0;border-bottom:1px solid var(--rule2);align-items:start}
+.tl .n{font-family:var(--display);font-weight:500;font-size:34px;line-height:.9;color:var(--rule)}
+.tl .th{width:96px;aspect-ratio:1;object-fit:cover;background:var(--paper2);display:block;border-radius:2px}
+.tl .th.none{display:none}
+.tl.noimg{grid-template-columns:42px minmax(0,1fr)}
+.tl .k{font-family:var(--ui);font-size:10px;letter-spacing:.14em;text-transform:uppercase;font-weight:700;color:var(--red);margin-bottom:4px}
+.tl h3{font-family:var(--display);font-weight:700;font-size:17px;line-height:1.2;margin:0 0 6px;text-wrap:balance}
+.tl h3 a{text-decoration:none}
+.tl h3 a:hover{text-decoration:underline}
+.tl .t{font-family:var(--ui);font-size:11px;color:var(--ink2);font-variant-numeric:tabular-nums}
+.secs{grid-column:1/-1;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0 32px}
+.sec2{border-top:1px solid var(--rule);padding-top:10px;min-width:0}
+.sec2 .h{display:flex;justify-content:space-between;align-items:baseline;padding:6px 0 12px;border-bottom:2px solid var(--c,var(--ink));margin-bottom:2px}
+.sec2 .h b{font-family:var(--ui);font-weight:700;font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--c,var(--ink))}
+.sec2 .h button{font-family:var(--ui);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--c,var(--ink2))}
+.sec2 .story.hasimg{grid-template-columns:auto minmax(0,1fr)}
+.sec2 .story.hasimg>.im{grid-column:1;grid-row:1/span 4;width:132px;aspect-ratio:1;margin-top:2px}
+.sec2 .h+.story.hasimg{display:grid}
+.sec2 .h+.story.hasimg>.im{width:132px;aspect-ratio:1;margin:2px 0 0}
+.sec2 .h+.story h3{font-size:19px}
+.sec2 .story.sm.hasimg>.im{width:84px}
+.sec2 .kk{font-family:var(--ui);font-size:10px;letter-spacing:.14em;text-transform:uppercase;font-weight:700;color:var(--c,var(--red));margin-bottom:3px}
+.list .story.hasimg>.im{aspect-ratio:1}
+.res{padding-top:14px}
+.res .day{border-bottom-color:var(--rule)}
+@media (max-width:1000px){.secs{grid-template-columns:1fr 1fr}.agora .cards{grid-template-columns:1fr 1fr}.bcard:nth-child(3){display:none}}
+@media (max-width:900px){.front2{grid-template-columns:1fr}.agora{grid-template-columns:150px minmax(0,1fr) 36px}.agora .ag{padding:14px 16px}.agora .ag .k{font-size:16px}}
+@media (max-width:640px){
+  .mast2{grid-template-columns:auto 1fr auto;padding:10px 0 8px}
+  .mast2 h1 .logo{width:min(260px,60vw)}
+  .hl .hd{display:none}
+  .hr .ed{display:none}
+  .hb .sugg{padding:8px 9px;font-size:0;gap:0}
+  .hb .sugg svg{width:17px;height:17px}
+  .navwrap .narr{display:none}
+  .agora{grid-template-columns:1fr}
+  .agora .ag{flex-direction:row;align-items:center;justify-content:space-between;padding:10px 14px}
+  .agora .ag .s{display:none}
+  .agora .cards{grid-template-columns:1fr}
+  .bcard{border-right:0;border-bottom:1px solid var(--rule2);padding:12px 14px}
+  .bcard:nth-child(3){display:grid}
+  .agora .nx{display:none}
+  .hero{min-height:0}
+  .hero .im{position:relative;aspect-ratio:16/10}
+  .hero .im::after{display:none}
+  .hero .c{background:var(--ink);padding:18px 16px 18px}
+  .hero h2{font-size:28px}
+  .hero p{font-size:16px}
+  .secs{grid-template-columns:1fr}
+  .sec2 .story.hasimg>.im,.sec2 .h+.story.hasimg>.im{width:96px}
+  .tl .th{width:72px}
+}
+
+@media (max-width:900px){
+  .front{grid-template-columns:1fr}
+  .lead{grid-column:1}
+  .side{grid-column:1;grid-row:auto;border-left:0;padding-left:0;border-top:1px solid var(--rule);padding-top:10px}
+  .sections{grid-column:1}
+}
+@media (max-width:640px){
+  .mast{grid-template-columns:1fr;text-align:center}
+  .mast .l,.mast .r{flex-direction:row;justify-content:center;gap:12px;text-align:center;align-items:center}
+  .sections{grid-template-columns:1fr}
+  .list .story{grid-template-columns:1fr}
+  .list .story .t{grid-row:auto}
+  .list .story.hasimg{grid-template-columns:minmax(0,1fr) auto}
+  .list .story.hasimg .t{grid-column:1}
+  .list .story.hasimg>.im{grid-column:2;grid-row:1/span 4;width:96px}
+  .pair .duo{grid-template-columns:1fr}
+  .pair .vs{padding:0}
+  .nav button.ff{margin-left:0}
+}
+</style>
+
+<div class="page">
+<header class="mast2">
+  <div class="hl">
+    <button type="button" class="ib2" id="menu-btn" aria-label="Menu" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    <button type="button" class="ib2" id="search-btn" aria-label="Pesquisar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="11" cy="11" r="6.5"/><path d="M20 20l-4.2-4.2"/></svg></button>
+    <div class="hd"><span id="date">—</span><span class="live"><span class="dot" id="dot"></span><span id="upd">a carregar</span></span></div>
+  </div>
+  <h1><a href="./v2.html" data-home><img class="logo" src="logo.png" alt="Portugal Radar" width="1400" height="281" fetchpriority="high"></a><span class="txt">Portugal Radar</span></h1>
+  <div class="hr">
+    <div class="ed"><span>Edição <span class="ver" id="ver">1.0</span></span><span>Hora a hora</span></div>
+    <span class="hb"><button type="button" class="sugg pri" id="share-site"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="2.5"/><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="19" r="2.5"/><path d="M8.2 10.8l7.6-4.6M8.2 13.2l7.6 4.6"/></svg>Partilhar</button><button type="button" class="sugg" id="open-sugg"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h16v11H9l-5 4z"/></svg>Sugestões</button></span>
+  </div>
+</header>
+<div class="navwrap"><nav class="nav" id="nav" aria-label="Secções"></nav><button type="button" class="narr" id="nav-r" aria-label="Mais secções"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg></button></div>
+<div class="srch" id="srch" hidden><input type="search" id="q" placeholder="Pesquisar notícias (título, resumo, fonte)…" autocomplete="off"><button type="button" class="btn" id="q-x">Fechar</button></div>
+<div class="menu" id="menu" hidden></div>
+
+<section class="brief" id="brief" hidden></section>
+<div id="filters" class="filters" hidden></div>
+<main id="main"><div class="empty">A abrir a edição de hoje…</div></main>
+
+<dialog id="reader" aria-labelledby="r-title"><div class="dlg" id="r-body"></div></dialog>
+
+<dialog id="shr" aria-labelledby="h-title">
+  <div class="dlg">
+    <button type="button" class="x" data-xclose aria-label="Fechar">×</button>
+    <h2 id="h-title">Partilhar o Portugal Radar</h2>
+    <p>Manda o site a quem gosta de estar a par das notícias sem perder tempo.</p>
+    <div class="shg">
+      <a class="btn" data-sh="wa" target="_blank" rel="noopener">WhatsApp</a>
+      <a class="btn" data-sh="fb" target="_blank" rel="noopener">Facebook</a>
+      <a class="btn" data-sh="x" target="_blank" rel="noopener">X</a>
+      <a class="btn" data-sh="tg" target="_blank" rel="noopener">Telegram</a>
+      <a class="btn" data-sh="mail">Email</a>
+      <button type="button" class="btn pri" id="copy-link">Copiar link</button>
+    </div>
+    <div class="msg" id="h-msg" aria-live="polite"></div>
+  </div>
+</dialog>
+
+<dialog id="sugg" aria-labelledby="s-title">
+  <form class="dlg" id="sugg-form" novalidate>
+    <button type="button" class="x" data-close aria-label="Fechar">×</button>
+    <h2 id="s-title">Sugestões e contacto</h2>
+    <p>Viste um erro, falta uma fonte ou tens uma ideia? Diz-nos. Também podes escrever para <a href="mailto:contacto@portugalradar.pt">contacto@portugalradar.pt</a>.</p>
+    <label class="lbl">Assunto
+      <select name="assunto" id="s-assunto">
+        <option>Sugestão</option>
+        <option>Erro numa notícia</option>
+        <option>Fonte em falta</option>
+        <option>Contacto</option>
+      </select>
+    </label>
+    <label class="lbl">Mensagem
+      <textarea name="mensagem" id="s-msg" required maxlength="2000" placeholder="Escreve aqui…"></textarea>
+    </label>
+    <label class="lbl">O teu email (opcional, só para te respondermos)
+      <input type="email" name="email" id="s-email" autocomplete="email" placeholder="nome@exemplo.pt">
+    </label>
+    <input type="text" name="botcheck" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+    <div class="msg" id="s-msgbox" aria-live="polite"></div>
+    <div class="row">
+      <button type="button" class="btn" data-close>Cancelar</button>
+      <button type="submit" class="btn pri" id="s-send">Enviar</button>
+    </div>
+  </form>
+</dialog>
+
+<dialog id="ios" aria-labelledby="i-title">
+  <div class="dlg">
+    <button type="button" class="x" data-iclose aria-label="Fechar">×</button>
+    <h2 id="i-title">Adicionar ao ecrã principal</h2>
+    <ol class="steps" id="i-steps"></ol>
+    <div class="row"><button type="button" class="btn pri" data-iclose>Percebi</button></div>
+  </div>
+</dialog>
+
+<footer>
+  <div>Fontes: Lusa, RTP, CNN Portugal, Observador, Correio da Manhã, RTP Desporto, A Bola, Record, O Jogo, zerozero, AutoSport, ECO, Idealista, HealthNews, IPMA, Fogos.pt, NiT, Nova Gente, Caras, VIP. Cada notícia liga à fonte original. Horas de Lisboa. Frente a frente: duas notícias que se contradizem, lado a lado, sem dar nenhuma como verdadeira. Contacto: <a href="mailto:contacto@portugalradar.pt">contacto@portugalradar.pt</a>. <button type="button" class="lnk" data-share-site>Partilhar o site</button> · <button type="button" class="lnk" data-install>Adicionar ao ecrã principal</button></div>
+  <div class="cnt" id="cnt"></div>
+</footer>
+</div>
+
+
+
+<script>
+/* ===== CONFIGURAÇÃO: temas, sub-temas e cores. Tem de bater certo com TOPICS/SUBS do radar_merge.py ===== */
+const FUT=[["benfica","Benfica","#c8102e"],["sporting","Sporting","#0f7c3a"],["porto","FC Porto","#1f4e8c"],["braga","Braga","#b3121f"],["selecao","Seleção","#8a6d0b"],["liga","Liga e outros clubes","#3c5a70"],["lafora","Portugueses lá fora","#6b3aa8"]];
+const MOD=[["tenis","Ténis"],["golfe","Golfe"],["ciclismo","Ciclismo"],["motores","Motores"],["basquetebol","Basquetebol"],["andebol","Andebol"],["hoquei","Hóquei"],["futsal","Futsal"],["voleibol","Voleibol"],["atletismo","Atletismo"],["triatlo","Triatlo"],["natacao","Natação"],["surf","Surf"],["rugby","Râguebi"],["padel","Padel"],["outros","Outros desportos"]].map(x=>[x[0],x[1],"#0b6f8a"]);
+const FUTK=new Set(FUT.map(x=>x[0]));
+const CATS=[
+ ["desporto","Desporto","#0f7c6a",[...FUT,...MOD]],
+ ["politica","Política","#1f4e8c"],
+ ["tempo","Tempo & alertas","#9a6a00"],
+ ["saude","Saúde","#0b6f8a"],
+ ["economia","Economia & bolso","#1f6b4a"],
+ ["rosa","Cor-de-rosa","#a8327a",[["reality","Reality shows","#a8327a"],["famosos","Famosos","#7a3aa8"],["realeza","Realeza","#8a6d0b"],["outros","Outros","#6b675c"]]],
+ ["justica","Justiça & crime","#8a3b0b"],
+ ["cultura","Cultura & TV","#6b3aa8"],
+ ["tecnologia","Tecnologia","#3c5a70"],
+ ["mundo","Mundo","#4a4a4a"],
+ ["outros","Outros","#6b675c"],
+];
+/* Caixa de sugestões: chave pública do Web3Forms (entrega em contacto@portugalradar.pt). Vazia = abre o email do visitante com a mensagem. */
+const FORM_KEY="e3fda311-4d74-4d4c-924d-9f6d495bc241";
+const CONTACT="contacto@portugalradar.pt";
+
+const CAT=Object.fromEntries(CATS.map(c=>[c[0],c]));
+const IMPS=[["alto","Alto"],["medio","Médio"],["baixo","Baixo"]];
+const ORDER={alto:0,medio:1,baixo:2};
+let data={items:[],updated:null,brief:[],pairs:[]};
+let view="capa", fSport="", fSub=new Set(), fImp=new Set();
+try{const v=localStorage.getItem("pr.view");if(v)view=v}catch(e){}
+try{const h=(location.hash||"").slice(1);if(h&&(h==="capa"||h==="pairs"||h==="arquivo"||CAT[h]))view=h}catch(e){}
+const saveV=()=>{try{localStorage.setItem("pr.view",view)}catch(e){}};
+const $=s=>document.querySelector(s);
+const fmtT=new Intl.DateTimeFormat("pt-PT",{hour:"2-digit",minute:"2-digit",timeZone:"Europe/Lisbon"});
+const fmtDT=new Intl.DateTimeFormat("pt-PT",{day:"2-digit",month:"2-digit",hour:"2-digit",minute:"2-digit",timeZone:"Europe/Lisbon"});
+const fmtD=new Intl.DateTimeFormat("pt-PT",{weekday:"long",day:"numeric",month:"long",timeZone:"Europe/Lisbon"});
+const fmtFull=new Intl.DateTimeFormat("pt-PT",{weekday:"long",day:"numeric",month:"long",year:"numeric",timeZone:"Europe/Lisbon"});
+const dayKey=d=>new Intl.DateTimeFormat("en-CA",{timeZone:"Europe/Lisbon",year:"numeric",month:"2-digit",day:"2-digit"}).format(d);
+const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const subOf=it=>{const c=CAT[it.topic];if(!c||!c[3])return null;return c[3].find(x=>x[0]===it.sub)||null};
+const byTs=(a,b)=>new Date(b.ts)-new Date(a.ts);
+const byImp=(a,b)=>ORDER[a.impacto]-ORDER[b.impacto]||byTs(a,b);
+const isToday=it=>dayKey(new Date(it.ts))===dayKey(new Date());
+/* "Novo": notícias publicadas depois da última visita (ou na última hora, na primeira visita). */
+let lastSeen=Date.now()-3600e3;
+try{const v=+localStorage.getItem("pr.last");if(v&&Date.now()-v<864e5)lastSeen=Math.min(v,Date.now()-600e3)}catch(e){}
+setTimeout(()=>{try{localStorage.setItem("pr.last",String(Date.now()))}catch(e){}},8000);
+const isNew=it=>new Date(it.ts).getTime()>lastSeen;
+const okImg=u=>/^https:\/\/[^\s"'<>]+$/i.test(u||"");
+/* versão maior da imagem para a manchete e o leitor (RTP e CNN/IOL mandam miniaturas pequenas) */
+const big=u=>String(u||"").replace(/(img\.iol\.pt\/image\/id\/[^/]+\/)\d+(\.jpg)/,(m,a,b)=>a+"800"+b).replace(/([?&]w=)350(?=&|$)/,(m,a)=>a+"1000");
+const img=(it,cls="im",lg=false)=>okImg(it.img)?`<a class="${cls}" href="${esc(it.url)}" data-read="${esc(it.id)}" tabindex="-1" aria-hidden="true"><img src="${esc(lg?big(it.img):it.img)}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.parentNode.remove()"></a>`:"";
+const gc=(path,title)=>{try{window.goatcounter&&window.goatcounter.count&&window.goatcounter.count({path,title,event:true})}catch(e){}};
+const SITE="https://portugalradar.pt/";
+const shareUrl=it=>SITE+"#n/"+encodeURIComponent(it.id);
+async function share(it){gc("partilha-"+it.source,it.title);const url=shareUrl(it),text=it.title;
+  if(navigator.share){try{await navigator.share({title:text,text,url});return}catch(e){if(e&&e.name==="AbortError")return}}
+  window.open("https://wa.me/?text="+encodeURIComponent(text+"\n"+url),"_blank","noopener")}
+$("#date").textContent=fmtFull.format(new Date());
+
+function meta(it,opts={}){const sc=subOf(it);
+  return `<div class="meta">${isNew(it)?`<span class="novo">Novo</span>`:""}<span class="imp ${esc(it.impacto)}">${esc(it.impacto)}</span>${opts.topic?`<span class="sub" style="border-color:${CAT[it.topic]?.[2]||"var(--rule)"};color:${CAT[it.topic]?.[2]||"inherit"}">${esc((CAT[it.topic]||CAT.outros)[1])}</span>`:""}${sc?`<span class="sub">${esc(sc[1])}</span>`:""}<span class="src">${esc(it.source)}</span><span>${isToday(it)?fmtT.format(new Date(it.ts)):fmtDT.format(new Date(it.ts))}</span>${(it.setores||[]).filter(s=>!sc||s.toLowerCase()!==sc[1].toLowerCase()).slice(0,2).map(s=>`<span class="setor">${esc(s)}</span>`).join("")}<button type="button" class="shr" data-share="${esc(it.id)}">Partilhar</button></div>`}
+function story(it,cls="",opts={}){const im=img(it);return `<article class="story ${cls}${im?" hasimg":""}">${opts.time?`<div class="t">${fmtT.format(new Date(it.ts))}</div>`:""}${im}<h3><a href="${esc(it.url)}" target="_blank" rel="noopener" data-read="${esc(it.id)}">${esc(it.title)}</a></h3><p>${esc(it.resumo)}</p>${meta(it,opts)}</article>`}
+
+function renderNav(){const cnt=t=>data.items.filter(i=>i.topic===t).length;
+  let h=`<button type="button" data-v="capa" aria-pressed="${view==="capa"}">Capa</button>`;
+  h+=CATS.map(c=>{const n=cnt(c[0]);return `<button type="button" data-v="${c[0]}" aria-pressed="${view===c[0]}"${n?"":' class="zero" title="Sem notícias nos últimos 5 dias"'}>${esc(c[1])}<span class="n">${n}</span></button>`}).join("");
+  const ex=[];if((data.pairs||[]).length)ex.push(`data-v="pairs" aria-pressed="${view==="pairs"}">Frente a frente<span class="n">${data.pairs.length}</span>`);
+  if((data.arquivo||0)>0)ex.push(`data-v="arquivo" aria-pressed="${view==="arquivo"}">Arquivo<span class="n">${data.arquivo}</span>`);
+  h+=ex.map((x,k)=>`<button type="button" ${k?"":'class="ff" '}${x}</button>`).join("");
+  $("#nav").innerHTML=h}
+document.querySelector("[data-home]").addEventListener("click",e=>{e.preventDefault();view="capa";fSub.clear();fImp.clear();fSport="";saveV();render();window.scrollTo({top:0,behavior:"smooth"})});
+$("#nav").addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;view=b.dataset.v;fSub.clear();fImp.clear();fSport="";saveV();render();window.scrollTo({top:0,behavior:"smooth"})});
+
+/* ===== ouvir: lê as notícias mais importantes com a voz do dispositivo (pt-PT) ===== */
+const TTS="speechSynthesis" in window&&"SpeechSynthesisUtterance" in window;
+let speaking=false,ptVoice=null;
+function pickVoice(){if(!TTS)return;const v=speechSynthesis.getVoices();ptVoice=v.find(x=>/^pt[-_]PT/i.test(x.lang)&&/premium|enhanced|neural|natural/i.test(x.name))||v.find(x=>/^pt[-_]PT/i.test(x.lang))||v.find(x=>/^pt/i.test(x.lang))||null}
+if(TTS){pickVoice();speechSynthesis.addEventListener?.("voiceschanged",pickVoice)}
+const clean=t=>String(t||"").replace(/\s+/g," ").replace(/[«»"“”]/g,"").trim();
+function audioScript(){const out=[];const now=new Date();
+  out.push({t:`Portugal Radar. Notícias de ${fmtD.format(now)}, ${fmtT.format(now).replace(":"," e ")}.`});
+  const used=new Set();
+  const ents=(data.brief||[]).map(x=>typeof x==="string"?{texto:x}:x).map(o=>({o,it:o.id?findIt(o.id):null}));
+  if(ents.length){out.push({t:"Em destaque."});for(const {o,it} of ents){if(it)used.add(it.id);out.push({t:clean(o.texto)+(it?` Fonte: ${it.source}.`:""),id:it?.id,lbl:clean(o.texto)})}}
+  const cut=Date.now()-18*3600e3;
+  const top=[...data.items].filter(i=>!used.has(i.id)&&i.impacto==="alto"&&new Date(i.ts).getTime()>cut).sort(byTs).slice(0,6);
+  if(top.length){out.push({t:"Outras notícias importantes."});for(const i of top)out.push({t:`${clean(i.title)}. ${clean(i.resumo)}`,id:i.id,lbl:clean(i.title)})}
+  out.push({t:"Estas foram as notícias. Mais em portugalradar ponto p t."});return out}
+function stopAudio(){speaking=false;try{speechSynthesis.cancel()}catch(e){}const b=$("#listen");if(b){b.setAttribute("aria-pressed","false");b.querySelector("span").textContent="Ouvir"}const n=$("#lnow");if(n)n.textContent=""}
+function playAudio(){if(!TTS)return;const parts=audioScript();speaking=true;gc("ouvir","Ouvir as notícias");
+  const b=$("#listen");b.setAttribute("aria-pressed","true");b.querySelector("span").textContent="Parar";
+  try{speechSynthesis.cancel()}catch(e){}
+  parts.forEach((p,k)=>{const u=new SpeechSynthesisUtterance(p.t);u.lang="pt-PT";if(ptVoice)u.voice=ptVoice;u.rate=1.02;
+    u.onstart=()=>{const n=$("#lnow");if(n)n.textContent=p.lbl?"A ouvir: "+p.lbl:""};
+    if(k===parts.length-1)u.onend=()=>{if(speaking)stopAudio()};
+    u.onerror=e=>{if(e.error!=="interrupted"&&e.error!=="canceled")stopAudio()};
+    speechSynthesis.speak(u)})}
+function sayItem(btn){if(!TTS)return;if(btn.getAttribute("aria-pressed")==="true"){stopAudio();btn.setAttribute("aria-pressed","false");btn.textContent="Ouvir";return}
+  const it=findIt(btn.dataset.say);if(!it)return;stopAudio();gc("ouvir-"+it.source,it.title);
+  const u=new SpeechSynthesisUtterance(`${clean(it.title)}. ${clean(it.resumo)} Fonte: ${it.source}.`);u.lang="pt-PT";if(ptVoice)u.voice=ptVoice;u.rate=1.02;
+  btn.setAttribute("aria-pressed","true");btn.textContent="Parar";
+  const done=()=>{btn.setAttribute("aria-pressed","false");btn.textContent="Ouvir"};u.onend=done;u.onerror=done;speechSynthesis.speak(u)}
+$("#reader").addEventListener("close",()=>{try{speechSynthesis.cancel()}catch(e){}});
+document.addEventListener("click",e=>{if(e.target.closest("#listen")){e.preventDefault();speaking?stopAudio():playAudio()}});
+window.addEventListener("pagehide",()=>{if(speaking)stopAudio()});
+
+let agIdx=0;
+function renderBrief(){const b=data.brief||[];const el=$("#brief");if(!b.length||view!=="capa"){el.hidden=true;return}el.hidden=false;
+  const ents=b.map(x=>{const o=typeof x==="string"?{texto:x}:x;return {o,it:o.id?findIt(o.id):null}}).sort((a,c)=>(c.it?new Date(c.it.ts).getTime():0)-(a.it?new Date(a.it.ts).getTime():0));
+  const n=ents.length;const show=[];for(let k=0;k<Math.min(3,n);k++)show.push(ents[(agIdx+k)%n]);
+  const upd=data.updated?fmtT.format(new Date(data.updated)):"";
+  el.innerHTML=`<div class="agora"><div class="ag"><div class="k">Agora <i></i><small>${upd}</small></div><div class="s">Últimas notícias</div>${TTS?`<button type="button" class="listen" id="listen" aria-pressed="${speaking}"><svg class="ic-play" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" aria-hidden="true"><path d="M4 2.5v11l9-5.5z"/></svg><svg class="ic-stop" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3.5" y="3.5" width="9" height="9"/></svg><span>${speaking?"Parar":"Ouvir"}</span></button>`:""}</div><div class="cards">`+show.map(({o,it},k)=>{
+    const num=String(((agIdx+k)%n)+1).padStart(2,"0");
+    const inner=`<span class="num">${num}</span><span class="w">${it?`<span class="bt">${esc((CAT[it.topic]||CAT.outros)[1])}</span>`:""}<span class="tx">${esc(o.texto)}</span>${it?`<span class="t bt" style="color:var(--ink2);font-weight:500">${isToday(it)?fmtT.format(new Date(it.ts)):fmtDT.format(new Date(it.ts))}</span>`:""}</span>`;
+    return it?`<a class="bcard" href="${esc(it.url)}" target="_blank" rel="noopener" data-read="${esc(it.id)}">${inner}</a>`:`<div class="bcard">${inner}</div>`}).join("")+`</div>${n>3?`<button type="button" class="nx" id="ag-next" aria-label="Seguintes"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg></button>`:`<span class="nx"></span>`}</div><div class="lnow" id="lnow" aria-live="polite"></div>`}
+document.addEventListener("click",e=>{if(e.target.closest("#ag-next")){const n=(data.brief||[]).length;agIdx=(agIdx+3)%Math.max(1,n);renderBrief()}});
+
+function chip(key,label,on,n){return `<button class="chip${n===0?" zero":""}" type="button" data-k="${esc(key)}" aria-pressed="${on}"${n===0?' title="Sem notícias nos últimos 5 dias"':""}>${esc(label)}${n!==undefined?`<span class="n">${n}</span>`:""}</button>`}
+function renderFilters(){const el=$("#filters");const c=CAT[view];if(!c){el.hidden=true;return}el.hidden=false;
+  const base=data.items.filter(i=>i.topic===view);let h="";
+  if(view==="desporto"){const isF=i=>FUTK.has(i.sub);
+    h+=`<span class="k">Desporto</span>`+chip("d:","Tudo",!fSport,base.length)+chip("d:futebol","Futebol",fSport==="futebol",base.filter(isF).length)+MOD.map(m=>chip("d:"+m[0],m[1],fSport===m[0],base.filter(i=>i.sub===m[0]).length)).join("");
+    if(fSport==="futebol")h+=`<span class="brk"></span><span class="k">Futebol</span>`+chip("s:","Todos",fSub.size===0,base.filter(isF).length)+FUT.map(s=>chip("s:"+s[0],s[1],fSub.has(s[0]),base.filter(i=>i.sub===s[0]).length)).join("");
+    h+=`<span class="brk"></span>`}
+  else if(c[3]){h+=`<span class="k">Dentro</span>`+chip("","Tudo",fSub.size===0,base.length)+c[3].map(s=>chip("s:"+s[0],s[1],fSub.has(s[0]),base.filter(i=>i.sub===s[0]).length)).join("")}
+  h+=`<span class="k" style="margin-left:${c[3]&&view!=="desporto"?"10px":"0"}">Impacto</span>`+chip("i:","Todos",fImp.size===0)+IMPS.map(([k,n])=>chip("i:"+k,n,fImp.has(k),base.filter(i=>i.impacto===k).length)).join("");
+  el.innerHTML=h}
+$("#filters").addEventListener("click",e=>{const b=e.target.closest(".chip");if(!b)return;const k=b.dataset.k;
+  if(k.startsWith("d:")){const v=k.slice(2);fSport=(fSport===v?"":v);fSub.clear();render();return}
+  const set=k.startsWith("s:")?fSub:fImp,v=k.slice(2),was=set.has(v);
+  set.clear();if(v&&!was)set.add(v);
+  render()});
+
+function heroBlock(it){const c=CAT[it.topic]||CAT.outros,has=okImg(it.img);
+  return `<section class="hero${has?"":" noimg"}">${has?`<a class="im" href="${esc(it.url)}" data-read="${esc(it.id)}" tabindex="-1" aria-hidden="true" style="background-image:url('${esc(big(it.img)).replace(/'/g,"%27")}')"></a>`:""}<div class="c"><span class="kick">${esc(c[1])}</span><h2><a href="${esc(it.url)}" target="_blank" rel="noopener" data-read="${esc(it.id)}">${esc(it.title)}</a></h2><p>${esc(it.resumo)}</p>${meta(it)}</div></section>`}
+function topItem(it,k){const c=CAT[it.topic]||CAT.outros,has=okImg(it.img);
+  return `<div class="tl${has?"":" noimg"}"><span class="n">${String(k+1).padStart(2,"0")}</span>${has?`<a href="${esc(it.url)}" data-read="${esc(it.id)}" tabindex="-1" aria-hidden="true"><img class="th" src="${esc(it.img)}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.parentNode.remove();this.closest('.tl').classList.add('noimg')"></a>`:""}<div><div class="k">${esc(c[1])}</div><h3><a href="${esc(it.url)}" target="_blank" rel="noopener" data-read="${esc(it.id)}">${esc(it.title)}</a></h3><div class="t">${isToday(it)?fmtT.format(new Date(it.ts)):fmtDT.format(new Date(it.ts))} · ${esc(it.source)}</div></div></div>`}
+function renderFront(){const items=[...data.items].sort(byTs);if(!items.length){$("#main").innerHTML=`<div class="empty">Ainda não há notícias nesta edição. A primeira atualização chega dentro de uma hora.</div>`;return}
+  const altos=items.filter(i=>i.impacto==="alto");const lead=altos.find(i=>okImg(i.img))||altos[0]||items[0];
+  const used=new Set([lead.id]);(data.brief||[]).forEach(b=>{if(b&&b.id)used.add(b.id)});
+  const top=[...altos.filter(i=>!used.has(i.id)),...items.filter(i=>i.impacto!=="alto"&&!used.has(i.id))].slice(0,5);top.forEach(i=>used.add(i.id));
+  let h=`<div class="front2">${heroBlock(lead)}<aside class="toplist"><div class="h"><span>Mais importantes</span><button type="button" data-go="capa" data-all>Ver todas →</button></div>${top.map(topItem).join("")}</aside>`;
+  h+=`<div class="secs">`;
+  for(const c of CATS){const l=items.filter(i=>i.topic===c[0]&&!used.has(i.id)).sort(byImp);if(!l.length)continue;
+    h+=`<section class="sec2" style="--c:${c[2]}"><div class="h"><b>${esc(c[1])}</b><button type="button" data-go="${c[0]}">Ver mais →</button></div>${l.slice(0,3).map((i,k)=>story(i,k?"sm":"")).join("")}</section>`}
+  h+=`</div></div>`;$("#main").innerHTML=h}
+$("#main").addEventListener("click",e=>{
+  const a=e.target.closest('.chip[data-k^="a:"]');if(a){const v=a.dataset.k.slice(2);archTopic=(archTopic===v?"":v);archN=100;render();return}
+  if(e.target.closest("[data-more]")){archN+=100;render();return}
+  const b=e.target.closest("[data-go]");if(!b)return;view=b.dataset.go;fSub.clear();fImp.clear();fSport="";saveV();render();window.scrollTo({top:0,behavior:"smooth"})});
+
+function emptyMsg(){const c=CAT[view];let lbl=c[1];
+  if(view==="desporto"&&fSport)lbl=fSport==="futebol"?"Futebol":(MOD.find(m=>m[0]===fSport)||[,lbl])[1];
+  if(fSub.size){const s=(c[3]||[]).find(x=>fSub.has(x[0]));if(s)lbl=s[1]}
+  const imp=fImp.size?` com impacto ${(IMPS.find(x=>fImp.has(x[0]))||[,""])[1].toLowerCase()}`:"";
+  return `<div class="empty"><b>Sem notícias de ${esc(lbl)}${esc(imp)}</b>Não houve nada nos últimos 5 dias. Assim que houver, aparece aqui.</div>`}
+
+/* ===== tempo: previsão meteorológica (Open-Meteo, sem chave) ===== */
+const WXC=[["Viana do Castelo",41.69,-8.83],["Braga",41.55,-8.42],["Vila Real",41.30,-7.74],["Bragança",41.81,-6.76],["Porto",41.15,-8.61],["Aveiro",40.64,-8.65],["Viseu",40.66,-7.91],["Guarda",40.54,-7.27],["Coimbra",40.21,-8.43],["Castelo Branco",39.82,-7.49],["Leiria",39.74,-8.81],["Santarém",39.24,-8.69],["Portalegre",39.29,-7.43],["Lisboa",38.72,-9.14],["Setúbal",38.52,-8.89],["Évora",38.57,-7.91],["Beja",38.02,-7.87],["Faro",37.02,-7.93],["Funchal",32.65,-16.91],["Ponta Delgada",37.74,-25.67]];
+let wxCity="Lisboa";try{const c=localStorage.getItem("pr.wx");if(c&&WXC.some(x=>x[0]===c))wxCity=c}catch(e){}
+const wxCache={};let wxBusy=false,wxHours=[];
+const WXI={
+ sun:'<circle cx="12" cy="12" r="4"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6"/>',
+ moon:'<path d="M19 14.5A7.5 7.5 0 0 1 9.5 5a7.5 7.5 0 1 0 9.5 9.5z"/>',
+ part:'<path d="M9 3.5v1.6M3.5 9h1.6M5.1 5.1l1.1 1.1M12.9 5.1l-1.1 1.1"/><path d="M6.4 11.2A3.2 3.2 0 1 1 12 8.2"/><path d="M8 20h9a3.5 3.5 0 0 0 .4-7 5 5 0 0 0-9.6 1.2A2.9 2.9 0 0 0 8 20z"/>',
+ cloud:'<path d="M7 19h10.5a4 4 0 0 0 .5-8 5.8 5.8 0 0 0-11.1 1.5A3.3 3.3 0 0 0 7 19z"/>',
+ fog:'<path d="M4 9h16M3 13h18M5 17h14"/>',
+ rain:'<path d="M7 15h10.5a4 4 0 0 0 .5-8 5.8 5.8 0 0 0-11.1 1.5A3.3 3.3 0 0 0 7 15z"/><path d="M8.5 18l-1 2.5M12.5 18l-1 2.5M16.5 18l-1 2.5"/>',
+ snow:'<path d="M7 15h10.5a4 4 0 0 0 .5-8 5.8 5.8 0 0 0-11.1 1.5A3.3 3.3 0 0 0 7 15z"/><path d="M8 19h.01M12 20.5h.01M16 19h.01"/>',
+ storm:'<path d="M7 15h10.5a4 4 0 0 0 .5-8 5.8 5.8 0 0 0-11.1 1.5A3.3 3.3 0 0 0 7 15z"/><path d="M12.5 15.5l-2 3.5h3l-2 3"/>'};
+const wxSvg=(k,cls="ic")=>`<svg class="${cls}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${WXI[k]||WXI.cloud}</svg>`;
+function wxCode(c,day=1){c=+c;
+ if(c===0)return["Céu limpo",day?"sun":"moon"];if(c===1)return["Pouco nublado",day?"part":"moon"];if(c===2)return["Parcialmente nublado","part"];if(c===3)return["Nublado","cloud"];
+ if(c===45||c===48)return["Nevoeiro","fog"];if(c>=51&&c<=57)return["Chuvisco","rain"];if(c>=61&&c<=67)return[c>=65?"Chuva forte":"Chuva","rain"];
+ if(c>=71&&c<=77)return["Neve","snow"];if(c>=80&&c<=82)return[c===82?"Aguaceiros fortes":"Aguaceiros","rain"];if(c===85||c===86)return["Aguaceiros de neve","snow"];if(c>=95)return["Trovoada","storm"];return["—","cloud"]}
+const WDIR=["N","NE","E","SE","S","SO","O","NO"];const wdir=d=>WDIR[Math.round(((+d%360)+360)%360/45)%8];
+const uvLvl=u=>u<3?"Baixo":u<6?"Moderado":u<8?"Elevado":u<11?"Muito elevado":"Extremo";
+const aqLvl=a=>a<=20?"Boa":a<=40?"Razoável":a<=60?"Moderada":a<=80?"Fraca":a<=100?"Muito fraca":"Extremamente fraca";
+const r0=v=>Math.round(+v);
+async function wxLoad(){const key=wxCity,now=Date.now(),w=wxCache[key];
+ if(w&&now-w.at<(w.err?120e3:15*60e3)&&wxCache.pais&&now-wxCache.pais.at<30*60e3)return;if(wxBusy)return;wxBusy=true;
+ const [,la,lo]=WXC.find(x=>x[0]===key),tz="&timezone=Europe%2FLisbon";
+ const J=u=>fetch(u).then(r=>r.ok?r.json():null).catch(()=>null);
+ const needP=!wxCache.pais||now-wxCache.pais.at>30*60e3;
+ const [fr,mr,ar,pr]=await Promise.all([
+  (w&&!w.err&&now-w.at<15*60e3)?Promise.resolve(null):J(`https://api.open-meteo.com/v1/forecast?latitude=${la}&longitude=${lo}&current=temperature_2m,apparent_temperature,relative_humidity_2m,weather_code,wind_speed_10m,wind_gusts_10m,wind_direction_10m,is_day&hourly=temperature_2m,precipitation_probability,precipitation,weather_code,is_day&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max,precipitation_sum,uv_index_max,sunrise,sunset,wind_speed_10m_max&forecast_days=7${tz}`),
+  (w&&!w.err&&now-w.at<15*60e3)?Promise.resolve(null):J(`https://marine-api.open-meteo.com/v1/marine?latitude=${la}&longitude=${lo}&current=wave_height,sea_surface_temperature${tz}`),
+  (w&&!w.err&&now-w.at<15*60e3)?Promise.resolve(null):J(`https://air-quality-api.open-meteo.com/v1/air-quality?latitude=${la}&longitude=${lo}&current=european_aqi${tz}`),
+  needP?J(`https://api.open-meteo.com/v1/forecast?latitude=${WXC.map(x=>x[1]).join(",")}&longitude=${WXC.map(x=>x[2]).join(",")}&daily=weather_code,temperature_2m_max,temperature_2m_min&forecast_days=1${tz}`):Promise.resolve(null)]);
+ wxBusy=false;
+ if(fr)wxCache[key]={at:now,f:fr,m:mr,a:ar};else if(!w||w.err)wxCache[key]={at:now,err:true};
+ if(pr)wxCache.pais={at:now,d:Array.isArray(pr)?pr:[pr]};
+ const el=$("#wx");if(el&&view==="tempo")el.innerHTML=wxHTML()}
+function wxChart(f,cur){const H=f.hourly;let i0=H.time.findIndex(t=>t.slice(0,13)===String(cur.time).slice(0,13));if(i0<0)i0=0;
+ const n=Math.min(25,H.time.length-i0);wxHours=[];for(let k=0;k<n;k++){const i=i0+k;wxHours.push({t:H.time[i],temp:H.temperature_2m[i],p:H.precipitation_probability?.[i]??0,mm:H.precipitation?.[i]??0,c:H.weather_code[i],d:H.is_day?.[i]??1})}
+ if(n<2)return"";
+ const W=720,L=34,R=14,T1=22,B1=150,T2=178,B2=236,HH=258,xs=k=>L+k*(W-L-R)/(n-1);
+ const tv=wxHours.map(h=>h.temp),lo=Math.floor(Math.min(...tv))-1,hi=Math.ceil(Math.max(...tv))+1,yt=v=>B1-(v-lo)/(hi-lo||1)*(B1-T1),yp=v=>B2-v/100*(B2-T2);
+ let g="";const st=Math.max(1,Math.round((hi-lo)/3));for(let v=lo;v<=hi;v+=st){g+=`<line class="gl" x1="${L}" x2="${W-R}" y1="${yt(v)}" y2="${yt(v)}"/><text class="ax" x="${L-6}" y="${yt(v)+4}" text-anchor="end">${v}°</text>`}
+ g+=`<line class="gl" x1="${L}" x2="${W-R}" y1="${B2}" y2="${B2}"/><text class="ax" x="${L-6}" y="${T2+4}" text-anchor="end">100%</text><text class="ax" x="${L}" y="${T2-8}">Probabilidade de chuva</text>`;
+ const pts=wxHours.map((h,k)=>`${xs(k).toFixed(1)},${yt(h.temp).toFixed(1)}`);
+ const area=`M${xs(0)},${B1} L${pts.join(" L")} L${xs(n-1)},${B1} Z`;
+ const bw=Math.max(4,(W-L-R)/(n-1)*.55);
+ const bars=wxHours.map((h,k)=>h.p>0?`<rect x="${(xs(k)-bw/2).toFixed(1)}" y="${yp(h.p).toFixed(1)}" width="${bw.toFixed(1)}" height="${(B2-yp(h.p)).toFixed(1)}" rx="2" fill="var(--rain)" opacity="${h.p>=50?1:.55}"/>`:"").join("");
+ const kmax=tv.indexOf(Math.max(...tv)),kmin=tv.indexOf(Math.min(...tv));
+ const lab=(k,up)=>`<text class="lb" x="${xs(k)}" y="${yt(tv[k])+(up?-9:17)}" text-anchor="${k<2?"start":k>n-3?"end":"middle"}">${r0(tv[k])}°</text>`;
+ let xl="";for(let k=0;k<n;k+=3)xl+=`<text class="ax" x="${xs(k)}" y="${HH}" text-anchor="${k===0?"start":"middle"}">${k===0?"Agora":String(wxHours[k].t).slice(11,13)+"h"}</text>`;
+ return `<div class="wxc" id="wxc"><svg viewBox="0 0 ${W} ${HH+4}" role="img" aria-label="Temperatura e probabilidade de chuva nas próximas 24 horas">${g}<path d="${area}" fill="var(--warm)" opacity=".1"/><polyline points="${pts.join(" ")}" fill="none" stroke="var(--warm)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>${bars}${lab(kmax,true)}${kmin!==kmax?lab(kmin,false):""}${xl}<g id="wxx" style="display:none"><line y1="${T1-6}" y2="${B2}" stroke="var(--ink2)" stroke-width="1" stroke-dasharray="3 3"/><circle r="5" fill="var(--warm)" stroke="var(--paper)" stroke-width="2"/></g><rect id="wxhit" x="${L}" y="0" width="${W-L-R}" height="${HH}" fill="transparent"/></svg><div class="wxtip" id="wxtip" hidden></div></div>`}
+function wxHover(e){const svg=e.target.closest?.("#wxc svg");if(!svg||!wxHours.length)return;const n=wxHours.length,W=720,L=34,R=14;
+ const b=svg.getBoundingClientRect(),vx=(e.clientX-b.left)/b.width*W;let k=Math.round((vx-L)/((W-L-R)/(n-1)));k=Math.max(0,Math.min(n-1,k));
+ const h=wxHours[k],x=L+k*(W-L-R)/(n-1),tv=wxHours.map(z=>z.temp),lo=Math.floor(Math.min(...tv))-1,hi=Math.ceil(Math.max(...tv))+1,y=150-(h.temp-lo)/(hi-lo||1)*128;
+ const g=svg.querySelector("#wxx");g.style.display="";g.querySelector("line").setAttribute("x1",x);g.querySelector("line").setAttribute("x2",x);const c=g.querySelector("circle");c.setAttribute("cx",x);c.setAttribute("cy",y);
+ const tip=$("#wxtip");tip.hidden=false;tip.innerHTML=`${k===0?"Agora":String(h.t).slice(11,16)} · ${esc(wxCode(h.c,h.d)[0])}<br><b>${r0(h.temp)}°</b> · chuva ${r0(h.p)}%${h.mm>0?` · ${(+h.mm).toFixed(1)} mm`:""}`;
+ const px=x/W*b.width;tip.style.left=Math.max(70,Math.min(b.width-70,px))+"px"}
+function wxHide(){const g=$("#wxx");if(g)g.style.display="none";const t=$("#wxtip");if(t)t.hidden=true}
+document.addEventListener("pointermove",e=>{if(e.target.closest?.("#wxc"))wxHover(e);else if($("#wxtip")&&!$("#wxtip").hidden)wxHide()});
+document.addEventListener("pointerdown",e=>{if(e.target.closest?.("#wxc"))wxHover(e)});
+function wxHTML(){const sel=`<label class="wxsel"><span>Localidade</span><select id="wx-city">${WXC.map(c=>`<option${c[0]===wxCity?" selected":""}>${esc(c[0])}</option>`).join("")}</select></label>`;
+ const head=t=>`<div class="wxh"><h2>${t}</h2>${sel}</div>`;
+ const w=wxCache[wxCity];if(!w){wxLoad();return head("O tempo em "+esc(wxCity))+`<div class="empty">A carregar a previsão…</div>`}
+ if(w.err)return head("O tempo em "+esc(wxCity))+`<div class="empty">Previsão indisponível de momento. <a href="https://www.ipma.pt/pt/otempo/prev.localidade.hora/" target="_blank" rel="noopener">Ver no IPMA</a></div>`;
+ const f=w.f,c=f.current,d=f.daily,[lbl,ic]=wxCode(c.weather_code,c.is_day);
+ let h=head("O tempo em "+esc(wxCity));
+ h+=`<div class="wxgrid"><div style="display:flex;flex-direction:column;gap:18px;min-width:0">`;
+ h+=`<div class="wxnow">${wxSvg(ic)}<div class="t">${r0(c.temperature_2m)}°<small>${esc(lbl)}</small></div><div class="d">Máx. ${r0(d.temperature_2m_max[0])}° · Mín. ${r0(d.temperature_2m_min[0])}° · Sensação ${r0(c.apparent_temperature)}° · Humidade ${r0(c.relative_humidity_2m)}% · Vento ${r0(c.wind_speed_10m)} km/h ${wdir(c.wind_direction_10m)}${c.wind_gusts_10m>=40?` (rajadas ${r0(c.wind_gusts_10m)})`:""}</div></div>`;
+ const tiles=[];
+ tiles.push(["Chuva hoje",`${r0(d.precipitation_probability_max[0]??0)}%`,(+d.precipitation_sum[0]>0?`${(+d.precipitation_sum[0]).toFixed(1)} mm previstos`:"sem acumulação prevista")]);
+ const uv=+d.uv_index_max[0];tiles.push(["Índice UV",isFinite(uv)?uv.toFixed(0):"—",isFinite(uv)?uvLvl(uv):""]);
+ tiles.push(["Sol",`${String(d.sunrise[0]).slice(11,16)} · ${String(d.sunset[0]).slice(11,16)}`,"nascer · pôr"]);
+ const m=w.m?.current;if(m&&m.wave_height!=null)tiles.push(["Mar",`${(+m.wave_height).toFixed(1)} m`,m.sea_surface_temperature!=null?`água a ${r0(m.sea_surface_temperature)}°`:"ondulação"]);
+ const a=w.a?.current?.european_aqi;if(a!=null)tiles.push(["Qualidade do ar",aqLvl(+a),`índice europeu ${r0(a)}`]);
+ h+=`<div class="wxtiles">${tiles.map(t=>`<div class="wxtile"><span class="k">${t[0]}</span><span class="v">${t[1]}</span><span class="s">${esc(t[2])}</span></div>`).join("")}</div>`;
+ h+=`<div><div class="wxsec"><span>Próximas 24 horas</span><span>temperatura e chuva</span></div>${wxChart(f,c)}</div></div>`;
+ const lo=Math.min(...d.temperature_2m_min),hi=Math.max(...d.temperature_2m_max),sp=(hi-lo)||1;
+ const dn=(t,i)=>i===0?"Hoje":i===1?"Amanhã":new Intl.DateTimeFormat("pt-PT",{weekday:"short"}).format(new Date(t+"T12:00:00")).replace(".","");
+ h+=`<div style="display:flex;flex-direction:column;gap:18px;min-width:0"><div><div class="wxsec"><span>Próximos 7 dias</span><span>mín. · máx.</span></div><div class="wxdays">`+d.time.map((t,i)=>{const [dl,di]=wxCode(d.weather_code[i],1),p=d.precipitation_probability_max[i]??0,a=d.temperature_2m_min[i],b=d.temperature_2m_max[i];
+   return `<div class="wxday" title="${esc(dl)}"><span class="n">${dn(t,i)}</span>${wxSvg(di)}<span class="p">${p>=10?r0(p)+"%":""}</span><span class="lo">${r0(a)}°</span><span class="bar"><i style="left:${((a-lo)/sp*100).toFixed(1)}%;width:${Math.max(4,(b-a)/sp*100).toFixed(1)}%"></i></span><span class="hi">${r0(b)}°</span></div>`}).join("")+`</div></div>`;
+ const P=wxCache.pais?.d;if(P&&P.length===WXC.length){h+=`<div><div class="wxsec"><span>O país hoje</span><span>máx. · mín.</span></div><div class="wxpais">`+WXC.map((c,i)=>{const z=P[i]?.daily;if(!z)return"";const [zl,zi]=wxCode(z.weather_code[0],1);
+   return `<button type="button" class="wxcity" data-city="${esc(c[0])}" aria-current="${c[0]===wxCity}" title="${esc(zl)}">${wxSvg(zi)}<span class="c">${esc(c[0])}</span><span class="v">${r0(z.temperature_2m_max[0])}° <span>${r0(z.temperature_2m_min[0])}°</span></span></button>`}).join("")+`</div></div>`}
+ h+=`</div></div><div class="wxsrc">Previsão: Open-Meteo, atualizada a cada 15 min. Avisos oficiais: <a href="https://www.ipma.pt/pt/otempo/prev-sam/" target="_blank" rel="noopener">IPMA</a>. Os avisos e notícias do tempo estão em baixo.</div>`;
+ return h}
+function wxSet(c){if(!WXC.some(x=>x[0]===c))return;wxCity=c;try{localStorage.setItem("pr.wx",c)}catch(e){}gc("tempo-"+c,"Tempo em "+c);const el=$("#wx");if(el)el.innerHTML=wxHTML()}
+document.addEventListener("change",e=>{if(e.target.id==="wx-city")wxSet(e.target.value)});
+document.addEventListener("click",e=>{const b=e.target.closest?.(".wxcity");if(b){wxSet(b.dataset.city);$("#wx")?.scrollIntoView({behavior:"smooth",block:"start"})}});
+setInterval(()=>{if(view==="tempo")wxLoad()},5*60e3);
+
+function renderTopic(){let items=data.items.filter(i=>i.topic===view);
+  if(view==="desporto"&&fSport)items=items.filter(i=>fSport==="futebol"?FUTK.has(i.sub):i.sub===fSport);
+  if(fSub.size)items=items.filter(i=>fSub.has(i.sub));if(fImp.size)items=items.filter(i=>fImp.has(i.impacto));
+  const pre=view==="tempo"?`<section class="wx" id="wx">${wxHTML()}</section><div class="wxsec" style="margin-top:18px"><span>Avisos e notícias</span><span></span></div>`:"";
+  items.sort(byTs);if(!items.length){$("#main").innerHTML=pre+emptyMsg();return}
+  const groups=new Map();for(const it of items){const k=dayKey(new Date(it.ts));if(!groups.has(k))groups.set(k,[]);groups.get(k).push(it)}
+  let h=pre+`<div class="list">`;for(const [k,list] of groups){h+=`<div class="day"><span>${k===dayKey(new Date())?"Hoje · ":""}${fmtD.format(new Date(list[0].ts))}</span><span>${list.length}</span></div>`+list.map(i=>story(i,"",{time:true})).join("")}
+  $("#main").innerHTML=h+"</div>"}
+
+let arch=null,archTopic="",archN=100;
+async function renderArchive(){const m=$("#main");
+  if(!arch){m.innerHTML=`<div class="empty">A abrir o arquivo…</div>`;try{const r=await fetch("archive.json?t="+Date.now(),{cache:"no-store"});if(!r.ok)throw 0;arch=(await r.json()).items||[]}catch(e){arch=[]}if(view!=="arquivo")return}
+  const tops=CATS.filter(c=>arch.some(i=>i.topic===c[0]));
+  let h=`<div class="filters"><span class="k">Mais de 5 dias</span>`+chip("a:","Tudo",!archTopic,arch.length)+tops.map(c=>chip("a:"+c[0],c[1],archTopic===c[0],arch.filter(i=>i.topic===c[0]).length)).join("")+`</div>`;
+  let items=archTopic?arch.filter(i=>i.topic===archTopic):arch;
+  if(!items.length){m.innerHTML=h+`<div class="empty">O arquivo ainda está vazio.</div>`;return}
+  const shown=items.slice(0,archN),groups=new Map();for(const it of shown){const k=dayKey(new Date(it.ts));if(!groups.has(k))groups.set(k,[]);groups.get(k).push(it)}
+  h+=`<div class="list">`;for(const [k,list] of groups){h+=`<div class="day"><span>${fmtD.format(new Date(list[0].ts))}</span><span>${list.length}</span></div>`+list.map(i=>story(i,"",{time:true,topic:true})).join("")}
+  h+=`</div>`;if(items.length>archN)h+=`<div style="text-align:center;padding:18px 0"><button class="btn" type="button" data-more>Mostrar mais (${items.length-archN})</button></div>`;
+  m.innerHTML=h}
+function box(it){return `<div class="box">${meta(it,{topic:true})}<h3><a href="${esc(it.url)}" target="_blank" rel="noopener" data-read="${esc(it.id)}">${esc(it.title)}</a></h3><p>${esc(it.resumo)}</p></div>`}
+function renderPairs(){const byid=Object.fromEntries(data.items.map(i=>[i.id,i]));const ps=(data.pairs||[]).filter(p=>byid[p.a]&&byid[p.b]);
+  if(!ps.length){$("#main").innerHTML=`<div class="empty">Ainda sem notícias frente a frente.</div>`;return}
+  $("#main").innerHTML=`<div class="pairs">${ps.map(p=>`<section class="pair"><h2 class="tema">${esc(p.tema||"Frente a frente")}</h2>${p.nota?`<p class="nota">${esc(p.nota)}</p>`:""}<div class="duo">${box(byid[p.a])}<div class="vs">VS</div>${box(byid[p.b])}</div></section>`).join("")}</div>`}
+
+/* ===== leitor: abre o resumo no site antes de ir para o jornal ===== */
+const findIt=id=>data.items.find(i=>i.id===id)||(arch||[]).find(i=>i.id===id);
+function openReader(it){const c=CAT[it.topic]||CAT.outros;gc("ler-"+it.source,it.title);
+  $("#r-body").innerHTML=`<button type="button" class="x" data-close aria-label="Fechar">×</button><div class="kick">${esc(c[1])}${subOf(it)?" · "+esc(subOf(it)[1]):""}</div><h2 id="r-title">${esc(it.title)}</h2>${okImg(it.img)?`<div class="im"><img src="${esc(big(it.img))}" alt="" referrerpolicy="no-referrer" onerror="this.parentNode.remove()"></div>`:""}<p class="txt">${esc(it.resumo)}</p>${meta(it)}<div class="row"><div class="go"><a class="btn pri" href="${esc(it.url)}" target="_blank" rel="noopener" data-out="${esc(it.source)}">Ler no ${esc(it.source)} →</a><button type="button" class="btn" data-share="${esc(it.id)}">Partilhar</button>${TTS?`<button type="button" class="btn" data-say="${esc(it.id)}">Ouvir</button>`:""}</div><button type="button" class="btn" data-close>Fechar</button></div>`;
+  const d=$("#reader");if(!d.open)d.showModal()}
+document.addEventListener("click",e=>{
+  const s=e.target.closest("[data-share]");if(s){e.preventDefault();const it=findIt(s.dataset.share);if(it)share(it);return}
+  if(e.target.closest("[data-close]")){$("#reader").close();return}
+  const sy=e.target.closest("[data-say]");if(sy){e.preventDefault();sayItem(sy);return}
+  const o=e.target.closest("[data-out]");if(o){gc("saida-"+o.dataset.out,"Saída para "+o.dataset.out);return}
+  const r=e.target.closest("[data-read]");if(r&&!e.ctrlKey&&!e.metaKey&&!e.shiftKey&&e.button===0){const it=findIt(r.dataset.read);if(it){e.preventDefault();openReader(it)}}});
+$("#reader").addEventListener("click",e=>{if(e.target===e.currentTarget)e.currentTarget.close()});
+let deep=(()=>{try{const h=decodeURIComponent((location.hash||"").slice(1));return h.startsWith("n/")?h.slice(2):""}catch(e){return ""}})();
+function openDeep(){if(!deep)return;const it=findIt(deep);deep="";if(it){openReader(it);try{history.replaceState(null,"",location.pathname)}catch(e){}}}
+
+/* ===== pesquisa, menu e setas das secções (v2) ===== */
+let q="";
+const norm=t=>String(t||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();
+$("#search-btn").addEventListener("click",()=>{const b=$("#srch");b.hidden=!b.hidden;if(!b.hidden){$("#q").focus()}else{q="";render()}});
+$("#q-x").addEventListener("click",()=>{$("#srch").hidden=true;q="";render()});
+$("#q").addEventListener("input",e=>{q=e.target.value.trim();render()});
+function renderSearch(){const nq=norm(q);const all=[...data.items,...(arch||[])];const seen=new Set();
+  const r=all.filter(i=>{if(seen.has(i.id))return false;seen.add(i.id);return norm(i.title+" "+i.resumo+" "+i.source+" "+(i.setores||[]).join(" ")).includes(nq)}).sort(byTs);
+  $("#brief").hidden=true;$("#filters").hidden=true;
+  if(!r.length){$("#main").innerHTML=`<div class="empty"><b>Nada encontrado para “${esc(q)}”</b>Experimenta outra palavra.</div>`;return}
+  let h=`<div class="res"><div class="day"><span>Resultados para “${esc(q)}”</span><span>${r.length}</span></div><div class="list">${r.slice(0,80).map(i=>story(i,"",{time:true,topic:true})).join("")}</div></div>`;$("#main").innerHTML=h;
+  if(!arch){fetch("archive.json?t="+Date.now(),{cache:"no-store"}).then(x=>x.ok?x.json():null).then(j=>{if(j){arch=j.items||[];if(q)renderSearch()}}).catch(()=>{})}}
+$("#menu-btn").addEventListener("click",()=>{const m=$("#menu");m.hidden=!m.hidden;$("#menu-btn").setAttribute("aria-expanded",String(!m.hidden));if(m.hidden)return;
+  const cnt=t=>data.items.filter(i=>i.topic===t).length;
+  m.innerHTML=`<div class="mh">Secções</div>`+CATS.map(c=>`<button type="button" data-v="${c[0]}"><b>${cnt(c[0])} notícias</b>${esc(c[1])}</button>`).join("")+`<div class="mh">Mais</div><button type="button" data-v="pairs"><b>Contraditórias</b>Frente a frente</button><button type="button" data-v="arquivo"><b>Mais de 5 dias</b>Arquivo</button><button type="button" data-act="share"><b>WhatsApp, Facebook…</b>Partilhar o site</button><button type="button" data-act="sugg"><b>Erros, ideias, fontes</b>Sugestões e contacto</button><button type="button" data-install><b>Como app</b>Adicionar ao ecrã principal</button>`});
+$("#menu").addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;$("#menu").hidden=true;$("#menu-btn").setAttribute("aria-expanded","false");
+  if(b.dataset.v){view=b.dataset.v;fSub.clear();fImp.clear();fSport="";saveV();render();window.scrollTo({top:0,behavior:"smooth"})}
+  else if(b.dataset.act==="share")shareSite();else if(b.dataset.act==="sugg")$("#open-sugg").click()});
+$("#nav-r").addEventListener("click",()=>{const n=$("#nav");n.scrollBy({left:n.clientWidth*.7,behavior:"smooth"})});
+function navArrow(){const n=$("#nav");$("#nav-r").hidden=n.scrollWidth<=n.clientWidth+4||n.scrollLeft+n.clientWidth>=n.scrollWidth-4}
+$("#nav").addEventListener("scroll",navArrow,{passive:true});window.addEventListener("resize",navArrow);
+document.addEventListener("click",e=>{if(e.target.closest("[data-all]")){e.preventDefault();view="capa";q="";$("#srch").hidden=true;$("#filters").hidden=true;const items=[...data.items].sort(byImp);$("#brief").hidden=true;$("#main").innerHTML=`<div class="res"><div class="day"><span>Todas as notícias por importância</span><span>${items.length}</span></div><div class="list">${items.map(i=>story(i,"",{time:true,topic:true})).join("")}</div></div>`;window.scrollTo({top:0,behavior:"smooth"})}});
+
+function render(){$("#ver").textContent=data.version||"1.0";renderNav();setTimeout(navArrow,0);if(q){renderSearch();return}renderBrief();renderFilters();
+  if(view==="capa")renderFront();else if(view==="pairs")renderPairs();else if(view==="arquivo")renderArchive();else if(CAT[view])renderTopic();else{view="capa";renderFront()}}
+function setStatus(ok){const u=data.updated?new Date(data.updated):null;$("#dot").className="dot"+(ok?" ok":"");if(!u){$("#upd").textContent=ok?"sem dados":"sem ligação";return}const m=Math.max(0,Math.round((Date.now()-u)/60000));$("#upd").textContent=`atualizado ${m<1?"agora":m<60?"há "+m+" min":"há "+Math.round(m/60)+" h"} · ${fmtT.format(u)}`}
+async function load(){try{const r=await fetch("news.json?t="+Date.now(),{cache:"no-store"});if(!r.ok)throw 0;const j=await r.json();if(JSON.stringify(j)!==JSON.stringify(data)){if(j.arquivo!==data.arquivo)arch=null;data=j;render()}setStatus(true);openDeep()}catch(e){setStatus(false)}}
+load();setInterval(load,60000);setInterval(()=>setStatus(!!data.updated),30000);
+
+/* ===== adicionar ao ecrã principal (app) ===== */
+if("serviceWorker" in navigator&&location.protocol==="https:"&&/portugalradar\.pt$/.test(location.hostname)){navigator.serviceWorker.register("sw.js").catch(()=>{})}
+let deferredInstall=null;
+const standalone=()=>matchMedia("(display-mode: standalone)").matches||navigator.standalone===true;
+const isIOS=/iphone|ipad|ipod/i.test(navigator.userAgent)||(navigator.platform==="MacIntel"&&navigator.maxTouchPoints>1);
+const isMobile=/android|iphone|ipad|ipod|mobile/i.test(navigator.userAgent)||isIOS;
+function instDismissed(){try{return +localStorage.getItem("pr.inst")>Date.now()}catch(e){return false}}
+function showInst(){if(standalone()||instDismissed()||!isMobile)return;$("#inst").hidden=false}
+window.addEventListener("beforeinstallprompt",e=>{e.preventDefault();deferredInstall=e;showInst()});
+window.addEventListener("appinstalled",()=>{$("#inst").hidden=true;gc("app-instalada","App instalada")});
+if(isIOS)setTimeout(showInst,4000);
+$("#inst-x").addEventListener("click",()=>{$("#inst").hidden=true;try{localStorage.setItem("pr.inst",String(Date.now()+14*864e5))}catch(e){}});
+const SHARE_IC='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12M8 7l4-4 4 4"/><path d="M6 11H5v10h14V11h-1"/></svg>';
+const PLUS_IC='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="3"/><path d="M12 8v8M8 12h8"/></svg>';
+async function doInstall(){gc("app-adicionar","Adicionar ao ecrã");
+  if(deferredInstall){deferredInstall.prompt();try{await deferredInstall.userChoice}catch(e){}deferredInstall=null;$("#inst").hidden=true;return}
+  const st=$("#i-steps");
+  if(isIOS)st.innerHTML=`<li>No Safari, toca em Partilhar ${SHARE_IC} (em baixo ou em cima do ecrã).</li><li>Desliza e escolhe <b>Adicionar ao ecrã principal</b> ${PLUS_IC}.</li><li>Toca em <b>Adicionar</b>. O Portugal Radar fica com ícone próprio, como uma app.</li>`;
+  else if(/android/i.test(navigator.userAgent))st.innerHTML=`<li>No Chrome, toca no menu <b>⋮</b> no canto superior direito.</li><li>Escolhe <b>Adicionar ao ecrã principal</b> ou <b>Instalar aplicação</b>.</li><li>Confirma em <b>Adicionar</b>.</li>`;
+  else st.innerHTML=`<li>No telemóvel, abre <b>portugalradar.pt</b> no Safari (iPhone) ou no Chrome (Android).</li><li>No iPhone: Partilhar ${SHARE_IC} e depois <b>Adicionar ao ecrã principal</b>.</li><li>No Android: menu <b>⋮</b> e depois <b>Adicionar ao ecrã principal</b>.</li><li>No computador, no Chrome ou Edge, usa o ícone de instalar na barra de endereço.</li>`;
+  $("#ios").showModal()}
+document.addEventListener("click",e=>{if(e.target.closest("[data-install]")){e.preventDefault();doInstall();return}if(e.target.closest("[data-iclose]")){$("#ios").close()}});
+$("#ios").addEventListener("click",e=>{if(e.target===e.currentTarget)e.currentTarget.close()});
+if(standalone())gc("app-aberta","Aberto como app");
+
+/* ===== partilhar o site ===== */
+const SH_TXT="Portugal Radar: as notícias de Portugal que interessam, por tema, sem repetições e com a fonte.";
+const SHD=$("#shr");
+function shareSite(){gc("partilha-site","Partilhar o site");
+  if(navigator.share){navigator.share({title:"Portugal Radar",text:SH_TXT,url:SITE}).catch(()=>{});return}
+  const u=encodeURIComponent(SITE),t=encodeURIComponent(SH_TXT);
+  const L={wa:"https://wa.me/?text="+t+"%20"+u,fb:"https://www.facebook.com/sharer/sharer.php?u="+u,x:"https://twitter.com/intent/tweet?text="+t+"&url="+u,tg:"https://t.me/share/url?url="+u+"&text="+t,mail:"mailto:?subject="+encodeURIComponent("Portugal Radar")+"&body="+t+"%0A"+u};
+  SHD.querySelectorAll("[data-sh]").forEach(a=>a.href=L[a.dataset.sh]);$("#h-msg").textContent="";SHD.showModal()}
+$("#share-site").addEventListener("click",shareSite);
+document.querySelector("[data-share-site]").addEventListener("click",shareSite);
+SHD.querySelector("[data-xclose]").addEventListener("click",()=>SHD.close());
+SHD.addEventListener("click",e=>{if(e.target===SHD)SHD.close()});
+$("#copy-link").addEventListener("click",async()=>{try{await navigator.clipboard.writeText(SITE);$("#h-msg").textContent="Link copiado: "+SITE;$("#h-msg").className="msg ok"}catch(e){$("#h-msg").textContent=SITE;$("#h-msg").className="msg"}});
+
+/* ===== sugestões e contacto ===== */
+const SG=$("#sugg"), SGF=$("#sugg-form"), SGM=$("#s-msgbox");
+$("#open-sugg").addEventListener("click",()=>{SGM.textContent="";SGM.className="msg";SG.showModal();gc("sugestoes-abrir");$("#s-msg").focus()});
+SG.querySelectorAll("[data-close]").forEach(b=>b.addEventListener("click",()=>SG.close()));
+SG.addEventListener("click",e=>{if(e.target===SG)SG.close()});
+SGF.addEventListener("submit",async e=>{
+  e.preventDefault();
+  const assunto=$("#s-assunto").value, msg=$("#s-msg").value.trim(), email=$("#s-email").value.trim();
+  if(!msg){SGM.textContent="Escreve a mensagem primeiro.";SGM.className="msg err";return}
+  if(SGF.botcheck.value)return;
+  const ctx="Página: "+location.href+" | Vista: "+view+(fSport?"/"+fSport:"")+" | Edição "+($("#ver").textContent||"");
+  if(!FORM_KEY){
+    location.href="mailto:"+CONTACT+"?subject="+encodeURIComponent("[Portugal Radar] "+assunto)+"&body="+encodeURIComponent(msg+"\n\n"+(email?"Responder para: "+email+"\n":"")+ctx);
+    gc("sugestoes-mailto");return;
+  }
+  const btn=$("#s-send");btn.disabled=true;SGM.textContent="A enviar…";SGM.className="msg";
+  try{
+    const r=await fetch("https://api.web3forms.com/submit",{method:"POST",headers:{"Content-Type":"application/json",Accept:"application/json"},
+      body:JSON.stringify({access_key:FORM_KEY,subject:"[Portugal Radar] "+assunto,from_name:"Portugal Radar",assunto,mensagem:msg,email:email||"(não indicado)",contexto:ctx,botcheck:SGF.botcheck.value})});
+    const j=await r.json().catch(()=>({}));
+    if(r.ok&&j.success!==false){SGM.textContent="Obrigado! Mensagem enviada.";SGM.className="msg ok";SGF.reset();gc("sugestoes-enviar");setTimeout(()=>SG.close(),1600)}
+    else throw new Error(j.message||"erro");
+  }catch(err){SGM.innerHTML="Não foi possível enviar. Escreve para <a href=\"mailto:"+CONTACT+"\">"+CONTACT+"</a>.";SGM.className="msg err"}
+  btn.disabled=false;
+});
+</script>
+
+</body></html>
