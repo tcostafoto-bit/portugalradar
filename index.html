@@ -1,5 +1,9 @@
 <!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
 <title>Portugal Radar</title>
+<meta name="description" content="As notícias de Portugal que interessam, por tema, sem repetições e com a fonte. Atualizado de hora a hora.">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="favicon.png">
+<meta property="og:title" content="Portugal Radar"><meta property="og:description" content="Notícias de Portugal e do mundo, por tema, sem repetições e com a fonte. Atualizado de hora a hora."><meta property="og:image" content="https://portugalradar.pt/og.jpg"><meta property="og:url" content="https://portugalradar.pt/"><meta property="og:type" content="website"><meta name="twitter:card" content="summary_large_image">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;0,900;1,500&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=IBM+Plex+Sans+Condensed:wght@400;500;600;700&display=swap">
 <style>
 /* Layout: jornal diário. Cabeçalho (nome, data, estado) → barra de secções → "Última hora" → capa (manchete + destaques + secções em colunas) ou secção (lista por dia) ou frente a frente. */
@@ -28,6 +32,10 @@ button:focus-visible,a:focus-visible,textarea:focus-visible,input:focus-visible{
 .mast .r{text-align:right;align-items:flex-end}
 .mast h1{margin:0;text-align:center;font-family:var(--display);font-weight:900;font-size:clamp(40px,7vw,74px);line-height:.95;letter-spacing:-.01em;text-wrap:balance}
 .mast h1 span{color:var(--red)}
+.mast h1 .logo{display:block;margin:0 auto;width:min(520px,88vw);height:auto}
+.mast h1 .txt{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .mast h1 .logo{background:#f7f5f0;padding:10px 18px;border-radius:6px}}
+:root[data-theme="dark"] .mast h1 .logo{background:#f7f5f0;padding:10px 18px;border-radius:6px}
 .tag{font-family:var(--ui);font-size:11px;letter-spacing:.14em;text-transform:uppercase;text-align:center;color:var(--ink2);padding:6px 0;border-bottom:1px solid var(--ink)}
 .live{display:inline-flex;align-items:center;gap:6px}
 .dot{width:7px;height:7px;border-radius:50%;background:var(--baixo);display:inline-block}
@@ -195,7 +203,7 @@ dialog::backdrop{background:rgba(0,0,0,.45)}
 <div class="page">
 <header class="mast">
   <div class="l"><span id="date">—</span><span class="live"><span class="dot" id="dot"></span><span id="upd">a carregar</span></span></div>
-  <h1>Portugal <span>Radar</span></h1>
+  <h1><a href="/" data-home><img class="logo" src="logo.png" alt="Portugal Radar" width="1400" height="281" fetchpriority="high"></a><span class="txt">Portugal Radar</span></h1>
   <div class="r"><span>Edição <span class="ver" id="ver">1.0</span> · hora a hora</span><a class="sugg" id="open-sugg" href="#" target="_blank" rel="noopener" hidden>Sugestões</a></div>
 </header>
 <div class="tag">As notícias de Portugal que interessam · por tema · sem repetições · com a fonte</div>
@@ -283,6 +291,7 @@ function renderNav(){const cnt=t=>data.items.filter(i=>i.topic===t).length;
   if((data.arquivo||0)>0)ex.push(`data-v="arquivo" aria-pressed="${view==="arquivo"}">Arquivo<span class="n">${data.arquivo}</span>`);
   h+=ex.map((x,k)=>`<button type="button" ${k?"":'class="ff" '}${x}</button>`).join("");
   $("#nav").innerHTML=h}
+document.querySelector("[data-home]").addEventListener("click",e=>{e.preventDefault();view="capa";fSub.clear();fImp.clear();fSport="";saveV();render();window.scrollTo({top:0,behavior:"smooth"})});
 $("#nav").addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;view=b.dataset.v;fSub.clear();fImp.clear();fSport="";saveV();render();window.scrollTo({top:0,behavior:"smooth"})});
 
 function renderBrief(){const b=data.brief||[];const el=$("#brief");if(!b.length||view!=="capa"){el.hidden=true;return}el.hidden=false;el.innerHTML=`<span class="k">Última hora</span><ul>${b.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>`}

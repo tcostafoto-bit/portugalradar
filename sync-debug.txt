@@ -1,5 +1,0 @@
-data: 2026-09-29T15:04:57Z
-== news.json: HTTP 403 final=https://claude.ai/artifact/CG2kGiBKY21Sm6xkAQjsTy/news.json ct=text/html; charset=UTF-8
-<!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="content-security-policy" content="default-src &#39;none&#39;; script-src &#39
-== archive.json: HTTP 403 final=https://claude.ai/artifact/CG2kGiBKY21Sm6xkAQjsTy/archive.json ct=text/html; charset=UTF-8
-<!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="content-security-policy" content="default-src &#39;none&#39;; script-src &#39
