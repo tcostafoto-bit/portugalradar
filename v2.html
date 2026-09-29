@@ -6,7 +6,7 @@
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
 <meta name="theme-color" content="#f7f5f0">
-<meta name="color-scheme" content="light only">
+<meta name="color-scheme" content="light dark">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="PT Radar">
@@ -24,6 +24,13 @@
   --ui:"IBM Plex Sans Condensed","Arial Narrow",system-ui,sans-serif;
   color-scheme:light;
 }
+:root[data-theme="dark"]{--paper:#15140f;--paper2:#1e1c15;--ink:#ece8dd;--ink2:#a39e90;--rule:#3a372d;--rule2:#2a281f;--red:#e0475a;--alto:#e0475a;--medio:#d3aa2c;--baixo:#8c877b;--rain:#6fa3e8;--warm:#e88a4a;color-scheme:dark}
+:root[data-theme="dark"] .logo{background:#f7f5f0;padding:8px 14px;border-radius:4px}
+.thm{width:34px;height:34px;display:inline-flex;align-items:center;justify-content:center;border:1px solid var(--ink);border-radius:3px;color:var(--ink);cursor:pointer;background:none;flex:none}
+.thm svg{width:16px;height:16px}
+.thm .i-moon{display:none}
+:root[data-theme="dark"] .thm .i-sun{display:none}
+:root[data-theme="dark"] .thm .i-moon{display:block}
 *{box-sizing:border-box}
 body{background:var(--paper);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.5;margin:0}
 a{color:inherit}
@@ -439,7 +446,7 @@ footer a{color:inherit}
   <h1><a href="./v2.html" data-home><img class="logo" src="logo.png" alt="Portugal Radar" width="1400" height="281" fetchpriority="high"></a><span class="txt">Portugal Radar</span></h1>
   <div class="hr">
     <div class="ed"><span>Edição <span class="ver" id="ver">1.0</span></span><span>Hora a hora</span></div>
-    <span class="hb"><button type="button" class="sugg pri" id="share-site"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="2.5"/><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="19" r="2.5"/><path d="M8.2 10.8l7.6-4.6M8.2 13.2l7.6 4.6"/></svg>Partilhar</button><button type="button" class="sugg" id="open-sugg"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h16v11H9l-5 4z"/></svg>Sugestões</button></span>
+    <span class="hb"><button type="button" class="sugg pri" id="share-site"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="2.5"/><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="19" r="2.5"/><path d="M8.2 10.8l7.6-4.6M8.2 13.2l7.6 4.6"/></svg>Partilhar</button><button type="button" class="sugg" id="open-sugg"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h16v11H9l-5 4z"/></svg>Sugestões</button><button type="button" class="thm" id="thm" aria-label="Modo claro ou escuro" title="Modo claro ou escuro"><svg class="i-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6"/></svg><svg class="i-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M19 14.5A7.5 7.5 0 0 1 9.5 5a7.5 7.5 0 1 0 9.5 9.5z"/></svg></button></span>
   </div>
 </header>
 <div class="navwrap"><nav class="nav" id="nav" aria-label="Secções"></nav><button type="button" class="narr" id="nav-r" aria-label="Mais secções"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg></button></div>
@@ -854,6 +861,10 @@ async function doInstall(){gc("app-adicionar","Adicionar ao ecrã");
 document.addEventListener("click",e=>{if(e.target.closest("[data-install]")){e.preventDefault();doInstall();return}if(e.target.closest("[data-iclose]")){$("#ios").close()}});
 $("#ios").addEventListener("click",e=>{if(e.target===e.currentTarget)e.currentTarget.close()});
 if(standalone())gc("app-aberta","Aberto como app");
+
+/* ===== modo claro / escuro (predefinição: claro) ===== */
+(function(){let t="light";try{t=localStorage.getItem("pr.theme")||"light"}catch(e){}document.documentElement.setAttribute("data-theme",t);
+  document.addEventListener("click",e=>{if(!e.target.closest("#thm"))return;const n=document.documentElement.getAttribute("data-theme")==="dark"?"light":"dark";document.documentElement.setAttribute("data-theme",n);try{localStorage.setItem("pr.theme",n)}catch(x){}gc("tema-"+n,"Tema "+n)})})();
 
 /* ===== partilhar o site ===== */
 const SH_TXT="Portugal Radar: as notícias de Portugal que interessam, por tema, sem repetições e com a fonte.";
