@@ -1,19 +1,18 @@
 {
- "version": "1.1.13",
- "updated": "2026-09-29T18:14:04Z",
+ "version": "1.1.14",
+ "updated": "2026-09-29T19:15:42Z",
  "brief": [
   {
-   "texto": "Presidente da República promulga o suplemento extraordinário para pensionistas, a pagar em dezembro."
+   "texto": "Sindicatos da banca ligados à UGT convocam greve para 30 de novembro e juntam-se ao SNQTB."
   },
   {
-   "texto": "Sindicatos da banca ligados à UGT convocam greve para 30 de novembro contra aumentos de apenas 2%."
+   "texto": "Presidente da República promulga suplemento extraordinário para pensionistas, a pagar em dezembro."
   },
   {
-   "texto": "Caso das gémeas: acusação diz que a mãe pediu apoio para leite tendo mais de 100 mil euros na conta.",
-   "id": "cm-daniela-martins-100mil"
+   "texto": "Portugal e Bélgica chegam a acordo para construir uma fábrica de munições em território nacional."
   },
   {
-   "texto": "Ronaldo falta ao treino da Seleção depois de ficar no banco frente à Noruega."
+   "texto": "IPMA emite aviso amarelo de vento no litoral Norte, com rajadas até 80 km/h."
   }
  ],
  "items": [
@@ -49,6 +48,23 @@
    "tickers": [],
    "resumo": "Magui Corceiro e Kika Cerqueira Gomes estão numa troca de provocações nas redes sociais, que envolve agora a ex-namorada do piloto Pierre Gasly.",
    "img": ""
+  },
+  {
+   "id": "cnn-6abbcf2fd34e9a786e75a25d",
+   "ts": "2026-09-29T14:46:00Z",
+   "source": "CNN Portugal",
+   "lado": "pt",
+   "url": "https://cnnportugal.iol.pt/bono/u2/ministro-israelita-acusa-vocalista-dos-u2-de-ser-apoiante-do-terrorismo-apos-comparacao-com-himmler/20260929/6abbcf2fd34e9a786e75a25d",
+   "title": "Ministro israelita acusa vocalista dos U2 de ser \"apoiante do terrorismo\" após comparação com Himmler",
+   "topic": "cultura",
+   "sub": "",
+   "impacto": "baixo",
+   "setores": [
+    "Música"
+   ],
+   "tickers": [],
+   "resumo": "Um ministro israelita acusou Bono, vocalista dos U2, de ser \"apoiante do terrorismo\", na sequência de palavras do músico numa entrevista.",
+   "img": "https://img.iol.pt/image/id/5ba51c660cf282952f047852/200.jpg"
   },
   {
    "id": "ng-marcia-soares-zaza",
@@ -100,6 +116,23 @@
    "tickers": [],
    "resumo": "Portugal, a Eslováquia e a Noruega assinaram uma iniciativa para acelerar a implementação de veículos autónomos. A assinatura decorreu no âmbito dos Europe Connecting Days.",
    "img": "https://img.iol.pt/image/id/6883b396d34e3f0baea0ed49/200.jpg"
+  },
+  {
+   "id": "cnn-6abbc516d34e9a786e75a24b",
+   "ts": "2026-09-29T14:03:00Z",
+   "source": "CNN Portugal",
+   "lado": "pt",
+   "url": "https://cnnportugal.iol.pt/guerra/yabloko/lider-da-oposicao-russa-com-processo-por-ter-colocado-as-palavras-pela-paz-no-boletim-de-voto/20260929/6abbc516d34e9a786e75a24b",
+   "title": "Líder da oposição russa com processo por ter colocado as palavras \"Pela Paz\" no boletim de voto",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "baixo",
+   "setores": [
+    "Rússia"
+   ],
+   "tickers": [],
+   "resumo": "O líder do partido de oposição Yabloko enfrenta um processo por ter escrito as palavras \"Pela Paz\" no boletim de voto. Em causa estará um alegado \"vandalismo menor\".",
+   "img": "https://img.iol.pt/image/id/6abbc4d8d34e53c759c744de/200.jpg"
   },
   {
    "id": "cnn-6abbbf0ed34e53c759c744d3",
@@ -440,6 +473,40 @@
    "tickers": [],
    "resumo": "O ex-diretor técnico nacional de arbitragem falou pela primeira vez sobre a sua saída do cargo e garantiu que nunca mais trabalhará com Luciano Gonçalves. Classificou ainda como inadmissível que o presidente do Conselho de Arbitragem se tenha deslocado sozinho a uma reunião com o presidente da SAD.",
    "img": ""
+  },
+  {
+   "id": "cnn-6abb8d71d34e9a786e75a0d4",
+   "ts": "2026-09-29T10:05:37Z",
+   "source": "CNN Portugal",
+   "lado": "pt",
+   "url": "https://cnnportugal.iol.pt/burla-mbway/mbway/gnr-detem-duas-pessoas-em-campo-maior-por-burla-mbway/20260929/6abb8d71d34e9a786e75a0d4",
+   "title": "GNR detém duas pessoas em Campo Maior por burla MBWay",
+   "topic": "justica",
+   "sub": "",
+   "impacto": "baixo",
+   "setores": [
+    "Burla"
+   ],
+   "tickers": [],
+   "resumo": "A GNR deteve em Campo Maior um homem de 37 anos e uma mulher de 31, suspeitos de burla através de MB WAY.",
+   "img": "https://img.iol.pt/image/id/6853cb8bd34ef72ee4475b86/200.jpg"
+  },
+  {
+   "id": "cnn-6abb87610cf22b9f8904d1ab",
+   "ts": "2026-09-29T09:54:00Z",
+   "source": "CNN Portugal",
+   "lado": "pt",
+   "url": "https://cnnportugal.iol.pt/videos/colonos-israelitas-incendeiam-casa-quando-exercito-tentava-escoltar-familia-palestiniana/6abb87610cf22b9f8904d1ab",
+   "title": "Colonos israelitas incendeiam casa quando exército tentava escoltar família palestiniana",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Cisjordânia"
+   ],
+   "tickers": [],
+   "resumo": "Uma família palestiniana regressava a casa por ordem do Supremo Tribunal de Israel, mas teve de ser retirada do local quando colonos incendiaram a habitação. Três elementos da guarda de fronteira ficaram feridos nos confrontos.",
+   "img": "https://img.iol.pt/image/id/6abb8a6fd34e9a786e75a0c0/200.jpg"
   },
   {
    "id": "cm-reality-tvi-erro-especial",

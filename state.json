@@ -1,6 +1,6 @@
 {
- "version": "1.1.13",
- "updated": "2026-09-29T18:14:04Z",
+ "version": "1.1.14",
+ "updated": "2026-09-29T19:15:42Z",
  "recent": [
   {
    "id": "ng-diogo-marcelino-bb",
@@ -17,6 +17,14 @@
    "sub": "famosos",
    "source": "Nova Gente",
    "title": "Guerra séria! Magui Corceiro não se fica e 'ataca' Kika Cerqueira Gomes com ex-namorada de Pierre Gasly"
+  },
+  {
+   "id": "cnn-6abbcf2fd34e9a786e75a25d",
+   "ts": "2026-09-29T14:46:00Z",
+   "topic": "cultura",
+   "sub": "",
+   "source": "CNN Portugal",
+   "title": "Ministro israelita acusa vocalista dos U2 de ser \"apoiante do terrorismo\" após comparação com Himmler"
   },
   {
    "id": "ng-marcia-soares-zaza",
@@ -41,6 +49,14 @@
    "sub": "",
    "source": "CNN Portugal",
    "title": "Portugal junta-se a iniciativa para acelerar implementação de veículos autónomos"
+  },
+  {
+   "id": "cnn-6abbc516d34e9a786e75a24b",
+   "ts": "2026-09-29T14:03:00Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "CNN Portugal",
+   "title": "Líder da oposição russa com processo por ter colocado as palavras \"Pela Paz\" no boletim de voto"
   },
   {
    "id": "cnn-6abbbf0ed34e53c759c744d3",
@@ -201,6 +217,22 @@
    "sub": "liga",
    "source": "A Bola",
    "title": "Duarte Gomes: «Jamais voltarei a trabalhar com Luciano Gonçalves»"
+  },
+  {
+   "id": "cnn-6abb8d71d34e9a786e75a0d4",
+   "ts": "2026-09-29T10:05:37Z",
+   "topic": "justica",
+   "sub": "",
+   "source": "CNN Portugal",
+   "title": "GNR detém duas pessoas em Campo Maior por burla MBWay"
+  },
+  {
+   "id": "cnn-6abb87610cf22b9f8904d1ab",
+   "ts": "2026-09-29T09:54:00Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "CNN Portugal",
+   "title": "Colonos israelitas incendeiam casa quando exército tentava escoltar família palestiniana"
   },
   {
    "id": "cm-reality-tvi-erro-especial",
@@ -929,38 +961,6 @@
    "sub": "famosos",
    "source": "VIP",
    "title": "Humorista portuguesa lança farpas à SIC após prémio a Ricardo Araújo Pereira e envolve Joana Marques"
-  },
-  {
-   "id": "cnn-6aba6bf4d34e53c759c74196",
-   "ts": "2026-09-28T13:29:54Z",
-   "topic": "economia",
-   "sub": "",
-   "source": "CNN Portugal",
-   "title": "Portugal pressiona Bruxelas a agir na crise dos combustíveis e rejeita metas obrigatórias de poupança"
-  },
-  {
-   "id": "cnn-6aba6a26d34e53c759c74192",
-   "ts": "2026-09-28T13:22:12Z",
-   "topic": "mundo",
-   "sub": "",
-   "source": "CNN Portugal",
-   "title": "Cinco detidos por suspeitas de terrorismo junto a base britânica. E a segurança nas Lajes?"
-  },
-  {
-   "id": "cnn-6aba651bd34e53c759c7418f",
-   "ts": "2026-09-28T13:00:00Z",
-   "topic": "justica",
-   "sub": "",
-   "source": "CNN Portugal",
-   "title": "\"Ninguém está acima da Lei\": a reação de Marcelo ao caso em que o próprio filho está acusado"
-  },
-  {
-   "id": "rtp-1768197",
-   "ts": "2026-09-28T12:46:47Z",
-   "topic": "desporto",
-   "sub": "selecao",
-   "source": "RTP Desporto",
-   "title": "Portugal-Noruega. Elogio de Jesus e Ronaldo titular na Dinamarca"
   }
  ],
  "paired": [
