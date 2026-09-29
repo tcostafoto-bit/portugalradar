@@ -54,6 +54,12 @@ button:focus-visible,a:focus-visible,textarea:focus-visible,input:focus-visible{
 .nav button[aria-pressed="true"]{border-bottom-color:var(--red);color:var(--red)}
 .nav button.ff{margin-left:auto}
 .nav button.ff[aria-pressed="true"]{color:var(--ink);border-bottom-color:var(--ink)}
+@media (min-width:641px){
+  .nav{flex-wrap:wrap;overflow:visible;justify-content:center;column-gap:2px}
+  .nav button{padding:9px 8px;font-size:12px;letter-spacing:.06em}
+  .nav button:hover{color:var(--red)}
+  .nav button.ff{margin-left:0}
+}
 
 /* em destaque */
 .brief .bh{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
