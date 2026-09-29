@@ -32,6 +32,11 @@ jobs:
             fi
           done
           echo "ok=$ok" >> "$GITHUB_OUTPUT"
+          if [ "$ok" = "0" ]; then
+            { echo "data: $(date -u +%FT%TZ)"; for f in news.json archive.json; do echo "== $f: HTTP $(curl -sS -L -A 'Mozilla/5.0' -o /dev/null -w '%{http_code} final=%{url_effective} ct=%{content_type}' "$BASE/$f")"; head -c 400 "/tmp/$f" | tr -d '\r' ; echo; done; } > sync-debug.txt
+            git config user.name "Portugal Radar bot"; git config user.email "tcostafoto-bit@users.noreply.github.com"
+            git add sync-debug.txt && git commit -q -m "debug: resposta do artifact" && git push -q || true
+          fi
 
       - name: Copiar e publicar se houver alterações
         if: steps.fetch.outputs.ok == '1'
