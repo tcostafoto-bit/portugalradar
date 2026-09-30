@@ -1,20 +1,21 @@
 {
- "version": "1.1.19",
- "updated": "2026-09-30T00:15:07Z",
+ "version": "1.1.20",
+ "updated": "2026-09-30T01:14:55Z",
  "brief": [
   {
-   "texto": "Presidente da República promulga suplemento extraordinário para pensionistas, a pagar em dezembro."
+   "texto": "Caso das gémeas: acusação do MP e reações políticas dominam o debate, com o PSD a dizer que ficou provada a inocência de Marcelo.",
+   "id": "cm-marcelo-sabia-tratamento"
   },
   {
-   "texto": "Sindicatos da banca ligados à UGT convocam greve para 30 de novembro e juntam-se ao SNQTB."
+   "texto": "Presidente da República promulga o suplemento extraordinário para pensionistas, pago em dezembro com a pensão."
   },
   {
-   "texto": "PS e Chega dizem que o Orçamento para 2027 não inclui apoios às famílias.",
+   "texto": "Orçamento do Estado para 2027: PS e Chega dizem que a proposta não inclui apoios às famílias.",
    "id": "rtp-1768330"
   },
   {
-   "texto": "Caso das gémeas: PSD diz que a inocência de Marcelo Rebelo de Sousa ficou provada.",
-   "id": "obs-gemeas-psd-marcelo"
+   "texto": "Irão apresenta na ONU um plano para reabrir o estreito de Ormuz em sete dias.",
+   "id": "cm-hormuz-plano-ira"
   }
  ],
  "items": [
@@ -1169,6 +1170,23 @@
    ],
    "tickers": [],
    "resumo": "O governador do Banco de Portugal lamentou os atrasos de décadas na construção do novo aeroporto.",
+   "img": ""
+  },
+  {
+   "id": "hn-dgs-ig-estrangeiras",
+   "ts": "2026-09-29T06:17:58Z",
+   "source": "HealthNews",
+   "lado": "pt",
+   "url": "https://healthnews.pt/2026/09/29/dgs-numero-de-ig-estavel-mas-mais-de-quatro-em-cada-dez-foram-feitas-por-estrangeiras/",
+   "title": "DGS: número de IG estável, mas mais de quatro em cada dez foram feitas por estrangeiras",
+   "topic": "saude",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "DGS"
+   ],
+   "tickers": [],
+   "resumo": "Em 2025 realizaram-se 18.869 interrupções da gravidez, número estável, das quais 44,2% por mulheres estrangeiras. A DGS pede respostas adaptadas à diversidade linguística, social e cultural.",
    "img": ""
   },
   {

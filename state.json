@@ -1,6 +1,6 @@
 {
- "version": "1.1.19",
- "updated": "2026-09-30T00:15:07Z",
+ "version": "1.1.20",
+ "updated": "2026-09-30T01:14:55Z",
  "recent": [
   {
    "id": "ng-blaya-globos-ouro",
@@ -539,6 +539,14 @@
    "title": "Governador do BdP lamenta atrasos de décadas no novo aeroporto"
   },
   {
+   "id": "hn-dgs-ig-estrangeiras",
+   "ts": "2026-09-29T06:17:58Z",
+   "topic": "saude",
+   "sub": "",
+   "source": "HealthNews",
+   "title": "DGS: número de IG estável, mas mais de quatro em cada dez foram feitas por estrangeiras"
+  },
+  {
    "id": "rtp-1768338",
    "ts": "2026-09-29T06:16:31Z",
    "topic": "politica",
@@ -953,14 +961,6 @@
    "sub": "liga",
    "source": "zerozero",
    "title": "Sete vitórias consecutivas colocam Torreense a viver uma das melhores fases da história"
-  },
-  {
-   "id": "as-europeu-ralis-6cities",
-   "ts": "2026-09-28T18:15:35Z",
-   "topic": "desporto",
-   "sub": "motores",
-   "source": "AutoSport",
-   "title": "Europeu de Ralis regressa ao Norte com Guimarães e Ribeira de Pena a estrearem-se no Rally 6 Cities"
   }
  ],
  "paired": [
