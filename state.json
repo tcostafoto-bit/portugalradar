@@ -1,22 +1,46 @@
 {
- "version": "1.1.27",
- "updated": "2026-09-30T07:15:35Z",
+ "version": "1.1.28",
+ "updated": "2026-09-30T08:16:07Z",
  "recent": [
   {
-   "id": "lusa-kiev-ataque-20260930",
-   "ts": "2026-09-30T07:07:00Z",
-   "topic": "mundo",
+   "id": "ng-betty-grafstein-tribunal",
+   "ts": "2026-09-30T08:00:00Z",
+   "topic": "justica",
    "sub": "",
-   "source": "Lusa",
-   "title": "Ucrânia: Pelo menos dois mortos e quatro feridos em ataque russo contra Kiev"
+   "source": "Nova Gente",
+   "title": "Betty Grafstein descreve em tribunal o inferno que viveu ao lado de José Castelo Branco"
   },
   {
-   "id": "rtp-n1768585",
-   "ts": "2026-09-30T07:04:47Z",
-   "topic": "politica",
+   "id": "rtp-n1768590",
+   "ts": "2026-09-30T07:59:15Z",
+   "topic": "mundo",
    "sub": "",
    "source": "RTP",
-   "title": "Conselho Nacional. Montenegro exige rigor no debate do Orçamento"
+   "title": "Centenas de detidos durante protestos estudantis em França"
+  },
+  {
+   "id": "eco-rali-portugal-criticas",
+   "ts": "2026-09-30T07:48:05Z",
+   "topic": "desporto",
+   "sub": "motores",
+   "source": "ECO",
+   "title": "\"Desastre\" e \"murro no estômago\". Norte e Centro criticam exclusão de Portugal do Mundial de ralis"
+  },
+  {
+   "id": "obs-marrocos-mulher-governo",
+   "ts": "2026-09-30T07:16:08Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "Observador",
+   "title": "Marrocos vai ter mulher a liderar governo pela primeira vez"
+  },
+  {
+   "id": "obs-bissau-embalo-regresso",
+   "ts": "2026-09-30T07:11:19Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "Observador",
+   "title": "Bissau sob tensão prevê violência se Embaló voltar domingo"
   },
   {
    "id": "rtp-n1768553",
@@ -27,12 +51,28 @@
    "title": "Presidente interina da Venezuela reconhece \"uso abusivo\" de lei contra o ódio"
   },
   {
+   "id": "lusa-kiev-ataque-20260930",
+   "ts": "2026-09-30T07:07:00Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "Lusa",
+   "title": "Ucrânia: Pelo menos dois mortos e quatro feridos em ataque russo contra Kiev"
+  },
+  {
    "id": "rtp-n1768572",
    "ts": "2026-09-30T07:06:28Z",
    "topic": "economia",
    "sub": "",
    "source": "RTP",
    "title": "Nunca as rendas foram tão caras em Portugal. Arrendamento em debate hoje com chumbo no horizonte"
+  },
+  {
+   "id": "rtp-n1768585",
+   "ts": "2026-09-30T07:04:47Z",
+   "topic": "politica",
+   "sub": "",
+   "source": "RTP",
+   "title": "Conselho Nacional. Montenegro exige rigor no debate do Orçamento"
   },
   {
    "id": "ng-debora-monteiro-queda",
@@ -83,6 +123,14 @@
    "title": "China promete resposta \"firme\" contra União Europeia"
   },
   {
+   "id": "hn-pma-300-por-cento",
+   "ts": "2026-09-30T06:03:44Z",
+   "topic": "saude",
+   "sub": "",
+   "source": "HealthNews",
+   "title": "Tratamentos de PMA aumentam 300% em 15 anos e resposta pública não acompanha procura"
+  },
+  {
    "id": "eco-barometro-cip-iseg",
    "ts": "2026-09-30T06:00:34Z",
    "topic": "economia",
@@ -113,6 +161,14 @@
    "sub": "",
    "source": "Observador",
    "title": "Irão apela aos eleitores dos EUA para afastarem republicanos"
+  },
+  {
+   "id": "eco-metas-despesa-2027",
+   "ts": "2026-09-30T05:41:41Z",
+   "topic": "economia",
+   "sub": "",
+   "source": "ECO",
+   "title": "Portugal arrisca falhar metas de despesa em 2027 apesar das contas equilibradas"
   },
   {
    "id": "eco-prestacao-casa-outubro",
@@ -155,6 +211,30 @@
    "title": "PS pronto a viabilizar OE: \"Está encaminhado\""
   },
   {
+   "id": "obs-eua-irao-sem-progressos-20260930",
+   "ts": "2026-09-30T00:15:28Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "Observador",
+   "title": "Negociações entre EUA e Irão terminam sem progressos"
+  },
+  {
+   "id": "obs-parlamento-solidariedade-lusa",
+   "ts": "2026-09-29T23:10:41Z",
+   "topic": "politica",
+   "sub": "",
+   "source": "Observador",
+   "title": "Parlamento aprova solidariedade com jornalistas da Lusa, mas Chega vota contra e PSD abstém-se"
+  },
+  {
+   "id": "caras-rei-tooro-uganda",
+   "ts": "2026-09-29T23:06:30Z",
+   "topic": "rosa",
+   "sub": "realeza",
+   "source": "Caras",
+   "title": "Jornalista de TV é coroado rei após intensa e acesa disputa por trono real"
+  },
+  {
    "id": "obs-lusa-ca-pressoes",
    "ts": "2026-09-29T22:50:15Z",
    "topic": "politica",
@@ -187,12 +267,28 @@
    "title": "PSP: cinco sindicatos rejeitam suplemento de fronteiras"
   },
   {
+   "id": "rtp-n1768539",
+   "ts": "2026-09-29T22:26:32Z",
+   "topic": "economia",
+   "sub": "",
+   "source": "RTP",
+   "title": "CGTP e CIP lançam críticas ao Orçamento do Estado mas divergem quanto aos salários"
+  },
+  {
    "id": "lusa-47858846",
    "ts": "2026-09-29T22:16:00Z",
    "topic": "economia",
    "sub": "",
    "source": "Lusa",
    "title": "Air France/KLM e Lufthansa entregam hoje propostas finais de compra da TAP"
+  },
+  {
+   "id": "rtp-n1768535",
+   "ts": "2026-09-29T22:09:52Z",
+   "topic": "politica",
+   "sub": "",
+   "source": "RTP",
+   "title": "Conselho da Europa. Seguro reafirma \"compromisso de Portugal com valores da paz\""
   },
   {
    "id": "cnn-6abc31ead34e9a786e75a332",
@@ -217,6 +313,14 @@
    "sub": "",
    "source": "CNN Portugal",
    "title": "Governo está a revelar \"grande insensibilidade e indiferença\" a quem vive momentos difíceis, diz José Luís Carneiro"
+  },
+  {
+   "id": "rtp-v1768530",
+   "ts": "2026-09-29T21:09:47Z",
+   "topic": "saude",
+   "sub": "",
+   "source": "RTP",
+   "title": "Quase metade das interrupções da gravidez em 2025 foram feitas por estrangeiras"
   },
   {
    "id": "cnn-6abbdf92d34e53c759c74529",
@@ -275,12 +379,28 @@
    "title": "Sporting ultrapassa os 200 mil associados e quebra recorde do clube"
   },
   {
+   "id": "cnn-6abc0ec1d34e9a786e75a2f7",
+   "ts": "2026-09-29T19:17:00Z",
+   "topic": "justica",
+   "sub": "",
+   "source": "CNN Portugal",
+   "title": "Documento inédito: PJ apanha mandamentos do PCC com ameaças de morte em cela de assaltantes"
+  },
+  {
    "id": "cnn-6abc0c57d34e53c759c74598",
    "ts": "2026-09-29T19:06:00Z",
    "topic": "justica",
    "sub": "",
    "source": "CNN Portugal",
    "title": "De perseguição na Amadora a carjacking no IC17: condutor atropela polícia, embate em vários carros, abandona viatura e r"
+  },
+  {
+   "id": "cnn-6abc05ebd34e53c759c74591",
+   "ts": "2026-09-29T18:55:00Z",
+   "topic": "justica",
+   "sub": "",
+   "source": "CNN Portugal",
+   "title": "Caso das gémeas: ministra da Justiça pede \"decisão rápida\" para \"bem de todos\""
   },
   {
    "id": "as-joao-ferreira-marrocos",
@@ -441,6 +561,14 @@
    "sub": "",
    "source": "CNN Portugal",
    "title": "Brasileiros em Portugal votaram contra o governo nos últimos anos. Agora, o país prepara-se para eleições históricas"
+  },
+  {
+   "id": "rtp-d1768438",
+   "ts": "2026-09-29T12:59:22Z",
+   "topic": "desporto",
+   "sub": "benfica",
+   "source": "RTP Desporto",
+   "title": "Nuno Lobo lamenta decisão de AG do Benfica recusar proposta contra Proença"
   },
   {
    "id": "ng-casados-novo-noivo-ricardo",
@@ -833,134 +961,6 @@
    "sub": "",
    "source": "RTP",
    "title": "China pede ao Japão que retifique posição sobre Taiwan para superar crise bilateral"
-  },
-  {
-   "id": "rtp-1768346",
-   "ts": "2026-09-29T06:32:03Z",
-   "topic": "mundo",
-   "sub": "",
-   "source": "RTP",
-   "title": "Governo espanhol pressionado nas ruas a aprovar hoje decreto para habitação"
-  },
-  {
-   "id": "lusa-47853869",
-   "ts": "2026-09-29T06:30:00Z",
-   "topic": "mundo",
-   "sub": "",
-   "source": "Lusa",
-   "title": "Número de vítimas mortais de inundações na Tailândia sobe para 23 - Governo"
-  },
-  {
-   "id": "rtp-1768344",
-   "ts": "2026-09-29T06:23:02Z",
-   "topic": "economia",
-   "sub": "",
-   "source": "RTP",
-   "title": "Governador do BdP lamenta atrasos de décadas no novo aeroporto"
-  },
-  {
-   "id": "hn-dgs-ig-estrangeiras",
-   "ts": "2026-09-29T06:17:58Z",
-   "topic": "saude",
-   "sub": "",
-   "source": "HealthNews",
-   "title": "DGS: número de IG estável, mas mais de quatro em cada dez foram feitas por estrangeiras"
-  },
-  {
-   "id": "rtp-1768338",
-   "ts": "2026-09-29T06:16:31Z",
-   "topic": "politica",
-   "sub": "",
-   "source": "RTP",
-   "title": "MAI volta hoje a reunir-se com sindicatos da PSP e associações da GNR"
-  },
-  {
-   "id": "rtp-1768337",
-   "ts": "2026-09-29T06:10:13Z",
-   "topic": "economia",
-   "sub": "",
-   "source": "RTP",
-   "title": "Ações da Shein caem até 14% em Hong Kong após queda de 66,6% do lucro ajustado"
-  },
-  {
-   "id": "cm-hormuz-plano-ira",
-   "ts": "2026-09-29T06:05:43Z",
-   "topic": "mundo",
-   "sub": "",
-   "source": "CM",
-   "title": "Irão apresenta na ONU plano para reabrir o estreito de Ormuz em sete dias"
-  },
-  {
-   "id": "rtp-n1768336",
-   "ts": "2026-09-29T06:05:36Z",
-   "topic": "cultura",
-   "sub": "",
-   "source": "RTP",
-   "title": "Lídia Jorge toca leitor da China ou Portugal com as mesmas inquietações"
-  },
-  {
-   "id": "zz-1217110",
-   "ts": "2026-09-29T06:00:03Z",
-   "topic": "desporto",
-   "sub": "andebol",
-   "source": "zerozero",
-   "title": "Águas Santas e Benfica dão início à missão na EHF European League"
-  },
-  {
-   "id": "lusa-47853872",
-   "ts": "2026-09-29T05:59:00Z",
-   "topic": "mundo",
-   "sub": "",
-   "source": "Lusa",
-   "title": "EUA iniciam proibição de importação de álcool, laticínios e motociclos do Canadá"
-  },
-  {
-   "id": "rtp-1768335",
-   "ts": "2026-09-29T05:55:36Z",
-   "topic": "tecnologia",
-   "sub": "",
-   "source": "RTP",
-   "title": "OpenAI admite falha em alerta sobre intrusão de IA em plataformas do Governo da Austrália"
-  },
-  {
-   "id": "rtp-1768333",
-   "ts": "2026-09-29T05:48:41Z",
-   "topic": "mundo",
-   "sub": "",
-   "source": "RTP",
-   "title": "Teerão afirma que aguarda resposta dos EUA após conversações indiretas"
-  },
-  {
-   "id": "rtp-1768332",
-   "ts": "2026-09-29T05:43:09Z",
-   "topic": "mundo",
-   "sub": "",
-   "source": "RTP",
-   "title": "Rubio afirma que \"ator estrangeiro\" está envolvido em conspiração contra base britânica"
-  },
-  {
-   "id": "rtp-1768329",
-   "ts": "2026-09-29T05:40:50Z",
-   "topic": "mundo",
-   "sub": "",
-   "source": "RTP",
-   "title": "Trump revoga normas que protegem alunos LGBTI de discriminação sexual"
-  },
-  {
-   "id": "eco-seguros-iberico",
-   "ts": "2026-09-29T05:40:00Z",
-   "topic": "economia",
-   "sub": "",
-   "source": "ECO",
-   "title": "Dona da BPI VeP lidera ranking ibérico dos seguros, Fidelidade é sétima"
-  },
-  {
-   "id": "eco-fisco-ice",
-   "ts": "2026-09-29T05:39:16Z",
-   "topic": "economia",
-   "sub": "",
-   "source": "ECO",
-   "title": "Fisco trava uso de dividendos antigos no incentivo à capitalização das empresas"
   }
  ],
  "paired": [
