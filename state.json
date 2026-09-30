@@ -1,7 +1,135 @@
 {
- "version": "1.1.31",
- "updated": "2026-09-30T09:21:03Z",
+ "version": "1.1.32",
+ "updated": "2026-09-30T10:16:39Z",
  "recent": [
+  {
+   "id": "obs-inflacao-setembro-2026",
+   "ts": "2026-09-30T10:08:42Z",
+   "topic": "economia",
+   "sub": "",
+   "source": "Observador",
+   "title": "Combustíveis atiram inflação para 3,6% em setembro"
+  },
+  {
+   "id": "obs-bardella-antissemitismo",
+   "ts": "2026-09-30T10:08:37Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "Observador",
+   "title": "Acusações de antissemitismo a Bardella atingem Le Pen"
+  },
+  {
+   "id": "cnn-6abcdf0fd34e53c759c74696",
+   "ts": "2026-09-30T10:05:32Z",
+   "topic": "economia",
+   "sub": "",
+   "source": "CNN Portugal",
+   "title": "Euribor dá novo alívio no crédito à habitação: taxa mais usada volta a descer"
+  },
+  {
+   "id": "eco-lusa-presidente-estatutos",
+   "ts": "2026-09-30T10:04:42Z",
+   "topic": "politica",
+   "sub": "",
+   "source": "ECO",
+   "title": "Presidente da Lusa considera \"redutor centrar toda a reflexão exclusivamente nos estatutos\""
+  },
+  {
+   "id": "lusa-47860290",
+   "ts": "2026-09-30T10:01:00Z",
+   "topic": "outros",
+   "sub": "",
+   "source": "Lusa",
+   "title": "Portugal regista 2.º maior número de expulsões na UE no 2.º trimestre - Eurostat"
+  },
+  {
+   "id": "ng-jessica-maria-claudio-ramos",
+   "ts": "2026-09-30T10:00:00Z",
+   "topic": "rosa",
+   "sub": "reality",
+   "source": "Nova Gente",
+   "title": "Mãe de Jéssica Maria arrasa Cláudio Ramos: \"Nunca será um Sr. Goucha\""
+  },
+  {
+   "id": "rtp-n1768596",
+   "ts": "2026-09-30T09:59:49Z",
+   "topic": "saude",
+   "sub": "",
+   "source": "RTP",
+   "title": "Consumos aditivos diminuem entre estudantes dos 13 aos 18 anos"
+  },
+  {
+   "id": "cnn-6abcdd40d34e9a786e75a3ee",
+   "ts": "2026-09-30T09:58:00Z",
+   "topic": "justica",
+   "sub": "",
+   "source": "CNN Portugal",
+   "title": "Todas as reclusas saíram das prisões de Odemira e da Guarda. Portugal fica com três cadeias para mulheres"
+  },
+  {
+   "id": "cm-atriz-criador-moda-globos",
+   "ts": "2026-09-30T09:52:07Z",
+   "topic": "rosa",
+   "sub": "famosos",
+   "source": "CM",
+   "title": "Atriz e criador de moda em desaguisado público por comentário sobre o look nos Globos de Ouro"
+  },
+  {
+   "id": "eco-igcp-obrigacoes",
+   "ts": "2026-09-30T09:47:59Z",
+   "topic": "economia",
+   "sub": "",
+   "source": "ECO",
+   "title": "IGCP corta em 6,3% emissões de obrigações para este ano"
+  },
+  {
+   "id": "eco-sonae-sierra-ceo",
+   "ts": "2026-09-30T09:30:25Z",
+   "topic": "economia",
+   "sub": "",
+   "source": "ECO",
+   "title": "Luís Mota Duarte vai liderar Sonae Sierra a partir de janeiro de 2027"
+  },
+  {
+   "id": "obs-time-out-metro-porto",
+   "ts": "2026-09-30T09:28:42Z",
+   "topic": "outros",
+   "sub": "",
+   "source": "Observador",
+   "title": "Mercado Time Out exige 615 mil euros à Metro do Porto"
+  },
+  {
+   "id": "abola-osman-kul-porto",
+   "ts": "2026-09-30T09:28:00Z",
+   "topic": "desporto",
+   "sub": "porto",
+   "source": "A Bola",
+   "title": "FC Porto: analista deixa equipa técnica de Farioli e regressa à Turquia"
+  },
+  {
+   "id": "obs-profjam-coliseu",
+   "ts": "2026-09-30T09:26:17Z",
+   "topic": "cultura",
+   "sub": "",
+   "source": "Observador",
+   "title": "ProfJam faz \"viagem sem fronteiras\" no Coliseu de Lisboa"
+  },
+  {
+   "id": "obs-psp-droga-sete-meses",
+   "ts": "2026-09-30T09:15:53Z",
+   "topic": "politica",
+   "sub": "",
+   "source": "Observador",
+   "title": "Mais de 1.900 detidos e meia tonelada de droga apreendida"
+  },
+  {
+   "id": "hn-rastreio-colorretal",
+   "ts": "2026-09-30T09:15:20Z",
+   "topic": "saude",
+   "sub": "",
+   "source": "HealthNews",
+   "title": "Rastreio do cancro colorretal deve ser prioridade nacional na próxima década, defendem médicos e doentes"
+  },
   {
    "id": "rtp-n1768594",
    "ts": "2026-09-30T09:12:54Z",
@@ -19,12 +147,28 @@
    "title": "Campanha vacinação. DGS admite \"hesitação\" na Covid-19 e garante cobertura dos grupos prioritários"
   },
   {
+   "id": "cm-super-dragoes-casal-bilhetes",
+   "ts": "2026-09-30T09:07:07Z",
+   "topic": "justica",
+   "sub": "",
+   "source": "CM",
+   "title": "Nova investigação: casal ganhou quantia milionária com venda de bilhetes na liderança de Fernando Madureira nos Super Dr"
+  },
+  {
    "id": "as-ocon-haas-saida",
    "ts": "2026-09-30T09:00:40Z",
    "topic": "desporto",
    "sub": "motores",
    "source": "AutoSport",
    "title": "F1, Esteban Ocon confirma saída da Haas no final da temporada de 2026"
+  },
+  {
+   "id": "ng-bernardina-brito-bb",
+   "ts": "2026-09-30T09:00:00Z",
+   "topic": "rosa",
+   "sub": "reality",
+   "source": "Nova Gente",
+   "title": "Bernardina Brito revela que rejeitou convite para o Big Brother e aponta para concorrente: \"Pessoa repugnante\""
   },
   {
    "id": "cnn-6abccf25d34e9a786e75a37e",
@@ -169,6 +313,14 @@
    "sub": "selecao",
    "source": "Lusa",
    "title": "Liga Nações: Seleção portuguesa treina em Copenhaga com Ronaldo em dúvida"
+  },
+  {
+   "id": "cm-paulo-topa-cavalos",
+   "ts": "2026-09-30T07:48:07Z",
+   "topic": "justica",
+   "sub": "",
+   "source": "CM",
+   "title": "Investigação a desvio de 10 milhões com fraudes em falências envolve Paulo Topa; 20 cavalos apreendidos"
   },
   {
    "id": "eco-rali-portugal-criticas",
@@ -667,6 +819,14 @@
    "title": "Jornalista de TV é coroado rei após intensa e acesa disputa por trono real"
   },
   {
+   "id": "as-drift-campeoes-lousada",
+   "ts": "2026-09-29T23:01:00Z",
+   "topic": "desporto",
+   "sub": "motores",
+   "source": "AutoSport",
+   "title": "Hugo Costa e Joel Simões sagram-se campeões nacionais de drift em Lousada"
+  },
+  {
    "id": "obs-lusa-ca-pressoes",
    "ts": "2026-09-29T22:50:15Z",
    "topic": "politica",
@@ -755,6 +915,14 @@
    "title": "PM: política de habitação do Governo é para manter"
   },
   {
+   "id": "caras-casados-ricardo-paixao",
+   "ts": "2026-09-29T21:52:41Z",
+   "topic": "rosa",
+   "sub": "reality",
+   "source": "Caras",
+   "title": "Novo concorrente de 'Casados à Primeira Vista' tem ex famosa: 'Fiquei surpreendida'"
+  },
+  {
    "id": "ng-blaya-globos-ouro",
    "ts": "2026-09-29T21:30:00Z",
    "topic": "rosa",
@@ -793,191 +961,19 @@
    "sub": "",
    "source": "RTP",
    "title": "Portugal, Espanha e França querem Regiões Ultraperiféricas como essenciais no próximo Orçamento da UE"
-  },
-  {
-   "id": "cnn-6abc289ed34e9a786e75a324",
-   "ts": "2026-09-29T21:16:00Z",
-   "topic": "mundo",
-   "sub": "",
-   "source": "CNN Portugal",
-   "title": "Polícia britânica não encontrou explosivos junto à base de Fairford. Mas havia gasolina nas carrinhas dos suspeitos"
-  },
-  {
-   "id": "rtp-v1768532",
-   "ts": "2026-09-29T21:13:48Z",
-   "topic": "cultura",
-   "sub": "",
-   "source": "RTP",
-   "title": "Tapeçaria de Bayeux. Obra com quase mil anos regressou a Inglaterra"
-  },
-  {
-   "id": "rtp-v1768530",
-   "ts": "2026-09-29T21:09:47Z",
-   "topic": "saude",
-   "sub": "",
-   "source": "RTP",
-   "title": "Quase metade das interrupções da gravidez em 2025 foram feitas por estrangeiras"
-  },
-  {
-   "id": "cnn-6abbdf92d34e53c759c74529",
-   "ts": "2026-09-29T21:05:00Z",
-   "topic": "tecnologia",
-   "sub": "",
-   "source": "CNN Portugal",
-   "title": "Spotify volta ao normal após problemas registados em todo o mundo"
-  },
-  {
-   "id": "rtp-d1768526",
-   "ts": "2026-09-29T21:03:00Z",
-   "topic": "desporto",
-   "sub": "benfica",
-   "source": "RTP Desporto",
-   "title": "Champions feminina. Bayern de Munique espera Benfica \"desafiante\""
-  },
-  {
-   "id": "lusa-47858343",
-   "ts": "2026-09-29T21:02:00Z",
-   "topic": "mundo",
-   "sub": "",
-   "source": "Lusa",
-   "title": "NATO condena \"retórica nuclear irresponsável\" da Rússia que ameaça \"usar todo o arsenal\""
-  },
-  {
-   "id": "ng-elisabete-moutinho-pedro-cell",
-   "ts": "2026-09-29T21:00:00Z",
-   "topic": "rosa",
-   "sub": "famosos",
-   "source": "Nova Gente",
-   "title": "A forma como Pedro Cell reagiu após Elisabete Moutinho terminar relação de nove anos"
-  },
-  {
-   "id": "rtp-d1768522",
-   "ts": "2026-09-29T20:55:02Z",
-   "topic": "desporto",
-   "sub": "liga",
-   "source": "RTP Desporto",
-   "title": "Líder da Liga Portuguesa prevê regresso das bebidas alcoólicas aos estádios"
-  },
-  {
-   "id": "cnn-6abc2438d34e9a786e75a31e",
-   "ts": "2026-09-29T20:48:56Z",
-   "topic": "outros",
-   "sub": "",
-   "source": "CNN Portugal",
-   "title": "Fogo em autocarro de transporte público urbano provoca danos em habitação em Leiria"
-  },
-  {
-   "id": "cnn-6abc1887d34e53c759c745a1",
-   "ts": "2026-09-29T20:42:00Z",
-   "topic": "outros",
-   "sub": "",
-   "source": "CNN Portugal",
-   "title": "Um terço dos portugueses estão descontentes com as suas cidades"
-  },
-  {
-   "id": "cnn-6abc1e500cf299bc2953de48",
-   "ts": "2026-09-29T20:38:00Z",
-   "topic": "justica",
-   "sub": "",
-   "source": "CNN Portugal",
-   "title": "Exclusivo. Uma cura que não existe e uma mãe milionária: as mentiras sobre o caso das gémeas desmontadas pela acusação d"
-  },
-  {
-   "id": "cnn-6abbeb470cf20dc52778dc94",
-   "ts": "2026-09-29T20:06:00Z",
-   "topic": "justica",
-   "sub": "",
-   "source": "CNN Portugal",
-   "title": "Três minutos que renderam meio milhão de euros: as imagens do assalto a uma relojoaria no centro de Lisboa"
-  },
-  {
-   "id": "ng-diana-chaves-claudia-vieira",
-   "ts": "2026-09-29T20:00:00Z",
-   "topic": "rosa",
-   "sub": "famosos",
-   "source": "Nova Gente",
-   "title": "Diana Chaves revela episódio insólito com Cláudia Vieira nos bastidores dos Globos de Ouro"
-  },
-  {
-   "id": "as-alexandre-pinto-marrocos",
-   "ts": "2026-09-29T19:58:02Z",
-   "topic": "desporto",
-   "sub": "motores",
-   "source": "AutoSport",
-   "title": "Alexandre Pinto inicia Rali de Marrocos com vitória na categoria Challenger"
-  },
-  {
-   "id": "rtp-d1768509",
-   "ts": "2026-09-29T19:49:26Z",
-   "topic": "desporto",
-   "sub": "sporting",
-   "source": "RTP Desporto",
-   "title": "Sporting ultrapassa os 200 mil associados e quebra recorde do clube"
-  },
-  {
-   "id": "cnn-6abc0ec1d34e9a786e75a2f7",
-   "ts": "2026-09-29T19:17:00Z",
-   "topic": "justica",
-   "sub": "",
-   "source": "CNN Portugal",
-   "title": "Documento inédito: PJ apanha mandamentos do PCC com ameaças de morte em cela de assaltantes"
-  },
-  {
-   "id": "cnn-6abc0c57d34e53c759c74598",
-   "ts": "2026-09-29T19:06:00Z",
-   "topic": "justica",
-   "sub": "",
-   "source": "CNN Portugal",
-   "title": "De perseguição na Amadora a carjacking no IC17: condutor atropela polícia, embate em vários carros, abandona viatura e r"
-  },
-  {
-   "id": "cnn-6abc05ebd34e53c759c74591",
-   "ts": "2026-09-29T18:55:00Z",
-   "topic": "justica",
-   "sub": "",
-   "source": "CNN Portugal",
-   "title": "Caso das gémeas: ministra da Justiça pede \"decisão rápida\" para \"bem de todos\""
-  },
-  {
-   "id": "as-joao-ferreira-marrocos",
-   "ts": "2026-09-29T18:54:06Z",
-   "topic": "desporto",
-   "sub": "motores",
-   "source": "AutoSport",
-   "title": "João Ferreira vence 1ª etapa do Rallye du Maroc, e parou para assistência a motociclista"
-  },
-  {
-   "id": "rtp-d1768503",
-   "ts": "2026-09-29T18:52:51Z",
-   "topic": "desporto",
-   "sub": "selecao",
-   "source": "RTP Desporto",
-   "title": "Luís Freire promete motivação total para garantir acesso ao Europeu de sub-21"
-  },
-  {
-   "id": "rtp-d1768496",
-   "ts": "2026-09-29T18:51:43Z",
-   "topic": "desporto",
-   "sub": "lafora",
-   "source": "RTP Desporto",
-   "title": "Manchester City considerado culpado em todas as acusações. Clube tem três dias para recorrer"
   }
  ],
  "paired": [
   "cm-marcelo-sabia-tratamento",
-  "cnn-6aba44e1d34e53c759c74135",
   "cnn-6aba560fd34e53c759c7416d",
-  "cnn-6aba56dfd34e9a786e759ee4",
   "cnn-6aba651bd34e53c759c7418f",
   "cnn-6abc287dd34e9a786e75a323",
   "obs-gemeas-psd-marcelo",
   "obs-trump-ia-superinteligencia",
-  "rtp-1768091",
   "rtp-1768101",
   "rtp-1768303",
   "rtp-a1-1768533",
-  "rtp-n1768585",
-  "zz-1216877"
+  "rtp-n1768585"
  ],
  "top_tickers": [],
  "contracts": {},

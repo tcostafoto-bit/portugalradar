@@ -1,25 +1,308 @@
 {
- "version": "1.1.31",
- "updated": "2026-09-30T09:21:03Z",
+ "version": "1.1.32",
+ "updated": "2026-09-30T10:16:39Z",
  "brief": [
   {
-   "texto": "Parlamento debate hoje a lei do arrendamento do Governo, com chumbo à vista depois de PS e Chega anunciarem voto contra.",
-   "id": "rtp-n1768572"
+   "texto": "A inflação acelerou para 3,6% em setembro, impulsionada pelos combustíveis, segundo o INE.",
+   "id": "obs-inflacao-setembro-2026"
   },
   {
-   "texto": "PS está pronto a viabilizar o Orçamento do Estado para 2027 depois das garantias de Montenegro.",
+   "texto": "O PS está pronto a viabilizar o Orçamento do Estado, com a condição-chave dos socialistas satisfeita.",
    "id": "obs-ps-viabilizar-oe"
   },
   {
-   "texto": "Pentágono anuncia o fim oficial da missão de 12 anos da coligação no Iraque.",
-   "id": "rtp-n1768594"
+   "texto": "Ronaldo e Jorge Jesus resolveram o diferendo antes da chegada de Pedro Proença a Copenhaga.",
+   "id": "rtp-d1768479"
   },
   {
-   "texto": "Avião do Dubai para Israel aterra de emergência na Arábia Saudita, com um incidente entre pilotos.",
-   "id": "rtp-n1768592"
+   "texto": "Os Estados Unidos oficializam o fim da missão militar de 12 anos no Iraque.",
+   "id": "rtp-n1768594"
   }
  ],
  "items": [
+  {
+   "id": "obs-inflacao-setembro-2026",
+   "ts": "2026-09-30T10:08:42Z",
+   "source": "Observador",
+   "lado": "pt",
+   "url": "https://observador.pt/2026/09/30/combustiveis-atiram-inflacao-para-36-em-setembro/",
+   "title": "Combustíveis atiram inflação para 3,6% em setembro",
+   "topic": "economia",
+   "sub": "",
+   "impacto": "alto",
+   "setores": [
+    "Inflação",
+    "INE",
+    "Combustíveis"
+   ],
+   "tickers": [],
+   "resumo": "A taxa de inflação acelerou para 3,6% em setembro, mais 0,3 pontos percentuais do que em agosto, impulsionada pelos combustíveis, segundo o INE.",
+   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2000:1123:nowe:0:59/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/03/12035826/46724320.jpg"
+  },
+  {
+   "id": "obs-bardella-antissemitismo",
+   "ts": "2026-09-30T10:08:37Z",
+   "source": "Observador",
+   "lado": "pt",
+   "url": "https://observador.pt/2026/09/30/acusacoes-de-antissemitismo-contra-bardella-ressuscitam-fantasmas-que-voltam-a-assombrar-le-pen/",
+   "title": "Acusações de antissemitismo a Bardella atingem Le Pen",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "baixo",
+   "setores": [
+    "França"
+   ],
+   "tickers": [],
+   "resumo": "O eurodeputado Bardella nega ter escrito mensagens em que acusava judeus de querer dominar outros povos. A oposição e várias associações põem em causa a estratégia de desdiabolização do partido.",
+   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2000:1121:nowe:0:0/q:70/plain/https://s3.observador.pt/wp-content/uploads/2025/09/02134951/45582590.jpg"
+  },
+  {
+   "id": "cnn-6abcdf0fd34e53c759c74696",
+   "ts": "2026-09-30T10:05:32Z",
+   "source": "CNN Portugal",
+   "lado": "pt",
+   "url": "https://cnnportugal.iol.pt/euribor/credito-a-habitacao/euribor-da-novo-alivio-no-credito-a-habitacao-taxa-mais-usada-volta-a-descer/20260930/6abcdf0fd34e53c759c74696",
+   "title": "Euribor dá novo alívio no crédito à habitação: taxa mais usada volta a descer",
+   "topic": "economia",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Euribor",
+    "Crédito à habitação"
+   ],
+   "tickers": [],
+   "resumo": "A taxa Euribor mais usada no crédito à habitação voltou a descer, dando novo alívio a quem tem prestação variável. Apenas a Euribor a três meses ficou inalterada.",
+   "img": "https://img.iol.pt/image/id/63ecbaad0cf2cf9224f91534/200.jpg"
+  },
+  {
+   "id": "eco-lusa-presidente-estatutos",
+   "ts": "2026-09-30T10:04:42Z",
+   "source": "ECO",
+   "lado": "pt",
+   "url": "https://eco.sapo.pt/2026/09/30/presidente-da-lusa-considera-redutor-centrar-toda-a-reflexao-exclusivamente-nos-estatutos/",
+   "title": "Presidente da Lusa considera \"redutor centrar toda a reflexão exclusivamente nos estatutos\"",
+   "topic": "politica",
+   "sub": "",
+   "impacto": "baixo",
+   "setores": [
+    "Lusa",
+    "Parlamento"
+   ],
+   "tickers": [],
+   "resumo": "Numa audição parlamentar, o presidente da Lusa disse que o modelo de governação pode melhorar, mas que centrar a reflexão só nos estatutos é redutor, destacando a estratégia, a sustentabilidade económica e o serviço público.",
+   "img": "https://eco.imgix.net/uploads/2026/09/cropped-47856782-scaled-1.jpg"
+  },
+  {
+   "id": "lusa-47860290",
+   "ts": "2026-09-30T10:01:00Z",
+   "source": "Lusa",
+   "lado": "pt",
+   "url": "https://www.lusa.pt/article/47860290/portugal-regista-2-º-maior-número-de-expulsões-na-ue-no-2-º-trimestre-eurostat",
+   "title": "Portugal regista 2.º maior número de expulsões na UE no 2.º trimestre - Eurostat",
+   "topic": "outros",
+   "sub": "",
+   "impacto": "baixo",
+   "setores": [
+    "Eurostat",
+    "Imigração"
+   ],
+   "tickers": [],
+   "resumo": "As ordens de expulsão emitidas na UE recuaram no segundo trimestre para 110.335, com Portugal a registar o segundo maior número (11.190), segundo o Eurostat.",
+   "img": "https://www.lusa.pt/temp/images/900x600/cache_900x600_Crop_high_39685357_2890004_20102022115305.jpg"
+  },
+  {
+   "id": "ng-jessica-maria-claudio-ramos",
+   "ts": "2026-09-30T10:00:00Z",
+   "source": "Nova Gente",
+   "lado": "pt",
+   "url": "https://www.novagente.pt/mae-de-jessica-maria-arrasa-claudio-ramos-nunca-sera-um-sr-goucha/",
+   "title": "Mãe de Jéssica Maria arrasa Cláudio Ramos: \"Nunca será um Sr. Goucha\"",
+   "topic": "rosa",
+   "sub": "reality",
+   "impacto": "baixo",
+   "setores": [
+    "Big Brother All Stars"
+   ],
+   "tickers": [],
+   "resumo": "Carla Martins, mãe de Jéssica Maria, dirigiu duras críticas a Cláudio Ramos a propósito do Big Brother All Stars.",
+   "img": ""
+  },
+  {
+   "id": "rtp-n1768596",
+   "ts": "2026-09-30T09:59:49Z",
+   "source": "RTP",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/pais/consumos-aditivos-diminuem-entre-estudantes-dos-13-aos-18-anos_n1768596",
+   "title": "Consumos aditivos diminuem entre estudantes dos 13 aos 18 anos",
+   "topic": "saude",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Comportamentos aditivos",
+    "Estudantes"
+   ],
+   "tickers": [],
+   "resumo": "O estudo sobre o consumo de álcool, tabaco, drogas e outros comportamentos aditivos entre estudantes dos 13 aos 18 anos aponta para uma evolução globalmente favorável face à edição anterior, de 2019.",
+   "img": "https://cdn-images.rtp.pt/icm/noticias/images/ae/aed73169d5c54d873ab6da0f0cdcafb9?w=350&q=50&rect=0,0,1499,822&auto=format"
+  },
+  {
+   "id": "cnn-6abcdd40d34e9a786e75a3ee",
+   "ts": "2026-09-30T09:58:00Z",
+   "source": "CNN Portugal",
+   "lado": "pt",
+   "url": "https://cnnportugal.iol.pt/prisoes-portugal/reclusos-portugal/todas-as-reclusas-sairam-das-prisoes-de-odemira-e-da-guarda-portugal-fica-com-tres-cadeias-para-mulheres/20260930/6abcdd40d34e9a786e75a3ee",
+   "title": "Todas as reclusas saíram das prisões de Odemira e da Guarda. Portugal fica com três cadeias para mulheres",
+   "topic": "justica",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Prisões",
+    "Sobrelotação"
+   ],
+   "tickers": [],
+   "resumo": "Todas as reclusas saíram das prisões de Odemira e da Guarda, ficando Portugal com três cadeias para mulheres, numa reorganização do sistema prisional para aliviar a sobrelotação.",
+   "img": "https://img.iol.pt/image/id/63a1934c0cf255d6e1419a98/200.jpg"
+  },
+  {
+   "id": "cm-atriz-criador-moda-globos",
+   "ts": "2026-09-30T09:52:07Z",
+   "source": "CM",
+   "lado": "pt",
+   "url": "https://m.facebook.com/cmjornal/posts/pfbid031ysKWcwV9nd44DnQ2eARnxSM26MXVHhE767XpG7DeN2ufoAL4oEEv6p9GVuxVfhcl",
+   "title": "Atriz e criador de moda em desaguisado público por comentário sobre o look nos Globos de Ouro",
+   "topic": "rosa",
+   "sub": "famosos",
+   "impacto": "baixo",
+   "setores": [
+    "Globos de Ouro"
+   ],
+   "tickers": [],
+   "resumo": "Uma atriz e um criador de moda entraram em desaguisado público por causa de um comentário feito sobre o look da atriz na gala dos Globos de Ouro.",
+   "img": ""
+  },
+  {
+   "id": "eco-igcp-obrigacoes",
+   "ts": "2026-09-30T09:47:59Z",
+   "source": "ECO",
+   "lado": "pt",
+   "url": "https://eco.sapo.pt/2026/09/30/igcp-corta-em-63-emissoes-de-obrigacoes-para-este-ano/",
+   "title": "IGCP corta em 6,3% emissões de obrigações para este ano",
+   "topic": "economia",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "IGCP",
+    "Dívida pública"
+   ],
+   "tickers": [],
+   "resumo": "O IGCP reduziu para 22,5 mil milhões de euros a estimativa de emissões de obrigações em 2026, menos 1,5 mil milhões que o previsto. Até final de agosto tinham sido colocados 16,8 mil milhões.",
+   "img": "https://eco.imgix.net/uploads/2025/09/cropped-igcp04-2.jpg"
+  },
+  {
+   "id": "eco-sonae-sierra-ceo",
+   "ts": "2026-09-30T09:30:25Z",
+   "source": "ECO",
+   "lado": "pt",
+   "url": "https://eco.sapo.pt/2026/09/30/luis-mota-duarte-vai-liderar-sonae-sierra-a-partir-de-janeiro-de-2027/",
+   "title": "Luís Mota Duarte vai liderar Sonae Sierra a partir de janeiro de 2027",
+   "topic": "economia",
+   "sub": "",
+   "impacto": "baixo",
+   "setores": [
+    "Sonae"
+   ],
+   "tickers": [],
+   "resumo": "Luís Mota Duarte será o novo líder da Sonae Sierra a partir de janeiro de 2027, sucedendo a Fernando Guedes de Oliveira, que dirigia a empresa desde 2010.",
+   "img": "https://eco.imgix.net/uploads/2026/09/cropped-luis-mota-duarte.jpg"
+  },
+  {
+   "id": "obs-time-out-metro-porto",
+   "ts": "2026-09-30T09:28:42Z",
+   "source": "Observador",
+   "lado": "pt",
+   "url": "https://observador.pt/2026/09/30/mercado-time-out-exige-615-mil-euros-a-metro-do-porto-por-causa-das-obras-em-sao-bento/",
+   "title": "Mercado Time Out exige 615 mil euros à Metro do Porto",
+   "topic": "outros",
+   "sub": "",
+   "impacto": "baixo",
+   "setores": [
+    "Metro do Porto",
+    "São Bento"
+   ],
+   "tickers": [],
+   "resumo": "O Mercado Time Out exige à Metro do Porto 615 mil euros, entre despesas extraordinárias, lucros cessantes e danos de imagem, por causa das obras em São Bento.",
+   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2000:1124:nowe:0:104/q:70/plain/https://s3.observador.pt/wp-content/uploads/2021/01/25171211/30502643.jpg"
+  },
+  {
+   "id": "abola-osman-kul-porto",
+   "ts": "2026-09-30T09:28:00Z",
+   "source": "A Bola",
+   "lado": "pt",
+   "url": "https://www.abola.pt/noticias/fc-porto-analista-deixa-equipa-tecnica-de-farioli-e-regressa-a-turquia-2026093009240622329",
+   "title": "FC Porto: analista deixa equipa técnica de Farioli e regressa à Turquia",
+   "topic": "desporto",
+   "sub": "porto",
+   "impacto": "baixo",
+   "setores": [
+    "FC Porto"
+   ],
+   "tickers": [],
+   "resumo": "O analista Osman Kul deixa a equipa técnica de Francesco Farioli no FC Porto e regressa à Turquia, deixando uma mensagem de agradecimento ao clube.",
+   "img": "https://sportal365images.com/process/smp-images-production/abola.pt/30092026/50b9557c-2f4c-4ce4-b37b-832532aa3e30.jpg?operations=autocrop(1200:630)"
+  },
+  {
+   "id": "obs-profjam-coliseu",
+   "ts": "2026-09-30T09:26:17Z",
+   "source": "Observador",
+   "lado": "pt",
+   "url": "https://observador.pt/2026/09/30/profjam-faz-viagem-sem-fronteiras-em-janeiro-no-palco-do-coliseu-de-lisboa/",
+   "title": "ProfJam faz \"viagem sem fronteiras\" no Coliseu de Lisboa",
+   "topic": "cultura",
+   "sub": "",
+   "impacto": "baixo",
+   "setores": [
+    "Concertos"
+   ],
+   "tickers": [],
+   "resumo": "O rapper ProfJam anunciou um concerto em janeiro no Coliseu de Lisboa, onde vai percorrer toda a sua obra, incluindo canções que os palcos maiores não ouvem há muito tempo.",
+   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2000:1122:nowe:0:74/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/09/29185508/47081923.jpg"
+  },
+  {
+   "id": "obs-psp-droga-sete-meses",
+   "ts": "2026-09-30T09:15:53Z",
+   "source": "Observador",
+   "lado": "pt",
+   "url": "https://observador.pt/2026/09/30/mais-de-1-900-detidos-e-meia-tonelada-de-droga-apreendida-em-sete-meses/",
+   "title": "Mais de 1.900 detidos e meia tonelada de droga apreendida",
+   "topic": "politica",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "PSP",
+    "Droga"
+   ],
+   "tickers": [],
+   "resumo": "A PSP fez 5.558 apreensões entre janeiro e julho, incluindo mais de 380 quilos de canábis, quase 100 de cocaína e mais de 25 de heroína, com mais de 1.900 detidos.",
+   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2000:1122:nowe:0:211/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/09/30092125/43985207.jpg"
+  },
+  {
+   "id": "hn-rastreio-colorretal",
+   "ts": "2026-09-30T09:15:20Z",
+   "source": "HealthNews",
+   "lado": "pt",
+   "url": "https://healthnews.pt/2026/09/30/rastreio-do-cancro-colorretal-deve-ser-prioridade-nacional-na-proxima-decada-defendem-medicos-e-doentes/",
+   "title": "Rastreio do cancro colorretal deve ser prioridade nacional na próxima década, defendem médicos e doentes",
+   "topic": "saude",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Cancro",
+    "Rastreio"
+   ],
+   "tickers": [],
+   "resumo": "Médicos e doentes defendem que o rastreio do cancro colorretal seja prioridade nacional, num país com cerca de 10.575 novos casos por ano, e propõem cinco prioridades estratégicas.",
+   "img": ""
+  },
   {
    "id": "rtp-n1768594",
    "ts": "2026-09-30T09:12:54Z",
@@ -57,6 +340,24 @@
    "img": "https://cdn-images.rtp.pt/icm/noticias/images/06/06f5913b576a37bc7e2ca96aacf812c7?w=350&q=50&rect=0,47,600,329&auto=format"
   },
   {
+   "id": "cm-super-dragoes-casal-bilhetes",
+   "ts": "2026-09-30T09:07:07Z",
+   "source": "CM",
+   "lado": "pt",
+   "url": "https://m.facebook.com/cmjornal/posts/pfbid0xpwcnNf9ZiGt5zYWcS8iDZk9ZQE4rw4vzM1TupicCWHz29DNSyiQtqzsKQzGZuPnl",
+   "title": "Nova investigação: casal ganhou quantia milionária com venda de bilhetes na liderança de Fernando Madureira nos Super Dragões",
+   "topic": "justica",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Super Dragões",
+    "FC Porto"
+   ],
+   "tickers": [],
+   "resumo": "Uma nova investigação indica que um casal ganhou uma quantia milionária com a venda de bilhetes, período que abrange apenas três anos da liderança de Fernando Madureira nos Super Dragões.",
+   "img": ""
+  },
+  {
    "id": "as-ocon-haas-saida",
    "ts": "2026-09-30T09:00:40Z",
    "source": "AutoSport",
@@ -72,6 +373,24 @@
    "tickers": [],
    "resumo": "Esteban Ocon anunciou nas redes sociais que deixa a Haas no final de 2026, antes do Grande Prémio do Bahrain. O futuro do piloto na Fórmula 1 continua incerto.",
    "img": ""
+  },
+  {
+   "id": "ng-bernardina-brito-bb",
+   "ts": "2026-09-30T09:00:00Z",
+   "source": "Nova Gente",
+   "lado": "pt",
+   "url": "https://www.novagente.pt/bernardina-brito-revela-que-rejeitou-convite-para-o-big-brother-e-aponta-para-concorrente-pessoa-repugnante/",
+   "title": "Bernardina Brito revela que rejeitou convite para o Big Brother e aponta para concorrente: \"Pessoa repugnante\"",
+   "topic": "rosa",
+   "sub": "reality",
+   "impacto": "baixo",
+   "setores": [
+    "Big Brother",
+    "TVI"
+   ],
+   "tickers": [],
+   "resumo": "Bernardina Brito diz que recusou o convite da TVI para o Big Brother, por acreditar que não aguentaria um dos concorrentes.",
+   "img": "https://www.novagente.pt/wp-content/uploads/images/noticia/2026/2026-03/2026-03-02/nova-gente-124110-noticia-luis-goncalves-revela-exorbitante-valor-recusou-para-promover-casinos_2.jpg"
   },
   {
    "id": "cnn-6abccf25d34e9a786e75a37e",
@@ -390,6 +709,24 @@
    "tickers": [],
    "resumo": "A seleção treina no Estádio Parken, em Copenhaga, antes do jogo de quinta-feira com a Dinamarca. O capitão Cristiano Ronaldo continua em dúvida.",
    "img": "https://www.lusa.pt/temp/images/650x420/cache_650x420_Crop_high_47846128_513697319269452.jpg"
+  },
+  {
+   "id": "cm-paulo-topa-cavalos",
+   "ts": "2026-09-30T07:48:07Z",
+   "source": "CM",
+   "lado": "pt",
+   "url": "https://m.facebook.com/cmjornal/posts/pfbid02uAdu9AZ7PDk56yiruemYaKh4vRsxQRXYHkdExt23pYuF4azpwrGm9Fy1xkhxuFsYl",
+   "title": "Investigação a desvio de 10 milhões com fraudes em falências envolve Paulo Topa; 20 cavalos apreendidos",
+   "topic": "justica",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Fraude",
+    "Falências"
+   ],
+   "tickers": [],
+   "resumo": "O processo de investigação a um desvio de 10 milhões de euros, com fraudes em falências, envolve Paulo Topa e levou à apreensão de 20 cavalos.",
+   "img": ""
   },
   {
    "id": "eco-rali-portugal-criticas",
@@ -1478,6 +1815,23 @@
    "img": "https://caras.pt/wp-content/uploads/2026/09/260929_tourokingdom-gettyimages-1600x900.jpg"
   },
   {
+   "id": "as-drift-campeoes-lousada",
+   "ts": "2026-09-29T23:01:00Z",
+   "source": "AutoSport",
+   "lado": "pt",
+   "url": "https://www.autosport.pt/maismotores/hugo-costa-e-joel-simoes-sagram-se-campeoes-nacionais-de-drift-em-lousada/",
+   "title": "Hugo Costa e Joel Simões sagram-se campeões nacionais de drift em Lousada",
+   "topic": "desporto",
+   "sub": "motores",
+   "impacto": "baixo",
+   "setores": [
+    "Drift"
+   ],
+   "tickers": [],
+   "resumo": "Hugo Costa e Joel Simões conquistaram os títulos nacionais de drift de 2026, nas categorias Pro e Semi-Pro, na última etapa disputada no Eurocircuito de Lousada.",
+   "img": ""
+  },
+  {
    "id": "obs-lusa-ca-pressoes",
    "ts": "2026-09-29T22:50:15Z",
    "source": "Observador",
@@ -1672,6 +2026,24 @@
    "tickers": [],
    "resumo": "O primeiro-ministro afirma que a política de habitação do Governo é para manter, na véspera do debate parlamentar sobre o arrendamento.",
    "img": ""
+  },
+  {
+   "id": "caras-casados-ricardo-paixao",
+   "ts": "2026-09-29T21:52:41Z",
+   "source": "Caras",
+   "lado": "pt",
+   "url": "https://caras.pt/famosos/2026-09-29-novo-concorrente-de-casados-a-primeira-vista-tem-ex-famosa-fiquei-surpreendida/",
+   "title": "Novo concorrente de 'Casados à Primeira Vista' tem ex famosa: 'Fiquei surpreendida'",
+   "topic": "rosa",
+   "sub": "reality",
+   "impacto": "baixo",
+   "setores": [
+    "Casados à Primeira Vista",
+    "SIC"
+   ],
+   "tickers": [],
+   "resumo": "Ricardo Paixão, de 27 anos, concorrente do 'Casados à Primeira Vista', da SIC, namorou cerca de quatro anos com Andreia Silva, antiga concorrente do 'Love on Top' da TVI.",
+   "img": "https://caras.pt/wp-content/uploads/2026/09/260929_Ricardo-Paixao-1600x900.jpg"
   },
   {
    "id": "ng-blaya-globos-ouro",
@@ -4890,374 +5262,6 @@
    "tickers": [],
    "resumo": "Andreas Schjelderup, avançado do Benfica e da Noruega, lamentou a derrota por 2-1 com Portugal e considera que a sua equipa merecia os três pontos pelas oportunidades criadas.",
    "img": ""
-  },
-  {
-   "id": "rtp-d1768185",
-   "ts": "2026-09-28T11:30:57Z",
-   "source": "RTP Desporto",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/tenis/francisco-cabral-na-final-de-pares-em-hangzhou_d1768185",
-   "title": "Francisco Cabral na final de pares em Hangzhou",
-   "topic": "desporto",
-   "sub": "tenis",
-   "impacto": "baixo",
-   "setores": [
-    "ATP"
-   ],
-   "tickers": [],
-   "resumo": "Francisco Cabral e o norte-americano JJ Tracy chegaram à final de pares em Hangzhou, ao eliminarem Jean-Julien Rojer e Theodore Winegar.",
-   "img": ""
-  },
-  {
-   "id": "cnn-6aba4d9dd34e9a786e759ecc",
-   "ts": "2026-09-28T11:25:00Z",
-   "source": "CNN Portugal",
-   "lado": "pt",
-   "url": "https://cnnportugal.iol.pt/ministro-da-reforma-do-estado/burocracia/eliminar-os-bloqueios-transformar-o-pais-ministro-da-reforma-do-estado-estima-que-reducao-da-burocracia-podera-libertar-ate-10-mil-milhoes-de-euros/20260928/6aba4d9dd34e9a786e759ecc",
-   "title": "Ministro da Reforma do Estado estima que redução da burocracia poderá libertar até 10 mil milhões de euros",
-   "topic": "politica",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Reforma do Estado"
-   ],
-   "tickers": [],
-   "resumo": "O ministro Gonçalo Matias estima que a simplificação burocrática poderá libertar até 10 mil milhões de euros para a modernização e o desenvolvimento do país.",
-   "img": ""
-  },
-  {
-   "id": "vip-ipma-alerta-sete-distritos",
-   "ts": "2026-09-28T11:15:22Z",
-   "source": "VIP",
-   "lado": "pt",
-   "url": "https://www.vip.pt/meteorologia-ipma-lanca-alerta-sete-distritos-em-risco-de-trovoadas-granizo-e-rajadas-ate-90-km-h",
-   "title": "IPMA lança alerta: sete distritos em risco de trovoadas, granizo e rajadas até 90 km/h",
-   "topic": "tempo",
-   "sub": "",
-   "impacto": "alto",
-   "setores": [
-    "IPMA",
-    "Aviso amarelo"
-   ],
-   "tickers": [],
-   "resumo": "O IPMA colocou sete distritos sob aviso amarelo por trovoadas, chuva forte, granizo e rajadas até 90 km/h. As temperaturas devem descer em todo o país nos próximos dias.",
-   "img": ""
-  },
-  {
-   "id": "cnn-6aba41cfd34e53c759c74128",
-   "ts": "2026-09-28T10:57:00Z",
-   "source": "CNN Portugal",
-   "lado": "pt",
-   "url": "https://cnnportugal.iol.pt/papa-leao-xiv/leao-xiv/leao-xiv-pede-a-europa-que-intervenha-perante-relacoes-as-cada-vez-mais-barbaras-entre-estados/20260928/6aba41cfd34e53c759c74128",
-   "title": "Leão XIV pede à Europa que intervenha perante as relações \"cada vez mais bárbaras\" entre Estados",
-   "topic": "mundo",
-   "sub": "",
-   "impacto": "baixo",
-   "setores": [
-    "Vaticano"
-   ],
-   "tickers": [],
-   "resumo": "Na visita a Metz, o Papa Leão XIV apelou à Europa para que intervenha perante relações cada vez mais hostis entre Estados.",
-   "img": ""
-  },
-  {
-   "id": "cnn-6aba44e1d34e53c759c74135",
-   "ts": "2026-09-28T10:43:00Z",
-   "source": "CNN Portugal",
-   "lado": "pt",
-   "url": "https://cnnportugal.iol.pt/caso-das-gemeas/santa-maria/caso-das-gemeas-filho-de-marcelo-lacerda-sales-ex-diretor-clinico-do-santa-maria-e-mae-das-criancas-sao-os-acusados/20260928/6aba44e1d34e53c759c74135",
-   "title": "Caso das gémeas: filho de Marcelo, Lacerda Sales, ex-diretor clínico do Santa Maria e mãe das crianças são os acusados",
-   "topic": "justica",
-   "sub": "",
-   "impacto": "alto",
-   "setores": [
-    "Caso das Gémeas",
-    "Ministério Público"
-   ],
-   "tickers": [],
-   "resumo": "O Ministério Público acusou o filho do Presidente Marcelo Rebelo de Sousa, o ex-governante Lacerda Sales, o ex-diretor clínico do Santa Maria e a mãe das crianças de crimes como prevaricação, abuso de poder e burla qualificada no caso das gémeas tratadas com Zolgensma.",
-   "img": ""
-  },
-  {
-   "id": "cnn-6aba41cbd34e9a786e759e92",
-   "ts": "2026-09-28T10:30:35Z",
-   "source": "CNN Portugal",
-   "lado": "pt",
-   "url": "https://cnnportugal.iol.pt/medicamentos/ue/medicamentos-mais-acessiveis-e-menos-falhas-no-abastecimento-ue-aprova-novas-regras/20260928/6aba41cbd34e9a786e759e92",
-   "title": "Medicamentos mais acessíveis e menos falhas no abastecimento: UE aprova novas regras",
-   "topic": "saude",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Medicamentos",
-    "UE"
-   ],
-   "tickers": [],
-   "resumo": "A União Europeia aprovou o pacote farmacêutico que impõe novas obrigações à indústria para melhorar o acesso a medicamentos e reduzir falhas de abastecimento.",
-   "img": ""
-  },
-  {
-   "id": "cnn-6aba3732d34e9a786e759e87",
-   "ts": "2026-09-28T10:24:00Z",
-   "source": "CNN Portugal",
-   "lado": "pt",
-   "url": "https://cnnportugal.iol.pt/peter-magyar/imunidade/parlamento-hungaro-levanta-imunidade-do-primeiro-ministro-peter-magyar-vai-responder-por-alegado-roubo-de-um-telemovel/20260928/6aba3732d34e9a786e759e87",
-   "title": "Parlamento húngaro levanta imunidade do primeiro-ministro Péter Magyar",
-   "topic": "mundo",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Hungria"
-   ],
-   "tickers": [],
-   "resumo": "O Parlamento húngaro levantou a imunidade do primeiro-ministro Péter Magyar. Vai responder por um alegado roubo de um telemóvel.",
-   "img": ""
-  },
-  {
-   "id": "cnn-6aba3fb7d34e53c759c74124",
-   "ts": "2026-09-28T10:21:00Z",
-   "source": "CNN Portugal",
-   "lado": "pt",
-   "url": "https://cnnportugal.iol.pt/trafico-de-droga/pj/cocaina-para-mais-de-67-mil-doses-escondida-na-bagagem-de-um-homem-de-78-anos/20260928/6aba3fb7d34e53c759c74124",
-   "title": "Idoso de 78 anos apanhado com 67 mil doses de cocaína no aeroporto de Lisboa",
-   "topic": "justica",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "PJ",
-    "Tráfico de droga"
-   ],
-   "tickers": [],
-   "resumo": "A Polícia Judiciária apreendeu no aeroporto de Lisboa cocaína de elevada pureza, equivalente a mais de 67 mil doses, na bagagem de um homem de 78 anos.",
-   "img": ""
-  },
-  {
-   "id": "zz-1216875",
-   "ts": "2026-09-28T10:16:49Z",
-   "source": "zerozero",
-   "lado": "pt",
-   "url": "https://www.zerozero.pt/noticias/villas-boas-se-calhar-o-var-nao-tinha-as-imagens-para-analisar-a-festinha-que-o-samu-fez-ao-bah/1216875",
-   "title": "Villas-Boas: «Se calhar o VAR não tinha as imagens para analisar a festinha que o Samu fez ao Bah»",
-   "topic": "desporto",
-   "sub": "porto",
-   "impacto": "medio",
-   "setores": [
-    "Liga",
-    "FC Porto",
-    "Benfica"
-   ],
-   "tickers": [],
-   "resumo": "André Villas-Boas respondeu à queixa disciplinar do Benfica sobre o lance entre Samu e Bah, questionando se o VAR tinha as imagens para analisar a jogada.",
-   "img": ""
-  },
-  {
-   "id": "zz-1216859",
-   "ts": "2026-09-28T09:57:07Z",
-   "source": "zerozero",
-   "lado": "pt",
-   "url": "https://www.zerozero.pt/noticias/odegaard-critica-acao-de-bernardo-silva-isto-nao-tem-lugar-num-campo-de-futebol/1216859",
-   "title": "Odegaard critica ação de Bernardo Silva: «Isto não tem lugar num campo de futebol»",
-   "topic": "desporto",
-   "sub": "selecao",
-   "impacto": "baixo",
-   "setores": [
-    "Liga das Nações"
-   ],
-   "tickers": [],
-   "resumo": "Martin Odegaard protestou contra uma entrada dura de Bernardo Silva no final do Noruega-Portugal, que os portugueses venceram por 2-1.",
-   "img": ""
-  },
-  {
-   "id": "cnn-6aba2db9d34e9a786e759e6e",
-   "ts": "2026-09-28T09:04:00Z",
-   "source": "CNN Portugal",
-   "lado": "pt",
-   "url": "https://cnnportugal.iol.pt/sites-ilegais/apostas-online/portugal-vai-usar-tecnologia-para-detetar-e-bloquear-sites-ilegais-de-jogo-online/20260928/6aba2db9d34e9a786e759e6e",
-   "title": "Portugal vai usar tecnologia para detetar e bloquear sites ilegais de jogo online",
-   "topic": "tecnologia",
-   "sub": "",
-   "impacto": "baixo",
-   "setores": [
-    "Jogo online"
-   ],
-   "tickers": [],
-   "resumo": "O Turismo de Portugal contratou uma plataforma francesa para automatizar a deteção e o bloqueio de sites ilegais de jogo online.",
-   "img": ""
-  },
-  {
-   "id": "hn-histamina-psiquiatricas",
-   "ts": "2026-09-28T08:40:51Z",
-   "source": "HealthNews",
-   "lado": "pt",
-   "url": "https://healthnews.pt/2026/09/28/histamina-pode-ser-novo-alvo-terapeutico-em-doencas-psiquiatricas/",
-   "title": "Histamina pode ser novo alvo terapêutico em doenças psiquiátricas",
-   "topic": "saude",
-   "sub": "",
-   "impacto": "baixo",
-   "setores": [
-    "Investigação"
-   ],
-   "tickers": [],
-   "resumo": "Um estudo internacional liderado por investigadores da Universidade do Porto revela o papel da histamina no funcionamento do cérebro e na regulação emocional. Os resultados sugerem possíveis aplicações terapêuticas em doenças psiquiátricas.",
-   "img": ""
-  },
-  {
-   "id": "hn-mafra-centro-saude",
-   "ts": "2026-09-28T08:06:21Z",
-   "source": "HealthNews",
-   "lado": "pt",
-   "url": "https://healthnews.pt/2026/09/28/mafra-inaugura-novo-centro-de-saude-para-cerca-de-10-mil-utentes/",
-   "title": "Mafra inaugura novo centro de saúde para cerca de 10 mil utentes",
-   "topic": "saude",
-   "sub": "",
-   "impacto": "baixo",
-   "setores": [
-    "SNS",
-    "PRR"
-   ],
-   "tickers": [],
-   "resumo": "Mafra inaugura hoje um novo centro de saúde, com investimento de 4,1 milhões de euros (3,6 milhões do PRR), que servirá cerca de 10 mil utentes.",
-   "img": ""
-  },
-  {
-   "id": "rtp-1768091",
-   "ts": "2026-09-27T22:28:47Z",
-   "source": "RTP Desporto",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/desporto/jorge-jesus-satisfeito-com-o-triunfo-de-portugal_v1768091",
-   "title": "Jorge Jesus \"satisfeito\" com o triunfo de Portugal",
-   "topic": "desporto",
-   "sub": "selecao",
-   "impacto": "medio",
-   "setores": [
-    "Liga das Nações",
-    "Seleção"
-   ],
-   "tickers": [],
-   "resumo": "Jorge Jesus mostrou-se satisfeito com a vitória por 2-1 em Oslo, contra uma equipa que considera estar no top 5 da Europa, e disse estar a fazer experiências com jogos a sério.",
-   "img": ""
-  },
-  {
-   "id": "zz-1216677",
-   "ts": "2026-09-27T21:11:30Z",
-   "source": "zerozero",
-   "lado": "pt",
-   "url": "https://www.zerozero.pt/noticias/portugal-terceira-vez-que-cristiano-ronaldo-e-suplente-nao-utilizado/1216677",
-   "title": "Portugal: terceira vez que Cristiano Ronaldo é suplente não utilizado",
-   "topic": "desporto",
-   "sub": "selecao",
-   "impacto": "medio",
-   "setores": [
-    "Liga das Nações"
-   ],
-   "tickers": [],
-   "resumo": "Cristiano Ronaldo não saiu do banco no jogo com a Noruega, apenas a terceira vez na carreira internacional em que é suplente não utilizado.",
-   "img": ""
-  },
-  {
-   "id": "rtp-d1768077",
-   "ts": "2026-09-27T20:47:42Z",
-   "source": "RTP Desporto",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/outras-modalidades/brandon-mcnulty-fugiu-para-o-arco-iris-na-prova-de-fundo_d1768077",
-   "title": "Brandon McNulty fugiu para o arco-íris na prova de fundo",
-   "topic": "desporto",
-   "sub": "ciclismo",
-   "impacto": "baixo",
-   "setores": [
-    "Mundiais de Ciclismo"
-   ],
-   "tickers": [],
-   "resumo": "O norte-americano Brandon McNulty sagrou-se campeão mundial de fundo, em Montreal, depois de se isolar a cerca de trinta quilómetros da meta. Van der Poel ficou com o bronze.",
-   "img": ""
-  },
-  {
-   "id": "rtp-1768067",
-   "ts": "2026-09-27T18:40:38Z",
-   "source": "RTP Desporto",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/outras-modalidades/triatlo-vasco-vilaca-sagra-se-campeao-do-mundo-ricardo-batista-conquista-o-bronze_d1768067",
-   "title": "Triatlo. Vasco Vilaça sagra-se Campeão do Mundo, Ricardo Batista conquista o bronze",
-   "topic": "desporto",
-   "sub": "triatlo",
-   "impacto": "alto",
-   "setores": [
-    "Triatlo",
-    "Mundial"
-   ],
-   "tickers": [],
-   "resumo": "Vasco Vilaça é o primeiro português campeão do mundo de triatlo de elite, ao terminar em segundo a superfinal de Pontevedra. Ricardo Batista ficou com o bronze no Mundial.",
-   "img": ""
-  },
-  {
-   "id": "rtp-1768061",
-   "ts": "2026-09-27T18:13:26Z",
-   "source": "RTP Desporto",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/outras-modalidades/benfica-vence-gdessa-e-conquista-supertaca-feminina-de-basquetebol_d1768061",
-   "title": "Benfica vence GDESSA e conquista Supertaça feminina de basquetebol",
-   "topic": "desporto",
-   "sub": "basquetebol",
-   "impacto": "baixo",
-   "setores": [
-    "Basquetebol",
-    "Supertaça"
-   ],
-   "tickers": [],
-   "resumo": "O Benfica conquistou pela quarta vez a Supertaça feminina de basquetebol ao vencer o GDESSA por 73-31, em Almada.",
-   "img": ""
-  },
-  {
-   "id": "rtp-1768057",
-   "ts": "2026-09-27T17:35:37Z",
-   "source": "RTP Desporto",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/selecao-nacional/portugal-com-vitoria-sofrida-na-noruega_d1768057",
-   "title": "Portugal com vitória sofrida na Noruega",
-   "topic": "desporto",
-   "sub": "selecao",
-   "impacto": "alto",
-   "setores": [
-    "Liga das Nações",
-    "Seleção"
-   ],
-   "tickers": [],
-   "resumo": "Portugal venceu a Noruega por 2-1 em Oslo, com golos de João Félix e Gonçalo Ramos, e lidera isolado o Grupo A4 da Liga das Nações. Cristiano Ronaldo ficou no banco os 90 minutos, pela terceira vez na carreira na seleção.",
-   "img": ""
-  },
-  {
-   "id": "rtp-1768055",
-   "ts": "2026-09-27T17:03:33Z",
-   "source": "RTP Desporto",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/outras-modalidades/lara-fernandes-e-andre-fiuza-vice-campeoes-mundiais-de-acrobatica-em-exercicio-combinado_d1768055",
-   "title": "Lara Fernandes e André Fiúza vice-campeões mundiais de acrobática em exercício combinado",
-   "topic": "desporto",
-   "sub": "outros",
-   "impacto": "medio",
-   "setores": [
-    "Ginástica acrobática"
-   ],
-   "tickers": [],
-   "resumo": "Os portugueses Lara Fernandes e André Fiúza foram vice-campeões do mundo de ginástica acrobática no combinado de pares mistos, em Pesaro, e ganharam ainda o bronze no exercício dinâmico.",
-   "img": ""
-  },
-  {
-   "id": "rtp-1768051",
-   "ts": "2026-09-27T16:07:24Z",
-   "source": "RTP Desporto",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/motores/piloto-italiano-nicolo-bulega-conquista-titulo-mundial-de-superbikes_d1768051",
-   "title": "Piloto italiano Nicolò Bulega conquista título mundial de Superbikes",
-   "topic": "desporto",
-   "sub": "motores",
-   "impacto": "medio",
-   "setores": [
-    "Superbikes"
-   ],
-   "tickers": [],
-   "resumo": "Nicolò Bulega (Ducati) sagrou-se campeão mundial de Superbikes ao terminar em segundo em Cremona, corrida em que o português Miguel Oliveira (BMW) desistiu após uma queda.",
-   "img": ""
   }
  ],
  "contracts": {},
@@ -5294,19 +5298,7 @@
    "b": "rtp-1768303",
    "tema": "Caso das gémeas: leituras opostas da acusação",
    "nota": "O PSD diz que a acusação prova a inocência de Marcelo; André Ventura diz que a Justiça deu razão ao Chega e denuncia uma teia de interesses e abusos."
-  },
-  {
-   "a": "cnn-6aba44e1d34e53c759c74135",
-   "b": "cnn-6aba56dfd34e9a786e759ee4",
-   "tema": "Acusação no caso das gémeas",
-   "nota": "O Ministério Público acusa a mãe e outros três arguidos; a mãe diz que as filhas tiveram os cuidados a que tinham direito."
-  },
-  {
-   "a": "rtp-1768091",
-   "b": "zz-1216877",
-   "tema": "Noruega-Portugal: quem merecia ganhar?",
-   "nota": "Jorge Jesus diz-se satisfeito com a vitória contra um top 5 europeu; Schjelderup, da Noruega e do Benfica, garante que os três pontos deviam ter sido noruegueses."
   }
  ],
- "arquivo": 0
+ "arquivo": 21
 }
