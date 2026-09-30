@@ -1,20 +1,20 @@
 {
- "version": "1.1.20",
- "updated": "2026-09-30T01:14:55Z",
+ "version": "1.1.21",
+ "updated": "2026-09-30T02:14:49Z",
  "brief": [
   {
-   "texto": "Caso das gémeas: acusação do MP e reações políticas dominam o debate, com o PSD a dizer que ficou provada a inocência de Marcelo.",
-   "id": "cm-marcelo-sabia-tratamento"
+   "texto": "Presidente da República promulga o suplemento extraordinário para pensionistas, a pagar em dezembro."
   },
   {
-   "texto": "Presidente da República promulga o suplemento extraordinário para pensionistas, pago em dezembro com a pensão."
+   "texto": "Acusação no caso das gémeas descreve plano para aproveitar apoios; PSD diz que a inocência de Marcelo ficou provada.",
+   "id": "obs-gemeas-psd-marcelo"
   },
   {
-   "texto": "Orçamento do Estado para 2027: PS e Chega dizem que a proposta não inclui apoios às famílias.",
-   "id": "rtp-1768330"
+   "texto": "MAI reúne-se com sindicatos da PSP e associações da GNR para discutir carreiras e remunerações.",
+   "id": "rtp-1768338"
   },
   {
-   "texto": "Irão apresenta na ONU um plano para reabrir o estreito de Ormuz em sete dias.",
+   "texto": "Irão apresenta na ONU plano para reabrir o estreito de Ormuz em sete dias.",
    "id": "cm-hormuz-plano-ira"
   }
  ],
@@ -2052,6 +2052,23 @@
    "tickers": [],
    "resumo": "O antigo presidente guineense, exilado em Marrocos, anunciou que se candidata às presidenciais da Guiné-Bissau. Diz que o regresso a Bissau está próximo.",
    "img": ""
+  },
+  {
+   "id": "rtp-1768293",
+   "ts": "2026-09-28T20:32:35Z",
+   "source": "RTP Desporto",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/selecao-nacional/liga-nacoes-bruno-fernandes-de-regresso-francisco-conceicao-lesionado_d1768293",
+   "title": "Liga Nações. Bruno Fernandes de regresso, Francisco Conceição lesionado",
+   "topic": "desporto",
+   "sub": "selecao",
+   "impacto": "medio",
+   "setores": [
+    "Liga das Nações"
+   ],
+   "tickers": [],
+   "resumo": "Bruno Fernandes, que falhou o jogo com a Noruega por problemas físicos, treinou sem limitações e pode defrontar a Dinamarca. Francisco Conceição está lesionado.",
+   "img": "https://cdn-images.rtp.pt/icm/noticias/images/82/821c07066c9683b52177773dd1c80ec3?w=350&q=50&rect=0,230,3280,1798&auto=format"
   },
   {
    "id": "rtp-1768274",

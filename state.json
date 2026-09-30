@@ -1,6 +1,6 @@
 {
- "version": "1.1.20",
- "updated": "2026-09-30T01:14:55Z",
+ "version": "1.1.21",
+ "updated": "2026-09-30T02:14:49Z",
  "recent": [
   {
    "id": "ng-blaya-globos-ouro",
@@ -939,6 +939,14 @@
    "title": "Sissoco Embaló anuncia candidatura às presidenciais da Guiné-Bissau"
   },
   {
+   "id": "rtp-1768293",
+   "ts": "2026-09-28T20:32:35Z",
+   "topic": "desporto",
+   "sub": "selecao",
+   "source": "RTP Desporto",
+   "title": "Liga Nações. Bruno Fernandes de regresso, Francisco Conceição lesionado"
+  },
+  {
    "id": "rtp-1768274",
    "ts": "2026-09-28T19:21:47Z",
    "topic": "desporto",
@@ -953,14 +961,6 @@
    "sub": "selecao",
    "source": "RTP Desporto",
    "title": "Seleção portuguesa de sub-21 focada em carimbar acesso ao Europeu de futebol"
-  },
-  {
-   "id": "zz-torreense-sete-vitorias",
-   "ts": "2026-09-28T19:17:34Z",
-   "topic": "desporto",
-   "sub": "liga",
-   "source": "zerozero",
-   "title": "Sete vitórias consecutivas colocam Torreense a viver uma das melhores fases da história"
   }
  ],
  "paired": [
