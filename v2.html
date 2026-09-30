@@ -662,7 +662,7 @@ function topItem(it,k){const c=CAT[it.topic]||CAT.outros,has=okImg(it.img);
 function renderFront(){const items=[...data.items].sort(byTs);if(!items.length){$("#main").innerHTML=`<div class="empty">Ainda não há notícias nesta edição. A primeira atualização chega dentro de uma hora.</div>`;return}
   const altos=items.filter(i=>i.impacto==="alto");const lead=altos[0]||items[0];
   const used=new Set([lead.id]);(data.brief||[]).forEach(b=>{if(b&&b.id)used.add(b.id)});
-  const top=[...altos.filter(i=>!used.has(i.id)),...items.filter(i=>i.impacto!=="alto"&&!used.has(i.id))].slice(0,5);top.forEach(i=>used.add(i.id));
+  const cut12=Date.now()-12*3600e3;const rec=items.filter(i=>!used.has(i.id)&&new Date(i.ts).getTime()>cut12&&i.impacto!=="baixo").sort(byImp);const top=[...rec,...altos.filter(i=>!used.has(i.id)&&!rec.includes(i))].slice(0,5);top.forEach(i=>used.add(i.id));
   let h=`<div class="front2">${heroBlock(lead)}<aside class="toplist"><div class="h"><span>Mais importantes</span><button type="button" data-go="capa" data-all>Ver todas →</button></div>${top.map(topItem).join("")}</aside>`;
   h+=`<div class="secs">`;
   for(const c of CATS){const l=items.filter(i=>i.topic===c[0]&&!used.has(i.id)).sort(byImp);if(!l.length)continue;
