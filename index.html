@@ -521,12 +521,14 @@ $("#filters").addEventListener("click",e=>{const b=e.target.closest(".chip");if(
   render()});
 
 function renderFront(){const items=[...data.items].sort(byTs);if(!items.length){$("#main").innerHTML=`<div class="empty">Ainda não há notícias nesta edição. A primeira atualização chega dentro de uma hora.</div>`;return}
-  const altos=items.filter(i=>i.impacto==="alto");const lead=altos[0]||items[0];
+  const inBrief=new Set((data.brief||[]).map(b=>b&&b.id).filter(Boolean));
+  const pool=items.filter(i=>!inBrief.has(i.id));
+  const altos=pool.filter(i=>i.impacto==="alto");const lead=altos[0]||pool[0]||items[0];
   const dest=altos.filter(i=>i!==lead).slice(0,7);
   let h=`<div class="front"><section class="lead"><div class="kick">${esc((CAT[lead.topic]||CAT.outros)[1])}</div>${img(lead,"im",true)}<h2><a href="${esc(lead.url)}" target="_blank" rel="noopener" data-read="${esc(lead.id)}">${esc(lead.title)}</a></h2><p>${esc(lead.resumo)}</p>${meta(lead)}</section>`;
   h+=`<aside class="side"><div class="h">Destaques</div>${dest.map(i=>story(i,"sm",{topic:true})).join("")||`<div class="empty">Sem mais destaques.</div>`}</aside>`;
   h+=`<div class="sections">`;
-  for(const c of CATS){const l=items.filter(i=>i.topic===c[0]&&i!==lead&&!dest.includes(i)).sort(byImp);if(!l.length)continue;
+  for(const c of CATS){const l=pool.filter(i=>i.topic===c[0]&&i!==lead&&!dest.includes(i)).sort(byImp);if(!l.length)continue;
     h+=`<section class="sec" style="--c:${c[2]}"><div class="h"><b>${esc(c[1])}</b><button type="button" data-go="${c[0]}">Ver secção →</button></div>${l.slice(0,5).map((i,k)=>story(i,k?"sm":"")).join("")}</section>`}
   h+=`</div></div>`;$("#main").innerHTML=h}
 $("#main").addEventListener("click",e=>{
