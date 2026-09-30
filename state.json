@@ -1,7 +1,103 @@
 {
- "version": "1.1.32",
- "updated": "2026-09-30T10:16:39Z",
+ "version": "1.1.33",
+ "updated": "2026-09-30T11:16:50Z",
  "recent": [
+  {
+   "id": "rtp-n1768613",
+   "ts": "2026-09-30T11:06:26Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "RTP",
+   "title": "Desviado mais um avião com destino a Telavive"
+  },
+  {
+   "id": "ng-claudio-ramos-responde-mae-jessica-maria",
+   "ts": "2026-09-30T11:00:00Z",
+   "topic": "rosa",
+   "sub": "reality",
+   "source": "Nova Gente",
+   "title": "Ui… Após ser criticado pela mãe de Jéssica Maria, Cláudio Ramos responde em direto"
+  },
+  {
+   "id": "rtp-n1768608",
+   "ts": "2026-09-30T10:54:29Z",
+   "topic": "economia",
+   "sub": "",
+   "source": "RTP",
+   "title": "Plataforma \"Não Dá Mais\" exige \"despejo\" do ministro Miguel Pinto Luz"
+  },
+  {
+   "id": "eco-turismo-agosto-2026",
+   "ts": "2026-09-30T10:54:22Z",
+   "topic": "economia",
+   "sub": "",
+   "source": "ECO",
+   "title": "Turismo acelera receitas em agosto para 1,1 mil milhões de euros. Dormidas de não residentes crescem 1,9%"
+  },
+  {
+   "id": "lusa-47860704",
+   "ts": "2026-09-30T10:53:00Z",
+   "topic": "politica",
+   "sub": "",
+   "source": "Lusa",
+   "title": "Aguiar-Branco pede aos advogados que combatam \"utilização abusiva dos mecanismos de defesa\""
+  },
+  {
+   "id": "obs-taiwan-exercicios-outubro",
+   "ts": "2026-09-30T10:46:45Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "Observador",
+   "title": "Taiwan anuncia 10 dias de exercícios militares"
+  },
+  {
+   "id": "eco-cmvm-contas-poupanca-investimento",
+   "ts": "2026-09-30T10:45:05Z",
+   "topic": "economia",
+   "sub": "",
+   "source": "ECO",
+   "title": "Governo já tem proposta da CMVM para contas de poupança e investimento"
+  },
+  {
+   "id": "obs-piratas-somalia-petroleiro",
+   "ts": "2026-09-30T10:41:55Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "Observador",
+   "title": "Piratas somalis mataram cinco tripulantes de um petroleiro"
+  },
+  {
+   "id": "hn-fnam-concurso-consultor",
+   "ts": "2026-09-30T10:24:50Z",
+   "topic": "saude",
+   "sub": "",
+   "source": "HealthNews",
+   "title": "FNAM exige cumprimento de prazos na emissão de documentos para concurso de consultor"
+  },
+  {
+   "id": "cnn-6abce141d34e9a786e75a429",
+   "ts": "2026-09-30T10:15:29Z",
+   "topic": "justica",
+   "sub": "",
+   "source": "CNN Portugal",
+   "title": "Procurado em França por tráfico de armas é detido no Algarve"
+  },
+  {
+   "id": "eco-desemprego-agosto-2026",
+   "ts": "2026-09-30T10:12:30Z",
+   "topic": "economia",
+   "sub": "",
+   "source": "ECO",
+   "title": "Taxa de desemprego inalterada pelo terceiro mês seguido. Emprego cresce face há um ano"
+  },
+  {
+   "id": "cnn-6abce09ad34e53c759c746cd",
+   "ts": "2026-09-30T10:12:00Z",
+   "topic": "justica",
+   "sub": "",
+   "source": "CNN Portugal",
+   "title": "Parou o carro atrás de mulher que caminhava em Odemira e atacou-a. PJ detém suspeito de violação"
+  },
   {
    "id": "obs-inflacao-setembro-2026",
    "ts": "2026-09-30T10:08:42Z",
@@ -33,6 +129,14 @@
    "sub": "",
    "source": "ECO",
    "title": "Presidente da Lusa considera \"redutor centrar toda a reflexão exclusivamente nos estatutos\""
+  },
+  {
+   "id": "eco-aicep-ana-casaca",
+   "ts": "2026-09-30T10:02:50Z",
+   "topic": "economia",
+   "sub": "",
+   "source": "ECO",
+   "title": "\"É uma das nossas\". Ainda presidente da AICEP deixa mensagem de \"confiança\" à sucessora"
   },
   {
    "id": "lusa-47860290",
@@ -113,6 +217,14 @@
    "sub": "",
    "source": "Observador",
    "title": "ProfJam faz \"viagem sem fronteiras\" no Coliseu de Lisboa"
+  },
+  {
+   "id": "abola-vilaca-campeao-mundo-pressao",
+   "ts": "2026-09-30T09:20:00Z",
+   "topic": "desporto",
+   "sub": "triatlo",
+   "source": "A Bola",
+   "title": "«Sou campeão do Mundo, quanto mais pressão, melhor vou chegar aos Jogos»"
   },
   {
    "id": "obs-psp-droga-sete-meses",
@@ -849,128 +961,14 @@
    "sub": "",
    "source": "Observador",
    "title": "Trump e líderes da IA mudam nome para \"Super Inteligência\""
-  },
-  {
-   "id": "obs-ensino-superior-2fase",
-   "ts": "2026-09-29T22:44:16Z",
-   "topic": "outros",
-   "sub": "",
-   "source": "Observador",
-   "title": "Mais de 9 mil colocados na 2.ª fase, sobram 4.069 vagas"
-  },
-  {
-   "id": "obs-psp-suplemento-fronteiras",
-   "ts": "2026-09-29T22:36:16Z",
-   "topic": "politica",
-   "sub": "",
-   "source": "Observador",
-   "title": "PSP: cinco sindicatos rejeitam suplemento de fronteiras"
-  },
-  {
-   "id": "caras-ines-degener-segundo-filho",
-   "ts": "2026-09-29T22:30:50Z",
-   "topic": "rosa",
-   "sub": "famosos",
-   "source": "Caras",
-   "title": "Inês Degener Tomaz emociona-se com Carlota antes da chegada do segundo filho"
-  },
-  {
-   "id": "rtp-n1768539",
-   "ts": "2026-09-29T22:26:32Z",
-   "topic": "economia",
-   "sub": "",
-   "source": "RTP",
-   "title": "CGTP e CIP lançam críticas ao Orçamento do Estado mas divergem quanto aos salários"
-  },
-  {
-   "id": "lusa-47858846",
-   "ts": "2026-09-29T22:16:00Z",
-   "topic": "economia",
-   "sub": "",
-   "source": "Lusa",
-   "title": "Air France/KLM e Lufthansa entregam hoje propostas finais de compra da TAP"
-  },
-  {
-   "id": "rtp-n1768535",
-   "ts": "2026-09-29T22:09:52Z",
-   "topic": "politica",
-   "sub": "",
-   "source": "RTP",
-   "title": "Conselho da Europa. Seguro reafirma \"compromisso de Portugal com valores da paz\""
-  },
-  {
-   "id": "cnn-6abc31ead34e9a786e75a332",
-   "ts": "2026-09-29T22:08:00Z",
-   "topic": "mundo",
-   "sub": "",
-   "source": "CNN Portugal",
-   "title": "Supremo Tribunal dos EUA permite a Trump reativar deportações para países terceiros"
-  },
-  {
-   "id": "rtp-a1-1768544",
-   "ts": "2026-09-29T21:58:02Z",
-   "topic": "politica",
-   "sub": "",
-   "source": "RTP",
-   "title": "PM: política de habitação do Governo é para manter"
-  },
-  {
-   "id": "caras-casados-ricardo-paixao",
-   "ts": "2026-09-29T21:52:41Z",
-   "topic": "rosa",
-   "sub": "reality",
-   "source": "Caras",
-   "title": "Novo concorrente de 'Casados à Primeira Vista' tem ex famosa: 'Fiquei surpreendida'"
-  },
-  {
-   "id": "ng-blaya-globos-ouro",
-   "ts": "2026-09-29T21:30:00Z",
-   "topic": "rosa",
-   "sub": "famosos",
-   "source": "Nova Gente",
-   "title": "Blaya faz dura crítica aos Globos de Ouro: \"Não há pretos?\""
-  },
-  {
-   "id": "rtp-a1-1768533",
-   "ts": "2026-09-29T21:26:03Z",
-   "topic": "tecnologia",
-   "sub": "",
-   "source": "RTP",
-   "title": "Ao contrário do que sempre defendeu, Trump diz que a IA precisa mesmo de regulação"
-  },
-  {
-   "id": "cnn-6abbf13cd34e9a786e75a2ba",
-   "ts": "2026-09-29T21:26:00Z",
-   "topic": "mundo",
-   "sub": "",
-   "source": "CNN Portugal",
-   "title": "\"Adormeceram perante o ataque\". Ucrânia lança terceira fase da \"Operação Vivaldi\" com blindados transformados em robôs e"
-  },
-  {
-   "id": "cnn-6abc287dd34e9a786e75a323",
-   "ts": "2026-09-29T21:21:00Z",
-   "topic": "politica",
-   "sub": "",
-   "source": "CNN Portugal",
-   "title": "Governo está a revelar \"grande insensibilidade e indiferença\" a quem vive momentos difíceis, diz José Luís Carneiro"
-  },
-  {
-   "id": "rtp-n1768523",
-   "ts": "2026-09-29T21:16:11Z",
-   "topic": "politica",
-   "sub": "",
-   "source": "RTP",
-   "title": "Portugal, Espanha e França querem Regiões Ultraperiféricas como essenciais no próximo Orçamento da UE"
   }
  ],
  "paired": [
-  "cm-marcelo-sabia-tratamento",
-  "cnn-6aba560fd34e53c759c7416d",
-  "cnn-6aba651bd34e53c759c7418f",
   "cnn-6abc287dd34e9a786e75a323",
+  "ng-claudio-ramos-responde-mae-jessica-maria",
+  "ng-jessica-maria-claudio-ramos",
   "obs-gemeas-psd-marcelo",
   "obs-trump-ia-superinteligencia",
-  "rtp-1768101",
   "rtp-1768303",
   "rtp-a1-1768533",
   "rtp-n1768585"
