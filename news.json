@@ -21,41 +21,6 @@
  ],
  "items": [
   {
-   "id": "lusa-kiev-ataque-20260930",
-   "ts": "2026-09-30T08:07:00Z",
-   "source": "Lusa",
-   "lado": "pt",
-   "url": "https://www.lusa.pt/article/47858812/ucrânia-pelo-menos-dois-mortos-e-quatro-feridos-em-ataque-russo-contra-kiev",
-   "title": "Ucrânia: Pelo menos dois mortos e quatro feridos em ataque russo contra Kiev",
-   "topic": "mundo",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Guerra na Ucrânia"
-   ],
-   "tickers": [],
-   "resumo": "Um ataque russo contra Kiev fez pelo menos dois mortos e quatro feridos, segundo as autoridades ucranianas.",
-   "img": ""
-  },
-  {
-   "id": "rtp-n1768585",
-   "ts": "2026-09-30T08:04:47Z",
-   "source": "RTP",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/economia/conselho-nacional-montenegro-exige-rigor-no-debate-do-orcamento_v1768585",
-   "title": "Conselho Nacional. Montenegro exige rigor no debate do Orçamento",
-   "topic": "politica",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Orçamento do Estado",
-    "PSD"
-   ],
-   "tickers": [],
-   "resumo": "Luís Montenegro afasta a pressão para a revisão constitucional e exige responsabilidade à oposição no debate do Orçamento do Estado.",
-   "img": "https://cdn-images.rtp.pt/icm/images/5c/5c76b21854380a19216a44956620758f_N.jpg?"
-  },
-  {
    "id": "rtp-n1768553",
    "ts": "2026-09-30T07:08:29Z",
    "source": "RTP",
@@ -71,6 +36,23 @@
    "tickers": [],
    "resumo": "A líder interina da Venezuela admite o uso abusivo da lei contra o ódio para justificar detenções políticas, que deverá ser reformada.",
    "img": "https://cdn-images.rtp.pt/icm/noticias/images/a5/a5b689fe6e463be62c1aaaa2d9833918?w=350&q=50&rect=0,63,1080,592&auto=format"
+  },
+  {
+   "id": "lusa-kiev-ataque-20260930",
+   "ts": "2026-09-30T07:07:00Z",
+   "source": "Lusa",
+   "lado": "pt",
+   "url": "https://www.lusa.pt/article/47858812/ucrânia-pelo-menos-dois-mortos-e-quatro-feridos-em-ataque-russo-contra-kiev",
+   "title": "Ucrânia: Pelo menos dois mortos e quatro feridos em ataque russo contra Kiev",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Guerra na Ucrânia"
+   ],
+   "tickers": [],
+   "resumo": "Um ataque russo contra Kiev fez pelo menos dois mortos e quatro feridos, segundo as autoridades ucranianas.",
+   "img": ""
   },
   {
    "id": "rtp-n1768572",
@@ -89,6 +71,24 @@
    "tickers": [],
    "resumo": "O Parlamento debate hoje a proposta do Governo para o regime do arrendamento, com o PS a anunciar voto contra e o Chega a sinalizar o mesmo caminho. A renda mediana ultrapassou os 10 euros por metro quadrado no segundo trimestre.",
    "img": "https://cdn-images.rtp.pt/icm/noticias/images/03/0365b812c59ae1ff2dea5bbb47761d3a?w=350&q=50&rect=0,290,4898,2685&auto=format"
+  },
+  {
+   "id": "rtp-n1768585",
+   "ts": "2026-09-30T07:04:47Z",
+   "source": "RTP",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/economia/conselho-nacional-montenegro-exige-rigor-no-debate-do-orcamento_v1768585",
+   "title": "Conselho Nacional. Montenegro exige rigor no debate do Orçamento",
+   "topic": "politica",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Orçamento do Estado",
+    "PSD"
+   ],
+   "tickers": [],
+   "resumo": "Luís Montenegro afasta a pressão para a revisão constitucional e exige responsabilidade à oposição no debate do Orçamento do Estado.",
+   "img": "https://cdn-images.rtp.pt/icm/images/5c/5c76b21854380a19216a44956620758f_N.jpg?"
   },
   {
    "id": "ng-debora-monteiro-queda",

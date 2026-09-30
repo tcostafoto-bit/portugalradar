@@ -415,7 +415,7 @@ const CONTACT="contacto@portugalradar.pt";
 const CAT=Object.fromEntries(CATS.map(c=>[c[0],c]));
 const IMPS=[["alto","Alto"],["medio","Médio"],["baixo","Baixo"]];
 const ORDER={alto:0,medio:1,baixo:2};
-let data={items:[],updated:null,brief:[],pairs:[]};
+let data={items:[],updated:null,brief:[],pairs:[]},lastRaw="";
 let view="capa", fSport="", fSub=new Set(), fImp=new Set();
 try{const v=localStorage.getItem("pr.view");if(v)view=v}catch(e){}
 try{const h=(location.hash||"").slice(1);if(h&&(h==="capa"||h==="pairs"||h==="arquivo"||CAT[h]))view=h}catch(e){}
@@ -675,7 +675,7 @@ function openDeep(){if(!deep)return;const it=findIt(deep);deep="";if(it){openRea
 function render(){$("#ver").textContent=data.version||"1.0";renderNav();renderBrief();renderFilters();
   if(view==="capa")renderFront();else if(view==="pairs")renderPairs();else if(view==="arquivo")renderArchive();else if(CAT[view])renderTopic();else{view="capa";renderFront()}}
 function setStatus(ok){const u=data.updated?new Date(data.updated):null;$("#dot").className="dot"+(ok?" ok":"");if(!u){$("#upd").textContent=ok?"sem dados":"sem ligação";return}const m=Math.max(0,Math.round((Date.now()-u)/60000));$("#upd").textContent=`atualizado ${m<1?"agora":m<60?"há "+m+" min":"há "+Math.round(m/60)+" h"} · ${fmtT.format(u)}`}
-async function load(){try{const r=await fetch("news.json?t="+Date.now(),{cache:"no-store"});if(!r.ok)throw 0;const j=await r.json();if(JSON.stringify(j)!==JSON.stringify(data)){if(j.arquivo!==data.arquivo)arch=null;data=j;render()}setStatus(true);openDeep()}catch(e){setStatus(false)}}
+async function load(){try{const r=await fetch("news.json?t="+Date.now(),{cache:"no-store"});if(!r.ok)throw 0;const j=await r.json(),raw=JSON.stringify(j);if(raw!==lastRaw){lastRaw=raw;const lim=Date.now()+60e3;for(const i of j.items||[])if(new Date(i.ts).getTime()>lim)i.ts=new Date(Math.min(Date.parse(j.updated)||Date.now(),Date.now())).toISOString();if(j.arquivo!==data.arquivo)arch=null;data=j;render()}setStatus(true);openDeep()}catch(e){setStatus(false)}}
 load();setInterval(load,60000);setInterval(()=>setStatus(!!data.updated),30000);
 
 /* ===== adicionar ao ecrã principal (app) ===== */

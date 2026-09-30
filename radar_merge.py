@@ -152,6 +152,14 @@ for raw in new_raw:
     if any(difflib.SequenceMatcher(None, nt, o).ratio() >= FUZZ for o in recent_titles if o):
         dup += 1
         continue
+    # hora no futuro = fuso mal lido pelo feed (ex.: Lusa sem fuso, RTP adiantada 1h): recua hora a hora
+    lim = (now + timedelta(minutes=2)).strftime("%Y-%m-%dT%H:%M:%SZ")
+    k = 0
+    while it["ts"] > lim and k < 3:
+        it["ts"] = (datetime.strptime(it["ts"], "%Y-%m-%dT%H:%M:%SZ") - timedelta(hours=1)).strftime("%Y-%m-%dT%H:%M:%SZ")
+        k += 1
+    if it["ts"] > lim:
+        it["ts"] = now.strftime("%Y-%m-%dT%H:%M:%SZ")
     items.insert(0, it)
     seen_url.add(nu); seen_id.add(it["id"]); recent_titles.append(nt)
     added += 1
