@@ -1,22 +1,22 @@
 {
- "version": "1.1.29",
- "updated": "2026-09-30T09:13:33Z",
+ "version": "1.1.30",
+ "updated": "2026-09-30T09:16:37Z",
  "brief": [
   {
-   "texto": "Parlamento debate hoje a lei do arrendamento do Governo, com chumbo à vista depois de PS e Chega anunciarem voto contra.",
-   "id": "rtp-n1768572"
-  },
-  {
-   "texto": "PS está pronto a viabilizar o Orçamento do Estado para 2027 depois das garantias de Montenegro.",
-   "id": "obs-ps-viabilizar-oe"
-  },
-  {
-   "texto": "Avião do Dubai para Israel aterra de emergência na Arábia Saudita, com um incidente entre pilotos.",
+   "texto": "Avião do Dubai para Israel aterra de emergência na Arábia Saudita após briga entre pilotos.",
    "id": "rtp-n1768592"
   },
   {
-   "texto": "Ronaldo e Jorge Jesus resolveram o desentendimento antes do jogo com a Dinamarca.",
-   "id": "rtp-d1768479"
+   "texto": "PS está pronto a viabilizar o Orçamento do Estado e diz que o processo \"está encaminhado\".",
+   "id": "obs-ps-viabilizar-oe"
+  },
+  {
+   "texto": "Rendas atingem máximo e proposta do Governo para o arrendamento está à beira do chumbo no Parlamento.",
+   "id": "rtp-n1768572"
+  },
+  {
+   "texto": "Arranca hoje a campanha de vacinação contra a gripe e a covid-19.",
+   "id": "rtp-n1768565"
   }
  ],
  "items": [
@@ -232,6 +232,24 @@
    "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:4096:2303:nowe:0:213/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/09/21141937/ilacerda-visita-escola-montenegro-seguro-educacao-65-scaled.jpg"
   },
   {
+   "id": "obs-ozono-poluicao",
+   "ts": "2026-09-30T08:07:09Z",
+   "source": "Observador",
+   "lado": "pt",
+   "url": "https://observador.pt/2026/09/30/quase-40-da-populacao-mundial-exposta-a-poluicao-perigosa-por-ozono/",
+   "title": "Quase 40% da população mundial exposta a poluição perigosa",
+   "topic": "outros",
+   "sub": "",
+   "impacto": "baixo",
+   "setores": [
+    "Ambiente",
+    "Poluição"
+   ],
+   "tickers": [],
+   "resumo": "Quase 40% da população mundial esteve exposta a níveis perigosos de ozono. A Ásia é a região mais afetada, com 60%, seguida da Europa e da América do Norte.",
+   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2000:1124:nowe:0:104/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/09/30030144/26843635.jpg"
+  },
+  {
    "id": "cnn-6abcd06fd34e53c759c7462d",
    "ts": "2026-09-30T08:03:08Z",
    "source": "CNN Portugal",
@@ -248,6 +266,24 @@
    "tickers": [],
    "resumo": "Apenas 23% dos trabalhadores portugueses tiveram formação em inteligência artificial, o valor mais baixo entre 11 países. Ainda assim, 65% já usam IA no trabalho.",
    "img": "https://img.iol.pt/image/id/69aaf782d34edcee7c61941d/200.jpg"
+  },
+  {
+   "id": "obs-credito-intermediarios",
+   "ts": "2026-09-30T08:02:38Z",
+   "source": "Observador",
+   "lado": "pt",
+   "url": "https://observador.pt/2026/09/30/mais-de-metade-do-credito-a-habitacao-em-portugal-recorre-a-intermediarios-indica-estudo/",
+   "title": "Mais de metade do crédito à habitação tem intermediários",
+   "topic": "economia",
+   "sub": "",
+   "impacto": "baixo",
+   "setores": [
+    "Crédito à habitação",
+    "Banca"
+   ],
+   "tickers": [],
+   "resumo": "Um estudo a dez países indica que 57% do crédito à habitação em Portugal passa por intermediários, o quarto valor mais alto. O Reino Unido lidera, com 87%.",
+   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:4096:2303:nowe:0:214/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/09/03224418/ilacerda-predios-comprar-vender-casa-45-scaled.jpg"
   },
   {
    "id": "ng-betty-grafstein-tribunal",
@@ -336,6 +372,23 @@
    "tickers": [],
    "resumo": "A autarca de Marraquexe foi chamada a formar governo após a vitória eleitoral, tornando-se a primeira mulher a chefiar o executivo marroquino.",
    "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:4096:2303:nowe:0:214/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/09/30065208/gettyimages-2296234146-scaled.jpg"
+  },
+  {
+   "id": "abola-euromilhoes-jackpot",
+   "ts": "2026-09-30T07:14:24Z",
+   "source": "A Bola",
+   "lado": "pt",
+   "url": "https://www.abola.pt/noticias/euromilhoes-com-jackpot-3o-premio-em-portugal-2026093007142454162",
+   "title": "Euromilhões com jackpot, 3.º prémio em Portugal",
+   "topic": "outros",
+   "sub": "",
+   "impacto": "baixo",
+   "setores": [
+    "Euromilhões"
+   ],
+   "tickers": [],
+   "resumo": "O sorteio do Euromilhões teve jackpot e um terceiro prémio em Portugal. O primeiro prémio de sexta-feira está fixado em 28 milhões de euros.",
+   "img": "https://sportal365images.com/process/smp-images-production/abola.pt/09012024/c86d5d45-c69e-4b09-9ae6-48bbf6394d7f.jpg?operations=crop(44:1:1162:630),autocrop(1200:630)"
   },
   {
    "id": "obs-bissau-embalo-regresso",
@@ -441,6 +494,24 @@
    "tickers": [],
    "resumo": "Miguel Mouzinho reagiu à queda de Débora Monteiro no palco dos Globos de Ouro, no sábado, no Coliseu dos Recreios, quando a atriz ia apresentar o prémio de Melhor Canção.",
    "img": "https://www.novagente.pt/wp-content/uploads/2026/09/3175898_Pendente_Upload_3175898_-_HQZ_NGM_7814-683x1024.jpg"
+  },
+  {
+   "id": "hn-pacto-saude-consenso-janeiro",
+   "ts": "2026-09-30T06:50:06Z",
+   "source": "HealthNews",
+   "lado": "pt",
+   "url": "https://healthnews.pt/2026/09/30/adalberto-campos-fernandes-pede-consensos-na-saude-a-partir-de-janeiro-e-rejeita-reformas-fast-food/",
+   "title": "Adalberto Campos Fernandes pede consensos na saúde a partir de janeiro e rejeita reformas \"fast food\"",
+   "topic": "saude",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "SNS",
+    "Pacto para a Saúde"
+   ],
+   "tickers": [],
+   "resumo": "O coordenador do Pacto Estratégico para a Saúde pediu aos partidos que avancem para um consenso no setor a partir de janeiro e defendeu mudanças graduais, rejeitando reformas \"fast food\".",
+   "img": ""
   },
   {
    "id": "cnn-6abcaf7dd34e53c759c745f0",
@@ -672,6 +743,24 @@
    "tickers": [],
    "resumo": "A Guarda Revolucionária pede aos norte-americanos que afastem os aliados de Trump nas eleições intercalares de novembro e celebra a saída de tropas dos EUA do Iraque.",
    "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2000:1124:nowe:0:104/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/09/12043139/47748178.jpg"
+  },
+  {
+   "id": "eco-irc-minimo-global",
+   "ts": "2026-09-30T05:41:57Z",
+   "source": "ECO",
+   "lado": "pt",
+   "url": "https://eco.sapo.pt/2026/09/30/termina-hoje-prazo-para-a-entrega-da-declaracao-do-irc-minimo-global/",
+   "title": "Termina hoje prazo para a entrega da declaração do IRC mínimo global",
+   "topic": "economia",
+   "sub": "",
+   "impacto": "baixo",
+   "setores": [
+    "IRC",
+    "Impostos"
+   ],
+   "tickers": [],
+   "resumo": "Termina hoje o prazo, prorrogado em três meses pelo Governo, para as multinacionais em Portugal entregarem a declaração do imposto mínimo global à Autoridade Tributária.",
+   "img": "https://eco.imgix.net/uploads/2019/04/cropped-cropped-cropped-ndr2924-1-1.jpg"
   },
   {
    "id": "eco-metas-despesa-2027",

@@ -1,6 +1,6 @@
 {
- "version": "1.1.29",
- "updated": "2026-09-30T09:13:33Z",
+ "version": "1.1.30",
+ "updated": "2026-09-30T09:16:37Z",
  "recent": [
   {
    "id": "as-ocon-haas-saida",
@@ -99,12 +99,28 @@
    "title": "Montenegro dá aula sobre ética e integridade a alunos do secundário"
   },
   {
+   "id": "obs-ozono-poluicao",
+   "ts": "2026-09-30T08:07:09Z",
+   "topic": "outros",
+   "sub": "",
+   "source": "Observador",
+   "title": "Quase 40% da população mundial exposta a poluição perigosa"
+  },
+  {
    "id": "cnn-6abcd06fd34e53c759c7462d",
    "ts": "2026-09-30T08:03:08Z",
    "topic": "tecnologia",
    "sub": "",
    "source": "CNN Portugal",
    "title": "Só 23% dos trabalhadores portugueses tiveram formação em IA. É o valor mais baixo entre 11 países"
+  },
+  {
+   "id": "obs-credito-intermediarios",
+   "ts": "2026-09-30T08:02:38Z",
+   "topic": "economia",
+   "sub": "",
+   "source": "Observador",
+   "title": "Mais de metade do crédito à habitação tem intermediários"
   },
   {
    "id": "ng-betty-grafstein-tribunal",
@@ -145,6 +161,14 @@
    "sub": "",
    "source": "Observador",
    "title": "Marrocos vai ter mulher a liderar governo pela primeira vez"
+  },
+  {
+   "id": "abola-euromilhoes-jackpot",
+   "ts": "2026-09-30T07:14:24Z",
+   "topic": "outros",
+   "sub": "",
+   "source": "A Bola",
+   "title": "Euromilhões com jackpot, 3.º prémio em Portugal"
   },
   {
    "id": "obs-bissau-embalo-regresso",
@@ -193,6 +217,14 @@
    "sub": "famosos",
    "source": "Nova Gente",
    "title": "Noivo de Débora Monteiro reage à queda da atriz em pleno palco dos Globos de Ouro"
+  },
+  {
+   "id": "hn-pacto-saude-consenso-janeiro",
+   "ts": "2026-09-30T06:50:06Z",
+   "topic": "saude",
+   "sub": "",
+   "source": "HealthNews",
+   "title": "Adalberto Campos Fernandes pede consensos na saúde a partir de janeiro e rejeita reformas \"fast food\""
   },
   {
    "id": "cnn-6abcaf7dd34e53c759c745f0",
@@ -297,6 +329,14 @@
    "sub": "",
    "source": "Observador",
    "title": "Irão apela aos eleitores dos EUA para afastarem republicanos"
+  },
+  {
+   "id": "eco-irc-minimo-global",
+   "ts": "2026-09-30T05:41:57Z",
+   "topic": "economia",
+   "sub": "",
+   "source": "ECO",
+   "title": "Termina hoje prazo para a entrega da declaração do IRC mínimo global"
   },
   {
    "id": "eco-metas-despesa-2027",
@@ -921,46 +961,6 @@
    "sub": "braga",
    "source": "O Jogo",
    "title": "\"Braga exige mais do que aquilo que apresentámos até aqui\", vinca António Salvador"
-  },
-  {
-   "id": "abola-cabral-hangzhou",
-   "ts": "2026-09-29T10:33:57Z",
-   "topic": "desporto",
-   "sub": "tenis",
-   "source": "A Bola",
-   "title": "Francisco Cabral revalida título com novo par em Hangzhou"
-  },
-  {
-   "id": "abola-duarte-gomes-luciano",
-   "ts": "2026-09-29T10:30:00Z",
-   "topic": "desporto",
-   "sub": "liga",
-   "source": "A Bola",
-   "title": "Duarte Gomes: «Jamais voltarei a trabalhar com Luciano Gonçalves»"
-  },
-  {
-   "id": "cnn-6abb8d71d34e9a786e75a0d4",
-   "ts": "2026-09-29T10:05:37Z",
-   "topic": "justica",
-   "sub": "",
-   "source": "CNN Portugal",
-   "title": "GNR detém duas pessoas em Campo Maior por burla MBWay"
-  },
-  {
-   "id": "cnn-6abb87610cf22b9f8904d1ab",
-   "ts": "2026-09-29T09:54:00Z",
-   "topic": "mundo",
-   "sub": "",
-   "source": "CNN Portugal",
-   "title": "Colonos israelitas incendeiam casa quando exército tentava escoltar família palestiniana"
-  },
-  {
-   "id": "cm-reality-tvi-erro-especial",
-   "ts": "2026-09-29T09:52:07Z",
-   "topic": "rosa",
-   "sub": "reality",
-   "source": "CM",
-   "title": "Erro em especial do reality show da TVI quase levou a batota"
   }
  ],
  "paired": [
