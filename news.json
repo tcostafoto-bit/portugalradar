@@ -1,23 +1,39 @@
 {
- "version": "1.1.24",
- "updated": "2026-09-30T05:14:54Z",
+ "version": "1.1.25",
+ "updated": "2026-09-30T06:15:04Z",
  "brief": [
   {
-   "texto": "O Governo convocou os sindicatos da função pública a poucos dias de entregar a proposta do Orçamento do Estado para 2027."
+   "texto": "Sindicatos da banca ligados à UGT convocam greve para 30 de novembro e juntam-se ao SNQTB."
   },
   {
-   "texto": "O Presidente da República promulgou o suplemento extraordinário para pensionistas, que será pago em dezembro com a pensão desse mês."
+   "texto": "Presidente da República promulga o suplemento extraordinário para pensionistas, a pagar em dezembro."
   },
   {
-   "texto": "Caso das gémeas: a acusação do Ministério Público diz que a mãe pediu ajuda até para comprar leite, tendo mais de 100 mil euros na conta.",
+   "texto": "Caso das gémeas: acusação do MP diz que a mãe pediu ajuda para leite tendo mais de 100 mil euros na conta.",
    "id": "cm-daniela-martins-100mil"
   },
   {
-   "texto": "O IPMA mantém aviso amarelo de precipitação, por vezes forte, em vários distritos do continente.",
-   "id": "ipma-precipitacao-amarelo-20260929"
+   "texto": "Portugal vence na Noruega por 2-1 e lidera o Grupo A4 da Liga das Nações."
   }
  ],
  "items": [
+  {
+   "id": "ng-miguel-vicente-irma",
+   "ts": "2026-09-30T06:00:00Z",
+   "source": "Nova Gente",
+   "lado": "pt",
+   "url": "https://www.novagente.pt/big-brother-all-stars-miguel-vicente-revela-que-esta-afastado-da-irma-e-explica-motivo-do-conflito/",
+   "title": "Big Brother All Stars: Miguel Vicente revela que está afastado da irmã e explica motivo do conflito",
+   "topic": "rosa",
+   "sub": "reality",
+   "impacto": "baixo",
+   "setores": [
+    "Big Brother All Stars"
+   ],
+   "tickers": [],
+   "resumo": "Miguel Vicente, concorrente do Big Brother All Stars, revelou estar afastado da irmã e explicou o motivo do conflito familiar.",
+   "img": "https://www.novagente.pt/wp-content/uploads/2026/09/SnapInsta.to_810485510_18095286281551207_5215283026617395042_n-1024x574.jpg"
+  },
   {
    "id": "ng-blaya-globos-ouro",
    "ts": "2026-09-29T21:30:00Z",

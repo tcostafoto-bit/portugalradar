@@ -1,7 +1,15 @@
 {
- "version": "1.1.24",
- "updated": "2026-09-30T05:14:54Z",
+ "version": "1.1.25",
+ "updated": "2026-09-30T06:15:04Z",
  "recent": [
+  {
+   "id": "ng-miguel-vicente-irma",
+   "ts": "2026-09-30T06:00:00Z",
+   "topic": "rosa",
+   "sub": "reality",
+   "source": "Nova Gente",
+   "title": "Big Brother All Stars: Miguel Vicente revela que está afastado da irmã e explica motivo do conflito"
+  },
   {
    "id": "ng-blaya-globos-ouro",
    "ts": "2026-09-29T21:30:00Z",
@@ -953,14 +961,6 @@
    "sub": "selecao",
    "source": "RTP Desporto",
    "title": "Liga Nações. Bruno Fernandes de regresso, Francisco Conceição lesionado"
-  },
-  {
-   "id": "rtp-1768274",
-   "ts": "2026-09-28T19:21:47Z",
-   "topic": "desporto",
-   "sub": "liga",
-   "source": "RTP Desporto",
-   "title": "APCVD notifica Ministério Público sobre agressão a árbitro no Montijo"
   }
  ],
  "paired": [
