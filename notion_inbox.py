@@ -31,7 +31,9 @@ def call(method, path, body=None):
         with urllib.request.urlopen(req, timeout=30) as r:
             return json.load(r)
     except urllib.error.HTTPError as e:
-        raise SystemExit(f"Notion {method} {path}: {e.code} {e.read()[:300]!r}")
+        msg = f"Notion {method} {path}: {e.code} {e.read()[:300].decode('utf-8', 'replace')}"
+        print(f"::error::{msg}")
+        raise SystemExit(msg)
 
 
 def children(block_id):
