@@ -1,7 +1,31 @@
 {
- "version": "1.1.26",
- "updated": "2026-09-30T06:40:50Z",
+ "version": "1.1.27",
+ "updated": "2026-09-30T07:15:35Z",
  "recent": [
+  {
+   "id": "lusa-kiev-ataque-20260930",
+   "ts": "2026-09-30T08:07:00Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "Lusa",
+   "title": "Ucrânia: Pelo menos dois mortos e quatro feridos em ataque russo contra Kiev"
+  },
+  {
+   "id": "rtp-n1768585",
+   "ts": "2026-09-30T08:04:47Z",
+   "topic": "politica",
+   "sub": "",
+   "source": "RTP",
+   "title": "Conselho Nacional. Montenegro exige rigor no debate do Orçamento"
+  },
+  {
+   "id": "rtp-n1768553",
+   "ts": "2026-09-30T07:08:29Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "RTP",
+   "title": "Presidente interina da Venezuela reconhece \"uso abusivo\" de lei contra o ódio"
+  },
   {
    "id": "rtp-n1768572",
    "ts": "2026-09-30T07:06:28Z",
@@ -11,12 +35,36 @@
    "title": "Nunca as rendas foram tão caras em Portugal. Arrendamento em debate hoje com chumbo no horizonte"
   },
   {
+   "id": "ng-debora-monteiro-queda",
+   "ts": "2026-09-30T07:00:00Z",
+   "topic": "rosa",
+   "sub": "famosos",
+   "source": "Nova Gente",
+   "title": "Noivo de Débora Monteiro reage à queda da atriz em pleno palco dos Globos de Ouro"
+  },
+  {
+   "id": "cnn-6abcaf7dd34e53c759c745f0",
+   "ts": "2026-09-30T06:42:00Z",
+   "topic": "cultura",
+   "sub": "",
+   "source": "CNN Portugal",
+   "title": "Primeiro concerto dos Placebo em Portugal fica marcado pela expulsão de fãs"
+  },
+  {
    "id": "rtp-n1768565",
    "ts": "2026-09-30T06:37:06Z",
    "topic": "saude",
    "sub": "",
    "source": "RTP",
    "title": "Vacinação contra a gripe e a covid-19 arranca hoje"
+  },
+  {
+   "id": "rtp-n1768549",
+   "ts": "2026-09-30T06:31:39Z",
+   "topic": "economia",
+   "sub": "",
+   "source": "RTP",
+   "title": "Preço da eletricidade na UE sobe 22,8% desde fevereiro. Gás aumenta 88,4%"
   },
   {
    "id": "obs-epoca-incendios-20260930",
@@ -35,12 +83,36 @@
    "title": "China promete resposta \"firme\" contra União Europeia"
   },
   {
+   "id": "eco-barometro-cip-iseg",
+   "ts": "2026-09-30T06:00:34Z",
+   "topic": "economia",
+   "sub": "",
+   "source": "ECO",
+   "title": "Barómetro CIP/ISEG prevê abrandamento do crescimento até ao final do ano"
+  },
+  {
    "id": "ng-miguel-vicente-irma",
    "ts": "2026-09-30T06:00:00Z",
    "topic": "rosa",
    "sub": "reality",
    "source": "Nova Gente",
    "title": "Big Brother All Stars: Miguel Vicente revela que está afastado da irmã e explica motivo do conflito"
+  },
+  {
+   "id": "hn-stemlab-cordvida",
+   "ts": "2026-09-30T05:50:27Z",
+   "topic": "economia",
+   "sub": "",
+   "source": "HealthNews",
+   "title": "Stemlab/Cordvida: AdC passa a investigação aprofundada no setor das células estaminais"
+  },
+  {
+   "id": "obs-irao-eleitores-eua",
+   "ts": "2026-09-30T05:43:55Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "Observador",
+   "title": "Irão apela aos eleitores dos EUA para afastarem republicanos"
   },
   {
    "id": "eco-prestacao-casa-outubro",
@@ -51,6 +123,14 @@
    "title": "Outubro traz a maior subida da prestação da casa em três anos. Saiba quanto pagará a mais pelo crédito à habitação"
   },
   {
+   "id": "hn-ana-paula-martins-gemeas",
+   "ts": "2026-09-30T05:32:33Z",
+   "topic": "saude",
+   "sub": "",
+   "source": "HealthNews",
+   "title": "Ana Paula Martins admite que ninguém pode garantir que caso das gémeas não se repete"
+  },
+  {
    "id": "caras-markl-globo-ouro",
    "ts": "2026-09-30T01:31:32Z",
    "topic": "rosa",
@@ -59,12 +139,28 @@
    "title": "Nuno Markl posa com o Globo de Ouro ao lado da equipa do hospital onde recuperou dos AVC"
   },
   {
+   "id": "obs-oa-arquivar-processos",
+   "ts": "2026-09-30T01:14:27Z",
+   "topic": "justica",
+   "sub": "",
+   "source": "Observador",
+   "title": "OA passa a arquivar automaticamente processos por manobras dilatórias"
+  },
+  {
    "id": "obs-ps-viabilizar-oe",
    "ts": "2026-09-30T00:52:44Z",
    "topic": "politica",
    "sub": "",
    "source": "Observador",
    "title": "PS pronto a viabilizar OE: \"Está encaminhado\""
+  },
+  {
+   "id": "obs-lusa-ca-pressoes",
+   "ts": "2026-09-29T22:50:15Z",
+   "topic": "politica",
+   "sub": "",
+   "source": "Observador",
+   "title": "Lusa: CA rejeita pressões e admite mudanças na direção"
   },
   {
    "id": "obs-trump-ia-superinteligencia",
@@ -115,6 +211,22 @@
    "title": "Blaya faz dura crítica aos Globos de Ouro: \"Não há pretos?\""
   },
   {
+   "id": "cnn-6abc287dd34e9a786e75a323",
+   "ts": "2026-09-29T21:21:00Z",
+   "topic": "politica",
+   "sub": "",
+   "source": "CNN Portugal",
+   "title": "Governo está a revelar \"grande insensibilidade e indiferença\" a quem vive momentos difíceis, diz José Luís Carneiro"
+  },
+  {
+   "id": "cnn-6abbdf92d34e53c759c74529",
+   "ts": "2026-09-29T21:05:00Z",
+   "topic": "tecnologia",
+   "sub": "",
+   "source": "CNN Portugal",
+   "title": "Spotify volta ao normal após problemas registados em todo o mundo"
+  },
+  {
    "id": "lusa-47858343",
    "ts": "2026-09-29T21:02:00Z",
    "topic": "mundo",
@@ -129,6 +241,22 @@
    "sub": "famosos",
    "source": "Nova Gente",
    "title": "A forma como Pedro Cell reagiu após Elisabete Moutinho terminar relação de nove anos"
+  },
+  {
+   "id": "rtp-d1768522",
+   "ts": "2026-09-29T20:55:02Z",
+   "topic": "desporto",
+   "sub": "liga",
+   "source": "RTP Desporto",
+   "title": "Líder da Liga Portuguesa prevê regresso das bebidas alcoólicas aos estádios"
+  },
+  {
+   "id": "cnn-6abbeb470cf20dc52778dc94",
+   "ts": "2026-09-29T20:06:00Z",
+   "topic": "justica",
+   "sub": "",
+   "source": "CNN Portugal",
+   "title": "Três minutos que renderam meio milhão de euros: as imagens do assalto a uma relojoaria no centro de Lisboa"
   },
   {
    "id": "ng-diana-chaves-claudia-vieira",
@@ -155,6 +283,22 @@
    "title": "De perseguição na Amadora a carjacking no IC17: condutor atropela polícia, embate em vários carros, abandona viatura e r"
   },
   {
+   "id": "as-joao-ferreira-marrocos",
+   "ts": "2026-09-29T18:54:06Z",
+   "topic": "desporto",
+   "sub": "motores",
+   "source": "AutoSport",
+   "title": "João Ferreira vence 1ª etapa do Rallye du Maroc, e parou para assistência a motociclista"
+  },
+  {
+   "id": "rtp-d1768496",
+   "ts": "2026-09-29T18:51:43Z",
+   "topic": "desporto",
+   "sub": "lafora",
+   "source": "RTP Desporto",
+   "title": "Manchester City considerado culpado em todas as acusações. Clube tem três dias para recorrer"
+  },
+  {
    "id": "ng-joana-diniz-jessica-maria",
    "ts": "2026-09-29T18:30:00Z",
    "topic": "rosa",
@@ -177,6 +321,14 @@
    "sub": "",
    "source": "CNN Portugal",
    "title": "Tribunal de Contas diz que Conta Geral do Estado de 2025 não está em conformidade"
+  },
+  {
+   "id": "cnn-6abbdc56d34e9a786e75a289",
+   "ts": "2026-09-29T17:44:00Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "CNN Portugal",
+   "title": "Estónia acusa Rússia de ter ordenado incêndio que deflagrou em empresa de defesa"
   },
   {
    "id": "rtp-d1768489",
@@ -809,158 +961,6 @@
    "sub": "",
    "source": "ECO",
    "title": "Fisco trava uso de dividendos antigos no incentivo à capitalização das empresas"
-  },
-  {
-   "id": "eco-invencoes-43",
-   "ts": "2026-09-29T05:37:44Z",
-   "topic": "tecnologia",
-   "sub": "",
-   "source": "ECO",
-   "title": "Pedidos de invenções disparam 43% em Portugal"
-  },
-  {
-   "id": "rtp-1768339",
-   "ts": "2026-09-29T05:24:02Z",
-   "topic": "economia",
-   "sub": "",
-   "source": "RTP",
-   "title": "Governo espera que não seja preciso racionar combustível"
-  },
-  {
-   "id": "hn-ebola-rdcongo-8000",
-   "ts": "2026-09-29T05:07:07Z",
-   "topic": "mundo",
-   "sub": "",
-   "source": "HealthNews",
-   "title": "Ébola na RDCongo ultrapassa 8.000 casos e aproxima-se das 4.000 mortes"
-  },
-  {
-   "id": "hn-funchal-taxa-urgencia",
-   "ts": "2026-09-29T05:04:31Z",
-   "topic": "saude",
-   "sub": "",
-   "source": "HealthNews",
-   "title": "Pulseiras verde e azul passam a pagar taxa moderadora na urgência do Funchal"
-  },
-  {
-   "id": "hn-siteu-aphp-proposta",
-   "ts": "2026-09-29T05:03:51Z",
-   "topic": "saude",
-   "sub": "",
-   "source": "HealthNews",
-   "title": "\"A dignidade não se vende\": SITEU recusa proposta da APHP"
-  },
-  {
-   "id": "hn-uls-guarda-seia",
-   "ts": "2026-09-29T04:49:06Z",
-   "topic": "saude",
-   "sub": "",
-   "source": "HealthNews",
-   "title": "ULS da Guarda conclui requalificação do Centro de Saúde de Seia"
-  },
-  {
-   "id": "eco-cluster-defesa-2030",
-   "ts": "2026-09-29T04:39:12Z",
-   "topic": "economia",
-   "sub": "",
-   "source": "ECO",
-   "title": "Ecossistema deve preparar cluster de defesa forte até 2030"
-  },
-  {
-   "id": "hn-ebola-compromissos-29mil",
-   "ts": "2026-09-29T04:10:07Z",
-   "topic": "saude",
-   "sub": "",
-   "source": "HealthNews",
-   "title": "Ébola: compromissos internacionais chegam a quase 2,9 mil milhões de dólares"
-  },
-  {
-   "id": "obs-oe27-negociacoes-partidos",
-   "ts": "2026-09-29T03:16:31Z",
-   "topic": "politica",
-   "sub": "",
-   "source": "Observador",
-   "title": "OE 2027. Negociações continuam com críticas da oposição"
-  },
-  {
-   "id": "rtp-1768330",
-   "ts": "2026-09-29T02:32:01Z",
-   "topic": "politica",
-   "sub": "",
-   "source": "RTP",
-   "title": "PS e Chega dizem que OE27 não inclui apoios às famílias"
-  },
-  {
-   "id": "obs-gemeas-psd-marcelo",
-   "ts": "2026-09-29T01:15:39Z",
-   "topic": "justica",
-   "sub": "",
-   "source": "Observador",
-   "title": "Gémeas. PSD diz que inocência de Marcelo ficou provada"
-  },
-  {
-   "id": "rtp-1768327",
-   "ts": "2026-09-29T00:47:47Z",
-   "topic": "outros",
-   "sub": "",
-   "source": "RTP",
-   "title": "Porto Covo. Encontrados os dois corpos dos trabalhadores soterrados"
-  },
-  {
-   "id": "rtp-1768326",
-   "ts": "2026-09-29T00:45:47Z",
-   "topic": "politica",
-   "sub": "",
-   "source": "RTP",
-   "title": "Em véspera de negociações. Cerca de 200 agentes da PSP e GNR em protesto no Porto"
-  },
-  {
-   "id": "caras-diana-chaves-globos",
-   "ts": "2026-09-29T00:37:29Z",
-   "topic": "rosa",
-   "sub": "famosos",
-   "source": "Caras",
-   "title": "Diana Chaves surge em direto com marca no rosto e revela incidente nos Globos de Ouro"
-  },
-  {
-   "id": "rtp-1768325",
-   "ts": "2026-09-29T00:32:22Z",
-   "topic": "saude",
-   "sub": "",
-   "source": "RTP",
-   "title": "Menos sal e açúcar, facilitar a amamentação. DGS lança orientações para alimentação nas creches"
-  },
-  {
-   "id": "rtp-n1768320",
-   "ts": "2026-09-29T00:08:59Z",
-   "topic": "mundo",
-   "sub": "",
-   "source": "RTP",
-   "title": "Governo brasileiro processa bets e pede 168,76 milhões de euros em danos morais coletivos"
-  },
-  {
-   "id": "caras-sonia-brazao-maternidade",
-   "ts": "2026-09-29T00:08:49Z",
-   "topic": "rosa",
-   "sub": "famosos",
-   "source": "Caras",
-   "title": "Sónia Brazão faz confissão sobre possibilidade de maternidade"
-  },
-  {
-   "id": "record-sporting-zekri",
-   "ts": "2026-09-29T00:00:00Z",
-   "topic": "desporto",
-   "sub": "sporting",
-   "source": "Record",
-   "title": "Sporting regressa ao trabalho já com Zekri às ordens de Rui Borges"
-  },
-  {
-   "id": "obs-gpt61-astra-cancelado",
-   "ts": "2026-09-28T23:29:08Z",
-   "topic": "tecnologia",
-   "sub": "",
-   "source": "Observador",
-   "title": "Segurança leva novo modelo do ChatGPT a ser cancelado"
   }
  ],
  "paired": [
@@ -969,10 +969,12 @@
   "cnn-6aba560fd34e53c759c7416d",
   "cnn-6aba56dfd34e9a786e759ee4",
   "cnn-6aba651bd34e53c759c7418f",
+  "cnn-6abc287dd34e9a786e75a323",
   "obs-gemeas-psd-marcelo",
   "rtp-1768091",
   "rtp-1768101",
   "rtp-1768303",
+  "rtp-n1768585",
   "zz-1216877"
  ],
  "top_tickers": [],
