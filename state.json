@@ -1,6 +1,6 @@
 {
- "version": "1.1.23",
- "updated": "2026-09-30T04:13:34Z",
+ "version": "1.1.24",
+ "updated": "2026-09-30T05:14:54Z",
  "recent": [
   {
    "id": "ng-blaya-globos-ouro",
@@ -473,6 +473,14 @@
    "sub": "",
    "source": "RTP",
    "title": "Ocorrências nas escolas aumentaram no último ano letivo para mais de 4.000"
+  },
+  {
+   "id": "lusa-47853802",
+   "ts": "2026-09-29T07:09:00Z",
+   "topic": "outros",
+   "sub": "",
+   "source": "Lusa",
+   "title": "Orgulho profissional protege bombeiros e polícias de desgaste emocional - estudo"
   },
   {
    "id": "cm-marcelo-sabia-tratamento",
@@ -953,14 +961,6 @@
    "sub": "liga",
    "source": "RTP Desporto",
    "title": "APCVD notifica Ministério Público sobre agressão a árbitro no Montijo"
-  },
-  {
-   "id": "rtp-1768276",
-   "ts": "2026-09-28T19:21:38Z",
-   "topic": "desporto",
-   "sub": "selecao",
-   "source": "RTP Desporto",
-   "title": "Seleção portuguesa de sub-21 focada em carimbar acesso ao Europeu de futebol"
   }
  ],
  "paired": [

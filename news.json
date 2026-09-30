@@ -1,20 +1,20 @@
 {
- "version": "1.1.23",
- "updated": "2026-09-30T04:13:34Z",
+ "version": "1.1.24",
+ "updated": "2026-09-30T05:14:54Z",
  "brief": [
+  {
+   "texto": "O Governo convocou os sindicatos da função pública a poucos dias de entregar a proposta do Orçamento do Estado para 2027."
+  },
   {
    "texto": "O Presidente da República promulgou o suplemento extraordinário para pensionistas, que será pago em dezembro com a pensão desse mês."
   },
   {
-   "texto": "Sindicatos da banca ligados à UGT convocam greve para 30 de novembro e juntam-se ao SNQTB, em protesto contra aumentos de 2%."
+   "texto": "Caso das gémeas: a acusação do Ministério Público diz que a mãe pediu ajuda até para comprar leite, tendo mais de 100 mil euros na conta.",
+   "id": "cm-daniela-martins-100mil"
   },
   {
-   "texto": "Governo retoma negociações do OE 2027 com os partidos, com PS e Chega a criticar a falta de apoios às famílias.",
-   "id": "obs-oe27-negociacoes-partidos"
-  },
-  {
-   "texto": "O Irão apresentou na ONU um plano para reabrir o estreito de Ormuz em sete dias e retomar as negociações nucleares.",
-   "id": "cm-hormuz-plano-ira"
+   "texto": "O IPMA mantém aviso amarelo de precipitação, por vezes forte, em vários distritos do continente.",
+   "id": "ipma-precipitacao-amarelo-20260929"
   }
  ],
  "items": [
@@ -1030,6 +1030,24 @@
    ],
    "tickers": [],
    "resumo": "A PSP registou 4.075 ocorrências nas escolas no último ano letivo, mais 4,6% do que no anterior. Os crimes de ofensas corporais e com armas atingiram máximos de cinco anos e também subiram as ofensas sexuais e o tráfico de droga.",
+   "img": ""
+  },
+  {
+   "id": "lusa-47853802",
+   "ts": "2026-09-29T07:09:00Z",
+   "source": "Lusa",
+   "lado": "pt",
+   "url": "https://www.lusa.pt/article/47853802/orgulho-profissional-desgaste-emocional",
+   "title": "Orgulho profissional protege bombeiros e polícias de desgaste emocional - estudo",
+   "topic": "outros",
+   "sub": "",
+   "impacto": "baixo",
+   "setores": [
+    "Bombeiros",
+    "Polícia"
+   ],
+   "tickers": [],
+   "resumo": "Um estudo concluiu que o orgulho profissional funciona como fator de proteção contra o desgaste emocional entre bombeiros e polícias.",
    "img": ""
   },
   {
