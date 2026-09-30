@@ -1,7 +1,39 @@
 {
- "version": "1.1.25",
- "updated": "2026-09-30T06:15:04Z",
+ "version": "1.1.26",
+ "updated": "2026-09-30T06:40:50Z",
  "recent": [
+  {
+   "id": "rtp-n1768572",
+   "ts": "2026-09-30T07:06:28Z",
+   "topic": "economia",
+   "sub": "",
+   "source": "RTP",
+   "title": "Nunca as rendas foram tão caras em Portugal. Arrendamento em debate hoje com chumbo no horizonte"
+  },
+  {
+   "id": "rtp-n1768565",
+   "ts": "2026-09-30T06:37:06Z",
+   "topic": "saude",
+   "sub": "",
+   "source": "RTP",
+   "title": "Vacinação contra a gripe e a covid-19 arranca hoje"
+  },
+  {
+   "id": "obs-epoca-incendios-20260930",
+   "ts": "2026-09-30T06:21:53Z",
+   "topic": "tempo",
+   "sub": "",
+   "source": "Observador",
+   "title": "Época mais crítica de combate a fogos termina esta quarta"
+  },
+  {
+   "id": "obs-china-ue-resposta-firme",
+   "ts": "2026-09-30T06:19:11Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "Observador",
+   "title": "China promete resposta \"firme\" contra União Europeia"
+  },
   {
    "id": "ng-miguel-vicente-irma",
    "ts": "2026-09-30T06:00:00Z",
@@ -11,12 +43,84 @@
    "title": "Big Brother All Stars: Miguel Vicente revela que está afastado da irmã e explica motivo do conflito"
   },
   {
+   "id": "eco-prestacao-casa-outubro",
+   "ts": "2026-09-30T05:41:32Z",
+   "topic": "economia",
+   "sub": "",
+   "source": "ECO",
+   "title": "Outubro traz a maior subida da prestação da casa em três anos. Saiba quanto pagará a mais pelo crédito à habitação"
+  },
+  {
+   "id": "caras-markl-globo-ouro",
+   "ts": "2026-09-30T01:31:32Z",
+   "topic": "rosa",
+   "sub": "famosos",
+   "source": "Caras",
+   "title": "Nuno Markl posa com o Globo de Ouro ao lado da equipa do hospital onde recuperou dos AVC"
+  },
+  {
+   "id": "obs-ps-viabilizar-oe",
+   "ts": "2026-09-30T00:52:44Z",
+   "topic": "politica",
+   "sub": "",
+   "source": "Observador",
+   "title": "PS pronto a viabilizar OE: \"Está encaminhado\""
+  },
+  {
+   "id": "obs-trump-ia-superinteligencia",
+   "ts": "2026-09-29T22:48:18Z",
+   "topic": "tecnologia",
+   "sub": "",
+   "source": "Observador",
+   "title": "Trump e líderes da IA mudam nome para \"Super Inteligência\""
+  },
+  {
+   "id": "obs-ensino-superior-2fase",
+   "ts": "2026-09-29T22:44:16Z",
+   "topic": "outros",
+   "sub": "",
+   "source": "Observador",
+   "title": "Mais de 9 mil colocados na 2.ª fase, sobram 4.069 vagas"
+  },
+  {
+   "id": "obs-psp-suplemento-fronteiras",
+   "ts": "2026-09-29T22:36:16Z",
+   "topic": "politica",
+   "sub": "",
+   "source": "Observador",
+   "title": "PSP: cinco sindicatos rejeitam suplemento de fronteiras"
+  },
+  {
+   "id": "lusa-47858846",
+   "ts": "2026-09-29T22:16:00Z",
+   "topic": "economia",
+   "sub": "",
+   "source": "Lusa",
+   "title": "Air France/KLM e Lufthansa entregam hoje propostas finais de compra da TAP"
+  },
+  {
+   "id": "cnn-6abc31ead34e9a786e75a332",
+   "ts": "2026-09-29T22:08:00Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "CNN Portugal",
+   "title": "Supremo Tribunal dos EUA permite a Trump reativar deportações para países terceiros"
+  },
+  {
    "id": "ng-blaya-globos-ouro",
    "ts": "2026-09-29T21:30:00Z",
    "topic": "rosa",
    "sub": "famosos",
    "source": "Nova Gente",
    "title": "Blaya faz dura crítica aos Globos de Ouro: \"Não há pretos?\""
+  },
+  {
+   "id": "lusa-47858343",
+   "ts": "2026-09-29T21:02:00Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "Lusa",
+   "title": "NATO condena \"retórica nuclear irresponsável\" da Rússia que ameaça \"usar todo o arsenal\""
   },
   {
    "id": "ng-elisabete-moutinho-pedro-cell",
@@ -35,6 +139,22 @@
    "title": "Diana Chaves revela episódio insólito com Cláudia Vieira nos bastidores dos Globos de Ouro"
   },
   {
+   "id": "rtp-d1768509",
+   "ts": "2026-09-29T19:49:26Z",
+   "topic": "desporto",
+   "sub": "sporting",
+   "source": "RTP Desporto",
+   "title": "Sporting ultrapassa os 200 mil associados e quebra recorde do clube"
+  },
+  {
+   "id": "cnn-6abc0c57d34e53c759c74598",
+   "ts": "2026-09-29T19:06:00Z",
+   "topic": "justica",
+   "sub": "",
+   "source": "CNN Portugal",
+   "title": "De perseguição na Amadora a carjacking no IC17: condutor atropela polícia, embate em vários carros, abandona viatura e r"
+  },
+  {
    "id": "ng-joana-diniz-jessica-maria",
    "ts": "2026-09-29T18:30:00Z",
    "topic": "rosa",
@@ -51,12 +171,44 @@
    "title": "A inesperada razão pelo qual Diogo Marcelino quer abandonar o Big Brother All Stars: \"Sinto que...\""
   },
   {
+   "id": "cnn-6abbf38ad34e53c759c7455c",
+   "ts": "2026-09-29T17:59:00Z",
+   "topic": "economia",
+   "sub": "",
+   "source": "CNN Portugal",
+   "title": "Tribunal de Contas diz que Conta Geral do Estado de 2025 não está em conformidade"
+  },
+  {
+   "id": "rtp-d1768489",
+   "ts": "2026-09-29T17:26:17Z",
+   "topic": "desporto",
+   "sub": "motores",
+   "source": "RTP Desporto",
+   "title": "\"Alteração de última hora\". Rali de Portugal fora do Mundial em 2027"
+  },
+  {
+   "id": "rtp-d1768484",
+   "ts": "2026-09-29T16:35:54Z",
+   "topic": "desporto",
+   "sub": "benfica",
+   "source": "RTP Desporto",
+   "title": "TAD anula castigo ao Benfica por confrontos no Dragão em 2025"
+  },
+  {
    "id": "ng-magui-corceiro-kika",
    "ts": "2026-09-29T16:30:47Z",
    "topic": "rosa",
    "sub": "famosos",
    "source": "Nova Gente",
    "title": "Guerra séria! Magui Corceiro não se fica e 'ataca' Kika Cerqueira Gomes com ex-namorada de Pierre Gasly"
+  },
+  {
+   "id": "rtp-d1768479",
+   "ts": "2026-09-29T16:09:48Z",
+   "topic": "desporto",
+   "sub": "selecao",
+   "source": "RTP",
+   "title": "Ronaldo e Jorge Jesus resolvem desentendimento antes da chegada de Proença"
   },
   {
    "id": "cnn-6abbcf2fd34e9a786e75a25d",
@@ -809,158 +961,6 @@
    "sub": "",
    "source": "Observador",
    "title": "Segurança leva novo modelo do ChatGPT a ser cancelado"
-  },
-  {
-   "id": "rtp-1768321",
-   "ts": "2026-09-28T23:26:03Z",
-   "topic": "economia",
-   "sub": "",
-   "source": "RTP",
-   "title": "PR pede uma estratégia a prazo para uma nova etapa no Turismo"
-  },
-  {
-   "id": "obs-cim-altominho-estradas",
-   "ts": "2026-09-28T23:19:47Z",
-   "topic": "politica",
-   "sub": "",
-   "source": "Observador",
-   "title": "CIM do Alto Minho quer 300 milhões de euros para a rede rodoviária"
-  },
-  {
-   "id": "rtp-1768318",
-   "ts": "2026-09-28T23:15:25Z",
-   "topic": "cultura",
-   "sub": "",
-   "source": "RTP",
-   "title": "Série da RTP \"Jones\" apresenta um inspetor de polícia com métodos pouco convencionais"
-  },
-  {
-   "id": "rtp-d1768317",
-   "ts": "2026-09-28T23:03:30Z",
-   "topic": "desporto",
-   "sub": "selecao",
-   "source": "RTP Desporto",
-   "title": "Liga Nações. França vence Bélgica perto do fim, Itália reergue-se na Turquia"
-  },
-  {
-   "id": "rtp-1768315",
-   "ts": "2026-09-28T22:42:01Z",
-   "topic": "economia",
-   "sub": "",
-   "source": "RTP",
-   "title": "Turismo: crescimento atual não é sustentável, alerta a Confederação do Turismo"
-  },
-  {
-   "id": "rtp-d1768313",
-   "ts": "2026-09-28T22:31:06Z",
-   "topic": "desporto",
-   "sub": "triatlo",
-   "source": "RTP Desporto",
-   "title": "Matthew Hauser justifica-se a Vilaça: \"É preciso ser cão\" para vencer"
-  },
-  {
-   "id": "obs-mercedes-fecha-fabricas",
-   "ts": "2026-09-28T22:29:57Z",
-   "topic": "economia",
-   "sub": "",
-   "source": "Observador",
-   "title": "Após a VW, também a Mercedes vai despedir e fechar fábricas"
-  },
-  {
-   "id": "rtp-1768314",
-   "ts": "2026-09-28T22:27:05Z",
-   "topic": "mundo",
-   "sub": "",
-   "source": "RTP",
-   "title": "Rússia reforça-se com tropas e mísseis norte-coreanos"
-  },
-  {
-   "id": "obs-ig-estrangeiras-44",
-   "ts": "2026-09-28T22:23:52Z",
-   "topic": "saude",
-   "sub": "",
-   "source": "Observador",
-   "title": "44% das interrupções da gravidez foram de estrangeiras"
-  },
-  {
-   "id": "obs-paris-liceus-detidos",
-   "ts": "2026-09-28T22:02:53Z",
-   "topic": "mundo",
-   "sub": "",
-   "source": "Observador",
-   "title": "164 detidos nos protestos em liceus de Paris"
-  },
-  {
-   "id": "rtp-1768294",
-   "ts": "2026-09-28T21:58:31Z",
-   "topic": "politica",
-   "sub": "",
-   "source": "RTP",
-   "title": "Cerca de 200 polícias manifestam-se na véspera de reunião com MAI"
-  },
-  {
-   "id": "rtp-1768291",
-   "ts": "2026-09-28T21:58:13Z",
-   "topic": "saude",
-   "sub": "",
-   "source": "RTP",
-   "title": "Quatro em cada dez interrupções da gravidez feitas por mulheres estrangeiras"
-  },
-  {
-   "id": "rtp-1768310",
-   "ts": "2026-09-28T21:57:54Z",
-   "topic": "mundo",
-   "sub": "",
-   "source": "RTP",
-   "title": "Português de 29 anos morre em acidente de trabalho na Suíça"
-  },
-  {
-   "id": "rtp-1768309",
-   "ts": "2026-09-28T21:36:47Z",
-   "topic": "mundo",
-   "sub": "",
-   "source": "RTP",
-   "title": "Irão pronto para \"guerra apocalíptica\" mas não exclui diplomacia"
-  },
-  {
-   "id": "rtp-1768303",
-   "ts": "2026-09-28T21:30:38Z",
-   "topic": "politica",
-   "sub": "",
-   "source": "RTP",
-   "title": "Entrevista a André Ventura. \"Justiça deu razão ao Chega\" no caso das Gémeas"
-  },
-  {
-   "id": "rtp-1768308",
-   "ts": "2026-09-28T21:22:07Z",
-   "topic": "mundo",
-   "sub": "",
-   "source": "RTP",
-   "title": "Protestos em Madrid. Imobiliária recua e permite regresso de Maricarmen a casa"
-  },
-  {
-   "id": "rtp-1768307",
-   "ts": "2026-09-28T21:10:48Z",
-   "topic": "mundo",
-   "sub": "",
-   "source": "RTP",
-   "title": "Brasil vai a votos para a Presidência com empate nas sondagens"
-  },
-  {
-   "id": "rtp-1768305",
-   "ts": "2026-09-28T21:08:15Z",
-   "topic": "mundo",
-   "sub": "",
-   "source": "RTP",
-   "title": "Sissoco Embaló anuncia candidatura às presidenciais da Guiné-Bissau"
-  },
-  {
-   "id": "rtp-1768293",
-   "ts": "2026-09-28T20:32:35Z",
-   "topic": "desporto",
-   "sub": "selecao",
-   "source": "RTP Desporto",
-   "title": "Liga Nações. Bruno Fernandes de regresso, Francisco Conceição lesionado"
   }
  ],
  "paired": [

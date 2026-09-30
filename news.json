@@ -1,22 +1,97 @@
 {
- "version": "1.1.25",
- "updated": "2026-09-30T06:15:04Z",
+ "version": "1.1.26",
+ "updated": "2026-09-30T06:40:50Z",
  "brief": [
   {
-   "texto": "Sindicatos da banca ligados à UGT convocam greve para 30 de novembro e juntam-se ao SNQTB."
+   "texto": "Parlamento debate hoje o novo regime do arrendamento, com o PS contra e o Chega a admitir o mesmo.",
+   "id": "rtp-n1768572"
   },
   {
-   "texto": "Presidente da República promulga o suplemento extraordinário para pensionistas, a pagar em dezembro."
+   "texto": "PS está preparado para viabilizar o Orçamento do Estado para 2027.",
+   "id": "obs-ps-viabilizar-oe"
   },
   {
-   "texto": "Caso das gémeas: acusação do MP diz que a mãe pediu ajuda para leite tendo mais de 100 mil euros na conta.",
-   "id": "cm-daniela-martins-100mil"
+   "texto": "Air France/KLM e Lufthansa entregam hoje as propostas finais para comprar a TAP.",
+   "id": "lusa-47858846"
   },
   {
-   "texto": "Portugal vence na Noruega por 2-1 e lidera o Grupo A4 da Liga das Nações."
+   "texto": "Arranca hoje a vacinação contra a gripe e a covid-19.",
+   "id": "rtp-n1768565"
   }
  ],
  "items": [
+  {
+   "id": "rtp-n1768572",
+   "ts": "2026-09-30T07:06:28Z",
+   "source": "RTP",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/pais/nunca-as-rendas-foram-tao-caras-em-portugal-arrendamento-em-debate-hoje-com-chumbo-no-horizonte_n1768572",
+   "title": "Nunca as rendas foram tão caras em Portugal. Arrendamento em debate hoje com chumbo no horizonte",
+   "topic": "economia",
+   "sub": "",
+   "impacto": "alto",
+   "setores": [
+    "Arrendamento",
+    "Habitação"
+   ],
+   "tickers": [],
+   "resumo": "O Parlamento debate hoje a proposta do Governo para o regime do arrendamento, com o PS a anunciar voto contra e o Chega a sinalizar o mesmo caminho. A renda mediana ultrapassou os 10 euros por metro quadrado no segundo trimestre.",
+   "img": "https://cdn-images.rtp.pt/icm/noticias/images/03/0365b812c59ae1ff2dea5bbb47761d3a?w=350&q=50&rect=0,290,4898,2685&auto=format"
+  },
+  {
+   "id": "rtp-n1768565",
+   "ts": "2026-09-30T06:37:06Z",
+   "source": "RTP",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/pais/vacinacao-contra-a-gripe-e-a-covid-19-arranca-hoje_n1768565",
+   "title": "Vacinação contra a gripe e a covid-19 arranca hoje",
+   "topic": "saude",
+   "sub": "",
+   "impacto": "alto",
+   "setores": [
+    "Gripe",
+    "Covid-19",
+    "SNS"
+   ],
+   "tickers": [],
+   "resumo": "Arranca hoje a campanha de vacinação contra a gripe e a covid-19. O bastonário dos farmacêuticos apelou à vacinação antes do pico da gripe; o SNS comprou cerca de 2,3 milhões de doses normais e 369 mil de dose elevada.",
+   "img": "https://cdn-images.rtp.pt/icm/noticias/images/e0/e01fb92e2d36d00d53f9085a449172ee?w=350&q=50&rect=0,0,1499,822&auto=format"
+  },
+  {
+   "id": "obs-epoca-incendios-20260930",
+   "ts": "2026-09-30T06:21:53Z",
+   "source": "Observador",
+   "lado": "pt",
+   "url": "https://observador.pt/2026/09/30/epoca-mais-critica-de-combate-aos-incendios-termina-esta-quarta-feira-com-menos-area-ardida-e-mais-fogos/",
+   "title": "Época mais crítica de combate a fogos termina esta quarta",
+   "topic": "tempo",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Incêndios rurais"
+   ],
+   "tickers": [],
+   "resumo": "A época mais crítica de combate aos incêndios rurais termina hoje com cerca de oito mil fogos e 74.267 hectares ardidos, menos 72% de área do que no ano passado, mas com mais ocorrências. A época ficou marcada pela morte de uma bombeira.",
+   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2000:1122:nowe:0:211/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/09/15224338/47779185.jpg"
+  },
+  {
+   "id": "obs-china-ue-resposta-firme",
+   "ts": "2026-09-30T06:19:11Z",
+   "source": "Observador",
+   "lado": "pt",
+   "url": "https://observador.pt/2026/09/30/china-promete-resposta-firme-se-uniao-europeia-adotar-novas-restricoes-comerciais/",
+   "title": "China promete resposta \"firme\" contra União Europeia",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "China",
+    "União Europeia"
+   ],
+   "tickers": [],
+   "resumo": "A China avisa que responderá com firmeza se a União Europeia adotar novas restrições comerciais contra empresas ou produtos chineses. Pequim reage a informações de que vários Estados-membros preparam um documento para limitar o acesso da China ao mercado europeu.",
+   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2000:1122:nowe:0:211/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/09/30043848/45374819.jpg"
+  },
   {
    "id": "ng-miguel-vicente-irma",
    "ts": "2026-09-30T06:00:00Z",
@@ -35,6 +110,148 @@
    "img": "https://www.novagente.pt/wp-content/uploads/2026/09/SnapInsta.to_810485510_18095286281551207_5215283026617395042_n-1024x574.jpg"
   },
   {
+   "id": "eco-prestacao-casa-outubro",
+   "ts": "2026-09-30T05:41:32Z",
+   "source": "ECO",
+   "lado": "pt",
+   "url": "https://eco.sapo.pt/2026/09/30/outubro-traz-a-maior-subida-da-prestacao-da-casa-em-tres-anos-saiba-quanto-pagara-a-mais-pelo-credito-a-habitacao/",
+   "title": "Outubro traz a maior subida da prestação da casa em três anos. Saiba quanto pagará a mais pelo crédito à habitação",
+   "topic": "economia",
+   "sub": "",
+   "impacto": "alto",
+   "setores": [
+    "Crédito à habitação",
+    "Euribor"
+   ],
+   "tickers": [],
+   "resumo": "Em outubro, as prestações do crédito à habitação sobem mais do que em qualquer revisão dos últimos três anos, por causa da subida da Euribor. Os aumentos vão de 3,76% a 14,07%, consoante o prazo de indexação.",
+   "img": "https://eco.imgix.net/uploads/2025/11/cropped-apartamentos.jpg"
+  },
+  {
+   "id": "caras-markl-globo-ouro",
+   "ts": "2026-09-30T01:31:32Z",
+   "source": "Caras",
+   "lado": "pt",
+   "url": "https://caras.pt/famosos/2026-09-30-nuno-markl-posa-com-o-globo-de-ouro-ao-lado-da-equipa-do-hospital-onde-recuperou-dos-avc/",
+   "title": "Nuno Markl posa com o Globo de Ouro ao lado da equipa do hospital onde recuperou dos AVC",
+   "topic": "rosa",
+   "sub": "famosos",
+   "impacto": "medio",
+   "setores": [
+    "Globos de Ouro"
+   ],
+   "tickers": [],
+   "resumo": "Nuno Markl regressou ao Hospital do Mar para dedicar o Globo de Ouro de Personalidade do Ano aos profissionais que o acompanharam em sete meses de reabilitação após dois AVC.",
+   "img": "https://caras.pt/wp-content/uploads/2026/09/260930_img_1100x1100uu2026-09-29-14-02-08-418787-e1790729643771-1600x900.png"
+  },
+  {
+   "id": "obs-ps-viabilizar-oe",
+   "ts": "2026-09-30T00:52:44Z",
+   "source": "Observador",
+   "lado": "pt",
+   "url": "https://observador.pt/2026/09/30/ps-ve-declaracao-de-montenegro-como-muito-positiva-e-esta-preparado-para-viabilizar-orcamento/",
+   "title": "PS pronto a viabilizar OE: \"Está encaminhado\"",
+   "topic": "politica",
+   "sub": "",
+   "impacto": "alto",
+   "setores": [
+    "OE2027",
+    "PS"
+   ],
+   "tickers": [],
+   "resumo": "Satisfeita a condição central dos socialistas, o PS está preparado para viabilizar o Orçamento do Estado para 2027. José Luís Carneiro deverá propor essa viabilização ao partido depois de o Governo entregar a proposta no Parlamento.",
+   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:4096:2303:nowe:0:213/q:70/plain/https://s3.observador.pt/wp-content/uploads/2025/09/18164959/dventura-reuniao-pm-jlc-ps-2-scaled.jpg"
+  },
+  {
+   "id": "obs-trump-ia-superinteligencia",
+   "ts": "2026-09-29T22:48:18Z",
+   "source": "Observador",
+   "lado": "pt",
+   "url": "https://observador.pt/2026/09/29/trump-e-lideres-da-ia-assinam-declaracao-que-muda-nome-da-tecnologia-para-super-inteligencia-e-aposta-na-autorregulacao/",
+   "title": "Trump e líderes da IA mudam nome para \"Super Inteligência\"",
+   "topic": "tecnologia",
+   "sub": "",
+   "impacto": "alto",
+   "setores": [
+    "IA",
+    "Autorregulação"
+   ],
+   "tickers": [],
+   "resumo": "Trump e responsáveis de empresas como Google, OpenAI, Anthropic e Nvidia, além de Elon Musk e Mark Zuckerberg, assinaram uma declaração que rejeita a regulação governamental e aposta na autorregulação do setor, com quatro recomendações de segurança.",
+   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2000:1122:nowe:0:211/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/09/29045633/47852474.jpg"
+  },
+  {
+   "id": "obs-ensino-superior-2fase",
+   "ts": "2026-09-29T22:44:16Z",
+   "source": "Observador",
+   "lado": "pt",
+   "url": "https://observador.pt/2026/09/29/segunda-fase-do-acesso-ao-ensino-superior-coloca-9-116-alunos-mas-sobram-4-069-vagas/",
+   "title": "Mais de 9 mil colocados na 2.ª fase, sobram 4.069 vagas",
+   "topic": "outros",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Ensino superior"
+   ],
+   "tickers": [],
+   "resumo": "A segunda fase de acesso ao ensino superior colocou 9.116 alunos, mas ficam por preencher 4.069 vagas. Lisboa e Porto ultrapassam os 95% de ocupação, enquanto Bragança, Beja e Viseu ficam abaixo dos 50%.",
+   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2000:1124:nowe:0:104/q:70/plain/https://s3.observador.pt/wp-content/uploads/2024/09/29080603/42813186.jpg"
+  },
+  {
+   "id": "obs-psp-suplemento-fronteiras",
+   "ts": "2026-09-29T22:36:16Z",
+   "source": "Observador",
+   "lado": "pt",
+   "url": "https://observador.pt/2026/09/29/cinco-dos-sete-sindicatos-da-psp-rejeitaram-proposta-sobre-suplemento-aos-policias-nas-fronteiras/",
+   "title": "PSP: cinco sindicatos rejeitam suplemento de fronteiras",
+   "topic": "politica",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "PSP",
+    "Sindicatos"
+   ],
+   "tickers": [],
+   "resumo": "Cinco dos sete sindicatos da PSP rejeitaram a proposta do Governo sobre o suplemento para polícias nas fronteiras; só o SPP e o SIAP assinaram o acordo. O Governo fala em avanço significativo e as próximas reuniões estão marcadas para 7 de outubro.",
+   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2000:1124:nowe:0:104/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/09/29210814/47398778.jpg"
+  },
+  {
+   "id": "lusa-47858846",
+   "ts": "2026-09-29T22:16:00Z",
+   "source": "Lusa",
+   "lado": "pt",
+   "url": "https://www.lusa.pt/article/47858846/air-france-klm-e-lufthansa-entregam-hoje-propostas-finais-de-compra-da-tap",
+   "title": "Air France/KLM e Lufthansa entregam hoje propostas finais de compra da TAP",
+   "topic": "economia",
+   "sub": "",
+   "impacto": "alto",
+   "setores": [
+    "TAP",
+    "Aviação"
+   ],
+   "tickers": [],
+   "resumo": "O grupo Air France/KLM e a Lufthansa entregam hoje as propostas finais para a compra da TAP.",
+   "img": "https://www.lusa.pt/temp/images/400x248/cache_400x248_Crop_high_29129850_4252786_04112020060400.jpg"
+  },
+  {
+   "id": "cnn-6abc31ead34e9a786e75a332",
+   "ts": "2026-09-29T22:08:00Z",
+   "source": "CNN Portugal",
+   "lado": "pt",
+   "url": "https://cnnportugal.iol.pt/supremo-tribunal/estados-unidos/supremo-tribunal-dos-eua-permite-a-trump-reativar-deportacoes-para-paises-terceiros/20260929/6abc31ead34e9a786e75a332",
+   "title": "Supremo Tribunal dos EUA permite a Trump reativar deportações para países terceiros",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "EUA",
+    "Imigração"
+   ],
+   "tickers": [],
+   "resumo": "O Supremo Tribunal dos EUA permitiu à administração Trump reativar as deportações para países terceiros. Os seis juízes conservadores votaram a favor; Sotomayor, Kagan e Brown Jackson discordaram.",
+   "img": "https://img.iol.pt/image/id/6a764ac8d34e511da0b3243a/200.jpg"
+  },
+  {
    "id": "ng-blaya-globos-ouro",
    "ts": "2026-09-29T21:30:00Z",
    "source": "Nova Gente",
@@ -51,6 +268,24 @@
    "tickers": [],
    "resumo": "A cantora Blaya criticou a falta de inclusividade na gala dos Globos de Ouro, questionando a ausência de pessoas negras entre os nomeados e os presentes.",
    "img": "https://www.novagente.pt/wp-content/uploads/2026/09/NG-Destaque-2.jpg"
+  },
+  {
+   "id": "lusa-47858343",
+   "ts": "2026-09-29T21:02:00Z",
+   "source": "Lusa",
+   "lado": "pt",
+   "url": "https://www.lusa.pt/international/article/2026-09-29/47858343/nato-condena-retórica-nuclear-irresponsável-da-rússia-que-ameaça-usar-todo-o-arsenal",
+   "title": "NATO condena \"retórica nuclear irresponsável\" da Rússia que ameaça \"usar todo o arsenal\"",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "NATO",
+    "Rússia"
+   ],
+   "tickers": [],
+   "resumo": "A NATO condenou a \"retórica nuclear irresponsável\" da Rússia, depois de Moscovo ter ameaçado usar todo o arsenal.",
+   "img": "https://www.lusa.pt/temp/images/205x135/cache_205x135_Crop_high_47040967_1387140649766477.jpg"
   },
   {
    "id": "ng-elisabete-moutinho-pedro-cell",
@@ -84,6 +319,40 @@
    "tickers": [],
    "resumo": "Diana Chaves contou um episódio com Cláudia Vieira durante o jantar da cerimónia dos Globos de Ouro.",
    "img": "https://www.novagente.pt/wp-content/uploads/2026/09/vffuyjkb.jpg"
+  },
+  {
+   "id": "rtp-d1768509",
+   "ts": "2026-09-29T19:49:26Z",
+   "source": "RTP Desporto",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/futebol-nacional/sporting-ultrapassa-os-200-mil-associados-e-quebra-recorde-do-clube_d1768509",
+   "title": "Sporting ultrapassa os 200 mil associados e quebra recorde do clube",
+   "topic": "desporto",
+   "sub": "sporting",
+   "impacto": "medio",
+   "setores": [
+    "Associados"
+   ],
+   "tickers": [],
+   "resumo": "O Sporting ultrapassou os 200 mil associados, o número mais alto da sua história, anunciou o próprio clube.",
+   "img": "https://cdn-images.rtp.pt/icm/noticias/images/ef/ef8b4eac762415d6fd32e4fc5480942b?w=350&q=50&rect=370,0,5171,2835&auto=format"
+  },
+  {
+   "id": "cnn-6abc0c57d34e53c759c74598",
+   "ts": "2026-09-29T19:06:00Z",
+   "source": "CNN Portugal",
+   "lado": "pt",
+   "url": "https://cnnportugal.iol.pt/perseguicao-policial/amadora/perseguicao-na-amadora-condutor-atropela-policia-embate-em-varios-carros-e-foge-apos-abandonar-carro-no-ic17/20260929/6abc0c57d34e53c759c74598",
+   "title": "De perseguição na Amadora a carjacking no IC17: condutor atropela polícia, embate em vários carros, abandona viatura e rouba outra",
+   "topic": "justica",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "PSP"
+   ],
+   "tickers": [],
+   "resumo": "Uma perseguição policial na Amadora terminou com o condutor a atropelar um polícia, a embater em vários carros, a abandonar a viatura no IC17 e a roubar outra.",
+   "img": ""
   },
   {
    "id": "ng-joana-diniz-jessica-maria",
@@ -122,6 +391,59 @@
    "img": ""
   },
   {
+   "id": "cnn-6abbf38ad34e53c759c7455c",
+   "ts": "2026-09-29T17:59:00Z",
+   "source": "CNN Portugal",
+   "lado": "pt",
+   "url": "https://cnnportugal.iol.pt/tribunal-de-contas/conta-geral-do-estado/tribunal-de-contas-diz-que-conta-geral-do-estado-de-2025-nao-esta-em-conformidade/20260929/6abbf38ad34e53c759c7455c",
+   "title": "Tribunal de Contas diz que Conta Geral do Estado de 2025 não está em conformidade",
+   "topic": "economia",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Tribunal de Contas",
+    "Contas públicas"
+   ],
+   "tickers": [],
+   "resumo": "O Tribunal de Contas concluiu que a Conta Geral do Estado de 2025 não está em conformidade. O parecer foi entregue ao presidente da Assembleia da República.",
+   "img": "https://img.iol.pt/image/id/649bc9ebd34ea91b0aadf6e9/200.jpg"
+  },
+  {
+   "id": "rtp-d1768489",
+   "ts": "2026-09-29T17:26:17Z",
+   "source": "RTP Desporto",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/outras-modalidades/alteracao-de-ultima-hora-rali-de-portugal-fora-do-mundial-em-2027_d1768489",
+   "title": "\"Alteração de última hora\". Rali de Portugal fora do Mundial em 2027",
+   "topic": "desporto",
+   "sub": "motores",
+   "impacto": "alto",
+   "setores": [
+    "WRC",
+    "Rali de Portugal"
+   ],
+   "tickers": [],
+   "resumo": "O Rali de Portugal ficará fora do calendário do Campeonato do Mundo de Ralis de 2027, revelou o Automóvel Club de Portugal. A prova estava prevista para maio e saiu na fase final de preparação do calendário.",
+   "img": "https://cdn-images.rtp.pt/icm/noticias/images/06/062bfea0593ecd643224f24b8925faf1?w=350&q=50&rect=0,81,1024,561&auto=format"
+  },
+  {
+   "id": "rtp-d1768484",
+   "ts": "2026-09-29T16:35:54Z",
+   "source": "RTP Desporto",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/benfica/tad-anula-castigo-ao-benfica-por-confrontos-no-dragao-em-2025_d1768484",
+   "title": "TAD anula castigo ao Benfica por confrontos no Dragão em 2025",
+   "topic": "desporto",
+   "sub": "benfica",
+   "impacto": "medio",
+   "setores": [
+    "TAD"
+   ],
+   "tickers": [],
+   "resumo": "O Tribunal Arbitral do Desporto anulou a multa de mais de cinco mil euros aplicada ao Benfica por confrontos entre adeptos no Estádio do Dragão, no clássico de 5 de outubro de 2025.",
+   "img": "https://cdn-images.rtp.pt/icm/noticias/images/bd/bd874f474647149b1566afa1225852d6?w=350&q=50&rect=0,58,1000,548&auto=format"
+  },
+  {
    "id": "ng-magui-corceiro-kika",
    "ts": "2026-09-29T16:30:47Z",
    "source": "Nova Gente",
@@ -135,6 +457,23 @@
    "tickers": [],
    "resumo": "Magui Corceiro e Kika Cerqueira Gomes estão numa troca de provocações nas redes sociais, que envolve agora a ex-namorada do piloto Pierre Gasly.",
    "img": ""
+  },
+  {
+   "id": "rtp-d1768479",
+   "ts": "2026-09-29T16:09:48Z",
+   "source": "RTP",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/selecao-nacional/ronaldo-e-jorge-jesus-resolvem-desentendimento-antes-da-chegada-de-proenca_d1768479",
+   "title": "Ronaldo e Jorge Jesus resolvem desentendimento antes da chegada de Proença",
+   "topic": "desporto",
+   "sub": "selecao",
+   "impacto": "alto",
+   "setores": [
+    "Liga das Nações"
+   ],
+   "tickers": [],
+   "resumo": "Pedro Proença partiu para a Dinamarca para uma reunião com Ronaldo e Jorge Jesus, mas o capitão chegou entretanto a entendimento com o selecionador e o aparente diferendo ficou resolvido.",
+   "img": "https://cdn-images.rtp.pt/icm/noticias/images/f7/f72c8770fd46abd3d94b0cabaf31a467?w=350&q=50&rect=0,845,5030,2758&auto=format"
   },
   {
    "id": "cnn-6abbcf2fd34e9a786e75a25d",
