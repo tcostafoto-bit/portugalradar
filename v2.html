@@ -660,7 +660,7 @@ function heroBlock(it){const c=CAT[it.topic]||CAT.outros,has=okImg(it.img);
 function topItem(it,k){const c=CAT[it.topic]||CAT.outros,has=okImg(it.img);
   return `<div class="tl${has?"":" noimg"}"><span class="n">${String(k+1).padStart(2,"0")}</span>${has?`<a href="${esc(it.url)}" data-read="${esc(it.id)}" tabindex="-1" aria-hidden="true"><img class="th" src="${esc(it.img)}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.parentNode.remove();this.closest('.tl').classList.add('noimg')"></a>`:""}<div><div class="k">${esc(c[1])}</div><h3><a href="${esc(it.url)}" target="_blank" rel="noopener" data-read="${esc(it.id)}">${esc(it.title)}</a></h3><div class="t">${isToday(it)?fmtT.format(new Date(it.ts)):fmtDT.format(new Date(it.ts))} · ${esc(it.source)}</div></div></div>`}
 function renderFront(){const items=[...data.items].sort(byTs);if(!items.length){$("#main").innerHTML=`<div class="empty">Ainda não há notícias nesta edição. A primeira atualização chega dentro de uma hora.</div>`;return}
-  const altos=items.filter(i=>i.impacto==="alto");const lead=altos.find(i=>okImg(i.img))||altos[0]||items[0];
+  const altos=items.filter(i=>i.impacto==="alto");const lead=altos[0]||items[0];
   const used=new Set([lead.id]);(data.brief||[]).forEach(b=>{if(b&&b.id)used.add(b.id)});
   const top=[...altos.filter(i=>!used.has(i.id)),...items.filter(i=>i.impacto!=="alto"&&!used.has(i.id))].slice(0,5);top.forEach(i=>used.add(i.id));
   let h=`<div class="front2">${heroBlock(lead)}<aside class="toplist"><div class="h"><span>Mais importantes</span><button type="button" data-go="capa" data-all>Ver todas →</button></div>${top.map(topItem).join("")}</aside>`;
