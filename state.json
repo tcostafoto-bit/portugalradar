@@ -1,7 +1,111 @@
 {
- "version": "1.1.28",
- "updated": "2026-09-30T08:16:07Z",
+ "version": "1.1.29",
+ "updated": "2026-09-30T09:13:33Z",
  "recent": [
+  {
+   "id": "as-ocon-haas-saida",
+   "ts": "2026-09-30T09:00:40Z",
+   "topic": "desporto",
+   "sub": "motores",
+   "source": "AutoSport",
+   "title": "F1, Esteban Ocon confirma saída da Haas no final da temporada de 2026"
+  },
+  {
+   "id": "cnn-6abccf25d34e9a786e75a37e",
+   "ts": "2026-09-30T08:58:13Z",
+   "topic": "tempo",
+   "sub": "",
+   "source": "CNN Portugal",
+   "title": "Há 63 zonas de risco de inundação em Portugal. Em algumas continua a construir-se"
+  },
+  {
+   "id": "eco-imt-presidente",
+   "ts": "2026-09-30T08:57:50Z",
+   "topic": "politica",
+   "sub": "",
+   "source": "ECO",
+   "title": "Chefe de gabinete de Miguel Pinto Luz é o novo presidente do Instituto da Mobilidade e Transportes"
+  },
+  {
+   "id": "lusa-47859920",
+   "ts": "2026-09-30T08:45:00Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "Lusa",
+   "title": "China mobiliza caças e bombardeiros junto a atol disputado com as Filipinas"
+  },
+  {
+   "id": "lusa-47859910",
+   "ts": "2026-09-30T08:43:00Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "Lusa",
+   "title": "China impõe tarifa adicional de 55% à carne brasileira após esgotar quota"
+  },
+  {
+   "id": "lusa-47859899",
+   "ts": "2026-09-30T08:41:00Z",
+   "topic": "outros",
+   "sub": "",
+   "source": "Lusa",
+   "title": "Termina hoje registo gratuito de terrenos no BUPi com 46% de área identificada no continente"
+  },
+  {
+   "id": "rtp-n1768592",
+   "ts": "2026-09-30T08:37:12Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "RTP",
+   "title": "Avião comercial desviado para a Arábia Saudita. Incidente terá resultado de briga entre pilotos"
+  },
+  {
+   "id": "hn-tvi-alexandre-lourenco",
+   "ts": "2026-09-30T08:34:56Z",
+   "topic": "justica",
+   "sub": "",
+   "source": "HealthNews",
+   "title": "Tribunal da Relação confirma: reportagens da TVI sobre Alexandre Lourenço \"não correspondem à verdade\""
+  },
+  {
+   "id": "cnn-6abcc980d34e9a786e75a378",
+   "ts": "2026-09-30T08:34:08Z",
+   "topic": "economia",
+   "sub": "",
+   "source": "CNN Portugal",
+   "title": "Mais de metade do crédito à habitação em Portugal já passa por intermediários"
+  },
+  {
+   "id": "obs-burnham-ue-brexit",
+   "ts": "2026-09-30T08:24:18Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "Observador",
+   "title": "Burnham abre a porta ao regresso à UE e critica Brexit"
+  },
+  {
+   "id": "eco-petroleo-obrigacoes",
+   "ts": "2026-09-30T08:22:14Z",
+   "topic": "economia",
+   "sub": "",
+   "source": "ECO",
+   "title": "Subida do petróleo carimba mês negro para as obrigações"
+  },
+  {
+   "id": "obs-montenegro-aula-etica",
+   "ts": "2026-09-30T08:16:36Z",
+   "topic": "politica",
+   "sub": "",
+   "source": "Observador",
+   "title": "Montenegro dá aula sobre ética e integridade a alunos do secundário"
+  },
+  {
+   "id": "cnn-6abcd06fd34e53c759c7462d",
+   "ts": "2026-09-30T08:03:08Z",
+   "topic": "tecnologia",
+   "sub": "",
+   "source": "CNN Portugal",
+   "title": "Só 23% dos trabalhadores portugueses tiveram formação em IA. É o valor mais baixo entre 11 países"
+  },
   {
    "id": "ng-betty-grafstein-tribunal",
    "ts": "2026-09-30T08:00:00Z",
@@ -17,6 +121,14 @@
    "sub": "",
    "source": "RTP",
    "title": "Centenas de detidos durante protestos estudantis em França"
+  },
+  {
+   "id": "lusa-47859694",
+   "ts": "2026-09-30T07:58:00Z",
+   "topic": "desporto",
+   "sub": "selecao",
+   "source": "Lusa",
+   "title": "Liga Nações: Seleção portuguesa treina em Copenhaga com Ronaldo em dúvida"
   },
   {
    "id": "eco-rali-portugal-criticas",
@@ -91,6 +203,14 @@
    "title": "Primeiro concerto dos Placebo em Portugal fica marcado pela expulsão de fãs"
   },
   {
+   "id": "eco-montenegro-revisao-constitucional",
+   "ts": "2026-09-30T06:39:40Z",
+   "topic": "politica",
+   "sub": "",
+   "source": "ECO",
+   "title": "Montenegro \"conta com PS\" na revisão constitucional, mas sem excluir ninguém"
+  },
+  {
    "id": "rtp-n1768565",
    "ts": "2026-09-30T06:37:06Z",
    "topic": "saude",
@@ -99,12 +219,28 @@
    "title": "Vacinação contra a gripe e a covid-19 arranca hoje"
   },
   {
+   "id": "cnn-6abcad17d34e53c759c745ef",
+   "ts": "2026-09-30T06:32:00Z",
+   "topic": "rosa",
+   "sub": "famosos",
+   "source": "CNN Portugal",
+   "title": "Morreu Fiona, filha do ator Chad Lowe, de \"Pretty Little Liars\". Tinha 13 anos"
+  },
+  {
    "id": "rtp-n1768549",
    "ts": "2026-09-30T06:31:39Z",
    "topic": "economia",
    "sub": "",
    "source": "RTP",
    "title": "Preço da eletricidade na UE sobe 22,8% desde fevereiro. Gás aumenta 88,4%"
+  },
+  {
+   "id": "hn-chaves-autarca-ministra",
+   "ts": "2026-09-30T06:25:49Z",
+   "topic": "saude",
+   "sub": "",
+   "source": "HealthNews",
+   "title": "Autarca de Chaves acusa ministra da Saúde de \"incumprimento total\" no hospital"
   },
   {
    "id": "obs-epoca-incendios-20260930",
@@ -187,6 +323,14 @@
    "title": "Ana Paula Martins admite que ninguém pode garantir que caso das gémeas não se repete"
   },
   {
+   "id": "idealista-77924",
+   "ts": "2026-09-30T05:10:14Z",
+   "topic": "economia",
+   "sub": "",
+   "source": "Idealista",
+   "title": "Economia portuguesa acelera – mas enfrenta travões no investimento"
+  },
+  {
    "id": "caras-markl-globo-ouro",
    "ts": "2026-09-30T01:31:32Z",
    "topic": "rosa",
@@ -217,6 +361,22 @@
    "sub": "",
    "source": "Observador",
    "title": "Negociações entre EUA e Irão terminam sem progressos"
+  },
+  {
+   "id": "obs-marvila-despejo",
+   "ts": "2026-09-29T23:44:19Z",
+   "topic": "outros",
+   "sub": "",
+   "source": "Observador",
+   "title": "Despejo em Marvila divide câmara e moradores"
+  },
+  {
+   "id": "obs-pacto-saude-janeiro",
+   "ts": "2026-09-29T23:29:39Z",
+   "topic": "saude",
+   "sub": "",
+   "source": "Observador",
+   "title": "Pacto para a Saúde quer consenso em janeiro"
   },
   {
    "id": "obs-parlamento-solidariedade-lusa",
@@ -355,6 +515,14 @@
    "title": "Líder da Liga Portuguesa prevê regresso das bebidas alcoólicas aos estádios"
   },
   {
+   "id": "cnn-6abc1e500cf299bc2953de48",
+   "ts": "2026-09-29T20:38:00Z",
+   "topic": "justica",
+   "sub": "",
+   "source": "CNN Portugal",
+   "title": "Exclusivo. Uma cura que não existe e uma mãe milionária: as mentiras sobre o caso das gémeas desmontadas pela acusação d"
+  },
+  {
    "id": "cnn-6abbeb470cf20dc52778dc94",
    "ts": "2026-09-29T20:06:00Z",
    "topic": "justica",
@@ -369,6 +537,14 @@
    "sub": "famosos",
    "source": "Nova Gente",
    "title": "Diana Chaves revela episódio insólito com Cláudia Vieira nos bastidores dos Globos de Ouro"
+  },
+  {
+   "id": "as-alexandre-pinto-marrocos",
+   "ts": "2026-09-29T19:58:02Z",
+   "topic": "desporto",
+   "sub": "motores",
+   "source": "AutoSport",
+   "title": "Alexandre Pinto inicia Rali de Marrocos com vitória na categoria Challenger"
   },
   {
    "id": "rtp-d1768509",
@@ -451,6 +627,14 @@
    "title": "Estónia acusa Rússia de ter ordenado incêndio que deflagrou em empresa de defesa"
   },
   {
+   "id": "as-tad-pedro-almeida-combustivel",
+   "ts": "2026-09-29T17:33:23Z",
+   "topic": "desporto",
+   "sub": "motores",
+   "source": "AutoSport",
+   "title": "TAD anula imposição de combustível no Rali de Castelo Branco e dá razão a Pedro Almeida"
+  },
+  {
    "id": "rtp-d1768489",
    "ts": "2026-09-29T17:26:17Z",
    "topic": "desporto",
@@ -497,6 +681,14 @@
    "sub": "reality",
    "source": "Nova Gente",
    "title": "Marcia Soares quebra silêncio sobre polémica Curva da Vida de Zaza: \"Tenho pena…\""
+  },
+  {
+   "id": "ojogo-18131730",
+   "ts": "2026-09-29T14:30:00Z",
+   "topic": "desporto",
+   "sub": "benfica",
+   "source": "O Jogo",
+   "title": "Grupo de conhecidos adeptos do Benfica cria o UNUM, uma \"casa de ideias\" para discutir o clube"
   },
   {
    "id": "cnn-6abbcb4cd34e9a786e75a257",
@@ -547,6 +739,14 @@
    "title": "Tânia Laranjo responde a Flávio Furtado sobre casinos ilegais: \"História inventada\""
   },
   {
+   "id": "ojogo-18131693",
+   "ts": "2026-09-29T13:16:00Z",
+   "topic": "desporto",
+   "sub": "sporting",
+   "source": "O Jogo",
+   "title": "Sporting voltou ao trabalho com uma boa notícia para Rui Borges"
+  },
+  {
    "id": "cnn-6abbb819d34e53c759c744b4",
    "ts": "2026-09-29T13:07:00Z",
    "topic": "mundo",
@@ -571,6 +771,14 @@
    "title": "Nuno Lobo lamenta decisão de AG do Benfica recusar proposta contra Proença"
   },
   {
+   "id": "rtp-d1768437",
+   "ts": "2026-09-29T12:56:51Z",
+   "topic": "desporto",
+   "sub": "atletismo",
+   "source": "RTP Desporto",
+   "title": "Pedro Duarte revela que meia-maratona do Porto vai sofrer alterações em 2027"
+  },
+  {
    "id": "ng-casados-novo-noivo-ricardo",
    "ts": "2026-09-29T12:30:00Z",
    "topic": "rosa",
@@ -585,6 +793,14 @@
    "sub": "",
    "source": "CM",
    "title": "Norte-americana de 97 anos quebra o silêncio e vai depor por videochamada no tribunal de Cascais"
+  },
+  {
+   "id": "ojogo-18131666",
+   "ts": "2026-09-29T12:05:00Z",
+   "topic": "desporto",
+   "sub": "porto",
+   "source": "O Jogo",
+   "title": "FC Porto ainda com oito jogadores no boletim clínico"
   },
   {
    "id": "cm-fcporto-macaco-clube",
@@ -745,222 +961,6 @@
    "sub": "reality",
    "source": "CM",
    "title": "Erro em especial do reality show da TVI quase levou a batota"
-  },
-  {
-   "id": "cm-professores-salario-13",
-   "ts": "2026-09-29T09:39:48Z",
-   "topic": "economia",
-   "sub": "",
-   "source": "CM",
-   "title": "Só 13,4% dos professores portugueses estão satisfeitos com o salário"
-  },
-  {
-   "id": "ipma-precipitacao-amarelo-20260929",
-   "ts": "2026-09-29T09:13:00Z",
-   "topic": "tempo",
-   "sub": "",
-   "source": "IPMA",
-   "title": "Aviso amarelo de precipitação em sete distritos"
-  },
-  {
-   "id": "cm-susana-werner-portugal",
-   "ts": "2026-09-29T09:07:09Z",
-   "topic": "rosa",
-   "sub": "famosos",
-   "source": "CM",
-   "title": "Susana Werner anuncia que vai deixar Portugal com o marido"
-  },
-  {
-   "id": "abola-balakin-arbitro-dinamarca",
-   "ts": "2026-09-29T09:00:52Z",
-   "topic": "desporto",
-   "sub": "selecao",
-   "source": "A Bola",
-   "title": "Ucraniano talismã para portugueses apita Seleção na Dinamarca"
-  },
-  {
-   "id": "ng-miguel-vicente-bb",
-   "ts": "2026-09-29T09:00:00Z",
-   "topic": "rosa",
-   "sub": "reality",
-   "source": "Nova Gente",
-   "title": "Código secreto? O gesto suspeito de Miguel Vicente que ninguém viu no Big Brother"
-  },
-  {
-   "id": "record-jaime-faria-toquio",
-   "ts": "2026-09-29T08:56:42Z",
-   "topic": "desporto",
-   "sub": "tenis",
-   "source": "Record",
-   "title": "Jaime Faria falha acesso ao quadro principal do torneio de Tóquio"
-  },
-  {
-   "id": "rtp-1768376",
-   "ts": "2026-09-29T08:36:01Z",
-   "topic": "desporto",
-   "sub": "selecao",
-   "source": "RTP Desporto",
-   "title": "Seleção portuguesa treina em Malmo com Conceição em dúvida"
-  },
-  {
-   "id": "lusa-47853862",
-   "ts": "2026-09-29T08:33:00Z",
-   "topic": "mundo",
-   "sub": "",
-   "source": "Lusa",
-   "title": "Redução da ajuda ameaça mais de oito milhões de refugiados e deslocados - ONU"
-  },
-  {
-   "id": "lusa-47853831",
-   "ts": "2026-09-29T08:15:00Z",
-   "topic": "cultura",
-   "sub": "",
-   "source": "Lusa",
-   "title": "Revelada lista dos artistas que vão atuar nos concertos para celebrar Luís Represas"
-  },
-  {
-   "id": "ojogo-pogacar-europeu",
-   "ts": "2026-09-29T08:12:00Z",
-   "topic": "desporto",
-   "sub": "ciclismo",
-   "source": "O Jogo",
-   "title": "Pogacar quer voltar no Europeu: médico autorizou, falta convencer a UAE Emirates"
-  },
-  {
-   "id": "rtp-1768360",
-   "ts": "2026-09-29T08:04:47Z",
-   "topic": "mundo",
-   "sub": "",
-   "source": "RTP",
-   "title": "Papa Leão XIV alerta para os perigos reais da Inteligência Artificial"
-  },
-  {
-   "id": "ojogo-norris-colapinto",
-   "ts": "2026-09-29T08:02:00Z",
-   "topic": "desporto",
-   "sub": "motores",
-   "source": "O Jogo",
-   "title": "Lando Norris arrependido do ataque a Franco Colapinto: \"Estava com os ânimos exaltados\""
-  },
-  {
-   "id": "rtp-1768358",
-   "ts": "2026-09-29T08:01:47Z",
-   "topic": "mundo",
-   "sub": "",
-   "source": "RTP",
-   "title": "Eleições São Tomé. Ambos os partidos reclamam vitória"
-  },
-  {
-   "id": "cm-armas-mesmo-serie-caparica",
-   "ts": "2026-09-29T08:01:39Z",
-   "topic": "justica",
-   "sub": "",
-   "source": "CM",
-   "title": "Apreendidas três armas com o mesmo número de série, a última na Caparica"
-  },
-  {
-   "id": "ng-andrea-francisco-monteiro",
-   "ts": "2026-09-29T08:00:00Z",
-   "topic": "rosa",
-   "sub": "reality",
-   "source": "Nova Gente",
-   "title": "Andrea quebra o silêncio e fala sobre romance com Francisco Monteiro"
-  },
-  {
-   "id": "lusa-47853840",
-   "ts": "2026-09-29T08:00:00Z",
-   "topic": "outros",
-   "sub": "",
-   "source": "Lusa",
-   "title": "Qualidade da água da torneira quase a 100% - relatório"
-  },
-  {
-   "id": "ojogo-vagiannidis-grecia",
-   "ts": "2026-09-29T07:33:00Z",
-   "topic": "desporto",
-   "sub": "sporting",
-   "source": "O Jogo",
-   "title": "Sporting em alerta por Vagiannidis: lateral com queixas na Grécia"
-  },
-  {
-   "id": "lusa-47853808",
-   "ts": "2026-09-29T07:27:00Z",
-   "topic": "mundo",
-   "sub": "",
-   "source": "Lusa",
-   "title": "Pelo menos 50 mortos em ataque aéreo contra mercado no Myanmar - Novo balanço"
-  },
-  {
-   "id": "cm-daniela-martins-100mil",
-   "ts": "2026-09-29T07:18:30Z",
-   "topic": "justica",
-   "sub": "",
-   "source": "CM",
-   "title": "Daniela Martins pediu ajuda para tudo, até para comprar leite, tendo mais de 100 mil euros na conta"
-  },
-  {
-   "id": "ojogo-ronaldo-amuo-jesus",
-   "ts": "2026-09-29T07:17:00Z",
-   "topic": "desporto",
-   "sub": "selecao",
-   "source": "O Jogo",
-   "title": "Amuo de Cristiano Ronaldo deu a volta ao mundo e Jesus falou com o capitão"
-  },
-  {
-   "id": "rtp-1768351",
-   "ts": "2026-09-29T07:10:11Z",
-   "topic": "justica",
-   "sub": "",
-   "source": "RTP",
-   "title": "Ocorrências nas escolas aumentaram no último ano letivo para mais de 4.000"
-  },
-  {
-   "id": "lusa-47853802",
-   "ts": "2026-09-29T07:09:00Z",
-   "topic": "outros",
-   "sub": "",
-   "source": "Lusa",
-   "title": "Orgulho profissional protege bombeiros e polícias de desgaste emocional - estudo"
-  },
-  {
-   "id": "cm-marcelo-sabia-tratamento",
-   "ts": "2026-09-29T07:02:01Z",
-   "topic": "justica",
-   "sub": "",
-   "source": "CM",
-   "title": "Ex-Presidente da República sabia que as crianças vinham para Portugal apenas para receber tratamento"
-  },
-  {
-   "id": "rtp-1768101",
-   "ts": "2026-09-29T07:02:01Z",
-   "topic": "politica",
-   "sub": "",
-   "source": "RTP",
-   "title": "Gonçalo Matias responde a Passos: \"Temos quatro anos para fazer as reformas\""
-  },
-  {
-   "id": "ng-marta-melro",
-   "ts": "2026-09-29T07:00:06Z",
-   "topic": "rosa",
-   "sub": "famosos",
-   "source": "Nova Gente",
-   "title": "Tudo sobre André Drogas, o novo namorado de Marta Melro"
-  },
-  {
-   "id": "as-rali-sardenha-titulo",
-   "ts": "2026-09-29T06:54:36Z",
-   "topic": "desporto",
-   "sub": "motores",
-   "source": "AutoSport",
-   "title": "Rally da Sardenha: Luta a três pelo título Mundial de Ralis"
-  },
-  {
-   "id": "rtp-1768342",
-   "ts": "2026-09-29T06:39:48Z",
-   "topic": "mundo",
-   "sub": "",
-   "source": "RTP",
-   "title": "China pede ao Japão que retifique posição sobre Taiwan para superar crise bilateral"
   }
  ],
  "paired": [
