@@ -6,6 +6,8 @@ on:
       - "inbox/**"
       - "seo_build.py"
   workflow_dispatch:
+  schedule:
+    - cron: "*/15 * * * *"   # vai buscar os lotes deixados no Notion pela tarefa agendada
 
 permissions:
   contents: write
@@ -22,7 +24,25 @@ jobs:
         with:
           ref: main
 
+      - name: Recolher lotes do Notion
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_DONE: ${{ runner.temp }}/notion_done.txt
+        run: python3 notion_inbox.py pull
+
+      - name: Há alguma coisa para fazer?
+        id: work
+        run: |
+          shopt -s nullglob
+          files=(inbox/*.json)
+          if [ ${#files[@]} -eq 0 ] && [ "${{ github.event_name }}" = "schedule" ]; then
+            echo "Caixa de entrada vazia"; echo "go=0" >> "$GITHUB_OUTPUT"
+          else
+            echo "go=1" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Fundir cada ficheiro da caixa de entrada
+        if: steps.work.outputs.go == '1'
         run: |
           set -e
           shopt -s nullglob
@@ -38,13 +58,15 @@ jobs:
           PY
             python3 radar_merge.py .
             rm -f new_items.json market.json
-            git rm -q "$f"
+            git rm -q --ignore-unmatch "$f"; rm -f "$f"
           done
 
       - name: SEO (capa estática, páginas por secção, sitemap, RSS)
+        if: steps.work.outputs.go == '1'
         run: python3 seo_build.py .
 
       - name: Publicar
+        if: steps.work.outputs.go == '1'
         run: |
           git config user.name "Portugal Radar bot"
           git config user.email "tcostafoto-bit@users.noreply.github.com"
@@ -54,7 +76,15 @@ jobs:
           git pull -q --rebase origin main || true
           git push -q origin main
 
+      - name: Arquivar no Notion os lotes já publicados
+        if: steps.work.outputs.go == '1'
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_DONE: ${{ runner.temp }}/notion_done.txt
+        run: python3 notion_inbox.py archive
+
       - name: Avisar Bing/Yandex (IndexNow)
+        if: steps.work.outputs.go == '1'
         continue-on-error: true
         run: |
           KEY=3dce3190845ad84d85c0088bc4641e3a
