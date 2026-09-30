@@ -646,9 +646,8 @@ function renderFilters(){const el=$("#filters");const c=CAT[view];if(!c){el.hidd
     if(fSport==="futebol")h+=`<span class="brk"></span><span class="k">Futebol</span>`+chip("s:","Todos",fSub.size===0,base.filter(isF).length)+FUT.map(s=>chip("s:"+s[0],s[1],fSub.has(s[0]),base.filter(i=>i.sub===s[0]).length)).join("");
     h+=`<span class="brk"></span>`}
   else if(c[3]){h+=`<span class="k">Dentro</span>`+chip("","Tudo",fSub.size===0,base.length)+c[3].map(s=>chip("s:"+s[0],s[1],fSub.has(s[0]),base.filter(i=>i.sub===s[0]).length)).join("")}
-  h+=`<span class="k" style="margin-left:${c[3]&&view!=="desporto"?"10px":"0"}">Impacto</span>`+chip("i:","Todos",fImp.size===0)+IMPS.map(([k,n])=>chip("i:"+k,n,fImp.has(k),base.filter(i=>i.impacto===k).length)).join("");
   if(zeroList.length&&(view==="desporto"||c[3]))h+=`<span class="brk"></span><span class="zl">Sem notícias nos últimos 5 dias: ${zeroList.map(esc).join(", ")}</span>`;
-  el.innerHTML=h}
+  if(!h){el.hidden=true;el.innerHTML="";return}el.innerHTML=h}
 $("#filters").addEventListener("click",e=>{const b=e.target.closest(".chip");if(!b)return;const k=b.dataset.k;
   if(k.startsWith("d:")){const v=k.slice(2);fSport=(fSport===v?"":v);fSub.clear();render();return}
   const set=k.startsWith("s:")?fSub:fImp,v=k.slice(2),was=set.has(v);
