@@ -1,18 +1,20 @@
 {
- "version": "1.1.22",
- "updated": "2026-09-30T03:14:13Z",
+ "version": "1.1.23",
+ "updated": "2026-09-30T04:13:34Z",
  "brief": [
   {
-   "texto": "Sindicatos da banca afetos à UGT convocam greve para 30 de novembro e juntam-se ao SNQTB."
+   "texto": "O Presidente da República promulgou o suplemento extraordinário para pensionistas, que será pago em dezembro com a pensão desse mês."
   },
   {
-   "texto": "Presidente da República promulga suplemento extraordinário para pensionistas, a pagar em dezembro."
+   "texto": "Sindicatos da banca ligados à UGT convocam greve para 30 de novembro e juntam-se ao SNQTB, em protesto contra aumentos de 2%."
   },
   {
-   "texto": "Euribor a seis meses atinge novo máximo desde setembro de 2024."
+   "texto": "Governo retoma negociações do OE 2027 com os partidos, com PS e Chega a criticar a falta de apoios às famílias.",
+   "id": "obs-oe27-negociacoes-partidos"
   },
   {
-   "texto": "Caso das gémeas: PSD acusa Chega de querer que o Parlamento faça o trabalho da polícia."
+   "texto": "O Irão apresentou na ONU um plano para reabrir o estreito de Ormuz em sete dias e retomar as negociações nucleares.",
+   "id": "cm-hormuz-plano-ira"
   }
  ],
  "items": [
