@@ -1,7 +1,111 @@
 {
- "version": "1.1.33",
- "updated": "2026-09-30T11:16:50Z",
+ "version": "1.1.34",
+ "updated": "2026-09-30T12:16:43Z",
  "recent": [
+  {
+   "id": "hn-bastonario-saude-publica-investimento",
+   "ts": "2026-09-30T12:08:00Z",
+   "topic": "saude",
+   "sub": "",
+   "source": "HealthNews",
+   "title": "Bastonário da Ordem dos Médicos pede que a saúde pública seja vista como investimento e não como despesa"
+  },
+  {
+   "id": "rtp-d1768623",
+   "ts": "2026-09-30T12:07:16Z",
+   "topic": "desporto",
+   "sub": "motores",
+   "source": "RTP",
+   "title": "Viseu diz \"não\" ao Rali de Portugal com exclusão no Mundial em 2027"
+  },
+  {
+   "id": "nit-placebo-30-anos-lisboa",
+   "ts": "2026-09-30T12:07:06Z",
+   "topic": "cultura",
+   "sub": "",
+   "source": "NiT",
+   "title": "Placebo celebraram 30 anos em Lisboa. Nenhum fã foi expulso, mas houve alguma desilusão"
+  },
+  {
+   "id": "ng-eva-pais-vendas-gomas",
+   "ts": "2026-09-30T12:00:00Z",
+   "topic": "rosa",
+   "sub": "famosos",
+   "source": "Nova Gente",
+   "title": "Eva Pais perde vendas no negócio! Irmã Maryn revela tudo o que se passou: \"Danos significativos\""
+  },
+  {
+   "id": "abola-guimaraes-portal-transparencia",
+   "ts": "2026-09-30T11:58:00Z",
+   "topic": "desporto",
+   "sub": "liga",
+   "source": "A Bola",
+   "title": "Vitória de Guimarães revela detalhes sobre as transferências do mercado de verão"
+  },
+  {
+   "id": "cnn-6abcf34ad34e53c759c74723",
+   "ts": "2026-09-30T11:58:00Z",
+   "topic": "politica",
+   "sub": "",
+   "source": "CNN Portugal",
+   "title": "\"A democracia pode perder-se\": Seguro alerta para \"correntes extremistas\" e defende que \"os direitos das mulheres não sã"
+  },
+  {
+   "id": "rtp-n1768617",
+   "ts": "2026-09-30T11:57:53Z",
+   "topic": "economia",
+   "sub": "",
+   "source": "RTP",
+   "title": "TdC alerta para não se relativizar desconformidade da Conta Geral do Estado"
+  },
+  {
+   "id": "eco-bnp-paribas-ugt-acordo",
+   "ts": "2026-09-30T11:56:49Z",
+   "topic": "economia",
+   "sub": "",
+   "source": "ECO",
+   "title": "Sindicatos da UGT e BNP Paribas chegam a acordo para aumentos salariais de 3,25%"
+  },
+  {
+   "id": "eco-frente-sindical-2027",
+   "ts": "2026-09-30T11:46:44Z",
+   "topic": "economia",
+   "sub": "",
+   "source": "ECO",
+   "title": "Frente Sindical reivindica aumentos acima de 5% para 2027"
+  },
+  {
+   "id": "eco-taxa-lucros-retalho-congelada",
+   "ts": "2026-09-30T11:46:19Z",
+   "topic": "economia",
+   "sub": "",
+   "source": "ECO",
+   "title": "Receita da taxa sobre lucros extraordinários do retalho continua congelada"
+  },
+  {
+   "id": "eco-bilhete-unico-contactless",
+   "ts": "2026-09-30T11:41:54Z",
+   "topic": "economia",
+   "sub": "",
+   "source": "ECO",
+   "title": "Governo dá pontapé de saída no bilhete único para transportes com pagamentos \"contactless\""
+  },
+  {
+   "id": "cnn-6abcf5a4d34e53c759c7472e",
+   "ts": "2026-09-30T11:41:00Z",
+   "topic": "justica",
+   "sub": "",
+   "source": "CNN Portugal",
+   "title": "Homem de 49 anos encontrado morto em casa alugada na Ericeira. PJ investiga suspeitas de crime"
+  },
+  {
+   "id": "obs-irao-resposta-washington",
+   "ts": "2026-09-30T11:32:34Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "Observador",
+   "title": "Irão recebe resposta oficial de Washington a proposta de paz"
+  },
   {
    "id": "rtp-n1768613",
    "ts": "2026-09-30T11:06:26Z",
@@ -81,6 +185,14 @@
    "sub": "",
    "source": "CNN Portugal",
    "title": "Procurado em França por tráfico de armas é detido no Algarve"
+  },
+  {
+   "id": "eco-cta-turismo-oe2027",
+   "ts": "2026-09-30T10:14:20Z",
+   "topic": "economia",
+   "sub": "",
+   "source": "ECO",
+   "title": "Patrões do turismo querem que OE2027 volte a reduzir carga fiscal sobre empresas e trabalhadores"
   },
   {
    "id": "eco-desemprego-agosto-2026",
@@ -331,6 +443,14 @@
    "title": "Avião comercial desviado para a Arábia Saudita. Incidente terá resultado de briga entre pilotos"
   },
   {
+   "id": "cnn-6abcca11d34e9a786e75a37a",
+   "ts": "2026-09-30T08:35:00Z",
+   "topic": "justica",
+   "sub": "",
+   "source": "CNN Portugal",
+   "title": "Polícia atropelado durante perseguição na Amadora sofreu duas fraturas expostas e vai ser operado"
+  },
+  {
    "id": "hn-tvi-alexandre-lourenco",
    "ts": "2026-09-30T08:34:56Z",
    "topic": "justica",
@@ -547,6 +667,14 @@
    "title": "Conselho Nacional. Montenegro exige rigor no debate do Orçamento"
   },
   {
+   "id": "rtp-v1768584",
+   "ts": "2026-09-30T07:00:47Z",
+   "topic": "politica",
+   "sub": "",
+   "source": "RTP",
+   "title": "Suplemento da PSP. Apenas dois sindicatos aceitam acordo"
+  },
+  {
    "id": "cnn-6abbb623d34e9a786e75a1ae",
    "ts": "2026-09-30T07:00:00Z",
    "topic": "cultura",
@@ -593,6 +721,14 @@
    "sub": "",
    "source": "RTP",
    "title": "Vacinação contra a gripe e a covid-19 arranca hoje"
+  },
+  {
+   "id": "rtp-n1768579",
+   "ts": "2026-09-30T06:34:15Z",
+   "topic": "outros",
+   "sub": "",
+   "source": "RTP",
+   "title": "Ensino Superior. Segunda fase de colocação com mais alunos"
   },
   {
    "id": "cnn-6abcad17d34e53c759c745ef",
@@ -825,151 +961,15 @@
    "sub": "",
    "source": "Observador",
    "title": "PS pronto a viabilizar OE: \"Está encaminhado\""
-  },
-  {
-   "id": "rtp-a1-1768552",
-   "ts": "2026-09-30T00:49:02Z",
-   "topic": "saude",
-   "sub": "",
-   "source": "RTP",
-   "title": "Relatório: calor e poluição entre os principais riscos ambientais que provocaram milhares de mortes em Portugal"
-  },
-  {
-   "id": "rtp-a1-1768550",
-   "ts": "2026-09-30T00:37:02Z",
-   "topic": "politica",
-   "sub": "",
-   "source": "RTP",
-   "title": "Orçamento do Estado: Madeira vai ser compensada com cerca de 80 milhões de euros"
-  },
-  {
-   "id": "cm-almirante-reis-crime",
-   "ts": "2026-09-30T00:31:08Z",
-   "topic": "justica",
-   "sub": "",
-   "source": "CM",
-   "title": "Crime de madrugada na zona da Almirante Reis. PSP investiga"
-  },
-  {
-   "id": "caras-depp-heredade",
-   "ts": "2026-09-30T00:29:20Z",
-   "topic": "rosa",
-   "sub": "famosos",
-   "source": "Caras",
-   "title": "Por que razão Johnny Depp pagou o dobro do que lucrou para adquirir uma herdade que já fora sua"
-  },
-  {
-   "id": "obs-eua-irao-sem-progressos-20260930",
-   "ts": "2026-09-30T00:15:28Z",
-   "topic": "mundo",
-   "sub": "",
-   "source": "Observador",
-   "title": "Negociações entre EUA e Irão terminam sem progressos"
-  },
-  {
-   "id": "cm-grua-sao-carlos",
-   "ts": "2026-09-30T00:02:39Z",
-   "topic": "outros",
-   "sub": "",
-   "source": "CM",
-   "title": "Grua entra por janela de quarto e destrói varanda na Travessa de São Carlos"
-  },
-  {
-   "id": "record-tiknaz-braga",
-   "ts": "2026-09-30T00:00:00Z",
-   "topic": "desporto",
-   "sub": "braga",
-   "source": "Record",
-   "title": "Demir Tiknaz custa mais 500 mil euros"
-  },
-  {
-   "id": "record-sub18-torneio-porto",
-   "ts": "2026-09-30T00:00:00Z",
-   "topic": "desporto",
-   "sub": "selecao",
-   "source": "Record",
-   "title": "Portugal entra a vencer no Torneio Internacional do Porto"
-  },
-  {
-   "id": "obs-marvila-despejo",
-   "ts": "2026-09-29T23:44:19Z",
-   "topic": "outros",
-   "sub": "",
-   "source": "Observador",
-   "title": "Despejo em Marvila divide câmara e moradores"
-  },
-  {
-   "id": "obs-museus-gratuitos-inglaterra",
-   "ts": "2026-09-29T23:30:09Z",
-   "topic": "cultura",
-   "sub": "",
-   "source": "Observador",
-   "title": "Inglaterra mantém museus gratuitos para turistas"
-  },
-  {
-   "id": "obs-pacto-saude-janeiro",
-   "ts": "2026-09-29T23:29:39Z",
-   "topic": "saude",
-   "sub": "",
-   "source": "Observador",
-   "title": "Pacto para a Saúde quer consenso em janeiro"
-  },
-  {
-   "id": "obs-parlamento-solidariedade-lusa",
-   "ts": "2026-09-29T23:10:41Z",
-   "topic": "politica",
-   "sub": "",
-   "source": "Observador",
-   "title": "Parlamento aprova solidariedade com jornalistas da Lusa, mas Chega vota contra e PSD abstém-se"
-  },
-  {
-   "id": "caras-rei-tooro-uganda",
-   "ts": "2026-09-29T23:06:30Z",
-   "topic": "rosa",
-   "sub": "realeza",
-   "source": "Caras",
-   "title": "Jornalista de TV é coroado rei após intensa e acesa disputa por trono real"
-  },
-  {
-   "id": "as-drift-campeoes-lousada",
-   "ts": "2026-09-29T23:01:00Z",
-   "topic": "desporto",
-   "sub": "motores",
-   "source": "AutoSport",
-   "title": "Hugo Costa e Joel Simões sagram-se campeões nacionais de drift em Lousada"
-  },
-  {
-   "id": "obs-lusa-ca-pressoes",
-   "ts": "2026-09-29T22:50:15Z",
-   "topic": "politica",
-   "sub": "",
-   "source": "Observador",
-   "title": "Lusa: CA rejeita pressões e admite mudanças na direção"
-  },
-  {
-   "id": "rtp-n1768540",
-   "ts": "2026-09-29T22:49:40Z",
-   "topic": "mundo",
-   "sub": "",
-   "source": "RTP",
-   "title": "Síria anuncia detenção de membros de uma célula ligada ao Hezbollah"
-  },
-  {
-   "id": "obs-trump-ia-superinteligencia",
-   "ts": "2026-09-29T22:48:18Z",
-   "topic": "tecnologia",
-   "sub": "",
-   "source": "Observador",
-   "title": "Trump e líderes da IA mudam nome para \"Super Inteligência\""
   }
  ],
  "paired": [
   "cnn-6abc287dd34e9a786e75a323",
+  "cnn-6abcaf7dd34e53c759c745f0",
   "ng-claudio-ramos-responde-mae-jessica-maria",
   "ng-jessica-maria-claudio-ramos",
-  "obs-gemeas-psd-marcelo",
+  "nit-placebo-30-anos-lisboa",
   "obs-trump-ia-superinteligencia",
-  "rtp-1768303",
   "rtp-a1-1768533",
   "rtp-n1768585"
  ],
