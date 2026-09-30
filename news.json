@@ -1,25 +1,290 @@
 {
- "version": "1.1.36",
- "updated": "2026-09-30T14:16:28Z",
+ "version": "1.1.37",
+ "updated": "2026-09-30T15:17:17Z",
  "brief": [
   {
-   "texto": "Israel classifica como ataque terrorista o incidente no voo da Flydubai e interroga um copiloto.",
-   "id": "cnn-6abd16edd34e9a786e75a4fc"
+   "texto": "O PS vai abster-se na votação do Orçamento do Estado para 2027, anunciou José Luís Carneiro.",
+   "id": "rtp-n1768673"
   },
   {
-   "texto": "Parlamento debate nova lei do arrendamento, com chumbo praticamente garantido.",
-   "id": "rtp-e1768638"
+   "texto": "O Parlamento debate a nova lei do arrendamento, com chumbo à vista; o primeiro-ministro admite ir mais longe nos pontos de convergência.",
+   "id": "lusa-47862135"
   },
   {
-   "texto": "Inflação sobe para 3,6% em setembro, impulsionada pelos combustíveis.",
+   "texto": "A inflação sobe para 3,6% em setembro, puxada pelos combustíveis.",
    "id": "obs-inflacao-setembro-2026"
   },
   {
-   "texto": "Viseu confirma que o Rali de Portugal 2027 não se realiza, após a exclusão do Mundial.",
-   "id": "rtp-d1768623"
+   "texto": "Proença reuniu-se em Copenhaga com Jorge Jesus e Cristiano Ronaldo antes do jogo com a Dinamarca.",
+   "id": "abola-proenca-reuniao-jesus-ronaldo"
   }
  ],
  "items": [
+  {
+   "id": "eco-russia-aviso-nuclear-nato-baltico",
+   "ts": "2026-09-30T15:09:48Z",
+   "source": "ECO",
+   "lado": "pt",
+   "url": "https://eco.sapo.pt/2026/09/30/russia-faz-aviso-nuclear-a-nato-com-tensao-no-baltico-a-subir/",
+   "title": "Rússia faz aviso nuclear à NATO com tensão no Báltico a subir",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "alto",
+   "setores": [
+    "NATO",
+    "Kaliningrado"
+   ],
+   "tickers": [],
+   "resumo": "Moscovo avisou a NATO de que recorrerá a armas nucleares se a aliança tentar isolar Kaliningrado, enclave junto ao Báltico, e acusa-a de seguir um rumo perigoso e imprudente.",
+   "img": "https://eco.imgix.net/uploads/2026/07/cropped-47442079-scaled-3.jpg"
+  },
+  {
+   "id": "nit-avenida-portugal-carminha",
+   "ts": "2026-09-30T15:09:12Z",
+   "source": "NiT",
+   "lado": "pt",
+   "url": "https://www.nit.pt/cultura/televisao/ja-sabemos-quem-vai-ser-a-carminha-em-avenida-portugal-novela-chega-em-2027",
+   "title": "Já sabemos quem vai ser a Carminha em \"Avenida Portugal\". Novela chega em 2027",
+   "topic": "cultura",
+   "sub": "",
+   "impacto": "baixo",
+   "setores": [
+    "SIC",
+    "Telenovela"
+   ],
+   "tickers": [],
+   "resumo": "Margarida Vila-Nova vai interpretar Carminha em Avenida Portugal, adaptação portuguesa da telenovela brasileira Avenida Brasil, que a SIC estreia em 2027.",
+   "img": ""
+  },
+  {
+   "id": "rtp-n1768663",
+   "ts": "2026-09-30T15:03:03Z",
+   "source": "RTP",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/mundo/xi-jinping-pronto-para-reprimir-firmemente-forcas-pela-independencia-de-taiwan_n1768663",
+   "title": "Xi Jinping pronto para \"reprimir firmemente\" forças pela independência de Taiwan",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "China",
+    "Taiwan"
+   ],
+   "tickers": [],
+   "resumo": "O Presidente chinês, Xi Jinping, disse estar determinado a combater as forças pró-independência de Taiwan e a ingerência externa, na véspera do Dia Nacional da República Popular da China.",
+   "img": "https://cdn-images.rtp.pt/icm/noticias/images/78/78e11e6107739cc6ed77950cd56a5e3c?w=350&q=50&rect=0,39,1238,679&auto=format"
+  },
+  {
+   "id": "rtp-n1768673",
+   "ts": "2026-09-30T14:57:24Z",
+   "source": "RTP",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/politica/carneiro-vai-propor-aos-orgaos-do-partido-abstencao-do-ps_n1768673",
+   "title": "Carneiro vai propor aos órgãos do partido abstenção do PS",
+   "topic": "politica",
+   "sub": "",
+   "impacto": "alto",
+   "setores": [
+    "OE2027",
+    "PS"
+   ],
+   "tickers": [],
+   "resumo": "O secretário-geral do PS, José Luís Carneiro, vai propor aos órgãos do partido a abstenção na votação do Orçamento do Estado para 2027, depois das garantias dadas pelo primeiro-ministro.",
+   "img": "https://cdn-images.rtp.pt/icm/noticias/images/8a/8aecd3f81950afdff38077376208a6b3?w=350&q=50&rect=0,0,1499,822&auto=format"
+  },
+  {
+   "id": "lusa-47862391",
+   "ts": "2026-09-30T14:55:00Z",
+   "source": "Lusa",
+   "lado": "pt",
+   "url": "https://www.lusa.pt/culture/article/2026-09-30/47862391/festival-músicas-do-mundo-regressa-a-sines-entre-16-a-24-de-julho-em-2027",
+   "title": "Festival Músicas do Mundo regressa a Sines entre 16 a 24 de julho em 2027",
+   "topic": "cultura",
+   "sub": "",
+   "impacto": "baixo",
+   "setores": [
+    "Festivais"
+   ],
+   "tickers": [],
+   "resumo": "O Festival Músicas do Mundo realiza-se entre 16 e 24 de julho de 2027, em Porto Covo e Sines, mais cedo do que o habitual por causa da Tall Ships 2027.",
+   "img": "https://www.lusa.pt/temp/images/580x336/cache_580x336_Crop_high_43284230_7261335_27072024072109.jpg"
+  },
+  {
+   "id": "obs-nuncio-isabel-moreira-queixas",
+   "ts": "2026-09-30T14:49:33Z",
+   "source": "Observador",
+   "lado": "pt",
+   "url": "https://observador.pt/2026/09/30/paulo-nuncio-cds-e-isabel-moreira-ps-apresentam-queixas-um-contra-o-outro/",
+   "title": "Paulo Núncio e Isabel Moreira apresentam queixas mútuas",
+   "topic": "politica",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "CDS-PP",
+    "PS",
+    "Identidade de género"
+   ],
+   "tickers": [],
+   "resumo": "Paulo Núncio (CDS) e Isabel Moreira (PS) apresentaram queixas um contra o outro na sequência do debate sobre a revisão da lei da autodeterminação de género, com uma participação também contra o deputado do PSD Bruno Vitorino.",
+   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:4096:2303:nowe:0:213/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/07/17110936/dventura-debate-urgencia-exames-18-scaled.jpg"
+  },
+  {
+   "id": "cnn-6abd202fd34e53c759c747c5",
+   "ts": "2026-09-30T14:43:00Z",
+   "source": "CNN Portugal",
+   "lado": "pt",
+   "url": "https://cnnportugal.iol.pt/habitacao/luis-montenegro/nao-vale-a-pena-estar-com-papoes-montenegro-rejeita-que-novas-regras-flexibilizem-rendas/20260930/6abd202fd34e53c759c747c5",
+   "title": "\"Não vale a pena estar com papões\": Montenegro rejeita que novas regras flexibilizem rendas",
+   "topic": "economia",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Arrendamento"
+   ],
+   "tickers": [],
+   "resumo": "O primeiro-ministro defende que as medidas do Governo dão dinamismo ao mercado e rejeita que as novas regras flexibilizem as rendas.",
+   "img": "https://img.iol.pt/image/id/6aac463bd34e53c759c72a03/200.jpg"
+  },
+  {
+   "id": "obs-conselho-europeu-outubro-combustiveis",
+   "ts": "2026-09-30T14:41:53Z",
+   "source": "Observador",
+   "lado": "pt",
+   "url": "https://observador.pt/2026/09/30/irao-conselho-europeu-de-outubro-vai-tomar-decisoes-na-resposta-a-crise-dos-combustiveis/",
+   "title": "Combustíveis. Conselho Europeu decide medidas em breve",
+   "topic": "economia",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Combustíveis",
+    "União Europeia"
+   ],
+   "tickers": [],
+   "resumo": "Graça Carvalho afirmou que o Conselho Europeu de outubro vai tomar decisões sobre a resposta à crise dos combustíveis e defendeu que Bruxelas deve considerar a diversidade dos países.",
+   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2000:1124:nowe:0:105/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/04/15120428/46934280.jpg"
+  },
+  {
+   "id": "obs-volta-sdr-plano-limpeza",
+   "ts": "2026-09-30T14:40:08Z",
+   "source": "Observador",
+   "lado": "pt",
+   "url": "https://observador.pt/2026/09/30/governo-da-15-dias-a-sdr-para-apresentar-solucoes-concretas-para-problemas-de-limpeza-causados-pelo-volta/",
+   "title": "Governo pede plano para problemas de limpeza do Volta",
+   "topic": "outros",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Sistema Volta"
+   ],
+   "tickers": [],
+   "resumo": "O Governo deu à SDR Portugal, que gere o sistema Volta, até 16 de outubro para apresentar um plano de ação e um plano para prevenir e mitigar os problemas de limpeza urbana associados ao sistema.",
+   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:4096:2299:nowe:0:159/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/07/14130014/dventura-report-volta-centro-lisboa-10-scaled.jpg"
+  },
+  {
+   "id": "record-almeida-morgado-fora-europeus",
+   "ts": "2026-09-30T14:30:00Z",
+   "source": "Record",
+   "lado": "pt",
+   "url": "https://www.record.pt/modalidades/ciclismo/detalhe/joao-almeida-e-antonio-morgado-ficam-de-fora-dos-campeonatos-da-europa",
+   "title": "João Almeida e António Morgado ficam de fora dos Campeonatos da Europa",
+   "topic": "desporto",
+   "sub": "ciclismo",
+   "impacto": "baixo",
+   "setores": [
+    "Campeonatos da Europa"
+   ],
+   "tickers": [],
+   "resumo": "João Almeida e António Morgado não vão estar nos Campeonatos da Europa; a seleção será representada por Nelson Oliveira, Tiago Antunes, Afonso Silva e Pedro Silva.",
+   "img": "https://cdn.record.pt/images/2026-09/img_1200x721uu2026-09-27-19-53-50-2465008.jpg"
+  },
+  {
+   "id": "cnn-6abd1c6bd34e9a786e75a50b",
+   "ts": "2026-09-30T14:27:00Z",
+   "source": "CNN Portugal",
+   "lado": "pt",
+   "url": "https://cnnportugal.iol.pt/romenia/governo-romeno/romenia-continua-sem-novo-governo-parlamento-rejeita-candidato-a-primeiro-ministro/20260930/6abd1c6bd34e9a786e75a50b",
+   "title": "Roménia continua sem novo Governo: Parlamento rejeita candidato a primeiro-ministro",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Roménia"
+   ],
+   "tickers": [],
+   "resumo": "O Parlamento romeno rejeitou o candidato a primeiro-ministro, prolongando a crise política que o país atravessa desde maio.",
+   "img": "https://img.iol.pt/image/id/63aa29720cf2aea785848711/200.jpg"
+  },
+  {
+   "id": "lusa-47862135",
+   "ts": "2026-09-30T14:25:00Z",
+   "source": "Lusa",
+   "lado": "pt",
+   "url": "https://www.lusa.pt/article/47862135/excedente-do-estado-cai-para-249-3-me-até-agosto",
+   "title": "Excedente do Estado cai para 249,3 ME até agosto",
+   "topic": "economia",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Contas públicas",
+    "Execução orçamental"
+   ],
+   "tickers": [],
+   "resumo": "O Estado registou um excedente de 249,3 milhões de euros até agosto, menos 1.799,4 milhões do que no período homólogo, segundo a síntese de execução orçamental.",
+   "img": "https://www.lusa.pt/temp/images/900x600/cache_900x600_Crop_high_42585611_2726388_26032024081254.JPG"
+  },
+  {
+   "id": "abola-proenca-reuniao-jesus-ronaldo",
+   "ts": "2026-09-30T14:22:08Z",
+   "source": "A Bola",
+   "lado": "pt",
+   "url": "https://www.abola.pt/noticias/selecao-proenca-ja-esteve-reunido-com-jesus-e-ronaldo-2026093014220870158",
+   "title": "Seleção: Proença já esteve reunido com Jesus e Ronaldo",
+   "topic": "desporto",
+   "sub": "selecao",
+   "impacto": "alto",
+   "setores": [
+    "Liga das Nações"
+   ],
+   "tickers": [],
+   "resumo": "O presidente da Federação Portuguesa de Futebol reuniu-se no hotel, na manhã de quarta-feira, com Jorge Jesus e Cristiano Ronaldo, em Copenhaga, antes do jogo com a Dinamarca.",
+   "img": "https://sportal365images.com/process/smp-images-production/abola.pt/30092026/005c6580-22eb-4947-bebd-0f656fbb0700.jpg?operations=crop(0:149:3630:2190),autocrop(1200:630)"
+  },
+  {
+   "id": "eco-sarmento-sem-desvio-bruxelas",
+   "ts": "2026-09-30T14:20:48Z",
+   "source": "ECO",
+   "lado": "pt",
+   "url": "https://eco.sapo.pt/2026/09/30/miranda-sarmento-tem-muitas-duvidas-sobre-regras-orcamentais-de-bruxelas/",
+   "title": "Sarmento confiante que \"não haverá desvio\" no cumprimento das metas de Bruxelas",
+   "topic": "economia",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Metas orçamentais",
+    "Finanças"
+   ],
+   "tickers": [],
+   "resumo": "O ministro das Finanças, Miranda Sarmento, mostrou-se confiante de que não haverá desvio no cumprimento das metas de Bruxelas, mas manifestou dúvidas sobre as regras orçamentais europeias.",
+   "img": "https://eco.imgix.net/uploads/2026/07/cropped-doc202607224750103222-julho-2026-ac-foto18.jpg"
+  },
+  {
+   "id": "lusa-47862047",
+   "ts": "2026-09-30T14:10:00Z",
+   "source": "Lusa",
+   "lado": "pt",
+   "url": "https://www.lusa.pt/national/article/2026-09-30/47862047/pm-manifesta-disponibilidade-para-pontos-de-convergência-sobre-rendas",
+   "title": "PM manifesta disponibilidade para pontos de convergência sobre rendas",
+   "topic": "economia",
+   "sub": "",
+   "impacto": "alto",
+   "setores": [
+    "Arrendamento",
+    "NRAU"
+   ],
+   "tickers": [],
+   "resumo": "O primeiro-ministro manifestou disponibilidade para ir mais longe no aprofundamento dos pontos de convergência sobre o Regime do Arrendamento Urbano, em debate no Parlamento.",
+   "img": "https://www.lusa.pt/temp/images/420x330/cache_420x330_Crop_high_47861838_4030737_30092026030919.JPG"
+  },
   {
    "id": "cnn-6abd16edd34e9a786e75a4fc",
    "ts": "2026-09-30T14:04:00Z",
@@ -105,6 +370,23 @@
    "tickers": [],
    "resumo": "Os comboios da Linha de Azambuja vão voltar a parar em Alcântara-Terra aos fins de semana e feriados, 11 anos depois, com o reforço da CP previsto a partir de 13 de dezembro de 2027.",
    "img": ""
+  },
+  {
+   "id": "ojogo-18132093",
+   "ts": "2026-09-30T13:46:00Z",
+   "source": "O Jogo",
+   "lado": "pt",
+   "url": "https://www.ojogo.pt/internacional/artigo/ruben-dias-e-jorge-jesus-dao-a-cara-apos-polemica-com-ronaldo-selecionador-vai-responder-a-menos-perguntas/18132093",
+   "title": "Rúben Dias e Jorge Jesus dão a cara após polémica com Ronaldo. Selecionador vai responder a menos perguntas",
+   "topic": "desporto",
+   "sub": "selecao",
+   "impacto": "medio",
+   "setores": [
+    "Liga das Nações"
+   ],
+   "tickers": [],
+   "resumo": "O defesa Rúben Dias estará ao lado de Jorge Jesus na conferência de imprensa de antevisão do Dinamarca-Portugal, e o selecionador vai responder a menos perguntas.",
+   "img": "https://staticx.noticiasilimitadas.pt/oj/7f18b188-51f8-42f1-8c15-e07596dc1082_1200x675.jpg"
   },
   {
    "id": "obs-seguro-convergencia-saude-habitacao",
@@ -212,6 +494,24 @@
    "img": ""
   },
   {
+   "id": "rtp-a1-1768656",
+   "ts": "2026-09-30T13:27:03Z",
+   "source": "RTP",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/noticiario-antena1/14h-ministra-do-ambiente-nao-descarta-racionamento-de-combustiveis_a1_1768656",
+   "title": "14h Ministra do Ambiente não descarta racionamento de combustíveis",
+   "topic": "economia",
+   "sub": "",
+   "impacto": "alto",
+   "setores": [
+    "Combustíveis",
+    "Racionamento"
+   ],
+   "tickers": [],
+   "resumo": "A ministra do Ambiente não descartou o racionamento de combustíveis, segundo o noticiário das 14h da Antena 1.",
+   "img": ""
+  },
+  {
    "id": "obs-abuso-crianca-amarante",
    "ts": "2026-09-30T13:25:23Z",
    "source": "Observador",
@@ -227,6 +527,23 @@
    "tickers": [],
    "resumo": "Um jovem de 21 anos foi detido por suspeita de ter abusado sexualmente da vizinha de 13 anos em Amarante. A investigação começou após a denúncia dos pais.",
    "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:3710:2078:nowe:166:500/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/04/25005555/ilacerda-quadros-penalva-do-castelo9-scaled.jpg"
+  },
+  {
+   "id": "rtp-v1768652",
+   "ts": "2026-09-30T13:22:52Z",
+   "source": "RTP Desporto",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/desporto/champions-feminina-benfica-recebe-bayern-munique_v1768652",
+   "title": "Champions feminina. Benfica recebe Bayern Munique",
+   "topic": "desporto",
+   "sub": "benfica",
+   "impacto": "medio",
+   "setores": [
+    "Liga dos Campeões feminina"
+   ],
+   "tickers": [],
+   "resumo": "O Benfica recebe esta quarta-feira o Bayern Munique, na segunda jornada da Liga dos Campeões feminina; o treinador das águias quer uma equipa audaz para vencer.",
+   "img": "https://cdn-images.rtp.pt/icm/images/c5/c5bbe84ea463e3a474828e898ff37990_N.jpg?"
   },
   {
    "id": "lusa-47861510",
@@ -382,6 +699,23 @@
    "tickers": [],
    "resumo": "Quatro jogadores lesionados do FC Porto passaram a treino condicionado, um passo importante na recuperação.",
    "img": "https://sportal365images.com/process/smp-images-production/abola.pt/30092026/b0945efa-4457-4c5a-aaf3-f672a096c9fb.jpg?operations=autocrop(1200:630)"
+  },
+  {
+   "id": "rtp-v1768646",
+   "ts": "2026-09-30T12:55:47Z",
+   "source": "RTP",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/cultura/marrocos-pela-primeira-vez-uma-mulher-vai-ser-primeira-ministra_v1768646",
+   "title": "Marrocos. Pela primeira vez uma mulher vai ser primeira-ministra",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Marrocos"
+   ],
+   "tickers": [],
+   "resumo": "Marrocos vai ter pela primeira vez uma mulher como primeira-ministra, segundo a RTP.",
+   "img": "https://cdn-images.rtp.pt/icm/images/79/796f5eebc1c4d44331cb08c793f36992_N.jpg?"
   },
   {
    "id": "caras-maria-dinamarca-hobart",
@@ -647,6 +981,23 @@
    "tickers": [],
    "resumo": "A nova lei das rendas do Governo tem o chumbo praticamente garantido. O primeiro-ministro diz que vai levar a política de habitação até ao fim sem se deixar intimidar.",
    "img": "https://cdn-images.rtp.pt/icm/images/ac/ac749a393ec8f644fd0beaf77805e10c_N.jpg?"
+  },
+  {
+   "id": "abola-mourinho-asencio-baixa",
+   "ts": "2026-09-30T12:22:00Z",
+   "source": "A Bola",
+   "lado": "pt",
+   "url": "https://www.abola.pt/noticias/mourinho-com-baixa-na-defesa-do-real-madrid-nos-proximos-meses-2026093011501639841",
+   "title": "Mourinho com baixa na defesa do Real Madrid nos próximos meses",
+   "topic": "desporto",
+   "sub": "lafora",
+   "impacto": "baixo",
+   "setores": [
+    "Real Madrid"
+   ],
+   "tickers": [],
+   "resumo": "O Real Madrid de José Mourinho vai perder o central Raúl Asencio, que será operado na quinta-feira, até ao início do próximo ano.",
+   "img": "https://sportal365images.com/process/smp-images-production/abola.pt/30092026/0b38d79c-8268-4afb-b093-73299de5e97e.jpg?operations=autocrop(1200:630)"
   },
   {
    "id": "abola-benfica-queixa-samu-porto",
@@ -4912,354 +5263,6 @@
    "tickers": [],
    "resumo": "Camané, Luísa Sobral, Mafalda Veiga, Rui Veloso, Marisa Liz e Ricardo Ribeiro atuam nos concertos de homenagem a Luís Represas, em Lisboa e no Porto, em abril.",
    "img": ""
-  },
-  {
-   "id": "ojogo-pogacar-europeu",
-   "ts": "2026-09-29T08:12:00Z",
-   "source": "O Jogo",
-   "lado": "pt",
-   "url": "https://www.ojogo.pt/modalidades/artigo/pogacar-quer-voltar-no-europeu-medico-autorizou-falta-convencer-a-uae-emirates/18131579",
-   "title": "Pogacar quer voltar no Europeu: médico autorizou, falta convencer a UAE Emirates",
-   "topic": "desporto",
-   "sub": "ciclismo",
-   "impacto": "baixo",
-   "setores": [
-    "Europeu de ciclismo"
-   ],
-   "tickers": [],
-   "resumo": "Tadej Pogacar tem autorização do médico que o operou para regressar no Europeu, mas falta o acordo da UAE Emirates.",
-   "img": "https://staticx.noticiasilimitadas.pt/oj/9de79e72-7edc-49eb-8c41-f9fbe8020e0f_1200x675.jpg"
-  },
-  {
-   "id": "rtp-1768360",
-   "ts": "2026-09-29T08:04:47Z",
-   "source": "RTP",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/mundo/papa-leao-xiv-alerta-para-os-perigos-reais-da-inteligencia-artificial_v1768360",
-   "title": "Papa Leão XIV alerta para os perigos reais da Inteligência Artificial",
-   "topic": "mundo",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Vaticano",
-    "IA"
-   ],
-   "tickers": [],
-   "resumo": "O Papa Leão XIV avisou que os alertas sobre os perigos da inteligência artificial devem ser levados a sério e não podem ser desvalorizados como fake news.",
-   "img": ""
-  },
-  {
-   "id": "ojogo-norris-colapinto",
-   "ts": "2026-09-29T08:02:00Z",
-   "source": "O Jogo",
-   "lado": "pt",
-   "url": "https://www.ojogo.pt/modalidades/artigo/lando-norris-arrependido-do-ataque-a-franco-colapinto-estava-com-os-animos-exaltados/18131576",
-   "title": "Lando Norris arrependido do ataque a Franco Colapinto: \"Estava com os ânimos exaltados\"",
-   "topic": "desporto",
-   "sub": "motores",
-   "impacto": "baixo",
-   "setores": [
-    "Fórmula 1"
-   ],
-   "tickers": [],
-   "resumo": "Lando Norris pediu desculpa a Franco Colapinto depois de o ter criticado após a desistência no Grande Prémio do Azerbaijão.",
-   "img": "https://staticx.noticiasilimitadas.pt/oj/286adc39-1d9d-4e51-9255-bd7338cbddad_1200x675.jpg"
-  },
-  {
-   "id": "rtp-1768358",
-   "ts": "2026-09-29T08:01:47Z",
-   "source": "RTP",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/mundo/eleicoes-sao-tome-ambos-os-partidos-reclamam-vitoria_v1768358",
-   "title": "Eleições São Tomé. Ambos os partidos reclamam vitória",
-   "topic": "mundo",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "São Tomé",
-    "Eleições"
-   ],
-   "tickers": [],
-   "resumo": "Os dois principais partidos reclamam vitória nas eleições em São Tomé e Príncipe. Os dados provisórios apontam para uma vantagem tangencial do MLSTP.",
-   "img": ""
-  },
-  {
-   "id": "cm-armas-mesmo-serie-caparica",
-   "ts": "2026-09-29T08:01:39Z",
-   "source": "CM",
-   "lado": "pt",
-   "url": "https://m.facebook.com/cmjornal/posts/pfbid0HxWxgEPKZ1kcBQ7SuvBHH9j36r8f19u9WfgtB67jbkDjV1EzTw7Mb4kBA9kJr76el",
-   "title": "Apreendidas três armas com o mesmo número de série, a última na Caparica",
-   "topic": "justica",
-   "sub": "",
-   "impacto": "baixo",
-   "setores": [
-    "Armas"
-   ],
-   "tickers": [],
-   "resumo": "Foram apreendidas três armas com o mesmo número de série, a última das quais no sábado, na Caparica. Todas ficaram em depósito à guarda da Polícia.",
-   "img": ""
-  },
-  {
-   "id": "ng-andrea-francisco-monteiro",
-   "ts": "2026-09-29T08:00:00Z",
-   "source": "Nova Gente",
-   "lado": "pt",
-   "url": "https://www.novagente.pt/andrea-quebra-o-silencio-e-fala-sobre-romance-com-francisco-monteiro-ninguem-conhece-a-nossa-relacao-e/",
-   "title": "Andrea quebra o silêncio e fala sobre romance com Francisco Monteiro",
-   "topic": "rosa",
-   "sub": "reality",
-   "impacto": "baixo",
-   "setores": [
-    "Big Brother",
-    "TVI"
-   ],
-   "tickers": [],
-   "resumo": "Andrea Pestana falou nas redes sociais da relação com Francisco Monteiro, do Big Brother, dizendo que \"ninguém conhece a relação\" e rejeitando acusações de dependência emocional.",
-   "img": ""
-  },
-  {
-   "id": "lusa-47853840",
-   "ts": "2026-09-29T08:00:00Z",
-   "source": "Lusa",
-   "lado": "pt",
-   "url": "https://www.lusa.pt/article/47853840/qualidade-da-água-da-torneira-quase-a-100-relatório",
-   "title": "Qualidade da água da torneira quase a 100% - relatório",
-   "topic": "outros",
-   "sub": "",
-   "impacto": "baixo",
-   "setores": [
-    "Água"
-   ],
-   "tickers": [],
-   "resumo": "Um relatório oficial indica que a qualidade da água da torneira em Portugal ronda os 100% de conformidade com os padrões exigidos.",
-   "img": ""
-  },
-  {
-   "id": "ojogo-vagiannidis-grecia",
-   "ts": "2026-09-29T07:33:00Z",
-   "source": "O Jogo",
-   "lado": "pt",
-   "url": "https://www.ojogo.pt/futebol/artigo/sporting-em-alerta-por-vagiannidis-lateral-com-queixas-na-grecia/18131570",
-   "title": "Sporting em alerta por Vagiannidis: lateral com queixas na Grécia",
-   "topic": "desporto",
-   "sub": "sporting",
-   "impacto": "baixo",
-   "setores": [
-    "Seleção da Grécia"
-   ],
-   "tickers": [],
-   "resumo": "O lateral do Sporting Vagiannidis sentiu um desconforto muscular no jogo com a Alemanha e deve falhar o encontro com os Países Baixos. O selecionador grego chamou outro lateral para o lugar.",
-   "img": ""
-  },
-  {
-   "id": "lusa-47853808",
-   "ts": "2026-09-29T07:27:00Z",
-   "source": "Lusa",
-   "lado": "pt",
-   "url": "https://www.lusa.pt/article/47853808/pelo-menos-50-mortos-ataque-aéreo-mercado-myanmar",
-   "title": "Pelo menos 50 mortos em ataque aéreo contra mercado no Myanmar - Novo balanço",
-   "topic": "mundo",
-   "sub": "",
-   "impacto": "alto",
-   "setores": [
-    "Myanmar"
-   ],
-   "tickers": [],
-   "resumo": "Um ataque aéreo contra um mercado no Myanmar fez pelo menos 50 mortos, segundo o novo balanço divulgado hoje.",
-   "img": ""
-  },
-  {
-   "id": "cm-daniela-martins-100mil",
-   "ts": "2026-09-29T07:18:30Z",
-   "source": "CM",
-   "lado": "pt",
-   "url": "https://m.facebook.com/cmjornal/posts/pfbid02K6UkRRM2rXqL1Mcm7YvCdp7Fqo4UtHnKYauYAajyezt7L6brcTfmCQHuyDE75t9zl",
-   "title": "Daniela Martins pediu ajuda para tudo, até para comprar leite, tendo mais de 100 mil euros na conta",
-   "topic": "justica",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Caso das gémeas"
-   ],
-   "tickers": [],
-   "resumo": "Segundo o Correio da Manhã, a mãe das gémeas pediu ajuda para tudo, incluindo para comprar leite, apesar de ter mais de 100 mil euros na conta bancária. A informação consta da acusação do caso das gémeas.",
-   "img": ""
-  },
-  {
-   "id": "ojogo-ronaldo-amuo-jesus",
-   "ts": "2026-09-29T07:17:00Z",
-   "source": "O Jogo",
-   "lado": "pt",
-   "url": "https://www.ojogo.pt/internacional/artigo/amuo-de-cristiano-ronaldo-deu-a-volta-ao-mundo-e-jesus-falou-com-o-capitao/18131560",
-   "title": "Amuo de Cristiano Ronaldo deu a volta ao mundo e Jesus falou com o capitão",
-   "topic": "desporto",
-   "sub": "selecao",
-   "impacto": "medio",
-   "setores": [
-    "Liga das Nações"
-   ],
-   "tickers": [],
-   "resumo": "Cristiano Ronaldo não jogou contra a Noruega e foi diretamente para o balneário, caso que a imprensa internacional analisou. O capitão e o selecionador Jorge Jesus já falaram sobre o assunto.",
-   "img": ""
-  },
-  {
-   "id": "rtp-1768351",
-   "ts": "2026-09-29T07:10:11Z",
-   "source": "RTP",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/pais/ocorrencias-nas-escolas-aumentaram-no-ultimo-ano-letivo-para-mais-de-4000_n1768351",
-   "title": "Ocorrências nas escolas aumentaram no último ano letivo para mais de 4.000",
-   "topic": "justica",
-   "sub": "",
-   "impacto": "alto",
-   "setores": [
-    "PSP",
-    "Escolas"
-   ],
-   "tickers": [],
-   "resumo": "A PSP registou 4.075 ocorrências nas escolas no último ano letivo, mais 4,6% do que no anterior. Os crimes de ofensas corporais e com armas atingiram máximos de cinco anos e também subiram as ofensas sexuais e o tráfico de droga.",
-   "img": ""
-  },
-  {
-   "id": "lusa-47853802",
-   "ts": "2026-09-29T07:09:00Z",
-   "source": "Lusa",
-   "lado": "pt",
-   "url": "https://www.lusa.pt/article/47853802/orgulho-profissional-desgaste-emocional",
-   "title": "Orgulho profissional protege bombeiros e polícias de desgaste emocional - estudo",
-   "topic": "outros",
-   "sub": "",
-   "impacto": "baixo",
-   "setores": [
-    "Bombeiros",
-    "Polícia"
-   ],
-   "tickers": [],
-   "resumo": "Um estudo concluiu que o orgulho profissional funciona como fator de proteção contra o desgaste emocional entre bombeiros e polícias.",
-   "img": ""
-  },
-  {
-   "id": "cm-marcelo-sabia-tratamento",
-   "ts": "2026-09-29T07:02:01Z",
-   "source": "CM",
-   "lado": "pt",
-   "url": "https://m.facebook.com/cmjornal/posts/pfbid026yvvqf8rf17G3jpyzhZUawXBaKDzqgHAp2EUd5TX7VmkypgRve5caTREgiJrYHHcl",
-   "title": "Ex-Presidente da República sabia que as crianças vinham para Portugal apenas para receber tratamento",
-   "topic": "justica",
-   "sub": "",
-   "impacto": "alto",
-   "setores": [
-    "Caso das gémeas"
-   ],
-   "tickers": [],
-   "resumo": "O Correio da Manhã avança que o ex-Presidente da República sabia que as crianças vinham para Portugal apenas para receber tratamento. A informação surge no âmbito da acusação do Ministério Público no caso das gémeas.",
-   "img": ""
-  },
-  {
-   "id": "rtp-1768101",
-   "ts": "2026-09-29T07:02:01Z",
-   "source": "RTP",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/politica/goncalo-matias-responde-a-passos-temos-quatro-anos-para-fazer-as-reformas_v1768101",
-   "title": "Gonçalo Matias responde a Passos: \"Temos quatro anos para fazer as reformas\"",
-   "topic": "politica",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Governo",
-    "Reforma do Estado"
-   ],
-   "tickers": [],
-   "resumo": "O ministro adjunto e da Reforma do Estado concorda com Passos Coelho na urgência das reformas, mas recusa a ideia de que não há tempo: o Governo tem quatro anos para as fazer.",
-   "img": ""
-  },
-  {
-   "id": "ng-marta-melro",
-   "ts": "2026-09-29T07:00:06Z",
-   "source": "Nova Gente",
-   "lado": "pt",
-   "url": "https://www.novagente.pt/tudo-sobre-andre-drogas-o-novo-namorado-de-marta-melro/",
-   "title": "Tudo sobre André Drogas, o novo namorado de Marta Melro",
-   "topic": "rosa",
-   "sub": "famosos",
-   "impacto": "baixo",
-   "setores": [
-    "Famosos"
-   ],
-   "tickers": [],
-   "resumo": "Marta Melro confirmou que namora com o fotógrafo André Drogas, três anos depois da separação de Paulo Vintém.",
-   "img": ""
-  },
-  {
-   "id": "as-rali-sardenha-titulo",
-   "ts": "2026-09-29T06:54:36Z",
-   "source": "AutoSport",
-   "lado": "pt",
-   "url": "https://www.autosport.pt/ralis/rally-da-sardenha-luta-a-tres-pelo-titulo-mundial-de-ralis/",
-   "title": "Rally da Sardenha: Luta a três pelo título Mundial de Ralis",
-   "topic": "desporto",
-   "sub": "motores",
-   "impacto": "baixo",
-   "setores": [
-    "Mundial de Ralis"
-   ],
-   "tickers": [],
-   "resumo": "O Mundial de Ralis termina na Sardenha com três candidatos ao título: Elfyn Evans lidera e precisa de 19 pontos, Sami Pajari está a 17 e Oliver Solberg a 21.",
-   "img": ""
-  },
-  {
-   "id": "rtp-1768342",
-   "ts": "2026-09-29T06:39:48Z",
-   "source": "RTP",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/mundo/china-pede-ao-japao-que-retifique-posicao-sobre-taiwan-para-superar-crise-bilateral_n1768342",
-   "title": "China pede ao Japão que retifique posição sobre Taiwan para superar crise bilateral",
-   "topic": "mundo",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "China",
-    "Japão"
-   ],
-   "tickers": [],
-   "resumo": "O chefe da diplomacia chinesa, Wang Yi, pediu ao Japão que corrija o mais depressa possível as suas palavras e ações sobre Taiwan, condição para superar a crise bilateral.",
-   "img": ""
-  },
-  {
-   "id": "rtp-1768346",
-   "ts": "2026-09-29T06:32:03Z",
-   "source": "RTP",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/mundo/governo-espanhol-pressionado-nas-ruas-a-aprovar-hoje-decreto-para-habitacao_n1768346",
-   "title": "Governo espanhol pressionado nas ruas a aprovar hoje decreto para habitação",
-   "topic": "mundo",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Habitação",
-    "Espanha"
-   ],
-   "tickers": [],
-   "resumo": "O Conselho de Ministros de Espanha reúne-se hoje para aprovar um decreto que proteja os inquilinos de despejos e de aumentos descontrolados das rendas. O Governo é pressionado por protestos que levaram milhares de pessoas às ruas.",
-   "img": ""
-  },
-  {
-   "id": "lusa-47853869",
-   "ts": "2026-09-29T06:30:00Z",
-   "source": "Lusa",
-   "lado": "pt",
-   "url": "https://www.lusa.pt/article/47853869",
-   "title": "Número de vítimas mortais de inundações na Tailândia sobe para 23 - Governo",
-   "topic": "mundo",
-   "sub": "",
-   "impacto": "baixo",
-   "setores": [
-    "Tailândia"
-   ],
-   "tickers": [],
-   "resumo": "O Governo tailandês confirmou que o número de mortos nas inundações subiu para 23.",
-   "img": ""
   }
  ],
  "contracts": {},
@@ -5267,6 +5270,12 @@
  "quotesAt": null,
  "series": {},
  "pairs": [
+  {
+   "a": "rtp-n1768592",
+   "b": "cnn-6abd16edd34e9a786e75a4fc",
+   "tema": "Voo Flydubai: briga entre pilotos ou terrorismo?",
+   "nota": "A RTP noticiou um incidente que terá resultado de briga entre pilotos; Netanyahu diz que o copiloto tentou despenhar o avião e o ministro da Defesa israelita fala em ataque terrorista jihadista."
+  },
   {
    "a": "cnn-6abcdf0fd34e53c759c74696",
    "b": "lusa-47861510",
@@ -5304,5 +5313,5 @@
    "nota": "A RTP diz que Trump afirmou que a IA precisa de regulação; o Observador noticia uma declaração com líderes do setor que rejeita a regulação governamental e aposta na autorregulação."
   }
  ],
- "arquivo": 99
+ "arquivo": 119
 }

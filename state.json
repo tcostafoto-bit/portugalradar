@@ -1,7 +1,127 @@
 {
- "version": "1.1.36",
- "updated": "2026-09-30T14:16:28Z",
+ "version": "1.1.37",
+ "updated": "2026-09-30T15:17:17Z",
  "recent": [
+  {
+   "id": "eco-russia-aviso-nuclear-nato-baltico",
+   "ts": "2026-09-30T15:09:48Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "ECO",
+   "title": "Rússia faz aviso nuclear à NATO com tensão no Báltico a subir"
+  },
+  {
+   "id": "nit-avenida-portugal-carminha",
+   "ts": "2026-09-30T15:09:12Z",
+   "topic": "cultura",
+   "sub": "",
+   "source": "NiT",
+   "title": "Já sabemos quem vai ser a Carminha em \"Avenida Portugal\". Novela chega em 2027"
+  },
+  {
+   "id": "rtp-n1768663",
+   "ts": "2026-09-30T15:03:03Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "RTP",
+   "title": "Xi Jinping pronto para \"reprimir firmemente\" forças pela independência de Taiwan"
+  },
+  {
+   "id": "rtp-n1768673",
+   "ts": "2026-09-30T14:57:24Z",
+   "topic": "politica",
+   "sub": "",
+   "source": "RTP",
+   "title": "Carneiro vai propor aos órgãos do partido abstenção do PS"
+  },
+  {
+   "id": "lusa-47862391",
+   "ts": "2026-09-30T14:55:00Z",
+   "topic": "cultura",
+   "sub": "",
+   "source": "Lusa",
+   "title": "Festival Músicas do Mundo regressa a Sines entre 16 a 24 de julho em 2027"
+  },
+  {
+   "id": "obs-nuncio-isabel-moreira-queixas",
+   "ts": "2026-09-30T14:49:33Z",
+   "topic": "politica",
+   "sub": "",
+   "source": "Observador",
+   "title": "Paulo Núncio e Isabel Moreira apresentam queixas mútuas"
+  },
+  {
+   "id": "cnn-6abd202fd34e53c759c747c5",
+   "ts": "2026-09-30T14:43:00Z",
+   "topic": "economia",
+   "sub": "",
+   "source": "CNN Portugal",
+   "title": "\"Não vale a pena estar com papões\": Montenegro rejeita que novas regras flexibilizem rendas"
+  },
+  {
+   "id": "obs-conselho-europeu-outubro-combustiveis",
+   "ts": "2026-09-30T14:41:53Z",
+   "topic": "economia",
+   "sub": "",
+   "source": "Observador",
+   "title": "Combustíveis. Conselho Europeu decide medidas em breve"
+  },
+  {
+   "id": "obs-volta-sdr-plano-limpeza",
+   "ts": "2026-09-30T14:40:08Z",
+   "topic": "outros",
+   "sub": "",
+   "source": "Observador",
+   "title": "Governo pede plano para problemas de limpeza do Volta"
+  },
+  {
+   "id": "record-almeida-morgado-fora-europeus",
+   "ts": "2026-09-30T14:30:00Z",
+   "topic": "desporto",
+   "sub": "ciclismo",
+   "source": "Record",
+   "title": "João Almeida e António Morgado ficam de fora dos Campeonatos da Europa"
+  },
+  {
+   "id": "cnn-6abd1c6bd34e9a786e75a50b",
+   "ts": "2026-09-30T14:27:00Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "CNN Portugal",
+   "title": "Roménia continua sem novo Governo: Parlamento rejeita candidato a primeiro-ministro"
+  },
+  {
+   "id": "lusa-47862135",
+   "ts": "2026-09-30T14:25:00Z",
+   "topic": "economia",
+   "sub": "",
+   "source": "Lusa",
+   "title": "Excedente do Estado cai para 249,3 ME até agosto"
+  },
+  {
+   "id": "abola-proenca-reuniao-jesus-ronaldo",
+   "ts": "2026-09-30T14:22:08Z",
+   "topic": "desporto",
+   "sub": "selecao",
+   "source": "A Bola",
+   "title": "Seleção: Proença já esteve reunido com Jesus e Ronaldo"
+  },
+  {
+   "id": "eco-sarmento-sem-desvio-bruxelas",
+   "ts": "2026-09-30T14:20:48Z",
+   "topic": "economia",
+   "sub": "",
+   "source": "ECO",
+   "title": "Sarmento confiante que \"não haverá desvio\" no cumprimento das metas de Bruxelas"
+  },
+  {
+   "id": "lusa-47862047",
+   "ts": "2026-09-30T14:10:00Z",
+   "topic": "economia",
+   "sub": "",
+   "source": "Lusa",
+   "title": "PM manifesta disponibilidade para pontos de convergência sobre rendas"
+  },
   {
    "id": "cnn-6abd16edd34e9a786e75a4fc",
    "ts": "2026-09-30T14:04:00Z",
@@ -41,6 +161,14 @@
    "sub": "",
    "source": "NiT",
    "title": "11 anos depois, comboios vão regressar a Alcântara-Terra aos fins de semana e feriados"
+  },
+  {
+   "id": "ojogo-18132093",
+   "ts": "2026-09-30T13:46:00Z",
+   "topic": "desporto",
+   "sub": "selecao",
+   "source": "O Jogo",
+   "title": "Rúben Dias e Jorge Jesus dão a cara após polémica com Ronaldo. Selecionador vai responder a menos perguntas"
   },
   {
    "id": "obs-seguro-convergencia-saude-habitacao",
@@ -91,12 +219,28 @@
    "title": "Ordem dos Advogados pede envio ao TC da norma sobre manobras dilatórias"
   },
   {
+   "id": "rtp-a1-1768656",
+   "ts": "2026-09-30T13:27:03Z",
+   "topic": "economia",
+   "sub": "",
+   "source": "RTP",
+   "title": "14h Ministra do Ambiente não descarta racionamento de combustíveis"
+  },
+  {
    "id": "obs-abuso-crianca-amarante",
    "ts": "2026-09-30T13:25:23Z",
    "topic": "justica",
    "sub": "",
    "source": "Observador",
    "title": "Detido suspeito de abuso de criança de 13 anos em Amarante"
+  },
+  {
+   "id": "rtp-v1768652",
+   "ts": "2026-09-30T13:22:52Z",
+   "topic": "desporto",
+   "sub": "benfica",
+   "source": "RTP Desporto",
+   "title": "Champions feminina. Benfica recebe Bayern Munique"
   },
   {
    "id": "lusa-47861510",
@@ -169,6 +313,14 @@
    "sub": "porto",
    "source": "A Bola",
    "title": "FC Porto: boas notícias para Farioli"
+  },
+  {
+   "id": "rtp-v1768646",
+   "ts": "2026-09-30T12:55:47Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "RTP",
+   "title": "Marrocos. Pela primeira vez uma mulher vai ser primeira-ministra"
   },
   {
    "id": "caras-maria-dinamarca-hobart",
@@ -289,6 +441,14 @@
    "sub": "",
    "source": "RTP",
    "title": "Acelerar despejos e contratos mais flexíveis são algumas das alterações propostas pelo Governo"
+  },
+  {
+   "id": "abola-mourinho-asencio-baixa",
+   "ts": "2026-09-30T12:22:00Z",
+   "topic": "desporto",
+   "sub": "lafora",
+   "source": "A Bola",
+   "title": "Mourinho com baixa na defesa do Real Madrid nos próximos meses"
   },
   {
    "id": "abola-benfica-queixa-samu-porto",
@@ -801,172 +961,13 @@
    "sub": "",
    "source": "RTP",
    "title": "Avião comercial desviado para a Arábia Saudita. Incidente terá resultado de briga entre pilotos"
-  },
-  {
-   "id": "cnn-6abcca11d34e9a786e75a37a",
-   "ts": "2026-09-30T08:35:00Z",
-   "topic": "justica",
-   "sub": "",
-   "source": "CNN Portugal",
-   "title": "Polícia atropelado durante perseguição na Amadora sofreu duas fraturas expostas e vai ser operado"
-  },
-  {
-   "id": "hn-tvi-alexandre-lourenco",
-   "ts": "2026-09-30T08:34:56Z",
-   "topic": "justica",
-   "sub": "",
-   "source": "HealthNews",
-   "title": "Tribunal da Relação confirma: reportagens da TVI sobre Alexandre Lourenço \"não correspondem à verdade\""
-  },
-  {
-   "id": "cnn-6abcc980d34e9a786e75a378",
-   "ts": "2026-09-30T08:34:08Z",
-   "topic": "economia",
-   "sub": "",
-   "source": "CNN Portugal",
-   "title": "Mais de metade do crédito à habitação em Portugal já passa por intermediários"
-  },
-  {
-   "id": "obs-burnham-ue-brexit",
-   "ts": "2026-09-30T08:24:18Z",
-   "topic": "mundo",
-   "sub": "",
-   "source": "Observador",
-   "title": "Burnham abre a porta ao regresso à UE e critica Brexit"
-  },
-  {
-   "id": "eco-petroleo-obrigacoes",
-   "ts": "2026-09-30T08:22:14Z",
-   "topic": "economia",
-   "sub": "",
-   "source": "ECO",
-   "title": "Subida do petróleo carimba mês negro para as obrigações"
-  },
-  {
-   "id": "obs-montenegro-aula-etica",
-   "ts": "2026-09-30T08:16:36Z",
-   "topic": "politica",
-   "sub": "",
-   "source": "Observador",
-   "title": "Montenegro dá aula sobre ética e integridade a alunos do secundário"
-  },
-  {
-   "id": "hn-congresso-saude-publica",
-   "ts": "2026-09-30T08:08:16Z",
-   "topic": "saude",
-   "sub": "",
-   "source": "HealthNews",
-   "title": "VII Congresso Nacional dos Médicos de Saúde Pública começa hoje em Espinho"
-  },
-  {
-   "id": "obs-ozono-poluicao",
-   "ts": "2026-09-30T08:07:09Z",
-   "topic": "outros",
-   "sub": "",
-   "source": "Observador",
-   "title": "Quase 40% da população mundial exposta a poluição perigosa"
-  },
-  {
-   "id": "cnn-6abcd06fd34e53c759c7462d",
-   "ts": "2026-09-30T08:03:08Z",
-   "topic": "tecnologia",
-   "sub": "",
-   "source": "CNN Portugal",
-   "title": "Só 23% dos trabalhadores portugueses tiveram formação em IA. É o valor mais baixo entre 11 países"
-  },
-  {
-   "id": "obs-credito-intermediarios",
-   "ts": "2026-09-30T08:02:38Z",
-   "topic": "economia",
-   "sub": "",
-   "source": "Observador",
-   "title": "Mais de metade do crédito à habitação tem intermediários"
-  },
-  {
-   "id": "ng-betty-grafstein-tribunal",
-   "ts": "2026-09-30T08:00:00Z",
-   "topic": "justica",
-   "sub": "",
-   "source": "Nova Gente",
-   "title": "Betty Grafstein descreve em tribunal o inferno que viveu ao lado de José Castelo Branco"
-  },
-  {
-   "id": "rtp-n1768590",
-   "ts": "2026-09-30T07:59:15Z",
-   "topic": "mundo",
-   "sub": "",
-   "source": "RTP",
-   "title": "Centenas de detidos durante protestos estudantis em França"
-  },
-  {
-   "id": "lusa-47859694",
-   "ts": "2026-09-30T07:58:00Z",
-   "topic": "desporto",
-   "sub": "selecao",
-   "source": "Lusa",
-   "title": "Liga Nações: Seleção portuguesa treina em Copenhaga com Ronaldo em dúvida"
-  },
-  {
-   "id": "cm-paulo-topa-cavalos",
-   "ts": "2026-09-30T07:48:07Z",
-   "topic": "justica",
-   "sub": "",
-   "source": "CM",
-   "title": "Investigação a desvio de 10 milhões com fraudes em falências envolve Paulo Topa; 20 cavalos apreendidos"
-  },
-  {
-   "id": "eco-rali-portugal-criticas",
-   "ts": "2026-09-30T07:48:05Z",
-   "topic": "desporto",
-   "sub": "motores",
-   "source": "ECO",
-   "title": "\"Desastre\" e \"murro no estômago\". Norte e Centro criticam exclusão de Portugal do Mundial de ralis"
-  },
-  {
-   "id": "rtp-n1768571",
-   "ts": "2026-09-30T07:36:37Z",
-   "topic": "mundo",
-   "sub": "",
-   "source": "RTP",
-   "title": "\"Nobel Alternativo\" distingue luta contra a violência patriarcal e uso ético da IA"
-  },
-  {
-   "id": "rtp-n1768576",
-   "ts": "2026-09-30T07:18:48Z",
-   "topic": "economia",
-   "sub": "",
-   "source": "RTP",
-   "title": "Quais são os apoios às rendas?"
-  },
-  {
-   "id": "rtp-n1768559",
-   "ts": "2026-09-30T07:18:14Z",
-   "topic": "mundo",
-   "sub": "",
-   "source": "RTP",
-   "title": "ONU diz que explosão de mina na fronteira coreana violou armistício"
-  },
-  {
-   "id": "obs-marrocos-mulher-governo",
-   "ts": "2026-09-30T07:16:08Z",
-   "topic": "mundo",
-   "sub": "",
-   "source": "Observador",
-   "title": "Marrocos vai ter mulher a liderar governo pela primeira vez"
-  },
-  {
-   "id": "lusa-47859826",
-   "ts": "2026-09-30T07:16:00Z",
-   "topic": "mundo",
-   "sub": "",
-   "source": "Lusa",
-   "title": "Governo timorense aprova proposta de Orçamento superior a 2,5 mil milhões de dólares"
   }
  ],
  "paired": [
   "cnn-6abc287dd34e9a786e75a323",
   "cnn-6abcaf7dd34e53c759c745f0",
   "cnn-6abcdf0fd34e53c759c74696",
+  "cnn-6abd16edd34e9a786e75a4fc",
   "lusa-47861510",
   "ng-claudio-ramos-responde-mae-jessica-maria",
   "ng-jessica-maria-claudio-ramos",
@@ -974,6 +975,7 @@
   "obs-trump-ia-superinteligencia",
   "rtp-a1-1768533",
   "rtp-n1768585",
+  "rtp-n1768592",
   "rtp-n1768608",
   "rtp-v1768628"
  ],
