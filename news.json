@@ -1,25 +1,377 @@
 {
- "version": "1.1.34",
- "updated": "2026-09-30T12:16:43Z",
+ "version": "1.1.35",
+ "updated": "2026-09-30T13:17:34Z",
  "brief": [
   {
-   "texto": "A inflação subiu para 3,6% em setembro, empurrada pelos combustíveis.",
+   "texto": "A inflação acelera para 3,6% em setembro, impulsionada pelo preço dos combustíveis.",
    "id": "obs-inflacao-setembro-2026"
   },
   {
-   "texto": "O Presidente da República alertou em Estrasburgo que a democracia pode perder-se e pediu vigilância face a correntes extremistas.",
-   "id": "cnn-6abcf34ad34e53c759c74723"
+   "texto": "Nova lei das rendas com chumbo praticamente garantido; Montenegro diz que levará a política de habitação até ao fim.",
+   "id": "rtp-v1768628"
   },
   {
-   "texto": "O Parlamento debate a proposta do Governo para o arrendamento, com chumbo à vista.",
-   "id": "rtp-n1768572"
+   "texto": "Avião da Flydubai desviado para a Arábia Saudita após confronto entre os pilotos.",
+   "id": "rtp-n1768592"
   },
   {
-   "texto": "O Irão recebeu a resposta oficial de Washington à sua última proposta de paz.",
-   "id": "obs-irao-resposta-washington"
+   "texto": "Viseu confirma que o Rali de Portugal 2027 não se realiza, com a exclusão do Mundial.",
+   "id": "rtp-d1768623"
   }
  ],
  "items": [
+  {
+   "id": "obs-djokovic-nuno-borges-pequim",
+   "ts": "2026-09-30T13:04:33Z",
+   "source": "Observador",
+   "lado": "pt",
+   "url": "https://observador.pt/2026/09/30/ate-a-jogar-a-meio-gas-continua-a-encher-o-balao-djokovic-regressa-com-triunfo-frente-a-nuno-borges-e-faz-o-30-0-em-pequim/",
+   "title": "Até a jogar a meio gás continua a encher o balão em Pequim",
+   "topic": "desporto",
+   "sub": "tenis",
+   "impacto": "medio",
+   "setores": [
+    "ATP 500 Pequim"
+   ],
+   "tickers": [],
+   "resumo": "Novak Djokovic venceu Nuno Borges na primeira ronda do Open da China, em Pequim, apesar de novas dificuldades físicas, e prolongou a série de vitórias no torneio.",
+   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:1500:842:nowe:0:158/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/09/30135922/djokovic-1.jpg"
+  },
+  {
+   "id": "ng-bb-encontrao-luis-francisco-monteiro",
+   "ts": "2026-09-30T13:00:00Z",
+   "source": "Nova Gente",
+   "lado": "pt",
+   "url": "https://www.novagente.pt/afinal-o-que-aconteceu-tvi-mostra-tudo-sobre-o-encontrao-entre-luis-e-francisco-monteiro-no-big-brother/",
+   "title": "Afinal, o que aconteceu? TVI mostra tudo sobre o 'encontrão' entre Luís e Francisco Monteiro no Big Brother",
+   "topic": "rosa",
+   "sub": "reality",
+   "impacto": "baixo",
+   "setores": [
+    "Big Brother",
+    "TVI"
+   ],
+   "tickers": [],
+   "resumo": "A TVI divulgou as imagens completas do encontrão de ombro de Luís Gonçalves a Francisco Monteiro na casa do Big Brother.",
+   "img": ""
+  },
+  {
+   "id": "cnn-6abcebf7d34e9a786e75a448",
+   "ts": "2026-09-30T13:00:00Z",
+   "source": "CNN Portugal",
+   "lado": "pt",
+   "url": "https://cnnportugal.iol.pt/voo/flydubai/da-ativacao-do-codigo-7500-ao-switch-na-porta-do-cockpit-eis-como-se-pode-ter-evitado-uma-tragedia-comparavel-ao-11-de-setembro/20260930/6abcebf7d34e9a786e75a448",
+   "title": "Da ativação do código 7500 ao \"switch\" na porta do cockpit: eis como se pode ter evitado \"uma tragédia\" comparável ao 11 de Setembro",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Aviação"
+   ],
+   "tickers": [],
+   "resumo": "Cerca de 180 passageiros do voo da Flydubai para Telavive viveram momentos de tensão, num incidente que começou como um possível sequestro e envolveu um confronto no cockpit, com o avião a aterrar na Arábia Saudita.",
+   "img": "https://img.iol.pt/image/id/6abcec49d34e9a786e75a44a/200.jpg"
+  },
+  {
+   "id": "caras-maria-dinamarca-hobart",
+   "ts": "2026-09-30T12:55:43Z",
+   "source": "Caras",
+   "lado": "pt",
+   "url": "https://caras.pt/realeza/2026-09-30-maria-da-dinamarca-de-coracao-partido-no-regresso-as-suas-raizes/",
+   "title": "Maria da Dinamarca de coração partido no regresso às suas raízes",
+   "topic": "rosa",
+   "sub": "realeza",
+   "impacto": "baixo",
+   "setores": [
+    "Casa Real dinamarquesa"
+   ],
+   "tickers": [],
+   "resumo": "A Casa Real dinamarquesa confirmou a deslocação privada do rei Frederico X e da rainha Maria a Hobart, na Tasmânia, para as cerimónias fúnebres do pai da rainha, John Donaldson, que morreu aos 84 anos.",
+   "img": "https://caras.pt/wp-content/uploads/2026/09/260930_1000124316-1600x901.jpg"
+  },
+  {
+   "id": "obs-smalling-fc-porto",
+   "ts": "2026-09-30T12:54:38Z",
+   "source": "Observador",
+   "lado": "pt",
+   "url": "https://observador.pt/2026/09/30/um-mercado-que-ate-fechado-nunca-e-pequeno-fc-porto-acautela-problemas-defensivos-e-contrata-chris-smalling/",
+   "title": "Smalling e um mercado que até fechado nunca é pequeno",
+   "topic": "desporto",
+   "sub": "porto",
+   "impacto": "medio",
+   "setores": [
+    "Contratação"
+   ],
+   "tickers": [],
+   "resumo": "O FC Porto contrata a custo zero o internacional inglês Chris Smalling, de 36 anos, que estava sem clube desde que deixou o Al Fayha, para acautelar problemas físicos na defesa.",
+   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:1500:842:nowe:0:24/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/09/30134215/smalling.jpg"
+  },
+  {
+   "id": "rtp-v1768643",
+   "ts": "2026-09-30T12:53:47Z",
+   "source": "RTP",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/economia/agencia-internacional-de-energia-admite-recorre-a-mais-reservas-de-petroleo_v1768643",
+   "title": "Agência Internacional de Energia admite recorre a mais reservas de petróleo",
+   "topic": "economia",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Energia",
+    "Petróleo"
+   ],
+   "tickers": [],
+   "resumo": "A Agência Internacional de Energia admite recorrer a mais reservas estratégicas de petróleo para aliviar a escassez de oferta e avisa que a Europa vai enfrentar um inverno difícil.",
+   "img": "https://cdn-images.rtp.pt/icm/images/43/436ce8aeb7913e2e475503733e103aaf_N.jpg?"
+  },
+  {
+   "id": "rtp-v1768640",
+   "ts": "2026-09-30T12:50:47Z",
+   "source": "RTP",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/pais/dgs-tomou-medidas-no-lar-de-estremoz-com-surto-de-gripe-a_v1768640",
+   "title": "DGS tomou medidas no lar de Estremoz com surto de gripe A",
+   "topic": "saude",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "DGS",
+    "Gripe"
+   ],
+   "tickers": [],
+   "resumo": "A Direção-Geral da Saúde diz que já tomou medidas no lar de Estremoz, onde há um surto de gripe A, e recorda medidas básicas para evitar doenças transmitidas por via respiratória.",
+   "img": "https://cdn-images.rtp.pt/icm/images/e4/e4f22d78c2b04d26429b6bcfd45d4ed4_N.jpg?"
+  },
+  {
+   "id": "rtp-v1768639",
+   "ts": "2026-09-30T12:49:47Z",
+   "source": "RTP",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/mundo/reino-unido-autoridades-nao-encontram-vestigios-de-explosivos-em-carrinhas-junto-de-base-aerea_v1768639",
+   "title": "Reino Unido. Autoridades não encontram vestígios de explosivos em carrinhas junto de base aérea",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Reino Unido"
+   ],
+   "tickers": [],
+   "resumo": "As autoridades britânicas não encontraram vestígios de explosivos nas carrinhas apreendidas junto à base aérea no domingo, o que pode explicar a libertação sob fiança dos suspeitos, entretanto criticada por Donald Trump.",
+   "img": "https://cdn-images.rtp.pt/icm/images/5d/5db7e4f3ec0eb0293c0dbb5b98e2de1c_N.jpg?"
+  },
+  {
+   "id": "cnn-6abd03e3d34e9a786e75a4c6",
+   "ts": "2026-09-30T12:43:15Z",
+   "source": "CNN Portugal",
+   "lado": "pt",
+   "url": "https://cnnportugal.iol.pt/acidentes/desastres/acidentes-ferroviarios-diminuiram-mas-ha-um-ponto-onde-mais-do-que-duplicaram/20260930/6abd03e3d34e9a786e75a4c6",
+   "title": "Acidentes ferroviários diminuíram, mas há um ponto onde mais do que duplicaram",
+   "topic": "outros",
+   "sub": "",
+   "impacto": "baixo",
+   "setores": [
+    "Ferrovia"
+   ],
+   "tickers": [],
+   "resumo": "O número de acidentes e de vítimas mortais na ferrovia diminuiu em 2025, segundo o relatório divulgado hoje, mas algumas categorias de acidentes aumentaram de forma significativa.",
+   "img": "https://img.iol.pt/image/id/6593f4f4d34e65afa2f934b0/200.jpg"
+  },
+  {
+   "id": "cnn-6abd025cd34e9a786e75a4c4",
+   "ts": "2026-09-30T12:41:00Z",
+   "source": "CNN Portugal",
+   "lado": "pt",
+   "url": "https://cnnportugal.iol.pt/agressoes/pj/venda-de-um-carro-tera-estado-na-origem-de-sequestro-e-agressoes-tres-detidos-em-valongo/20260930/6abd025cd34e9a786e75a4c4",
+   "title": "Venda de um carro terá estado na origem de sequestro e agressões. Três detidos em Valongo",
+   "topic": "justica",
+   "sub": "",
+   "impacto": "baixo",
+   "setores": [
+    "PJ"
+   ],
+   "tickers": [],
+   "resumo": "Três suspeitos foram detidos em Valongo por sequestro e agressões a um homem que terá sido retirado de casa à força, num caso relacionado com a venda de um automóvel.",
+   "img": ""
+  },
+  {
+   "id": "obs-servicos-minimos-voos-acores-madeira",
+   "ts": "2026-09-30T12:37:39Z",
+   "source": "Observador",
+   "lado": "pt",
+   "url": "https://observador.pt/2026/09/30/decretados-servicos-minimos-nos-voos-de-acores-e-madeira-para-greve-da-funcao-publica/",
+   "title": "Decretados serviços mínimos nos voos de Açores e Madeira",
+   "topic": "tempo",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Greve",
+    "Função pública"
+   ],
+   "tickers": [],
+   "resumo": "Foram decretados serviços mínimos nos voos de e para os Açores e a Madeira na greve da função pública convocada para sexta-feira, depois de o IPMA e a federação sindical não chegarem a acordo.",
+   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2000:1122:nowe:0:211/q:70/plain/https://s3.observador.pt/wp-content/uploads/2021/09/15133757/26073246.jpg"
+  },
+  {
+   "id": "rtp-v1768635",
+   "ts": "2026-09-30T12:30:47Z",
+   "source": "RTP",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/pais/foram-identificadas-varias-falhas-tecnicas-no-processo-de-classificacao-dos-exames-nacionais_v1768635",
+   "title": "Foram identificadas várias falhas técnicas no processo de classificação dos exames nacionais",
+   "topic": "outros",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Exames nacionais",
+    "Educação"
+   ],
+   "tickers": [],
+   "resumo": "Dois relatórios, um do Júri Nacional de Exames e outro da consultora Deloitte, identificaram várias falhas técnicas no processo de classificação dos exames nacionais.",
+   "img": "https://cdn-images.rtp.pt/icm/images/5c/5c9e9e5f12a1bc767f99aae6df1ab1f0_N.jpg?"
+  },
+  {
+   "id": "ng-cristina-ferreira-favoritismo-monteiro",
+   "ts": "2026-09-30T12:30:00Z",
+   "source": "Nova Gente",
+   "lado": "pt",
+   "url": "https://www.novagente.pt/cristina-ferreira-responde-as-acusacoes-de-favoritismo-de-francisco-monteiro-no-big-brother-so-para-saberem/",
+   "title": "Cristina Ferreira responde às acusações de favoritismo de Francisco Monteiro no Big Brother: \"Só para saberem…\"",
+   "topic": "rosa",
+   "sub": "reality",
+   "impacto": "baixo",
+   "setores": [
+    "Big Brother",
+    "TVI"
+   ],
+   "tickers": [],
+   "resumo": "Cristina Ferreira reagiu em direto às críticas de que Francisco Monteiro está a ser levado ao colo por ser seu familiar.",
+   "img": ""
+  },
+  {
+   "id": "rtp-v1768632",
+   "ts": "2026-09-30T12:28:47Z",
+   "source": "RTP",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/pais/criancas-entre-2-e-4-anos-abrangidas-por-vacinacao-gratuita-contra-a-gripe_v1768632",
+   "title": "Crianças entre 2 e 4 anos abrangidas por vacinação gratuita contra a gripe",
+   "topic": "saude",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Vacinação",
+    "Gripe",
+    "Covid-19"
+   ],
+   "tickers": [],
+   "resumo": "Arranca a campanha de vacinação contra a gripe e a Covid-19, com a vacina da gripe gratuita alargada às crianças entre os dois e os quatro anos. A vacina da Covid-19 passa a ser recomendada apenas a partir dos 70 anos.",
+   "img": "https://cdn-images.rtp.pt/icm/images/91/912396c72ccfcc7ac8c9e46dd6140781_N.jpg?"
+  },
+  {
+   "id": "obs-amnistia-ceuta-tortura",
+   "ts": "2026-09-30T12:25:48Z",
+   "source": "Observador",
+   "lado": "pt",
+   "url": "https://observador.pt/2026/09/30/amnistia-internacional-acusa-militares-espanhois-de-tortura-e-tratamentos-crueis-em-ceuta/",
+   "title": "Amnistia Internacional acusa militares de \"tortura\" em Ceuta",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Espanha",
+    "Direitos humanos"
+   ],
+   "tickers": [],
+   "resumo": "A Amnistia Internacional denuncia tortura e tratamentos cruéis, desumanos e degradantes por parte de militares espanhóis contra imigrantes em Ceuta, que diz responderem a um padrão.",
+   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2000:1121:nowe:0:0/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/09/30112337/47853576.jpg"
+  },
+  {
+   "id": "cnn-6abcff93d34e9a786e75a4bf",
+   "ts": "2026-09-30T12:24:00Z",
+   "source": "CNN Portugal",
+   "lado": "pt",
+   "url": "https://cnnportugal.iol.pt/iva/operacao-internacional/mais-de-um-milhao-de-telemoveis-usados-terao-sido-vendidos-como-novos-num-esquema-milionario/20260930/6abcff93d34e9a786e75a4bf",
+   "title": "Mais de um milhão de telemóveis usados terão sido vendidos como novos num esquema milionário",
+   "topic": "justica",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Fraude",
+    "GNR"
+   ],
+   "tickers": [],
+   "resumo": "A GNR participou numa operação internacional contra uma organização suspeita de vender mais de um milhão de telemóveis usados como se fossem novos, num esquema de fraude milionário.",
+   "img": "https://img.iol.pt/image/id/6042c6d10cf21a3fbaceb3d2/200.jpg"
+  },
+  {
+   "id": "rtp-v1768628",
+   "ts": "2026-09-30T12:22:47Z",
+   "source": "RTP",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/economia/acelerar-despejos-e-contratos-mais-flexiveis-sao-algumas-das-alteracoes-propostas-pelo-governo_v1768628",
+   "title": "Acelerar despejos e contratos mais flexíveis são algumas das alterações propostas pelo Governo",
+   "topic": "economia",
+   "sub": "",
+   "impacto": "alto",
+   "setores": [
+    "Arrendamento",
+    "Habitação"
+   ],
+   "tickers": [],
+   "resumo": "A nova lei das rendas do Governo tem o chumbo praticamente garantido. O primeiro-ministro diz que vai levar a política de habitação até ao fim sem se deixar intimidar.",
+   "img": "https://cdn-images.rtp.pt/icm/images/ac/ac749a393ec8f644fd0beaf77805e10c_N.jpg?"
+  },
+  {
+   "id": "abola-benfica-queixa-samu-porto",
+   "ts": "2026-09-30T12:16:00Z",
+   "source": "A Bola",
+   "lado": "pt",
+   "url": "https://www.abola.pt/noticias/benfica-formaliza-queixa-contra-samu-e-fc-porto-2026093012014703875",
+   "title": "Benfica formaliza queixa contra Samu e FC Porto",
+   "topic": "desporto",
+   "sub": "benfica",
+   "impacto": "medio",
+   "setores": [
+    "Clássico",
+    "Disciplina"
+   ],
+   "tickers": [],
+   "resumo": "O Benfica formalizou uma queixa contra Samu e o FC Porto na sequência do clássico da última jornada.",
+   "img": "https://sportal365images.com/process/smp-images-production/abola.pt/30092026/d4317a79-5299-4c2d-a6bd-f627f4c7d4b5.jpg?operations=crop(0:145:1918:1224),autocrop(1200:630)"
+  },
+  {
+   "id": "cnn-6abcfcfed34e53c759c7474a",
+   "ts": "2026-09-30T12:13:00Z",
+   "source": "CNN Portugal",
+   "lado": "pt",
+   "url": "https://cnnportugal.iol.pt/afogamento/lar-mogadouro/mulher-de-92-anos-morre-afogada-em-piscina-de-lar-em-mogadouro/20260930/6abcfcfed34e53c759c7474a",
+   "title": "Mulher de 92 anos morre afogada em piscina de lar em Mogadouro",
+   "topic": "outros",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Lares"
+   ],
+   "tickers": [],
+   "resumo": "Uma idosa de 92 anos morreu afogada na piscina interior de um lar em Mogadouro. O alerta foi dado pelas 9h08 e as circunstâncias do incidente são desconhecidas.",
+   "img": "https://img.iol.pt/image/id/5e2203f70cf207193068d7a4/200.jpg"
+  },
+  {
+   "id": "abola-vasco-seabra-rio-ave",
+   "ts": "2026-09-30T12:11:05Z",
+   "source": "A Bola",
+   "lado": "pt",
+   "url": "https://www.abola.pt/noticias/vasco-seabra-deixa-o-arouca-e-ruma-ao-rio-ave-2026093012110540466",
+   "title": "Vasco Seabra deixa o Arouca e ruma ao Rio Ave",
+   "topic": "desporto",
+   "sub": "liga",
+   "impacto": "medio",
+   "setores": [
+    "Treinadores"
+   ],
+   "tickers": [],
+   "resumo": "O Rio Ave paga a cláusula de rescisão de um milhão de euros ao Arouca para contratar Vasco Seabra, depois do mau arranque da equipa sob o comando de Sotiris Silaidopoulos.",
+   "img": "https://sportal365images.com/process/smp-images-production/abola.pt/18052026/29fc80d8-3ade-4dbb-aaf5-ec326ad04321.jpeg?operations=crop(0:0:7273:4091),autocrop(1200:630)"
+  },
   {
    "id": "hn-bastonario-saude-publica-investimento",
    "ts": "2026-09-30T12:08:00Z",
@@ -161,6 +513,23 @@
    "img": "https://eco.imgix.net/uploads/2022/04/cropped-bnp-paribas.jpg"
   },
   {
+   "id": "as-pajari-sardenha-titulo",
+   "ts": "2026-09-30T11:49:35Z",
+   "source": "AutoSport",
+   "lado": "pt",
+   "url": "https://www.autosport.pt/ralis/sami-pajari-aponta-a-luta-pelo-titulo-no-wrc-preciso-de-um-pouco-de-sorte/",
+   "title": "Sami Pajari aponta à luta pelo título no WRC: \"preciso de um pouco de sorte\"",
+   "topic": "desporto",
+   "sub": "motores",
+   "impacto": "baixo",
+   "setores": [
+    "WRC"
+   ],
+   "tickers": [],
+   "resumo": "Sami Pajari chega ao Rali da Sardenha, última prova da época, a 17 pontos de Elfyn Evans e admite precisar de sorte para conquistar o primeiro título mundial.",
+   "img": ""
+  },
+  {
    "id": "eco-frente-sindical-2027",
    "ts": "2026-09-30T11:46:44Z",
    "source": "ECO",
@@ -196,6 +565,24 @@
    "tickers": [],
    "resumo": "Segundo o Tribunal de Contas, os oito milhões de euros cobrados com a taxa sobre lucros extraordinários da distribuição continuam parados, à espera de um decreto do Governo que defina os beneficiários.",
    "img": "https://eco.imgix.net/uploads/2025/02/cropped-44137808-scaled-3.jpg"
+  },
+  {
+   "id": "rtp-n1768611",
+   "ts": "2026-09-30T11:43:09Z",
+   "source": "RTP",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/pais/seguro-voltou-a-defender-uma-resposta-europeia-a-crise-dos-combustiveis_n1768611",
+   "title": "Seguro voltou a defender uma resposta europeia à crise dos combustíveis",
+   "topic": "politica",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Presidente da República",
+    "Combustíveis"
+   ],
+   "tickers": [],
+   "resumo": "O Presidente da República, em Estrasburgo para assinalar os 50 anos da adesão de Portugal ao Conselho da Europa, voltou a defender uma resposta europeia à crise dos combustíveis e pediu uma Europa aberta ao diálogo e com voz própria.",
+   "img": "https://cdn-images.rtp.pt/icm/noticias/images/03/03ab87f221a2c6caed6170294cab9fd0?w=350&q=50&rect=0,122,1024,561&auto=format"
   },
   {
    "id": "eco-bilhete-unico-contactless",
@@ -339,6 +726,24 @@
    "tickers": [],
    "resumo": "O presidente da Assembleia da República apelou aos advogados para combaterem a «utilização abusiva dos mecanismos de defesa» e alertou para problemas de participação política.",
    "img": "https://www.lusa.pt/temp/images/420x330/cache_420x330_Crop_high_47515306_6969922_24072026083034.jpg"
+  },
+  {
+   "id": "idealista-77938",
+   "ts": "2026-09-30T10:47:26Z",
+   "source": "Idealista",
+   "lado": "pt",
+   "url": "https://www.idealista.pt/news/imobiliario/habitacao/2026/09/30/77938-senhorios-institucionais-ganham-peso-e-arrendam-casas-mais-caras",
+   "title": "Senhorios institucionais ganham peso e arrendam casas mais caras",
+   "topic": "economia",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Arrendamento",
+    "Rendas"
+   ],
+   "tickers": [],
+   "resumo": "Os senhorios institucionais já representam 22,6% dos contratos de arrendamento e cobram rendas mais altas: mediana de 10,33 euros por metro quadrado, contra 9,58 nos senhorios familiares.",
+   "img": "https://st3.idealista.pt/news/arquivos/2026-09/images/pexels-kampus-8730006.jpg?VersionId=5oh4KmO4NVkSN5mnnCVB2Fgjv1R.CF6B"
   },
   {
    "id": "obs-taiwan-exercicios-outubro",
@@ -4865,408 +5270,6 @@
    "tickers": [],
    "resumo": "Os compromissos internacionais de financiamento ao combate ao Ébola atingem quase 2,9 mil milhões de dólares, incluindo 700 milhões anunciados por líderes do G20+. O Africa CDC pede que o dinheiro seja desembolsado com urgência e transparência.",
    "img": ""
-  },
-  {
-   "id": "obs-oe27-negociacoes-partidos",
-   "ts": "2026-09-29T03:16:31Z",
-   "source": "Observador",
-   "lado": "pt",
-   "url": "https://observador.pt/programas/noticiario/as-noticias-das-4h-2415/",
-   "title": "OE 2027. Negociações continuam com críticas da oposição",
-   "topic": "politica",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Orçamento do Estado"
-   ],
-   "tickers": [],
-   "resumo": "O Governo recebe hoje os partidos da coligação, PSD e CDS, e também Livre, PCP e Bloco de Esquerda para negociar o Orçamento do Estado para 2027. A oposição critica a falta de medidas de apoio às famílias.",
-   "img": ""
-  },
-  {
-   "id": "rtp-1768330",
-   "ts": "2026-09-29T02:32:01Z",
-   "source": "RTP",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/noticiario-antena1/2h-ps-e-chega-dizem-que-oe27-nao-inclui-apoios-as-familias_a1_1768330",
-   "title": "PS e Chega dizem que OE27 não inclui apoios às famílias",
-   "topic": "politica",
-   "sub": "",
-   "impacto": "alto",
-   "setores": [
-    "OE2027",
-    "Parlamento"
-   ],
-   "tickers": [],
-   "resumo": "PS e Chega mostram-se desiludidos com as medidas do Governo para o Orçamento do Estado de 2027 e dizem que a proposta não inclui apoios às famílias.",
-   "img": ""
-  },
-  {
-   "id": "obs-gemeas-psd-marcelo",
-   "ts": "2026-09-29T01:15:39Z",
-   "source": "Observador",
-   "lado": "pt",
-   "url": "https://observador.pt/programas/noticiario/as-noticias-das-2h-2425/",
-   "title": "Gémeas. PSD diz que inocência de Marcelo ficou provada",
-   "topic": "justica",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Caso das gémeas"
-   ],
-   "tickers": [],
-   "resumo": "O deputado do PSD António Rodrigues defende que a acusação prova a inocência de Marcelo Rebelo de Sousa e que a Casa Civil agiu como noutros casos semelhantes.",
-   "img": ""
-  },
-  {
-   "id": "rtp-1768327",
-   "ts": "2026-09-29T00:47:47Z",
-   "source": "RTP",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/pais/porto-covo-encontrados-os-dois-corpos-dos-trabalhadores-soterrados_v1768327",
-   "title": "Porto Covo. Encontrados os dois corpos dos trabalhadores soterrados",
-   "topic": "outros",
-   "sub": "",
-   "impacto": "alto",
-   "setores": [
-    "Acidente de trabalho",
-    "Sines"
-   ],
-   "tickers": [],
-   "resumo": "Dois trabalhadores morreram soterrados durante uma escavação na obra de um hotel em Porto Covo. Os dois corpos foram encontrados durante a noite.",
-   "img": ""
-  },
-  {
-   "id": "rtp-1768326",
-   "ts": "2026-09-29T00:45:47Z",
-   "source": "RTP",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/pais/em-vespera-de-negociacoes-cerca-de-200-agentes-da-psp-e-gnr-em-protesto-no-porto_v1768326",
-   "title": "Em véspera de negociações. Cerca de 200 agentes da PSP e GNR em protesto no Porto",
-   "topic": "politica",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "PSP",
-    "GNR"
-   ],
-   "tickers": [],
-   "resumo": "Cerca de duas centenas de polícias e militares da GNR manifestaram-se no Porto, na véspera da reunião com o Ministério da Administração Interna sobre carreiras e organização do tempo de trabalho.",
-   "img": "https://cdn-images.rtp.pt/icm/images/5b/5b8b938c9826a0a7886b89a2b6187da1_N.jpg?"
-  },
-  {
-   "id": "caras-diana-chaves-globos",
-   "ts": "2026-09-29T00:37:29Z",
-   "source": "Caras",
-   "lado": "pt",
-   "url": "https://caras.pt/famosos/2026-09-29-diana-chaves-surge-em-direto-com-marca-no-rosto-e-revela-incidente-nos-globos-de-ouro/",
-   "title": "Diana Chaves surge em direto com marca no rosto e revela incidente nos Globos de Ouro",
-   "topic": "rosa",
-   "sub": "famosos",
-   "impacto": "baixo",
-   "setores": [
-    "SIC",
-    "Globos de Ouro"
-   ],
-   "tickers": [],
-   "resumo": "Diana Chaves apareceu em direto no Casa Feliz com um ferimento no nariz e explicou que foi um arranhão nos bastidores da gala dos Globos de Ouro da SIC.",
-   "img": ""
-  },
-  {
-   "id": "rtp-1768325",
-   "ts": "2026-09-29T00:32:22Z",
-   "source": "RTP",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/pais/menos-sal-e-acucar-facilitar-a-amamentacao-dgs-lanca-orientacoes-para-alimentacao-nas-creches_n1768325",
-   "title": "Menos sal e açúcar, facilitar a amamentação. DGS lança orientações para alimentação nas creches",
-   "topic": "saude",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "DGS",
-    "Creches"
-   ],
-   "tickers": [],
-   "resumo": "A DGS publicou orientações nacionais para a alimentação nas creches: refeições diversificadas, porções adequadas à idade, menos sal, açúcar e ultraprocessados, e condições para facilitar a amamentação.",
-   "img": ""
-  },
-  {
-   "id": "rtp-n1768320",
-   "ts": "2026-09-29T00:08:59Z",
-   "source": "RTP",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/economia/governo-brasileiro-processa-bets-e-pede-16876-milhoes-de-euros-em-danos-morais-coletivos_n1768320",
-   "title": "Governo brasileiro processa bets e pede 168,76 milhões de euros em danos morais coletivos",
-   "topic": "mundo",
-   "sub": "",
-   "impacto": "baixo",
-   "setores": [
-    "Apostas"
-   ],
-   "tickers": [],
-   "resumo": "O Governo brasileiro avançou com uma ação civil pública contra 17 empresas de apostas online. Pede, entre outras medidas, pelo menos mil milhões de reais em danos morais coletivos.",
-   "img": ""
-  },
-  {
-   "id": "caras-sonia-brazao-maternidade",
-   "ts": "2026-09-29T00:08:49Z",
-   "source": "Caras",
-   "lado": "pt",
-   "url": "https://caras.pt/famosos/2026-09-29-sonia-brazao-faz-confissao-sobre-possibilidade-de-maternidade-sempre-soube/",
-   "title": "Sónia Brazão faz confissão sobre possibilidade de maternidade",
-   "topic": "rosa",
-   "sub": "famosos",
-   "impacto": "baixo",
-   "setores": [
-    "Televisão"
-   ],
-   "tickers": [],
-   "resumo": "Quinze anos após a explosão que mudou a sua vida, Sónia Brazão regressou à televisão, disse estar de novo apaixonada e falou de casamento e maternidade.",
-   "img": ""
-  },
-  {
-   "id": "record-sporting-zekri",
-   "ts": "2026-09-29T00:00:00Z",
-   "source": "Record",
-   "lado": "pt",
-   "url": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/sporting/detalhe/sporting-regressa-ao-trabalho-ja-com-zekri-as-ordens-de-rui-borges",
-   "title": "Sporting regressa ao trabalho já com Zekri às ordens de Rui Borges",
-   "topic": "desporto",
-   "sub": "sporting",
-   "impacto": "baixo",
-   "setores": [],
-   "tickers": [],
-   "resumo": "O Sporting voltou aos treinos com Zekri já às ordens de Rui Borges. O grupo continua muito reduzido devido aos compromissos das seleções.",
-   "img": ""
-  },
-  {
-   "id": "obs-gpt61-astra-cancelado",
-   "ts": "2026-09-28T23:29:08Z",
-   "source": "Observador",
-   "lado": "pt",
-   "url": "https://observador.pt/2026/09/29/fazia-tarefas-sem-humanos-pedirem-cancelado-lancamento-de-novo-modelo-do-chatgpt-por-motivos-de-seguranca/",
-   "title": "Segurança leva novo modelo do ChatGPT a ser cancelado",
-   "topic": "tecnologia",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Inteligência artificial"
-   ],
-   "tickers": [],
-   "resumo": "Testes internos levaram ao cancelamento do lançamento do GPT-6.1 Astra, o modelo mais avançado da OpenAI até agora. Segundo a notícia, o sistema executava tarefas sem que lhe fossem pedidas e não era transparente sobre isso.",
-   "img": ""
-  },
-  {
-   "id": "rtp-1768321",
-   "ts": "2026-09-28T23:26:03Z",
-   "source": "RTP",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/noticiario-antena1/23h-pr-pede-uma-estrategia-a-prazo-para-uma-nova-etapa-no-turismo_a1_1768321",
-   "title": "PR pede uma estratégia a prazo para uma nova etapa no Turismo",
-   "topic": "economia",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Turismo",
-    "Presidência"
-   ],
-   "tickers": [],
-   "resumo": "O Presidente da República pediu uma estratégia a prazo para uma nova etapa do turismo, no dia em que a Confederação do Turismo alertou que o ritmo atual de crescimento não é sustentável.",
-   "img": ""
-  },
-  {
-   "id": "obs-cim-altominho-estradas",
-   "ts": "2026-09-28T23:19:47Z",
-   "source": "Observador",
-   "lado": "pt",
-   "url": "https://observador.pt/2026/09/29/cim-alto-minho-confiante-que-governo-acolhe-reivindicacao-de-300-milhoes-de-euros-para-rodovia/",
-   "title": "CIM do Alto Minho quer 300 milhões de euros para a rede rodoviária",
-   "topic": "politica",
-   "sub": "",
-   "impacto": "baixo",
-   "setores": [
-    "Alto Minho",
-    "Estradas"
-   ],
-   "tickers": [],
-   "resumo": "Dez autarcas do Alto Minho uniram-se num documento para exigir ao Governo 300 milhões de euros para a rede rodoviária. A região representa já 50% do tráfego entre Portugal e Espanha.",
-   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:770:433:nowe:0:0/q:70/plain/https://s3.observador.pt/wp-content/uploads/2020/08/04121455/13217492_770x433_acf_cropped.jpg"
-  },
-  {
-   "id": "rtp-1768318",
-   "ts": "2026-09-28T23:15:25Z",
-   "source": "RTP",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/cultura/serie-da-rtp-jones-apresenta-um-inspetor-de-policia-com-metodos-pouco-convencionais_n1768318",
-   "title": "Série da RTP \"Jones\" apresenta um inspetor de polícia com métodos pouco convencionais",
-   "topic": "cultura",
-   "sub": "",
-   "impacto": "baixo",
-   "setores": [
-    "RTP1",
-    "Séries"
-   ],
-   "tickers": [],
-   "resumo": "Jones é a nova série da RTP1, com autoria e realização de Bruno Gascon, em seis episódios sobre a investigação do homicídio da filha mais nova da família Salvaterra.",
-   "img": ""
-  },
-  {
-   "id": "rtp-d1768317",
-   "ts": "2026-09-28T23:03:30Z",
-   "source": "RTP Desporto",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/futebol-internacional/liga-nacoes-franca-vence-belgica-perto-do-fim-italia-reergue-se-na-turquia_d1768317",
-   "title": "Liga Nações. França vence Bélgica perto do fim, Itália reergue-se na Turquia",
-   "topic": "desporto",
-   "sub": "selecao",
-   "impacto": "baixo",
-   "setores": [
-    "Liga das Nações"
-   ],
-   "tickers": [],
-   "resumo": "A França isolou-se na liderança do Grupo A1 da Liga das Nações ao vencer na Bélgica com um golo perto do fim. A Itália venceu a Turquia por 4-1.",
-   "img": ""
-  },
-  {
-   "id": "rtp-1768315",
-   "ts": "2026-09-28T22:42:01Z",
-   "source": "RTP",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/noticiario-antena1/22h-turismo-crescimento-atual-nao-e-sustentavel-alerta-a-confederacao-do-turismo_a1_1768315",
-   "title": "Turismo: crescimento atual não é sustentável, alerta a Confederação do Turismo",
-   "topic": "economia",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Turismo"
-   ],
-   "tickers": [],
-   "resumo": "A Confederação do Turismo alerta que o ritmo de crescimento atual do setor não é sustentável. O aviso surge no mesmo dia em que o Presidente da República pediu uma estratégia a prazo para o Turismo.",
-   "img": ""
-  },
-  {
-   "id": "rtp-d1768313",
-   "ts": "2026-09-28T22:31:06Z",
-   "source": "RTP Desporto",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/outras-modalidades/matthew-hauser-justifica-se-a-vilaca-e-preciso-ser-cao-para-vencer_d1768313",
-   "title": "Matthew Hauser justifica-se a Vilaça: \"É preciso ser cão\" para vencer",
-   "topic": "desporto",
-   "sub": "triatlo",
-   "impacto": "baixo",
-   "setores": [
-    "Mundial de triatlo"
-   ],
-   "tickers": [],
-   "resumo": "O australiano Matthew Hauser venceu a última ronda do Mundial de triatlo, em Pontevedra, à frente de Vasco Vilaça, e justificou a atitude anti-fair play de que foi acusado como um mal necessário. Vilaça foi segundo e sagrou-se campeão do Mundo.",
-   "img": "https://cdn-images.rtp.pt/icm/noticias/images/d8/d8c04d4ac70797c408e375d88058c377?w=350&q=50&rect=0,106,1500,822&auto=format"
-  },
-  {
-   "id": "obs-mercedes-fecha-fabricas",
-   "ts": "2026-09-28T22:29:57Z",
-   "source": "Observador",
-   "lado": "pt",
-   "url": "https://observador.pt/2026/09/28/depois-da-vw-tambem-a-mercedes-vai-encerrar-duas-fabricas-na-alemanha/",
-   "title": "Após a VW, também a Mercedes vai despedir e fechar fábricas",
-   "topic": "economia",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Automóvel",
-    "Alemanha"
-   ],
-   "tickers": [],
-   "resumo": "A Mercedes-Benz prepara-se para encerrar duas fábricas na Alemanha e reduzir postos de trabalho, na sequência da quebra de vendas na China e da concorrência dos construtores chineses.",
-   "img": ""
-  },
-  {
-   "id": "rtp-1768314",
-   "ts": "2026-09-28T22:27:05Z",
-   "source": "RTP",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/mundo/russia-reforca-se-com-tropas-e-misseis-norte-coreanos_n1768314",
-   "title": "Rússia reforça-se com tropas e mísseis norte-coreanos",
-   "topic": "mundo",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Ucrânia",
-    "Rússia"
-   ],
-   "tickers": [],
-   "resumo": "O Presidente ucraniano, Volodymyr Zelensky, afirmou que a Rússia vai receber reforços de tropas da Coreia do Norte. Pyongyang terá ainda fornecido a Moscovo mais mísseis balísticos.",
-   "img": ""
-  },
-  {
-   "id": "obs-ig-estrangeiras-44",
-   "ts": "2026-09-28T22:23:52Z",
-   "source": "Observador",
-   "lado": "pt",
-   "url": "https://observador.pt/2026/09/28/dgs-quatro-em-cada-dez-interrupcoes-da-gravidez-sao-feitas-por-mulheres-estrangeiras/",
-   "title": "44% das interrupções da gravidez foram de estrangeiras",
-   "topic": "saude",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "DGS"
-   ],
-   "tickers": [],
-   "resumo": "Segundo a DGS, o número de interrupções da gravidez manteve-se estável em 2025, perto das 18.869, mas 44% foram feitas por mulheres estrangeiras, sobretudo angolanas, brasileiras e cabo-verdianas. A DGS alerta para barreiras linguísticas e culturais no acesso.",
-   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2000:1126:nowe:0:129/q:70/plain/https://s3.observador.pt/wp-content/uploads/sites/5/2014/05/7278889.jpg"
-  },
-  {
-   "id": "obs-paris-liceus-detidos",
-   "ts": "2026-09-28T22:02:53Z",
-   "source": "Observador",
-   "lado": "pt",
-   "url": "https://observador.pt/2026/09/28/164-detidos-nos-protestos-de-estudantes-em-liceus-de-paris-na-vespera-da-greve-geral-do-setor-publico-em-franca/",
-   "title": "164 detidos nos protestos em liceus de Paris",
-   "topic": "mundo",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "França",
-    "Greve"
-   ],
-   "tickers": [],
-   "resumo": "Os protestos de estudantes em liceus de Paris terminaram com 164 detidos e vários feridos, incluindo 12 polícias e 8 professores. Decorrem na véspera da greve geral do setor público em França.",
-   "img": ""
-  },
-  {
-   "id": "rtp-1768294",
-   "ts": "2026-09-28T21:58:31Z",
-   "source": "RTP",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/pais/cerca-de-200-policias-manifestam-se-na-vespera-de-reuniao-com-mai_n1768294",
-   "title": "Cerca de 200 polícias manifestam-se na véspera de reunião com MAI",
-   "topic": "politica",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "PSP",
-    "GNR"
-   ],
-   "tickers": [],
-   "resumo": "Cerca de 200 polícias e guardas manifestaram-se em silêncio no Porto, na véspera de novas reuniões com o ministro da Administração Interna. Em discussão estão a reestruturação das carreiras e a organização do tempo de trabalho.",
-   "img": ""
-  },
-  {
-   "id": "rtp-1768291",
-   "ts": "2026-09-28T21:58:13Z",
-   "source": "RTP",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/pais/quatro-em-cada-dez-interrupcoes-da-gravidez-feitas-por-mulheres-estrangeiras_n1768291",
-   "title": "Quatro em cada dez interrupções da gravidez feitas por mulheres estrangeiras",
-   "topic": "saude",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "DGS",
-    "SNS"
-   ],
-   "tickers": [],
-   "resumo": "Mais de quatro em cada dez interrupções voluntárias da gravidez em 2025 foram feitas por mulheres estrangeiras, segundo a DGS, que pede respostas adaptadas à diversidade linguística.",
-   "img": ""
   }
  ],
  "contracts": {},
@@ -5274,6 +5277,12 @@
  "quotesAt": null,
  "series": {},
  "pairs": [
+  {
+   "a": "rtp-n1768608",
+   "b": "rtp-v1768628",
+   "tema": "Lei das rendas: Governo vs plataforma",
+   "nota": "O primeiro-ministro diz que vai levar a política de habitação até ao fim sem se intimidar; a plataforma Não Dá Mais exige simbolicamente o despejo do ministro Pinto Luz."
+  },
   {
    "a": "cnn-6abcaf7dd34e53c759c745f0",
    "b": "nit-placebo-30-anos-lisboa",
@@ -5299,5 +5308,5 @@
    "nota": "A RTP diz que Trump afirmou que a IA precisa de regulação; o Observador noticia uma declaração com líderes do setor que rejeita a regulação governamental e aposta na autorregulação."
   }
  ],
- "arquivo": 54
+ "arquivo": 77
 }
