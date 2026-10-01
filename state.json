@@ -1,7 +1,135 @@
 {
- "version": "1.1.42",
- "updated": "2026-10-01T01:04:06Z",
+ "version": "1.1.43",
+ "updated": "2026-10-01T07:11:03Z",
  "recent": [
+  {
+   "id": "ipma-precipitacao-yellow-20261001-acores",
+   "ts": "2026-10-01T05:30:00Z",
+   "topic": "tempo",
+   "sub": "",
+   "source": "IPMA",
+   "title": "Aviso amarelo para precipitação forte e trovoada nos Açores entre quinta-feira à noite e sábado"
+  },
+  {
+   "id": "rtp-n1768785",
+   "ts": "2026-10-01T05:23:26Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "RTP",
+   "title": "Hong Kong detém jornalista político e uma ativista por alegada sedição"
+  },
+  {
+   "id": "cnn-6abded27d34e9a786e75a675",
+   "ts": "2026-10-01T05:18:00Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "CNN Portugal",
+   "title": "Japão aumenta 20 vezes taxa para residência permanente de estrangeiros no âmbito de endurecimento da imigração"
+  },
+  {
+   "id": "rtp-n1768784",
+   "ts": "2026-10-01T05:17:03Z",
+   "topic": "economia",
+   "sub": "",
+   "source": "RTP",
+   "title": "Trump apresenta até 200 mil milhões de dólares em investimentos sul-coreanos nos EUA"
+  },
+  {
+   "id": "cnn-6abdebe3d34e9a786e75a674",
+   "ts": "2026-10-01T05:12:00Z",
+   "topic": "cultura",
+   "sub": "",
+   "source": "CNN Portugal",
+   "title": "Tom Cruise regressa aos ecrãs com um personagem \"bizarro\" e \"nunca visto\""
+  },
+  {
+   "id": "rtp-n1768781",
+   "ts": "2026-10-01T05:10:51Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "RTP",
+   "title": "Christa Pike sobrevive a duas doses letais e advogados tentam impedir execução nos EUA"
+  },
+  {
+   "id": "hn-osswald-voto-pesar",
+   "ts": "2026-10-01T05:08:30Z",
+   "topic": "saude",
+   "sub": "",
+   "source": "HealthNews",
+   "title": "Parlamento aprova por unanimidade voto de pesar pela morte de Walter Osswald, pioneiro da bioética"
+  },
+  {
+   "id": "rtp-n1768775",
+   "ts": "2026-10-01T04:46:32Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "RTP",
+   "title": "Rubio ordenou que delegação do Irão abandonasse EUA após fracasso de negociações"
+  },
+  {
+   "id": "rtp-a1768783",
+   "ts": "2026-10-01T04:30:02Z",
+   "topic": "economia",
+   "sub": "",
+   "source": "RTP",
+   "title": "Tarifas do gás e da eletricidade no mercado regulado sobem a partir de hoje"
+  },
+  {
+   "id": "lusa-maat-10-anos",
+   "ts": "2026-10-01T04:30:00Z",
+   "topic": "cultura",
+   "sub": "",
+   "source": "Lusa",
+   "title": "MAAT inaugura hoje três exposições no âmbito dos 10 anos do museu"
+  },
+  {
+   "id": "cm-paulo-topa-falencias",
+   "ts": "2026-10-01T04:02:35Z",
+   "topic": "justica",
+   "sub": "",
+   "source": "CM",
+   "title": "Desvio de 10 milhões com fraudes em falências envolve Paulo Topa e levou à apreensão de 20 cavalos"
+  },
+  {
+   "id": "lusa-47864804",
+   "ts": "2026-10-01T04:00:00Z",
+   "topic": "politica",
+   "sub": "",
+   "source": "Lusa",
+   "title": "PSP regista mais de 54.000 crimes contra idosos nos últimos três anos"
+  },
+  {
+   "id": "cnn-6abdac0b0cf20dc52778dfd5",
+   "ts": "2026-10-01T00:40:00Z",
+   "topic": "desporto",
+   "sub": "selecao",
+   "source": "CNN Portugal",
+   "title": "Cristiano Ronaldo chegou a Madrid já depois da uma da manhã"
+  },
+  {
+   "id": "obs-noticiario-1h-cgtp-greve",
+   "ts": "2026-10-01T00:14:08Z",
+   "topic": "politica",
+   "sub": "",
+   "source": "Observador",
+   "title": "CGTP. Greve de sexta pode afetar escolas e autarquias"
+  },
+  {
+   "id": "caras-anne-iommi",
+   "ts": "2026-09-30T23:33:21Z",
+   "topic": "rosa",
+   "sub": "realeza",
+   "source": "Caras",
+   "title": "Princesa Anne protagoniza encontro inesperado com lenda dos Black Sabbath em Windsor"
+  },
+  {
+   "id": "cm-cfp-juros-50",
+   "ts": "2026-09-30T23:33:09Z",
+   "topic": "economia",
+   "sub": "",
+   "source": "CM",
+   "title": "Conselho das Finanças Públicas prevê subida de quase 50% nos encargos com juros em quatro anos"
+  },
   {
    "id": "obs-usf-medico-familia-2029",
    "ts": "2026-09-30T23:28:55Z",
@@ -9,6 +137,22 @@
    "sub": "",
    "source": "Observador",
    "title": "USF: médico de família para todos até 2029"
+  },
+  {
+   "id": "rtp-d1768768",
+   "ts": "2026-09-30T23:18:47Z",
+   "topic": "desporto",
+   "sub": "selecao",
+   "source": "RTP",
+   "title": "Saída de Ronaldo. \"Vai haver um problema na marca da Federação\""
+  },
+  {
+   "id": "abola-joao-ferreira-marrocos",
+   "ts": "2026-09-30T23:12:00Z",
+   "topic": "desporto",
+   "sub": "motores",
+   "source": "A Bola",
+   "title": "João Ferreira cai para nono no Rali de Marrocos"
   },
   {
    "id": "caras-rania-princesa-sara",
@@ -81,6 +225,14 @@
    "sub": "",
    "source": "ECO",
    "title": "Bastonário dos advogados quer novas regras do processo penal no Constitucional"
+  },
+  {
+   "id": "ojogo-18132293",
+   "ts": "2026-09-30T22:20:00Z",
+   "topic": "desporto",
+   "sub": "selecao",
+   "source": "O Jogo",
+   "title": "Ronaldo já não está em Copenhaga: avião privado partiu rumo a Madrid"
   },
   {
    "id": "obs-jorge-palma-parlamento",
@@ -483,6 +635,14 @@
    "title": "\"A seu tempo direi a verdade\". Cristiano Ronaldo confirma saída do estágio da seleção"
   },
   {
+   "id": "eco-cesa-acores-deficit",
+   "ts": "2026-09-30T18:34:50Z",
+   "topic": "economia",
+   "sub": "",
+   "source": "ECO",
+   "title": "Conselho Económico e Social dos Açores preocupado com evolução das finanças da região"
+  },
+  {
    "id": "ng-cristina-ferreira-primeira-dama",
    "ts": "2026-09-30T18:30:00Z",
    "topic": "rosa",
@@ -545,6 +705,14 @@
    "sub": "",
    "source": "Observador",
    "title": "PP cria embaraço a Sánchez durante visita de Macron a Madrid"
+  },
+  {
+   "id": "eco-governo-volta-prazo",
+   "ts": "2026-09-30T17:54:05Z",
+   "topic": "outros",
+   "sub": "",
+   "source": "ECO",
+   "title": "Governo pressiona Volta e dá duas semanas para apresentar solução para lixo nas ruas"
   },
   {
    "id": "obs-custoias-greve-suspensa",
@@ -793,178 +961,9 @@
    "sub": "",
    "source": "Observador",
    "title": "Lar clandestino encerrado por denúncias de maus-tratos"
-  },
-  {
-   "id": "rtp-v1768661",
-   "ts": "2026-09-30T13:31:47Z",
-   "topic": "desporto",
-   "sub": "lafora",
-   "source": "RTP",
-   "title": "Manchester City pode descer de divisão e perder títulos por escândalo financeiro"
-  },
-  {
-   "id": "rtp-v1768660",
-   "ts": "2026-09-30T13:30:53Z",
-   "topic": "economia",
-   "sub": "",
-   "source": "RTP",
-   "title": "Livrarias e papelarias em risco de fechar porque Estado deve reembolso dos manuais"
-  },
-  {
-   "id": "rtp-v1768659",
-   "ts": "2026-09-30T13:30:47Z",
-   "topic": "saude",
-   "sub": "",
-   "source": "RTP",
-   "title": "Técnicos superiores de diagnóstico do Amadora Sintra estão em greve"
-  },
-  {
-   "id": "rtp-n1768653",
-   "ts": "2026-09-30T13:30:10Z",
-   "topic": "justica",
-   "sub": "",
-   "source": "RTP",
-   "title": "Ordem dos Advogados pede envio ao TC da norma sobre manobras dilatórias"
-  },
-  {
-   "id": "rtp-a1-1768656",
-   "ts": "2026-09-30T13:27:03Z",
-   "topic": "economia",
-   "sub": "",
-   "source": "RTP",
-   "title": "14h Ministra do Ambiente não descarta racionamento de combustíveis"
-  },
-  {
-   "id": "obs-abuso-crianca-amarante",
-   "ts": "2026-09-30T13:25:23Z",
-   "topic": "justica",
-   "sub": "",
-   "source": "Observador",
-   "title": "Detido suspeito de abuso de criança de 13 anos em Amarante"
-  },
-  {
-   "id": "rtp-v1768652",
-   "ts": "2026-09-30T13:22:52Z",
-   "topic": "desporto",
-   "sub": "benfica",
-   "source": "RTP Desporto",
-   "title": "Champions feminina. Benfica recebe Bayern Munique"
-  },
-  {
-   "id": "lusa-47861510",
-   "ts": "2026-09-30T13:22:00Z",
-   "topic": "economia",
-   "sub": "",
-   "source": "Lusa",
-   "title": "Prestação da casa sobe em outubro nos contratos com Euribor a 3, 6 e 12 meses - Deco Proteste"
-  },
-  {
-   "id": "eco-dentro-limites-orcamentais-combustiveis",
-   "ts": "2026-09-30T13:19:15Z",
-   "topic": "economia",
-   "sub": "",
-   "source": "ECO",
-   "title": "\"Dentro dos limites orçamentais vamos até ao limite\" para conter impacto dos combustíveis"
-  },
-  {
-   "id": "caras-charles-spencer-harry",
-   "ts": "2026-09-30T13:16:56Z",
-   "topic": "rosa",
-   "sub": "realeza",
-   "source": "Caras",
-   "title": "Charles Spencer defende o regresso do príncipe Harry ao Reino Unido: 'Acho perfeitamente normal'"
-  },
-  {
-   "id": "rtp-n1768648",
-   "ts": "2026-09-30T13:13:50Z",
-   "topic": "tecnologia",
-   "sub": "",
-   "source": "RTP",
-   "title": "Ferramenta de IA chinesa instruiu investigadores sobre como criar armas biológicas"
-  },
-  {
-   "id": "abola-vagiannidis-alvalade",
-   "ts": "2026-09-30T13:10:40Z",
-   "topic": "desporto",
-   "sub": "sporting",
-   "source": "A Bola",
-   "title": "Sporting: dispensado da Grécia, Vagiannidis está a caminho de Alvalade"
-  },
-  {
-   "id": "obs-djokovic-nuno-borges-pequim",
-   "ts": "2026-09-30T13:04:33Z",
-   "topic": "desporto",
-   "sub": "tenis",
-   "source": "Observador",
-   "title": "Até a jogar a meio gás continua a encher o balão em Pequim"
-  },
-  {
-   "id": "ng-bb-encontrao-luis-francisco-monteiro",
-   "ts": "2026-09-30T13:00:00Z",
-   "topic": "rosa",
-   "sub": "reality",
-   "source": "Nova Gente",
-   "title": "Afinal, o que aconteceu? TVI mostra tudo sobre o 'encontrão' entre Luís e Francisco Monteiro no Big Brother"
-  },
-  {
-   "id": "cnn-6abcebf7d34e9a786e75a448",
-   "ts": "2026-09-30T13:00:00Z",
-   "topic": "mundo",
-   "sub": "",
-   "source": "CNN Portugal",
-   "title": "Da ativação do código 7500 ao \"switch\" na porta do cockpit: eis como se pode ter evitado \"uma tragédia\" comparável ao 11"
-  },
-  {
-   "id": "abola-porto-boas-noticias-farioli",
-   "ts": "2026-09-30T12:59:33Z",
-   "topic": "desporto",
-   "sub": "porto",
-   "source": "A Bola",
-   "title": "FC Porto: boas notícias para Farioli"
-  },
-  {
-   "id": "rtp-v1768646",
-   "ts": "2026-09-30T12:55:47Z",
-   "topic": "mundo",
-   "sub": "",
-   "source": "RTP",
-   "title": "Marrocos. Pela primeira vez uma mulher vai ser primeira-ministra"
-  },
-  {
-   "id": "caras-maria-dinamarca-hobart",
-   "ts": "2026-09-30T12:55:43Z",
-   "topic": "rosa",
-   "sub": "realeza",
-   "source": "Caras",
-   "title": "Maria da Dinamarca de coração partido no regresso às suas raízes"
-  },
-  {
-   "id": "obs-smalling-fc-porto",
-   "ts": "2026-09-30T12:54:38Z",
-   "topic": "desporto",
-   "sub": "porto",
-   "source": "Observador",
-   "title": "Smalling e um mercado que até fechado nunca é pequeno"
-  },
-  {
-   "id": "rtp-v1768643",
-   "ts": "2026-09-30T12:53:47Z",
-   "topic": "economia",
-   "sub": "",
-   "source": "RTP",
-   "title": "Agência Internacional de Energia admite recorre a mais reservas de petróleo"
-  },
-  {
-   "id": "rtp-v1768640",
-   "ts": "2026-09-30T12:50:47Z",
-   "topic": "saude",
-   "sub": "",
-   "source": "RTP",
-   "title": "DGS tomou medidas no lar de Estremoz com surto de gripe A"
   }
  ],
  "paired": [
-  "cnn-6abc287dd34e9a786e75a323",
   "cnn-6abcaf7dd34e53c759c745f0",
   "cnn-6abcdf0fd34e53c759c74696",
   "cnn-6abd16edd34e9a786e75a4fc",
@@ -974,9 +973,6 @@
   "ng-claudio-ramos-responde-mae-jessica-maria",
   "ng-jessica-maria-claudio-ramos",
   "nit-placebo-30-anos-lisboa",
-  "obs-trump-ia-superinteligencia",
-  "rtp-a1-1768533",
-  "rtp-n1768585",
   "rtp-n1768592",
   "rtp-n1768608",
   "rtp-v1768628"

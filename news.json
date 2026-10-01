@@ -1,25 +1,307 @@
 {
- "version": "1.1.42",
- "updated": "2026-10-01T01:04:06Z",
+ "version": "1.1.43",
+ "updated": "2026-10-01T07:11:03Z",
  "brief": [
   {
-   "texto": "Cristiano Ronaldo abandonou o estágio da Seleção em Copenhaga e seguiu de avião privado para Madrid, prometendo dar explicações «a seu tempo».",
-   "id": "rtp-d1768722"
+   "texto": "As tarifas do gás e da eletricidade no mercado regulado sobem a partir de hoje.",
+   "id": "rtp-a1768783"
   },
   {
-   "texto": "O Parlamento aprovou na generalidade a revisão da lei do arrendamento, com a abstenção do Chega e um acordo escrito com o PSD para alterações na especialidade.",
+   "texto": "Cristiano Ronaldo está em Madrid e, segundo O Jogo, decidiu não voltar a jogar pela Seleção.",
+   "id": "ojogo-18132293"
+  },
+  {
+   "texto": "O Parlamento aprovou na generalidade a nova lei do arrendamento, com abstenção do Chega.",
    "id": "rtp-n1768738"
   },
   {
-   "texto": "Montenegro destaca o «sinal importante» dado pelo PS, que admite abster-se no Orçamento do Estado para 2027.",
+   "texto": "Montenegro valoriza o sinal dado pelo PS sobre a abstenção no Orçamento do Estado para 2027.",
    "id": "lusa-47864031"
-  },
-  {
-   "texto": "O Ministério da Educação afastou 62 professores com registo criminal inválido.",
-   "id": "cnn-6abd9422d34e53c759c748fe"
   }
  ],
  "items": [
+  {
+   "id": "ipma-precipitacao-yellow-20261001-acores",
+   "ts": "2026-10-01T05:30:00Z",
+   "source": "IPMA",
+   "lado": "pt",
+   "url": "https://www.ipma.pt/pt/otempo/prev-sam/",
+   "title": "Aviso amarelo para precipitação forte e trovoada nos Açores entre quinta-feira à noite e sábado",
+   "topic": "tempo",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Aviso amarelo",
+    "Açores"
+   ],
+   "tickers": [],
+   "resumo": "O IPMA emitiu aviso amarelo para precipitação por vezes forte, com possibilidade de trovoada, nos grupos Central e Ocidental dos Açores a partir das 21h de hoje e no Oriental a partir da 0h de sexta-feira, até sábado de manhã.",
+   "img": ""
+  },
+  {
+   "id": "rtp-n1768785",
+   "ts": "2026-10-01T05:23:26Z",
+   "source": "RTP",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/mundo/hong-kong-detem-jornalista-politico-e-uma-ativista-por-alegada-sedicao_n1768785",
+   "title": "Hong Kong detém jornalista político e uma ativista por alegada sedição",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "baixo",
+   "setores": [
+    "Hong Kong"
+   ],
+   "tickers": [],
+   "resumo": "A polícia de Hong Kong deteve o jornalista político independente Tang Ho-wing e a ativista Lee Ying-chi por alegada sedição, numa operação ligada à comemoração, em agosto, dos protestos pró-democracia.",
+   "img": "https://cdn-images.rtp.pt/icm/noticias/images/af/af95e9ca25f6556de7fbb7800a5e15b8?w=350&q=50&rect=0,111,1096,601&auto=format"
+  },
+  {
+   "id": "cnn-6abded27d34e9a786e75a675",
+   "ts": "2026-10-01T05:18:00Z",
+   "source": "CNN Portugal",
+   "lado": "pt",
+   "url": "https://cnnportugal.iol.pt/japao/estrangeiros/japao-aumenta-20-vezes-taxa-para-residencia-permanente-de-estrangeiros-no-ambito-de-endurecimento-da-imigracao/20261001/6abded27d34e9a786e75a675",
+   "title": "Japão aumenta 20 vezes taxa para residência permanente de estrangeiros no âmbito de endurecimento da imigração",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "baixo",
+   "setores": [
+    "Japão",
+    "Imigração"
+   ],
+   "tickers": [],
+   "resumo": "O Japão multiplicou por vinte a taxa para obter residência permanente e subiu as taxas de renovação de autorizações, no âmbito do endurecimento da política de imigração; o aumento provocou um afluxo de pedidos antes da entrada em vigor.",
+   "img": "https://img.iol.pt/image/id/691180a1d34e3caad84b1860/200.jpg"
+  },
+  {
+   "id": "rtp-n1768784",
+   "ts": "2026-10-01T05:17:03Z",
+   "source": "RTP",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/economia/trump-apresenta-ate-200-mil-milhoes-de-dolares-em-investimentos-sul-coreanos-nos-eua_n1768784",
+   "title": "Trump apresenta até 200 mil milhões de dólares em investimentos sul-coreanos nos EUA",
+   "topic": "economia",
+   "sub": "",
+   "impacto": "baixo",
+   "setores": [
+    "EUA",
+    "Coreia do Sul"
+   ],
+   "tickers": [],
+   "resumo": "O Presidente norte-americano apresentou até 200 mil milhões de dólares em investimentos sul-coreanos nos EUA, destinados a projetos energéticos, incluindo um gasoduto no Alasca e centrais nucleares.",
+   "img": "https://cdn-images.rtp.pt/icm/noticias/images/5f/5f978535b2162c9925b30064ad93cf74?w=350&q=50&rect=0,9,1720,943&auto=format"
+  },
+  {
+   "id": "cnn-6abdebe3d34e9a786e75a674",
+   "ts": "2026-10-01T05:12:00Z",
+   "source": "CNN Portugal",
+   "lado": "pt",
+   "url": "https://cnnportugal.iol.pt/digger/tom-cruise/tom-cruise-regressa-aos-ecras-com-um-personagem-bizarro-e-nunca-visto/20261001/6abdebe3d34e9a786e75a674",
+   "title": "Tom Cruise regressa aos ecrãs com um personagem \"bizarro\" e \"nunca visto\"",
+   "topic": "cultura",
+   "sub": "",
+   "impacto": "baixo",
+   "setores": [
+    "Cinema"
+   ],
+   "tickers": [],
+   "resumo": "\"Digger\", de Alejandro González Iñárritu, estreia-se hoje nos cinemas portugueses com Tom Cruise numa comédia negra que deixou muitos críticos perplexos.",
+   "img": "https://img.iol.pt/image/id/62861db80cf26256cd24d29f/200.jpg"
+  },
+  {
+   "id": "rtp-n1768781",
+   "ts": "2026-10-01T05:10:51Z",
+   "source": "RTP",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/mundo/christa-pike-sobrevive-a-duas-doses-letais-e-advogados-tentam-impedir-execucao-nos-eua_n1768781",
+   "title": "Christa Pike sobrevive a duas doses letais e advogados tentam impedir execução nos EUA",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "EUA",
+    "Pena de morte"
+   ],
+   "tickers": [],
+   "resumo": "Christa Pike, a única mulher condenada à morte no Tennessee, sobreviveu às duas doses letais de pentobarbital administradas durante a execução, segundo jornalistas presentes; os advogados tentam impedir nova tentativa.",
+   "img": "https://cdn-images.rtp.pt/icm/noticias/images/d6/d6f5080b7e2fabe7461ecf85af168d64?w=350&q=50&rect=0,118,1241,680&auto=format"
+  },
+  {
+   "id": "hn-osswald-voto-pesar",
+   "ts": "2026-10-01T05:08:30Z",
+   "source": "HealthNews",
+   "lado": "pt",
+   "url": "https://healthnews.pt/2026/10/01/parlamento-aprova-por-unanimidade-voto-de-pesar-pela-morte-de-walter-osswald-pioneiro-da-bioetica/",
+   "title": "Parlamento aprova por unanimidade voto de pesar pela morte de Walter Osswald, pioneiro da bioética",
+   "topic": "saude",
+   "sub": "",
+   "impacto": "baixo",
+   "setores": [
+    "Bioética"
+   ],
+   "tickers": [],
+   "resumo": "A Assembleia da República aprovou por unanimidade um voto de pesar pela morte do médico Walter Osswald, pioneiro da bioética, que morreu a 22 de setembro aos 98 anos.",
+   "img": ""
+  },
+  {
+   "id": "rtp-n1768775",
+   "ts": "2026-10-01T04:46:32Z",
+   "source": "RTP",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/guerra-no-medio-oriente/rubio-ordenou-que-delegacao-do-irao-abandonasse-eua-apos-fracasso-de-negociacoes_n1768775",
+   "title": "Rubio ordenou que delegação do Irão abandonasse EUA após fracasso de negociações",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "alto",
+   "setores": [
+    "EUA",
+    "Irão"
+   ],
+   "tickers": [],
+   "resumo": "O secretário de Estado norte-americano ordenou à delegação iraniana presente na Assembleia Geral da ONU que abandonasse o país, após as negociações entre Washington e Teerão terem ficado num impasse, noticiou o Axios.",
+   "img": "https://cdn-images.rtp.pt/icm/noticias/images/61/61e5e6bf6c5e05c9d9286ef85c79af58?w=350&q=50&rect=0,9,1465,803&auto=format"
+  },
+  {
+   "id": "rtp-a1768783",
+   "ts": "2026-10-01T04:30:02Z",
+   "source": "RTP",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/noticiario-antena1/5h-tarifas-do-gas-e-da-eletricidade-no-mercado-regulado-sobem-a-partir-de-hoje_a1_1768783",
+   "title": "Tarifas do gás e da eletricidade no mercado regulado sobem a partir de hoje",
+   "topic": "economia",
+   "sub": "",
+   "impacto": "alto",
+   "setores": [
+    "Eletricidade",
+    "Gás"
+   ],
+   "tickers": [],
+   "resumo": "As tarifas do gás e da eletricidade no mercado regulado sobem a partir de hoje.",
+   "img": ""
+  },
+  {
+   "id": "lusa-maat-10-anos",
+   "ts": "2026-10-01T04:30:00Z",
+   "source": "Lusa",
+   "lado": "pt",
+   "url": "https://www.lusa.pt/culture/article/2026-10-01/47864811/maat-inaugura-hoje-três-exposições-no-âmbito-dos-10-anos-do-museu",
+   "title": "MAAT inaugura hoje três exposições no âmbito dos 10 anos do museu",
+   "topic": "cultura",
+   "sub": "",
+   "impacto": "baixo",
+   "setores": [
+    "Museus",
+    "Lisboa"
+   ],
+   "tickers": [],
+   "resumo": "O MAAT inaugura hoje exposições de Joana Vasconcelos e de João Pimenta Gomes e uma mostra sobre as publicações do museu, nas comemorações dos 10 anos.",
+   "img": ""
+  },
+  {
+   "id": "cm-paulo-topa-falencias",
+   "ts": "2026-10-01T04:02:35Z",
+   "source": "CM",
+   "lado": "pt",
+   "url": "https://m.facebook.com/cmjornal/posts/pfbid02RtqYbiyQsp723yxQFPtwmw5mG7qzCXt3baGCPXFni41vLySfs72J8inEftrzg9UNl",
+   "title": "Desvio de 10 milhões com fraudes em falências envolve Paulo Topa e levou à apreensão de 20 cavalos",
+   "topic": "justica",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Fraude",
+    "Falências"
+   ],
+   "tickers": [],
+   "resumo": "A investigação a um desvio de 10 milhões de euros com fraudes em processos de falência envolve Paulo Topa, tendo sido apreendidos 20 cavalos.",
+   "img": ""
+  },
+  {
+   "id": "lusa-47864804",
+   "ts": "2026-10-01T04:00:00Z",
+   "source": "Lusa",
+   "lado": "pt",
+   "url": "https://www.lusa.pt/article/47864804/psp-regista-mais-de-54-000-crimes-contra-idosos-nos-últimos-três-anos",
+   "title": "PSP regista mais de 54.000 crimes contra idosos nos últimos três anos",
+   "topic": "politica",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "PSP",
+    "Idosos"
+   ],
+   "tickers": [],
+   "resumo": "A PSP registou mais de 54.000 crimes contra idosos nos últimos três anos, com o furto por carteiristas a aumentar desde 2024, revelou a polícia no Dia Internacional das Pessoas Idosas.",
+   "img": "https://www.lusa.pt/temp/images/900x600/cache_900x600_Crop_high_47861478_4603048_30092026035836.jpg"
+  },
+  {
+   "id": "cnn-6abdac0b0cf20dc52778dfd5",
+   "ts": "2026-10-01T00:40:00Z",
+   "source": "CNN Portugal",
+   "lado": "pt",
+   "url": "https://cnnportugal.iol.pt/videos/cristiano-ronaldo-chegou-a-madrid-ja-depois-da-uma-da-manha/6abdac0b0cf20dc52778dfd5",
+   "title": "Cristiano Ronaldo chegou a Madrid já depois da uma da manhã",
+   "topic": "desporto",
+   "sub": "selecao",
+   "impacto": "medio",
+   "setores": [
+    "Seleção"
+   ],
+   "tickers": [],
+   "resumo": "O capitão da Seleção chegou a Madrid de madrugada, apoiado por cerca de uma dezena de adeptos que invadiram a zona privada do aeroporto, depois de ter abandonado o estágio na Dinamarca.",
+   "img": "https://img.iol.pt/image/id/6abdad63d34e9a786e75a670/200.jpg"
+  },
+  {
+   "id": "obs-noticiario-1h-cgtp-greve",
+   "ts": "2026-10-01T00:14:08Z",
+   "source": "Observador",
+   "lado": "pt",
+   "url": "https://observador.pt/programas/noticiario/as-noticias-da-1h-2400/",
+   "title": "CGTP. Greve de sexta pode afetar escolas e autarquias",
+   "topic": "politica",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Greve",
+    "Administração Pública"
+   ],
+   "tickers": [],
+   "resumo": "A greve convocada para sexta-feira pode afetar escolas e autarquias; a paralisação abrange 350 mil técnicos que trabalham em vários serviços da administração pública.",
+   "img": ""
+  },
+  {
+   "id": "caras-anne-iommi",
+   "ts": "2026-09-30T23:33:21Z",
+   "source": "Caras",
+   "lado": "pt",
+   "url": "https://caras.pt/realeza/2026-10-01-princesa-anne-protagoniza-encontro-inesperado-com-lenda-dos-black-sabbath-em-windsor/",
+   "title": "Princesa Anne protagoniza encontro inesperado com lenda dos Black Sabbath em Windsor",
+   "topic": "rosa",
+   "sub": "realeza",
+   "impacto": "baixo",
+   "setores": [
+    "Realeza britânica"
+   ],
+   "tickers": [],
+   "resumo": "No Castelo de Windsor, a princesa Anne entregou a Tony Iommi, guitarrista e cofundador dos Black Sabbath, a condecoração MBE pelo contributo à música e ao trabalho solidário.",
+   "img": ""
+  },
+  {
+   "id": "cm-cfp-juros-50",
+   "ts": "2026-09-30T23:33:09Z",
+   "source": "CM",
+   "lado": "pt",
+   "url": "https://m.facebook.com/cmjornal/posts/pfbid04fbzL4zRsbtaZhyFjTk1cQ6NS6mRFdnaARB9zcw1EkuAXBcHFenGRMG1p1U74384l",
+   "title": "Conselho das Finanças Públicas prevê subida de quase 50% nos encargos com juros em quatro anos",
+   "topic": "economia",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Finanças públicas"
+   ],
+   "tickers": [],
+   "resumo": "O Conselho das Finanças Públicas prevê que os encargos com juros da dívida subam perto de 50% em quatro anos.",
+   "img": ""
+  },
   {
    "id": "obs-usf-medico-familia-2029",
    "ts": "2026-09-30T23:28:55Z",
@@ -37,6 +319,40 @@
    "tickers": [],
    "resumo": "A associação das Unidades de Saúde Familiar diz que é possível atribuir médico de família a todos os utentes do SNS até 2029, com menos aposentações e internos em formação em número suficiente. Avisa, porém, que não basta abrir vagas.",
    "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2000:1124:nowe:0:104/q:70/plain/https://s3.observador.pt/wp-content/uploads/2017/05/09211006/17366137.jpg"
+  },
+  {
+   "id": "rtp-d1768768",
+   "ts": "2026-09-30T23:18:47Z",
+   "source": "RTP",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/desporto/saida-de-ronaldo-vai-haver-um-problema-na-marca-da-federacao_v1768768",
+   "title": "Saída de Ronaldo. \"Vai haver um problema na marca da Federação\"",
+   "topic": "desporto",
+   "sub": "selecao",
+   "impacto": "baixo",
+   "setores": [
+    "FPF"
+   ],
+   "tickers": [],
+   "resumo": "Especialistas em marketing e gestão de marcas admitem que a Federação Portuguesa de Futebol vai perder com a saída de Cristiano Ronaldo, em especial no plano comercial.",
+   "img": "https://cdn-images.rtp.pt/icm/images/68/688b8cf993ff5ae97357bea7cac6b21c_N.jpg"
+  },
+  {
+   "id": "abola-joao-ferreira-marrocos",
+   "ts": "2026-09-30T23:12:00Z",
+   "source": "A Bola",
+   "lado": "pt",
+   "url": "https://www.abola.pt/noticias/joao-ferreira-cai-para-nono-no-rali-de-marrocos-2026093023202112785",
+   "title": "João Ferreira cai para nono no Rali de Marrocos",
+   "topic": "desporto",
+   "sub": "motores",
+   "impacto": "baixo",
+   "setores": [
+    "Rali de Marrocos"
+   ],
+   "tickers": [],
+   "resumo": "Febre e dois furos tiraram a liderança a João Ferreira nos Ultimate, na última prova do Mundial de todo-o-terreno, num dia de destaque para Martim Ventura e Alexandre Pinto.",
+   "img": "https://sportal365images.com/process/smp-images-production/abola.pt/06012026/e565881b-c7c4-4653-8822-3470980dee0c.jpg?operations=crop(0:43:1078:650),autocrop(1200:630)"
   },
   {
    "id": "caras-rania-princesa-sara",
@@ -197,6 +513,24 @@
    "tickers": [],
    "resumo": "O bastonário da Ordem dos Advogados, João Massano, contesta as novas regras do processo penal que permitem sancionar manobras dilatórias e quer que sejam analisadas pelo Tribunal Constitucional. Defende que o combate à morosidade não pode ser feito à custa dos direitos dos arguidos.",
    "img": "https://eco.imgix.net/uploads/2025/05/cropped-eco-tomada-de-posse-do-novo-bastonario-dos-advogados-2000px-027-2.jpg"
+  },
+  {
+   "id": "ojogo-18132293",
+   "ts": "2026-09-30T22:20:00Z",
+   "source": "O Jogo",
+   "lado": "pt",
+   "url": "https://www.ojogo.pt/internacional/artigo/ronaldo-ja-nao-esta-em-copenhaga-aviao-privado-partiu-rumo-a-madrid/18132293",
+   "title": "Ronaldo já não está em Copenhaga: avião privado partiu rumo a Madrid",
+   "topic": "desporto",
+   "sub": "selecao",
+   "impacto": "alto",
+   "setores": [
+    "Seleção",
+    "Liga das Nações"
+   ],
+   "tickers": [],
+   "resumo": "Cristiano Ronaldo abandonou o estágio da Seleção Nacional e, segundo O Jogo, tomou a decisão de não voltar a jogar por Portugal.",
+   "img": "https://staticx.noticiasilimitadas.pt/oj/e0b27474-346e-4f3b-a4e7-26d496f107b1_1200x675.jpg"
   },
   {
    "id": "obs-jorge-palma-parlamento",
@@ -1078,6 +1412,24 @@
    "img": "https://cdn-images.rtp.pt/icm/noticias/images/f0/f04c22e01fc49c62239a1fa82ca6cf1d?w=350&q=50&rect=328,615,3995,2190&auto=format"
   },
   {
+   "id": "eco-cesa-acores-deficit",
+   "ts": "2026-09-30T18:34:50Z",
+   "source": "ECO",
+   "lado": "pt",
+   "url": "https://eco.sapo.pt/2026/09/30/conselho-economico-e-social-dos-acores-preocupado-com-evolucao-das-financas-da-regiao/",
+   "title": "Conselho Económico e Social dos Açores preocupado com evolução das finanças da região",
+   "topic": "economia",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Açores",
+    "Finanças públicas"
+   ],
+   "tickers": [],
+   "resumo": "O Conselho Económico e Social dos Açores alerta para um défice de 5% do PIB regional em 2025 (305,5 milhões de euros) e para as consequências do fim do PRR.",
+   "img": "https://eco.imgix.net/uploads/2026/09/cropped-doc2025090145574939nv1420250829.jpg"
+  },
+  {
    "id": "ng-cristina-ferreira-primeira-dama",
    "ts": "2026-09-30T18:30:00Z",
    "source": "Nova Gente",
@@ -1216,6 +1568,24 @@
    "tickers": [],
    "resumo": "O PP convocou uma reunião extraordinária do Senado durante a visita oficial de Macron e rejeitou aprofundar os laços com França. Sánchez pediu desculpa e o Presidente francês afastou o \"drama\".",
    "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:1870:1051:nowe:0:0/q:70/plain/https://s3.observador.pt/wp-content/uploads/2018/06/23165206/24402369.jpg"
+  },
+  {
+   "id": "eco-governo-volta-prazo",
+   "ts": "2026-09-30T17:54:05Z",
+   "source": "ECO",
+   "lado": "pt",
+   "url": "https://eco.sapo.pt/2026/09/30/governo-pressiona-volta-e-da-duas-semanas-para-apresentar-solucao-para-lixo-nas-ruas/",
+   "title": "Governo pressiona Volta e dá duas semanas para apresentar solução para lixo nas ruas",
+   "topic": "outros",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Volta",
+    "Ambiente"
+   ],
+   "tickers": [],
+   "resumo": "O Ministério do Ambiente deu à Volta até 16 de outubro para apresentar um plano de ação contra o lixo nas ruas associado à recolha de garrafas.",
+   "img": "https://eco.imgix.net/uploads/2026/03/cropped-volta18.jpg"
   },
   {
    "id": "obs-custoias-greve-suspensa",
@@ -4927,373 +5297,6 @@
    "tickers": [],
    "resumo": "A segunda fase de acesso ao ensino superior colocou 9.116 alunos, mas ficam por preencher 4.069 vagas. Lisboa e Porto ultrapassam os 95% de ocupação, enquanto Bragança, Beja e Viseu ficam abaixo dos 50%.",
    "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2000:1124:nowe:0:104/q:70/plain/https://s3.observador.pt/wp-content/uploads/2024/09/29080603/42813186.jpg"
-  },
-  {
-   "id": "obs-psp-suplemento-fronteiras",
-   "ts": "2026-09-29T22:36:16Z",
-   "source": "Observador",
-   "lado": "pt",
-   "url": "https://observador.pt/2026/09/29/cinco-dos-sete-sindicatos-da-psp-rejeitaram-proposta-sobre-suplemento-aos-policias-nas-fronteiras/",
-   "title": "PSP: cinco sindicatos rejeitam suplemento de fronteiras",
-   "topic": "politica",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "PSP",
-    "Sindicatos"
-   ],
-   "tickers": [],
-   "resumo": "Cinco dos sete sindicatos da PSP rejeitaram a proposta do Governo sobre o suplemento para polícias nas fronteiras; só o SPP e o SIAP assinaram o acordo. O Governo fala em avanço significativo e as próximas reuniões estão marcadas para 7 de outubro.",
-   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2000:1124:nowe:0:104/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/09/29210814/47398778.jpg"
-  },
-  {
-   "id": "caras-ines-degener-segundo-filho",
-   "ts": "2026-09-29T22:30:50Z",
-   "source": "Caras",
-   "lado": "pt",
-   "url": "https://caras.pt/famosos/2026-09-29-ines-degener-tomaz-emociona-se-com-carlota-antes-da-chegada-do-segundo-filho-nunca-vou-esquecer-que-eramos-so-nos/",
-   "title": "Inês Degener Tomaz emociona-se com Carlota antes da chegada do segundo filho",
-   "topic": "rosa",
-   "sub": "famosos",
-   "impacto": "baixo",
-   "setores": [
-    "Famosos"
-   ],
-   "tickers": [],
-   "resumo": "À espera de um menino com Bernardo Silva, Inês Degener Tomaz dedicou palavras à filha, Carlota, e recordou os últimos tempos vividos a duas.",
-   "img": "https://caras.pt/wp-content/uploads/2026/09/260929_CARAS-PT-1920-x-1080-px-81-1600x900.jpg"
-  },
-  {
-   "id": "zz-1217528",
-   "ts": "2026-09-29T22:30:02Z",
-   "source": "zerozero",
-   "lado": "pt",
-   "url": "https://www.zerozero.pt/noticias/benfica-x-bayern-munchen-antevisao-ausencias-e-onzes-provaveis/1217528",
-   "title": "Benfica x Bayern München: antevisão, ausências e onzes prováveis",
-   "topic": "desporto",
-   "sub": "benfica",
-   "impacto": "medio",
-   "setores": [
-    "Liga dos Campeões feminina"
-   ],
-   "tickers": [],
-   "resumo": "O Benfica recebe esta quarta-feira, às 20h00, o Bayern de Munique na segunda jornada da fase de liga da Liga dos Campeões feminina, depois da vitória em Turim frente à Juventus.",
-   "img": "https://www.zerozero.pt/img/noticias/528/imgS620I1217528T20260929222717.jpg"
-  },
-  {
-   "id": "rtp-n1768539",
-   "ts": "2026-09-29T22:26:32Z",
-   "source": "RTP",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/economia/cgtp-e-cip-lancam-criticas-ao-orcamento-do-estado-mas-divergem-quanto-aos-salarios_n1768539",
-   "title": "CGTP e CIP lançam críticas ao Orçamento do Estado mas divergem quanto aos salários",
-   "topic": "economia",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Orçamento do Estado",
-    "Salários"
-   ],
-   "tickers": [],
-   "resumo": "Em debate na RTP Notícias, o secretário-geral da CGTP e o presidente da CIP criticaram o próximo Orçamento do Estado, mas divergiram quanto à política salarial.",
-   "img": "https://cdn-images.rtp.pt/icm/noticias/images/04/04f7025e28bd558f19bd1f56c415ff34?w=350&q=50&rect=0,0,990,543&auto=format"
-  },
-  {
-   "id": "lusa-47858846",
-   "ts": "2026-09-29T22:16:00Z",
-   "source": "Lusa",
-   "lado": "pt",
-   "url": "https://www.lusa.pt/article/47858846/air-france-klm-e-lufthansa-entregam-hoje-propostas-finais-de-compra-da-tap",
-   "title": "Air France/KLM e Lufthansa entregam hoje propostas finais de compra da TAP",
-   "topic": "economia",
-   "sub": "",
-   "impacto": "alto",
-   "setores": [
-    "TAP",
-    "Aviação"
-   ],
-   "tickers": [],
-   "resumo": "O grupo Air France/KLM e a Lufthansa entregam hoje as propostas finais para a compra da TAP.",
-   "img": "https://www.lusa.pt/temp/images/400x248/cache_400x248_Crop_high_29129850_4252786_04112020060400.jpg"
-  },
-  {
-   "id": "rtp-n1768535",
-   "ts": "2026-09-29T22:09:52Z",
-   "source": "RTP",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/politica/conselho-da-europa-seguro-reafirma-compromisso-de-portugal-com-valores-da-paz_n1768535",
-   "title": "Conselho da Europa. Seguro reafirma \"compromisso de Portugal com valores da paz\"",
-   "topic": "politica",
-   "sub": "",
-   "impacto": "baixo",
-   "setores": [
-    "Presidente da República",
-    "Conselho da Europa"
-   ],
-   "tickers": [],
-   "resumo": "O Presidente da República reafirmou em Estrasburgo o compromisso de Portugal com os valores da paz, nos 50 anos da adesão ao Conselho da Europa.",
-   "img": "https://cdn-images.rtp.pt/icm/noticias/images/51/51a1e4d4fd6c4de9692e9eb26aa1eaef?w=350&q=50&rect=0,565,1440,789&auto=format"
-  },
-  {
-   "id": "cnn-6abc31ead34e9a786e75a332",
-   "ts": "2026-09-29T22:08:00Z",
-   "source": "CNN Portugal",
-   "lado": "pt",
-   "url": "https://cnnportugal.iol.pt/supremo-tribunal/estados-unidos/supremo-tribunal-dos-eua-permite-a-trump-reativar-deportacoes-para-paises-terceiros/20260929/6abc31ead34e9a786e75a332",
-   "title": "Supremo Tribunal dos EUA permite a Trump reativar deportações para países terceiros",
-   "topic": "mundo",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "EUA",
-    "Imigração"
-   ],
-   "tickers": [],
-   "resumo": "O Supremo Tribunal dos EUA permitiu à administração Trump reativar as deportações para países terceiros. Os seis juízes conservadores votaram a favor; Sotomayor, Kagan e Brown Jackson discordaram.",
-   "img": "https://img.iol.pt/image/id/6a764ac8d34e511da0b3243a/200.jpg"
-  },
-  {
-   "id": "rtp-a1-1768544",
-   "ts": "2026-09-29T21:58:02Z",
-   "source": "RTP",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/noticiario-antena1/22h-pm-politica-de-habitacao-do-governo-e-para-manter_a1_1768544",
-   "title": "PM: política de habitação do Governo é para manter",
-   "topic": "politica",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Habitação",
-    "Governo"
-   ],
-   "tickers": [],
-   "resumo": "O primeiro-ministro afirma que a política de habitação do Governo é para manter, na véspera do debate parlamentar sobre o arrendamento.",
-   "img": ""
-  },
-  {
-   "id": "caras-casados-ricardo-paixao",
-   "ts": "2026-09-29T21:52:41Z",
-   "source": "Caras",
-   "lado": "pt",
-   "url": "https://caras.pt/famosos/2026-09-29-novo-concorrente-de-casados-a-primeira-vista-tem-ex-famosa-fiquei-surpreendida/",
-   "title": "Novo concorrente de 'Casados à Primeira Vista' tem ex famosa: 'Fiquei surpreendida'",
-   "topic": "rosa",
-   "sub": "reality",
-   "impacto": "baixo",
-   "setores": [
-    "Casados à Primeira Vista",
-    "SIC"
-   ],
-   "tickers": [],
-   "resumo": "Ricardo Paixão, de 27 anos, concorrente do 'Casados à Primeira Vista', da SIC, namorou cerca de quatro anos com Andreia Silva, antiga concorrente do 'Love on Top' da TVI.",
-   "img": "https://caras.pt/wp-content/uploads/2026/09/260929_Ricardo-Paixao-1600x900.jpg"
-  },
-  {
-   "id": "ng-blaya-globos-ouro",
-   "ts": "2026-09-29T21:30:00Z",
-   "source": "Nova Gente",
-   "lado": "pt",
-   "url": "https://www.novagente.pt/blaya-faz-dura-critica-aos-globos-de-ouro-nao-ha-pretos/",
-   "title": "Blaya faz dura crítica aos Globos de Ouro: \"Não há pretos?\"",
-   "topic": "rosa",
-   "sub": "famosos",
-   "impacto": "baixo",
-   "setores": [
-    "Globos de Ouro",
-    "SIC"
-   ],
-   "tickers": [],
-   "resumo": "A cantora Blaya criticou a falta de inclusividade na gala dos Globos de Ouro, questionando a ausência de pessoas negras entre os nomeados e os presentes.",
-   "img": "https://www.novagente.pt/wp-content/uploads/2026/09/NG-Destaque-2.jpg"
-  },
-  {
-   "id": "rtp-a1-1768533",
-   "ts": "2026-09-29T21:26:03Z",
-   "source": "RTP",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/noticiario-antena1/21h-ao-contrario-do-que-sempre-defendeu-donald-trump-diz-que-a-ia-precisa-mesmo-de-regulacao_a1_1768533",
-   "title": "Ao contrário do que sempre defendeu, Trump diz que a IA precisa mesmo de regulação",
-   "topic": "tecnologia",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Inteligência artificial",
-    "Trump"
-   ],
-   "tickers": [],
-   "resumo": "Donald Trump afirmou que a inteligência artificial precisa de regulação, ao contrário do que sempre defendeu.",
-   "img": ""
-  },
-  {
-   "id": "cnn-6abbf13cd34e9a786e75a2ba",
-   "ts": "2026-09-29T21:26:00Z",
-   "source": "CNN Portugal",
-   "lado": "pt",
-   "url": "https://cnnportugal.iol.pt/guerra/ucrania/adormeceram-perante-o-ataque-ucrania-lanca-terceira-fase-da-operacao-vivaldi-com-blindados-transformados-em-robos-explosivos/20260929/6abbf13cd34e9a786e75a2ba",
-   "title": "\"Adormeceram perante o ataque\". Ucrânia lança terceira fase da \"Operação Vivaldi\" com blindados transformados em robôs explosivos",
-   "topic": "mundo",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Ucrânia"
-   ],
-   "tickers": [],
-   "resumo": "A Ucrânia lançou a terceira fase da \"Operação Vivaldi\" e recuperou 51 km² nesta fase, elevando para 176 km² o território reconquistado.",
-   "img": "https://img.iol.pt/image/id/64f4a659d34e371fc0b73a36/200.jpg"
-  },
-  {
-   "id": "cnn-6abc287dd34e9a786e75a323",
-   "ts": "2026-09-29T21:21:00Z",
-   "source": "CNN Portugal",
-   "lado": "pt",
-   "url": "https://cnnportugal.iol.pt/jose-luis-carneiro/ps/governo-esta-a-revelar-grande-insensibilidade-e-indiferenca-a-quem-vive-momentos-dificeis-diz-jose-luis-carneiro/20260929/6abc287dd34e9a786e75a323",
-   "title": "Governo está a revelar \"grande insensibilidade e indiferença\" a quem vive momentos difíceis, diz José Luís Carneiro",
-   "topic": "politica",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "PS",
-    "Orçamento do Estado"
-   ],
-   "tickers": [],
-   "resumo": "O líder do PS acusa o Governo de insensibilidade para com quem atravessa momentos difíceis e detalha uma proposta de apoio de 400 milhões de euros para o final do ano.",
-   "img": "https://img.iol.pt/image/id/6abc42dcd34e9a786e75a343/200.jpg"
-  },
-  {
-   "id": "rtp-n1768523",
-   "ts": "2026-09-29T21:16:11Z",
-   "source": "RTP",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/economia/portugal-espanha-e-franca-querem-que-regioes-ultraperifericas-sejam-consideradas-como-essenciais-no-proximo-orcamento-da-uniao-europeia_n1768523",
-   "title": "Portugal, Espanha e França querem Regiões Ultraperiféricas como essenciais no próximo Orçamento da UE",
-   "topic": "politica",
-   "sub": "",
-   "impacto": "baixo",
-   "setores": [
-    "UE",
-    "Regiões Ultraperiféricas"
-   ],
-   "tickers": [],
-   "resumo": "Portugal, Espanha e França querem que as Regiões Ultraperiféricas sejam tratadas como essenciais no próximo Orçamento de longo prazo da UE, ao lado da competitividade e da coesão.",
-   "img": "https://cdn-images.rtp.pt/icm/noticias/images/32/326a101623c76f38da6e105ce30c1162?w=350&q=50&rect=0,31,1236,678&auto=format"
-  },
-  {
-   "id": "cnn-6abc289ed34e9a786e75a324",
-   "ts": "2026-09-29T21:16:00Z",
-   "source": "CNN Portugal",
-   "lado": "pt",
-   "url": "https://cnnportugal.iol.pt/reino-unido/fairford/policia-britanica-nao-encontrou-explosivos-junto-a-base-de-fairfor-mas-apreende-gasolina-em-carrinhas/20260929/6abc289ed34e9a786e75a324",
-   "title": "Polícia britânica não encontrou explosivos junto à base de Fairford. Mas havia gasolina nas carrinhas dos suspeitos",
-   "topic": "mundo",
-   "sub": "",
-   "impacto": "baixo",
-   "setores": [
-    "Reino Unido"
-   ],
-   "tickers": [],
-   "resumo": "A polícia britânica não encontrou explosivos junto à base de Fairford, mas apreendeu gasolina em carrinhas dos suspeitos. Cinco homens foram libertados sob fiança na segunda-feira.",
-   "img": "https://img.iol.pt/image/id/6aba20dbd34e53c759c740cc/200.jpg"
-  },
-  {
-   "id": "rtp-v1768532",
-   "ts": "2026-09-29T21:13:48Z",
-   "source": "RTP",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/cultura/tapecaria-de-bayeux-obra-com-quase-mil-anos-regressou-a-inglaterra_v1768532",
-   "title": "Tapeçaria de Bayeux. Obra com quase mil anos regressou a Inglaterra",
-   "topic": "cultura",
-   "sub": "",
-   "impacto": "baixo",
-   "setores": [
-    "Exposições"
-   ],
-   "tickers": [],
-   "resumo": "A tapeçaria de Bayeux regressou a Inglaterra. O British Museum vendeu 100 mil bilhetes para a exposição em 24 horas.",
-   "img": "https://cdn-images.rtp.pt/icm/noticias/images/1f/1f60a12e886a7edfee25576e506397b6?w=350&q=50&rect=0,0,1499,822&auto=format"
-  },
-  {
-   "id": "rtp-v1768530",
-   "ts": "2026-09-29T21:09:47Z",
-   "source": "RTP",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/pais/quase-metade-das-interrupcoes-da-gravidez-em-2025-foram-feitas-por-estrangeiras_v1768530",
-   "title": "Quase metade das interrupções da gravidez em 2025 foram feitas por estrangeiras",
-   "topic": "saude",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "DGS"
-   ],
-   "tickers": [],
-   "resumo": "Quase metade das interrupções da gravidez realizadas em Portugal em 2025 foram feitas por mulheres estrangeiras. A Direção-Geral da Saúde pediu respostas.",
-   "img": "https://cdn-images.rtp.pt/icm/images/45/4596d8c60e2c102730ceaf971c9351e3_N.jpg?"
-  },
-  {
-   "id": "cnn-6abbdf92d34e53c759c74529",
-   "ts": "2026-09-29T21:05:00Z",
-   "source": "CNN Portugal",
-   "lado": "pt",
-   "url": "https://cnnportugal.iol.pt/spotify/spotify-em-baixo/spotify-em-baixo-plataforma-de-musica-regista-falhas-em-varios-paises/20260929/6abbdf92d34e53c759c74529",
-   "title": "Spotify volta ao normal após problemas registados em todo o mundo",
-   "topic": "tecnologia",
-   "sub": "",
-   "impacto": "baixo",
-   "setores": [
-    "Spotify"
-   ],
-   "tickers": [],
-   "resumo": "O Spotify repôs o serviço depois de falhas registadas em vários países; a empresa reconheceu \"alguns problemas\" e trabalhou numa solução.",
-   "img": "https://img.iol.pt/image/id/63d9b4d30cf2c84d7fc5e491/200.jpg"
-  },
-  {
-   "id": "rtp-d1768526",
-   "ts": "2026-09-29T21:03:00Z",
-   "source": "RTP Desporto",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/liga-dos-campeoes/champions-feminina-bayern-de-munique-espera-benfica-desafiante_d1768526",
-   "title": "Champions feminina. Bayern de Munique espera Benfica \"desafiante\"",
-   "topic": "desporto",
-   "sub": "benfica",
-   "impacto": "baixo",
-   "setores": [
-    "Liga dos Campeões feminina"
-   ],
-   "tickers": [],
-   "resumo": "O treinador do Bayern, Jose Barcala, espera um Benfica \"realmente desafiante e bem organizado\" num jogo \"emocionante\" da Liga dos Campeões feminina.",
-   "img": "https://cdn-images.rtp.pt/icm/noticias/images/43/43256ab3d4a874bfdbecabf74bc4783b?w=350&q=50&rect=0,12,3409,1869&auto=format"
-  },
-  {
-   "id": "lusa-47858343",
-   "ts": "2026-09-29T21:02:00Z",
-   "source": "Lusa",
-   "lado": "pt",
-   "url": "https://www.lusa.pt/international/article/2026-09-29/47858343/nato-condena-retórica-nuclear-irresponsável-da-rússia-que-ameaça-usar-todo-o-arsenal",
-   "title": "NATO condena \"retórica nuclear irresponsável\" da Rússia que ameaça \"usar todo o arsenal\"",
-   "topic": "mundo",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "NATO",
-    "Rússia"
-   ],
-   "tickers": [],
-   "resumo": "A NATO condenou a \"retórica nuclear irresponsável\" da Rússia, depois de Moscovo ter ameaçado usar todo o arsenal.",
-   "img": "https://www.lusa.pt/temp/images/205x135/cache_205x135_Crop_high_47040967_1387140649766477.jpg"
-  },
-  {
-   "id": "ng-elisabete-moutinho-pedro-cell",
-   "ts": "2026-09-29T21:00:00Z",
-   "source": "Nova Gente",
-   "lado": "pt",
-   "url": "https://www.novagente.pt/a-forma-como-pedro-cell-reagiu-apos-elisabete-moutinho-terminar-relacao-de-nove-anos-achou-que/",
-   "title": "A forma como Pedro Cell reagiu após Elisabete Moutinho terminar relação de nove anos",
-   "topic": "rosa",
-   "sub": "famosos",
-   "impacto": "baixo",
-   "setores": [],
-   "tickers": [],
-   "resumo": "Elisabete Moutinho revelou pormenores do fim da relação de nove anos com Pedro Cell, explicando que foi ela a tomar a decisão e que precisou de tempo para se reencontrar.",
-   "img": "https://www.novagente.pt/wp-content/uploads/2026/09/nv-miniatura-655858.jpg"
   }
  ],
  "contracts": {},
@@ -5336,19 +5339,7 @@
    "b": "ng-claudio-ramos-responde-mae-jessica-maria",
    "tema": "Cláudio Ramos e a mãe de Jéssica Maria",
    "nota": "A mãe de Jéssica Maria critica Cláudio Ramos («Nunca será um Sr. Goucha») e o apresentador responde em direto."
-  },
-  {
-   "a": "cnn-6abc287dd34e9a786e75a323",
-   "b": "rtp-n1768585",
-   "tema": "Orçamento: PS critica, PM pede responsabilidade",
-   "nota": "Carneiro acusa o Governo de insensibilidade e propõe 400 milhões de apoio; Montenegro exige rigor e responsabilidade à oposição."
-  },
-  {
-   "a": "rtp-a1-1768533",
-   "b": "obs-trump-ia-superinteligencia",
-   "tema": "Trump e a regulação da IA",
-   "nota": "A RTP diz que Trump afirmou que a IA precisa de regulação; o Observador noticia uma declaração com líderes do setor que rejeita a regulação governamental e aposta na autorregulação."
   }
  ],
- "arquivo": 195
+ "arquivo": 216
 }
