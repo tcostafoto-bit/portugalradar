@@ -1,7 +1,423 @@
 {
- "version": "1.1.43",
- "updated": "2026-10-01T07:11:03Z",
+ "version": "1.1.47",
+ "updated": "2026-10-01T14:28:21Z",
  "recent": [
+  {
+   "id": "ng-cristianinho-motivo-ronaldo",
+   "ts": "2026-10-01T12:00:24Z",
+   "topic": "rosa",
+   "sub": "famosos",
+   "source": "Nova Gente",
+   "title": "Revelado (outro) motivo para o descontentamento de Cristiano Ronaldo com a Seleção Nacional… e envolve o filho"
+  },
+  {
+   "id": "fogos-alcacer-do-sal-20261001",
+   "ts": "2026-10-01T12:00:00Z",
+   "topic": "tempo",
+   "sub": "",
+   "source": "Fogos.pt",
+   "title": "Incêndio em curso em Alcácer do Sal (Torrão) com meio aéreo"
+  },
+  {
+   "id": "rtp-d1768866",
+   "ts": "2026-10-01T11:59:24Z",
+   "topic": "desporto",
+   "sub": "tenis",
+   "source": "RTP Desporto",
+   "title": "Jaime Faria qualifica-se para a segunda ronda em Tóquio"
+  },
+  {
+   "id": "rtp-d1768865",
+   "ts": "2026-10-01T11:56:33Z",
+   "topic": "desporto",
+   "sub": "atletismo",
+   "source": "RTP Desporto",
+   "title": "Fatoumata Diallo deixa Benfica e regressa ao Clube Oriental de Pechão"
+  },
+  {
+   "id": "lusa-47867408",
+   "ts": "2026-10-01T11:38:00Z",
+   "topic": "justica",
+   "sub": "",
+   "source": "Lusa",
+   "title": "Carlos Cabreiro defende ter condições para continuar a dirigir PJ"
+  },
+  {
+   "id": "abola-sporting-equipamentos-solidarios",
+   "ts": "2026-10-01T11:35:00Z",
+   "topic": "desporto",
+   "sub": "sporting",
+   "source": "A Bola",
+   "title": "Sporting lança equipamentos solidários"
+  },
+  {
+   "id": "obs-pan-novo-congresso",
+   "ts": "2026-10-01T11:33:52Z",
+   "topic": "politica",
+   "sub": "",
+   "source": "Observador",
+   "title": "PAN vai realizar novo congresso para eleger direção"
+  },
+  {
+   "id": "obs-gaia-empresa-municipal-acusados",
+   "ts": "2026-10-01T11:33:04Z",
+   "topic": "justica",
+   "sub": "",
+   "source": "Observador",
+   "title": "Responsáveis de empresa municipal acusados de abuso de poder"
+  },
+  {
+   "id": "abola-outubro-oito-greves",
+   "ts": "2026-10-01T11:33:00Z",
+   "topic": "politica",
+   "sub": "",
+   "source": "A Bola",
+   "title": "Mês de contestação: outubro vai ter oito greves"
+  },
+  {
+   "id": "eco-juros-depositos-163",
+   "ts": "2026-10-01T10:39:43Z",
+   "topic": "economia",
+   "sub": "",
+   "source": "ECO",
+   "title": "Juros dos depósitos voltam a subir para 1,63%, mas ainda estão abaixo da média da Zona Euro"
+  },
+  {
+   "id": "eco-divida-publica-agosto",
+   "ts": "2026-10-01T10:19:07Z",
+   "topic": "economia",
+   "sub": "",
+   "source": "ECO",
+   "title": "Dívida pública cai 600 milhões de euros em agosto"
+  },
+  {
+   "id": "idealista-77964",
+   "ts": "2026-10-01T09:49:19Z",
+   "topic": "economia",
+   "sub": "",
+   "source": "Idealista",
+   "title": "Já há regras para investimento em casas com rendas \"moderadas\""
+  },
+  {
+   "id": "rtp-n1768826",
+   "ts": "2026-10-01T09:28:04Z",
+   "topic": "politica",
+   "sub": "",
+   "source": "RTP",
+   "title": "Raimundo pede à ministra da Saúde que \"desça à realidade\" e faz \"ultimato\""
+  },
+  {
+   "id": "obs-ps-audicao-agricultura",
+   "ts": "2026-10-01T09:27:14Z",
+   "topic": "politica",
+   "sub": "",
+   "source": "Observador",
+   "title": "PS pede audição urgente do ministro da Agricultura"
+  },
+  {
+   "id": "as-peugeot-rally-cup-algarve",
+   "ts": "2026-10-01T09:14:55Z",
+   "topic": "desporto",
+   "sub": "motores",
+   "source": "AutoSport",
+   "title": "Peugeot Rally Cup Portugal: luta pelo título totalmente em aberto"
+  },
+  {
+   "id": "rtp-d1768829",
+   "ts": "2026-10-01T09:10:36Z",
+   "topic": "desporto",
+   "sub": "selecao",
+   "source": "RTP",
+   "title": "Rafael Leão alinha com camisola 7 da seleção portuguesa frente à Dinamarca"
+  },
+  {
+   "id": "cm-sarah-khalifa-egito",
+   "ts": "2026-10-01T09:07:08Z",
+   "topic": "justica",
+   "sub": "",
+   "source": "CM",
+   "title": "Sarah Khalifa envolvida em mediático processo criminal no Egito"
+  },
+  {
+   "id": "lusa-47866091",
+   "ts": "2026-10-01T08:38:00Z",
+   "topic": "politica",
+   "sub": "",
+   "source": "Lusa",
+   "title": "OE2027: Chega quer fazer Convenção em dia de plenário mas Aguiar-Branco mantém calendário"
+  },
+  {
+   "id": "abola-rodrigo-mora-sub21",
+   "ts": "2026-10-01T08:37:00Z",
+   "topic": "desporto",
+   "sub": "selecao",
+   "source": "A Bola",
+   "title": "«Sensacional, 'show' e magia»: Rodrigo Mora encanta italianos"
+  },
+  {
+   "id": "lusa-47866062",
+   "ts": "2026-10-01T08:33:00Z",
+   "topic": "economia",
+   "sub": "",
+   "source": "Lusa",
+   "title": "Juros da dívida sobem a cinco e a 10 anos para máximos desde março de 2014 e 2017"
+  },
+  {
+   "id": "eco-omnidea-orbex",
+   "ts": "2026-10-01T08:25:17Z",
+   "topic": "economia",
+   "sub": "",
+   "source": "ECO",
+   "title": "Omnidea compra britânica Orbex"
+  },
+  {
+   "id": "zz-1217903",
+   "ts": "2026-10-01T08:23:19Z",
+   "topic": "desporto",
+   "sub": "porto",
+   "source": "zerozero",
+   "title": "Samu relembra «pesadelo»: «Não conseguia ver os jogos»"
+  },
+  {
+   "id": "rtp-d1768821",
+   "ts": "2026-10-01T08:09:10Z",
+   "topic": "economia",
+   "sub": "",
+   "source": "RTP",
+   "title": "Primeiro semestre de 2026 com maior volume de apostas de sempre em Portugal"
+  },
+  {
+   "id": "rtp-n1768818",
+   "ts": "2026-10-01T08:08:41Z",
+   "topic": "politica",
+   "sub": "",
+   "source": "RTP",
+   "title": "Raimundo acusa Carneiro de \"dar gás\" ao Governo"
+  },
+  {
+   "id": "eco-greenvolt-prejuizo-s1",
+   "ts": "2026-10-01T08:05:33Z",
+   "topic": "economia",
+   "sub": "",
+   "source": "ECO",
+   "title": "Prejuízo da Greenvolt aumenta para 54,7 milhões no semestre"
+  },
+  {
+   "id": "eco-emirates-flydubai",
+   "ts": "2026-10-01T08:04:21Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "ECO",
+   "title": "Emirates suspende voos com a Flydubai para Israel após incidente de quarta-feira"
+  },
+  {
+   "id": "eco-5g-norte-45-municipios",
+   "ts": "2026-10-01T07:59:46Z",
+   "topic": "tecnologia",
+   "sub": "",
+   "source": "ECO",
+   "title": "Rede 5G vai chegar a locais mais isolados de 45 municípios da região Norte"
+  },
+  {
+   "id": "cnn-6abe137ed34e53c759c74928",
+   "ts": "2026-10-01T07:59:00Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "CNN Portugal",
+   "title": "Presidente de Israel propõe medalha para quatro passageiros do voo da Flydubai"
+  },
+  {
+   "id": "rtp-d1768819",
+   "ts": "2026-10-01T07:56:16Z",
+   "topic": "desporto",
+   "sub": "rugby",
+   "source": "RTP",
+   "title": "Super XV de râguebi decidido em 'final four' e com várias jornadas concentradas"
+  },
+  {
+   "id": "cm-morte-migrante-nepales",
+   "ts": "2026-10-01T07:54:12Z",
+   "topic": "justica",
+   "sub": "",
+   "source": "CM",
+   "title": "Morte violenta de migrante nepalês investigada pela PJ"
+  },
+  {
+   "id": "cnn-6abe1051d34e9a786e75a694",
+   "ts": "2026-10-01T07:48:00Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "CNN Portugal",
+   "title": "Magnata e mulher entre os seis mortos na queda de um helicóptero no Zimbabué"
+  },
+  {
+   "id": "abola-ronaldo-traido-jesus",
+   "ts": "2026-10-01T07:32:43Z",
+   "topic": "desporto",
+   "sub": "selecao",
+   "source": "A Bola",
+   "title": "«Ronaldo sentiu-se traído por Jorge Jesus e explodiu», revela amigo do avançado"
+  },
+  {
+   "id": "cm-david-freitas-adcpj",
+   "ts": "2026-10-01T07:31:43Z",
+   "topic": "politica",
+   "sub": "",
+   "source": "CM",
+   "title": "David Freitas perde apoio da direção da Associação Desportiva e Cultural da PJ"
+  },
+  {
+   "id": "eco-ftc-openai-anthropic",
+   "ts": "2026-10-01T07:28:58Z",
+   "topic": "tecnologia",
+   "sub": "",
+   "source": "ECO",
+   "title": "Regulador dos EUA investiga OpenAI e Anthropic por possíveis riscos para consumidores"
+  },
+  {
+   "id": "zz-1217902",
+   "ts": "2026-10-01T07:25:01Z",
+   "topic": "desporto",
+   "sub": "selecao",
+   "source": "zerozero",
+   "title": "Prestianni titular na goleada da Argentina"
+  },
+  {
+   "id": "rtp-n1768804",
+   "ts": "2026-10-01T07:22:27Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "RTP",
+   "title": "Teerão afirma que Burnham está equivocado ao acusar Irão de ataque a base militar"
+  },
+  {
+   "id": "hn-matosinhos-teletrabalho",
+   "ts": "2026-10-01T07:20:15Z",
+   "topic": "saude",
+   "sub": "",
+   "source": "HealthNews",
+   "title": "Médicos da ULS de Matosinhos mantêm teletrabalho após intervenção sindical"
+  },
+  {
+   "id": "idealista-77923",
+   "ts": "2026-10-01T07:08:37Z",
+   "topic": "economia",
+   "sub": "",
+   "source": "Idealista",
+   "title": "Casas à venda: preço aumenta 7,9% em setembro e atinge novo recorde"
+  },
+  {
+   "id": "cm-euribor-sobe-20261001",
+   "ts": "2026-10-01T07:02:20Z",
+   "topic": "economia",
+   "sub": "",
+   "source": "CM",
+   "title": "Subida da Euribor volta a castigar famílias com crédito à habitação"
+  },
+  {
+   "id": "eco-pensoes-1074-2027",
+   "ts": "2026-10-01T06:56:35Z",
+   "topic": "economia",
+   "sub": "",
+   "source": "ECO",
+   "title": "Pensões até 1.074 euros deverão subir acima da inflação em 2027"
+  },
+  {
+   "id": "rtp-n1768807",
+   "ts": "2026-10-01T06:55:24Z",
+   "topic": "saude",
+   "sub": "",
+   "source": "RTP",
+   "title": "IGAS abre inquérito a mortes de lar em Estremoz com surto de gripe A"
+  },
+  {
+   "id": "eco-tc-parques-eolicos",
+   "ts": "2026-10-01T06:50:21Z",
+   "topic": "economia",
+   "sub": "",
+   "source": "ECO",
+   "title": "Tribunal Constitucional considera ilegal regra usada pelo Fisco para avaliar parques eólicos"
+  },
+  {
+   "id": "hn-inem-581-ambulancias",
+   "ts": "2026-10-01T06:48:28Z",
+   "topic": "saude",
+   "sub": "",
+   "source": "HealthNews",
+   "title": "INEM alarga rede de emergência a 581 ambulâncias de bombeiros"
+  },
+  {
+   "id": "rtp-n1768803",
+   "ts": "2026-10-01T06:40:02Z",
+   "topic": "justica",
+   "sub": "",
+   "source": "RTP",
+   "title": "GNR detém 10 pessoas e apreende duas embarcações no Algarve"
+  },
+  {
+   "id": "idealista-77955",
+   "ts": "2026-10-01T06:37:53Z",
+   "topic": "economia",
+   "sub": "",
+   "source": "Idealista",
+   "title": "Novo RJUE em vigor: o que muda na construção e compra de casa"
+  },
+  {
+   "id": "rtp-v1768799",
+   "ts": "2026-10-01T06:23:47Z",
+   "topic": "desporto",
+   "sub": "selecao",
+   "source": "RTP",
+   "title": "Liga das Nações. Conceição fora e Félix em dúvida para o Portugal-Dinamarca"
+  },
+  {
+   "id": "rtp-n1768794",
+   "ts": "2026-10-01T06:16:49Z",
+   "topic": "economia",
+   "sub": "",
+   "source": "RTP",
+   "title": "Preço do petróleo Brent cai mais de 6%, para 96,89 dólares"
+  },
+  {
+   "id": "as-espirito-santo-petit-le-mans",
+   "ts": "2026-10-01T06:15:01Z",
+   "topic": "desporto",
+   "sub": "motores",
+   "source": "AutoSport",
+   "title": "IMSA: Manuel Espírito Santo estreia-se nas 10 Horas de Petit Le Mans"
+  },
+  {
+   "id": "hn-calor-poluicao-mortes",
+   "ts": "2026-10-01T06:12:30Z",
+   "topic": "saude",
+   "sub": "",
+   "source": "HealthNews",
+   "title": "Calor e poluição associados a milhares de mortes em Portugal"
+  },
+  {
+   "id": "rtp-n1768788",
+   "ts": "2026-10-01T06:01:09Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "RTP",
+   "title": "Estado norte-americano do Tennessee suspende execuções em 2026 após caso de Christa Pike"
+  },
+  {
+   "id": "ng-bianchi-prata-perfil-falso",
+   "ts": "2026-10-01T06:00:00Z",
+   "topic": "rosa",
+   "sub": "famosos",
+   "source": "Nova Gente",
+   "title": "Pedro Bianchi Prata alerta para perfil falso com o nome do filho"
+  },
+  {
+   "id": "hn-greve-tsdt-amadora-sintra",
+   "ts": "2026-10-01T05:58:10Z",
+   "topic": "saude",
+   "sub": "",
+   "source": "HealthNews",
+   "title": "Greve dos técnicos de diagnóstico na ULS Amadora-Sintra com 90% de adesão, segundo sindicato"
+  },
   {
    "id": "ipma-precipitacao-yellow-20261001-acores",
    "ts": "2026-10-01T05:30:00Z",
@@ -65,6 +481,14 @@
    "sub": "",
    "source": "RTP",
    "title": "Rubio ordenou que delegação do Irão abandonasse EUA após fracasso de negociações"
+  },
+  {
+   "id": "lusa-naza-estreia",
+   "ts": "2026-10-01T04:40:00Z",
+   "topic": "cultura",
+   "sub": "",
+   "source": "Lusa",
+   "title": "Documentário \"NAZA\" sobre atuação militar de Israel em Gaza chega hoje a Portugal"
   },
   {
    "id": "rtp-a1768783",
@@ -211,6 +635,14 @@
    "title": "\"Bomba em Portugal\": imprensa internacional sobre Ronaldo"
   },
   {
+   "id": "caras-avenida-portugal-carminha",
+   "ts": "2026-09-30T22:42:04Z",
+   "topic": "rosa",
+   "sub": "famosos",
+   "source": "Caras",
+   "title": "SIC oficializa intérprete de Carminha em 'Avenida Portugal', adaptação de 'Avenida Brasil'"
+  },
+  {
    "id": "obs-musk-ia-pentagono",
    "ts": "2026-09-30T22:25:55Z",
    "topic": "mundo",
@@ -337,6 +769,14 @@
    "sub": "",
    "source": "Observador",
    "title": "Pensões de antigos combatentes chumbadas no parlamento"
+  },
+  {
+   "id": "cnn-6abd5edfd34e9a786e75a5eb",
+   "ts": "2026-09-30T20:50:00Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "CNN Portugal",
+   "title": "Rússia ameaça NATO com uso de armas nucleares caso a aliança tente bloquear enclave no Báltico"
   },
   {
    "id": "abola-arouca-sucessao-seabra",
@@ -521,450 +961,9 @@
    "sub": "sporting",
    "source": "A Bola",
    "title": "Sporting: leoas eliminadas da Europa Cup após empate com o Brondby"
-  },
-  {
-   "id": "obs-tunel-chelas-custos",
-   "ts": "2026-09-30T19:29:48Z",
-   "topic": "politica",
-   "sub": "",
-   "source": "Observador",
-   "title": "Drenagem. Túnel de Chelas parado já custou mais 4 milhões"
-  },
-  {
-   "id": "obs-pcp-lares-reforma-65",
-   "ts": "2026-09-30T19:28:48Z",
-   "topic": "politica",
-   "sub": "",
-   "source": "Observador",
-   "title": "PCP quer lares públicos e reforma aos 65 anos"
-  },
-  {
-   "id": "obs-be-renda-acessivel-lisboa",
-   "ts": "2026-09-30T19:25:59Z",
-   "topic": "politica",
-   "sub": "",
-   "source": "Observador",
-   "title": "BE denuncia suspensão do programa de renda acessível jovem"
-  },
-  {
-   "id": "obs-corpo-rio-ave-vdc",
-   "ts": "2026-09-30T19:25:33Z",
-   "topic": "outros",
-   "sub": "",
-   "source": "Observador",
-   "title": "Corpo de homem encontrado a boiar no rio Ave"
-  },
-  {
-   "id": "zz-1217791",
-   "ts": "2026-09-30T19:23:00Z",
-   "topic": "desporto",
-   "sub": "selecao",
-   "source": "zerozero",
-   "title": "FPF reage à polémica a envolver Ronaldo: «Toda a comitiva mantém o foco absoluto»"
-  },
-  {
-   "id": "caras-meghan-agente",
-   "ts": "2026-09-30T19:22:00Z",
-   "topic": "rosa",
-   "sub": "realeza",
-   "source": "Caras",
-   "title": "Meghan Markle rompe com o seu agente de talentos após apenas três meses de parceria"
-  },
-  {
-   "id": "cnn-6abd570fd34e53c759c74883",
-   "ts": "2026-09-30T19:06:00Z",
-   "topic": "politica",
-   "sub": "",
-   "source": "CNN Portugal",
-   "title": "OE2027. Ventura diz que abstenção do PS \"não surpreende\" porque está \"a governar em conjunto\" com o PSD"
-  },
-  {
-   "id": "cnn-6abd5ac8d34e9a786e75a5e0",
-   "ts": "2026-09-30T19:05:00Z",
-   "topic": "saude",
-   "sub": "",
-   "source": "CNN Portugal",
-   "title": "Sintomas depressivos afetam 40% dos adolescentes de 259 escolas do país"
-  },
-  {
-   "id": "zz-1217778",
-   "ts": "2026-09-30T19:02:53Z",
-   "topic": "desporto",
-   "sub": "porto",
-   "source": "zerozero",
-   "title": "Avançada do FC Porto sofre rotura do ligamento cruzado e é submetida a operação"
-  },
-  {
-   "id": "lusa-47864031",
-   "ts": "2026-09-30T19:00:00Z",
-   "topic": "politica",
-   "sub": "",
-   "source": "Lusa",
-   "title": "OE 2027: Montenegro sublinha \"sinal importante\" dado pelo PS"
-  },
-  {
-   "id": "obs-tennessee-execucao-suspensa",
-   "ts": "2026-09-30T18:56:17Z",
-   "topic": "mundo",
-   "sub": "",
-   "source": "Observador",
-   "title": "Tennessee. Pena de morte suspensa horas antes da execução"
-  },
-  {
-   "id": "nit-black-coffee-brejcha",
-   "ts": "2026-09-30T18:49:38Z",
-   "topic": "cultura",
-   "sub": "",
-   "source": "NiT",
-   "title": "Caos após concerto de Black Coffee no Parque Papa Francisco obriga a cancelar o de Boris Brejcha"
-  },
-  {
-   "id": "eco-idd-fincantieri-alfeite",
-   "ts": "2026-09-30T18:47:30Z",
-   "topic": "economia",
-   "sub": "",
-   "source": "ECO",
-   "title": "idD Portugal Defence e Fincantieri fazem joint venture para revitalizar Arsenal do Alfeite"
-  },
-  {
-   "id": "rtp-d1768722",
-   "ts": "2026-09-30T18:45:46Z",
-   "topic": "desporto",
-   "sub": "selecao",
-   "source": "RTP",
-   "title": "\"A seu tempo direi a verdade\". Cristiano Ronaldo confirma saída do estágio da seleção"
-  },
-  {
-   "id": "eco-cesa-acores-deficit",
-   "ts": "2026-09-30T18:34:50Z",
-   "topic": "economia",
-   "sub": "",
-   "source": "ECO",
-   "title": "Conselho Económico e Social dos Açores preocupado com evolução das finanças da região"
-  },
-  {
-   "id": "ng-cristina-ferreira-primeira-dama",
-   "ts": "2026-09-30T18:30:00Z",
-   "topic": "rosa",
-   "sub": "famosos",
-   "source": "Nova Gente",
-   "title": "Cristina Ferreira reage às críticas à primeira-dama: \"Primeiro informa-se, depois fala\""
-  },
-  {
-   "id": "obs-mi5-china-universidades",
-   "ts": "2026-09-30T18:23:42Z",
-   "topic": "mundo",
-   "sub": "",
-   "source": "Observador",
-   "title": "MI5: China usou organização para espiar universidades"
-  },
-  {
-   "id": "rtp-d1768718",
-   "ts": "2026-09-30T18:21:28Z",
-   "topic": "desporto",
-   "sub": "porto",
-   "source": "RTP",
-   "title": "Central internacional inglês Chris Smalling reforça o FC Porto a custo zero"
-  },
-  {
-   "id": "record-vagiannidis-lesao",
-   "ts": "2026-09-30T18:20:00Z",
-   "topic": "desporto",
-   "sub": "sporting",
-   "source": "Record",
-   "title": "Vagiannidis com suspeita de rotura muscular e em reavaliação"
-  },
-  {
-   "id": "obs-procurador-porto-magistrados",
-   "ts": "2026-09-30T18:18:47Z",
-   "topic": "justica",
-   "sub": "",
-   "source": "Observador",
-   "title": "Procurador-geral do Porto denuncia falta de magistrados"
-  },
-  {
-   "id": "obs-mosquito-alto-minho",
-   "ts": "2026-09-30T18:15:36Z",
-   "topic": "saude",
-   "sub": "",
-   "source": "Observador",
-   "title": "Mosquito do dengue, zika e chikungunya no Alto Minho"
-  },
-  {
-   "id": "caras-marius-borg-advogados",
-   "ts": "2026-09-30T18:08:28Z",
-   "topic": "rosa",
-   "sub": "realeza",
-   "source": "Caras",
-   "title": "Marius Borg substitui advogados de defesa e contrata nova equipa"
-  },
-  {
-   "id": "obs-macron-madrid-pp-senado",
-   "ts": "2026-09-30T17:58:02Z",
-   "topic": "mundo",
-   "sub": "",
-   "source": "Observador",
-   "title": "PP cria embaraço a Sánchez durante visita de Macron a Madrid"
-  },
-  {
-   "id": "eco-governo-volta-prazo",
-   "ts": "2026-09-30T17:54:05Z",
-   "topic": "outros",
-   "sub": "",
-   "source": "ECO",
-   "title": "Governo pressiona Volta e dá duas semanas para apresentar solução para lixo nas ruas"
-  },
-  {
-   "id": "obs-custoias-greve-suspensa",
-   "ts": "2026-09-30T17:41:24Z",
-   "topic": "justica",
-   "sub": "",
-   "source": "Observador",
-   "title": "Greve na prisão de Custóias suspensa a 5 de outubro"
-  },
-  {
-   "id": "cnn-6abd3de7d34e9a786e75a563",
-   "ts": "2026-09-30T17:26:00Z",
-   "topic": "politica",
-   "sub": "",
-   "source": "CNN Portugal",
-   "title": "Governo desmente Chega e garante que \"não assumiu qualquer compromisso\" de pagar indemnizações às antigas colónias"
-  },
-  {
-   "id": "eco-rendas-especialidade",
-   "ts": "2026-09-30T17:22:06Z",
-   "topic": "economia",
-   "sub": "",
-   "source": "ECO",
-   "title": "Mudanças nas regras das rendas baixam à especialidade para evitar chumbo"
-  },
-  {
-   "id": "abola-fpf-premios-mundial",
-   "ts": "2026-09-30T17:20:02Z",
-   "topic": "desporto",
-   "sub": "selecao",
-   "source": "A Bola",
-   "title": "Seleção: FPF só pagou parcialmente os prémios do Mundial"
-  },
-  {
-   "id": "cm-pfbid0Daw2g7AqZEhbwNx",
-   "ts": "2026-09-30T17:16:18Z",
-   "topic": "saude",
-   "sub": "",
-   "source": "CM",
-   "title": "Mais de um milhão de utentes estrangeiros inscritos nos centros de saúde, metade sem médico atribuído"
-  },
-  {
-   "id": "obs-tarefeiros-reuniao-sexta",
-   "ts": "2026-09-30T17:15:26Z",
-   "topic": "saude",
-   "sub": "",
-   "source": "Observador",
-   "title": "Ministério da Saúde convoca tarefeiros para reunião"
-  },
-  {
-   "id": "lusa-47863448",
-   "ts": "2026-09-30T17:10:00Z",
-   "topic": "politica",
-   "sub": "",
-   "source": "Lusa",
-   "title": "Seguro elogia agência Lusa e defende que é essencial garantir a sua independência"
-  },
-  {
-   "id": "zz-1217702",
-   "ts": "2026-09-30T17:09:58Z",
-   "topic": "desporto",
-   "sub": "liga",
-   "source": "zerozero",
-   "title": "Taça da Liga: Final Four novamente jogada no Estádio Dr. Magalhães Pessoa"
-  },
-  {
-   "id": "eco-russia-aviso-nuclear-nato-baltico",
-   "ts": "2026-09-30T15:09:48Z",
-   "topic": "mundo",
-   "sub": "",
-   "source": "ECO",
-   "title": "Rússia faz aviso nuclear à NATO com tensão no Báltico a subir"
-  },
-  {
-   "id": "nit-avenida-portugal-carminha",
-   "ts": "2026-09-30T15:09:12Z",
-   "topic": "cultura",
-   "sub": "",
-   "source": "NiT",
-   "title": "Já sabemos quem vai ser a Carminha em \"Avenida Portugal\". Novela chega em 2027"
-  },
-  {
-   "id": "rtp-n1768663",
-   "ts": "2026-09-30T15:03:03Z",
-   "topic": "mundo",
-   "sub": "",
-   "source": "RTP",
-   "title": "Xi Jinping pronto para \"reprimir firmemente\" forças pela independência de Taiwan"
-  },
-  {
-   "id": "rtp-n1768673",
-   "ts": "2026-09-30T14:57:24Z",
-   "topic": "politica",
-   "sub": "",
-   "source": "RTP",
-   "title": "Carneiro vai propor aos órgãos do partido abstenção do PS"
-  },
-  {
-   "id": "lusa-47862391",
-   "ts": "2026-09-30T14:55:00Z",
-   "topic": "cultura",
-   "sub": "",
-   "source": "Lusa",
-   "title": "Festival Músicas do Mundo regressa a Sines entre 16 a 24 de julho em 2027"
-  },
-  {
-   "id": "obs-nuncio-isabel-moreira-queixas",
-   "ts": "2026-09-30T14:49:33Z",
-   "topic": "politica",
-   "sub": "",
-   "source": "Observador",
-   "title": "Paulo Núncio e Isabel Moreira apresentam queixas mútuas"
-  },
-  {
-   "id": "cnn-6abd202fd34e53c759c747c5",
-   "ts": "2026-09-30T14:43:00Z",
-   "topic": "economia",
-   "sub": "",
-   "source": "CNN Portugal",
-   "title": "\"Não vale a pena estar com papões\": Montenegro rejeita que novas regras flexibilizem rendas"
-  },
-  {
-   "id": "obs-conselho-europeu-outubro-combustiveis",
-   "ts": "2026-09-30T14:41:53Z",
-   "topic": "economia",
-   "sub": "",
-   "source": "Observador",
-   "title": "Combustíveis. Conselho Europeu decide medidas em breve"
-  },
-  {
-   "id": "obs-volta-sdr-plano-limpeza",
-   "ts": "2026-09-30T14:40:08Z",
-   "topic": "outros",
-   "sub": "",
-   "source": "Observador",
-   "title": "Governo pede plano para problemas de limpeza do Volta"
-  },
-  {
-   "id": "record-almeida-morgado-fora-europeus",
-   "ts": "2026-09-30T14:30:00Z",
-   "topic": "desporto",
-   "sub": "ciclismo",
-   "source": "Record",
-   "title": "João Almeida e António Morgado ficam de fora dos Campeonatos da Europa"
-  },
-  {
-   "id": "cnn-6abd1c6bd34e9a786e75a50b",
-   "ts": "2026-09-30T14:27:00Z",
-   "topic": "mundo",
-   "sub": "",
-   "source": "CNN Portugal",
-   "title": "Roménia continua sem novo Governo: Parlamento rejeita candidato a primeiro-ministro"
-  },
-  {
-   "id": "lusa-47862135",
-   "ts": "2026-09-30T14:25:00Z",
-   "topic": "economia",
-   "sub": "",
-   "source": "Lusa",
-   "title": "Excedente do Estado cai para 249,3 ME até agosto"
-  },
-  {
-   "id": "abola-proenca-reuniao-jesus-ronaldo",
-   "ts": "2026-09-30T14:22:08Z",
-   "topic": "desporto",
-   "sub": "selecao",
-   "source": "A Bola",
-   "title": "Seleção: Proença já esteve reunido com Jesus e Ronaldo"
-  },
-  {
-   "id": "eco-sarmento-sem-desvio-bruxelas",
-   "ts": "2026-09-30T14:20:48Z",
-   "topic": "economia",
-   "sub": "",
-   "source": "ECO",
-   "title": "Sarmento confiante que \"não haverá desvio\" no cumprimento das metas de Bruxelas"
-  },
-  {
-   "id": "lusa-47862047",
-   "ts": "2026-09-30T14:10:00Z",
-   "topic": "economia",
-   "sub": "",
-   "source": "Lusa",
-   "title": "PM manifesta disponibilidade para pontos de convergência sobre rendas"
-  },
-  {
-   "id": "cnn-6abd16edd34e9a786e75a4fc",
-   "ts": "2026-09-30T14:04:00Z",
-   "topic": "mundo",
-   "sub": "",
-   "source": "CNN Portugal",
-   "title": "Netanyahu diz que copiloto tentou despenhar avião para matar todos os que iam a bordo. Homem está a ser interrogado"
-  },
-  {
-   "id": "lusa-47861996",
-   "ts": "2026-09-30T14:01:00Z",
-   "topic": "politica",
-   "sub": "",
-   "source": "Lusa",
-   "title": "Governo está a fazer esforço perante custo de vida e é preciso prevenir futuro nas contas - PM"
-  },
-  {
-   "id": "ng-leandro-marina-pereira",
-   "ts": "2026-09-30T14:00:00Z",
-   "topic": "rosa",
-   "sub": "famosos",
-   "source": "Nova Gente",
-   "title": "Leandro quebra silêncio sobre reconciliação com Marina Pereira e revela em que pé está noivado: \"Certos comportamentos.."
-  },
-  {
-   "id": "rtp-e1768638",
-   "ts": "2026-09-30T13:52:09Z",
-   "topic": "economia",
-   "sub": "",
-   "source": "RTP",
-   "title": "Arrendamento em debate no Parlamento com chumbo no horizonte"
-  },
-  {
-   "id": "nit-alcantara-terra-comboios",
-   "ts": "2026-09-30T13:50:18Z",
-   "topic": "outros",
-   "sub": "",
-   "source": "NiT",
-   "title": "11 anos depois, comboios vão regressar a Alcântara-Terra aos fins de semana e feriados"
-  },
-  {
-   "id": "ojogo-18132093",
-   "ts": "2026-09-30T13:46:00Z",
-   "topic": "desporto",
-   "sub": "selecao",
-   "source": "O Jogo",
-   "title": "Rúben Dias e Jorge Jesus dão a cara após polémica com Ronaldo. Selecionador vai responder a menos perguntas"
-  },
-  {
-   "id": "obs-seguro-convergencia-saude-habitacao",
-   "ts": "2026-09-30T13:45:10Z",
-   "topic": "politica",
-   "sub": "",
-   "source": "Observador",
-   "title": "Seguro pede \"grande convergência\" na Saúde e Habitação"
-  },
-  {
-   "id": "obs-lar-clandestino-olhao",
-   "ts": "2026-09-30T13:34:25Z",
-   "topic": "outros",
-   "sub": "",
-   "source": "Observador",
-   "title": "Lar clandestino encerrado por denúncias de maus-tratos"
   }
  ],
  "paired": [
-  "cnn-6abcaf7dd34e53c759c745f0",
   "cnn-6abcdf0fd34e53c759c74696",
   "cnn-6abd16edd34e9a786e75a4fc",
   "cnn-6abd570fd34e53c759c74883",
@@ -972,7 +971,6 @@
   "lusa-47864031",
   "ng-claudio-ramos-responde-mae-jessica-maria",
   "ng-jessica-maria-claudio-ramos",
-  "nit-placebo-30-anos-lisboa",
   "rtp-n1768592",
   "rtp-n1768608",
   "rtp-v1768628"
