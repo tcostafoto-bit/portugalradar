@@ -1,7 +1,103 @@
 {
- "version": "1.1.41",
- "updated": "2026-09-30T21:53:03Z",
+ "version": "1.1.42",
+ "updated": "2026-10-01T01:04:06Z",
  "recent": [
+  {
+   "id": "obs-usf-medico-familia-2029",
+   "ts": "2026-09-30T23:28:55Z",
+   "topic": "saude",
+   "sub": "",
+   "source": "Observador",
+   "title": "USF: médico de família para todos até 2029"
+  },
+  {
+   "id": "caras-rania-princesa-sara",
+   "ts": "2026-09-30T23:10:50Z",
+   "topic": "rosa",
+   "sub": "realeza",
+   "source": "Caras",
+   "title": "Rania da Jordânia assinala casamento da princesa Sara em cerimónia no Palácio de Zahran"
+  },
+  {
+   "id": "obs-brasil-interferencia-eleicoes",
+   "ts": "2026-09-30T23:07:14Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "Observador",
+   "title": "Brasil denuncia tentativas de interferência russa e dos EUA"
+  },
+  {
+   "id": "rtp-n1768762",
+   "ts": "2026-09-30T23:00:14Z",
+   "topic": "politica",
+   "sub": "",
+   "source": "RTP",
+   "title": "OE. PCP quer reforçar direitos de pais e crianças"
+  },
+  {
+   "id": "cnn-6abd9422d34e53c759c748fe",
+   "ts": "2026-09-30T22:59:00Z",
+   "topic": "outros",
+   "sub": "",
+   "source": "CNN Portugal",
+   "title": "Afastados de funções 62 professores com registo criminal inválido"
+  },
+  {
+   "id": "obs-dar-voz-ao-silencio",
+   "ts": "2026-09-30T22:55:45Z",
+   "topic": "outros",
+   "sub": "",
+   "source": "Observador",
+   "title": "Nova associação de vítimas pede à CEP que aceite auditoria"
+  },
+  {
+   "id": "caras-marrocos-primeira-ministra",
+   "ts": "2026-09-30T22:50:18Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "Caras",
+   "title": "Quem é Fatima Ezzahra El Mansouri, a mulher que faz história ao assumir o Governo de Marrocos"
+  },
+  {
+   "id": "obs-bomba-imprensa-ronaldo",
+   "ts": "2026-09-30T22:47:00Z",
+   "topic": "desporto",
+   "sub": "selecao",
+   "source": "Observador",
+   "title": "\"Bomba em Portugal\": imprensa internacional sobre Ronaldo"
+  },
+  {
+   "id": "obs-musk-ia-pentagono",
+   "ts": "2026-09-30T22:25:55Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "Observador",
+   "title": "Musk vai co-liderar projeto de IA militar dos EUA"
+  },
+  {
+   "id": "eco-bastonario-processo-penal",
+   "ts": "2026-09-30T22:23:53Z",
+   "topic": "justica",
+   "sub": "",
+   "source": "ECO",
+   "title": "Bastonário dos advogados quer novas regras do processo penal no Constitucional"
+  },
+  {
+   "id": "obs-jorge-palma-parlamento",
+   "ts": "2026-09-30T22:07:52Z",
+   "topic": "cultura",
+   "sub": "",
+   "source": "Observador",
+   "title": "Parlamento homenageia Jorge Palma por unanimidade"
+  },
+  {
+   "id": "ng-sergio-duarte-terceira-filha",
+   "ts": "2026-09-30T22:00:57Z",
+   "topic": "rosa",
+   "sub": "famosos",
+   "source": "Nova Gente",
+   "title": "Já nasceu a terceira filha de Sérgio Duarte do 'Big Brother' (e a madrinha é bem conhecida)"
+  },
   {
    "id": "rtp-n1768758",
    "ts": "2026-09-30T21:28:24Z",
@@ -27,12 +123,28 @@
    "title": "Cristiano Ronaldo já está no aeroporto de Copenhaga para partir rumo a Madrid"
   },
   {
+   "id": "abola-tiago-pereira-sporting",
+   "ts": "2026-09-30T21:23:10Z",
+   "topic": "desporto",
+   "sub": "atletismo",
+   "source": "A Bola",
+   "title": "Tiago Pereira deixa o Sporting"
+  },
+  {
    "id": "ng-bb-all-stars-erica-expulsa",
    "ts": "2026-09-30T21:18:29Z",
    "topic": "rosa",
    "sub": "reality",
    "source": "Nova Gente",
    "title": "Big Brother All Stars: Érica acaba de ser expulsa"
+  },
+  {
+   "id": "abola-porto-abc-andebol",
+   "ts": "2026-09-30T21:17:28Z",
+   "topic": "desporto",
+   "sub": "andebol",
+   "source": "A Bola",
+   "title": "FC Porto vence ABC e iguala Sporting no topo do campeonato"
   },
   {
    "id": "rtp-d1768757",
@@ -73,6 +185,14 @@
    "sub": "",
    "source": "Observador",
    "title": "Pensões de antigos combatentes chumbadas no parlamento"
+  },
+  {
+   "id": "abola-arouca-sucessao-seabra",
+   "ts": "2026-09-30T20:48:21Z",
+   "topic": "desporto",
+   "sub": "liga",
+   "source": "A Bola",
+   "title": "Arouca: há um nome que ganha força para a sucessão a Vasco Seabra"
   },
   {
    "id": "rtp-n1768746",
@@ -121,6 +241,14 @@
    "sub": "",
    "source": "Observador",
    "title": "Rui Pinto vai sair do programa de proteção de testemunhas"
+  },
+  {
+   "id": "obs-martim-moniz-prazo",
+   "ts": "2026-09-30T20:32:45Z",
+   "topic": "politica",
+   "sub": "",
+   "source": "Observador",
+   "title": "Câmara de Lisboa falhou prazo para requalificar Martim Moniz"
   },
   {
    "id": "idealista-77952",
@@ -211,12 +339,28 @@
    "title": "PSD e Chega chegam a acordo para alterar na especialidade proposta do Governo sobre novo regime do arrendamento urbano"
   },
   {
+   "id": "record-sub19-holanda",
+   "ts": "2026-09-30T19:45:38Z",
+   "topic": "desporto",
+   "sub": "selecao",
+   "source": "Record",
+   "title": "Portugal goleia Holanda em jogo de preparação"
+  },
+  {
    "id": "rtp-v1768732",
    "ts": "2026-09-30T19:36:47Z",
    "topic": "economia",
    "sub": "",
    "source": "RTP",
    "title": "Taxa de inflação volta a acelerar à boleia dos combustíveis"
+  },
+  {
+   "id": "ojogo-18132241",
+   "ts": "2026-09-30T19:33:00Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "O Jogo",
+   "title": "Serviços secretos russos planearam assassinato de Kasparov"
   },
   {
    "id": "abola-sporting-leoas-europa",
@@ -817,150 +961,6 @@
    "sub": "",
    "source": "RTP",
    "title": "DGS tomou medidas no lar de Estremoz com surto de gripe A"
-  },
-  {
-   "id": "rtp-v1768639",
-   "ts": "2026-09-30T12:49:47Z",
-   "topic": "mundo",
-   "sub": "",
-   "source": "RTP",
-   "title": "Reino Unido. Autoridades não encontram vestígios de explosivos em carrinhas junto de base aérea"
-  },
-  {
-   "id": "cnn-6abd03e3d34e9a786e75a4c6",
-   "ts": "2026-09-30T12:43:15Z",
-   "topic": "outros",
-   "sub": "",
-   "source": "CNN Portugal",
-   "title": "Acidentes ferroviários diminuíram, mas há um ponto onde mais do que duplicaram"
-  },
-  {
-   "id": "cnn-6abd025cd34e9a786e75a4c4",
-   "ts": "2026-09-30T12:41:00Z",
-   "topic": "justica",
-   "sub": "",
-   "source": "CNN Portugal",
-   "title": "Venda de um carro terá estado na origem de sequestro e agressões. Três detidos em Valongo"
-  },
-  {
-   "id": "obs-servicos-minimos-voos-acores-madeira",
-   "ts": "2026-09-30T12:37:39Z",
-   "topic": "tempo",
-   "sub": "",
-   "source": "Observador",
-   "title": "Decretados serviços mínimos nos voos de Açores e Madeira"
-  },
-  {
-   "id": "rtp-v1768635",
-   "ts": "2026-09-30T12:30:47Z",
-   "topic": "outros",
-   "sub": "",
-   "source": "RTP",
-   "title": "Foram identificadas várias falhas técnicas no processo de classificação dos exames nacionais"
-  },
-  {
-   "id": "ng-cristina-ferreira-favoritismo-monteiro",
-   "ts": "2026-09-30T12:30:00Z",
-   "topic": "rosa",
-   "sub": "reality",
-   "source": "Nova Gente",
-   "title": "Cristina Ferreira responde às acusações de favoritismo de Francisco Monteiro no Big Brother: \"Só para saberem…\""
-  },
-  {
-   "id": "rtp-v1768632",
-   "ts": "2026-09-30T12:28:47Z",
-   "topic": "saude",
-   "sub": "",
-   "source": "RTP",
-   "title": "Crianças entre 2 e 4 anos abrangidas por vacinação gratuita contra a gripe"
-  },
-  {
-   "id": "obs-amnistia-ceuta-tortura",
-   "ts": "2026-09-30T12:25:48Z",
-   "topic": "mundo",
-   "sub": "",
-   "source": "Observador",
-   "title": "Amnistia Internacional acusa militares de \"tortura\" em Ceuta"
-  },
-  {
-   "id": "cnn-6abcff93d34e9a786e75a4bf",
-   "ts": "2026-09-30T12:24:00Z",
-   "topic": "justica",
-   "sub": "",
-   "source": "CNN Portugal",
-   "title": "Mais de um milhão de telemóveis usados terão sido vendidos como novos num esquema milionário"
-  },
-  {
-   "id": "zz-1217611",
-   "ts": "2026-09-30T12:23:09Z",
-   "topic": "desporto",
-   "sub": "liga",
-   "source": "zerozero",
-   "title": "Liga Portugal vai seguir ideia da La Liga e ter uma «jornada retro»"
-  },
-  {
-   "id": "rtp-v1768628",
-   "ts": "2026-09-30T12:22:47Z",
-   "topic": "economia",
-   "sub": "",
-   "source": "RTP",
-   "title": "Acelerar despejos e contratos mais flexíveis são algumas das alterações propostas pelo Governo"
-  },
-  {
-   "id": "abola-mourinho-asencio-baixa",
-   "ts": "2026-09-30T12:22:00Z",
-   "topic": "desporto",
-   "sub": "lafora",
-   "source": "A Bola",
-   "title": "Mourinho com baixa na defesa do Real Madrid nos próximos meses"
-  },
-  {
-   "id": "abola-benfica-queixa-samu-porto",
-   "ts": "2026-09-30T12:16:00Z",
-   "topic": "desporto",
-   "sub": "benfica",
-   "source": "A Bola",
-   "title": "Benfica formaliza queixa contra Samu e FC Porto"
-  },
-  {
-   "id": "cm-calor-poluicao-mortes-2025",
-   "ts": "2026-09-30T12:13:24Z",
-   "topic": "saude",
-   "sub": "",
-   "source": "CM",
-   "title": "Calor em 2025 provocou 2009 mortes em excesso e poluição do ar esteve associada a 4710 mortes"
-  },
-  {
-   "id": "cnn-6abcfcfed34e53c759c7474a",
-   "ts": "2026-09-30T12:13:00Z",
-   "topic": "outros",
-   "sub": "",
-   "source": "CNN Portugal",
-   "title": "Mulher de 92 anos morre afogada em piscina de lar em Mogadouro"
-  },
-  {
-   "id": "abola-vasco-seabra-rio-ave",
-   "ts": "2026-09-30T12:11:05Z",
-   "topic": "desporto",
-   "sub": "liga",
-   "source": "A Bola",
-   "title": "Vasco Seabra deixa o Arouca e ruma ao Rio Ave"
-  },
-  {
-   "id": "hn-bastonario-saude-publica-investimento",
-   "ts": "2026-09-30T12:08:00Z",
-   "topic": "saude",
-   "sub": "",
-   "source": "HealthNews",
-   "title": "Bastonário da Ordem dos Médicos pede que a saúde pública seja vista como investimento e não como despesa"
-  },
-  {
-   "id": "rtp-d1768623",
-   "ts": "2026-09-30T12:07:16Z",
-   "topic": "desporto",
-   "sub": "motores",
-   "source": "RTP",
-   "title": "Viseu diz \"não\" ao Rali de Portugal com exclusão no Mundial em 2027"
   }
  ],
  "paired": [

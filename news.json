@@ -1,25 +1,238 @@
 {
- "version": "1.1.41",
- "updated": "2026-09-30T21:53:03Z",
+ "version": "1.1.42",
+ "updated": "2026-10-01T01:04:06Z",
  "brief": [
   {
-   "texto": "Cristiano Ronaldo abandona o estágio da Seleção em Copenhaga e promete \"a seu tempo\" dizer a verdade.",
+   "texto": "Cristiano Ronaldo abandonou o estágio da Seleção em Copenhaga e seguiu de avião privado para Madrid, prometendo dar explicações «a seu tempo».",
    "id": "rtp-d1768722"
   },
   {
-   "texto": "Parlamento aprova na generalidade a revisão do arrendamento, com abstenção do Chega e acordo PSD-Chega para a especialidade.",
+   "texto": "O Parlamento aprovou na generalidade a revisão da lei do arrendamento, com a abstenção do Chega e um acordo escrito com o PSD para alterações na especialidade.",
    "id": "rtp-n1768738"
   },
   {
-   "texto": "PS deverá abster-se no Orçamento do Estado para 2027 e Montenegro fala em \"sinal importante\".",
+   "texto": "Montenegro destaca o «sinal importante» dado pelo PS, que admite abster-se no Orçamento do Estado para 2027.",
    "id": "lusa-47864031"
   },
   {
-   "texto": "Air France-KLM e Lufthansa entregaram propostas melhoradas pela TAP e o Governo decide até meio de outubro.",
-   "id": "rtp-v1768748"
+   "texto": "O Ministério da Educação afastou 62 professores com registo criminal inválido.",
+   "id": "cnn-6abd9422d34e53c759c748fe"
   }
  ],
  "items": [
+  {
+   "id": "obs-usf-medico-familia-2029",
+   "ts": "2026-09-30T23:28:55Z",
+   "source": "Observador",
+   "lado": "pt",
+   "url": "https://observador.pt/2026/10/01/medico-de-familia-para-todos-os-utentes-do-sns-ate-2029-e-possivel-diz-associacao-das-usf/",
+   "title": "USF: médico de família para todos até 2029",
+   "topic": "saude",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "SNS",
+    "Médicos de família"
+   ],
+   "tickers": [],
+   "resumo": "A associação das Unidades de Saúde Familiar diz que é possível atribuir médico de família a todos os utentes do SNS até 2029, com menos aposentações e internos em formação em número suficiente. Avisa, porém, que não basta abrir vagas.",
+   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2000:1124:nowe:0:104/q:70/plain/https://s3.observador.pt/wp-content/uploads/2017/05/09211006/17366137.jpg"
+  },
+  {
+   "id": "caras-rania-princesa-sara",
+   "ts": "2026-09-30T23:10:50Z",
+   "source": "Caras",
+   "lado": "pt",
+   "url": "https://caras.pt/realeza/2026-10-01-rania-da-jordania-assinala-casamento-da-princesa-sara-em-cerimonia-no-palacio-de-zahran/",
+   "title": "Rania da Jordânia assinala casamento da princesa Sara em cerimónia no Palácio de Zahran",
+   "topic": "rosa",
+   "sub": "realeza",
+   "impacto": "baixo",
+   "setores": [
+    "Casa real da Jordânia"
+   ],
+   "tickers": [],
+   "resumo": "A rainha Rania da Jordânia partilhou um registo ao lado do rei Abdullah II e deixou uma mensagem de felicitações aos recém-casados, numa cerimónia no Palácio de Zahran em que se assinalou o casamento da princesa Sara.",
+   "img": "https://caras.pt/wp-content/uploads/2026/10/260930_CARAS-PT-1920-x-1080-px-83-600x315.jpg"
+  },
+  {
+   "id": "obs-brasil-interferencia-eleicoes",
+   "ts": "2026-09-30T23:07:14Z",
+   "source": "Observador",
+   "lado": "pt",
+   "url": "https://observador.pt/2026/10/01/brasil-denunciou-a-paris-e-berlim-alegadas-tentativas-de-interferencia-russa-e-norte-americana-nas-eleicoes/",
+   "title": "Brasil denuncia tentativas de interferência russa e dos EUA",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Brasil",
+    "Eleições"
+   ],
+   "tickers": [],
+   "resumo": "O Brasil denunciou a Paris e Berlim alegadas tentativas de interferência russa e norte-americana nas eleições. As ações dos EUA podem ir da instrumentalização do sistema judicial a uma ingerência abertamente reconhecida; não são conhecidas as tentativas de Moscovo.",
+   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2000:1122:nowe:0:29/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/06/28173008/47254926-1.jpg"
+  },
+  {
+   "id": "rtp-n1768762",
+   "ts": "2026-09-30T23:00:14Z",
+   "source": "RTP",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/politica/oe-pcp-quer-reforcar-direitos-de-pais-e-criancas_n1768762",
+   "title": "OE. PCP quer reforçar direitos de pais e crianças",
+   "topic": "politica",
+   "sub": "",
+   "impacto": "baixo",
+   "setores": [
+    "OE2027",
+    "PCP"
+   ],
+   "tickers": [],
+   "resumo": "O PCP promete levar os direitos de pais e crianças para as negociações do Orçamento do Estado, que arrancam nas próximas semanas. O partido considera-os um aspeto fundamental para discutir um projeto de futuro para o país.",
+   "img": "https://cdn-images.rtp.pt/icm/noticias/images/02/020c913c3cdbf143c43608f69853b783?w=350&q=50&rect=1,0,5711,3131&auto=format"
+  },
+  {
+   "id": "cnn-6abd9422d34e53c759c748fe",
+   "ts": "2026-09-30T22:59:00Z",
+   "source": "CNN Portugal",
+   "lado": "pt",
+   "url": "https://cnnportugal.iol.pt/professores/docentes/afastados-de-funcoes-62-professores-com-registo-criminal-invalido/20260930/6abd9422d34e53c759c748fe",
+   "title": "Afastados de funções 62 professores com registo criminal inválido",
+   "topic": "outros",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Educação",
+    "Professores"
+   ],
+   "tickers": [],
+   "resumo": "O Ministério da Educação afastou de funções 62 professores com registo criminal inválido, sublinhando que a invalidez do certificado é incompatível com o exercício de funções com menores. O ministro pediu uma análise urgente e imediata de todas as situações.",
+   "img": "https://img.iol.pt/image/id/5d8495e70b7015deb83a6a2e/200.jpg"
+  },
+  {
+   "id": "obs-dar-voz-ao-silencio",
+   "ts": "2026-09-30T22:55:45Z",
+   "source": "Observador",
+   "lado": "pt",
+   "url": "https://observador.pt/2026/09/30/nova-associacao-de-vitimas-de-abusos-sexuais-vai-pedir-a-igreja-abertura-para-auditoria/",
+   "title": "Nova associação de vítimas pede à CEP que aceite auditoria",
+   "topic": "outros",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Igreja",
+    "Abusos"
+   ],
+   "tickers": [],
+   "resumo": "A associação «Dar Voz ao Silêncio» entrega na quinta-feira um dossiê à Conferência Episcopal a pedir abertura da Igreja para uma auditoria aos abusos sexuais. A associação responsabiliza também o Estado pelos abusos cometidos.",
+   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:1538:863:nowe:0:65/q:70/plain/https://s3.observador.pt/wp-content/uploads/2025/11/28114554/igreja-matriz-de-santa-barbara-de-nexe.jpg"
+  },
+  {
+   "id": "caras-marrocos-primeira-ministra",
+   "ts": "2026-09-30T22:50:18Z",
+   "source": "Caras",
+   "lado": "pt",
+   "url": "https://caras.pt/mundo/2026-09-30-quem-e-fatima-ezzahra-el-mansouri-a-mulher-que-faz-historia-ao-assumir-o-governo-de-marrocos/",
+   "title": "Quem é Fatima Ezzahra El Mansouri, a mulher que faz história ao assumir o Governo de Marrocos",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Marrocos"
+   ],
+   "tickers": [],
+   "resumo": "O rei Mohammed VI escolheu Fatima Ezzahra El Mansouri, advogada, antiga ministra e presidente da Câmara de Marraquexe, para chefiar o Governo de Marrocos. É a primeira mulher a ocupar o cargo no país.",
+   "img": "https://caras.pt/wp-content/uploads/2026/09/260930_CARAS-PT-1920-x-1080-px-82-600x315.jpg"
+  },
+  {
+   "id": "obs-bomba-imprensa-ronaldo",
+   "ts": "2026-09-30T22:47:00Z",
+   "source": "Observador",
+   "lado": "pt",
+   "url": "https://observador.pt/2026/09/30/caso-ronaldo-cai-como-uma-bomba-em-portugal-a-reacao-da-imprensa-internacional-a-saida-de-ronaldo-da-selecao/",
+   "title": "\"Bomba em Portugal\": imprensa internacional sobre Ronaldo",
+   "topic": "desporto",
+   "sub": "selecao",
+   "impacto": "medio",
+   "setores": [
+    "Cristiano Ronaldo",
+    "Liga das Nações"
+   ],
+   "tickers": [],
+   "resumo": "Jornais de Espanha ao Reino Unido descrevem uma «enorme crise» em Portugal após a saída de Cristiano Ronaldo do estágio, apontam as palavras do selecionador que «incendiaram tudo» e falam de um fim «iminente» da carreira do capitão na Seleção.",
+   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:4096:2299:nowe:0:129/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/09/23160421/doc20260922478185961ra-21775-scaled.jpg"
+  },
+  {
+   "id": "obs-musk-ia-pentagono",
+   "ts": "2026-09-30T22:25:55Z",
+   "source": "Observador",
+   "lado": "pt",
+   "url": "https://observador.pt/2026/09/30/elon-musk-sera-co-lider-de-projeto-de-ia-do-pentagono-sobre-o-futuro-da-guerra/",
+   "title": "Musk vai co-liderar projeto de IA militar dos EUA",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "EUA",
+    "Inteligência artificial"
+   ],
+   "tickers": [],
+   "resumo": "Elon Musk vai co-liderar um projeto de inteligência artificial do Pentágono dedicado ao futuro da guerra. A nomeação assinala nova reaproximação após os desentendimentos com Trump e um maior envolvimento na indústria militar.",
+   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2000:1122:nowe:0:37/q:70/plain/https://s3.observador.pt/wp-content/uploads/2025/07/09153708/45275410.jpg"
+  },
+  {
+   "id": "eco-bastonario-processo-penal",
+   "ts": "2026-09-30T22:23:53Z",
+   "source": "ECO",
+   "lado": "pt",
+   "url": "https://eco.sapo.pt/2026/09/30/bastonario-dos-advogados-quer-novas-regras-do-processo-penal-no-constitucional/",
+   "title": "Bastonário dos advogados quer novas regras do processo penal no Constitucional",
+   "topic": "justica",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Processo penal",
+    "Advogados"
+   ],
+   "tickers": [],
+   "resumo": "O bastonário da Ordem dos Advogados, João Massano, contesta as novas regras do processo penal que permitem sancionar manobras dilatórias e quer que sejam analisadas pelo Tribunal Constitucional. Defende que o combate à morosidade não pode ser feito à custa dos direitos dos arguidos.",
+   "img": "https://eco.imgix.net/uploads/2025/05/cropped-eco-tomada-de-posse-do-novo-bastonario-dos-advogados-2000px-027-2.jpg"
+  },
+  {
+   "id": "obs-jorge-palma-parlamento",
+   "ts": "2026-09-30T22:07:52Z",
+   "source": "Observador",
+   "lado": "pt",
+   "url": "https://observador.pt/2026/09/30/jorge-palma-parlamento-unanime-no-pesar-e-no-elogio-ao-legado-que-inspirara-geracoes/",
+   "title": "Parlamento homenageia Jorge Palma por unanimidade",
+   "topic": "cultura",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Música",
+    "Jorge Palma"
+   ],
+   "tickers": [],
+   "resumo": "A Assembleia da República aprovou por unanimidade o voto de pesar por Jorge Palma, com familiares e amigos nas galerias, uma salva de palmas e um minuto de silêncio. O voto elogia o legado do músico, que inspirou várias gerações.",
+   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2000:1122:nowe:0:18/q:70/plain/https://s3.observador.pt/wp-content/uploads/2024/05/28112328/41191920.jpg"
+  },
+  {
+   "id": "ng-sergio-duarte-terceira-filha",
+   "ts": "2026-09-30T22:00:57Z",
+   "source": "Nova Gente",
+   "lado": "pt",
+   "url": "https://www.novagente.pt/ja-nasceu-a-terceira-filha-de-sergio-duarte-do-big-brother-e-a-madrinha-e-bem-conhecida/",
+   "title": "Já nasceu a terceira filha de Sérgio Duarte do 'Big Brother' (e a madrinha é bem conhecida)",
+   "topic": "rosa",
+   "sub": "famosos",
+   "impacto": "baixo",
+   "setores": [
+    "Big Brother"
+   ],
+   "tickers": [],
+   "resumo": "Sérgio Duarte, militar da GNR conhecido do Big Brother 2024, e a mulher, Vanda, tiveram a terceira filha, Benedita, a 29 de setembro. A madrinha será Catarina Miranda, segundo a revista.",
+   "img": ""
+  },
   {
    "id": "rtp-n1768758",
    "ts": "2026-09-30T21:28:24Z",
@@ -73,6 +286,23 @@
    "img": "https://img.iol.pt/image/id/6abd7efdd34e9a786e75a634/200.jpg"
   },
   {
+   "id": "abola-tiago-pereira-sporting",
+   "ts": "2026-09-30T21:23:10Z",
+   "source": "A Bola",
+   "lado": "pt",
+   "url": "https://www.abola.pt/noticias/tiago-pereira-deixa-o-sporting-2026093021182908675",
+   "title": "Tiago Pereira deixa o Sporting",
+   "topic": "desporto",
+   "sub": "atletismo",
+   "impacto": "baixo",
+   "setores": [
+    "Sporting"
+   ],
+   "tickers": [],
+   "resumo": "O saltador olímpico Tiago Pereira, medalhado num Mundial de pista curta, anunciou que deixa o Sporting. O atleta dá a entender que a decisão não foi sua e diz estar triste, mas agradecido.",
+   "img": "https://sportal365images.com/process/smp-images-production/abola.pt/15112024/bae72053-b95f-45a5-8be8-fe7b7defc750.jpg?operations=autocrop(1200:630)"
+  },
+  {
    "id": "ng-bb-all-stars-erica-expulsa",
    "ts": "2026-09-30T21:18:29Z",
    "source": "Nova Gente",
@@ -88,6 +318,23 @@
    "tickers": [],
    "resumo": "Érica foi expulsa do Big Brother All Stars depois de um momento de descontrolo sancionado pelo Big.",
    "img": ""
+  },
+  {
+   "id": "abola-porto-abc-andebol",
+   "ts": "2026-09-30T21:17:28Z",
+   "source": "A Bola",
+   "lado": "pt",
+   "url": "https://www.abola.pt/noticias/fc-porto-vence-abc-e-iguala-sporting-no-topo-do-campeonato-2026093021172884488",
+   "title": "FC Porto vence ABC e iguala Sporting no topo do campeonato",
+   "topic": "desporto",
+   "sub": "andebol",
+   "impacto": "baixo",
+   "setores": [
+    "Campeonato de andebol"
+   ],
+   "tickers": [],
+   "resumo": "O FC Porto recebeu e bateu o ABC por 39-24, em jogo em atraso da 2.ª jornada, e igualou o Sporting no topo do campeonato de andebol.",
+   "img": "https://sportal365images.com/process/smp-images-production/abola.pt/30092026/267f03cc-f659-4b7d-928e-465aa64adbb2.jpg?operations=crop(0:193:3194:1990),autocrop(1200:630)"
   },
   {
    "id": "rtp-d1768757",
@@ -174,6 +421,23 @@
    "tickers": [],
    "resumo": "PSD, PS e CDS-PP chumbaram as propostas de Chega e PCP para aumentar rendimentos a antigos combatentes. O debate fica adiado para o Orçamento do Estado de 2027.",
    "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:4096:2303:nowe:0:214/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/09/08191414/jporfirio-mocao-censura-mai-luis-neves-parlamento-08-09-2026-04-3-scaled.jpg"
+  },
+  {
+   "id": "abola-arouca-sucessao-seabra",
+   "ts": "2026-09-30T20:48:21Z",
+   "source": "A Bola",
+   "lado": "pt",
+   "url": "https://www.abola.pt/noticias/arouca-ha-um-nome-que-ganha-forca-para-a-sucessao-a-vasco-seabra-2026093020483610620",
+   "title": "Arouca: há um nome que ganha força para a sucessão a Vasco Seabra",
+   "topic": "desporto",
+   "sub": "liga",
+   "impacto": "baixo",
+   "setores": [
+    "Arouca"
+   ],
+   "tickers": [],
+   "resumo": "Armando Evangelista, que orientou o Arouca entre 2020 e 2023, ganha força para suceder a Vasco Seabra e pode regressar à Serra da Freita.",
+   "img": "https://sportal365images.com/process/smp-images-production/abola.pt/30092026/1eff7a4e-d45c-4a97-a538-68e893f0cedd.webp?operations=crop(0:0:1020:574),autocrop(1200:630)"
   },
   {
    "id": "rtp-n1768746",
@@ -279,6 +543,23 @@
    "tickers": [],
    "resumo": "Rui Pinto vai deixar de beneficiar de medidas como a residência em local secreto. Ainda não é certo se o hacker também perde a proteção policial.",
    "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:770:433:nowe:0:0/q:70/plain/https://s3.observador.pt/wp-content/uploads/2020/03/22100135/GettyImages-1128728259-scaled_770x433_acf_cropped.jpg"
+  },
+  {
+   "id": "obs-martim-moniz-prazo",
+   "ts": "2026-09-30T20:32:45Z",
+   "source": "Observador",
+   "lado": "pt",
+   "url": "https://observador.pt/2026/09/30/camara-de-lisboa-falhou-prazo-para-requalificar-praca-do-martim-moniz-mas-diz-que-obra-sera-executada/",
+   "title": "Câmara de Lisboa falhou prazo para requalificar Martim Moniz",
+   "topic": "politica",
+   "sub": "",
+   "impacto": "baixo",
+   "setores": [
+    "Lisboa"
+   ],
+   "tickers": [],
+   "resumo": "A requalificação da Praça do Martim Moniz, aprovada em 2022 e adjudicada em 2023, devia ter sido entregue em março de 2026 e ainda não começou. A Câmara de Lisboa admite ter falhado o prazo, mas garante que a obra será executada.",
+   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:3000:1687:nowe:0:156/q:70/plain/https://s3.observador.pt/wp-content/uploads/2025/01/20171944/237a9362.jpg"
   },
   {
    "id": "idealista-77952",
@@ -477,6 +758,23 @@
    "img": "https://www.lusa.pt/temp/images/900x600/cache_900x600_Crop_high_45086174_4996623_03062025110811.JPG"
   },
   {
+   "id": "record-sub19-holanda",
+   "ts": "2026-09-30T19:45:38Z",
+   "source": "Record",
+   "lado": "pt",
+   "url": "https://www.record.pt/futebol/selecoes/sub19/detalhe/portugal-goleia-holanda-em-jogo-de-preparacao",
+   "title": "Portugal goleia Holanda em jogo de preparação",
+   "topic": "desporto",
+   "sub": "selecao",
+   "impacto": "baixo",
+   "setores": [
+    "Sub-19"
+   ],
+   "tickers": [],
+   "resumo": "A seleção de sub-19 goleou a Holanda por 6-1 num jogo de preparação.",
+   "img": "https://cdn.record.pt/images/2026-09/img_1200x721uu2026-09-30-19-45-38-2465606-im-639263943802905436.jpg"
+  },
+  {
    "id": "rtp-v1768732",
    "ts": "2026-09-30T19:36:47Z",
    "source": "RTP",
@@ -493,6 +791,24 @@
    "tickers": [],
    "resumo": "Em setembro, os preços subiram em média 3,6% face ao mesmo mês do ano passado, mais três décimas do que em agosto, com os combustíveis a pesar na aceleração.",
    "img": "https://cdn-images.rtp.pt/icm/images/29/292609b9828d9c8440d20ded40fdc228_N.jpg?"
+  },
+  {
+   "id": "ojogo-18132241",
+   "ts": "2026-09-30T19:33:00Z",
+   "source": "O Jogo",
+   "lado": "pt",
+   "url": "https://www.ojogo.pt/modalidades/artigo/servicos-secretos-russos-planearam-assassinato-de-kasparov/18132241",
+   "title": "Serviços secretos russos planearam assassinato de Kasparov",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Rússia",
+    "Xadrez"
+   ],
+   "tickers": [],
+   "resumo": "Segundo o O JOGO, os serviços secretos russos planearam o assassinato de Garry Kasparov, que foi colocado sob proteção. A lenda do xadrez é um forte opositor de Vladimir Putin.",
+   "img": "https://staticx.noticiasilimitadas.pt/oj/dffb585a-98af-48c6-8333-cdfe88ee02f6_1200x675.jpg"
   },
   {
    "id": "abola-sporting-leoas-europa",
@@ -4978,319 +5294,6 @@
    "tickers": [],
    "resumo": "Elisabete Moutinho revelou pormenores do fim da relação de nove anos com Pedro Cell, explicando que foi ela a tomar a decisão e que precisou de tempo para se reencontrar.",
    "img": "https://www.novagente.pt/wp-content/uploads/2026/09/nv-miniatura-655858.jpg"
-  },
-  {
-   "id": "rtp-d1768522",
-   "ts": "2026-09-29T20:55:02Z",
-   "source": "RTP Desporto",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/futebol-nacional/lider-da-liga-portuguesa-preve-regresso-das-bebidas-alcoolicas-aos-estadios_d1768522",
-   "title": "Líder da Liga Portuguesa prevê regresso das bebidas alcoólicas aos estádios",
-   "topic": "desporto",
-   "sub": "liga",
-   "impacto": "medio",
-   "setores": [
-    "Liga Portugal",
-    "Estádios"
-   ],
-   "tickers": [],
-   "resumo": "Reinaldo Teixeira admite que a venda de bebidas alcoólicas possa regressar ainda esta época a alguns estádios, após avaliação do teste realizado.",
-   "img": "https://cdn-images.rtp.pt/icm/noticias/images/da/da0e263f26e2d16e547d26e1a565a180?w=350&q=50&rect=8,0,1538,843&auto=format"
-  },
-  {
-   "id": "cnn-6abc2438d34e9a786e75a31e",
-   "ts": "2026-09-29T20:48:56Z",
-   "source": "CNN Portugal",
-   "lado": "pt",
-   "url": "https://cnnportugal.iol.pt/leiria/incendio-autocarro/fogo-em-autocarro-de-transporte-publico-urbano-provoca-danos-em-habitacao-em-leiria/20260929/6abc2438d34e9a786e75a31e",
-   "title": "Fogo em autocarro de transporte público urbano provoca danos em habitação em Leiria",
-   "topic": "outros",
-   "sub": "",
-   "impacto": "baixo",
-   "setores": [
-    "Leiria"
-   ],
-   "tickers": [],
-   "resumo": "Um autocarro urbano ardeu em Leiria e causou danos numa habitação. Uma vítima ligeira foi levada ao hospital e três crianças foram assistidas por inalação de fumo e ansiedade.",
-   "img": "https://img.iol.pt/image/id/693a7f49d34e3caad84c3e94/200.jpg"
-  },
-  {
-   "id": "cnn-6abc1887d34e53c759c745a1",
-   "ts": "2026-09-29T20:42:00Z",
-   "source": "CNN Portugal",
-   "lado": "pt",
-   "url": "https://cnnportugal.iol.pt/portugueses/cidades-em-portugal/um-terco-dos-portugueses-estao-descontentes-com-as-suas-cidades/20260929/6abc1887d34e53c759c745a1",
-   "title": "Um terço dos portugueses estão descontentes com as suas cidades",
-   "topic": "outros",
-   "sub": "",
-   "impacto": "baixo",
-   "setores": [
-    "Sociedade"
-   ],
-   "tickers": [],
-   "resumo": "Um terço dos portugueses está descontente com a sua cidade. As pequenas cidades do litoral não metropolitano têm as melhores avaliações em saúde e educação.",
-   "img": "https://img.iol.pt/image/id/6331cec50cf2f9a86eb78cd5/200.jpg"
-  },
-  {
-   "id": "cnn-6abc1e500cf299bc2953de48",
-   "ts": "2026-09-29T20:38:00Z",
-   "source": "CNN Portugal",
-   "lado": "pt",
-   "url": "https://cnnportugal.iol.pt/videos/exclusivo-uma-cura-que-nao-existe-e-uma-mae-milionaria-as-mentiras-sobre-o-caso-das-gemeas-desmontadas-pela-acusacao-do-mp/6abc1e500cf299bc2953de48",
-   "title": "Exclusivo. Uma cura que não existe e uma mãe milionária: as mentiras sobre o caso das gémeas desmontadas pela acusação do MP",
-   "topic": "justica",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Caso das gémeas"
-   ],
-   "tickers": [],
-   "resumo": "Sandra Felgueiras aponta quatro ideias falsas que se espalharam sobre o caso das gémeas, entre elas a de uma mãe milionária, e diz que foram desmontadas pela acusação do MP.",
-   "img": "https://img.iol.pt/image/id/6abc2169d34e53c759c745b5/200.jpg"
-  },
-  {
-   "id": "cnn-6abbeb470cf20dc52778dc94",
-   "ts": "2026-09-29T20:06:00Z",
-   "source": "CNN Portugal",
-   "lado": "pt",
-   "url": "https://cnnportugal.iol.pt/videos/tres-minutos-que-renderam-meio-milhao-de-euros-as-imagens-do-assalto-a-uma-relojoaria-no-centro-de-lisboa/6abbeb470cf20dc52778dc94",
-   "title": "Três minutos que renderam meio milhão de euros: as imagens do assalto a uma relojoaria no centro de Lisboa",
-   "topic": "justica",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Assalto"
-   ],
-   "tickers": [],
-   "resumo": "Um assalto violento a uma relojoaria no centro de Lisboa rendeu cerca de 50 relógios, muitos Rolex, num valor superior a meio milhão de euros, em três minutos.",
-   "img": "https://img.iol.pt/image/id/6abbf460d34e9a786e75a2c3/200.jpg"
-  },
-  {
-   "id": "ng-diana-chaves-claudia-vieira",
-   "ts": "2026-09-29T20:00:00Z",
-   "source": "Nova Gente",
-   "lado": "pt",
-   "url": "https://www.novagente.pt/diana-chaves-revela-episodio-insolito-com-claudia-vieira-nos-bastidores-dos-globos-de-ouro-quando-a-vi/",
-   "title": "Diana Chaves revela episódio insólito com Cláudia Vieira nos bastidores dos Globos de Ouro",
-   "topic": "rosa",
-   "sub": "famosos",
-   "impacto": "baixo",
-   "setores": [
-    "Globos de Ouro",
-    "SIC"
-   ],
-   "tickers": [],
-   "resumo": "Diana Chaves contou um episódio com Cláudia Vieira durante o jantar da cerimónia dos Globos de Ouro.",
-   "img": "https://www.novagente.pt/wp-content/uploads/2026/09/vffuyjkb.jpg"
-  },
-  {
-   "id": "as-alexandre-pinto-marrocos",
-   "ts": "2026-09-29T19:58:02Z",
-   "source": "AutoSport",
-   "lado": "pt",
-   "url": "https://www.autosport.pt/todooterreno/alexandre-pinto-inicia-rali-de-marrocos-com-vitoria-na-categoria-challenger/",
-   "title": "Alexandre Pinto inicia Rali de Marrocos com vitória na categoria Challenger",
-   "topic": "desporto",
-   "sub": "motores",
-   "impacto": "baixo",
-   "setores": [
-    "Todo-o-terreno"
-   ],
-   "tickers": [],
-   "resumo": "Alexandre Pinto e Bernardo Oliveira venceram a primeira etapa do Rallye du Maroc na categoria Challenger. A dupla, campeã do mundo em título, fica bem posicionada na luta pela liderança do campeonato.",
-   "img": "https://images.autosport.pt/2026/09/Alexandre-Pinto-Rallye-du-Maroc-1024x680.jpg"
-  },
-  {
-   "id": "rtp-d1768509",
-   "ts": "2026-09-29T19:49:26Z",
-   "source": "RTP Desporto",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/futebol-nacional/sporting-ultrapassa-os-200-mil-associados-e-quebra-recorde-do-clube_d1768509",
-   "title": "Sporting ultrapassa os 200 mil associados e quebra recorde do clube",
-   "topic": "desporto",
-   "sub": "sporting",
-   "impacto": "medio",
-   "setores": [
-    "Associados"
-   ],
-   "tickers": [],
-   "resumo": "O Sporting ultrapassou os 200 mil associados, o número mais alto da sua história, anunciou o próprio clube.",
-   "img": "https://cdn-images.rtp.pt/icm/noticias/images/ef/ef8b4eac762415d6fd32e4fc5480942b?w=350&q=50&rect=370,0,5171,2835&auto=format"
-  },
-  {
-   "id": "cnn-6abc0ec1d34e9a786e75a2f7",
-   "ts": "2026-09-29T19:17:00Z",
-   "source": "CNN Portugal",
-   "lado": "pt",
-   "url": "https://cnnportugal.iol.pt/pcc/pcc-portugal/documento-inedito-pj-apanha-mandamentos-do-pcc-com-ameacas-de-morte-em-cela-de-assaltantes/20260929/6abc0ec1d34e9a786e75a2f7",
-   "title": "Documento inédito: PJ apanha mandamentos do PCC com ameaças de morte em cela de assaltantes",
-   "topic": "justica",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "PJ",
-    "PCC"
-   ],
-   "tickers": [],
-   "resumo": "A PJ apreendeu numa cela de assaltantes um documento manuscrito com diretrizes do PCC, incluindo ameaças de morte, emitido pela liderança da organização a membros brasileiros.",
-   "img": "https://img.iol.pt/image/id/63a1934c0cf255d6e1419a98/200.jpg"
-  },
-  {
-   "id": "cnn-6abc0c57d34e53c759c74598",
-   "ts": "2026-09-29T19:06:00Z",
-   "source": "CNN Portugal",
-   "lado": "pt",
-   "url": "https://cnnportugal.iol.pt/perseguicao-policial/amadora/perseguicao-na-amadora-condutor-atropela-policia-embate-em-varios-carros-e-foge-apos-abandonar-carro-no-ic17/20260929/6abc0c57d34e53c759c74598",
-   "title": "De perseguição na Amadora a carjacking no IC17: condutor atropela polícia, embate em vários carros, abandona viatura e rouba outra",
-   "topic": "justica",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "PSP"
-   ],
-   "tickers": [],
-   "resumo": "Uma perseguição policial na Amadora terminou com o condutor a atropelar um polícia, a embater em vários carros, a abandonar a viatura no IC17 e a roubar outra.",
-   "img": ""
-  },
-  {
-   "id": "cnn-6abc05ebd34e53c759c74591",
-   "ts": "2026-09-29T18:55:00Z",
-   "source": "CNN Portugal",
-   "lado": "pt",
-   "url": "https://cnnportugal.iol.pt/caso-das-gemeas/ministra-da-justica/caso-das-gemeas-ministra-da-justica-pede-decisao-rapida-para-bem-de-todos/20260929/6abc05ebd34e53c759c74591",
-   "title": "Caso das gémeas: ministra da Justiça pede \"decisão rápida\" para \"bem de todos\"",
-   "topic": "justica",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Caso das gémeas"
-   ],
-   "tickers": [],
-   "resumo": "A ministra da Justiça pediu uma decisão rápida no caso das gémeas, afirmando que as instituições funcionam e que a presunção de inocência deve ser respeitada.",
-   "img": "https://img.iol.pt/image/id/66f6e043d34e94b82905a5b6/200.jpg"
-  },
-  {
-   "id": "as-joao-ferreira-marrocos",
-   "ts": "2026-09-29T18:54:06Z",
-   "source": "AutoSport",
-   "lado": "pt",
-   "url": "https://www.autosport.pt/todooterreno/joao-ferreira-vence-1a-etapa-do-rallye-du-maroc-e-parou-para-assistencia-a-motociclista/",
-   "title": "João Ferreira vence 1ª etapa do Rallye du Maroc, e parou para assistência a motociclista",
-   "topic": "desporto",
-   "sub": "motores",
-   "impacto": "medio",
-   "setores": [
-    "Rallye du Maroc"
-   ],
-   "tickers": [],
-   "resumo": "João Ferreira e Filipe Palmeiro venceram a primeira etapa do Rallye du Maroc, três segundos à frente de Lucas Moraes, depois de a organização repor o tempo perdido na assistência a um motociclista.",
-   "img": ""
-  },
-  {
-   "id": "rtp-d1768503",
-   "ts": "2026-09-29T18:52:51Z",
-   "source": "RTP Desporto",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/futebol-internacional/luis-freire-promete-motivacao-total-para-garantir-acesso-ao-europeu-de-sub-21_d1768503",
-   "title": "Luís Freire promete motivação total para garantir acesso ao Europeu de sub-21",
-   "topic": "desporto",
-   "sub": "selecao",
-   "impacto": "baixo",
-   "setores": [
-    "Sub-21"
-   ],
-   "tickers": [],
-   "resumo": "O selecionador promete uma equipa \"completamente motivada\" e \"muito séria\" frente a Gibraltar na luta pelo apuramento para o Europeu de sub-21.",
-   "img": "https://cdn-images.rtp.pt/icm/noticias/images/6b/6b48c40e13bbf7ba3f9dcf1a1a89ec9f?w=350&q=50&rect=0,29,2323,1274&auto=format"
-  },
-  {
-   "id": "rtp-d1768496",
-   "ts": "2026-09-29T18:51:43Z",
-   "source": "RTP Desporto",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/futebol-internacional/manchester-city-considerado-culpado-em-todas-as-acusacoes-clube-tem-tres-dias-para-recorrer_d1768496",
-   "title": "Manchester City considerado culpado em todas as acusações. Clube tem três dias para recorrer",
-   "topic": "desporto",
-   "sub": "lafora",
-   "impacto": "medio",
-   "setores": [
-    "Premier League",
-    "Manchester City"
-   ],
-   "tickers": [],
-   "resumo": "Uma comissão independente considerou o Manchester City culpado das 115 acusações da Premier League; o clube tem três dias para recorrer.",
-   "img": "https://cdn-images.rtp.pt/icm/noticias/images/07/0747546f1007cb1cb2203e885fa7876f?w=350&q=50&rect=0,540,5750,3152&auto=format"
-  },
-  {
-   "id": "nit-boucherie-mendes-anos-90",
-   "ts": "2026-09-29T18:44:16Z",
-   "source": "NiT",
-   "lado": "pt",
-   "url": "https://www.nit.pt/cultura/livros/boucherie-mendes-e-os-anos-90-o-espirito-da-decada-acaba-quando-perdemos-o-euro-2004",
-   "title": "Boucherie Mendes e os anos 90: \"O espírito da década acaba quando perdemos o Euro 2004\"",
-   "topic": "cultura",
-   "sub": "",
-   "impacto": "baixo",
-   "setores": [
-    "Livros"
-   ],
-   "tickers": [],
-   "resumo": "Pedro Boucherie Mendes lançou \"A Década Fabulosa\", livro de 736 páginas sobre o Portugal dos anos 90, da classe média à televisão privada e à Expo'98.",
-   "img": ""
-  },
-  {
-   "id": "ng-joana-diniz-jessica-maria",
-   "ts": "2026-09-29T18:30:00Z",
-   "source": "Nova Gente",
-   "lado": "pt",
-   "url": "https://www.novagente.pt/joana-diniz-revela-o-que-realmente-acha-de-jessica-maria-apos-polemica-com-ex-flavio-miguel-e-uma/",
-   "title": "Joana Diniz revela o que realmente acha de Jéssica Maria, após polémica com ex Flávio Miguel",
-   "topic": "rosa",
-   "sub": "reality",
-   "impacto": "baixo",
-   "setores": [
-    "Big Brother All Stars",
-    "TVI"
-   ],
-   "tickers": [],
-   "resumo": "Joana Diniz falou sobre a concorrente do Big Brother All Stars Jéssica Maria, depois da polémica com o ex-companheiro Flávio Miguel.",
-   "img": "https://www.novagente.pt/wp-content/uploads/images/noticia/2026/2026-09/2026-09-07/nova-gente-128223-noticia-thumb-joana-diniz-quebra-silencio-sobre-tensao-de-sonia-jesus-jessica.jpg"
-  },
-  {
-   "id": "ng-diogo-marcelino-bb",
-   "ts": "2026-09-29T18:00:00Z",
-   "source": "Nova Gente",
-   "lado": "pt",
-   "url": "https://www.novagente.pt/a-inesperada-razao-pelo-qual-diogo-marcelino-quer-abandonar-o-big-brother-all-stars-sinto-que/",
-   "title": "A inesperada razão pelo qual Diogo Marcelino quer abandonar o Big Brother All Stars: \"Sinto que...\"",
-   "topic": "rosa",
-   "sub": "reality",
-   "impacto": "medio",
-   "setores": [
-    "Big Brother All Stars",
-    "TVI"
-   ],
-   "tickers": [],
-   "resumo": "Diogo Marcelino, nomeado para expulsão no Big Brother All Stars, admite pela primeira vez que já não se identifica com o ambiente da casa.",
-   "img": ""
-  },
-  {
-   "id": "cnn-6abbf38ad34e53c759c7455c",
-   "ts": "2026-09-29T17:59:00Z",
-   "source": "CNN Portugal",
-   "lado": "pt",
-   "url": "https://cnnportugal.iol.pt/tribunal-de-contas/conta-geral-do-estado/tribunal-de-contas-diz-que-conta-geral-do-estado-de-2025-nao-esta-em-conformidade/20260929/6abbf38ad34e53c759c7455c",
-   "title": "Tribunal de Contas diz que Conta Geral do Estado de 2025 não está em conformidade",
-   "topic": "economia",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Tribunal de Contas",
-    "Contas públicas"
-   ],
-   "tickers": [],
-   "resumo": "O Tribunal de Contas concluiu que a Conta Geral do Estado de 2025 não está em conformidade. O parecer foi entregue ao presidente da Assembleia da República.",
-   "img": "https://img.iol.pt/image/id/649bc9ebd34ea91b0aadf6e9/200.jpg"
   }
  ],
  "contracts": {},
@@ -5347,5 +5350,5 @@
    "nota": "A RTP diz que Trump afirmou que a IA precisa de regulação; o Observador noticia uma declaração com líderes do setor que rejeita a regulação governamental e aposta na autorregulação."
   }
  ],
- "arquivo": 177
+ "arquivo": 195
 }
