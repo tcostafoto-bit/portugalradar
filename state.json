@@ -1,7 +1,119 @@
 {
- "version": "1.1.49",
- "updated": "2026-10-03T18:17:26Z",
+ "version": "1.1.50",
+ "updated": "2026-10-03T19:45:32Z",
  "recent": [
+  {
+   "id": "cm-camarate-esfaqueamento-20261003",
+   "ts": "2026-10-03T19:15:02Z",
+   "topic": "justica",
+   "sub": "",
+   "source": "CM",
+   "title": "Preventiva para jovem de 17 anos que esfaqueou amigo de 14 na cabeça em Camarate"
+  },
+  {
+   "id": "cnn-6ac151dad34e53c759c74ee6",
+   "ts": "2026-10-03T19:04:00Z",
+   "topic": "outros",
+   "sub": "",
+   "source": "CNN Portugal",
+   "title": "Motociclista morre em despiste na A28 em Viana do Castelo"
+  },
+  {
+   "id": "cnn-6ac14fc1d34e9a786e75ac62",
+   "ts": "2026-10-03T18:55:00Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "CNN Portugal",
+   "title": "O bolsonarismo mostra a sua força com uma marcha de milhares de motos antes das eleições"
+  },
+  {
+   "id": "record-surf-europeu-junior",
+   "ts": "2026-10-03T18:54:00Z",
+   "topic": "desporto",
+   "sub": "surf",
+   "source": "Record",
+   "title": "Portugal sagra-se campeão europeu júnior de Surf"
+  },
+  {
+   "id": "abola-villas-boas-200-mil-socios",
+   "ts": "2026-10-03T18:43:05Z",
+   "topic": "desporto",
+   "sub": "porto",
+   "source": "A Bola",
+   "title": "Villas-Boas aponta aos «200 mil sócios»"
+  },
+  {
+   "id": "cnn-6ac14764d34e53c759c74ed4",
+   "ts": "2026-10-03T18:19:00Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "CNN Portugal",
+   "title": "Trump promete dar 5.000 dólares por adulto se republicanos vencerem eleições em novembro"
+  },
+  {
+   "id": "abola-porto-supertaca-voleibol",
+   "ts": "2026-10-03T18:18:17Z",
+   "topic": "desporto",
+   "sub": "voleibol",
+   "source": "A Bola",
+   "title": "FC Porto bate SC Braga e conquista Supertaça pela primeira vez"
+  },
+  {
+   "id": "cm-armilar-lusitano-julgamento-20261003",
+   "ts": "2026-10-03T18:15:01Z",
+   "topic": "justica",
+   "sub": "",
+   "source": "CM",
+   "title": "Movimento Armilar Lusitano vai ser julgado pelo crime de organização terrorista"
+  },
+  {
+   "id": "obs-benfica-derbi-basquetebol-20261003",
+   "ts": "2026-10-03T18:06:21Z",
+   "topic": "desporto",
+   "sub": "basquetebol",
+   "source": "Observador",
+   "title": "O último período foi o ponto parágrafo: Benfica vence dérbi"
+  },
+  {
+   "id": "rtp-d1769409",
+   "ts": "2026-10-03T18:05:47Z",
+   "topic": "desporto",
+   "sub": "atletismo",
+   "source": "RTP Desporto",
+   "title": "Pichardo acusa TAD de parcialidade em processo com Benfica"
+  },
+  {
+   "id": "record-fpf-proibiu-perguntas-ronaldo",
+   "ts": "2026-10-03T18:05:00Z",
+   "topic": "desporto",
+   "sub": "selecao",
+   "source": "Record",
+   "title": "FPF proibiu perguntas sobre Ronaldo à imprensa estrangeira e deixou alguns meios portugueses sem questão"
+  },
+  {
+   "id": "cnn-6ac10f25d34e53c759c74e2d",
+   "ts": "2026-10-03T18:03:00Z",
+   "topic": "desporto",
+   "sub": "selecao",
+   "source": "CNN Portugal",
+   "title": "Portugueses dão mais razão a Jesus no caso com CR7"
+  },
+  {
+   "id": "rtp-d1769404",
+   "ts": "2026-10-03T17:57:06Z",
+   "topic": "desporto",
+   "sub": "motores",
+   "source": "RTP Desporto",
+   "title": "F1 mantém os GP do Qatar e de Abu Dhabi apesar da situação de conflito latente"
+  },
+  {
+   "id": "rtp-d1769402",
+   "ts": "2026-10-03T17:53:24Z",
+   "topic": "desporto",
+   "sub": "andebol",
+   "source": "RTP Desporto",
+   "title": "Benfica com um pé na terceira ronda de qualificação da Liga Europeia de andebol"
+  },
   {
    "id": "obs-flydubai-proibido-pilotar-2024",
    "ts": "2026-10-03T17:33:19Z",
@@ -51,6 +163,14 @@
    "title": "DGS publica primeiras orientações para a alimentação de crianças até aos três anos"
   },
   {
+   "id": "cnn-6ac12da9d34e53c759c74e5b",
+   "ts": "2026-10-03T16:46:00Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "CNN Portugal",
+   "title": "\"Temos de responder de todas as formas\": Ucrânia vai atacar refinarias russas em resposta à \"nova doutrina\" de ataques a"
+  },
+  {
    "id": "nit-cabana-sass-incendio",
    "ts": "2026-10-03T16:41:40Z",
    "topic": "outros",
@@ -65,6 +185,14 @@
    "sub": "selecao",
    "source": "A Bola",
    "title": "Bruno Fernandes revela conversa com Ronaldo: «Não existem divisões na Seleção»"
+  },
+  {
+   "id": "ipma-trovoada-yellow-20261003",
+   "ts": "2026-10-03T16:17:00Z",
+   "topic": "tempo",
+   "sub": "",
+   "source": "IPMA",
+   "title": "Aviso amarelo de trovoada em oito distritos do interior e centro"
   },
   {
    "id": "cm-chaves-arma-loja-20261003",
@@ -153,6 +281,14 @@
    "sub": "triatlo",
    "source": "RTP Desporto",
    "title": "Triatleta Maria Tomé 11.ª classificada na etapa da Taça do Mundo de Roma"
+  },
+  {
+   "id": "cnn-6ac11975d34e53c759c74e3e",
+   "ts": "2026-10-03T15:03:44Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "CNN Portugal",
+   "title": "Avião com seis pessoas a bordo desaparece no Atlântico durante voo para Boston"
   },
   {
    "id": "caras-tio-ronaldo-estagio",
@@ -389,15 +525,13 @@
  ],
  "paired": [
   "abola-bruno-fernandes-sem-divisoes",
+  "abola-pichardo-benfica-tribunal",
   "caras-tio-ronaldo-estagio",
-  "cnn-6abcdf0fd34e53c759c74696",
   "cnn-6abd570fd34e53c759c74883",
-  "lusa-47861510",
   "lusa-47864031",
   "lusa-47879409",
-  "ng-claudio-ramos-responde-mae-jessica-maria",
-  "ng-jessica-maria-claudio-ramos",
   "obs-frente-civica-rui-pinto",
+  "rtp-d1769409",
   "rtp-n1768608",
   "rtp-v1768628"
  ],
