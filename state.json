@@ -1,7 +1,63 @@
 {
- "version": "1.1.51",
- "updated": "2026-10-03T21:55:37Z",
+ "version": "1.1.52",
+ "updated": "2026-10-03T23:45:31Z",
  "recent": [
+  {
+   "id": "cnn-6ac1889fd34e9a786e75acb6",
+   "ts": "2026-10-03T23:02:00Z",
+   "topic": "tecnologia",
+   "sub": "",
+   "source": "CNN Portugal",
+   "title": "Jay Clayon vai liderar \"task force\" dos EUA para a Inteligência Artificial"
+  },
+  {
+   "id": "record-galiano-porto-santo-open",
+   "ts": "2026-10-03T22:38:15Z",
+   "topic": "desporto",
+   "sub": "golfe",
+   "source": "Record",
+   "title": "Mario Galiano vence Porto Santo Iberian Open no playoff"
+  },
+  {
+   "id": "record-andebol-porto-benfica-cumprem",
+   "ts": "2026-10-03T22:34:14Z",
+   "topic": "desporto",
+   "sub": "andebol",
+   "source": "Record",
+   "title": "FC Porto e Benfica cumprem antes de jornada Europeia"
+  },
+  {
+   "id": "obs-gemeas-nuno-rebelo-sousa-20261003",
+   "ts": "2026-10-03T22:27:44Z",
+   "topic": "justica",
+   "sub": "",
+   "source": "Observador",
+   "title": "Caso das gémeas. Os interrogatórios de Nuno Rebelo de Sousa"
+  },
+  {
+   "id": "as-joao-rodrigues-2rm",
+   "ts": "2026-10-03T22:10:42Z",
+   "topic": "desporto",
+   "sub": "motores",
+   "source": "AutoSport",
+   "title": "João Rodrigues Campeão de Portugal de Ralis 2RM"
+  },
+  {
+   "id": "abola-benfica-leoes-porto-salvo-futsal",
+   "ts": "2026-10-03T21:45:30Z",
+   "topic": "desporto",
+   "sub": "futsal",
+   "source": "A Bola",
+   "title": "Benfica apanha susto, mas goleia depois do empate no dérbi"
+  },
+  {
+   "id": "cnn-6ac16d05d34e53c759c74f03",
+   "ts": "2026-10-03T21:36:00Z",
+   "topic": "outros",
+   "sub": "",
+   "source": "CNN Portugal",
+   "title": "Atrasos chegam às duas horas na Linha do Norte. CP aponta \"obras programadas\" e \"condicionalismos na sinalização\""
+  },
   {
    "id": "rtp-n1769435",
    "ts": "2026-10-03T21:30:31Z",
@@ -11,12 +67,28 @@
    "title": "Houthis do Iémen atacaram instalação da petrolífera Aramco em Riade"
   },
   {
+   "id": "record-presidente-maritimo-relvado",
+   "ts": "2026-10-03T21:30:00Z",
+   "topic": "desporto",
+   "sub": "liga",
+   "source": "Record",
+   "title": "Presidente garante relvado em condições"
+  },
+  {
    "id": "obs-tribunal-contas-constitucional-20261003",
    "ts": "2026-10-03T21:02:49Z",
    "topic": "politica",
    "sub": "",
    "source": "Observador",
    "title": "Presidente do Tribunal de Contas ameaça recorrer ao TC"
+  },
+  {
+   "id": "abola-murches-oeiras-interrompido",
+   "ts": "2026-10-03T21:00:52Z",
+   "topic": "desporto",
+   "sub": "basquetebol",
+   "source": "A Bola",
+   "title": "Árbitros interrompem Murches-Oeiras devido a insultos e exigem evacuação do pavilhão"
   },
   {
    "id": "novagente-sara-sampaio-rolling-stones",
@@ -91,6 +163,14 @@
    "title": "Doentes com epidermólise bolhosa continuam à espera de comparticipação do Vyjuvek"
   },
   {
+   "id": "obs-espanha-cheias-albacete-20261003",
+   "ts": "2026-10-03T20:31:09Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "Observador",
+   "title": "Mulher de 102 anos morre em casa devido a cheias em Espanha"
+  },
+  {
    "id": "cnn-6ac16563d34e53c759c74ef9",
    "ts": "2026-10-03T20:27:00Z",
    "topic": "justica",
@@ -145,6 +225,14 @@
    "sub": "",
    "source": "RTP",
    "title": "Guerra na Ucrânia. Duas pontes de Kiev atingidas por drones em 24 horas"
+  },
+  {
+   "id": "rtp-v1769422",
+   "ts": "2026-10-03T19:49:47Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "RTP",
+   "title": "Relações Brasil-EUA. Polémicas com tarifas e chumbo de embaixador"
   },
   {
    "id": "rtp-v1769421",
@@ -211,12 +299,28 @@
    "title": "Portugal sagra-se campeão europeu júnior de Surf"
   },
   {
+   "id": "ojogo-vb-relvado-maritimo-18133327",
+   "ts": "2026-10-03T18:45:00Z",
+   "topic": "desporto",
+   "sub": "porto",
+   "source": "O Jogo",
+   "title": "André Villas-Boas sobre o relvado do Marítimo: \"Têm-nos sido dadas garantias...\""
+  },
+  {
    "id": "abola-villas-boas-200-mil-socios",
    "ts": "2026-10-03T18:43:05Z",
    "topic": "desporto",
    "sub": "porto",
    "source": "A Bola",
    "title": "Villas-Boas aponta aos «200 mil sócios»"
+  },
+  {
+   "id": "zerozero-sub19-dinamarca-1218687",
+   "ts": "2026-10-03T18:31:28Z",
+   "topic": "desporto",
+   "sub": "selecao",
+   "source": "zerozero",
+   "title": "Sub-19 | Portugal deixa escapar triunfo frente à Dinamarca, em jogo com duas reviravoltas"
   },
   {
    "id": "cnn-6ac14764d34e53c759c74ed4",
@@ -411,6 +515,14 @@
    "title": "Associação contesta inscrição da tauromaquia como património"
   },
   {
+   "id": "caras-meghan-harry-falkland-arms",
+   "ts": "2026-10-03T16:06:22Z",
+   "topic": "rosa",
+   "sub": "realeza",
+   "source": "Caras",
+   "title": "Meghan Markle e o príncipe Harry vistos a almoçar em local histórico; saiba onde"
+  },
+  {
    "id": "lusa-47879409",
    "ts": "2026-10-03T16:06:00Z",
    "topic": "justica",
@@ -441,6 +553,14 @@
    "sub": "selecao",
    "source": "RTP",
    "title": "Solbakken coloca Portugal entre os melhores da Europa e promete Noruega ambiciosa"
+  },
+  {
+   "id": "obs-democratas-senado-20261003",
+   "ts": "2026-10-03T15:21:47Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "Observador",
+   "title": "Democratas ganham força e podem controlar o Senado"
   },
   {
    "id": "as-cpr-algarve-pedro-almeida",
@@ -539,6 +659,14 @@
    "title": "Morreu aos 96 anos Sir William Heseltine, histórico secretário privado da rainha Isabel II"
   },
   {
+   "id": "nit-dua-lipa-porto-lello",
+   "ts": "2026-10-03T13:52:18Z",
+   "topic": "cultura",
+   "sub": "",
+   "source": "NiT",
+   "title": "\"Um lugar muito especial.\" Dua Lipa diz que está apaixonada pelo Porto"
+  },
+  {
    "id": "obs-diploma-garrafas-gas",
    "ts": "2026-10-03T13:31:57Z",
    "topic": "economia",
@@ -579,6 +707,14 @@
    "title": "Líder da oposição quer eleições antecipadas porque Espanha não aguenta mais"
   },
   {
+   "id": "healthnews-juntas-medicas-acores",
+   "ts": "2026-10-03T12:27:55Z",
+   "topic": "saude",
+   "sub": "",
+   "source": "HealthNews",
+   "title": "Juntas médicas nos Açores superam 28 mil desde 2024 e reduzem lista de espera em 17%"
+  },
+  {
    "id": "obs-cartaz-ronaldo-porto-retirado",
    "ts": "2026-10-03T12:13:26Z",
    "topic": "desporto",
@@ -601,6 +737,14 @@
    "sub": "",
    "source": "RTP",
    "title": "Cerca de 325 milhões de barris libertados das reservas estratégicas de petróleo"
+  },
+  {
+   "id": "zerozero-tavares-dallmann-1218603",
+   "ts": "2026-10-03T11:45:45Z",
+   "topic": "desporto",
+   "sub": "benfica",
+   "source": "zerozero",
+   "title": "Fernando Tavares revela: «Existiu um pré-acordo para que Linda Dallmann representasse o Benfica»"
   },
   {
    "id": "lusa-47878325",
@@ -659,6 +803,14 @@
    "title": "Jota volta a jogar pelo Celtic 18 meses depois"
   },
   {
+   "id": "eco-premium-setembro-20261003",
+   "ts": "2026-10-03T10:37:26Z",
+   "topic": "economia",
+   "sub": "",
+   "source": "ECO",
+   "title": "Mercedes e BMW lideram segmento premium em setembro e luxo soma 16 carros"
+  },
+  {
    "id": "eco-prova-dos-9-salarios",
    "ts": "2026-10-03T10:15:52Z",
    "topic": "economia",
@@ -707,6 +859,14 @@
    "title": "Ministra ouve tarefeiros, portaria dos honorários continua no segredo dos deuses"
   },
   {
+   "id": "healthnews-ps-acores-seidi",
+   "ts": "2026-10-03T06:18:22Z",
+   "topic": "saude",
+   "sub": "",
+   "source": "HealthNews",
+   "title": "PS/Açores acusa Governo de esconder dados. Mónica Seidi responde: \"Não é verdade\""
+  },
+  {
    "id": "healthnews-igas-assedio",
    "ts": "2026-10-03T06:14:57Z",
    "topic": "saude",
@@ -721,14 +881,6 @@
    "sub": "benfica",
    "source": "RTP Desporto",
    "title": "Acionistas da SAD do Benfica aprovam contas com lucro de 19,1 ME por unanimidade"
-  },
-  {
-   "id": "rtp-e1768915",
-   "ts": "2026-10-01T22:06:42Z",
-   "topic": "desporto",
-   "sub": "selecao",
-   "source": "RTP",
-   "title": "Portugal sem Ronaldo bate Dinamarca e Jesus saúda \"grupo que acredita na ideia do treinador\""
   }
  ],
  "paired": [
@@ -739,6 +891,8 @@
   "lusa-47864031",
   "lusa-47879409",
   "obs-frente-civica-rui-pinto",
+  "ojogo-vb-relvado-maritimo-18133327",
+  "record-presidente-maritimo-relvado",
   "rtp-d1769409"
  ],
  "top_tickers": [],

@@ -1,25 +1,144 @@
 {
- "version": "1.1.51",
- "updated": "2026-10-03T21:55:37Z",
+ "version": "1.1.52",
+ "updated": "2026-10-03T23:45:31Z",
  "brief": [
   {
-   "texto": "Rebeldes houthis dizem ter atacado uma instalação da Aramco em Riade, depois de chamas e fumo junto à capital saudita.",
-   "id": "rtp-n1769435"
+   "texto": "O jato privado de Cristiano Ronaldo tem voo marcado para Riade no domingo, antes do Portugal-Noruega.",
+   "id": "abola-ronaldo-regressa-arabia"
   },
   {
-   "texto": "Presidente do Tribunal de Contas admite recorrer ao Constitucional contra a reforma do Governo.",
+   "texto": "A ministra da Justiça promete resposta até dia 10 sobre o fim da proteção especial a Rui Pinto.",
+   "id": "lusa-47879409"
+  },
+  {
+   "texto": "A presidente do Tribunal de Contas admite recorrer ao Constitucional contra a reforma do Governo.",
    "id": "obs-tribunal-contas-constitucional-20261003"
   },
   {
-   "texto": "Jorge Jesus diz que Ronaldo é um símbolo da Seleção, na véspera do Portugal-Noruega no Dragão.",
-   "id": "abola-jesus-ronaldo-simbolo"
-  },
-  {
-   "texto": "Greve na easyJet com adesão total e cancelamentos que podem chegar a 90%.",
-   "id": "lusa-47878271"
+   "texto": "Os houthis dizem ter atacado uma instalação da Aramco em Riade.",
+   "id": "rtp-n1769435"
   }
  ],
  "items": [
+  {
+   "id": "cnn-6ac1889fd34e9a786e75acb6",
+   "ts": "2026-10-03T23:02:00Z",
+   "source": "CNN Portugal",
+   "lado": "pt",
+   "url": "https://cnnportugal.iol.pt/eua/inteligencia-artificial/jay-clayon-nomeado-czar-da-ia-dos-estados-unidos/20261004/6ac1889fd34e9a786e75acb6",
+   "title": "Jay Clayon vai liderar \"task force\" dos EUA para a Inteligência Artificial",
+   "topic": "tecnologia",
+   "sub": "",
+   "impacto": "baixo",
+   "setores": [
+    "IA",
+    "EUA"
+   ],
+   "tickers": [],
+   "resumo": "A task force deverá definir qual será o papel do governo federal norte-americano na supervisão da tecnologia.",
+   "img": "https://img.iol.pt/image/id/64f8512ed34e65afa2f50a6b/200.jpg"
+  },
+  {
+   "id": "record-galiano-porto-santo-open",
+   "ts": "2026-10-03T22:38:15Z",
+   "source": "Record",
+   "lado": "pt",
+   "url": "https://www.record.pt/modalidades/golfe/detalhe/mario-galiano-vence-porto-santo-iberian-open-no-playoff",
+   "title": "Mario Galiano vence Porto Santo Iberian Open no playoff",
+   "topic": "desporto",
+   "sub": "golfe",
+   "impacto": "baixo",
+   "setores": [],
+   "tickers": [],
+   "resumo": "Pedro Lencart foi o melhor português na prova, ao terminar na terceira posição.",
+   "img": "https://cdn.record.pt/images/2026-10/img_1200x721uu2026-10-03-23-38-15-2466215.jpg"
+  },
+  {
+   "id": "record-andebol-porto-benfica-cumprem",
+   "ts": "2026-10-03T22:34:14Z",
+   "source": "Record",
+   "lado": "pt",
+   "url": "https://www.record.pt/modalidades/andebol/detalhe/fc-porto-vence-v-guimaraes-e-assume-lideranca-do-campeonato-a-condicao",
+   "title": "FC Porto e Benfica cumprem antes de jornada Europeia",
+   "topic": "desporto",
+   "sub": "andebol",
+   "impacto": "baixo",
+   "setores": [
+    "Andebol"
+   ],
+   "tickers": [],
+   "resumo": "O FC Porto venceu o V. Guimarães e assumiu a liderança do campeonato, e o Benfica também ganhou na receção ao Santo Tirso.",
+   "img": "https://cdn.record.pt/images/2026-10/img_1200x721uu2026-10-03-23-34-14-2466214.png"
+  },
+  {
+   "id": "obs-gemeas-nuno-rebelo-sousa-20261003",
+   "ts": "2026-10-03T22:27:44Z",
+   "source": "Observador",
+   "lado": "pt",
+   "url": "https://observador.pt/especiais/caso-das-gemeas-nuno-rebelo-de-sousa-atira-responsabilidades-para-lacerda-sales-e-garante-que-nao-usou-condicao-de-filho-do-presidente/",
+   "title": "Caso das gémeas. Os interrogatórios de Nuno Rebelo de Sousa",
+   "topic": "justica",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Caso das gémeas"
+   ],
+   "tickers": [],
+   "resumo": "Acusado de prevaricação, o filho de Marcelo Rebelo de Sousa negou ter usado a ligação ao pai e remeteu a responsabilidade pelo tratamento das gémeas para o ex-secretário de Estado da Saúde, Lacerda Sales.",
+   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:1278:719:nowe:1:0/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/09/28133106/lacerda-filho-pr-mae-1.jpeg"
+  },
+  {
+   "id": "as-joao-rodrigues-2rm",
+   "ts": "2026-10-03T22:10:42Z",
+   "source": "AutoSport",
+   "lado": "pt",
+   "url": "https://www.autosport.pt/ralis/joao-rodrigues-campeao-de-portugal-de-ralis-2rm/",
+   "title": "João Rodrigues Campeão de Portugal de Ralis 2RM",
+   "topic": "desporto",
+   "sub": "motores",
+   "impacto": "baixo",
+   "setores": [
+    "CPR"
+   ],
+   "tickers": [],
+   "resumo": "João Rodrigues e Bruno Carvalho garantiram antecipadamente o título de 2RM do Campeonato de Portugal de Ralis, ao terminarem em segundo atrás de Pedro Câmara.",
+   "img": ""
+  },
+  {
+   "id": "abola-benfica-leoes-porto-salvo-futsal",
+   "ts": "2026-10-03T21:45:30Z",
+   "source": "A Bola",
+   "lado": "pt",
+   "url": "https://www.abola.pt/noticias/benfica-apanha-susto-mas-goleia-depois-do-empate-no-derbi-2026100321383760862",
+   "title": "Benfica apanha susto, mas goleia depois do empate no dérbi",
+   "topic": "desporto",
+   "sub": "futsal",
+   "impacto": "medio",
+   "setores": [
+    "Futsal"
+   ],
+   "tickers": [],
+   "resumo": "Os Leões de Porto Salvo chegaram a vencer por 2-0 aos quatro minutos, mas o Benfica reagiu ainda na primeira parte e marcou mais três golos na segunda, terminando com um 6-2.",
+   "img": "https://sportal365images.com/process/smp-images-production/abola.pt/03102026/445df61e-595b-41bc-a3c1-919ccb360d28.jpg?operations=crop(0:0:1206:678),autocrop(1200:630)"
+  },
+  {
+   "id": "cnn-6ac16d05d34e53c759c74f03",
+   "ts": "2026-10-03T21:36:00Z",
+   "source": "CNN Portugal",
+   "lado": "pt",
+   "url": "https://cnnportugal.iol.pt/atrasos-cp/horarios-cp/atrasos-chegam-as-duas-horas-na-linha-do-norte-cp-aponta-obras-programadas-e-condicionalismos-na-sinalizacao/20261003/6ac16d05d34e53c759c74f03",
+   "title": "Atrasos chegam às duas horas na Linha do Norte. CP aponta \"obras programadas\" e \"condicionalismos na sinalização\"",
+   "topic": "outros",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "CP",
+    "Linha do Norte"
+   ],
+   "tickers": [],
+   "resumo": "A circulação está condicionada nos dois sentidos, com vários comboios afetados e atrasos até duas horas. Há queixas de falta de informação aos passageiros.",
+   "img": "https://img.iol.pt/image/id/659ffff7d34e65afa2f98d53/200.jpg"
+  },
   {
    "id": "rtp-n1769435",
    "ts": "2026-10-03T21:30:31Z",
@@ -39,6 +158,23 @@
    "img": "https://cdn-images.rtp.pt/icm/noticias/images/d5/d53d95c9013cc152f5c71e3d76139d2a?w=350&q=50&rect=1,0,4815,2640&auto=format"
   },
   {
+   "id": "record-presidente-maritimo-relvado",
+   "ts": "2026-10-03T21:30:00Z",
+   "source": "Record",
+   "lado": "pt",
+   "url": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/maritimo/detalhe/presidente-garante-relvado-em-condicoes",
+   "title": "Presidente garante relvado em condições",
+   "topic": "desporto",
+   "sub": "liga",
+   "impacto": "medio",
+   "setores": [
+    "Marítimo"
+   ],
+   "tickers": [],
+   "resumo": "O presidente do Marítimo, Carlos André Gomes, garante que o relvado dos Barreiros tem sido alvo de tratamento intensivo.",
+   "img": "https://cdn.record.pt/images/2026-09/img_1200x721uu2026-09-05-16-41-13-2460741.jpg"
+  },
+  {
    "id": "obs-tribunal-contas-constitucional-20261003",
    "ts": "2026-10-03T21:02:49Z",
    "source": "Observador",
@@ -55,6 +191,23 @@
    "tickers": [],
    "resumo": "Em entrevista, a presidente do Tribunal de Contas admite recorrer ao Tribunal Constitucional para travar normas da reforma da lei do tribunal em discussão no Parlamento, e pressiona o Presidente da República.",
    "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2000:1124:nowe:0:104/q:70/plain/https://s3.observador.pt/wp-content/uploads/2024/10/12122237/43718654.jpg"
+  },
+  {
+   "id": "abola-murches-oeiras-interrompido",
+   "ts": "2026-10-03T21:00:52Z",
+   "source": "A Bola",
+   "lado": "pt",
+   "url": "https://www.abola.pt/noticias/arbitros-interrompem-murches-oeiras-devido-a-insultos-e-exigem-evacuacao-do-pavilhao-video-2026100321005262510",
+   "title": "Árbitros interrompem Murches-Oeiras devido a insultos e exigem evacuação do pavilhão",
+   "topic": "desporto",
+   "sub": "basquetebol",
+   "impacto": "baixo",
+   "setores": [
+    "Taça Jesus Correia"
+   ],
+   "tickers": [],
+   "resumo": "O jogo da Taça Jesus Correia esteve parado vários minutos por insultos de adeptos à equipa de arbitragem e falta de policiamento. Foi retomado sem público.",
+   "img": "https://sportal365images.com/process/smp-images-production/abola.pt/03102026/0076fd64-9055-408b-87f6-9cec723bf7c6.jpg?operations=crop(0:44:697:437),autocrop(1200:630)"
   },
   {
    "id": "novagente-sara-sampaio-rolling-stones",
@@ -213,6 +366,23 @@
    "img": ""
   },
   {
+   "id": "obs-espanha-cheias-albacete-20261003",
+   "ts": "2026-10-03T20:31:09Z",
+   "source": "Observador",
+   "lado": "pt",
+   "url": "https://observador.pt/2026/10/03/mulher-de-102-anos-morre-durante-cheias-em-espanha/",
+   "title": "Mulher de 102 anos morre em casa devido a cheias em Espanha",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Espanha"
+   ],
+   "tickers": [],
+   "resumo": "Uma mulher de 102 anos morreu em casa por causa das cheias em Espanha. Em Albacete foram resgatadas 90 pessoas na sexta-feira e a Catalunha está em alerta máximo devido à previsão de um \"mini furacão mediterrânico\" na madrugada de domingo.",
+   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2000:1121:nowe:0:0/q:70/plain/https://s3.observador.pt/wp-content/uploads/sites/5/2014/09/18269595.jpg"
+  },
+  {
    "id": "cnn-6ac16563d34e53c759c74ef9",
    "ts": "2026-10-03T20:27:00Z",
    "source": "CNN Portugal",
@@ -333,6 +503,24 @@
    "tickers": [],
    "resumo": "Duas pontes de Kiev foram atingidas por drones em 24 horas, depois de a Rússia avisar diplomatas e estrangeiros de que correm risco. Zelensky diz que Moscovo quer tornar impossível viver na capital.",
    "img": "https://cdn-images.rtp.pt/icm/images/b1/b15cc3107b335ff42b6bb8a51336f352_N.jpg?"
+  },
+  {
+   "id": "rtp-v1769422",
+   "ts": "2026-10-03T19:49:47Z",
+   "source": "RTP",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/mundo/relacoes-brasil-eua-polemicas-com-tarifas-e-chumbo-de-embaixador_v1769422",
+   "title": "Relações Brasil-EUA. Polémicas com tarifas e chumbo de embaixador",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Brasil",
+    "EUA"
+   ],
+   "tickers": [],
+   "resumo": "Brasília não aceitou o embaixador designado por Washington sem consulta prévia, e o visto da embaixadora do Brasil nos Estados Unidos foi revogado.",
+   "img": "https://cdn-images.rtp.pt/icm/images/8a/8ab916bdd9efde432958dcb6181f4efe_N.jpg?"
   },
   {
    "id": "rtp-v1769421",
@@ -470,6 +658,23 @@
    "img": "https://cdn.record.pt/images/2026-10/img_1200x721uu2026-10-03-19-54-28-2466182.jpg"
   },
   {
+   "id": "ojogo-vb-relvado-maritimo-18133327",
+   "ts": "2026-10-03T18:45:00Z",
+   "source": "O Jogo",
+   "lado": "pt",
+   "url": "https://www.ojogo.pt/futebol/artigo/andre-villas-boas-sobre-o-relvado-do-maritimo-tem-nos-sido-dadas-garantias/18133327",
+   "title": "André Villas-Boas sobre o relvado do Marítimo: \"Têm-nos sido dadas garantias...\"",
+   "topic": "desporto",
+   "sub": "porto",
+   "impacto": "medio",
+   "setores": [
+    "Marítimo"
+   ],
+   "tickers": [],
+   "resumo": "O presidente do FC Porto falou do estado do relvado do Marítimo à margem do 25.º aniversário da Casa do FC Porto de Chaves, dizendo que têm sido dadas garantias.",
+   "img": "https://staticx.noticiasilimitadas.pt/oj/9cc2de81-d9b2-424f-a9e3-11f7a3718393_1200x675.jpg"
+  },
+  {
    "id": "abola-villas-boas-200-mil-socios",
    "ts": "2026-10-03T18:43:05Z",
    "source": "A Bola",
@@ -485,6 +690,23 @@
    "tickers": [],
    "resumo": "O presidente do FC Porto, André Villas-Boas, revelou um crescimento de 20% ao ano no número de sócios desde 2024 e apontou ao objetivo dos 200 mil.",
    "img": "https://sportal365images.com/process/smp-images-production/abola.pt/28092026/63a651ea-f57b-41a9-9944-101dc5846cce.jpg?operations=autocrop(1200:630)"
+  },
+  {
+   "id": "zerozero-sub19-dinamarca-1218687",
+   "ts": "2026-10-03T18:31:28Z",
+   "source": "zerozero",
+   "lado": "pt",
+   "url": "https://www.zerozero.pt/noticias/sub-19-portugal-deixa-escapar-triunfo-frente-a-dinamarca-em-jogo-com-duas-reviravoltas/1218687",
+   "title": "Sub-19 | Portugal deixa escapar triunfo frente à Dinamarca, em jogo com duas reviravoltas",
+   "topic": "desporto",
+   "sub": "selecao",
+   "impacto": "baixo",
+   "setores": [
+    "Sub-19"
+   ],
+   "tickers": [],
+   "resumo": "Portugal e Dinamarca empataram 3-3 num jogo particular disputado em Braga, com duas reviravoltas ao longo do encontro.",
+   "img": "https://www.zerozero.pt/img/noticias/687/imgS620I1218687T20261003193033.jpg"
   },
   {
    "id": "cnn-6ac14764d34e53c759c74ed4",
@@ -905,6 +1127,21 @@
    "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2000:1122:nowe:0:99/q:70/plain/https://s3.observador.pt/wp-content/uploads/2020/07/09172752/14142266.jpg"
   },
   {
+   "id": "caras-meghan-harry-falkland-arms",
+   "ts": "2026-10-03T16:06:22Z",
+   "source": "Caras",
+   "lado": "pt",
+   "url": "https://caras.pt/realeza/2026-10-03-meghan-markle-e-principe-harry-vistos-almocando-em-lugar-historico-saiba-onde/",
+   "title": "Meghan Markle e o príncipe Harry vistos a almoçar em local histórico; saiba onde",
+   "topic": "rosa",
+   "sub": "realeza",
+   "impacto": "baixo",
+   "setores": [],
+   "tickers": [],
+   "resumo": "Já de regresso ao Reino Unido, Meghan Markle e o príncipe Harry almoçaram no pub tradicional The Falkland Arms, em Cotswolds.",
+   "img": "https://caras.pt/wp-content/uploads/2026/10/261003_principe-Harry-1-600x315.jpg"
+  },
+  {
    "id": "lusa-47879409",
    "ts": "2026-10-03T16:06:00Z",
    "source": "Lusa",
@@ -971,6 +1208,24 @@
    "tickers": [],
    "resumo": "O selecionador norueguês, Stale Solbakken, considera Portugal uma das três melhores equipas europeias e promete uma Noruega ambiciosa no jogo de domingo, da quarta jornada do Grupo A4.",
    "img": "https://cdn-images.rtp.pt/icm/noticias/images/7f/7f52db311ee79e9834be9418388aaacc?w=350&q=50&rect=0,119,3949,2165&auto=format"
+  },
+  {
+   "id": "obs-democratas-senado-20261003",
+   "ts": "2026-10-03T15:21:47Z",
+   "source": "Observador",
+   "lado": "pt",
+   "url": "https://observador.pt/2026/10/03/eua-democratas-ganham-forca-em-estados-republicanos-e-controlo-do-senado-esta-mais-proximo/",
+   "title": "Democratas ganham força e podem controlar o Senado",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "EUA",
+    "Intercalares"
+   ],
+   "tickers": [],
+   "resumo": "Sondagens mostram candidatos democratas na frente em vários estados republicanos, o que aproxima a reconquista do Senado nas intercalares. O custo de vida e a proximidade a Trump penalizam os republicanos.",
+   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2000:1124:nowe:0:103/q:70/plain/https://s3.observador.pt/wp-content/uploads/2025/11/05111435/39798355.jpg"
   },
   {
    "id": "as-cpr-algarve-pedro-almeida",
@@ -1182,6 +1437,24 @@
    "img": "https://caras.pt/wp-content/uploads/2026/10/261003_rainha-Isabel-II-600x315.jpg"
   },
   {
+   "id": "nit-dua-lipa-porto-lello",
+   "ts": "2026-10-03T13:52:18Z",
+   "source": "NiT",
+   "lado": "pt",
+   "url": "https://www.nit.pt/cultura/livros/um-lugar-muito-especial-dua-lipa-diz-que-esta-apaixonada-pelo-porto",
+   "title": "\"Um lugar muito especial.\" Dua Lipa diz que está apaixonada pelo Porto",
+   "topic": "cultura",
+   "sub": "",
+   "impacto": "baixo",
+   "setores": [
+    "Música",
+    "Livros"
+   ],
+   "tickers": [],
+   "resumo": "Dua Lipa esteve a 2 de outubro na Livraria Lello, no Porto, numa conversa sobre censura com o artista chinês Ai Weiwei, e descreveu o espaço como \"um lugar muito especial\".",
+   "img": ""
+  },
+  {
    "id": "obs-diploma-garrafas-gas",
    "ts": "2026-10-03T13:31:57Z",
    "source": "Observador",
@@ -1272,6 +1545,23 @@
    "img": "https://www.lusa.pt/temp/images/205x135/cache_205x135_Crop_high_47872899_9864084314701.jpg"
   },
   {
+   "id": "healthnews-juntas-medicas-acores",
+   "ts": "2026-10-03T12:27:55Z",
+   "source": "HealthNews",
+   "lado": "pt",
+   "url": "https://healthnews.pt/2026/10/03/juntas-medicas-nos-acores-superam-28-mil-desde-2024-e-reduzem-lista-de-espera-em-17/",
+   "title": "Juntas médicas nos Açores superam 28 mil desde 2024 e reduzem lista de espera em 17%",
+   "topic": "saude",
+   "sub": "",
+   "impacto": "baixo",
+   "setores": [
+    "Açores"
+   ],
+   "tickers": [],
+   "resumo": "Entre 2024 e 30 de agosto de 2026 realizaram-se 28.639 juntas médicas nos Açores. A lista de espera desceu de 1.753 pessoas em janeiro de 2025 para 1.458.",
+   "img": ""
+  },
+  {
    "id": "obs-cartaz-ronaldo-porto-retirado",
    "ts": "2026-10-03T12:13:26Z",
    "source": "Observador",
@@ -1323,6 +1613,23 @@
    "tickers": [],
    "resumo": "A Agência Internacional de Energia indicou que já foram libertados cerca de 325 milhões de barris das reservas estratégicas de petróleo.",
    "img": "https://cdn-images.rtp.pt/icm/noticias/images/90/90189f9f59b859d6c087219ea386ebdd?w=350&q=50&rect=0,3,1500,822&auto=format"
+  },
+  {
+   "id": "zerozero-tavares-dallmann-1218603",
+   "ts": "2026-10-03T11:45:45Z",
+   "source": "zerozero",
+   "lado": "pt",
+   "url": "https://www.zerozero.pt/noticias/fernando-tavares-revela-existiu-um-pre-acordo-para-que-linda-dallmann-representasse-o-benfica/1218603",
+   "title": "Fernando Tavares revela: «Existiu um pré-acordo para que Linda Dallmann representasse o Benfica»",
+   "topic": "desporto",
+   "sub": "benfica",
+   "impacto": "baixo",
+   "setores": [
+    "Futebol feminino"
+   ],
+   "tickers": [],
+   "resumo": "O ex-vice-presidente do Benfica Fernando Tavares revelou no LinkedIn que a jogadora do Bayern de Munique Linda Dallmann tinha um pré-acordo com o clube no verão passado.",
+   "img": "https://www.zerozero.pt/img/noticias/603/imgS620I1218603T20261003123733.jpg"
   },
   {
    "id": "lusa-47878325",
@@ -1447,6 +1754,23 @@
    "img": "https://www.zerozero.pt/img/noticias/601/imgS620I1218601T20261003114752.jpg"
   },
   {
+   "id": "eco-premium-setembro-20261003",
+   "ts": "2026-10-03T10:37:26Z",
+   "source": "ECO",
+   "lado": "pt",
+   "url": "https://eco.sapo.pt/2026/10/03/mercedes-e-bmw-lideram-segmento-premium-em-setembro-e-luxo-soma-16-carros/",
+   "title": "Mercedes e BMW lideram segmento premium em setembro e luxo soma 16 carros",
+   "topic": "economia",
+   "sub": "",
+   "impacto": "baixo",
+   "setores": [
+    "Automóveis"
+   ],
+   "tickers": [],
+   "resumo": "A Mercedes e a BMW lideraram o segmento premium em setembro, com 4.304 matrículas, enquanto o segmento de luxo somou apenas 16 carros. Os elétricos aumentaram 87,4% face ao ano anterior.",
+   "img": "https://eco.imgix.net/uploads/2018/10/cropped-dbs_superleggera_satin_xenon_grey_6-jpg-3.jpg"
+  },
+  {
    "id": "eco-prova-dos-9-salarios",
    "ts": "2026-10-03T10:15:52Z",
    "source": "ECO",
@@ -1550,6 +1874,23 @@
    ],
    "tickers": [],
    "resumo": "Médicos tarefeiros reuniram com a ministra da Saúde sobre a integração no SNS e saíram com \"um caminho de diálogo\", mas sem saber os valores, já que a portaria dos honorários continua por publicar.",
+   "img": ""
+  },
+  {
+   "id": "healthnews-ps-acores-seidi",
+   "ts": "2026-10-03T06:18:22Z",
+   "source": "HealthNews",
+   "lado": "pt",
+   "url": "https://healthnews.pt/2026/10/03/ps-acores-acusa-governo-de-esconder-dados-monica-seidi-responde-nao-e-verdade/",
+   "title": "PS/Açores acusa Governo de esconder dados. Mónica Seidi responde: \"Não é verdade\"",
+   "topic": "saude",
+   "sub": "",
+   "impacto": "baixo",
+   "setores": [
+    "Açores"
+   ],
+   "tickers": [],
+   "resumo": "A secretária regional da Saúde, Mónica Seidi, nega as acusações do PS/Açores de falta de transparência e explica que os atrasos nas respostas dizem respeito a pedidos sobre transferências de profissionais de saúde entre ilhas.",
    "img": ""
   },
   {
@@ -4916,357 +5257,6 @@
    "tickers": [],
    "resumo": "Novak Djokovic venceu Nuno Borges na primeira ronda do Open da China, em Pequim, apesar de novas dificuldades físicas, e prolongou a série de vitórias no torneio.",
    "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:1500:842:nowe:0:158/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/09/30135922/djokovic-1.jpg"
-  },
-  {
-   "id": "ng-bb-encontrao-luis-francisco-monteiro",
-   "ts": "2026-09-30T13:00:00Z",
-   "source": "Nova Gente",
-   "lado": "pt",
-   "url": "https://www.novagente.pt/afinal-o-que-aconteceu-tvi-mostra-tudo-sobre-o-encontrao-entre-luis-e-francisco-monteiro-no-big-brother/",
-   "title": "Afinal, o que aconteceu? TVI mostra tudo sobre o 'encontrão' entre Luís e Francisco Monteiro no Big Brother",
-   "topic": "rosa",
-   "sub": "reality",
-   "impacto": "baixo",
-   "setores": [
-    "Big Brother",
-    "TVI"
-   ],
-   "tickers": [],
-   "resumo": "A TVI divulgou as imagens completas do encontrão de ombro de Luís Gonçalves a Francisco Monteiro na casa do Big Brother.",
-   "img": ""
-  },
-  {
-   "id": "cnn-6abcebf7d34e9a786e75a448",
-   "ts": "2026-09-30T13:00:00Z",
-   "source": "CNN Portugal",
-   "lado": "pt",
-   "url": "https://cnnportugal.iol.pt/voo/flydubai/da-ativacao-do-codigo-7500-ao-switch-na-porta-do-cockpit-eis-como-se-pode-ter-evitado-uma-tragedia-comparavel-ao-11-de-setembro/20260930/6abcebf7d34e9a786e75a448",
-   "title": "Da ativação do código 7500 ao \"switch\" na porta do cockpit: eis como se pode ter evitado \"uma tragédia\" comparável ao 11 de Setembro",
-   "topic": "mundo",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Aviação"
-   ],
-   "tickers": [],
-   "resumo": "Cerca de 180 passageiros do voo da Flydubai para Telavive viveram momentos de tensão, num incidente que começou como um possível sequestro e envolveu um confronto no cockpit, com o avião a aterrar na Arábia Saudita.",
-   "img": "https://img.iol.pt/image/id/6abcec49d34e9a786e75a44a/200.jpg"
-  },
-  {
-   "id": "abola-porto-boas-noticias-farioli",
-   "ts": "2026-09-30T12:59:33Z",
-   "source": "A Bola",
-   "lado": "pt",
-   "url": "https://www.abola.pt/noticias/fc-porto-boas-noticias-para-farioli-2026093012294862735",
-   "title": "FC Porto: boas notícias para Farioli",
-   "topic": "desporto",
-   "sub": "porto",
-   "impacto": "baixo",
-   "setores": [
-    "Lesões"
-   ],
-   "tickers": [],
-   "resumo": "Quatro jogadores lesionados do FC Porto passaram a treino condicionado, um passo importante na recuperação.",
-   "img": "https://sportal365images.com/process/smp-images-production/abola.pt/30092026/b0945efa-4457-4c5a-aaf3-f672a096c9fb.jpg?operations=autocrop(1200:630)"
-  },
-  {
-   "id": "rtp-v1768646",
-   "ts": "2026-09-30T12:55:47Z",
-   "source": "RTP",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/cultura/marrocos-pela-primeira-vez-uma-mulher-vai-ser-primeira-ministra_v1768646",
-   "title": "Marrocos. Pela primeira vez uma mulher vai ser primeira-ministra",
-   "topic": "mundo",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Marrocos"
-   ],
-   "tickers": [],
-   "resumo": "Marrocos vai ter pela primeira vez uma mulher como primeira-ministra, segundo a RTP.",
-   "img": "https://cdn-images.rtp.pt/icm/images/79/796f5eebc1c4d44331cb08c793f36992_N.jpg?"
-  },
-  {
-   "id": "caras-maria-dinamarca-hobart",
-   "ts": "2026-09-30T12:55:43Z",
-   "source": "Caras",
-   "lado": "pt",
-   "url": "https://caras.pt/realeza/2026-09-30-maria-da-dinamarca-de-coracao-partido-no-regresso-as-suas-raizes/",
-   "title": "Maria da Dinamarca de coração partido no regresso às suas raízes",
-   "topic": "rosa",
-   "sub": "realeza",
-   "impacto": "baixo",
-   "setores": [
-    "Casa Real dinamarquesa"
-   ],
-   "tickers": [],
-   "resumo": "A Casa Real dinamarquesa confirmou a deslocação privada do rei Frederico X e da rainha Maria a Hobart, na Tasmânia, para as cerimónias fúnebres do pai da rainha, John Donaldson, que morreu aos 84 anos.",
-   "img": "https://caras.pt/wp-content/uploads/2026/09/260930_1000124316-1600x901.jpg"
-  },
-  {
-   "id": "obs-smalling-fc-porto",
-   "ts": "2026-09-30T12:54:38Z",
-   "source": "Observador",
-   "lado": "pt",
-   "url": "https://observador.pt/2026/09/30/um-mercado-que-ate-fechado-nunca-e-pequeno-fc-porto-acautela-problemas-defensivos-e-contrata-chris-smalling/",
-   "title": "Smalling e um mercado que até fechado nunca é pequeno",
-   "topic": "desporto",
-   "sub": "porto",
-   "impacto": "medio",
-   "setores": [
-    "Contratação"
-   ],
-   "tickers": [],
-   "resumo": "O FC Porto contrata a custo zero o internacional inglês Chris Smalling, de 36 anos, que estava sem clube desde que deixou o Al Fayha, para acautelar problemas físicos na defesa.",
-   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:1500:842:nowe:0:24/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/09/30134215/smalling.jpg"
-  },
-  {
-   "id": "rtp-v1768643",
-   "ts": "2026-09-30T12:53:47Z",
-   "source": "RTP",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/economia/agencia-internacional-de-energia-admite-recorre-a-mais-reservas-de-petroleo_v1768643",
-   "title": "Agência Internacional de Energia admite recorre a mais reservas de petróleo",
-   "topic": "economia",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Energia",
-    "Petróleo"
-   ],
-   "tickers": [],
-   "resumo": "A Agência Internacional de Energia admite recorrer a mais reservas estratégicas de petróleo para aliviar a escassez de oferta e avisa que a Europa vai enfrentar um inverno difícil.",
-   "img": "https://cdn-images.rtp.pt/icm/images/43/436ce8aeb7913e2e475503733e103aaf_N.jpg?"
-  },
-  {
-   "id": "rtp-v1768640",
-   "ts": "2026-09-30T12:50:47Z",
-   "source": "RTP",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/pais/dgs-tomou-medidas-no-lar-de-estremoz-com-surto-de-gripe-a_v1768640",
-   "title": "DGS tomou medidas no lar de Estremoz com surto de gripe A",
-   "topic": "saude",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "DGS",
-    "Gripe"
-   ],
-   "tickers": [],
-   "resumo": "A Direção-Geral da Saúde diz que já tomou medidas no lar de Estremoz, onde há um surto de gripe A, e recorda medidas básicas para evitar doenças transmitidas por via respiratória.",
-   "img": "https://cdn-images.rtp.pt/icm/images/e4/e4f22d78c2b04d26429b6bcfd45d4ed4_N.jpg?"
-  },
-  {
-   "id": "rtp-v1768639",
-   "ts": "2026-09-30T12:49:47Z",
-   "source": "RTP",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/mundo/reino-unido-autoridades-nao-encontram-vestigios-de-explosivos-em-carrinhas-junto-de-base-aerea_v1768639",
-   "title": "Reino Unido. Autoridades não encontram vestígios de explosivos em carrinhas junto de base aérea",
-   "topic": "mundo",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Reino Unido"
-   ],
-   "tickers": [],
-   "resumo": "As autoridades britânicas não encontraram vestígios de explosivos nas carrinhas apreendidas junto à base aérea no domingo, o que pode explicar a libertação sob fiança dos suspeitos, entretanto criticada por Donald Trump.",
-   "img": "https://cdn-images.rtp.pt/icm/images/5d/5db7e4f3ec0eb0293c0dbb5b98e2de1c_N.jpg?"
-  },
-  {
-   "id": "cnn-6abd03e3d34e9a786e75a4c6",
-   "ts": "2026-09-30T12:43:15Z",
-   "source": "CNN Portugal",
-   "lado": "pt",
-   "url": "https://cnnportugal.iol.pt/acidentes/desastres/acidentes-ferroviarios-diminuiram-mas-ha-um-ponto-onde-mais-do-que-duplicaram/20260930/6abd03e3d34e9a786e75a4c6",
-   "title": "Acidentes ferroviários diminuíram, mas há um ponto onde mais do que duplicaram",
-   "topic": "outros",
-   "sub": "",
-   "impacto": "baixo",
-   "setores": [
-    "Ferrovia"
-   ],
-   "tickers": [],
-   "resumo": "O número de acidentes e de vítimas mortais na ferrovia diminuiu em 2025, segundo o relatório divulgado hoje, mas algumas categorias de acidentes aumentaram de forma significativa.",
-   "img": "https://img.iol.pt/image/id/6593f4f4d34e65afa2f934b0/200.jpg"
-  },
-  {
-   "id": "cnn-6abd025cd34e9a786e75a4c4",
-   "ts": "2026-09-30T12:41:00Z",
-   "source": "CNN Portugal",
-   "lado": "pt",
-   "url": "https://cnnportugal.iol.pt/agressoes/pj/venda-de-um-carro-tera-estado-na-origem-de-sequestro-e-agressoes-tres-detidos-em-valongo/20260930/6abd025cd34e9a786e75a4c4",
-   "title": "Venda de um carro terá estado na origem de sequestro e agressões. Três detidos em Valongo",
-   "topic": "justica",
-   "sub": "",
-   "impacto": "baixo",
-   "setores": [
-    "PJ"
-   ],
-   "tickers": [],
-   "resumo": "Três suspeitos foram detidos em Valongo por sequestro e agressões a um homem que terá sido retirado de casa à força, num caso relacionado com a venda de um automóvel.",
-   "img": ""
-  },
-  {
-   "id": "obs-servicos-minimos-voos-acores-madeira",
-   "ts": "2026-09-30T12:37:39Z",
-   "source": "Observador",
-   "lado": "pt",
-   "url": "https://observador.pt/2026/09/30/decretados-servicos-minimos-nos-voos-de-acores-e-madeira-para-greve-da-funcao-publica/",
-   "title": "Decretados serviços mínimos nos voos de Açores e Madeira",
-   "topic": "tempo",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Greve",
-    "Função pública"
-   ],
-   "tickers": [],
-   "resumo": "Foram decretados serviços mínimos nos voos de e para os Açores e a Madeira na greve da função pública convocada para sexta-feira, depois de o IPMA e a federação sindical não chegarem a acordo.",
-   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2000:1122:nowe:0:211/q:70/plain/https://s3.observador.pt/wp-content/uploads/2021/09/15133757/26073246.jpg"
-  },
-  {
-   "id": "rtp-v1768635",
-   "ts": "2026-09-30T12:30:47Z",
-   "source": "RTP",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/pais/foram-identificadas-varias-falhas-tecnicas-no-processo-de-classificacao-dos-exames-nacionais_v1768635",
-   "title": "Foram identificadas várias falhas técnicas no processo de classificação dos exames nacionais",
-   "topic": "outros",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Exames nacionais",
-    "Educação"
-   ],
-   "tickers": [],
-   "resumo": "Dois relatórios, um do Júri Nacional de Exames e outro da consultora Deloitte, identificaram várias falhas técnicas no processo de classificação dos exames nacionais.",
-   "img": "https://cdn-images.rtp.pt/icm/images/5c/5c9e9e5f12a1bc767f99aae6df1ab1f0_N.jpg?"
-  },
-  {
-   "id": "ng-cristina-ferreira-favoritismo-monteiro",
-   "ts": "2026-09-30T12:30:00Z",
-   "source": "Nova Gente",
-   "lado": "pt",
-   "url": "https://www.novagente.pt/cristina-ferreira-responde-as-acusacoes-de-favoritismo-de-francisco-monteiro-no-big-brother-so-para-saberem/",
-   "title": "Cristina Ferreira responde às acusações de favoritismo de Francisco Monteiro no Big Brother: \"Só para saberem…\"",
-   "topic": "rosa",
-   "sub": "reality",
-   "impacto": "baixo",
-   "setores": [
-    "Big Brother",
-    "TVI"
-   ],
-   "tickers": [],
-   "resumo": "Cristina Ferreira reagiu em direto às críticas de que Francisco Monteiro está a ser levado ao colo por ser seu familiar.",
-   "img": ""
-  },
-  {
-   "id": "rtp-v1768632",
-   "ts": "2026-09-30T12:28:47Z",
-   "source": "RTP",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/pais/criancas-entre-2-e-4-anos-abrangidas-por-vacinacao-gratuita-contra-a-gripe_v1768632",
-   "title": "Crianças entre 2 e 4 anos abrangidas por vacinação gratuita contra a gripe",
-   "topic": "saude",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Vacinação",
-    "Gripe",
-    "Covid-19"
-   ],
-   "tickers": [],
-   "resumo": "Arranca a campanha de vacinação contra a gripe e a Covid-19, com a vacina da gripe gratuita alargada às crianças entre os dois e os quatro anos. A vacina da Covid-19 passa a ser recomendada apenas a partir dos 70 anos.",
-   "img": "https://cdn-images.rtp.pt/icm/images/91/912396c72ccfcc7ac8c9e46dd6140781_N.jpg?"
-  },
-  {
-   "id": "obs-amnistia-ceuta-tortura",
-   "ts": "2026-09-30T12:25:48Z",
-   "source": "Observador",
-   "lado": "pt",
-   "url": "https://observador.pt/2026/09/30/amnistia-internacional-acusa-militares-espanhois-de-tortura-e-tratamentos-crueis-em-ceuta/",
-   "title": "Amnistia Internacional acusa militares de \"tortura\" em Ceuta",
-   "topic": "mundo",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Espanha",
-    "Direitos humanos"
-   ],
-   "tickers": [],
-   "resumo": "A Amnistia Internacional denuncia tortura e tratamentos cruéis, desumanos e degradantes por parte de militares espanhóis contra imigrantes em Ceuta, que diz responderem a um padrão.",
-   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2000:1121:nowe:0:0/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/09/30112337/47853576.jpg"
-  },
-  {
-   "id": "cnn-6abcff93d34e9a786e75a4bf",
-   "ts": "2026-09-30T12:24:00Z",
-   "source": "CNN Portugal",
-   "lado": "pt",
-   "url": "https://cnnportugal.iol.pt/iva/operacao-internacional/mais-de-um-milhao-de-telemoveis-usados-terao-sido-vendidos-como-novos-num-esquema-milionario/20260930/6abcff93d34e9a786e75a4bf",
-   "title": "Mais de um milhão de telemóveis usados terão sido vendidos como novos num esquema milionário",
-   "topic": "justica",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Fraude",
-    "GNR"
-   ],
-   "tickers": [],
-   "resumo": "A GNR participou numa operação internacional contra uma organização suspeita de vender mais de um milhão de telemóveis usados como se fossem novos, num esquema de fraude milionário.",
-   "img": "https://img.iol.pt/image/id/6042c6d10cf21a3fbaceb3d2/200.jpg"
-  },
-  {
-   "id": "zz-1217611",
-   "ts": "2026-09-30T12:23:09Z",
-   "source": "zerozero",
-   "lado": "pt",
-   "url": "https://www.zerozero.pt/noticias/liga-portugal-vai-seguir-ideia-da-la-liga-e-ter-uma-jornada-retro/1217611",
-   "title": "Liga Portugal vai seguir ideia da La Liga e ter uma «jornada retro»",
-   "topic": "desporto",
-   "sub": "liga",
-   "impacto": "baixo",
-   "setores": [
-    "Liga Portugal"
-   ],
-   "tickers": [],
-   "resumo": "A Liga Portugal vai realizar uma jornada retro em fevereiro de 2027, com camisolas históricas dos clubes, seguindo a iniciativa da La Liga.",
-   "img": "https://www.zerozero.pt/img/noticias/611/imgS620I1217611T20260930132214.jpg"
-  },
-  {
-   "id": "rtp-v1768628",
-   "ts": "2026-09-30T12:22:47Z",
-   "source": "RTP",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/economia/acelerar-despejos-e-contratos-mais-flexiveis-sao-algumas-das-alteracoes-propostas-pelo-governo_v1768628",
-   "title": "Acelerar despejos e contratos mais flexíveis são algumas das alterações propostas pelo Governo",
-   "topic": "economia",
-   "sub": "",
-   "impacto": "alto",
-   "setores": [
-    "Arrendamento",
-    "Habitação"
-   ],
-   "tickers": [],
-   "resumo": "A nova lei das rendas do Governo tem o chumbo praticamente garantido. O primeiro-ministro diz que vai levar a política de habitação até ao fim sem se deixar intimidar.",
-   "img": "https://cdn-images.rtp.pt/icm/images/ac/ac749a393ec8f644fd0beaf77805e10c_N.jpg?"
-  },
-  {
-   "id": "abola-mourinho-asencio-baixa",
-   "ts": "2026-09-30T12:22:00Z",
-   "source": "A Bola",
-   "lado": "pt",
-   "url": "https://www.abola.pt/noticias/mourinho-com-baixa-na-defesa-do-real-madrid-nos-proximos-meses-2026093011501639841",
-   "title": "Mourinho com baixa na defesa do Real Madrid nos próximos meses",
-   "topic": "desporto",
-   "sub": "lafora",
-   "impacto": "baixo",
-   "setores": [
-    "Real Madrid"
-   ],
-   "tickers": [],
-   "resumo": "O Real Madrid de José Mourinho vai perder o central Raúl Asencio, que será operado na quinta-feira, até ao início do próximo ano.",
-   "img": "https://sportal365images.com/process/smp-images-production/abola.pt/30092026/0b38d79c-8268-4afb-b093-73299de5e97e.jpg?operations=autocrop(1200:630)"
   }
  ],
  "contracts": {},
@@ -5274,6 +5264,12 @@
  "quotesAt": null,
  "series": {},
  "pairs": [
+  {
+   "a": "ojogo-vb-relvado-maritimo-18133327",
+   "b": "record-presidente-maritimo-relvado",
+   "tema": "Relvado dos Barreiros: dúvidas e garantias",
+   "nota": "Villas-Boas fala em garantias dadas sobre o relvado do Marítimo, enquanto o presidente do Marítimo garante que está em boas condições após tratamento intensivo."
+  },
   {
    "a": "abola-pichardo-benfica-tribunal",
    "b": "rtp-d1769409",
@@ -5299,5 +5295,5 @@
    "nota": "Montenegro vê um \"sinal importante\" do PS; Ventura diz que a abstenção não surpreende porque o PS está \"a governar em conjunto\" com o PSD."
   }
  ],
- "arquivo": 363
+ "arquivo": 383
 }
