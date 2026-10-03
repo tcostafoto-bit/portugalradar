@@ -1,25 +1,147 @@
 {
- "version": "1.1.48",
- "updated": "2026-10-03T17:00:27Z",
+ "version": "1.1.49",
+ "updated": "2026-10-03T18:17:26Z",
  "brief": [
   {
-   "texto": "André Ventura vai presidir à comissão de inquérito a Luís Neves.",
-   "id": "lusa-47878927"
+   "texto": "Jorge Jesus diz que Ronaldo é um símbolo da Seleção e Bruno Fernandes garante que não há divisões, na véspera do jogo com a Noruega.",
+   "id": "abola-jesus-ronaldo-simbolo"
   },
   {
-   "texto": "Greve na easyJet tem adesão total e os cancelamentos podem chegar a 90%.",
+   "texto": "Ministra da Justiça promete resposta até dia 10 sobre a retirada da proteção especial a Rui Pinto.",
+   "id": "lusa-47879409"
+  },
+  {
+   "texto": "Greve na easyJet regista adesão total e cancelamentos podem chegar aos 90%.",
    "id": "lusa-47878271"
   },
   {
-   "texto": "A Rússia volta a pedir a diplomatas e estrangeiros que saiam de Kiev.",
-   "id": "lusa-47878498"
-  },
-  {
-   "texto": "Jorge Jesus diz que Ronaldo é um símbolo da Seleção, a um dia do Portugal-Noruega.",
-   "id": "abola-jesus-ronaldo-simbolo"
+   "texto": "Aviso laranja de trovoada em Évora, Setúbal e Santarém até às 21h00."
   }
  ],
  "items": [
+  {
+   "id": "obs-flydubai-proibido-pilotar-2024",
+   "ts": "2026-10-03T17:33:19Z",
+   "source": "Observador",
+   "lado": "pt",
+   "url": "https://observador.pt/2026/10/03/atacante-do-voo-da-flydubai-foi-proibido-de-pilotar-em-2024-por-posse-de-material-extremista/",
+   "title": "Atacante do voo da Flydubai foi proibido de pilotar em 2024",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "alto",
+   "setores": [
+    "Flydubai",
+    "Terrorismo"
+   ],
+   "tickers": [],
+   "resumo": "Hamam al-Hammami tinha sido proibido de voar numa companhia aérea de Omã em 2024, por ser considerado um risco de segurança. O procurador-geral dos Emirados Árabes Unidos classifica o ataque no voo da Flydubai como \"ato terrorista\".",
+   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2000:1123:nowe:0:144/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/10/03163515/47862861.jpg"
+  },
+  {
+   "id": "rtp-n1769392",
+   "ts": "2026-10-03T17:11:05Z",
+   "source": "RTP",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/mundo/diretor-prisional-do-tennessee-demite-se-apos-execucao-falhada-de-christa-pike_n1769392",
+   "title": "Diretor prisional do Tennessee demite-se após execução falhada de Christa Pike",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Pena de morte",
+    "EUA"
+   ],
+   "tickers": [],
+   "resumo": "Frank Strada, diretor do sistema prisional do Tennessee, demitiu-se depois de a execução da pena de morte a Christa Pike ter falhado, anunciou o governador Bill Lee.",
+   "img": "https://cdn-images.rtp.pt/icm/noticias/images/96/96881be76b2d75c722500a8ed35fbef2?w=350&q=50&rect=1,0,2462,1350&auto=format"
+  },
+  {
+   "id": "abola-portugal-maxima-forca-noruega",
+   "ts": "2026-10-03T17:10:21Z",
+   "source": "A Bola",
+   "lado": "pt",
+   "url": "https://www.abola.pt/noticias/boas-noticias-portugal-na-maxima-forca-para-receber-a-noruega-2026100317102135370",
+   "title": "Boas notícias: Portugal na máxima força para receber a Noruega",
+   "topic": "desporto",
+   "sub": "selecao",
+   "impacto": "medio",
+   "setores": [
+    "Liga das Nações"
+   ],
+   "tickers": [],
+   "resumo": "Jorge Jesus contou com todos os 24 jogadores no último treino antes do jogo com a Noruega, que se disputa domingo às 19h45 no Estádio do Dragão.",
+   "img": "https://sportal365images.com/process/smp-images-production/abola.pt/03102026/32cbf08e-0419-49cf-9226-dbc7e69a490c.jpeg?operations=crop(0:331:4225:2708),autocrop(1200:630)"
+  },
+  {
+   "id": "abola-pichardo-benfica-tribunal",
+   "ts": "2026-10-03T17:04:20Z",
+   "source": "A Bola",
+   "lado": "pt",
+   "url": "https://www.abola.pt/noticias/tribunal-obriga-benfica-a-pagar-a-pichardo-mas-recusa-justa-causa-ao-atleta-2026100317042003373",
+   "title": "Tribunal obriga Benfica a pagar a Pichardo, mas recusa justa causa ao atleta",
+   "topic": "desporto",
+   "sub": "atletismo",
+   "impacto": "medio",
+   "setores": [
+    "Benfica",
+    "Pedro Pichardo"
+   ],
+   "tickers": [],
+   "resumo": "O acórdão deixa cair várias acusações ao Benfica e a exigência de indemnização milionária, mas também não reconhece justa causa ao campeão olímpico de Tóquio 2020.",
+   "img": "https://sportal365images.com/process/smp-images-production/abola.pt/06102025/9c40176b-7026-4dc1-9f29-7f1aaac3b1cb.jpg?operations=autocrop(1200:630)"
+  },
+  {
+   "id": "cnn-6ac13587d34e53c759c74e71",
+   "ts": "2026-10-03T17:03:00Z",
+   "source": "CNN Portugal",
+   "lado": "pt",
+   "url": "https://cnnportugal.iol.pt/brasil-2026/eleicoes-brasil/e-um-numero-recorde-134-797-brasileiros-sao-chamados-a-votar-este-domingo-em-portugal/20261003/6ac13587d34e53c759c74e71",
+   "title": "É um número recorde: 134.797 brasileiros são chamados a votar este domingo em Portugal",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Eleições no Brasil"
+   ],
+   "tickers": [],
+   "resumo": "Portugal é, depois dos Estados Unidos, o país com mais eleitores brasileiros inscritos no estrangeiro para a votação de domingo. São 134.797 os brasileiros chamados às urnas em Portugal.",
+   "img": "https://img.iol.pt/image/id/5ce6ca5e0cf2587d42b8f6ba/200.jpg"
+  },
+  {
+   "id": "cm-dgs-alimentacao-criancas-20261003",
+   "ts": "2026-10-03T16:53:26Z",
+   "source": "CM",
+   "lado": "pt",
+   "url": "https://m.facebook.com/cmjornal/posts/pfbid02etiWQSpxvwktK4WKP3cvbKtHgG67Bx4wWTcbSDkgMW2YNTGeAuZGS7tXjwmSjoFol",
+   "title": "DGS publica primeiras orientações para a alimentação de crianças até aos três anos",
+   "topic": "saude",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "DGS",
+    "Alimentação infantil"
+   ],
+   "tickers": [],
+   "resumo": "A Direção-Geral da Saúde publicou as primeiras orientações para a alimentação de crianças até aos três anos, com destaque para o aleitamento materno e os alimentos naturais ricos em nutrientes.",
+   "img": ""
+  },
+  {
+   "id": "nit-cabana-sass-incendio",
+   "ts": "2026-10-03T16:41:40Z",
+   "source": "NiT",
+   "lado": "pt",
+   "url": "https://www.nit.pt/comida/restaurantes/incendio-destroi-restaurante-de-luxo-no-algarve",
+   "title": "Incêndio destrói restaurante de luxo no Algarve",
+   "topic": "outros",
+   "sub": "",
+   "impacto": "baixo",
+   "setores": [
+    "Quarteira"
+   ],
+   "tickers": [],
+   "resumo": "Um incêndio destruiu, a 1 de outubro, grande parte do Cabana Sass', restaurante de luxo junto à Praia do Almargem, em Quarteira.",
+   "img": ""
+  },
   {
    "id": "abola-bruno-fernandes-sem-divisoes",
    "ts": "2026-10-03T16:33:02Z",
@@ -36,6 +158,23 @@
    "tickers": [],
    "resumo": "O médio do Manchester United deu o seu ponto de vista sobre a polémica com o capitão, garantiu que não há divisões na Seleção e apontou à Noruega.",
    "img": "https://sportal365images.com/process/smp-images-production/abola.pt/03102026/98bf43de-6a11-435a-a21a-50b7b6e75102.jpeg?operations=crop(0:72:3151:1845),autocrop(1200:630)"
+  },
+  {
+   "id": "cm-chaves-arma-loja-20261003",
+   "ts": "2026-10-03T16:15:01Z",
+   "source": "CM",
+   "lado": "pt",
+   "url": "https://www.facebook.com/reel/1449527037101113/",
+   "title": "Mulher de 59 anos detida após entrar em loja com arma de fogo em Chaves",
+   "topic": "justica",
+   "sub": "",
+   "impacto": "baixo",
+   "setores": [
+    "Chaves"
+   ],
+   "tickers": [],
+   "resumo": "Uma mulher de 59 anos foi detida depois de entrar numa loja em Chaves com uma arma de fogo e instaurar o pânico no local.",
+   "img": ""
   },
   {
    "id": "abola-varandas-890-mil",
@@ -74,6 +213,24 @@
    "img": "https://sportal365images.com/process/smp-images-production/abola.pt/02102026/b8f6b138-d379-44a2-af46-6589017c3d8e.jpg?operations=crop(0:220:4997:3031),autocrop(1200:630)"
   },
   {
+   "id": "obs-tauromaquia-animal",
+   "ts": "2026-10-03T16:06:28Z",
+   "source": "Observador",
+   "lado": "pt",
+   "url": "https://observador.pt/2026/10/03/associacao-animal-contesta-inscricao-da-tauromaquia-como-patrimonio-cultural-imaterial/",
+   "title": "Associação contesta inscrição da tauromaquia como património",
+   "topic": "cultura",
+   "sub": "",
+   "impacto": "baixo",
+   "setores": [
+    "Tauromaquia",
+    "Património"
+   ],
+   "tickers": [],
+   "resumo": "A associação Animal contesta a inscrição da tauromaquia como património cultural imaterial, considerando \"incompreensível\" a proteção institucional a uma atividade que depende de violência deliberada.",
+   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2000:1122:nowe:0:99/q:70/plain/https://s3.observador.pt/wp-content/uploads/2020/07/09172752/14142266.jpg"
+  },
+  {
    "id": "lusa-47879409",
    "ts": "2026-10-03T16:06:00Z",
    "source": "Lusa",
@@ -108,6 +265,40 @@
    "img": "https://sportal365images.com/process/smp-images-production/abola.pt/03102026/e7abc36c-7026-42cb-b7f5-e3107b306f8b.jpg?operations=crop(0:627:5992:3998),autocrop(1200:630)"
   },
   {
+   "id": "record-catia-azevedo-sporting",
+   "ts": "2026-10-03T15:49:14Z",
+   "source": "Record",
+   "lado": "pt",
+   "url": "https://www.record.pt/modalidades/atletismo/detalhe/catia-azevedo-e-a-saida-do-sporting-o-meu-marido-e-atleta-do-clube-e-pai-mas-nao-foi-penalizado-porque-eu",
+   "title": "Cátia Azevedo e a saída do Sporting: «O meu marido é atleta do clube e pai mas não foi penalizado. Porquê eu?»",
+   "topic": "desporto",
+   "sub": "atletismo",
+   "impacto": "medio",
+   "setores": [
+    "Sporting"
+   ],
+   "tickers": [],
+   "resumo": "A velocista Cátia Azevedo mostra-se desiludida com a saída do Sporting ao fim de 18 anos e questiona a diferença de tratamento face ao marido, também atleta do clube.",
+   "img": "https://cdn.record.pt/images/2026-10/img_1200x721uu2026-10-03-16-49-14-2466148.jpg"
+  },
+  {
+   "id": "rtp-d1769360",
+   "ts": "2026-10-03T15:24:37Z",
+   "source": "RTP",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/futebol-internacional/solbakken-coloca-portugal-entre-os-melhores-da-europa-e-promete-noruega-ambiciosa_d1769360",
+   "title": "Solbakken coloca Portugal entre os melhores da Europa e promete Noruega ambiciosa",
+   "topic": "desporto",
+   "sub": "selecao",
+   "impacto": "medio",
+   "setores": [
+    "Liga das Nações"
+   ],
+   "tickers": [],
+   "resumo": "O selecionador norueguês, Stale Solbakken, considera Portugal uma das três melhores equipas europeias e promete uma Noruega ambiciosa no jogo de domingo, da quarta jornada do Grupo A4.",
+   "img": "https://cdn-images.rtp.pt/icm/noticias/images/7f/7f52db311ee79e9834be9418388aaacc?w=350&q=50&rect=0,119,3949,2165&auto=format"
+  },
+  {
    "id": "as-cpr-algarve-pedro-almeida",
    "ts": "2026-10-03T15:17:45Z",
    "source": "AutoSport",
@@ -123,6 +314,41 @@
    ],
    "tickers": [],
    "resumo": "Pedro Almeida e António Costa venceram o Rali do Algarve, a segunda vitória da época, aproveitando um deslize de Rúben Rodrigues na luta pelo título do Campeonato de Portugal de Ralis.",
+   "img": ""
+  },
+  {
+   "id": "rtp-d1769359",
+   "ts": "2026-10-03T15:13:48Z",
+   "source": "RTP Desporto",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/outras-modalidades/judomundiais-patricia-sampaio-com-estatuto-em-sorteio-dificil-para-alguns-lusos_d1769359",
+   "title": "Judo/Mundiais. Patrícia Sampaio com `estatuto` em sorteio difícil para alguns lusos",
+   "topic": "desporto",
+   "sub": "outros",
+   "impacto": "baixo",
+   "setores": [
+    "Judo",
+    "Mundial de Baku"
+   ],
+   "tickers": [],
+   "resumo": "Patrícia Sampaio é a única portuguesa cabeça de série (sexta) e o sorteio traçou um quadro difícil para alguns judocas portugueses, que competem a partir de domingo em Baku.",
+   "img": "https://cdn-images.rtp.pt/icm/noticias/images/9f/9f4ba804bc5151d36471a8fc1de72996?w=350&q=50&rect=0,0,859,471&auto=format"
+  },
+  {
+   "id": "rtp-d1769356",
+   "ts": "2026-10-03T15:04:16Z",
+   "source": "RTP Desporto",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/outras-modalidades/triatleta-maria-tome-11a-classificada-na-etapa-da-taca-do-mundo-de-roma_d1769356",
+   "title": "Triatleta Maria Tomé 11.ª classificada na etapa da Taça do Mundo de Roma",
+   "topic": "desporto",
+   "sub": "triatlo",
+   "impacto": "baixo",
+   "setores": [
+    "Taça do Mundo"
+   ],
+   "tickers": [],
+   "resumo": "A portuguesa Maria Tomé foi 11.ª na prova de elites femininas, ao concluir o percurso em 59.57 minutos, a 45 segundos da vencedora, a russa Diana Isakova.",
    "img": ""
   },
   {
@@ -161,6 +387,23 @@
    "img": "https://cdn-images.rtp.pt/icm/noticias/images/b7/b72054a4b4674eaac47ca5f22648c698?w=350&q=50&rect=1,0,1910,1047&auto=format"
   },
   {
+   "id": "rtp-d1769352",
+   "ts": "2026-10-03T14:37:28Z",
+   "source": "RTP Desporto",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/motores/marc-marquez-vence-sprint-no-japao-e-aproxima-se-de-jorge-martin_d1769352",
+   "title": "Marc Márquez vence sprint no Japão e aproxima-se de Jorge Martín",
+   "topic": "desporto",
+   "sub": "motores",
+   "impacto": "medio",
+   "setores": [
+    "MotoGP"
+   ],
+   "tickers": [],
+   "resumo": "Marc Márquez (Ducati) venceu a corrida sprint do Grande Prémio do Japão e reduziu para sete pontos a desvantagem para o líder do Mundial, Jorge Martín (Aprilia).",
+   "img": "https://cdn-images.rtp.pt/icm/noticias/images/5e/5e1f15234da0f5da1b4e8cd52e0da703?w=350&q=50&rect=0,128,3596,1971&auto=format"
+  },
+  {
    "id": "abola-triatlo-podio-mundial",
    "ts": "2026-10-03T14:34:22Z",
    "source": "A Bola",
@@ -196,6 +439,24 @@
    "img": "https://www.lusa.pt/temp/images/900x600/cache_900x600_Crop_high_47850502_1210557_28092026034612.JPG"
   },
   {
+   "id": "obs-espanha-manifestacao-habitacao",
+   "ts": "2026-10-03T14:01:47Z",
+   "source": "Observador",
+   "lado": "pt",
+   "url": "https://observador.pt/2026/10/03/manifestacao-pela-habitacao-em-espanha-comeca-em-madrid-com-apelo-a-greve-geral/",
+   "title": "Manifestação pela habitação em Espanha apela à greve geral",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Habitação",
+    "Espanha"
+   ],
+   "tickers": [],
+   "resumo": "A marcha em Madrid, encabeçada por uma faixa com a inscrição \"Rumo à greve geral\", é uma das mais de 50 manifestações pela habitação realizadas hoje em várias cidades espanholas.",
+   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2000:1122:nowe:0:211/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/10/03131535/47878229.jpg"
+  },
+  {
    "id": "rtp-d1769354",
    "ts": "2026-10-03T13:58:04Z",
    "source": "RTP Desporto",
@@ -211,6 +472,41 @@
    "tickers": [],
    "resumo": "O neerlandês da Red Bull conquistou a primeira pole position da temporada para o Grande Prémio do Bahrain, 16.ª ronda do Mundial de Fórmula 1.",
    "img": "https://cdn-images.rtp.pt/icm/noticias/images/25/2529f801b945c194f421b7c23aed611c?w=350&q=50&rect=0,52,2552,1399&auto=format"
+  },
+  {
+   "id": "caras-heseltine-morreu",
+   "ts": "2026-10-03T13:54:04Z",
+   "source": "Caras",
+   "lado": "pt",
+   "url": "https://caras.pt/realeza/2026-10-03-morreu-aos-96-anos-sir-william-heseltine-o-historico-secretario-privado-da-rainha-isabel-ii/",
+   "title": "Morreu aos 96 anos Sir William Heseltine, histórico secretário privado da rainha Isabel II",
+   "topic": "rosa",
+   "sub": "realeza",
+   "impacto": "baixo",
+   "setores": [
+    "Realeza britânica"
+   ],
+   "tickers": [],
+   "resumo": "Sir William Heseltine, antigo secretário privado da rainha Isabel II, morreu aos 96 anos.",
+   "img": "https://caras.pt/wp-content/uploads/2026/10/261003_rainha-Isabel-II-600x315.jpg"
+  },
+  {
+   "id": "obs-diploma-garrafas-gas",
+   "ts": "2026-10-03T13:31:57Z",
+   "source": "Observador",
+   "lado": "pt",
+   "url": "https://observador.pt/2026/10/03/diploma-que-reforca-acesso-dos-consumidores-a-garrafas-de-gas-entra-em-vigor/",
+   "title": "Diploma que reforça acesso a garrafas de gás entra em vigor",
+   "topic": "economia",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "GPL",
+    "Energia"
+   ],
+   "tickers": [],
+   "resumo": "Os postos de abastecimento podem agora armazenar mais garrafas de GPL sem necessidade de licenciamento, para reforçar a disponibilidade de gás doméstico aos consumidores.",
+   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2000:1121:nowe:0:0/q:70/plain/https://s3.observador.pt/wp-content/uploads/2022/05/11112516/17644263.jpg"
   },
   {
    "id": "cnn-6ac10125d34e9a786e75ab8d",
@@ -285,6 +581,23 @@
    "img": "https://www.lusa.pt/temp/images/205x135/cache_205x135_Crop_high_47872899_9864084314701.jpg"
   },
   {
+   "id": "obs-cartaz-ronaldo-porto-retirado",
+   "ts": "2026-10-03T12:13:26Z",
+   "source": "Observador",
+   "lado": "pt",
+   "url": "https://observador.pt/2026/10/03/cartaz-de-apoio-a-cristiano-ronaldo-afixado-no-porto-na-vespera-do-jogo-da-selecao-nacional-no-dragao/",
+   "title": "Cartaz de apoio a Ronaldo, afixado no Porto, foi retirado",
+   "topic": "desporto",
+   "sub": "selecao",
+   "impacto": "baixo",
+   "setores": [
+    "Cristiano Ronaldo"
+   ],
+   "tickers": [],
+   "resumo": "O cartaz afixado no nó de Francos, no Porto, já sem a crítica ao \"ego inflamado\" de Jorge Jesus, foi retirado na véspera do jogo com a Noruega.",
+   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:1536:864:nowe:0:287/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/10/03125855/whatsapp-image-2026-10-03-at-122943.jpeg"
+  },
+  {
    "id": "lusa-47878498",
    "ts": "2026-10-03T12:10:00Z",
    "source": "Lusa",
@@ -319,6 +632,24 @@
    "tickers": [],
    "resumo": "A Agência Internacional de Energia indicou que já foram libertados cerca de 325 milhões de barris das reservas estratégicas de petróleo.",
    "img": "https://cdn-images.rtp.pt/icm/noticias/images/90/90189f9f59b859d6c087219ea386ebdd?w=350&q=50&rect=0,3,1500,822&auto=format"
+  },
+  {
+   "id": "lusa-47878325",
+   "ts": "2026-10-03T11:32:00Z",
+   "source": "Lusa",
+   "lado": "pt",
+   "url": "https://www.lusa.pt/article/47878325/pj-detém-no-aeroporto-de-lisboa-três-mulheres-com-11-quilos-de-cocaína",
+   "title": "PJ detém no aeroporto de Lisboa três mulheres com 11 Kg de cocaína",
+   "topic": "justica",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "PJ",
+    "Tráfico de droga"
+   ],
+   "tickers": [],
+   "resumo": "A Polícia Judiciária deteve no aeroporto de Lisboa três mulheres estrangeiras que transportavam, dissimulados nas bagagens, 11 quilos de cocaína com elevado grau de pureza.",
+   "img": "https://www.lusa.pt/temp/images/273x164/cache_273x164_Crop_high_43475316_4077424_30082024121418.jpg"
   },
   {
    "id": "cm-ovomcare-20261003",
@@ -406,6 +737,41 @@
    "tickers": [],
    "resumo": "Um bombeiro de Agualva-Cacém foi filmado a levar um artigo de um idoso que estava a socorrer em casa; a corporação manifestou vergonha.",
    "img": ""
+  },
+  {
+   "id": "zerozero-jota-celtic-1218601",
+   "ts": "2026-10-03T10:58:02Z",
+   "source": "zerozero",
+   "lado": "pt",
+   "url": "https://www.zerozero.pt/noticias/jota-volta-a-jogar-pelo-celtic-18-meses-depois/1218601",
+   "title": "Jota volta a jogar pelo Celtic 18 meses depois",
+   "topic": "desporto",
+   "sub": "lafora",
+   "impacto": "medio",
+   "setores": [
+    "Celtic"
+   ],
+   "tickers": [],
+   "resumo": "O extremo português Jota regressou à competição pelo Celtic, após 18 meses de paragem, num particular à porta fechada com o Falkirk, vencido pelos escoceses por 2-0.",
+   "img": "https://www.zerozero.pt/img/noticias/601/imgS620I1218601T20261003114752.jpg"
+  },
+  {
+   "id": "eco-prova-dos-9-salarios",
+   "ts": "2026-10-03T10:15:52Z",
+   "source": "ECO",
+   "lado": "pt",
+   "url": "https://eco.sapo.pt/2026/10/03/prova-dos-9-salarios-subiram-mesmo-15-nos-ultimos-dois-anos-como-diz-montenegro/",
+   "title": "Prova dos 9. Salários subiram mesmo 15% nos últimos dois anos como diz Montenegro?",
+   "topic": "economia",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Salários",
+    "Inflação"
+   ],
+   "tickers": [],
+   "resumo": "A afirmação do primeiro-ministro está praticamente certa: o salário líquido subiu 14,43% em dois anos. Descontada a inflação, o ganho real é de apenas 5,75%.",
+   "img": "https://ecoonline.s3.amazonaws.com/uploads/2017/11/cropped-prova_9_manchete-01-01-7-scaled.png"
   },
   {
    "id": "obs-frente-civica-rui-pinto",
@@ -4919,375 +5285,6 @@
    "tickers": [],
    "resumo": "O estudo sobre o consumo de álcool, tabaco, drogas e outros comportamentos aditivos entre estudantes dos 13 aos 18 anos aponta para uma evolução globalmente favorável face à edição anterior, de 2019.",
    "img": "https://cdn-images.rtp.pt/icm/noticias/images/ae/aed73169d5c54d873ab6da0f0cdcafb9?w=350&q=50&rect=0,0,1499,822&auto=format"
-  },
-  {
-   "id": "cnn-6abcdd40d34e9a786e75a3ee",
-   "ts": "2026-09-30T09:58:00Z",
-   "source": "CNN Portugal",
-   "lado": "pt",
-   "url": "https://cnnportugal.iol.pt/prisoes-portugal/reclusos-portugal/todas-as-reclusas-sairam-das-prisoes-de-odemira-e-da-guarda-portugal-fica-com-tres-cadeias-para-mulheres/20260930/6abcdd40d34e9a786e75a3ee",
-   "title": "Todas as reclusas saíram das prisões de Odemira e da Guarda. Portugal fica com três cadeias para mulheres",
-   "topic": "justica",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Prisões",
-    "Sobrelotação"
-   ],
-   "tickers": [],
-   "resumo": "Todas as reclusas saíram das prisões de Odemira e da Guarda, ficando Portugal com três cadeias para mulheres, numa reorganização do sistema prisional para aliviar a sobrelotação.",
-   "img": "https://img.iol.pt/image/id/63a1934c0cf255d6e1419a98/200.jpg"
-  },
-  {
-   "id": "cm-atriz-criador-moda-globos",
-   "ts": "2026-09-30T09:52:07Z",
-   "source": "CM",
-   "lado": "pt",
-   "url": "https://m.facebook.com/cmjornal/posts/pfbid031ysKWcwV9nd44DnQ2eARnxSM26MXVHhE767XpG7DeN2ufoAL4oEEv6p9GVuxVfhcl",
-   "title": "Atriz e criador de moda em desaguisado público por comentário sobre o look nos Globos de Ouro",
-   "topic": "rosa",
-   "sub": "famosos",
-   "impacto": "baixo",
-   "setores": [
-    "Globos de Ouro"
-   ],
-   "tickers": [],
-   "resumo": "Uma atriz e um criador de moda entraram em desaguisado público por causa de um comentário feito sobre o look da atriz na gala dos Globos de Ouro.",
-   "img": ""
-  },
-  {
-   "id": "eco-igcp-obrigacoes",
-   "ts": "2026-09-30T09:47:59Z",
-   "source": "ECO",
-   "lado": "pt",
-   "url": "https://eco.sapo.pt/2026/09/30/igcp-corta-em-63-emissoes-de-obrigacoes-para-este-ano/",
-   "title": "IGCP corta em 6,3% emissões de obrigações para este ano",
-   "topic": "economia",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "IGCP",
-    "Dívida pública"
-   ],
-   "tickers": [],
-   "resumo": "O IGCP reduziu para 22,5 mil milhões de euros a estimativa de emissões de obrigações em 2026, menos 1,5 mil milhões que o previsto. Até final de agosto tinham sido colocados 16,8 mil milhões.",
-   "img": "https://eco.imgix.net/uploads/2025/09/cropped-igcp04-2.jpg"
-  },
-  {
-   "id": "eco-sonae-sierra-ceo",
-   "ts": "2026-09-30T09:30:25Z",
-   "source": "ECO",
-   "lado": "pt",
-   "url": "https://eco.sapo.pt/2026/09/30/luis-mota-duarte-vai-liderar-sonae-sierra-a-partir-de-janeiro-de-2027/",
-   "title": "Luís Mota Duarte vai liderar Sonae Sierra a partir de janeiro de 2027",
-   "topic": "economia",
-   "sub": "",
-   "impacto": "baixo",
-   "setores": [
-    "Sonae"
-   ],
-   "tickers": [],
-   "resumo": "Luís Mota Duarte será o novo líder da Sonae Sierra a partir de janeiro de 2027, sucedendo a Fernando Guedes de Oliveira, que dirigia a empresa desde 2010.",
-   "img": "https://eco.imgix.net/uploads/2026/09/cropped-luis-mota-duarte.jpg"
-  },
-  {
-   "id": "obs-time-out-metro-porto",
-   "ts": "2026-09-30T09:28:42Z",
-   "source": "Observador",
-   "lado": "pt",
-   "url": "https://observador.pt/2026/09/30/mercado-time-out-exige-615-mil-euros-a-metro-do-porto-por-causa-das-obras-em-sao-bento/",
-   "title": "Mercado Time Out exige 615 mil euros à Metro do Porto",
-   "topic": "outros",
-   "sub": "",
-   "impacto": "baixo",
-   "setores": [
-    "Metro do Porto",
-    "São Bento"
-   ],
-   "tickers": [],
-   "resumo": "O Mercado Time Out exige à Metro do Porto 615 mil euros, entre despesas extraordinárias, lucros cessantes e danos de imagem, por causa das obras em São Bento.",
-   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2000:1124:nowe:0:104/q:70/plain/https://s3.observador.pt/wp-content/uploads/2021/01/25171211/30502643.jpg"
-  },
-  {
-   "id": "abola-osman-kul-porto",
-   "ts": "2026-09-30T09:28:00Z",
-   "source": "A Bola",
-   "lado": "pt",
-   "url": "https://www.abola.pt/noticias/fc-porto-analista-deixa-equipa-tecnica-de-farioli-e-regressa-a-turquia-2026093009240622329",
-   "title": "FC Porto: analista deixa equipa técnica de Farioli e regressa à Turquia",
-   "topic": "desporto",
-   "sub": "porto",
-   "impacto": "baixo",
-   "setores": [
-    "FC Porto"
-   ],
-   "tickers": [],
-   "resumo": "O analista Osman Kul deixa a equipa técnica de Francesco Farioli no FC Porto e regressa à Turquia, deixando uma mensagem de agradecimento ao clube.",
-   "img": "https://sportal365images.com/process/smp-images-production/abola.pt/30092026/50b9557c-2f4c-4ce4-b37b-832532aa3e30.jpg?operations=autocrop(1200:630)"
-  },
-  {
-   "id": "obs-profjam-coliseu",
-   "ts": "2026-09-30T09:26:17Z",
-   "source": "Observador",
-   "lado": "pt",
-   "url": "https://observador.pt/2026/09/30/profjam-faz-viagem-sem-fronteiras-em-janeiro-no-palco-do-coliseu-de-lisboa/",
-   "title": "ProfJam faz \"viagem sem fronteiras\" no Coliseu de Lisboa",
-   "topic": "cultura",
-   "sub": "",
-   "impacto": "baixo",
-   "setores": [
-    "Concertos"
-   ],
-   "tickers": [],
-   "resumo": "O rapper ProfJam anunciou um concerto em janeiro no Coliseu de Lisboa, onde vai percorrer toda a sua obra, incluindo canções que os palcos maiores não ouvem há muito tempo.",
-   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2000:1122:nowe:0:74/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/09/29185508/47081923.jpg"
-  },
-  {
-   "id": "abola-vilaca-campeao-mundo-pressao",
-   "ts": "2026-09-30T09:20:00Z",
-   "source": "A Bola",
-   "lado": "pt",
-   "url": "https://www.abola.pt/noticias/sou-campeao-do-mundo-quanto-mais-pressao-melhor-vou-chegar-aos-jogos-2026092921540470888",
-   "title": "«Sou campeão do Mundo, quanto mais pressão, melhor vou chegar aos Jogos»",
-   "topic": "desporto",
-   "sub": "triatlo",
-   "impacto": "medio",
-   "setores": [
-    "Mundial de triatlo"
-   ],
-   "tickers": [],
-   "resumo": "Vasco Vilaça, campeão do Mundo de triatlo, diz que se adapta à nova pressão e que o título mundial fica para sempre.",
-   "img": "https://sportal365images.com/process/smp-images-production/abola.pt/29092026/0188a93e-67a6-4542-9625-aa6122ed3fc4.jpg?operations=autocrop(1200:630)"
-  },
-  {
-   "id": "obs-psp-droga-sete-meses",
-   "ts": "2026-09-30T09:15:53Z",
-   "source": "Observador",
-   "lado": "pt",
-   "url": "https://observador.pt/2026/09/30/mais-de-1-900-detidos-e-meia-tonelada-de-droga-apreendida-em-sete-meses/",
-   "title": "Mais de 1.900 detidos e meia tonelada de droga apreendida",
-   "topic": "politica",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "PSP",
-    "Droga"
-   ],
-   "tickers": [],
-   "resumo": "A PSP fez 5.558 apreensões entre janeiro e julho, incluindo mais de 380 quilos de canábis, quase 100 de cocaína e mais de 25 de heroína, com mais de 1.900 detidos.",
-   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2000:1122:nowe:0:211/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/09/30092125/43985207.jpg"
-  },
-  {
-   "id": "hn-rastreio-colorretal",
-   "ts": "2026-09-30T09:15:20Z",
-   "source": "HealthNews",
-   "lado": "pt",
-   "url": "https://healthnews.pt/2026/09/30/rastreio-do-cancro-colorretal-deve-ser-prioridade-nacional-na-proxima-decada-defendem-medicos-e-doentes/",
-   "title": "Rastreio do cancro colorretal deve ser prioridade nacional na próxima década, defendem médicos e doentes",
-   "topic": "saude",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Cancro",
-    "Rastreio"
-   ],
-   "tickers": [],
-   "resumo": "Médicos e doentes defendem que o rastreio do cancro colorretal seja prioridade nacional, num país com cerca de 10.575 novos casos por ano, e propõem cinco prioridades estratégicas.",
-   "img": ""
-  },
-  {
-   "id": "rtp-n1768594",
-   "ts": "2026-09-30T09:12:54Z",
-   "source": "RTP",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/mundo/estados-unidos-oficializam-retirada-da-missao-militar-no-iraque_n1768594",
-   "title": "Estados Unidos oficializam retirada da missão militar no Iraque",
-   "topic": "mundo",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Iraque",
-    "EUA"
-   ],
-   "tickers": [],
-   "resumo": "O Pentágono anunciou o fim oficial da missão de 12 anos da coligação liderada pelos EUA contra o Estado Islâmico no Iraque, já confirmado por Bagdade.",
-   "img": "https://cdn-images.rtp.pt/icm/noticias/images/3f/3fa0a477d97953ad35a7096f1fff58f4?w=350&q=50&rect=0,11,1461,801&auto=format"
-  },
-  {
-   "id": "rtp-n1768569",
-   "ts": "2026-09-30T09:09:59Z",
-   "source": "RTP",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/pais/campanha-vacinacao-dgs-admite-hesitacao-na-covid-19-e-garante-cobertura-dos-grupos-prioritarios_n1768569",
-   "title": "Campanha vacinação. DGS admite \"hesitação\" na Covid-19 e garante cobertura dos grupos prioritários",
-   "topic": "saude",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "DGS",
-    "Vacinação"
-   ],
-   "tickers": [],
-   "resumo": "A diretora-geral da Saúde reconhece que as campanhas de vacinação contra a Covid-19 têm menos adesão depois da pandemia, mas garante a cobertura dos grupos prioritários.",
-   "img": "https://cdn-images.rtp.pt/icm/noticias/images/06/06f5913b576a37bc7e2ca96aacf812c7?w=350&q=50&rect=0,47,600,329&auto=format"
-  },
-  {
-   "id": "cm-super-dragoes-casal-bilhetes",
-   "ts": "2026-09-30T09:07:07Z",
-   "source": "CM",
-   "lado": "pt",
-   "url": "https://m.facebook.com/cmjornal/posts/pfbid0xpwcnNf9ZiGt5zYWcS8iDZk9ZQE4rw4vzM1TupicCWHz29DNSyiQtqzsKQzGZuPnl",
-   "title": "Nova investigação: casal ganhou quantia milionária com venda de bilhetes na liderança de Fernando Madureira nos Super Dragões",
-   "topic": "justica",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Super Dragões",
-    "FC Porto"
-   ],
-   "tickers": [],
-   "resumo": "Uma nova investigação indica que um casal ganhou uma quantia milionária com a venda de bilhetes, período que abrange apenas três anos da liderança de Fernando Madureira nos Super Dragões.",
-   "img": ""
-  },
-  {
-   "id": "as-ocon-haas-saida",
-   "ts": "2026-09-30T09:00:40Z",
-   "source": "AutoSport",
-   "lado": "pt",
-   "url": "https://www.autosport.pt/sem-categoria/f1-esteban-ocon-confirma-saida-da-haas-no-final-da-temporada-de-2026/",
-   "title": "F1, Esteban Ocon confirma saída da Haas no final da temporada de 2026",
-   "topic": "desporto",
-   "sub": "motores",
-   "impacto": "baixo",
-   "setores": [
-    "Fórmula 1"
-   ],
-   "tickers": [],
-   "resumo": "Esteban Ocon anunciou nas redes sociais que deixa a Haas no final de 2026, antes do Grande Prémio do Bahrain. O futuro do piloto na Fórmula 1 continua incerto.",
-   "img": ""
-  },
-  {
-   "id": "ng-bernardina-brito-bb",
-   "ts": "2026-09-30T09:00:00Z",
-   "source": "Nova Gente",
-   "lado": "pt",
-   "url": "https://www.novagente.pt/bernardina-brito-revela-que-rejeitou-convite-para-o-big-brother-e-aponta-para-concorrente-pessoa-repugnante/",
-   "title": "Bernardina Brito revela que rejeitou convite para o Big Brother e aponta para concorrente: \"Pessoa repugnante\"",
-   "topic": "rosa",
-   "sub": "reality",
-   "impacto": "baixo",
-   "setores": [
-    "Big Brother",
-    "TVI"
-   ],
-   "tickers": [],
-   "resumo": "Bernardina Brito diz que recusou o convite da TVI para o Big Brother, por acreditar que não aguentaria um dos concorrentes.",
-   "img": "https://www.novagente.pt/wp-content/uploads/images/noticia/2026/2026-03/2026-03-02/nova-gente-124110-noticia-luis-goncalves-revela-exorbitante-valor-recusou-para-promover-casinos_2.jpg"
-  },
-  {
-   "id": "cnn-6abccf25d34e9a786e75a37e",
-   "ts": "2026-09-30T08:58:13Z",
-   "source": "CNN Portugal",
-   "lado": "pt",
-   "url": "https://cnnportugal.iol.pt/inundacoes/cheias/ha-63-zonas-de-risco-de-inundacao-em-portugal-em-algumas-continua-a-construir-se/20260930/6abccf25d34e9a786e75a37e",
-   "title": "Há 63 zonas de risco de inundação em Portugal. Em algumas continua a construir-se",
-   "topic": "tempo",
-   "sub": "",
-   "impacto": "baixo",
-   "setores": [
-    "Cheias"
-   ],
-   "tickers": [],
-   "resumo": "Uma análise identifica 63 zonas de risco de inundação em Portugal e alerta que em algumas continua a construir-se, o que aumenta a exposição às cheias.",
-   "img": "https://img.iol.pt/image/id/698de86ed34e0ec52ec37da4/200.jpg"
-  },
-  {
-   "id": "eco-imt-presidente",
-   "ts": "2026-09-30T08:57:50Z",
-   "source": "ECO",
-   "lado": "pt",
-   "url": "https://eco.sapo.pt/2026/09/30/chefe-de-gabinete-de-miguel-pinto-luz-e-o-novo-presidente-do-instituto-da-mobilidade-e-transportes/",
-   "title": "Chefe de gabinete de Miguel Pinto Luz é o novo presidente do Instituto da Mobilidade e Transportes",
-   "topic": "politica",
-   "sub": "",
-   "impacto": "baixo",
-   "setores": [
-    "IMT"
-   ],
-   "tickers": [],
-   "resumo": "Gustavo Madeira, chefe de gabinete do ministro das Infraestruturas, foi nomeado presidente do IMT, com uma nova equipa de gestão em funções de imediato.",
-   "img": "https://eco.imgix.net/uploads/2017/09/cropped-imt.jpg"
-  },
-  {
-   "id": "lusa-47859920",
-   "ts": "2026-09-30T08:45:00Z",
-   "source": "Lusa",
-   "lado": "pt",
-   "url": "https://www.lusa.pt/international/article/2026-09-30/47859920/china-mobiliza-caças-e-bombardeiros-junto-a-atol-disputado-com-as-filipinas",
-   "title": "China mobiliza caças e bombardeiros junto a atol disputado com as Filipinas",
-   "topic": "mundo",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "China",
-    "Filipinas"
-   ],
-   "tickers": [],
-   "resumo": "O Exército chinês realizou \"patrulhas de prontidão para combate\" nas águas e no espaço aéreo em torno do atol de Scarborough, disputado com as Filipinas.",
-   "img": "https://www.lusa.pt/temp/images/430x338/cache_430x338_Crop_high_42856749_325313215282397.jpg"
-  },
-  {
-   "id": "lusa-47859910",
-   "ts": "2026-09-30T08:43:00Z",
-   "source": "Lusa",
-   "lado": "pt",
-   "url": "https://www.lusa.pt/lusofonia/article/2026-09-30/47859910/china-impõe-tarifa-adicional-de-55-à-carne-brasileira-após-esgotar-quota",
-   "title": "China impõe tarifa adicional de 55% à carne brasileira após esgotar quota",
-   "topic": "mundo",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Brasil",
-    "Comércio"
-   ],
-   "tickers": [],
-   "resumo": "A China vai aplicar, a partir de quinta-feira, uma tarifa adicional de 55% às importações de carne bovina do Brasil, depois de esgotada a quota anual.",
-   "img": "https://www.lusa.pt/temp/images/430x338/cache_430x338_Crop_high_25587229_1900395_27022019115410.JPG"
-  },
-  {
-   "id": "lusa-47859899",
-   "ts": "2026-09-30T08:41:00Z",
-   "source": "Lusa",
-   "lado": "pt",
-   "url": "https://www.lusa.pt/national/article/2026-09-30/47859899/termina-hoje-registo-gratuito-de-terrenos-no-bupi-com-46-de-área-identificada-no-continente",
-   "title": "Termina hoje registo gratuito de terrenos no BUPi com 46% de área identificada no continente",
-   "topic": "outros",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "BUPi"
-   ],
-   "tickers": [],
-   "resumo": "O prazo para identificação e registo gratuito de terrenos no Balcão Único do Prédio termina hoje. Estão identificados 46% da área no continente e 37% na Madeira.",
-   "img": "https://www.lusa.pt/temp/images/420x330/cache_420x330_Crop_high_45882086_4920393_20102025034224.JPG"
-  },
-  {
-   "id": "rtp-n1768592",
-   "ts": "2026-09-30T08:37:12Z",
-   "source": "RTP",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/mundo/aviao-comercial-desviado-para-a-arabia-saudita-incidente-tera-resultado-de-briga-entre-pilotos_n1768592",
-   "title": "Avião comercial desviado para a Arábia Saudita. Incidente terá resultado de briga entre pilotos",
-   "topic": "mundo",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Médio Oriente",
-    "Aviação"
-   ],
-   "tickers": [],
-   "resumo": "Um avião que seguia do Dubai para Israel aterrou de emergência na Arábia Saudita, gerando receios de sequestro e levando Israel a mobilizar caças. O incidente terá resultado de uma briga entre os pilotos.",
-   "img": "https://cdn-images.rtp.pt/icm/noticias/images/3d/3dc6d63892132f24a2a14053323500cf?w=350&q=50&rect=0,0,1499,822&auto=format"
   }
  ],
  "contracts": {},
@@ -5314,12 +5311,6 @@
    "nota": "Montenegro vê um \"sinal importante\" do PS; Ventura diz que a abstenção não surpreende porque o PS está \"a governar em conjunto\" com o PSD."
   },
   {
-   "a": "rtp-n1768592",
-   "b": "cnn-6abd16edd34e9a786e75a4fc",
-   "tema": "Voo Flydubai: briga entre pilotos ou terrorismo?",
-   "nota": "A RTP noticiou um incidente que terá resultado de briga entre pilotos; Netanyahu diz que o copiloto tentou despenhar o avião e o ministro da Defesa israelita fala em ataque terrorista jihadista."
-  },
-  {
    "a": "cnn-6abcdf0fd34e53c759c74696",
    "b": "lusa-47861510",
    "tema": "Euribor desce, mas prestação sobe?",
@@ -5338,5 +5329,5 @@
    "nota": "A mãe de Jéssica Maria critica Cláudio Ramos («Nunca será um Sr. Goucha») e o apresentador responde em direto."
   }
  ],
- "arquivo": 299
+ "arquivo": 320
 }

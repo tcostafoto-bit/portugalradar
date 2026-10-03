@@ -1,7 +1,63 @@
 {
- "version": "1.1.48",
- "updated": "2026-10-03T17:00:27Z",
+ "version": "1.1.49",
+ "updated": "2026-10-03T18:17:26Z",
  "recent": [
+  {
+   "id": "obs-flydubai-proibido-pilotar-2024",
+   "ts": "2026-10-03T17:33:19Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "Observador",
+   "title": "Atacante do voo da Flydubai foi proibido de pilotar em 2024"
+  },
+  {
+   "id": "rtp-n1769392",
+   "ts": "2026-10-03T17:11:05Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "RTP",
+   "title": "Diretor prisional do Tennessee demite-se após execução falhada de Christa Pike"
+  },
+  {
+   "id": "abola-portugal-maxima-forca-noruega",
+   "ts": "2026-10-03T17:10:21Z",
+   "topic": "desporto",
+   "sub": "selecao",
+   "source": "A Bola",
+   "title": "Boas notícias: Portugal na máxima força para receber a Noruega"
+  },
+  {
+   "id": "abola-pichardo-benfica-tribunal",
+   "ts": "2026-10-03T17:04:20Z",
+   "topic": "desporto",
+   "sub": "atletismo",
+   "source": "A Bola",
+   "title": "Tribunal obriga Benfica a pagar a Pichardo, mas recusa justa causa ao atleta"
+  },
+  {
+   "id": "cnn-6ac13587d34e53c759c74e71",
+   "ts": "2026-10-03T17:03:00Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "CNN Portugal",
+   "title": "É um número recorde: 134.797 brasileiros são chamados a votar este domingo em Portugal"
+  },
+  {
+   "id": "cm-dgs-alimentacao-criancas-20261003",
+   "ts": "2026-10-03T16:53:26Z",
+   "topic": "saude",
+   "sub": "",
+   "source": "CM",
+   "title": "DGS publica primeiras orientações para a alimentação de crianças até aos três anos"
+  },
+  {
+   "id": "nit-cabana-sass-incendio",
+   "ts": "2026-10-03T16:41:40Z",
+   "topic": "outros",
+   "sub": "",
+   "source": "NiT",
+   "title": "Incêndio destrói restaurante de luxo no Algarve"
+  },
   {
    "id": "abola-bruno-fernandes-sem-divisoes",
    "ts": "2026-10-03T16:33:02Z",
@@ -9,6 +65,14 @@
    "sub": "selecao",
    "source": "A Bola",
    "title": "Bruno Fernandes revela conversa com Ronaldo: «Não existem divisões na Seleção»"
+  },
+  {
+   "id": "cm-chaves-arma-loja-20261003",
+   "ts": "2026-10-03T16:15:01Z",
+   "topic": "justica",
+   "sub": "",
+   "source": "CM",
+   "title": "Mulher de 59 anos detida após entrar em loja com arma de fogo em Chaves"
   },
   {
    "id": "abola-varandas-890-mil",
@@ -27,6 +91,14 @@
    "title": "Jorge Jesus: «Ronaldo é um símbolo da Seleção, que isso fique bem claro»"
   },
   {
+   "id": "obs-tauromaquia-animal",
+   "ts": "2026-10-03T16:06:28Z",
+   "topic": "cultura",
+   "sub": "",
+   "source": "Observador",
+   "title": "Associação contesta inscrição da tauromaquia como património"
+  },
+  {
    "id": "lusa-47879409",
    "ts": "2026-10-03T16:06:00Z",
    "topic": "justica",
@@ -43,12 +115,44 @@
    "title": "«Sudakov acha que pode ser uma lesão grave»: Benfica em alerta"
   },
   {
+   "id": "record-catia-azevedo-sporting",
+   "ts": "2026-10-03T15:49:14Z",
+   "topic": "desporto",
+   "sub": "atletismo",
+   "source": "Record",
+   "title": "Cátia Azevedo e a saída do Sporting: «O meu marido é atleta do clube e pai mas não foi penalizado. Porquê eu?»"
+  },
+  {
+   "id": "rtp-d1769360",
+   "ts": "2026-10-03T15:24:37Z",
+   "topic": "desporto",
+   "sub": "selecao",
+   "source": "RTP",
+   "title": "Solbakken coloca Portugal entre os melhores da Europa e promete Noruega ambiciosa"
+  },
+  {
    "id": "as-cpr-algarve-pedro-almeida",
    "ts": "2026-10-03T15:17:45Z",
    "topic": "desporto",
    "sub": "motores",
    "source": "AutoSport",
    "title": "CPR, Rali do Algarve: Pedro Almeida vence e aproveita deslize de Rúben Rodrigues"
+  },
+  {
+   "id": "rtp-d1769359",
+   "ts": "2026-10-03T15:13:48Z",
+   "topic": "desporto",
+   "sub": "outros",
+   "source": "RTP Desporto",
+   "title": "Judo/Mundiais. Patrícia Sampaio com `estatuto` em sorteio difícil para alguns lusos"
+  },
+  {
+   "id": "rtp-d1769356",
+   "ts": "2026-10-03T15:04:16Z",
+   "topic": "desporto",
+   "sub": "triatlo",
+   "source": "RTP Desporto",
+   "title": "Triatleta Maria Tomé 11.ª classificada na etapa da Taça do Mundo de Roma"
   },
   {
    "id": "caras-tio-ronaldo-estagio",
@@ -67,6 +171,14 @@
    "title": "Chamas e fumo numa instalação da petrolífera saudita Aramco perto de Riade"
   },
   {
+   "id": "rtp-d1769352",
+   "ts": "2026-10-03T14:37:28Z",
+   "topic": "desporto",
+   "sub": "motores",
+   "source": "RTP Desporto",
+   "title": "Marc Márquez vence sprint no Japão e aproxima-se de Jorge Martín"
+  },
+  {
    "id": "abola-triatlo-podio-mundial",
    "ts": "2026-10-03T14:34:22Z",
    "topic": "desporto",
@@ -83,12 +195,36 @@
    "title": "André Ventura assume presidência da comissão de inquérito a Luís Neves"
   },
   {
+   "id": "obs-espanha-manifestacao-habitacao",
+   "ts": "2026-10-03T14:01:47Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "Observador",
+   "title": "Manifestação pela habitação em Espanha apela à greve geral"
+  },
+  {
    "id": "rtp-d1769354",
    "ts": "2026-10-03T13:58:04Z",
    "topic": "desporto",
    "sub": "motores",
    "source": "RTP Desporto",
    "title": "Max Verstappen conquista primeira `pole` do ano no GP do Bahrain"
+  },
+  {
+   "id": "caras-heseltine-morreu",
+   "ts": "2026-10-03T13:54:04Z",
+   "topic": "rosa",
+   "sub": "realeza",
+   "source": "Caras",
+   "title": "Morreu aos 96 anos Sir William Heseltine, histórico secretário privado da rainha Isabel II"
+  },
+  {
+   "id": "obs-diploma-garrafas-gas",
+   "ts": "2026-10-03T13:31:57Z",
+   "topic": "economia",
+   "sub": "",
+   "source": "Observador",
+   "title": "Diploma que reforça acesso a garrafas de gás entra em vigor"
   },
   {
    "id": "cnn-6ac10125d34e9a786e75ab8d",
@@ -123,6 +259,14 @@
    "title": "Líder da oposição quer eleições antecipadas porque Espanha não aguenta mais"
   },
   {
+   "id": "obs-cartaz-ronaldo-porto-retirado",
+   "ts": "2026-10-03T12:13:26Z",
+   "topic": "desporto",
+   "sub": "selecao",
+   "source": "Observador",
+   "title": "Cartaz de apoio a Ronaldo, afixado no Porto, foi retirado"
+  },
+  {
    "id": "lusa-47878498",
    "ts": "2026-10-03T12:10:00Z",
    "topic": "mundo",
@@ -137,6 +281,14 @@
    "sub": "",
    "source": "RTP",
    "title": "Cerca de 325 milhões de barris libertados das reservas estratégicas de petróleo"
+  },
+  {
+   "id": "lusa-47878325",
+   "ts": "2026-10-03T11:32:00Z",
+   "topic": "justica",
+   "sub": "",
+   "source": "Lusa",
+   "title": "PJ detém no aeroporto de Lisboa três mulheres com 11 Kg de cocaína"
   },
   {
    "id": "cm-ovomcare-20261003",
@@ -177,6 +329,22 @@
    "sub": "",
    "source": "CM",
    "title": "Bombeiro de Agualva-Cacém filmado a roubar artigo de idoso que socorria em casa"
+  },
+  {
+   "id": "zerozero-jota-celtic-1218601",
+   "ts": "2026-10-03T10:58:02Z",
+   "topic": "desporto",
+   "sub": "lafora",
+   "source": "zerozero",
+   "title": "Jota volta a jogar pelo Celtic 18 meses depois"
+  },
+  {
+   "id": "eco-prova-dos-9-salarios",
+   "ts": "2026-10-03T10:15:52Z",
+   "topic": "economia",
+   "sub": "",
+   "source": "ECO",
+   "title": "Prova dos 9. Salários subiram mesmo 15% nos últimos dois anos como diz Montenegro?"
   },
   {
    "id": "obs-frente-civica-rui-pinto",
@@ -223,7 +391,6 @@
   "abola-bruno-fernandes-sem-divisoes",
   "caras-tio-ronaldo-estagio",
   "cnn-6abcdf0fd34e53c759c74696",
-  "cnn-6abd16edd34e9a786e75a4fc",
   "cnn-6abd570fd34e53c759c74883",
   "lusa-47861510",
   "lusa-47864031",
@@ -231,7 +398,6 @@
   "ng-claudio-ramos-responde-mae-jessica-maria",
   "ng-jessica-maria-claudio-ramos",
   "obs-frente-civica-rui-pinto",
-  "rtp-n1768592",
   "rtp-n1768608",
   "rtp-v1768628"
  ],
