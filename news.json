@@ -1,23 +1,500 @@
 {
- "version": "1.1.47",
- "updated": "2026-10-01T14:28:21Z",
+ "version": "1.1.48",
+ "updated": "2026-10-03T17:00:27Z",
  "brief": [
   {
-   "texto": "Cristiano Ronaldo deixou o estágio da Seleção e Rafael Leão herda a camisola 7 no jogo desta noite com a Dinamarca.",
-   "id": "rtp-d1768829"
+   "texto": "André Ventura vai presidir à comissão de inquérito a Luís Neves.",
+   "id": "lusa-47878927"
   },
   {
-   "texto": "CNN Portugal noticia que o Supremo travou a investigação a Marcelo Rebelo de Sousa no caso das gémeas."
+   "texto": "Greve na easyJet tem adesão total e os cancelamentos podem chegar a 90%.",
+   "id": "lusa-47878271"
   },
   {
-   "texto": "A taxa de juro dos novos créditos à habitação subiu para 3%, o valor mais alto desde abril de 2025."
+   "texto": "A Rússia volta a pedir a diplomatas e estrangeiros que saiam de Kiev.",
+   "id": "lusa-47878498"
   },
   {
-   "texto": "Os EUA mandaram a delegação do Irão abandonar o país após o fracasso das negociações.",
-   "id": "rtp-n1768775"
+   "texto": "Jorge Jesus diz que Ronaldo é um símbolo da Seleção, a um dia do Portugal-Noruega.",
+   "id": "abola-jesus-ronaldo-simbolo"
   }
  ],
  "items": [
+  {
+   "id": "abola-bruno-fernandes-sem-divisoes",
+   "ts": "2026-10-03T16:33:02Z",
+   "source": "A Bola",
+   "lado": "pt",
+   "url": "https://www.abola.pt/noticias/bruno-fernandes-revela-conversa-com-ronaldo-nao-existem-divisoes-na-selecao-2026100316312794764",
+   "title": "Bruno Fernandes revela conversa com Ronaldo: «Não existem divisões na Seleção»",
+   "topic": "desporto",
+   "sub": "selecao",
+   "impacto": "medio",
+   "setores": [
+    "Liga das Nações"
+   ],
+   "tickers": [],
+   "resumo": "O médio do Manchester United deu o seu ponto de vista sobre a polémica com o capitão, garantiu que não há divisões na Seleção e apontou à Noruega.",
+   "img": "https://sportal365images.com/process/smp-images-production/abola.pt/03102026/98bf43de-6a11-435a-a21a-50b7b6e75102.jpeg?operations=crop(0:72:3151:1845),autocrop(1200:630)"
+  },
+  {
+   "id": "abola-varandas-890-mil",
+   "ts": "2026-10-03T16:10:14Z",
+   "source": "A Bola",
+   "lado": "pt",
+   "url": "https://www.abola.pt/noticias/sporting-so-num-cenario-excecional-varandas-recebera-890-mil-euros-em-202627-2026100316101455111",
+   "title": "Sporting: só num cenário excecional Varandas receberá 890 mil euros em 2026/27",
+   "topic": "desporto",
+   "sub": "sporting",
+   "impacto": "medio",
+   "setores": [
+    "SAD",
+    "Assembleia Geral"
+   ],
+   "tickers": [],
+   "resumo": "A comissão de acionistas propõe subir a parte fixa da remuneração do presidente de 300 para 356 mil euros; a proposta vai à AG da SAD a 26 de outubro e o teto de 890 mil só se atinge em cenário excecional.",
+   "img": "https://sportal365images.com/process/smp-images-production/abola.pt/03102026/ee1f6bf6-0949-4c8b-a945-dc37a5a5a238.jpeg?operations=crop(0:194:3498:2162),autocrop(1200:630)"
+  },
+  {
+   "id": "abola-jesus-ronaldo-simbolo",
+   "ts": "2026-10-03T16:07:41Z",
+   "source": "A Bola",
+   "lado": "pt",
+   "url": "https://www.abola.pt/noticias/jorge-jesus-ronaldo-e-um-simbolo-da-selecao-que-isso-fique-bem-claro-2026100315572395953",
+   "title": "Jorge Jesus: «Ronaldo é um símbolo da Seleção, que isso fique bem claro»",
+   "topic": "desporto",
+   "sub": "selecao",
+   "impacto": "alto",
+   "setores": [
+    "Liga das Nações",
+    "Cristiano Ronaldo"
+   ],
+   "tickers": [],
+   "resumo": "O selecionador abordou o caso Ronaldo na antevisão do Portugal-Noruega e considerou o capitão um símbolo da Seleção e de Portugal.",
+   "img": "https://sportal365images.com/process/smp-images-production/abola.pt/02102026/b8f6b138-d379-44a2-af46-6589017c3d8e.jpg?operations=crop(0:220:4997:3031),autocrop(1200:630)"
+  },
+  {
+   "id": "lusa-47879409",
+   "ts": "2026-10-03T16:06:00Z",
+   "source": "Lusa",
+   "lado": "pt",
+   "url": "https://www.lusa.pt/article/47879409/ministra-da-justiça-está-a-analisar-pedidos-sobre-retirada-de-proteção-especial-a-rui-pinto",
+   "title": "Ministra da Justiça está a analisar pedidos sobre retirada de proteção especial a Rui Pinto",
+   "topic": "justica",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Rui Pinto"
+   ],
+   "tickers": [],
+   "resumo": "A ministra da Justiça, Rita Alarcão Júdice, está a analisar o encerramento do Programa Especial de Segurança de Rui Pinto e promete resposta até dia 10. O programa foi encerrado por alegada falta de compromisso da testemunha.",
+   "img": "https://www.lusa.pt/temp/images/400x248/cache_400x248_Crop_high_47875374_3697771_02102026044421.jpg"
+  },
+  {
+   "id": "abola-sudakov-lesao",
+   "ts": "2026-10-03T15:55:02Z",
+   "source": "A Bola",
+   "lado": "pt",
+   "url": "https://www.abola.pt/noticias/sudakov-acha-que-pode-ser-uma-lesao-grave-benfica-em-alerta-2026100315550299253",
+   "title": "«Sudakov acha que pode ser uma lesão grave»: Benfica em alerta",
+   "topic": "desporto",
+   "sub": "benfica",
+   "impacto": "medio",
+   "setores": [
+    "Lesão"
+   ],
+   "tickers": [],
+   "resumo": "O médio do Benfica saiu lesionado do Ucrânia-Irlanda do Norte e, segundo um companheiro da seleção ucraniana, teme que seja uma lesão grave.",
+   "img": "https://sportal365images.com/process/smp-images-production/abola.pt/03102026/e7abc36c-7026-42cb-b7f5-e3107b306f8b.jpg?operations=crop(0:627:5992:3998),autocrop(1200:630)"
+  },
+  {
+   "id": "as-cpr-algarve-pedro-almeida",
+   "ts": "2026-10-03T15:17:45Z",
+   "source": "AutoSport",
+   "lado": "pt",
+   "url": "https://www.autosport.pt/ralis/cpr-rali-do-algarve-pedro-almeida-vence-e-aproveita-deslize-de-ruben-rodrigues/",
+   "title": "CPR, Rali do Algarve: Pedro Almeida vence e aproveita deslize de Rúben Rodrigues",
+   "topic": "desporto",
+   "sub": "motores",
+   "impacto": "medio",
+   "setores": [
+    "CPR",
+    "Rali do Algarve"
+   ],
+   "tickers": [],
+   "resumo": "Pedro Almeida e António Costa venceram o Rali do Algarve, a segunda vitória da época, aproveitando um deslize de Rúben Rodrigues na luta pelo título do Campeonato de Portugal de Ralis.",
+   "img": ""
+  },
+  {
+   "id": "caras-tio-ronaldo-estagio",
+   "ts": "2026-10-03T14:56:04Z",
+   "source": "Caras",
+   "lado": "pt",
+   "url": "https://caras.pt/famosos/2026-10-03-familiar-de-cristiano-ronaldo-quebra-o-silencio-sobre-saida-do-estagio-nao-havia-necessidade/",
+   "title": "Familiar de Cristiano Ronaldo quebra o silêncio sobre saída do estágio: 'Não havia necessidade…'",
+   "topic": "rosa",
+   "sub": "famosos",
+   "impacto": "medio",
+   "setores": [
+    "Cristiano Ronaldo"
+   ],
+   "tickers": [],
+   "resumo": "O tio de Cristiano Ronaldo criticou a forma como a Federação Portuguesa de Futebol conduziu a situação que levou à saída do jogador do estágio da Seleção.",
+   "img": "https://caras.pt/wp-content/uploads/2026/10/261003_Cristiano-Ronaldo-2-1600x900.jpg"
+  },
+  {
+   "id": "rtp-n1769367",
+   "ts": "2026-10-03T14:38:57Z",
+   "source": "RTP",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/guerra-no-medio-oriente/chamas-e-fumo-numa-instalacao-da-petrolifera-saudita-aramco-perto-de-riade_n1769367",
+   "title": "Chamas e fumo numa instalação da petrolífera saudita Aramco perto de Riade",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "alto",
+   "setores": [
+    "Médio Oriente",
+    "Petróleo"
+   ],
+   "tickers": [],
+   "resumo": "Uma instalação da petrolífera saudita Aramco, a sul de Riade, estava envolta em chamas e fumo, segundo a AFP.",
+   "img": "https://cdn-images.rtp.pt/icm/noticias/images/b7/b72054a4b4674eaac47ca5f22648c698?w=350&q=50&rect=1,0,1910,1047&auto=format"
+  },
+  {
+   "id": "abola-triatlo-podio-mundial",
+   "ts": "2026-10-03T14:34:22Z",
+   "source": "A Bola",
+   "lado": "pt",
+   "url": "https://www.abola.pt/video/ricardo-batista-um-portugues-no-podio-e-excelente-dois-e-impensavel-2026100314342290609",
+   "title": "Ricardo Batista: «Um português no pódio é excelente, dois é impensável»",
+   "topic": "desporto",
+   "sub": "triatlo",
+   "impacto": "alto",
+   "setores": [
+    "Mundial de triatlo"
+   ],
+   "tickers": [],
+   "resumo": "Vasco Vilaça é campeão do mundo de triatlo e um triatleta do CN Torres Novas conquistou o terceiro lugar, numa dupla presença portuguesa no pódio.",
+   "img": "https://sportal365images.com/process/smp-images-production/abola.pt/02102026/dc6d2102-ae2e-4576-ac7a-3beca75ff3c7.png?operations=autocrop(1200:630)"
+  },
+  {
+   "id": "lusa-47878927",
+   "ts": "2026-10-03T14:30:00Z",
+   "source": "Lusa",
+   "lado": "pt",
+   "url": "https://www.lusa.pt/article/47878927/andré-ventura-assume-presidência-da-comissão-de-inquérito-a-luís-neves",
+   "title": "André Ventura assume presidência da comissão de inquérito a Luís Neves",
+   "topic": "politica",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Chega",
+    "Comissão de inquérito"
+   ],
+   "tickers": [],
+   "resumo": "O líder do Chega anunciou que vai presidir à comissão parlamentar de inquérito, proposta pelo partido, à atuação de Luís Neves enquanto diretor da Polícia Judiciária.",
+   "img": "https://www.lusa.pt/temp/images/900x600/cache_900x600_Crop_high_47850502_1210557_28092026034612.JPG"
+  },
+  {
+   "id": "rtp-d1769354",
+   "ts": "2026-10-03T13:58:04Z",
+   "source": "RTP Desporto",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/motores/max-verstappen-conquista-primeira-pole-do-ano-no-gp-do-bahrain_d1769354",
+   "title": "Max Verstappen conquista primeira `pole` do ano no GP do Bahrain",
+   "topic": "desporto",
+   "sub": "motores",
+   "impacto": "medio",
+   "setores": [
+    "Fórmula 1"
+   ],
+   "tickers": [],
+   "resumo": "O neerlandês da Red Bull conquistou a primeira pole position da temporada para o Grande Prémio do Bahrain, 16.ª ronda do Mundial de Fórmula 1.",
+   "img": "https://cdn-images.rtp.pt/icm/noticias/images/25/2529f801b945c194f421b7c23aed611c?w=350&q=50&rect=0,52,2552,1399&auto=format"
+  },
+  {
+   "id": "cnn-6ac10125d34e9a786e75ab8d",
+   "ts": "2026-10-03T13:20:37Z",
+   "source": "CNN Portugal",
+   "lado": "pt",
+   "url": "https://cnnportugal.iol.pt/sismo/acores/sismo-de-3-7-na-escala-de-richter-sentido-na-ilha-acoriana-de-santa-maria/20261003/6ac10125d34e9a786e75ab8d",
+   "title": "Sismo de 3,7 na escala de Richter sentido na ilha açoriana de Santa Maria",
+   "topic": "tempo",
+   "sub": "",
+   "impacto": "baixo",
+   "setores": [
+    "Sismo",
+    "Açores"
+   ],
+   "tickers": [],
+   "resumo": "Um sismo de magnitude 3,7 foi sentido na ilha de Santa Maria, nos Açores, às 10h54 locais, com epicentro a cerca de 20 km a nordeste de Santa Bárbara.",
+   "img": ""
+  },
+  {
+   "id": "rtp-n1769338",
+   "ts": "2026-10-03T12:47:47Z",
+   "source": "RTP",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/pais/transplante-de-medula-ossea-pais-ja-trata-doencas-nao-oncologicas-do-sangue_v1769338",
+   "title": "Transplante de medula óssea. País já trata doenças não oncológicas do sangue",
+   "topic": "saude",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Transplantes",
+    "Pediatria"
+   ],
+   "tickers": [],
+   "resumo": "Portugal passou a assegurar o transplante de medula a crianças com doenças do sangue não oncológicas mas fatais, que até agora tinham de ser tratadas no estrangeiro.",
+   "img": "https://cdn-images.rtp.pt/icm/images/19/190c60fb15bfe42bf1999c55f76079e0_N.jpg"
+  },
+  {
+   "id": "lusa-47878569",
+   "ts": "2026-10-03T12:39:00Z",
+   "source": "Lusa",
+   "lado": "pt",
+   "url": "https://www.lusa.pt/article/47878569/seguro-defende-que-o-interior-precisa-políticas-públicas-de-investimento",
+   "title": "Seguro defende que o interior precisa políticas públicas de investimento",
+   "topic": "politica",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Presidente da República",
+    "Interior"
+   ],
+   "tickers": [],
+   "resumo": "O Presidente da República, em Penamacor, defendeu que o interior precisa de políticas públicas de investimento, ao inaugurar uma creche da Misericórdia.",
+   "img": "https://www.lusa.pt/temp/images/400x248/cache_400x248_Crop_high_47878341_5786345_03102026011053.jpg"
+  },
+  {
+   "id": "lusa-47878563",
+   "ts": "2026-10-03T12:33:00Z",
+   "source": "Lusa",
+   "lado": "pt",
+   "url": "https://www.lusa.pt/article/47878563/líder-da-oposição-quer-eleições-antecipadas-porque-espanha-não-aguenta-mais",
+   "title": "Líder da oposição quer eleições antecipadas porque Espanha não aguenta mais",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Espanha",
+    "Habitação"
+   ],
+   "tickers": [],
+   "resumo": "O líder da oposição espanhola, Alberto Núñez Feijóo, diz que o Governo está em agonia e deve convocar eleições. Em Madrid e noutras cidades houve manifestações pelo direito à habitação.",
+   "img": "https://www.lusa.pt/temp/images/205x135/cache_205x135_Crop_high_47872899_9864084314701.jpg"
+  },
+  {
+   "id": "lusa-47878498",
+   "ts": "2026-10-03T12:10:00Z",
+   "source": "Lusa",
+   "lado": "pt",
+   "url": "https://www.lusa.pt/article/47878498/rússia-avisa-diplomatas-e-estrangeiros-para-abandonarem-kiev",
+   "title": "Ucrânia: Rússia avisa diplomatas e estrangeiros para abandonarem Kiev",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "alto",
+   "setores": [
+    "Ucrânia",
+    "Rússia"
+   ],
+   "tickers": [],
+   "resumo": "A Rússia voltou a pedir a diplomatas e estrangeiros que abandonem Kiev, avisando que as suas forças vão continuar a fazer ataques de retaliação em massa contra a capital ucraniana.",
+   "img": "https://www.lusa.pt/temp/images/205x135/cache_205x135_Crop_high_47873958_713573323484872.jpg"
+  },
+  {
+   "id": "rtp-n1769327",
+   "ts": "2026-10-03T11:53:22Z",
+   "source": "RTP",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/economia/cerca-de-325-milhoes-de-barris-libertados-das-reservas-estrategicas-de-petroleo_n1769327",
+   "title": "Cerca de 325 milhões de barris libertados das reservas estratégicas de petróleo",
+   "topic": "economia",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Petróleo",
+    "AIE"
+   ],
+   "tickers": [],
+   "resumo": "A Agência Internacional de Energia indicou que já foram libertados cerca de 325 milhões de barris das reservas estratégicas de petróleo.",
+   "img": "https://cdn-images.rtp.pt/icm/noticias/images/90/90189f9f59b859d6c087219ea386ebdd?w=350&q=50&rect=0,3,1500,822&auto=format"
+  },
+  {
+   "id": "cm-ovomcare-20261003",
+   "ts": "2026-10-03T11:29:29Z",
+   "source": "CM",
+   "lado": "pt",
+   "url": "https://m.facebook.com/cmjornal/posts/pfbid024AZ8mstcrPCEjXyTtMd2Zdf2iSkyPkJyLLYbPrXHngomei6pLT4fzyqRy7SS1YR3l",
+   "title": "Clínica de fertilidade Ovomcare, em Cascais, faliu e afetou cerca de 200 clientes",
+   "topic": "saude",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Fertilidade"
+   ],
+   "tickers": [],
+   "resumo": "A Ovomcare, clínica de fertilidade em Cascais, faliu e afetou cerca de 200 clientes, a maioria britânicos.",
+   "img": ""
+  },
+  {
+   "id": "obs-viseu-incendio-urbano-20261003",
+   "ts": "2026-10-03T11:28:29Z",
+   "source": "Observador",
+   "lado": "pt",
+   "url": "https://observador.pt/2026/10/03/incendio-urbano-em-viseu-provoca-uma-vitima-mortal-e-cinco-feridos-ligeiros/",
+   "title": "Incêndio urbano em Viseu: uma vítima mortal e cinco feridos",
+   "topic": "tempo",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Incêndio urbano"
+   ],
+   "tickers": [],
+   "resumo": "Uma pessoa morreu e cinco ficaram com ferimentos ligeiros, dois deles agentes da PSP, num incêndio no centro histórico de Viseu, segundo a Proteção Civil.",
+   "img": ""
+  },
+  {
+   "id": "lusa-47878271",
+   "ts": "2026-10-03T11:24:00Z",
+   "source": "Lusa",
+   "lado": "pt",
+   "url": "https://www.lusa.pt/article/47878271/greve-na-easyjet-tem-adesão-total-e-cancelamentos-podem-chegar-a-90",
+   "title": "Greve na easyJet com total adesão e cancelamentos podem chegar a 90% - Sindicato",
+   "topic": "tempo",
+   "sub": "",
+   "impacto": "alto",
+   "setores": [
+    "easyJet",
+    "Greve"
+   ],
+   "tickers": [],
+   "resumo": "A greve dos tripulantes de cabine da easyJet voltou a registar adesão total, segundo o presidente do SNPVAC, e os cancelamentos podem chegar a 90%.",
+   "img": "https://www.lusa.pt/temp/images/580x336/cache_580x336_Crop_high_47221594_357354621970884.jpg"
+  },
+  {
+   "id": "obs-noticiario-12h-oe-ps",
+   "ts": "2026-10-03T11:14:22Z",
+   "source": "Observador",
+   "lado": "pt",
+   "url": "https://observador.pt/programas/noticiario/as-noticias-das-12h-2461/",
+   "title": "12h. OE 2027. PS diz que viabilização não é carta branca",
+   "topic": "politica",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "OE2027",
+    "PS"
+   ],
+   "tickers": [],
+   "resumo": "O líder parlamentar do PS justificou a decisão antecipada de viabilizar o Orçamento do Estado para 2027 com a estabilidade política e recusou que seja uma carta branca ao Governo.",
+   "img": ""
+  },
+  {
+   "id": "cm-bombeiro-agualva-20261003",
+   "ts": "2026-10-03T11:04:18Z",
+   "source": "CM",
+   "lado": "pt",
+   "url": "https://m.facebook.com/cmjornal/posts/pfbid0G5RFsBF59iLj5d9wo5Lg3wCgpyn3oEBodeyydj3pCJr9kgtwTJh5JTtfwtufiBual",
+   "title": "Bombeiro de Agualva-Cacém filmado a roubar artigo de idoso que socorria em casa",
+   "topic": "justica",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Bombeiros"
+   ],
+   "tickers": [],
+   "resumo": "Um bombeiro de Agualva-Cacém foi filmado a levar um artigo de um idoso que estava a socorrer em casa; a corporação manifestou vergonha.",
+   "img": ""
+  },
+  {
+   "id": "obs-frente-civica-rui-pinto",
+   "ts": "2026-10-03T09:18:35Z",
+   "source": "Observador",
+   "lado": "pt",
+   "url": "https://observador.pt/2026/10/03/frente-civica-questiona-legalidade-de-retirada-de-protecao-especial-a-rui-pinto/",
+   "title": "Frente Cívica questiona retirada de proteção a Rui Pinto",
+   "topic": "justica",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Rui Pinto",
+    "Frente Cívica"
+   ],
+   "tickers": [],
+   "resumo": "A Frente Cívica escreveu à ministra da Justiça a dizer que o fim do Programa Especial de Segurança de Rui Pinto viola normas legais e requisitos básicos de prudência.",
+   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2000:1122:nowe:0:192/q:70/plain/https://s3.observador.pt/wp-content/uploads/2020/09/04053601/29500817.jpg"
+  },
+  {
+   "id": "obs-marvila-alunos-sem-professor",
+   "ts": "2026-10-03T09:11:37Z",
+   "source": "Observador",
+   "lado": "pt",
+   "url": "https://observador.pt/2026/10/03/mais-de-300-alunos-sem-professor-de-1o-ciclo-nas-escolas-de-marvila-alguns-foram-mandados-para-casa/",
+   "title": "300 alunos sem professor de 1º ciclo nas escolas de Marvila",
+   "topic": "outros",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Educação"
+   ],
+   "tickers": [],
+   "resumo": "Mais de 300 alunos do 1.º ciclo de escolas de Marvila, em Lisboa, estão sem professor; alguns foram mandados para casa e outros integrados em turmas de outros anos.",
+   "img": ""
+  },
+  {
+   "id": "cnn-6ac0bb11d34e53c759c74dd6",
+   "ts": "2026-10-03T08:21:01Z",
+   "source": "CNN Portugal",
+   "lado": "pt",
+   "url": "https://cnnportugal.iol.pt/flydubai/emirados-arabes-unidos/emirados-arabes-unidos-confirmam-que-copiloto-da-flydubai-tinha-intencoes-terroristas/20261003/6ac0bb11d34e53c759c74dd6",
+   "title": "Emirados Árabes Unidos confirmam que copiloto da Flydubai tinha intenções \"terroristas\"",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "alto",
+   "setores": [
+    "Flydubai",
+    "Terrorismo"
+   ],
+   "tickers": [],
+   "resumo": "O procurador-geral dos Emirados afirmou que o copiloto do voo FZ1073 da Flydubai iniciou a execução de um ato terrorista.",
+   "img": "https://img.iol.pt/image/id/6abce3ccd34e53c759c746d4/200.jpg"
+  },
+  {
+   "id": "rtp-d1769082",
+   "ts": "2026-10-02T07:23:59Z",
+   "source": "RTP Desporto",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/benfica/acionistas-da-sad-do-benfica-aprovam-contas-com-lucro-de-191-me-por-unanimidade_d1769082",
+   "title": "Acionistas da SAD do Benfica aprovam contas com lucro de 19,1 ME por unanimidade",
+   "topic": "desporto",
+   "sub": "benfica",
+   "impacto": "medio",
+   "setores": [
+    "SAD",
+    "Contas"
+   ],
+   "tickers": [],
+   "resumo": "Os acionistas da SAD do Benfica aprovaram por unanimidade as contas de 2025/26, com resultado líquido positivo de 19,1 milhões de euros.",
+   "img": ""
+  },
+  {
+   "id": "rtp-e1768915",
+   "ts": "2026-10-01T22:06:42Z",
+   "source": "RTP",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/desporto/portugal-sem-ronaldo-bate-dinamarca-e-jesus-saude-grupo-que-acredita-na-ideia-do-treinador_e1768915",
+   "title": "Portugal sem Ronaldo bate Dinamarca e Jesus saúda \"grupo que acredita na ideia do treinador\"",
+   "topic": "desporto",
+   "sub": "selecao",
+   "impacto": "alto",
+   "setores": [
+    "Liga das Nações"
+   ],
+   "tickers": [],
+   "resumo": "Portugal venceu a Dinamarca por 4-2 na Liga das Nações, sem Cristiano Ronaldo, com golos de Cancelo, Gonçalo Ramos, Vitinha e João Félix.",
+   "img": "https://cdn-images.rtp.pt/icm/noticias/images/a3/a3d9736680824ce3e40808db5fb562e8?w=350&q=50&rect=0,0,1500,822&auto=format"
+  },
   {
    "id": "ng-cristianinho-motivo-ronaldo",
    "ts": "2026-10-01T12:00:24Z",
@@ -4811,480 +5288,6 @@
    "tickers": [],
    "resumo": "Um avião que seguia do Dubai para Israel aterrou de emergência na Arábia Saudita, gerando receios de sequestro e levando Israel a mobilizar caças. O incidente terá resultado de uma briga entre os pilotos.",
    "img": "https://cdn-images.rtp.pt/icm/noticias/images/3d/3dc6d63892132f24a2a14053323500cf?w=350&q=50&rect=0,0,1499,822&auto=format"
-  },
-  {
-   "id": "cnn-6abcca11d34e9a786e75a37a",
-   "ts": "2026-09-30T08:35:00Z",
-   "source": "CNN Portugal",
-   "lado": "pt",
-   "url": "https://cnnportugal.iol.pt/policia-atropelado/feridos/policia-atropelado-durante-perseguicao-na-amadora-sofre-duas-fraturas-expostas-e-vai-ser-operado/20260930/6abcca11d34e9a786e75a37a",
-   "title": "Polícia atropelado durante perseguição na Amadora sofreu duas fraturas expostas e vai ser operado",
-   "topic": "justica",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "PSP",
-    "Amadora"
-   ],
-   "tickers": [],
-   "resumo": "Um polícia atropelado durante uma perseguição na Amadora sofreu duas fraturas expostas e vai ser operado. O suspeito continua a monte e está a ser procurado.",
-   "img": "https://img.iol.pt/image/id/675af5c6d34ea1acf271bf6c/200.jpg"
-  },
-  {
-   "id": "hn-tvi-alexandre-lourenco",
-   "ts": "2026-09-30T08:34:56Z",
-   "source": "HealthNews",
-   "lado": "pt",
-   "url": "https://healthnews.pt/2026/09/30/tribunal-da-relacao-confirma-reportagens-da-tvi-sobre-alexandre-lourenco-nao-correspondem-a-verdade/",
-   "title": "Tribunal da Relação confirma: reportagens da TVI sobre Alexandre Lourenço \"não correspondem à verdade\"",
-   "topic": "justica",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "TVI",
-    "Tribunais"
-   ],
-   "tickers": [],
-   "resumo": "O Tribunal da Relação de Coimbra confirmou a condenação da TVI no processo de Alexandre Lourenço e manteve a ordem para eliminar duas reportagens de maio de 2025.",
-   "img": ""
-  },
-  {
-   "id": "cnn-6abcc980d34e9a786e75a378",
-   "ts": "2026-09-30T08:34:08Z",
-   "source": "CNN Portugal",
-   "lado": "pt",
-   "url": "https://cnnportugal.iol.pt/credito-a-habitacao/emprestimo-habitacao/mais-de-metade-do-credito-a-habitacao-em-portugal-ja-passa-por-intermediarios/20260930/6abcc980d34e9a786e75a378",
-   "title": "Mais de metade do crédito à habitação em Portugal já passa por intermediários",
-   "topic": "economia",
-   "sub": "",
-   "impacto": "baixo",
-   "setores": [
-    "Crédito à habitação"
-   ],
-   "tickers": [],
-   "resumo": "Um estudo a dez mercados europeus coloca Portugal em quarto lugar no peso da intermediação de crédito à habitação, com 57%.",
-   "img": "https://img.iol.pt/image/id/63ecbaaa0cf2665294d5a741/200.jpg"
-  },
-  {
-   "id": "obs-burnham-ue-brexit",
-   "ts": "2026-09-30T08:24:18Z",
-   "source": "Observador",
-   "lado": "pt",
-   "url": "https://observador.pt/2026/09/30/primeiro-ministro-britanico-admite-regresso-do-reino-unido-a-ue-o-brexit-causou-mais-mal-do-que-bem/",
-   "title": "Burnham abre a porta ao regresso à UE e critica Brexit",
-   "topic": "mundo",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Reino Unido",
-    "UE"
-   ],
-   "tickers": [],
-   "resumo": "O primeiro-ministro britânico, Andy Burnham, admitiu publicamente que o Reino Unido pode regressar à UE e disse que o Brexit causou mais mal do que bem. Sublinhou que cerca de 60% dos britânicos apoiam a ideia.",
-   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:4096:2303:nowe:0:213/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/07/23170750/gettyimages-2285818830-scaled.jpg"
-  },
-  {
-   "id": "eco-petroleo-obrigacoes",
-   "ts": "2026-09-30T08:22:14Z",
-   "source": "ECO",
-   "lado": "pt",
-   "url": "https://eco.sapo.pt/2026/09/30/subida-do-petroleo-carimba-mes-negro-para-as-obrigacoes/",
-   "title": "Subida do petróleo carimba mês negro para as obrigações",
-   "topic": "economia",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Petróleo",
-    "Obrigações"
-   ],
-   "tickers": [],
-   "resumo": "O Brent subiu 13,5% em setembro, num contexto de incerteza geopolítica sobre o Irão, o que empurrou as yields das obrigações para máximos.",
-   "img": "https://eco.imgix.net/uploads/2023/08/cropped-41313622-scaled-1.jpg"
-  },
-  {
-   "id": "obs-montenegro-aula-etica",
-   "ts": "2026-09-30T08:16:36Z",
-   "source": "Observador",
-   "lado": "pt",
-   "url": "https://observador.pt/2026/09/30/montenegro-da-aula-sobre-etica-integridade-e-prevencao-da-corrupcao-a-alunos-do-secundario/",
-   "title": "Montenegro dá aula sobre ética e integridade a alunos do secundário",
-   "topic": "politica",
-   "sub": "",
-   "impacto": "baixo",
-   "setores": [
-    "Corrupção",
-    "Educação"
-   ],
-   "tickers": [],
-   "resumo": "O primeiro-ministro deu uma aula sobre ética, integridade e prevenção da corrupção numa escola secundária. O secretário de Estado da Educação defendeu que o combate à corrupção deve começar no espaço onde se aprende cidadania.",
-   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:4096:2303:nowe:0:213/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/09/21141937/ilacerda-visita-escola-montenegro-seguro-educacao-65-scaled.jpg"
-  },
-  {
-   "id": "hn-congresso-saude-publica",
-   "ts": "2026-09-30T08:08:16Z",
-   "source": "HealthNews",
-   "lado": "pt",
-   "url": "https://healthnews.pt/2026/09/30/vii-congresso-nacional-dos-medicos-de-saude-publica-comeca-hoje-em-espinho-assista-em-direto-no-healthnews/",
-   "title": "VII Congresso Nacional dos Médicos de Saúde Pública começa hoje em Espinho",
-   "topic": "saude",
-   "sub": "",
-   "impacto": "baixo",
-   "setores": [
-    "Saúde pública"
-   ],
-   "tickers": [],
-   "resumo": "O congresso decorre até 2 de outubro em Espinho, com o tema \"Da política à comunidade: um contrato para a saúde\".",
-   "img": ""
-  },
-  {
-   "id": "obs-ozono-poluicao",
-   "ts": "2026-09-30T08:07:09Z",
-   "source": "Observador",
-   "lado": "pt",
-   "url": "https://observador.pt/2026/09/30/quase-40-da-populacao-mundial-exposta-a-poluicao-perigosa-por-ozono/",
-   "title": "Quase 40% da população mundial exposta a poluição perigosa",
-   "topic": "outros",
-   "sub": "",
-   "impacto": "baixo",
-   "setores": [
-    "Ambiente",
-    "Poluição"
-   ],
-   "tickers": [],
-   "resumo": "Quase 40% da população mundial esteve exposta a níveis perigosos de ozono. A Ásia é a região mais afetada, com 60%, seguida da Europa e da América do Norte.",
-   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2000:1124:nowe:0:104/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/09/30030144/26843635.jpg"
-  },
-  {
-   "id": "cnn-6abcd06fd34e53c759c7462d",
-   "ts": "2026-09-30T08:03:08Z",
-   "source": "CNN Portugal",
-   "lado": "pt",
-   "url": "https://cnnportugal.iol.pt/inteligencia-artificial/ia-no-trabalho/so-23-dos-trabalhadores-portugueses-tiveram-formacao-em-ia-e-o-valor-mais-baixo-entre-11-paises/20260930/6abcd06fd34e53c759c7462d",
-   "title": "Só 23% dos trabalhadores portugueses tiveram formação em IA. É o valor mais baixo entre 11 países",
-   "topic": "tecnologia",
-   "sub": "",
-   "impacto": "baixo",
-   "setores": [
-    "Inteligência artificial",
-    "Trabalho"
-   ],
-   "tickers": [],
-   "resumo": "Apenas 23% dos trabalhadores portugueses tiveram formação em inteligência artificial, o valor mais baixo entre 11 países. Ainda assim, 65% já usam IA no trabalho.",
-   "img": "https://img.iol.pt/image/id/69aaf782d34edcee7c61941d/200.jpg"
-  },
-  {
-   "id": "obs-credito-intermediarios",
-   "ts": "2026-09-30T08:02:38Z",
-   "source": "Observador",
-   "lado": "pt",
-   "url": "https://observador.pt/2026/09/30/mais-de-metade-do-credito-a-habitacao-em-portugal-recorre-a-intermediarios-indica-estudo/",
-   "title": "Mais de metade do crédito à habitação tem intermediários",
-   "topic": "economia",
-   "sub": "",
-   "impacto": "baixo",
-   "setores": [
-    "Crédito à habitação",
-    "Banca"
-   ],
-   "tickers": [],
-   "resumo": "Um estudo a dez países indica que 57% do crédito à habitação em Portugal passa por intermediários, o quarto valor mais alto. O Reino Unido lidera, com 87%.",
-   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:4096:2303:nowe:0:214/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/09/03224418/ilacerda-predios-comprar-vender-casa-45-scaled.jpg"
-  },
-  {
-   "id": "ng-betty-grafstein-tribunal",
-   "ts": "2026-09-30T08:00:00Z",
-   "source": "Nova Gente",
-   "lado": "pt",
-   "url": "https://www.novagente.pt/betty-grafstein-descreve-em-tribunal-o-inferno-que-viveu-ao-lado-de-jose-castelo-branco-era-forcada-a/",
-   "title": "Betty Grafstein descreve em tribunal o inferno que viveu ao lado de José Castelo Branco",
-   "topic": "justica",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "José Castelo Branco",
-    "Violência doméstica"
-   ],
-   "tickers": [],
-   "resumo": "Betty Grafstein prestou declarações em tribunal sobre os 30 anos de relação com José Castelo Branco, no processo de violência doméstica.",
-   "img": ""
-  },
-  {
-   "id": "rtp-n1768590",
-   "ts": "2026-09-30T07:59:15Z",
-   "source": "RTP",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/mundo/centenas-de-detidos-durante-protestos-estudantis-em-franca_n1768590",
-   "title": "Centenas de detidos durante protestos estudantis em França",
-   "topic": "mundo",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "França",
-    "Protestos"
-   ],
-   "tickers": [],
-   "resumo": "Mais de 400 pessoas foram detidas após confrontos entre a polícia e estudantes que protestam contra o tamanho das turmas, os horários exaustivos e a falta de funcionários nas escolas.",
-   "img": "https://cdn-images.rtp.pt/icm/noticias/images/67/67a3ec3e60aca73524d28e822c699538?w=350&q=50&rect=0,53,1500,822&auto=format"
-  },
-  {
-   "id": "lusa-47859694",
-   "ts": "2026-09-30T07:58:00Z",
-   "source": "Lusa",
-   "lado": "pt",
-   "url": "https://www.lusa.pt/desporto/article/2026-09-30/47859694/liga-nações-seleção-portuguesa-treina-em-copenhaga-com-ronaldo-em-dúvida",
-   "title": "Liga Nações: Seleção portuguesa treina em Copenhaga com Ronaldo em dúvida",
-   "topic": "desporto",
-   "sub": "selecao",
-   "impacto": "medio",
-   "setores": [
-    "Liga das Nações"
-   ],
-   "tickers": [],
-   "resumo": "A seleção treina no Estádio Parken, em Copenhaga, antes do jogo de quinta-feira com a Dinamarca. O capitão Cristiano Ronaldo continua em dúvida.",
-   "img": "https://www.lusa.pt/temp/images/650x420/cache_650x420_Crop_high_47846128_513697319269452.jpg"
-  },
-  {
-   "id": "cm-paulo-topa-cavalos",
-   "ts": "2026-09-30T07:48:07Z",
-   "source": "CM",
-   "lado": "pt",
-   "url": "https://m.facebook.com/cmjornal/posts/pfbid02uAdu9AZ7PDk56yiruemYaKh4vRsxQRXYHkdExt23pYuF4azpwrGm9Fy1xkhxuFsYl",
-   "title": "Investigação a desvio de 10 milhões com fraudes em falências envolve Paulo Topa; 20 cavalos apreendidos",
-   "topic": "justica",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Fraude",
-    "Falências"
-   ],
-   "tickers": [],
-   "resumo": "O processo de investigação a um desvio de 10 milhões de euros, com fraudes em falências, envolve Paulo Topa e levou à apreensão de 20 cavalos.",
-   "img": ""
-  },
-  {
-   "id": "eco-rali-portugal-criticas",
-   "ts": "2026-09-30T07:48:05Z",
-   "source": "ECO",
-   "lado": "pt",
-   "url": "https://eco.sapo.pt/2026/09/30/desastre-e-murro-no-estomago-norte-e-centro-criticam-exclusao-de-portugal-do-mundial-de-ralis/",
-   "title": "\"Desastre\" e \"murro no estômago\". Norte e Centro criticam exclusão de Portugal do Mundial de ralis",
-   "topic": "desporto",
-   "sub": "motores",
-   "impacto": "medio",
-   "setores": [
-    "Rali de Portugal",
-    "WRC"
-   ],
-   "tickers": [],
-   "resumo": "Entidades de turismo do Norte e do Centro criticam a exclusão do Rali de Portugal do calendário do Mundial de Ralis de 2027, por alteração de última hora do promotor, e destacam o seu valor económico e promocional.",
-   "img": "https://eco.imgix.net/uploads/2026/09/cropped-44987821-scaled-1.jpg"
-  },
-  {
-   "id": "rtp-n1768571",
-   "ts": "2026-09-30T07:36:37Z",
-   "source": "RTP",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/mundo/nobel-alternativo-distingue-luta-contra-a-violencia-patriarcal-e-uso-etico-da-ia_n1768571",
-   "title": "\"Nobel Alternativo\" distingue luta contra a violência patriarcal e uso ético da IA",
-   "topic": "mundo",
-   "sub": "",
-   "impacto": "baixo",
-   "setores": [
-    "Prémios"
-   ],
-   "tickers": [],
-   "resumo": "O Right Livelihood Award distinguiu a paquistanesa Jalila Haider e uma organização sul-africana pela luta contra a violência patriarcal, e a norte-americana Timnit Gebru pela defesa do uso ético da IA.",
-   "img": "https://cdn-images.rtp.pt/icm/noticias/images/88/88e1466578f2348502ef825f11f18b8a?w=350&q=50&rect=0,97,1080,592&auto=format"
-  },
-  {
-   "id": "rtp-n1768576",
-   "ts": "2026-09-30T07:18:48Z",
-   "source": "RTP",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/economia/quais-sao-os-apoios-as-rendas_n1768576",
-   "title": "Quais são os apoios às rendas?",
-   "topic": "economia",
-   "sub": "",
-   "impacto": "baixo",
-   "setores": [
-    "Rendas",
-    "Apoios"
-   ],
-   "tickers": [],
-   "resumo": "A nível nacional há dois apoios a que as pessoas podem recorrer para ajuda no pagamento da renda, e um deles tem limite de idade.",
-   "img": "https://cdn-images.rtp.pt/icm/noticias/images/42/4277c7304af73d9b2127a8ab9dee51ec?w=350&q=50&rect=0,508,1500,822&auto=format"
-  },
-  {
-   "id": "rtp-n1768559",
-   "ts": "2026-09-30T07:18:14Z",
-   "source": "RTP",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/mundo/onu-diz-que-explosao-de-mina-na-fronteira-coreana-violou-armisticio_n1768559",
-   "title": "ONU diz que explosão de mina na fronteira coreana violou armistício",
-   "topic": "mundo",
-   "sub": "",
-   "impacto": "baixo",
-   "setores": [
-    "Coreias"
-   ],
-   "tickers": [],
-   "resumo": "O Comando das Nações Unidas alertou que as recentes explosões de minas na Zona Desmilitarizada violam o armistício entre as duas Coreias.",
-   "img": "https://cdn-images.rtp.pt/icm/noticias/images/ad/add2bd8f7460eca27c95c78153af89ee?w=350&q=50&rect=0,72,1233,676&auto=format"
-  },
-  {
-   "id": "obs-marrocos-mulher-governo",
-   "ts": "2026-09-30T07:16:08Z",
-   "source": "Observador",
-   "lado": "pt",
-   "url": "https://observador.pt/2026/09/30/marrocos-vai-ter-mulher-a-chefiar-o-governo-pela-primeira-vez-na-historia-do-pais/",
-   "title": "Marrocos vai ter mulher a liderar governo pela primeira vez",
-   "topic": "mundo",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Marrocos"
-   ],
-   "tickers": [],
-   "resumo": "A autarca de Marraquexe foi chamada a formar governo após a vitória eleitoral, tornando-se a primeira mulher a chefiar o executivo marroquino.",
-   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:4096:2303:nowe:0:214/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/09/30065208/gettyimages-2296234146-scaled.jpg"
-  },
-  {
-   "id": "lusa-47859826",
-   "ts": "2026-09-30T07:16:00Z",
-   "source": "Lusa",
-   "lado": "pt",
-   "url": "https://www.lusa.pt/article/47859826",
-   "title": "Governo timorense aprova proposta de Orçamento superior a 2,5 mil milhões de dólares",
-   "topic": "mundo",
-   "sub": "",
-   "impacto": "baixo",
-   "setores": [
-    "Timor-Leste"
-   ],
-   "tickers": [],
-   "resumo": "O Governo de Timor-Leste aprovou uma proposta de Orçamento do Estado que ultrapassa os 2,5 mil milhões de dólares.",
-   "img": "https://www.lusa.pt/temp/images/205x135/cache_205x135_Crop_high_30880664_3735976_11032021101325.JPG"
-  },
-  {
-   "id": "abola-euromilhoes-jackpot",
-   "ts": "2026-09-30T07:14:24Z",
-   "source": "A Bola",
-   "lado": "pt",
-   "url": "https://www.abola.pt/noticias/euromilhoes-com-jackpot-3o-premio-em-portugal-2026093007142454162",
-   "title": "Euromilhões com jackpot, 3.º prémio em Portugal",
-   "topic": "outros",
-   "sub": "",
-   "impacto": "baixo",
-   "setores": [
-    "Euromilhões"
-   ],
-   "tickers": [],
-   "resumo": "O sorteio do Euromilhões teve jackpot e um terceiro prémio em Portugal. O primeiro prémio de sexta-feira está fixado em 28 milhões de euros.",
-   "img": "https://sportal365images.com/process/smp-images-production/abola.pt/09012024/c86d5d45-c69e-4b09-9ae6-48bbf6394d7f.jpg?operations=crop(44:1:1162:630),autocrop(1200:630)"
-  },
-  {
-   "id": "obs-bissau-embalo-regresso",
-   "ts": "2026-09-30T07:11:19Z",
-   "source": "Observador",
-   "lado": "pt",
-   "url": "https://observador.pt/especiais/vai-haver-tiros-bissau-sob-tensao-preve-onda-de-violencia-se-sissoco-embalo-regressar-no-domingo/",
-   "title": "Bissau sob tensão prevê violência se Embaló voltar domingo",
-   "topic": "mundo",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Guiné-Bissau"
-   ],
-   "tickers": [],
-   "resumo": "O ex-presidente Sissoco Embaló anunciou o regresso a Bissau no domingo. Escolas e escritórios vão fechar no dia seguinte e o Governo apelou à calma, mas analistas admitem violência.",
-   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:3984:2240:nowe:0:208/q:70/plain/https://s3.observador.pt/wp-content/uploads/2025/11/26211813/gettyimages-2247964911.jpg"
-  },
-  {
-   "id": "rtp-n1768555",
-   "ts": "2026-09-30T07:10:28Z",
-   "source": "RTP",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/mundo/supremo-rejeita-acao-contra-decreto-de-milei-relativo-a-venda-de-terras-a-estrangeiros_n1768555",
-   "title": "Supremo rejeita ação contra decreto de Milei relativo à venda de terras a estrangeiros",
-   "topic": "mundo",
-   "sub": "",
-   "impacto": "baixo",
-   "setores": [
-    "Argentina"
-   ],
-   "tickers": [],
-   "resumo": "O Supremo Tribunal argentino rejeitou uma ação contra o decreto que permitia a venda de terras rurais a estrangeiros, que um tribunal de primeira instância tinha considerado inconstitucional em 2024.",
-   "img": "https://cdn-images.rtp.pt/icm/noticias/images/56/56655a2ee231c89d67467a54c503520f?w=350&q=50&rect=0,9,1170,641&auto=format"
-  },
-  {
-   "id": "rtp-n1768553",
-   "ts": "2026-09-30T07:08:29Z",
-   "source": "RTP",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/mundo/presidente-interina-da-venezuela-reconhece-uso-abusivo-de-lei-contra-o-odio_n1768553",
-   "title": "Presidente interina da Venezuela reconhece \"uso abusivo\" de lei contra o ódio",
-   "topic": "mundo",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Venezuela"
-   ],
-   "tickers": [],
-   "resumo": "A líder interina da Venezuela admite o uso abusivo da lei contra o ódio para justificar detenções políticas, que deverá ser reformada.",
-   "img": "https://cdn-images.rtp.pt/icm/noticias/images/a5/a5b689fe6e463be62c1aaaa2d9833918?w=350&q=50&rect=0,63,1080,592&auto=format"
-  },
-  {
-   "id": "lusa-47859816",
-   "ts": "2026-09-30T07:08:00Z",
-   "source": "Lusa",
-   "lado": "pt",
-   "url": "https://www.lusa.pt/article/47859816",
-   "title": "Moçambicano Stewart Sukuma é cabeça de cartaz de festival cultural lusófono em Macau",
-   "topic": "cultura",
-   "sub": "",
-   "impacto": "baixo",
-   "setores": [
-    "Música",
-    "Macau"
-   ],
-   "tickers": [],
-   "resumo": "O músico moçambicano Stewart Sukuma é cabeça de cartaz de um festival cultural lusófono em Macau.",
-   "img": "https://www.lusa.pt/temp/images/205x135/cache_205x135_Crop_high_44542519_5046208_07032025055338.JPG"
-  },
-  {
-   "id": "lusa-kiev-ataque-20260930",
-   "ts": "2026-09-30T07:07:00Z",
-   "source": "Lusa",
-   "lado": "pt",
-   "url": "https://www.lusa.pt/article/47858812/ucrânia-pelo-menos-dois-mortos-e-quatro-feridos-em-ataque-russo-contra-kiev",
-   "title": "Ucrânia: Pelo menos dois mortos e quatro feridos em ataque russo contra Kiev",
-   "topic": "mundo",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Guerra na Ucrânia"
-   ],
-   "tickers": [],
-   "resumo": "Um ataque russo contra Kiev fez pelo menos dois mortos e quatro feridos, segundo as autoridades ucranianas.",
-   "img": ""
-  },
-  {
-   "id": "rtp-n1768572",
-   "ts": "2026-09-30T07:06:28Z",
-   "source": "RTP",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/pais/nunca-as-rendas-foram-tao-caras-em-portugal-arrendamento-em-debate-hoje-com-chumbo-no-horizonte_n1768572",
-   "title": "Nunca as rendas foram tão caras em Portugal. Arrendamento em debate hoje com chumbo no horizonte",
-   "topic": "economia",
-   "sub": "",
-   "impacto": "alto",
-   "setores": [
-    "Arrendamento",
-    "Habitação"
-   ],
-   "tickers": [],
-   "resumo": "O Parlamento debate hoje a proposta do Governo para o regime do arrendamento, com o PS a anunciar voto contra e o Chega a sinalizar o mesmo caminho. A renda mediana ultrapassou os 10 euros por metro quadrado no segundo trimestre.",
-   "img": "https://cdn-images.rtp.pt/icm/noticias/images/03/0365b812c59ae1ff2dea5bbb47761d3a?w=350&q=50&rect=0,290,4898,2685&auto=format"
   }
  ],
  "contracts": {},
@@ -5292,6 +5295,18 @@
  "quotesAt": null,
  "series": {},
  "pairs": [
+  {
+   "a": "abola-bruno-fernandes-sem-divisoes",
+   "b": "caras-tio-ronaldo-estagio",
+   "tema": "Há divisões na Seleção?",
+   "nota": "Bruno Fernandes garante que não existem divisões; o tio de Ronaldo critica a condução do caso pela FPF."
+  },
+  {
+   "a": "obs-frente-civica-rui-pinto",
+   "b": "lusa-47879409",
+   "tema": "Proteção a Rui Pinto: legalidade em causa",
+   "nota": "A Frente Cívica diz que o fim do programa de segurança viola a lei; o programa foi encerrado por alegada falta de compromisso da testemunha e a ministra analisa."
+  },
   {
    "a": "cnn-6abd570fd34e53c759c74883",
    "b": "lusa-47864031",
@@ -5323,5 +5338,5 @@
    "nota": "A mãe de Jéssica Maria critica Cláudio Ramos («Nunca será um Sr. Goucha») e o apresentador responde em direto."
   }
  ],
- "arquivo": 272
+ "arquivo": 299
 }
