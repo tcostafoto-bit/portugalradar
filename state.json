@@ -1,7 +1,175 @@
 {
- "version": "1.1.50",
- "updated": "2026-10-03T19:45:32Z",
+ "version": "1.1.51",
+ "updated": "2026-10-03T21:55:37Z",
  "recent": [
+  {
+   "id": "rtp-n1769435",
+   "ts": "2026-10-03T21:30:31Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "RTP",
+   "title": "Houthis do Iémen atacaram instalação da petrolífera Aramco em Riade"
+  },
+  {
+   "id": "obs-tribunal-contas-constitucional-20261003",
+   "ts": "2026-10-03T21:02:49Z",
+   "topic": "politica",
+   "sub": "",
+   "source": "Observador",
+   "title": "Presidente do Tribunal de Contas ameaça recorrer ao TC"
+  },
+  {
+   "id": "novagente-sara-sampaio-rolling-stones",
+   "ts": "2026-10-03T21:00:00Z",
+   "topic": "rosa",
+   "sub": "famosos",
+   "source": "Nova Gente",
+   "title": "Sara Sampaio colabora com grandes lendas da música! Veja o vídeo que está a dar muito que falar"
+  },
+  {
+   "id": "abola-fresneda-meio-milhao",
+   "ts": "2026-10-03T20:50:09Z",
+   "topic": "desporto",
+   "sub": "sporting",
+   "source": "A Bola",
+   "title": "Estreia de Fresneda por Espanha custa meio milhão ao Sporting"
+  },
+  {
+   "id": "cnn-6ac16a62d34e9a786e75ac8a",
+   "ts": "2026-10-03T20:49:00Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "CNN Portugal",
+   "title": "Milhares de pessoas manifestaram-se em Espanha contra a crise da habitação"
+  },
+  {
+   "id": "rtp-d1769434",
+   "ts": "2026-10-03T20:42:09Z",
+   "topic": "desporto",
+   "sub": "liga",
+   "source": "RTP Desporto",
+   "title": "Movimento liderado por ex-candidato ao Vitória de Guimarães pede auditoria à SAD"
+  },
+  {
+   "id": "rtp-d1769433",
+   "ts": "2026-10-03T20:41:32Z",
+   "topic": "desporto",
+   "sub": "selecao",
+   "source": "RTP Desporto",
+   "title": "Villas-Boas espera boa resolução no caso de Cristiano Ronaldo"
+  },
+  {
+   "id": "rtp-d1769432",
+   "ts": "2026-10-03T20:39:02Z",
+   "topic": "desporto",
+   "sub": "tenis",
+   "source": "RTP Desporto",
+   "title": "Henrique Rocha apurado para a final do Porto Open sem jogar"
+  },
+  {
+   "id": "rtp-d1769430",
+   "ts": "2026-10-03T20:34:53Z",
+   "topic": "desporto",
+   "sub": "voleibol",
+   "source": "RTP Desporto",
+   "title": "Central russo Aleksey Kovalchuk reforça voleibol do Sporting"
+  },
+  {
+   "id": "rtp-d1769429",
+   "ts": "2026-10-03T20:32:33Z",
+   "topic": "desporto",
+   "sub": "motores",
+   "source": "RTP Desporto",
+   "title": "João Ferreira segundo em Marrocos, Ventura e Pinto vencem nas respetivas classes"
+  },
+  {
+   "id": "cm-vyjuvek-20261003",
+   "ts": "2026-10-03T20:31:27Z",
+   "topic": "saude",
+   "sub": "",
+   "source": "CM",
+   "title": "Doentes com epidermólise bolhosa continuam à espera de comparticipação do Vyjuvek"
+  },
+  {
+   "id": "cnn-6ac16563d34e53c759c74ef9",
+   "ts": "2026-10-03T20:27:00Z",
+   "topic": "justica",
+   "sub": "",
+   "source": "CNN Portugal",
+   "title": "Homem encontrado morto em Camarate. PJ a caminho do local"
+  },
+  {
+   "id": "cm-alcafozes-assaltos-20261003",
+   "ts": "2026-10-03T20:15:01Z",
+   "topic": "justica",
+   "sub": "",
+   "source": "CM",
+   "title": "Pelo menos 12 casas assaltadas em Alcafozes nas últimas semanas"
+  },
+  {
+   "id": "lusa-47880203",
+   "ts": "2026-10-03T20:05:00Z",
+   "topic": "politica",
+   "sub": "",
+   "source": "Lusa",
+   "title": "OE2027: PCP acusa PS de estar a contribuir para a \"máscara\" do Chega"
+  },
+  {
+   "id": "rtp-v1769424",
+   "ts": "2026-10-03T20:01:47Z",
+   "topic": "tecnologia",
+   "sub": "",
+   "source": "RTP",
+   "title": "GPT-6.1 Astra. Modelo de IA da OpenAI cancelado por problemas de segurança"
+  },
+  {
+   "id": "abola-ronaldo-regressa-arabia",
+   "ts": "2026-10-03T20:01:14Z",
+   "topic": "desporto",
+   "sub": "selecao",
+   "source": "A Bola",
+   "title": "Em dia de jogo de Portugal, Ronaldo vai regressar à Arábia Saudita"
+  },
+  {
+   "id": "novagente-bb-miguel-david",
+   "ts": "2026-10-03T20:00:00Z",
+   "topic": "rosa",
+   "sub": "reality",
+   "source": "Nova Gente",
+   "title": "Miguel Vicente confronta David Diamond no Big Brother All Stars"
+  },
+  {
+   "id": "rtp-v1769423",
+   "ts": "2026-10-03T19:50:47Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "RTP",
+   "title": "Guerra na Ucrânia. Duas pontes de Kiev atingidas por drones em 24 horas"
+  },
+  {
+   "id": "rtp-v1769421",
+   "ts": "2026-10-03T19:38:47Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "RTP",
+   "title": "Eleições no Brasil. Lula e Flávio Bolsonaro encerram campanha"
+  },
+  {
+   "id": "record-rui-pinto-custos-fl",
+   "ts": "2026-10-03T19:37:00Z",
+   "topic": "justica",
+   "sub": "",
+   "source": "Record",
+   "title": "Rui Pinto revela custos judiciais do Football Leaks e atira: «Quanto custa viver clandestinamente?»"
+  },
+  {
+   "id": "abola-georgina-jesus",
+   "ts": "2026-10-03T19:19:34Z",
+   "topic": "rosa",
+   "sub": "famosos",
+   "source": "A Bola",
+   "title": "Georgina Rodríguez mete-se na polémica, critica Jorge Jesus e apaga publicação"
+  },
   {
    "id": "cm-camarate-esfaqueamento-20261003",
    "ts": "2026-10-03T19:15:02Z",
@@ -9,6 +177,14 @@
    "sub": "",
    "source": "CM",
    "title": "Preventiva para jovem de 17 anos que esfaqueou amigo de 14 na cabeça em Camarate"
+  },
+  {
+   "id": "record-kika-veselko-sp",
+   "ts": "2026-10-03T19:12:00Z",
+   "topic": "desporto",
+   "sub": "surf",
+   "source": "Record",
+   "title": "Kika Veselko alcança 2.º lugar em São Paulo"
   },
   {
    "id": "cnn-6ac151dad34e53c759c74ee6",
@@ -65,6 +241,14 @@
    "sub": "",
    "source": "CM",
    "title": "Movimento Armilar Lusitano vai ser julgado pelo crime de organização terrorista"
+  },
+  {
+   "id": "rtp-d1769410",
+   "ts": "2026-10-03T18:07:06Z",
+   "topic": "desporto",
+   "sub": "motores",
+   "source": "RTP Desporto",
+   "title": "Solberg lidera na Sardenha e leva discussão do título para o último dia"
   },
   {
    "id": "obs-benfica-derbi-basquetebol-20261003",
@@ -499,12 +683,36 @@
    "title": "300 alunos sem professor de 1º ciclo nas escolas de Marvila"
   },
   {
+   "id": "eco-montenegro-estrasburgo",
+   "ts": "2026-10-03T08:24:22Z",
+   "topic": "politica",
+   "sub": "",
+   "source": "ECO",
+   "title": "Montenegro em Estrasburgo com orçamento da UE em discussão"
+  },
+  {
    "id": "cnn-6ac0bb11d34e53c759c74dd6",
    "ts": "2026-10-03T08:21:01Z",
    "topic": "mundo",
    "sub": "",
    "source": "CNN Portugal",
    "title": "Emirados Árabes Unidos confirmam que copiloto da Flydubai tinha intenções \"terroristas\""
+  },
+  {
+   "id": "healthnews-tarefeiros-portaria",
+   "ts": "2026-10-03T06:19:07Z",
+   "topic": "saude",
+   "sub": "",
+   "source": "HealthNews",
+   "title": "Ministra ouve tarefeiros, portaria dos honorários continua no segredo dos deuses"
+  },
+  {
+   "id": "healthnews-igas-assedio",
+   "ts": "2026-10-03T06:14:57Z",
+   "topic": "saude",
+   "sub": "",
+   "source": "HealthNews",
+   "title": "Queixas de assédio na Saúde explodem desde 2021. IGAS só confirma três casos"
   },
   {
    "id": "rtp-d1769082",
@@ -531,9 +739,7 @@
   "lusa-47864031",
   "lusa-47879409",
   "obs-frente-civica-rui-pinto",
-  "rtp-d1769409",
-  "rtp-n1768608",
-  "rtp-v1768628"
+  "rtp-d1769409"
  ],
  "top_tickers": [],
  "contracts": {},
