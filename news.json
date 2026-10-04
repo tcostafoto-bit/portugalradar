@@ -1,25 +1,275 @@
 {
- "version": "1.1.56",
- "updated": "2026-10-04T11:45:30Z",
+ "version": "1.1.57",
+ "updated": "2026-10-04T13:46:05Z",
  "brief": [
   {
-   "texto": "Cristiano Ronaldo regressou à Arábia Saudita no dia do jogo de Portugal com a Noruega, no Dragão.",
+   "texto": "Elfyn Evans é campeão do mundo de ralis pela primeira vez, na decisão da PowerStage na Sardenha.",
+   "id": "as-evans-campeao-wrc-20261004"
+  },
+  {
+   "texto": "Brasil vota hoje: Lula e Flávio Bolsonaro já votaram, com mais de 134 mil eleitores em Portugal.",
+   "id": "rtp-n1769480"
+  },
+  {
+   "texto": "IPMA emite aviso laranja de trovoada em Setúbal, Beja e Vila Real até às 15h."
+  },
+  {
+   "texto": "Cristiano Ronaldo parte de Madrid para a Arábia Saudita em dia de Portugal-Noruega.",
    "id": "cnn-6ac233360cf22b9f8904dc95"
-  },
-  {
-   "texto": "Mais de 158 milhões de brasileiros votam hoje nas eleições gerais, 134 mil deles em Portugal.",
-   "id": "lusa-47880509"
-  },
-  {
-   "texto": "Israel confirma que tentou matar o líder político interino do Hamas em Gaza.",
-   "id": "rtp-n1769479"
-  },
-  {
-   "texto": "Subida dos combustíveis ameaça serviços de instituições sociais como a Comunidade Vida e Paz.",
-   "id": "cnn-6ac21837d34e9a786e75acc7"
   }
  ],
  "items": [
+  {
+   "id": "as-evans-campeao-wrc-20261004",
+   "ts": "2026-10-04T13:30:00Z",
+   "source": "AutoSport",
+   "lado": "pt",
+   "url": "https://www.autosport.pt/ralis/wrc-rali-da-sardenha-elfyn-evans-campeao-do-mundo-de-ralis/",
+   "title": "WRC Rali da Sardenha: Elfyn Evans Campeão do Mundo de Ralis",
+   "topic": "desporto",
+   "sub": "motores",
+   "impacto": "alto",
+   "setores": [
+    "WRC",
+    "Toyota"
+   ],
+   "tickers": [],
+   "resumo": "Elfyn Evans sagrou-se campeão do mundo de ralis pela primeira vez, no Rali da Sardenha, última prova da temporada, numa decisão que só ficou resolvida na PowerStage.",
+   "img": "https://images.autosport.pt/2026/10/Captura-de-ecra-2026-10-04-142352.jpg"
+  },
+  {
+   "id": "rtp-v1769506",
+   "ts": "2026-10-04T13:24:47Z",
+   "source": "RTP",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/cultura/mais-de-duzentas-obras-ineditas-de-pedro-cabrita-reis-no-maat_v1769506",
+   "title": "Mais de duzentas obras inéditas de Pedro Cabrita Reis, no MAAT",
+   "topic": "cultura",
+   "sub": "",
+   "impacto": "baixo",
+   "setores": [
+    "Artes plásticas",
+    "MAAT"
+   ],
+   "tickers": [],
+   "resumo": "O MAAT, em Lisboa, que foi inaugurado há 10 anos, apresenta mais de duzentas obras inéditas de Pedro Cabrita Reis.",
+   "img": "https://cdn-images.rtp.pt/icm/images/0a/0a44e0a7e75179fbf31991dab09274ed_N.jpg?"
+  },
+  {
+   "id": "zerozero-1218911",
+   "ts": "2026-10-04T13:19:42Z",
+   "source": "zerozero",
+   "lado": "pt",
+   "url": "https://www.zerozero.pt/noticias/arouca-anuncia-adjunto-de-luis-castro-como-novo-treinador/1218911",
+   "title": "Arouca anuncia adjunto de Luís Castro como novo treinador",
+   "topic": "desporto",
+   "sub": "liga",
+   "impacto": "medio",
+   "setores": [
+    "I Liga",
+    "Treinadores"
+   ],
+   "tickers": [],
+   "resumo": "O Arouca anunciou Vítor Severino, antigo adjunto de Luís Castro, como sucessor de Vasco Seabra no comando técnico.",
+   "img": "https://www.zerozero.pt/img/noticias/911/imgS620I1218911T20261004141733.jpg"
+  },
+  {
+   "id": "obs-droga-alentejo-20261004",
+   "ts": "2026-10-04T13:14:14Z",
+   "source": "Observador",
+   "lado": "pt",
+   "url": "https://observador.pt/2026/10/04/policia-maritima-apreendeu-350-quilos-de-droga-no-litoral-alentejano-nos-ultimos-dias/",
+   "title": "Apreendidos 350 quilos de droga no litoral alentejano",
+   "topic": "justica",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Polícia Marítima",
+    "Droga"
+   ],
+   "tickers": [],
+   "resumo": "A Polícia Marítima apreendeu 350 quilos de droga no litoral alentejano nos últimos dias e reforçou o patrulhamento por mar e por terra.",
+   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:1744:981:nowe:0:211/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/09/12120438/43152731.jpg"
+  },
+  {
+   "id": "rtp-v1769502",
+   "ts": "2026-10-04T13:11:47Z",
+   "source": "RTP",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/mundo/tres-mortos-registados-em-espanha-por-causa-das-chuvas-torrenciais_v1769502",
+   "title": "Três mortos registados em Espanha por causa das chuvas torrenciais",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Espanha",
+    "Mau tempo"
+   ],
+   "tickers": [],
+   "resumo": "As chuvas torrenciais em Espanha já provocaram três mortos e há pelo menos uma pessoa desaparecida. As autoridades mantêm o alerta vermelho.",
+   "img": "https://cdn-images.rtp.pt/icm/images/cb/cb5d8dd7d370176ffbe3eabf96501b8f_N.jpg?"
+  },
+  {
+   "id": "rtp-n1769494",
+   "ts": "2026-10-04T13:11:03Z",
+   "source": "RTP",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/economia/opep-mantem-inalterada-oferta-de-petroleo-para-novembro_n1769494",
+   "title": "OPEP+ mantém inalterada oferta de petróleo para novembro",
+   "topic": "economia",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Petróleo",
+    "Combustíveis"
+   ],
+   "tickers": [],
+   "resumo": "A OPEP+ decidiu manter inalterada a oferta de crude para novembro, pelo segundo mês consecutivo.",
+   "img": "https://cdn-images.rtp.pt/icm/noticias/images/22/225847f1b5645dfa3ee4fe899c00f4ac?w=350&q=50&rect=0,0,1499,822&auto=format"
+  },
+  {
+   "id": "rtp-v1769500",
+   "ts": "2026-10-04T13:09:47Z",
+   "source": "RTP",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/economia/garantia-publica-para-os-jovens-comprarem-a-primeira-casa-comecou-ha-dois-anos_v1769500",
+   "title": "Garantia pública para os jovens comprarem a primeira casa começou há dois anos",
+   "topic": "economia",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Habitação",
+    "Crédito jovem"
+   ],
+   "tickers": [],
+   "resumo": "A garantia pública para jovens comprarem a primeira casa completa dois anos, com mais de 40 mil contratos assinados num total de 8 mil milhões de euros.",
+   "img": "https://cdn-images.rtp.pt/icm/images/da/daadf914b48a82bf7754ae464e360b34_N.jpg?"
+  },
+  {
+   "id": "record-judo-mundiais-tralhao-20261004",
+   "ts": "2026-10-04T13:00:00Z",
+   "source": "Record",
+   "lado": "pt",
+   "url": "https://www.record.pt/modalidades/judo/detalhe/mundiais-tralhao-com-estreia-promissora-e-catarina-costa-nao-resiste-a-boukli",
+   "title": "Mundiais: Tralhão com estreia promissora e Catarina Costa não resiste a Boukli",
+   "topic": "desporto",
+   "sub": "outros",
+   "impacto": "baixo",
+   "setores": [
+    "Judo",
+    "Mundial de Baku"
+   ],
+   "tickers": [],
+   "resumo": "Bernardo Tralhão (-60 kg) terminou a estreia no Mundial de judo em Baku com duas vitórias e o 9.º lugar. Catarina Costa (-48 kg) foi eliminada pela francesa Boukli.",
+   "img": "https://cdn.record.pt/images/2026-09/img_1200x721uu2026-09-11-15-54-01-2461923.jpg"
+  },
+  {
+   "id": "abola-seabra-rio-ave-20261004",
+   "ts": "2026-10-04T12:50:19Z",
+   "source": "A Bola",
+   "lado": "pt",
+   "url": "https://www.abola.pt/noticias/oficial-vasco-seabra-e-o-novo-treinador-do-rio-ave-2026100412434589306",
+   "title": "Oficial: Vasco Seabra é o novo treinador do Rio Ave",
+   "topic": "desporto",
+   "sub": "liga",
+   "impacto": "medio",
+   "setores": [
+    "I Liga",
+    "Treinadores"
+   ],
+   "tickers": [],
+   "resumo": "O Rio Ave oficializou Vasco Seabra como treinador, com contrato até 2029, depois de o técnico deixar o Arouca. Começa a trabalhar na segunda-feira em Vila do Conde.",
+   "img": "https://sportal365images.com/process/smp-images-production/abola.pt/04102026/b36b1e1a-5786-485c-b7ea-a8d74ea9cdde.jpg?operations=crop(192:108:1728:972),autocrop(1200:630)"
+  },
+  {
+   "id": "rtp-n1769480",
+   "ts": "2026-10-04T12:42:25Z",
+   "source": "RTP",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/mundo/brasil-ja-vota-para-decidir-futuro-do-pais-bolsonaro-e-lula-ja-votaram_n1769480",
+   "title": "Brasil já vota para decidir futuro do país. Bolsonaro e Lula já votaram",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "alto",
+   "setores": [
+    "Eleições no Brasil"
+   ],
+   "tickers": [],
+   "resumo": "Lula da Silva e Flávio Bolsonaro já votaram nas eleições gerais brasileiras, muito polarizadas. Lula diz-se confiante e garante que acatará a decisão dos eleitores; Flávio espera uma decisão logo na primeira volta.",
+   "img": "https://cdn-images.rtp.pt/icm/noticias/images/2b/2b5408ecc82a3914f63dc6c4a34a0cf0?w=350&q=50&rect=0,75,1500,822&auto=format"
+  },
+  {
+   "id": "lusa-47882499",
+   "ts": "2026-10-04T12:24:00Z",
+   "source": "Lusa",
+   "lado": "pt",
+   "url": "https://www.lusa.pt/article/47882499/guerra-de-cores-de-camisolas-divide-brasileiros-também-em-lisboa",
+   "title": "Guerra de cores de camisolas divide brasileiros também em Lisboa",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "baixo",
+   "setores": [
+    "Eleições no Brasil",
+    "Lisboa"
+   ],
+   "tickers": [],
+   "resumo": "Milhares de brasileiros encheram a Universidade de Lisboa para votar na primeira volta das presidenciais brasileiras, numa disputa que também passa pelas cores das camisolas.",
+   "img": "https://www.lusa.pt/temp/images/900x600/cache_900x600_Crop_high_47881937_4327008_04102026110830.JPG"
+  },
+  {
+   "id": "abola-benfica-braga-feminina-20261004",
+   "ts": "2026-10-04T12:04:06Z",
+   "source": "A Bola",
+   "lado": "pt",
+   "url": "https://www.abola.pt/noticias/benfica-goleia-sc-braga-no-regresso-de-andreia-norton-ao-onze-um-ano-e-meio-depois-2026100411375352316",
+   "title": "Benfica goleia SC Braga no regresso de Andreia Norton ao onze um ano e meio depois",
+   "topic": "desporto",
+   "sub": "benfica",
+   "impacto": "baixo",
+   "setores": [
+    "Taça da Liga feminina",
+    "Futebol feminino"
+   ],
+   "tickers": [],
+   "resumo": "O Benfica venceu o SC Braga por 6-0 na primeira jornada da Taça da Liga feminina, com Caroline Moller a marcar dois golos.",
+   "img": "https://sportal365images.com/process/smp-images-production/abola.pt/04102026/6f5a2cf3-485f-43e8-bf2b-0b4f19e645b8.png?operations=autocrop(1200:630)"
+  },
+  {
+   "id": "as-ue-tesla-fsd-20261004",
+   "ts": "2026-10-04T12:03:00Z",
+   "source": "AutoSport",
+   "lado": "pt",
+   "url": "https://www.autosport.pt/automais/ue-adia-votacao-sobre-fsd-da-tesla/",
+   "title": "UE adia votação sobre FSD da Tesla",
+   "topic": "tecnologia",
+   "sub": "",
+   "impacto": "baixo",
+   "setores": [
+    "Tesla",
+    "Condução autónoma"
+   ],
+   "tickers": [],
+   "resumo": "A União Europeia adiou a votação sobre a aprovação do sistema de condução autónoma FSD (Supervised) da Tesla nos Estados-membros.",
+   "img": "https://images.autosport.pt/2026/10/Model3_94-1024x576.jpg"
+  },
+  {
+   "id": "abola-triatlo-bronze-estafeta-20261004",
+   "ts": "2026-10-04T11:57:28Z",
+   "source": "A Bola",
+   "lado": "pt",
+   "url": "https://www.abola.pt/noticias/portugal-de-bronze-na-estafeta-mista-da-taca-do-mundo-de-triatlo-2026100411572874184",
+   "title": "Portugal de bronze na estafeta mista da Taça do Mundo de triatlo",
+   "topic": "desporto",
+   "sub": "triatlo",
+   "impacto": "medio",
+   "setores": [
+    "Taça do Mundo",
+    "Roma"
+   ],
+   "tickers": [],
+   "resumo": "A estafeta mista portuguesa, com Maria Tomé, João Nuno Batista, Mariana Vargem e Miguel Tiago Silva, foi terceira na Taça do Mundo de triatlo, com 1h18m34s.",
+   "img": "https://sportal365images.com/process/smp-images-production/abola.pt/04102026/640c0bf6-ff62-4dc5-b8e3-7db828686f03.jpg?operations=crop(0:262:1635:1182),autocrop(1200:630)"
+  },
   {
    "id": "lusa-47882179",
    "ts": "2026-10-04T11:17:00Z",
@@ -55,6 +305,42 @@
    "tickers": [],
    "resumo": "Cristiano Ronaldo partiu do aeroporto de Madrid, onde chegou na quarta-feira, rumo a Riade no seu jato privado, no dia do jogo de Portugal com a Noruega.",
    "img": "https://img.iol.pt/image/id/6ac237d1d34e9a786e75acec/200.jpg"
+  },
+  {
+   "id": "abola-braga-canada-20261004",
+   "ts": "2026-10-04T11:03:25Z",
+   "source": "A Bola",
+   "lado": "pt",
+   "url": "https://www.abola.pt/noticias/antonio-salvador-quer-levar-academia-do-sc-braga-ao-canada-2026100411032519039",
+   "title": "António Salvador quer levar academia do SC Braga ao Canadá",
+   "topic": "desporto",
+   "sub": "braga",
+   "impacto": "baixo",
+   "setores": [
+    "Diáspora",
+    "Canadá"
+   ],
+   "tickers": [],
+   "resumo": "O presidente do SC Braga, António Salvador, anunciou em Toronto, na gala dos 40 anos do Arsenal do Minho, a intenção de abrir uma escola de futebol do clube no Canadá.",
+   "img": "https://sportal365images.com/process/smp-images-production/abola.pt/04102026/85c4d5e8-abe8-4ca5-9a4a-88fcc7ca1a53.jpeg?operations=crop(0:1910:4334:4348),autocrop(1200:630)"
+  },
+  {
+   "id": "nit-schumacher94-netflix-20261004",
+   "ts": "2026-10-04T11:02:42Z",
+   "source": "NiT",
+   "lado": "pt",
+   "url": "https://www.nit.pt/cultura/televisao/novo-documentario-da-netflix-conta-o-ano-que-mudou-a-carreira-de-schumacher",
+   "title": "Novo documentário da Netflix conta o ano que mudou a carreira de Schumacher",
+   "topic": "cultura",
+   "sub": "",
+   "impacto": "baixo",
+   "setores": [
+    "Netflix",
+    "Documentário"
+   ],
+   "tickers": [],
+   "resumo": "A Netflix estreou 'Schumacher '94', documentário sobre a temporada de 1994, em que Michael Schumacher conquistou o primeiro título mundial de Fórmula 1.",
+   "img": ""
   },
   {
    "id": "novagente-bb-helena-diogo",
@@ -107,6 +393,23 @@
    "tickers": [],
    "resumo": "Um homem de 40 anos morreu numa colisão entre um carro e uma bicicleta em Leiria.",
    "img": "https://img.iol.pt/image/id/5e2203f70cf207193068d7a4/200.jpg"
+  },
+  {
+   "id": "zerozero-1218893",
+   "ts": "2026-10-04T10:54:02Z",
+   "source": "zerozero",
+   "lado": "pt",
+   "url": "https://www.zerozero.pt/noticias/farense-goleia-chaves-em-jogo-em-atraso-da-segunda-liga/1218893",
+   "title": "Farense goleia Chaves em jogo em atraso da Segunda Liga",
+   "topic": "desporto",
+   "sub": "liga",
+   "impacto": "baixo",
+   "setores": [
+    "Liga 2"
+   ],
+   "tickers": [],
+   "resumo": "O Farense venceu o Chaves por 4-0, em jogo em atraso da Segunda Liga, e aproximou-se dos lugares cimeiros da tabela.",
+   "img": "https://www.zerozero.pt/img/noticias/893/imgS620I1218893T20261004132106.jpg"
   },
   {
    "id": "as-wrc-sardenha-powerstage",
@@ -4945,308 +5248,6 @@
    "tickers": [],
    "resumo": "Em tribunal, Betty relatou episódios de violência às mãos de José Castelo Branco e afirmou: \"Nunca conheci ninguém tão mau\".",
    "img": ""
-  },
-  {
-   "id": "rtp-v1768744",
-   "ts": "2026-09-30T20:13:47Z",
-   "source": "RTP",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/pais/mais-de-20-idosos-retirados-de-lar-ilegal-em-olhao-com-falta-de-condicoes_v1768744",
-   "title": "Mais de 20 idosos retirados de lar ilegal em Olhão com falta de condições",
-   "topic": "outros",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Lares ilegais"
-   ],
-   "tickers": [],
-   "resumo": "Foram retirados 22 idosos de um lar ilegal em Olhão, onde viviam em condições de falta de higiene e de cuidados básicos de saúde.",
-   "img": "https://cdn-images.rtp.pt/icm/noticias/images/e6/e627ee08428009248e93d19512f700df?w=350&q=50&rect=0,0,1499,822&auto=format"
-  },
-  {
-   "id": "rtp-v1768743",
-   "ts": "2026-09-30T20:11:47Z",
-   "source": "RTP",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/mundo/piloto-de-aviao-do-dubai-esfaqueou-outro-em-pleno-voo_v1768743",
-   "title": "Piloto de avião do Dubai esfaqueou outro em pleno voo",
-   "topic": "mundo",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Aviação",
-    "Israel"
-   ],
-   "tickers": [],
-   "resumo": "Um piloto de um voo da Flydubai esfaqueou o colega em pleno voo e o avião aterrou de emergência na Arábia Saudita. Israel suspeita de motivação política.",
-   "img": "https://cdn-images.rtp.pt/icm/images/2c/2c699a142e8f916f38380469b2010626_N.jpg?"
-  },
-  {
-   "id": "eco-volta-compensar-municipios",
-   "ts": "2026-09-30T20:10:16Z",
-   "source": "ECO",
-   "lado": "pt",
-   "url": "https://eco.sapo.pt/2026/09/30/volta-admite-compensar-financeiramente-municipios-pelos-custos-de-limpeza-urbana/",
-   "title": "Volta admite compensar financeiramente municípios pelos custos de limpeza urbana",
-   "topic": "outros",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Volta",
-    "Limpeza urbana"
-   ],
-   "tickers": [],
-   "resumo": "A entidade gestora do sistema Volta admite compensar os municípios pelos custos de limpeza urbana e compromete-se a apresentar um plano de ação sobre o lixo nas ruas. O Governo exige o plano até 16 de outubro.",
-   "img": "https://eco.imgix.net/uploads/2026/03/cropped-volta09.jpg"
-  },
-  {
-   "id": "rtp-v1768741",
-   "ts": "2026-09-30T20:09:47Z",
-   "source": "RTP",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/economia/nunca-as-rendas-foram-tao-caras-valor-por-metro-quadrado-ultrapassou-os-dez-euros_v1768741",
-   "title": "Nunca as rendas foram tão caras. Valor por metro quadrado ultrapassou os dez euros",
-   "topic": "economia",
-   "sub": "",
-   "impacto": "alto",
-   "setores": [
-    "Rendas",
-    "Habitação"
-   ],
-   "tickers": [],
-   "resumo": "O valor médio das rendas por metro quadrado ultrapassou os dez euros, um máximo. Os inquilinos queixam-se de rendas superiores ao salário mínimo.",
-   "img": "https://cdn-images.rtp.pt/icm/images/60/60567f44ea24e8c64c0150f302689ae5_N.jpg?"
-  },
-  {
-   "id": "rtp-n1768738",
-   "ts": "2026-09-30T19:56:21Z",
-   "source": "RTP",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/politica/parlamento-aprova-nova-lei-do-arrendamento-com-abstencao-do-chega_n1768738",
-   "title": "Parlamento aprova nova lei do arrendamento com abstenção do Chega",
-   "topic": "politica",
-   "sub": "",
-   "impacto": "alto",
-   "setores": [
-    "Arrendamento",
-    "Chega"
-   ],
-   "tickers": [],
-   "resumo": "O Parlamento aprovou na generalidade a proposta do Governo que revê o regime do arrendamento urbano, com os votos favoráveis de PSD, IL e CDS-PP e a abstenção do Chega. O diploma segue agora para a especialidade.",
-   "img": "https://cdn-images.rtp.pt/icm/noticias/images/64/6467ebc202971690784911c840f0d88e?w=350&q=50&rect=0,0,1499,822&auto=format"
-  },
-  {
-   "id": "lusa-47864314",
-   "ts": "2026-09-30T19:55:00Z",
-   "source": "Lusa",
-   "lado": "pt",
-   "url": "https://www.lusa.pt/article/47864314/psd-e-chega-chegam-a-acordo-para-alterar-na-especialidade-proposta-do-governo-sobre-novo-regime-do-arrendamento-urbano",
-   "title": "PSD e Chega chegam a acordo para alterar na especialidade proposta do Governo sobre novo regime do arrendamento urbano",
-   "topic": "economia",
-   "sub": "",
-   "impacto": "alto",
-   "setores": [
-    "Arrendamento",
-    "Habitação"
-   ],
-   "tickers": [],
-   "resumo": "O presidente do Chega e o líder parlamentar do PSD assinaram um acordo para introduzir alterações à proposta do Governo sobre o Novo Regime do Arrendamento Urbano, na discussão na especialidade. O PSD compromete-se a defender quatro alterações.",
-   "img": "https://www.lusa.pt/temp/images/900x600/cache_900x600_Crop_high_45086174_4996623_03062025110811.JPG"
-  },
-  {
-   "id": "record-sub19-holanda",
-   "ts": "2026-09-30T19:45:38Z",
-   "source": "Record",
-   "lado": "pt",
-   "url": "https://www.record.pt/futebol/selecoes/sub19/detalhe/portugal-goleia-holanda-em-jogo-de-preparacao",
-   "title": "Portugal goleia Holanda em jogo de preparação",
-   "topic": "desporto",
-   "sub": "selecao",
-   "impacto": "baixo",
-   "setores": [
-    "Sub-19"
-   ],
-   "tickers": [],
-   "resumo": "A seleção de sub-19 goleou a Holanda por 6-1 num jogo de preparação.",
-   "img": "https://cdn.record.pt/images/2026-09/img_1200x721uu2026-09-30-19-45-38-2465606-im-639263943802905436.jpg"
-  },
-  {
-   "id": "rtp-v1768732",
-   "ts": "2026-09-30T19:36:47Z",
-   "source": "RTP",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/economia/taxa-de-inflacao-volta-a-acelerar-a-boleia-dos-combustiveis_v1768732",
-   "title": "Taxa de inflação volta a acelerar à boleia dos combustíveis",
-   "topic": "economia",
-   "sub": "",
-   "impacto": "alto",
-   "setores": [
-    "Inflação",
-    "Combustíveis"
-   ],
-   "tickers": [],
-   "resumo": "Em setembro, os preços subiram em média 3,6% face ao mesmo mês do ano passado, mais três décimas do que em agosto, com os combustíveis a pesar na aceleração.",
-   "img": "https://cdn-images.rtp.pt/icm/images/29/292609b9828d9c8440d20ded40fdc228_N.jpg?"
-  },
-  {
-   "id": "ojogo-18132241",
-   "ts": "2026-09-30T19:33:00Z",
-   "source": "O Jogo",
-   "lado": "pt",
-   "url": "https://www.ojogo.pt/modalidades/artigo/servicos-secretos-russos-planearam-assassinato-de-kasparov/18132241",
-   "title": "Serviços secretos russos planearam assassinato de Kasparov",
-   "topic": "mundo",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Rússia",
-    "Xadrez"
-   ],
-   "tickers": [],
-   "resumo": "Segundo o O JOGO, os serviços secretos russos planearam o assassinato de Garry Kasparov, que foi colocado sob proteção. A lenda do xadrez é um forte opositor de Vladimir Putin.",
-   "img": "https://staticx.noticiasilimitadas.pt/oj/dffb585a-98af-48c6-8333-cdfe88ee02f6_1200x675.jpg"
-  },
-  {
-   "id": "abola-sporting-leoas-europa",
-   "ts": "2026-09-30T19:33:00Z",
-   "source": "A Bola",
-   "lado": "pt",
-   "url": "https://www.abola.pt/noticias/sporting-missao-impossivel-com-autodestruicao-pelo-meio-leoas-eliminadas-da-europa-2026093020472180390",
-   "title": "Sporting: leoas eliminadas da Europa Cup após empate com o Brondby",
-   "topic": "desporto",
-   "sub": "sporting",
-   "impacto": "medio",
-   "setores": [
-    "Europa Cup feminina"
-   ],
-   "tickers": [],
-   "resumo": "O Sporting empatou 2-2 com o Brondby, depois do 1-4 na Dinamarca, e está eliminado da Europa Cup feminina.",
-   "img": "https://sportal365images.com/process/smp-images-production/abola.pt/30092026/329f2f29-7035-4479-8184-20d89bda7494.jpg?operations=crop(0:279:3262:2114),autocrop(1200:630)"
-  },
-  {
-   "id": "obs-tunel-chelas-custos",
-   "ts": "2026-09-30T19:29:48Z",
-   "source": "Observador",
-   "lado": "pt",
-   "url": "https://observador.pt/2026/09/30/camara-de-lisboa-admite-paragem-do-tunel-de-chelas-antes-dos-achados-arqueologicos-e-conta-ja-4-milhoes-de-custos-acrescidos/",
-   "title": "Drenagem. Túnel de Chelas parado já custou mais 4 milhões",
-   "topic": "politica",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Lisboa",
-    "Drenagem"
-   ],
-   "tickers": [],
-   "resumo": "A obra do Plano Geral de Drenagem de Lisboa, parada desde maio, custa 15 mil euros por dia. A Câmara admite que a tuneladora já estava parada antes dos achados arqueológicos em Chelas.",
-   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:4096:2303:nowe:0:214/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/04/08135003/jporfirio-plano-geral-de-drenagem-de-lisboa-08-04-26-12-scaled.jpg"
-  },
-  {
-   "id": "obs-pcp-lares-reforma-65",
-   "ts": "2026-09-30T19:28:48Z",
-   "source": "Observador",
-   "lado": "pt",
-   "url": "https://observador.pt/2026/09/30/pcp-propoe-rede-publica-de-lares-com-80-mil-vagas-em-2027-e-reforma-aos-65-anos-sem-penalizacoes/",
-   "title": "PCP quer lares públicos e reforma aos 65 anos",
-   "topic": "politica",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "PCP",
-    "Pensões"
-   ],
-   "tickers": [],
-   "resumo": "O PCP apresentou dois projetos de lei que recuperam iniciativas chumbadas: 80 mil vagas em lares públicos até 2027 e o fim do fator de sustentabilidade, com reforma aos 65 anos sem penalizações.",
-   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2000:1123:nowe:0:211/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/09/04200139/47716728.jpg"
-  },
-  {
-   "id": "obs-be-renda-acessivel-lisboa",
-   "ts": "2026-09-30T19:25:59Z",
-   "source": "Observador",
-   "lado": "pt",
-   "url": "https://observador.pt/2026/09/30/be-lisboa-denuncia-suspensao-do-programa-de-renda-acessivel-jovem/",
-   "title": "BE denuncia suspensão do programa de renda acessível jovem",
-   "topic": "politica",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Habitação",
-    "Lisboa"
-   ],
-   "tickers": [],
-   "resumo": "Na reunião do executivo, o BE exigiu transparência a Carlos Moedas sobre a paragem de casas do programa \"De Volta ao Bairro\". O PS perguntou ainda se há intervenção do Ministério Público.",
-   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:4096:2303:nowe:0:213/q:70/plain/https://s3.observador.pt/wp-content/uploads/2025/08/06162130/dventura-habitacao-social-vale-formoso-11-scaled.jpg"
-  },
-  {
-   "id": "obs-corpo-rio-ave-vdc",
-   "ts": "2026-09-30T19:25:33Z",
-   "source": "Observador",
-   "lado": "pt",
-   "url": "https://observador.pt/2026/09/30/vila-do-conde-gnr-investiga-morte-de-homem-cujo-corpo-foi-encontrado-no-rio-ave/",
-   "title": "Corpo de homem encontrado a boiar no rio Ave",
-   "topic": "outros",
-   "sub": "",
-   "impacto": "baixo",
-   "setores": [
-    "Vila do Conde",
-    "GNR"
-   ],
-   "tickers": [],
-   "resumo": "O alerta foi dado às 15h57 por um agricultor. O óbito foi declarado no local e o corpo seguiu para o Instituto de Medicina Legal do Porto; a identidade ainda não está confirmada.",
-   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:770:433:nowe:0:0/q:70/plain/https://s3.observador.pt/wp-content/uploads/2019/11/03182434/24946868_770x433_acf_cropped.jpg"
-  },
-  {
-   "id": "zz-1217791",
-   "ts": "2026-09-30T19:23:00Z",
-   "source": "zerozero",
-   "lado": "pt",
-   "url": "https://www.zerozero.pt/noticias/fpf-reage-a-polemica-a-envolver-ronaldo-toda-a-comitiva-mantem-o-foco-absoluto/1217791",
-   "title": "FPF reage à polémica a envolver Ronaldo: «Toda a comitiva mantém o foco absoluto»",
-   "topic": "desporto",
-   "sub": "selecao",
-   "impacto": "alto",
-   "setores": [
-    "Seleção Nacional",
-    "FPF"
-   ],
-   "tickers": [],
-   "resumo": "Depois do comunicado de Cristiano Ronaldo, a Federação respondeu nas redes sociais, confirmando que o capitão não estará disponível com Jorge Jesus depois de ter saído do treino.",
-   "img": "https://www.zerozero.pt/img/noticias/791/imgS620I1217791T20260930202151.jpg"
-  },
-  {
-   "id": "caras-meghan-agente",
-   "ts": "2026-09-30T19:22:00Z",
-   "source": "Caras",
-   "lado": "pt",
-   "url": "https://caras.pt/realeza/2026-09-30-meghan-markle-rompe-com-o-seu-agente-de-talentos-apos-apenas-tres-meses-de-parceria/",
-   "title": "Meghan Markle rompe com o seu agente de talentos após apenas três meses de parceria",
-   "topic": "rosa",
-   "sub": "realeza",
-   "impacto": "baixo",
-   "setores": [
-    "Realeza"
-   ],
-   "tickers": [],
-   "resumo": "A relação profissional entre Meghan Markle e o agente Ari Emanuel terminou ao fim de poucos meses, embora a agência WME continue a representá-la formalmente.",
-   "img": "https://caras.pt/wp-content/uploads/2026/09/260916_CARAS-PT-1920-x-1080-px-2026-09-16T141719.598-1600x900.jpg"
-  },
-  {
-   "id": "cnn-6abd570fd34e53c759c74883",
-   "ts": "2026-09-30T19:06:00Z",
-   "source": "CNN Portugal",
-   "lado": "pt",
-   "url": "https://cnnportugal.iol.pt/oe2027/orcamento-do-estado/oe2027-ventura-diz-que-abstencao-do-ps-nao-surpreende-porque-esta-a-governar-em-conjunto-com-o-psd/20260930/6abd570fd34e53c759c74883",
-   "title": "OE2027. Ventura diz que abstenção do PS \"não surpreende\" porque está \"a governar em conjunto\" com o PSD",
-   "topic": "politica",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Orçamento do Estado",
-    "Chega"
-   ],
-   "tickers": [],
-   "resumo": "O líder do Chega acusa os socialistas de quererem estar mais próximos do PSD do que as oposições estiveram do anterior Governo, reagindo à intenção do PS de se abster no Orçamento.",
-   "img": "https://img.iol.pt/image/id/6a860de0d34ed0733ba80bc3/200.jpg"
   }
  ],
  "contracts": {},
@@ -5279,5 +5280,5 @@
    "nota": "A Frente Cívica diz que o fim do programa de segurança viola a lei; o programa foi encerrado por alegada falta de compromisso da testemunha e a ministra analisa."
   }
  ],
- "arquivo": 445
+ "arquivo": 462
 }
