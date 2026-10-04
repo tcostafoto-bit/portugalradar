@@ -1,24 +1,322 @@
 {
- "version": "1.1.57",
- "updated": "2026-10-04T13:46:05Z",
+ "version": "1.1.58",
+ "updated": "2026-10-04T15:45:29Z",
  "brief": [
   {
-   "texto": "Elfyn Evans é campeão do mundo de ralis pela primeira vez, na decisão da PowerStage na Sardenha.",
+   "texto": "Beja e Setúbal estão sob aviso laranja devido à trovoada e à chuva forte.",
+   "id": "rtp-n1769519"
+  },
+  {
+   "texto": "Zelensky e Merz assinaram em Kiev acordos de cooperação que somam mais de 8.500 milhões de euros.",
+   "id": "rtp-n1769531"
+  },
+  {
+   "texto": "Portugal pode garantir hoje os quartos de final da Liga das Nações, frente à Noruega, em pleno caso Ronaldo.",
+   "id": "lusa-47880503"
+  },
+  {
+   "texto": "Elfyn Evans é campeão do mundo de ralis pela primeira vez, depois de Solberg se despistar na PowerStage.",
    "id": "as-evans-campeao-wrc-20261004"
-  },
-  {
-   "texto": "Brasil vota hoje: Lula e Flávio Bolsonaro já votaram, com mais de 134 mil eleitores em Portugal.",
-   "id": "rtp-n1769480"
-  },
-  {
-   "texto": "IPMA emite aviso laranja de trovoada em Setúbal, Beja e Vila Real até às 15h."
-  },
-  {
-   "texto": "Cristiano Ronaldo parte de Madrid para a Arábia Saudita em dia de Portugal-Noruega.",
-   "id": "cnn-6ac233360cf22b9f8904dc95"
   }
  ],
  "items": [
+  {
+   "id": "obs-djokovic-zverev-20261004",
+   "ts": "2026-10-04T15:31:02Z",
+   "source": "Observador",
+   "lado": "pt",
+   "url": "https://observador.pt/2026/10/04/djokovic-protagoniza-reviravolta-diante-de-zverev-e-soma-mais-um-recorde-no-tenis/",
+   "title": "Djokovic protagoniza reviravolta diante de Zverev",
+   "topic": "desporto",
+   "sub": "tenis",
+   "impacto": "baixo",
+   "setores": [
+    "Pequim"
+   ],
+   "tickers": [],
+   "resumo": "Novak Djokovic derrotou Alexander Zverev em três sets nos quartos de final de Pequim, onde nunca perdeu.",
+   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2000:1122:nowe:0:96/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/10/04152648/47875659.jpg"
+  },
+  {
+   "id": "lusa-moscovo-detidos-20261004",
+   "ts": "2026-10-04T15:31:00Z",
+   "source": "Lusa",
+   "lado": "pt",
+   "url": "https://www.lusa.pt/article/47883096/cerca-de-60-detidos-em-moscovo-em-manifestação-que-contestou-resultados-eleitorais",
+   "title": "Cerca de 60 detidos em Moscovo em manifestação que contestou resultados eleitorais",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Rússia"
+   ],
+   "tickers": [],
+   "resumo": "Cerca de 60 pessoas foram detidas em Moscovo numa manifestação que contestou os resultados eleitorais.",
+   "img": ""
+  },
+  {
+   "id": "rtp-n1769536",
+   "ts": "2026-10-04T15:26:35Z",
+   "source": "RTP",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/economia/temporal-cancelou-385-voos-no-aeroporto-de-barcelona-durante-o-fim-de-semana_n1769536",
+   "title": "Temporal cancelou 385 voos no aeroporto de Barcelona durante o fim de semana",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Catalunha",
+    "Aviação"
+   ],
+   "tickers": [],
+   "resumo": "O aeroporto de Barcelona cancelou 385 voos durante o fim de semana devido ao temporal de chuva intensa que afetou grande parte da Catalunha.",
+   "img": "https://cdn-images.rtp.pt/icm/noticias/images/0c/0c0a3123c197d3fcb5522c27a86a2d9d?w=350&q=50&rect=1,0,5498,3014&auto=format"
+  },
+  {
+   "id": "cnn-6ac26e8dd34e53c759c74f9c",
+   "ts": "2026-10-04T15:19:00Z",
+   "source": "CNN Portugal",
+   "lado": "pt",
+   "url": "https://cnnportugal.iol.pt/acidente/a1/despiste-corta-a1-ao-transito-entre-soure-e-condeixa-a-nova-no-sentido-sul-norte/20261004/6ac26e8dd34e53c759c74f9c",
+   "title": "Despiste corta A1 ao trânsito entre Soure e Condeixa-a-Nova no sentido sul-norte",
+   "topic": "outros",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "A1",
+    "Trânsito"
+   ],
+   "tickers": [],
+   "resumo": "Um despiste de um ligeiro com cinco ocupantes cortou a A1 entre Soure e Condeixa-a-Nova, no sentido sul-norte.",
+   "img": ""
+  },
+  {
+   "id": "rtp-n1769531",
+   "ts": "2026-10-04T15:16:32Z",
+   "source": "RTP",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/guerra-na-ucrania/zelensky-e-merz-assinam-acordos-e-ajuda-de-mais-de-8500-milhoes-de-euros_n1769531",
+   "title": "Zelensky e Merz assinam acordos e ajuda de mais de 8.500 milhões de euros",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "alto",
+   "setores": [
+    "Ucrânia",
+    "Alemanha"
+   ],
+   "tickers": [],
+   "resumo": "O chanceler alemão e o Presidente ucraniano assinaram em Kiev um pacote de ajuda de 1.300 milhões de euros e acordos de cooperação que somam mais de 8.500 milhões.",
+   "img": "https://cdn-images.rtp.pt/icm/noticias/images/5c/5cea63a7fbb039c51b45fcbf306d819c?w=350&q=50&rect=1,0,3998,2192&auto=format"
+  },
+  {
+   "id": "rtp-n1769532",
+   "ts": "2026-10-04T15:15:49Z",
+   "source": "RTP",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/guerra-na-ucrania/zelensky-manifesta-abertura-para-reuniao-tecnica-com-eua-e-russia_n1769532",
+   "title": "Zelensky manifesta abertura para reunião técnica com EUA e Rússia",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Ucrânia",
+    "Rússia",
+    "EUA"
+   ],
+   "tickers": [],
+   "resumo": "Zelensky afirmou que a Ucrânia está aberta a uma reunião técnica com os EUA e a Rússia, que poderá realizar-se no final de outubro nos Emirados Árabes Unidos ou noutro país.",
+   "img": "https://cdn-images.rtp.pt/icm/noticias/images/b6/b654b1914d556252cf0c0b573b13dd16?w=350&q=50&rect=1,0,4498,2466&auto=format"
+  },
+  {
+   "id": "caras-markl-globo-20261004",
+   "ts": "2026-10-04T15:15:09Z",
+   "source": "Caras",
+   "lado": "pt",
+   "url": "https://caras.pt/famosos/2026-10-04-nuno-markl-reage-a-surpresa-de-que-foi-alvo-momentos-antes-de-receber-o-globo-de-ouro/",
+   "title": "Nuno Markl reage à surpresa de que foi alvo momentos antes de receber o Globo de Ouro",
+   "topic": "rosa",
+   "sub": "famosos",
+   "impacto": "baixo",
+   "setores": [
+    "Globos de Ouro"
+   ],
+   "tickers": [],
+   "resumo": "Nuno Markl falou do carinho inesperado e da emoção vividos nos bastidores da gala dos Globos de Ouro.",
+   "img": "https://caras.pt/wp-content/uploads/2026/10/261004_Nuno-Markl-600x315.jpg"
+  },
+  {
+   "id": "obs-remco-europeu-20261004",
+   "ts": "2026-10-04T15:09:01Z",
+   "source": "Observador",
+   "lado": "pt",
+   "url": "https://observador.pt/2026/10/04/caiu-levantou-se-voltou-a-atacar-e-fez-historia-remco-evenepoel-sagra-se-campeao-europeu-de-fundo-ao-sprint/",
+   "title": "Remco caiu, levantou-se, voltou a atacar e fez história",
+   "topic": "desporto",
+   "sub": "ciclismo",
+   "impacto": "medio",
+   "setores": [
+    "Europeu de ciclismo"
+   ],
+   "tickers": [],
+   "resumo": "Remco Evenepoel sagrou-se campeão europeu de fundo ao sprint, apesar de uma queda, numa prova com Tiago Antunes na fuga e Nelson Oliveira no top 25 até à última volta.",
+   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:1500:842:nowe:0:158/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/10/04160454/remco-evenepoel.jpg"
+  },
+  {
+   "id": "rtp-n1769530",
+   "ts": "2026-10-04T15:05:34Z",
+   "source": "RTP",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/mundo/trump-cria-forca-da-superinteligencia-para-coordenar-o-desenvolvimento-de-ia_n1769530",
+   "title": "Trump cria \"Força da Superinteligência\" para coordenar o desenvolvimento de IA",
+   "topic": "tecnologia",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Inteligência artificial",
+    "EUA"
+   ],
+   "tickers": [],
+   "resumo": "O Presidente norte-americano anunciou a criação da \"Força da Superinteligência\", unidade dentro da Casa Branca e do Governo federal que vai liderar o desenvolvimento da IA nos EUA.",
+   "img": "https://cdn-images.rtp.pt/icm/noticias/images/7a/7af0c6699751ac074c5978f5b1361e56?w=350&q=50&rect=1,0,1691,927&auto=format"
+  },
+  {
+   "id": "abola-fia-bugs-bahrain-20261004",
+   "ts": "2026-10-04T15:00:30Z",
+   "source": "A Bola",
+   "lado": "pt",
+   "url": "https://www.abola.pt/noticias/gp-de-bahrain-fia-assume-culpas-apos-bugs-no-sistema-devido-a-chuva-2026100414503346261",
+   "title": "GP de Bahrain: FIA assume culpas após «bugs» no sistema devido à chuva",
+   "topic": "desporto",
+   "sub": "motores",
+   "impacto": "baixo",
+   "setores": [
+    "Fórmula 1"
+   ],
+   "tickers": [],
+   "resumo": "A FIA assumiu responsabilidades por falhas no sistema devido à chuva no GP do Bahrain, que impediram os monolugares de acelerar.",
+   "img": "https://sportal365images.com/process/smp-images-production/abola.pt/04102026/c4a3b0bb-0f00-48f4-88c9-737c884aa12b.jpg?operations=autocrop(1200:630)"
+  },
+  {
+   "id": "obs-acores-ordenamento-20261004",
+   "ts": "2026-10-04T14:50:11Z",
+   "source": "Observador",
+   "lado": "pt",
+   "url": "https://observador.pt/2026/10/04/acores-lancam-concurso-para-revisao-do-plano-de-ordenamento-do-territorio/",
+   "title": "Plano de Ordenamento do Território a concurso nos Açores",
+   "topic": "politica",
+   "sub": "",
+   "impacto": "baixo",
+   "setores": [
+    "Açores"
+   ],
+   "tickers": [],
+   "resumo": "O Governo dos Açores lançou o concurso público para a revisão do Plano Regional de Ordenamento do Território, 16 anos após a entrada em vigor.",
+   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:1281:719:nowe:0:234/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/08/18191619/vila-nordeste-sao-miguel-acores-1-1.jpg"
+  },
+  {
+   "id": "lusa-47883268",
+   "ts": "2026-10-04T14:49:00Z",
+   "source": "Lusa",
+   "lado": "pt",
+   "url": "https://www.lusa.pt/article/47883268/henrique-rocha-conquista-em-casa-título-do-porto-open-em-ténis",
+   "title": "Henrique Rocha conquista em casa título do Porto Open em ténis",
+   "topic": "desporto",
+   "sub": "tenis",
+   "impacto": "medio",
+   "setores": [
+    "Porto Open"
+   ],
+   "tickers": [],
+   "resumo": "O tenista português Henrique Rocha venceu o Porto Open, challenger disputado em casa.",
+   "img": ""
+  },
+  {
+   "id": "abola-dua-lipa-lello-20261004",
+   "ts": "2026-10-04T14:44:47Z",
+   "source": "A Bola",
+   "lado": "pt",
+   "url": "https://www.abola.pt/noticias/dua-lipa-visitou-projeto-na-livraria-lello-no-porto-fotos-2026100414313955443",
+   "title": "Dua Lipa visitou projeto na Livraria Lello, no Porto (fotos)",
+   "topic": "rosa",
+   "sub": "famosos",
+   "impacto": "baixo",
+   "setores": [
+    "Porto"
+   ],
+   "tickers": [],
+   "resumo": "A cantora Dua Lipa visitou na Livraria Lello, no Porto, um projeto dedicado a livros censurados criado pelo seu clube de leitura.",
+   "img": "https://sportal365images.com/process/smp-images-production/abola.pt/04102026/27c0ed96-6436-469c-9376-32a43a6c0576.jpg?operations=autocrop(1200:630)"
+  },
+  {
+   "id": "novagente-miguel-queiros-globo",
+   "ts": "2026-10-04T14:00:00Z",
+   "source": "Nova Gente",
+   "lado": "pt",
+   "url": "https://www.novagente.pt/miguel-queiros-do-medo-de-comecar-ao-aplauso-do-pais/",
+   "title": "Miguel Queirós: Do medo de começar ao aplauso do país",
+   "topic": "rosa",
+   "sub": "famosos",
+   "impacto": "baixo",
+   "setores": [
+    "Globos de Ouro"
+   ],
+   "tickers": [],
+   "resumo": "O criador de conteúdos Miguel Queirós, de 21 anos, venceu o Globo de Ouro Revelação na 30.ª cerimónia.",
+   "img": ""
+  },
+  {
+   "id": "abola-maniche-citacao-falsa-20261004",
+   "ts": "2026-10-04T13:58:38Z",
+   "source": "A Bola",
+   "lado": "pt",
+   "url": "https://www.abola.pt/noticias/maniche-revolta-se-contra-citacao-falsa-sobre-ronaldo-e-fabricar-mentiras-para-gerar-odio-2026100413583899478",
+   "title": "Maniche revolta-se contra citação falsa sobre Ronaldo: «É fabricar mentiras para gerar ódio»",
+   "topic": "desporto",
+   "sub": "selecao",
+   "impacto": "medio",
+   "setores": [
+    "Caso Ronaldo"
+   ],
+   "tickers": [],
+   "resumo": "O antigo internacional Maniche desmentiu nas redes sociais declarações que lhe foram atribuídas sobre o ambiente na Seleção Nacional.",
+   "img": "https://sportal365images.com/process/smp-images-production/abola.pt/04102026/7e3821db-b6d2-427f-a896-0ecc1659579d.jpg?operations=crop(0:63:5470:3139),autocrop(1200:630)"
+  },
+  {
+   "id": "cm-novela-sic-avenida-brasil-20261004",
+   "ts": "2026-10-04T13:51:20Z",
+   "source": "CM",
+   "lado": "pt",
+   "url": "https://m.facebook.com/cmjornal/posts/pfbid02s5dkAnWKx23Exd71F1AC1sWy3Z3Nq3926DdVvxYffRG9X8NioofM4YhyJJUzXZoBl",
+   "title": "Nova novela da SIC é uma adaptação de 'Avenida Brasil'",
+   "topic": "cultura",
+   "sub": "",
+   "impacto": "baixo",
+   "setores": [
+    "SIC",
+    "Novelas"
+   ],
+   "tickers": [],
+   "resumo": "A nova novela da SIC é uma adaptação de 'Avenida Brasil', uma das produções de maior sucesso da Globo.",
+   "img": ""
+  },
+  {
+   "id": "rtp-n1769519",
+   "ts": "2026-10-04T13:46:42Z",
+   "source": "RTP",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/pais/setubal-e-beja-sob-aviso-laranja-devido-a-trovoada-e-chuva-forte_n1769519",
+   "title": "Setúbal e Beja sob aviso laranja devido à trovoada e chuva forte",
+   "topic": "tempo",
+   "sub": "",
+   "impacto": "alto",
+   "setores": [
+    "Aviso laranja",
+    "IPMA"
+   ],
+   "tickers": [],
+   "resumo": "O IPMA colocou os distritos de Beja e Setúbal sob aviso laranja devido à possibilidade de trovoada e precipitação forte.",
+   "img": "https://cdn-images.rtp.pt/icm/noticias/images/4e/4ed3e7dc7a915a002dff13952742c477?w=350&q=50&rect=0,0,1499,822&auto=format"
+  },
   {
    "id": "as-evans-campeao-wrc-20261004",
    "ts": "2026-10-04T13:30:00Z",
@@ -54,6 +352,23 @@
    "tickers": [],
    "resumo": "O MAAT, em Lisboa, que foi inaugurado há 10 anos, apresenta mais de duzentas obras inéditas de Pedro Cabrita Reis.",
    "img": "https://cdn-images.rtp.pt/icm/images/0a/0a44e0a7e75179fbf31991dab09274ed_N.jpg?"
+  },
+  {
+   "id": "cnn-6ac253c9d34e53c759c74f82",
+   "ts": "2026-10-04T13:24:00Z",
+   "source": "CNN Portugal",
+   "lado": "pt",
+   "url": "https://cnnportugal.iol.pt/acidente/despiste/despiste-de-carro-causa-danos-na-escadaria-do-bom-jesus-de-braga/20261004/6ac253c9d34e53c759c74f82",
+   "title": "Jaguar despista-se e causa danos na escadaria do Bom Jesus de Braga",
+   "topic": "outros",
+   "sub": "",
+   "impacto": "baixo",
+   "setores": [
+    "Braga"
+   ],
+   "tickers": [],
+   "resumo": "Um automóvel despistou-se e causou danos na escadaria do Bom Jesus, em Braga.",
+   "img": ""
   },
   {
    "id": "zerozero-1218911",
@@ -287,6 +602,23 @@
    "tickers": [],
    "resumo": "O subchefe do Conselho de Segurança da Rússia avisou os Estados Unidos das consequências de eventuais planos para bloquear o satélite Rassvet.",
    "img": "https://www.lusa.pt/temp/images/430x338/cache_430x338_Crop_high_47786444_485529420923547.jpg"
+  },
+  {
+   "id": "ojogo-zidane-ronaldo-18133447",
+   "ts": "2026-10-04T11:10:00Z",
+   "source": "O Jogo",
+   "lado": "pt",
+   "url": "https://www.ojogo.pt/internacional/artigo/zidane-tira-o-chapeu-a-cristiano-ronaldo-tive-a-sorte/18133447",
+   "title": "Zidane \"tira o chapéu\" a Cristiano Ronaldo: \"Tive a sorte...\"",
+   "topic": "desporto",
+   "sub": "selecao",
+   "impacto": "baixo",
+   "setores": [
+    "Caso Ronaldo"
+   ],
+   "tickers": [],
+   "resumo": "Zinedine Zidane elogiou Cristiano Ronaldo na sequência do abandono da Seleção Nacional.",
+   "img": "https://staticx.noticiasilimitadas.pt/oj/038362f3-6f97-4035-8625-9b93f3b85b55_1200x675.jpg"
   },
   {
    "id": "cnn-6ac233360cf22b9f8904dc95",
@@ -4916,338 +5248,6 @@
    "tickers": [],
    "resumo": "O FC Porto recebeu e bateu o ABC por 39-24, em jogo em atraso da 2.ª jornada, e igualou o Sporting no topo do campeonato de andebol.",
    "img": "https://sportal365images.com/process/smp-images-production/abola.pt/30092026/267f03cc-f659-4b7d-928e-465aa64adbb2.jpg?operations=crop(0:193:3194:1990),autocrop(1200:630)"
-  },
-  {
-   "id": "rtp-d1768757",
-   "ts": "2026-09-30T21:06:03Z",
-   "source": "RTP",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/futebol-internacional/torreense-goleia-e-garante-oitavos-de-final-da-taca-da-europa-feminina_d1768757",
-   "title": "Torreense goleia e garante oitavos de final da Taça da Europa feminina",
-   "topic": "desporto",
-   "sub": "liga",
-   "impacto": "medio",
-   "setores": [
-    "Europa Cup feminina"
-   ],
-   "tickers": [],
-   "resumo": "O Torreense venceu o Metalist 1925 por 4-1 na segunda mão e apurou-se para os oitavos de final da Taça da Europa feminina.",
-   "img": "https://cdn-images.rtp.pt/icm/noticias/images/06/06adcc070240f7462f58c3fa8fe63adf?w=350&q=50&rect=0,90,1233,676&auto=format"
-  },
-  {
-   "id": "obs-calor-extremo-mais-cedo",
-   "ts": "2026-09-30T21:03:50Z",
-   "source": "Observador",
-   "lado": "pt",
-   "url": "https://observador.pt/2026/09/30/epoca-de-ondas-de-calor-alargou-quase-40-dias-em-44-anos-em-portugal-o-calor-extremo-chega-agora-um-mes-mais-cedo/",
-   "title": "Calor extremo chega um mês mais cedo a Portugal",
-   "topic": "tempo",
-   "sub": "",
-   "impacto": "baixo",
-   "setores": [
-    "Ondas de calor"
-   ],
-   "tickers": [],
-   "resumo": "A janela de risco de ondas de calor em Portugal cresceu 27 dias desde 1979, cerca de sete dias por década entre 1979 e 2023.",
-   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:1200:674:nowe:0:0/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/09/30210831/heat-waves-featured-image-final-1.webp"
-  },
-  {
-   "id": "abola-maritimo-limoges",
-   "ts": "2026-09-30T20:58:08Z",
-   "source": "A Bola",
-   "lado": "pt",
-   "url": "https://www.abola.pt/noticias/liga-europeia-maritimo-estreia-se-com-derrota-tangencial-em-limoges-2026093020580825029",
-   "title": "Liga Europeia: Marítimo estreia-se com derrota tangencial em Limoges",
-   "topic": "desporto",
-   "sub": "andebol",
-   "impacto": "baixo",
-   "setores": [
-    "Liga Europeia"
-   ],
-   "tickers": [],
-   "resumo": "O Marítimo perdeu em França com o Limoges por 31-30, na estreia no Grupo B da Liga Europeia de andebol.",
-   "img": "https://sportal365images.com/process/smp-images-production/abola.pt/30092026/f6518784-ff6a-4b60-9e79-9ad6a9ab7408.jpg?operations=crop(0:159:1534:1022),autocrop(1200:630)"
-  },
-  {
-   "id": "rtp-d1768755",
-   "ts": "2026-09-30T20:57:40Z",
-   "source": "RTP",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/selecao-nacional/portugal-goleia-gibraltar-e-assegura-europeu-de-sub-21_d1768755",
-   "title": "Portugal goleia Gibraltar e assegura Europeu de sub-21",
-   "topic": "desporto",
-   "sub": "selecao",
-   "impacto": "medio",
-   "setores": [
-    "Euro sub-21"
-   ],
-   "tickers": [],
-   "resumo": "Portugal venceu Gibraltar por 4-0, garantiu o primeiro lugar do Grupo B e a 11.ª presença, a quarta consecutiva, na fase final do Europeu de sub-21.",
-   "img": "https://cdn-images.rtp.pt/icm/noticias/images/a9/a91ce2645c43265e44c262c384774062?w=350&q=50&rect=0,36,1232,675&auto=format"
-  },
-  {
-   "id": "obs-antigos-combatentes-chumbo",
-   "ts": "2026-09-30T20:54:48Z",
-   "source": "Observador",
-   "lado": "pt",
-   "url": "https://observador.pt/2026/09/30/psd-ps-e-cds-chumbam-iniciativas-de-chega-e-pcp-para-aumentar-rendimentos-a-antigos-combatentes/",
-   "title": "Pensões de antigos combatentes chumbadas no parlamento",
-   "topic": "politica",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Antigos combatentes",
-    "Pensões"
-   ],
-   "tickers": [],
-   "resumo": "PSD, PS e CDS-PP chumbaram as propostas de Chega e PCP para aumentar rendimentos a antigos combatentes. O debate fica adiado para o Orçamento do Estado de 2027.",
-   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:4096:2303:nowe:0:214/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/09/08191414/jporfirio-mocao-censura-mai-luis-neves-parlamento-08-09-2026-04-3-scaled.jpg"
-  },
-  {
-   "id": "cnn-6abd5edfd34e9a786e75a5eb",
-   "ts": "2026-09-30T20:50:00Z",
-   "source": "CNN Portugal",
-   "lado": "pt",
-   "url": "https://cnnportugal.iol.pt/russia/nato/russia-ameaca-nato-com-uso-de-armas-nucleares-caso-a-alianca-tente-bloquear-enclave-no-baltico/20260930/6abd5edfd34e9a786e75a5eb",
-   "title": "Rússia ameaça NATO com uso de armas nucleares caso a aliança tente bloquear enclave no Báltico",
-   "topic": "mundo",
-   "sub": "",
-   "impacto": "alto",
-   "setores": [
-    "Rússia",
-    "NATO"
-   ],
-   "tickers": [],
-   "resumo": "Moscovo ameaçou recorrer a armas nucleares se a NATO tentar bloquear o enclave russo no Báltico, o que gerou preocupação entre os aliados.",
-   "img": "https://img.iol.pt/image/id/65eef323d34e87e0c08a9b4e/200.jpg"
-  },
-  {
-   "id": "abola-arouca-sucessao-seabra",
-   "ts": "2026-09-30T20:48:21Z",
-   "source": "A Bola",
-   "lado": "pt",
-   "url": "https://www.abola.pt/noticias/arouca-ha-um-nome-que-ganha-forca-para-a-sucessao-a-vasco-seabra-2026093020483610620",
-   "title": "Arouca: há um nome que ganha força para a sucessão a Vasco Seabra",
-   "topic": "desporto",
-   "sub": "liga",
-   "impacto": "baixo",
-   "setores": [
-    "Arouca"
-   ],
-   "tickers": [],
-   "resumo": "Armando Evangelista, que orientou o Arouca entre 2020 e 2023, ganha força para suceder a Vasco Seabra e pode regressar à Serra da Freita.",
-   "img": "https://sportal365images.com/process/smp-images-production/abola.pt/30092026/1eff7a4e-d45c-4a97-a538-68e893f0cedd.webp?operations=crop(0:0:1020:574),autocrop(1200:630)"
-  },
-  {
-   "id": "rtp-n1768746",
-   "ts": "2026-09-30T20:40:45Z",
-   "source": "RTP",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/politica/uso-de-capacete-para-quem-utiliza-trotinete-e-bicicleta-eletrica-aprovado-na-generalidade_n1768746",
-   "title": "Uso de capacete para quem utiliza trotinete e bicicleta elétrica aprovado na generalidade",
-   "topic": "politica",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Mobilidade",
-    "Segurança rodoviária"
-   ],
-   "tickers": [],
-   "resumo": "A Assembleia da República aprovou na generalidade a obrigatoriedade de capacete para utilizadores de trotinetes e bicicletas elétricas. O diploma segue para a especialidade.",
-   "img": "https://cdn-images.rtp.pt/icm/noticias/images/13/133adf70b1f9f75e9955543b6056d1d5?w=350&q=50&rect=0,82,1391,763&auto=format"
-  },
-  {
-   "id": "rtp-n1768745",
-   "ts": "2026-09-30T20:39:33Z",
-   "source": "RTP",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/politica/parlamento-rejeita-cessar-a-vigencia-da-nova-lei-organica-do-inem_n1768745",
-   "title": "Parlamento rejeita cessar a vigência da nova lei orgânica do INEM",
-   "topic": "saude",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "INEM"
-   ],
-   "tickers": [],
-   "resumo": "O Parlamento rejeitou a proposta do PCP para fazer cessar a vigência da nova lei orgânica do Instituto Nacional de Emergência Médica.",
-   "img": "https://cdn-images.rtp.pt/icm/noticias/images/8f/8f8811cb1a5ad1121ea3ab31f1ba08e7?w=350&q=50&rect=0,148,1391,763&auto=format"
-  },
-  {
-   "id": "obs-medalha-merito-lisboa",
-   "ts": "2026-09-30T20:39:32Z",
-   "source": "Observador",
-   "lado": "pt",
-   "url": "https://observador.pt/2026/09/30/camara-de-lisboa-atribui-medalha-de-merito-cultural-a-joaquim-de-almeida-e-a-titulo-postumo-a-marco-paulo-e-rogerio-carvalho/",
-   "title": "Lisboa distingue Joaquim de Almeida e Marco Paulo",
-   "topic": "cultura",
-   "sub": "",
-   "impacto": "baixo",
-   "setores": [
-    "Câmara de Lisboa"
-   ],
-   "tickers": [],
-   "resumo": "A Câmara de Lisboa atribuiu por unanimidade a medalha de mérito cultural a Joaquim de Almeida e, a título póstumo, a Marco Paulo e Rogério Carvalho.",
-   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:4096:2306:nowe:0:421/q:70/plain/https://s3.observador.pt/wp-content/uploads/2023/03/21172057/31202803-scaled.jpg"
-  },
-  {
-   "id": "rtp-n1768737",
-   "ts": "2026-09-30T20:37:52Z",
-   "source": "RTP",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/politica/rui-paulo-sousa-parlamento-levanta-imunidade-ao-presidente-da-comissao-da-transparencia_n1768737",
-   "title": "Rui Paulo Sousa. Parlamento levanta imunidade ao presidente da Comissão da Transparência",
-   "topic": "politica",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Chega",
-    "Imunidade parlamentar"
-   ],
-   "tickers": [],
-   "resumo": "A Assembleia da República levantou, por unanimidade, a imunidade parlamentar ao deputado do Chega Rui Paulo Sousa, presidente da Comissão da Transparência, por alegados crimes.",
-   "img": "https://cdn-images.rtp.pt/icm/noticias/images/54/54aa2acc2c1cbda3838082a2812ca9d7?w=350&q=50&rect=0,150,1391,763&auto=format"
-  },
-  {
-   "id": "obs-cpi-luis-neves-pj",
-   "ts": "2026-09-30T20:36:13Z",
-   "source": "Observador",
-   "lado": "pt",
-   "url": "https://observador.pt/2026/09/30/comissao-de-inquerito-a-mandatos-de-luis-neves-na-pj-vai-ser-presidida-pelo-chega/",
-   "title": "CPI a mandatos de Luís Neves presidida por Chega",
-   "topic": "politica",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "PJ",
-    "Comissão de inquérito"
-   ],
-   "tickers": [],
-   "resumo": "A comissão de inquérito aos mandatos de Luís Neves como diretor da PJ foi aprovada com abstenção do PAN. O Chega preside e PS e PSD assumem as vice-presidências.",
-   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2000:1124:nowe:0:104/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/09/28165639/47850501.jpg"
-  },
-  {
-   "id": "obs-rui-pinto-protecao",
-   "ts": "2026-09-30T20:35:50Z",
-   "source": "Observador",
-   "lado": "pt",
-   "url": "https://observador.pt/2026/09/30/hacker-rui-pinto-vai-sair-do-programa-de-protecao-de-testemunhas/",
-   "title": "Rui Pinto vai sair do programa de proteção de testemunhas",
-   "topic": "justica",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Rui Pinto"
-   ],
-   "tickers": [],
-   "resumo": "Rui Pinto vai deixar de beneficiar de medidas como a residência em local secreto. Ainda não é certo se o hacker também perde a proteção policial.",
-   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:770:433:nowe:0:0/q:70/plain/https://s3.observador.pt/wp-content/uploads/2020/03/22100135/GettyImages-1128728259-scaled_770x433_acf_cropped.jpg"
-  },
-  {
-   "id": "obs-martim-moniz-prazo",
-   "ts": "2026-09-30T20:32:45Z",
-   "source": "Observador",
-   "lado": "pt",
-   "url": "https://observador.pt/2026/09/30/camara-de-lisboa-falhou-prazo-para-requalificar-praca-do-martim-moniz-mas-diz-que-obra-sera-executada/",
-   "title": "Câmara de Lisboa falhou prazo para requalificar Martim Moniz",
-   "topic": "politica",
-   "sub": "",
-   "impacto": "baixo",
-   "setores": [
-    "Lisboa"
-   ],
-   "tickers": [],
-   "resumo": "A requalificação da Praça do Martim Moniz, aprovada em 2022 e adjudicada em 2023, devia ter sido entregue em março de 2026 e ainda não começou. A Câmara de Lisboa admite ter falhado o prazo, mas garante que a obra será executada.",
-   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:3000:1687:nowe:0:156/q:70/plain/https://s3.observador.pt/wp-content/uploads/2025/01/20171944/237a9362.jpg"
-  },
-  {
-   "id": "idealista-77952",
-   "ts": "2026-09-30T20:32:00Z",
-   "source": "Idealista",
-   "lado": "pt",
-   "url": "https://www.idealista.pt/news/financas/credito-a-habitacao/2026/09/30/77952-adeus-a-comissao-de-reembolso-no-credito-habitacao-com-taxa-variavel",
-   "title": "Adeus à comissão de reembolso no crédito habitação com taxa variável",
-   "topic": "economia",
-   "sub": "",
-   "impacto": "alto",
-   "setores": [
-    "Crédito à habitação",
-    "Chega"
-   ],
-   "tickers": [],
-   "resumo": "O Parlamento aprovou um projeto do Chega que elimina a comissão de reembolso antecipado nos contratos de crédito à habitação com taxa variável, com abstenção de PSD, CDS, IL, PCP e Livre.",
-   "img": "https://st3.idealista.pt/news/arquivos/2026-09/images/comissoes_no_credito_habitacao.jpg?VersionId=ut.Y8JkCFxo_Ow3fIcdZeE8todgEmJyo"
-  },
-  {
-   "id": "rtp-d1768752",
-   "ts": "2026-09-30T20:30:42Z",
-   "source": "RTP",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/ligadasnacoes/cristiano-ronaldo-arrisca-seis-meses-de-suspensao-por-abandonar-selecao-portuguesa_d1768752",
-   "title": "Cristiano Ronaldo arrisca seis meses de suspensão por abandonar seleção portuguesa",
-   "topic": "desporto",
-   "sub": "selecao",
-   "impacto": "alto",
-   "setores": [
-    "Liga das Nações",
-    "FPF"
-   ],
-   "tickers": [],
-   "resumo": "Segundo o Regulamento Disciplinar da FPF, Cristiano Ronaldo arrisca uma suspensão entre um e seis meses e uma multa por ter abandonado a seleção.",
-   "img": "https://cdn-images.rtp.pt/icm/noticias/images/14/14e9c28a5121a80097c3c22fafcfc0e7?w=350&q=50&rect=0,57,1180,647&auto=format"
-  },
-  {
-   "id": "rtp-v1768750",
-   "ts": "2026-09-30T20:27:47Z",
-   "source": "RTP",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/politica/seguro-diz-que-inimigos-da-democracia-sao-os-problemas-nao-resolvidos_v1768750",
-   "title": "Seguro diz que inimigos da democracia são os problemas não resolvidos",
-   "topic": "politica",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Presidente da República",
-    "Custo de vida"
-   ],
-   "tickers": [],
-   "resumo": "O Presidente da República pediu uma solução europeia para enfrentar a subida do custo de vida e afirmou que os inimigos da democracia são os problemas que não se resolvem.",
-   "img": "https://cdn-images.rtp.pt/icm/noticias/images/f3/f33f4ef345203c0f2f0854d0dd708e2c?w=350&q=50&rect=0,0,1499,822&auto=format"
-  },
-  {
-   "id": "rtp-v1768748",
-   "ts": "2026-09-30T20:23:47Z",
-   "source": "RTP",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/economia/corrida-a-tap-governo-garante-decisao-ate-meio-de-outubro_v1768748",
-   "title": "Corrida à TAP. Governo garante decisão até meio de outubro",
-   "topic": "economia",
-   "sub": "",
-   "impacto": "alto",
-   "setores": [
-    "TAP",
-    "Privatização"
-   ],
-   "tickers": [],
-   "resumo": "Air France-KLM e Lufthansa entregaram propostas melhoradas para comprar parte da TAP e o Governo garante uma decisão até meio de outubro.",
-   "img": "https://cdn-images.rtp.pt/icm/noticias/images/78/786c5b4cdd4e53abad831c5762148890?w=350&q=50&rect=0,41,1391,763&auto=format"
-  },
-  {
-   "id": "cm-betty-castelo-branco-tribunal",
-   "ts": "2026-09-30T20:15:46Z",
-   "source": "CM",
-   "lado": "pt",
-   "url": "https://www.facebook.com/reel/2557437988093278/",
-   "title": "Betty relata em tribunal episódios de violência às mãos de José Castelo Branco",
-   "topic": "justica",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Violência doméstica"
-   ],
-   "tickers": [],
-   "resumo": "Em tribunal, Betty relatou episódios de violência às mãos de José Castelo Branco e afirmou: \"Nunca conheci ninguém tão mau\".",
-   "img": ""
   }
  ],
  "contracts": {},
@@ -5280,5 +5280,5 @@
    "nota": "A Frente Cívica diz que o fim do programa de segurança viola a lei; o programa foi encerrado por alegada falta de compromisso da testemunha e a ministra analisa."
   }
  ],
- "arquivo": 462
+ "arquivo": 481
 }

@@ -1,7 +1,143 @@
 {
- "version": "1.1.57",
- "updated": "2026-10-04T13:46:05Z",
+ "version": "1.1.58",
+ "updated": "2026-10-04T15:45:29Z",
  "recent": [
+  {
+   "id": "obs-djokovic-zverev-20261004",
+   "ts": "2026-10-04T15:31:02Z",
+   "topic": "desporto",
+   "sub": "tenis",
+   "source": "Observador",
+   "title": "Djokovic protagoniza reviravolta diante de Zverev"
+  },
+  {
+   "id": "lusa-moscovo-detidos-20261004",
+   "ts": "2026-10-04T15:31:00Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "Lusa",
+   "title": "Cerca de 60 detidos em Moscovo em manifestação que contestou resultados eleitorais"
+  },
+  {
+   "id": "rtp-n1769536",
+   "ts": "2026-10-04T15:26:35Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "RTP",
+   "title": "Temporal cancelou 385 voos no aeroporto de Barcelona durante o fim de semana"
+  },
+  {
+   "id": "cnn-6ac26e8dd34e53c759c74f9c",
+   "ts": "2026-10-04T15:19:00Z",
+   "topic": "outros",
+   "sub": "",
+   "source": "CNN Portugal",
+   "title": "Despiste corta A1 ao trânsito entre Soure e Condeixa-a-Nova no sentido sul-norte"
+  },
+  {
+   "id": "rtp-n1769531",
+   "ts": "2026-10-04T15:16:32Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "RTP",
+   "title": "Zelensky e Merz assinam acordos e ajuda de mais de 8.500 milhões de euros"
+  },
+  {
+   "id": "rtp-n1769532",
+   "ts": "2026-10-04T15:15:49Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "RTP",
+   "title": "Zelensky manifesta abertura para reunião técnica com EUA e Rússia"
+  },
+  {
+   "id": "caras-markl-globo-20261004",
+   "ts": "2026-10-04T15:15:09Z",
+   "topic": "rosa",
+   "sub": "famosos",
+   "source": "Caras",
+   "title": "Nuno Markl reage à surpresa de que foi alvo momentos antes de receber o Globo de Ouro"
+  },
+  {
+   "id": "obs-remco-europeu-20261004",
+   "ts": "2026-10-04T15:09:01Z",
+   "topic": "desporto",
+   "sub": "ciclismo",
+   "source": "Observador",
+   "title": "Remco caiu, levantou-se, voltou a atacar e fez história"
+  },
+  {
+   "id": "rtp-n1769530",
+   "ts": "2026-10-04T15:05:34Z",
+   "topic": "tecnologia",
+   "sub": "",
+   "source": "RTP",
+   "title": "Trump cria \"Força da Superinteligência\" para coordenar o desenvolvimento de IA"
+  },
+  {
+   "id": "abola-fia-bugs-bahrain-20261004",
+   "ts": "2026-10-04T15:00:30Z",
+   "topic": "desporto",
+   "sub": "motores",
+   "source": "A Bola",
+   "title": "GP de Bahrain: FIA assume culpas após «bugs» no sistema devido à chuva"
+  },
+  {
+   "id": "obs-acores-ordenamento-20261004",
+   "ts": "2026-10-04T14:50:11Z",
+   "topic": "politica",
+   "sub": "",
+   "source": "Observador",
+   "title": "Plano de Ordenamento do Território a concurso nos Açores"
+  },
+  {
+   "id": "lusa-47883268",
+   "ts": "2026-10-04T14:49:00Z",
+   "topic": "desporto",
+   "sub": "tenis",
+   "source": "Lusa",
+   "title": "Henrique Rocha conquista em casa título do Porto Open em ténis"
+  },
+  {
+   "id": "abola-dua-lipa-lello-20261004",
+   "ts": "2026-10-04T14:44:47Z",
+   "topic": "rosa",
+   "sub": "famosos",
+   "source": "A Bola",
+   "title": "Dua Lipa visitou projeto na Livraria Lello, no Porto (fotos)"
+  },
+  {
+   "id": "novagente-miguel-queiros-globo",
+   "ts": "2026-10-04T14:00:00Z",
+   "topic": "rosa",
+   "sub": "famosos",
+   "source": "Nova Gente",
+   "title": "Miguel Queirós: Do medo de começar ao aplauso do país"
+  },
+  {
+   "id": "abola-maniche-citacao-falsa-20261004",
+   "ts": "2026-10-04T13:58:38Z",
+   "topic": "desporto",
+   "sub": "selecao",
+   "source": "A Bola",
+   "title": "Maniche revolta-se contra citação falsa sobre Ronaldo: «É fabricar mentiras para gerar ódio»"
+  },
+  {
+   "id": "cm-novela-sic-avenida-brasil-20261004",
+   "ts": "2026-10-04T13:51:20Z",
+   "topic": "cultura",
+   "sub": "",
+   "source": "CM",
+   "title": "Nova novela da SIC é uma adaptação de 'Avenida Brasil'"
+  },
+  {
+   "id": "rtp-n1769519",
+   "ts": "2026-10-04T13:46:42Z",
+   "topic": "tempo",
+   "sub": "",
+   "source": "RTP",
+   "title": "Setúbal e Beja sob aviso laranja devido à trovoada e chuva forte"
+  },
   {
    "id": "as-evans-campeao-wrc-20261004",
    "ts": "2026-10-04T13:30:00Z",
@@ -17,6 +153,14 @@
    "sub": "",
    "source": "RTP",
    "title": "Mais de duzentas obras inéditas de Pedro Cabrita Reis, no MAAT"
+  },
+  {
+   "id": "cnn-6ac253c9d34e53c759c74f82",
+   "ts": "2026-10-04T13:24:00Z",
+   "topic": "outros",
+   "sub": "",
+   "source": "CNN Portugal",
+   "title": "Jaguar despista-se e causa danos na escadaria do Bom Jesus de Braga"
   },
   {
    "id": "zerozero-1218911",
@@ -121,6 +265,14 @@
    "sub": "",
    "source": "Lusa",
    "title": "Rússia alerta EUA que bloquear satélite Rassvet provocaria guerra espacial"
+  },
+  {
+   "id": "ojogo-zidane-ronaldo-18133447",
+   "ts": "2026-10-04T11:10:00Z",
+   "topic": "desporto",
+   "sub": "selecao",
+   "source": "O Jogo",
+   "title": "Zidane \"tira o chapéu\" a Cristiano Ronaldo: \"Tive a sorte...\""
   },
   {
    "id": "cnn-6ac233360cf22b9f8904dc95",
@@ -809,158 +961,6 @@
    "sub": "reality",
    "source": "Nova Gente",
    "title": "Miguel Vicente confronta David Diamond no Big Brother All Stars"
-  },
-  {
-   "id": "rtp-v1769423",
-   "ts": "2026-10-03T19:50:47Z",
-   "topic": "mundo",
-   "sub": "",
-   "source": "RTP",
-   "title": "Guerra na Ucrânia. Duas pontes de Kiev atingidas por drones em 24 horas"
-  },
-  {
-   "id": "rtp-v1769422",
-   "ts": "2026-10-03T19:49:47Z",
-   "topic": "mundo",
-   "sub": "",
-   "source": "RTP",
-   "title": "Relações Brasil-EUA. Polémicas com tarifas e chumbo de embaixador"
-  },
-  {
-   "id": "rtp-v1769421",
-   "ts": "2026-10-03T19:38:47Z",
-   "topic": "mundo",
-   "sub": "",
-   "source": "RTP",
-   "title": "Eleições no Brasil. Lula e Flávio Bolsonaro encerram campanha"
-  },
-  {
-   "id": "record-rui-pinto-custos-fl",
-   "ts": "2026-10-03T19:37:00Z",
-   "topic": "justica",
-   "sub": "",
-   "source": "Record",
-   "title": "Rui Pinto revela custos judiciais do Football Leaks e atira: «Quanto custa viver clandestinamente?»"
-  },
-  {
-   "id": "abola-georgina-jesus",
-   "ts": "2026-10-03T19:19:34Z",
-   "topic": "rosa",
-   "sub": "famosos",
-   "source": "A Bola",
-   "title": "Georgina Rodríguez mete-se na polémica, critica Jorge Jesus e apaga publicação"
-  },
-  {
-   "id": "cm-camarate-esfaqueamento-20261003",
-   "ts": "2026-10-03T19:15:02Z",
-   "topic": "justica",
-   "sub": "",
-   "source": "CM",
-   "title": "Preventiva para jovem de 17 anos que esfaqueou amigo de 14 na cabeça em Camarate"
-  },
-  {
-   "id": "record-kika-veselko-sp",
-   "ts": "2026-10-03T19:12:00Z",
-   "topic": "desporto",
-   "sub": "surf",
-   "source": "Record",
-   "title": "Kika Veselko alcança 2.º lugar em São Paulo"
-  },
-  {
-   "id": "cnn-6ac151dad34e53c759c74ee6",
-   "ts": "2026-10-03T19:04:00Z",
-   "topic": "outros",
-   "sub": "",
-   "source": "CNN Portugal",
-   "title": "Motociclista morre em despiste na A28 em Viana do Castelo"
-  },
-  {
-   "id": "ojogo-bednarek-polonia-18133320",
-   "ts": "2026-10-03T18:58:00Z",
-   "topic": "desporto",
-   "sub": "porto",
-   "source": "O Jogo",
-   "title": "Bednarek e o regresso aos golos pela Polónia: \"Devia fazer isto muito mais vezes\""
-  },
-  {
-   "id": "cnn-6ac14fc1d34e9a786e75ac62",
-   "ts": "2026-10-03T18:55:00Z",
-   "topic": "mundo",
-   "sub": "",
-   "source": "CNN Portugal",
-   "title": "O bolsonarismo mostra a sua força com uma marcha de milhares de motos antes das eleições"
-  },
-  {
-   "id": "record-surf-europeu-junior",
-   "ts": "2026-10-03T18:54:00Z",
-   "topic": "desporto",
-   "sub": "surf",
-   "source": "Record",
-   "title": "Portugal sagra-se campeão europeu júnior de Surf"
-  },
-  {
-   "id": "ojogo-vb-relvado-maritimo-18133327",
-   "ts": "2026-10-03T18:45:00Z",
-   "topic": "desporto",
-   "sub": "porto",
-   "source": "O Jogo",
-   "title": "André Villas-Boas sobre o relvado do Marítimo: \"Têm-nos sido dadas garantias...\""
-  },
-  {
-   "id": "abola-villas-boas-200-mil-socios",
-   "ts": "2026-10-03T18:43:05Z",
-   "topic": "desporto",
-   "sub": "porto",
-   "source": "A Bola",
-   "title": "Villas-Boas aponta aos «200 mil sócios»"
-  },
-  {
-   "id": "zerozero-sub19-dinamarca-1218687",
-   "ts": "2026-10-03T18:31:28Z",
-   "topic": "desporto",
-   "sub": "selecao",
-   "source": "zerozero",
-   "title": "Sub-19 | Portugal deixa escapar triunfo frente à Dinamarca, em jogo com duas reviravoltas"
-  },
-  {
-   "id": "cnn-6ac14764d34e53c759c74ed4",
-   "ts": "2026-10-03T18:19:00Z",
-   "topic": "mundo",
-   "sub": "",
-   "source": "CNN Portugal",
-   "title": "Trump promete dar 5.000 dólares por adulto se republicanos vencerem eleições em novembro"
-  },
-  {
-   "id": "abola-porto-supertaca-voleibol",
-   "ts": "2026-10-03T18:18:17Z",
-   "topic": "desporto",
-   "sub": "voleibol",
-   "source": "A Bola",
-   "title": "FC Porto bate SC Braga e conquista Supertaça pela primeira vez"
-  },
-  {
-   "id": "cm-armilar-lusitano-julgamento-20261003",
-   "ts": "2026-10-03T18:15:01Z",
-   "topic": "justica",
-   "sub": "",
-   "source": "CM",
-   "title": "Movimento Armilar Lusitano vai ser julgado pelo crime de organização terrorista"
-  },
-  {
-   "id": "rtp-d1769410",
-   "ts": "2026-10-03T18:07:06Z",
-   "topic": "desporto",
-   "sub": "motores",
-   "source": "RTP Desporto",
-   "title": "Solberg lidera na Sardenha e leva discussão do título para o último dia"
-  },
-  {
-   "id": "obs-benfica-derbi-basquetebol-20261003",
-   "ts": "2026-10-03T18:06:21Z",
-   "topic": "desporto",
-   "sub": "basquetebol",
-   "source": "Observador",
-   "title": "O último período foi o ponto parágrafo: Benfica vence dérbi"
   }
  ],
  "paired": [
