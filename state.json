@@ -1,7 +1,111 @@
 {
- "version": "1.1.54",
- "updated": "2026-10-04T07:45:32Z",
+ "version": "1.1.55",
+ "updated": "2026-10-04T09:45:31Z",
  "recent": [
+  {
+   "id": "zerozero-1218890",
+   "ts": "2026-10-04T09:25:30Z",
+   "topic": "desporto",
+   "sub": "selecao",
+   "source": "zerozero",
+   "title": "Jorge Jesus deixa defesa de fora do embate com a Noruega"
+  },
+  {
+   "id": "obs-chuvas-catalunha-mortos-20261004",
+   "ts": "2026-10-04T09:21:41Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "Observador",
+   "title": "Chuvas torrenciais fazem dois mortos na Catalunha"
+  },
+  {
+   "id": "lusa-47881854",
+   "ts": "2026-10-04T09:20:00Z",
+   "topic": "cultura",
+   "sub": "",
+   "source": "Lusa",
+   "title": "Cristina Branco assinala 30 anos de uma carreira muito intensa, forte e robusta"
+  },
+  {
+   "id": "lusa-47881693",
+   "ts": "2026-10-04T09:15:00Z",
+   "topic": "desporto",
+   "sub": "selecao",
+   "source": "Lusa",
+   "title": "António Salvador critica saída de Ronaldo da seleção e apoia liderança de Jorge Jesus"
+  },
+  {
+   "id": "lusa-47881733",
+   "ts": "2026-10-04T09:15:00Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "Lusa",
+   "title": "Irão avisa que conflito não tem solução militar, mas diplomática"
+  },
+  {
+   "id": "cnn-6ac21837d34e9a786e75acc7",
+   "ts": "2026-10-04T09:11:19Z",
+   "topic": "economia",
+   "sub": "",
+   "source": "CNN Portugal",
+   "title": "Aumento nos combustíveis angustia instituições sociais e ameaça continuidade de apoios"
+  },
+  {
+   "id": "nit-aldi-ventoinha-20261004",
+   "ts": "2026-10-04T08:56:15Z",
+   "topic": "outros",
+   "sub": "",
+   "source": "NiT",
+   "title": "Popular mini ventoinha do ALDI retirada do mercado \"por razões de segurança\""
+  },
+  {
+   "id": "cm-tc-descontos-fiscais-20261004",
+   "ts": "2026-10-04T08:51:33Z",
+   "topic": "economia",
+   "sub": "",
+   "source": "CM",
+   "title": "Tribunal de Contas diz que falta mais fiscalização aos benefícios fiscais"
+  },
+  {
+   "id": "zerozero-1218886",
+   "ts": "2026-10-04T08:36:38Z",
+   "topic": "desporto",
+   "sub": "liga",
+   "source": "zerozero",
+   "title": "Agora é oficial: Arouca anuncia saída de Vasco Seabra"
+  },
+  {
+   "id": "lusa-47881726",
+   "ts": "2026-10-04T08:33:00Z",
+   "topic": "desporto",
+   "sub": "motores",
+   "source": "Lusa",
+   "title": "Marc Márquez vence no Japão e fica a dois pontos da liderança do Mundial"
+  },
+  {
+   "id": "cnn-6ac20e79d34e53c759c74f39",
+   "ts": "2026-10-04T08:29:08Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "CNN Portugal",
+   "title": "Incêndio no Peru que ameaça acesso a Machu Picchu provocou um morto"
+  },
+  {
+   "id": "cm-email-nuno-rebelo-20261004",
+   "ts": "2026-10-04T08:21:29Z",
+   "topic": "justica",
+   "sub": "",
+   "source": "CM",
+   "title": "Caso das gémeas: email de Nuno Rebelo de Sousa dizia que assunto não tinha evoluído"
+  },
+  {
+   "id": "lusa-47881630",
+   "ts": "2026-10-04T08:07:00Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "Lusa",
+   "title": "Chanceler alemão em visita surpresa à Ucrânia"
+  },
   {
    "id": "as-solberg-sardenha-dia3",
    "ts": "2026-10-04T07:23:44Z",
@@ -65,6 +169,14 @@
    "sub": "famosos",
    "source": "Nova Gente",
    "title": "José Condessa vence Globo de Ouro e já prepara novo desafio na SIC"
+  },
+  {
+   "id": "abola-gp-bahrain-adiado-20261004",
+   "ts": "2026-10-04T06:15:55Z",
+   "topic": "desporto",
+   "sub": "motores",
+   "source": "A Bola",
+   "title": "Mau tempo adia arranque do GP do Bahrain"
   },
   {
    "id": "healthnews-helicopteros-inem-combustivel",
@@ -849,118 +961,6 @@
    "sub": "motores",
    "source": "RTP Desporto",
    "title": "Marc Márquez vence sprint no Japão e aproxima-se de Jorge Martín"
-  },
-  {
-   "id": "abola-triatlo-podio-mundial",
-   "ts": "2026-10-03T14:34:22Z",
-   "topic": "desporto",
-   "sub": "triatlo",
-   "source": "A Bola",
-   "title": "Ricardo Batista: «Um português no pódio é excelente, dois é impensável»"
-  },
-  {
-   "id": "lusa-47878927",
-   "ts": "2026-10-03T14:30:00Z",
-   "topic": "politica",
-   "sub": "",
-   "source": "Lusa",
-   "title": "André Ventura assume presidência da comissão de inquérito a Luís Neves"
-  },
-  {
-   "id": "rtp-d1769355",
-   "ts": "2026-10-03T14:03:31Z",
-   "topic": "desporto",
-   "sub": "tenis",
-   "source": "RTP Desporto",
-   "title": "Tenista Francisco Cabral cai nos quartos de final do torneio de pares de Pequim"
-  },
-  {
-   "id": "obs-espanha-manifestacao-habitacao",
-   "ts": "2026-10-03T14:01:47Z",
-   "topic": "mundo",
-   "sub": "",
-   "source": "Observador",
-   "title": "Manifestação pela habitação em Espanha apela à greve geral"
-  },
-  {
-   "id": "rtp-d1769354",
-   "ts": "2026-10-03T13:58:04Z",
-   "topic": "desporto",
-   "sub": "motores",
-   "source": "RTP Desporto",
-   "title": "Max Verstappen conquista primeira `pole` do ano no GP do Bahrain"
-  },
-  {
-   "id": "caras-heseltine-morreu",
-   "ts": "2026-10-03T13:54:04Z",
-   "topic": "rosa",
-   "sub": "realeza",
-   "source": "Caras",
-   "title": "Morreu aos 96 anos Sir William Heseltine, histórico secretário privado da rainha Isabel II"
-  },
-  {
-   "id": "nit-dua-lipa-porto-lello",
-   "ts": "2026-10-03T13:52:18Z",
-   "topic": "cultura",
-   "sub": "",
-   "source": "NiT",
-   "title": "\"Um lugar muito especial.\" Dua Lipa diz que está apaixonada pelo Porto"
-  },
-  {
-   "id": "obs-diploma-garrafas-gas",
-   "ts": "2026-10-03T13:31:57Z",
-   "topic": "economia",
-   "sub": "",
-   "source": "Observador",
-   "title": "Diploma que reforça acesso a garrafas de gás entra em vigor"
-  },
-  {
-   "id": "cnn-6ac10125d34e9a786e75ab8d",
-   "ts": "2026-10-03T13:20:37Z",
-   "topic": "tempo",
-   "sub": "",
-   "source": "CNN Portugal",
-   "title": "Sismo de 3,7 na escala de Richter sentido na ilha açoriana de Santa Maria"
-  },
-  {
-   "id": "rtp-n1769338",
-   "ts": "2026-10-03T12:47:47Z",
-   "topic": "saude",
-   "sub": "",
-   "source": "RTP",
-   "title": "Transplante de medula óssea. País já trata doenças não oncológicas do sangue"
-  },
-  {
-   "id": "lusa-47878569",
-   "ts": "2026-10-03T12:39:00Z",
-   "topic": "politica",
-   "sub": "",
-   "source": "Lusa",
-   "title": "Seguro defende que o interior precisa políticas públicas de investimento"
-  },
-  {
-   "id": "lusa-47878563",
-   "ts": "2026-10-03T12:33:00Z",
-   "topic": "mundo",
-   "sub": "",
-   "source": "Lusa",
-   "title": "Líder da oposição quer eleições antecipadas porque Espanha não aguenta mais"
-  },
-  {
-   "id": "healthnews-juntas-medicas-acores",
-   "ts": "2026-10-03T12:27:55Z",
-   "topic": "saude",
-   "sub": "",
-   "source": "HealthNews",
-   "title": "Juntas médicas nos Açores superam 28 mil desde 2024 e reduzem lista de espera em 17%"
-  },
-  {
-   "id": "obs-cartaz-ronaldo-porto-retirado",
-   "ts": "2026-10-03T12:13:26Z",
-   "topic": "desporto",
-   "sub": "selecao",
-   "source": "Observador",
-   "title": "Cartaz de apoio a Ronaldo, afixado no Porto, foi retirado"
   }
  ],
  "paired": [

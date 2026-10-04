@@ -1,24 +1,254 @@
 {
- "version": "1.1.54",
- "updated": "2026-10-04T07:45:32Z",
+ "version": "1.1.55",
+ "updated": "2026-10-04T09:45:31Z",
  "brief": [
   {
-   "texto": "Mais de 158 milhões de brasileiros votam hoje nas eleições gerais, num duelo muito disputado entre Lula e Flávio Bolsonaro.",
+   "texto": "Mais de 158 milhões de brasileiros votam hoje nas eleições gerais, com 134 mil eleitores recenseados em Portugal.",
    "id": "lusa-47880509"
   },
   {
-   "texto": "Portugal pode garantir hoje os quartos de final da Liga das Nações frente à Noruega, em plena polémica com Ronaldo.",
+   "texto": "Portugal recebe a Noruega às 19h45, no Dragão, e pode garantir os quartos da Liga das Nações em pleno caso Ronaldo.",
    "id": "lusa-47880503"
   },
   {
-   "texto": "Aviso amarelo de trovoada em seis distritos hoje, das 12h às 21h."
+   "texto": "A subida dos combustíveis ameaça serviços de instituições sociais e a operação dos helicópteros do INEM.",
+   "id": "cnn-6ac21837d34e9a786e75acc7"
   },
   {
-   "texto": "Ministra da Justiça analisa pedidos sobre a retirada da proteção especial a Rui Pinto.",
-   "id": "lusa-47879409"
+   "texto": "Chuvas torrenciais fazem dois mortos na Catalunha e há uma pessoa desaparecida.",
+   "id": "obs-chuvas-catalunha-mortos-20261004"
   }
  ],
  "items": [
+  {
+   "id": "zerozero-1218890",
+   "ts": "2026-10-04T09:25:30Z",
+   "source": "zerozero",
+   "lado": "pt",
+   "url": "https://www.zerozero.pt/noticias/jorge-jesus-deixa-defesa-de-fora-do-embate-com-a-noruega/1218890",
+   "title": "Jorge Jesus deixa defesa de fora do embate com a Noruega",
+   "topic": "desporto",
+   "sub": "selecao",
+   "impacto": "medio",
+   "setores": [
+    "Liga das Nações"
+   ],
+   "tickers": [],
+   "resumo": "Jorge Jesus divulgou os 23 convocados para o jogo com a Noruega e deixou Gonçalo Inácio fora das opções. Houve também alterações nos números das camisolas.",
+   "img": "https://www.zerozero.pt/img/noticias/890/imgS620I1218890T20261004102358.jpg"
+  },
+  {
+   "id": "obs-chuvas-catalunha-mortos-20261004",
+   "ts": "2026-10-04T09:21:41Z",
+   "source": "Observador",
+   "lado": "pt",
+   "url": "https://observador.pt/2026/10/04/chuvas-torrenciais-fazem-dois-mortos-na-catalunha-niveis-de-precipitacao-atingem-maximos-dos-ultimos-20-anos/",
+   "title": "Chuvas torrenciais fazem dois mortos na Catalunha",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Espanha",
+    "Mau tempo"
+   ],
+   "tickers": [],
+   "resumo": "A tempestade que afeta a Catalunha provocou já dois mortos e há uma pessoa desaparecida. As chuvas fortes inundaram ruas de várias cidades e perturbaram seriamente os transportes.",
+   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:4096:2303:nowe:0:214/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/10/04100840/gettyimages-2298496602-scaled.jpg"
+  },
+  {
+   "id": "lusa-47881854",
+   "ts": "2026-10-04T09:20:00Z",
+   "source": "Lusa",
+   "lado": "pt",
+   "url": "https://www.lusa.pt/culture/article/2026-10-04/47881854/cristina-branco-assinala-30-anos-de-uma-carreira-muito-intensa-forte-e-robusta",
+   "title": "Cristina Branco assinala 30 anos de uma carreira muito intensa, forte e robusta",
+   "topic": "cultura",
+   "sub": "",
+   "impacto": "baixo",
+   "setores": [
+    "Música"
+   ],
+   "tickers": [],
+   "resumo": "A fadista Cristina Branco assinala 30 anos de carreira, que descreve como muito intensa, forte e robusta.",
+   "img": "https://www.lusa.pt/temp/images/580x336/cache_580x336_Crop_high_22724334_1327492_10032019080238.jpg"
+  },
+  {
+   "id": "lusa-47881693",
+   "ts": "2026-10-04T09:15:00Z",
+   "source": "Lusa",
+   "lado": "pt",
+   "url": "https://www.lusa.pt/article/47881693/antónio-salvador-critica-saída-de-ronaldo-da-seleção-e-apoia-liderança-de-jorge-jesus",
+   "title": "António Salvador critica saída de Ronaldo da seleção e apoia liderança de Jorge Jesus",
+   "topic": "desporto",
+   "sub": "selecao",
+   "impacto": "medio",
+   "setores": [
+    "Caso Ronaldo",
+    "Liga das Nações"
+   ],
+   "tickers": [],
+   "resumo": "O presidente do Sporting de Braga admite desconhecer os motivos de Cristiano Ronaldo, mas critica a saída do estágio enquanto capitão e apoia a liderança do selecionador Jorge Jesus.",
+   "img": "https://www.lusa.pt/temp/images/400x248/cache_400x248_Crop_high_47250863_3558630_08062026110025.JPG"
+  },
+  {
+   "id": "lusa-47881733",
+   "ts": "2026-10-04T09:15:00Z",
+   "source": "Lusa",
+   "lado": "pt",
+   "url": "https://www.lusa.pt/article/47881733/irão-avisa-que-conflito-não-tem-solução-militar-mas-diplomática",
+   "title": "Irão avisa que conflito não tem solução militar, mas diplomática",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Irão",
+    "EUA"
+   ],
+   "tickers": [],
+   "resumo": "O Governo iraniano reafirma que o conflito com os Estados Unidos não tem solução militar e avisa que, se Washington optar pelo confronto, a resposta será mais forte do que antes.",
+   "img": "https://www.lusa.pt/temp/images/400x248/cache_400x248_Crop_high_47823608_11744574996927.jpg"
+  },
+  {
+   "id": "cnn-6ac21837d34e9a786e75acc7",
+   "ts": "2026-10-04T09:11:19Z",
+   "source": "CNN Portugal",
+   "lado": "pt",
+   "url": "https://cnnportugal.iol.pt/combustiveis/comunidade-vida-e-paz/aumento-nos-combustiveis-angustia-instituicoes-sociais-e-ameaca-continuidade-de-apoios/20261004/6ac21837d34e9a786e75acc7",
+   "title": "Aumento nos combustíveis angustia instituições sociais e ameaça continuidade de apoios",
+   "topic": "economia",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Combustíveis",
+    "IPSS"
+   ],
+   "tickers": [],
+   "resumo": "A Comunidade Vida e Paz admite reduzir serviços e trabalhadores por causa da subida dos combustíveis, enquanto a Refood enfrenta custos crescentes que podem comprometer a distribuição de alimentos a famílias carenciadas.",
+   "img": "https://img.iol.pt/image/id/693c1dc3d34e3caad84c4f07/200.jpg"
+  },
+  {
+   "id": "nit-aldi-ventoinha-20261004",
+   "ts": "2026-10-04T08:56:15Z",
+   "source": "NiT",
+   "lado": "pt",
+   "url": "https://www.nit.pt/compras/lojas-e-marcas/popular-mini-ventoinha-do-aldi-retirada-do-mercado-por-razoes-de-seguranca",
+   "title": "Popular mini ventoinha do ALDI retirada do mercado \"por razões de segurança\"",
+   "topic": "outros",
+   "sub": "",
+   "impacto": "baixo",
+   "setores": [
+    "ALDI",
+    "Consumo"
+   ],
+   "tickers": [],
+   "resumo": "A ALDI retirou do mercado as mini ventoinhas portáteis Ambiano vendidas desde junho de 2026, por cabos USB-C defeituosos que podem danificar os aparelhos ligados. O reembolso é feito em qualquer loja, sem talão.",
+   "img": "https://www.nit.pt/wp-content/uploads/2026/10/5053624d80579626f802bce2d03c1fbb.jpg"
+  },
+  {
+   "id": "cm-tc-descontos-fiscais-20261004",
+   "ts": "2026-10-04T08:51:33Z",
+   "source": "CM",
+   "lado": "pt",
+   "url": "https://m.facebook.com/cmjornal/posts/pfbid02mz7SJNCBn7MpJ1opSvpJucBPC9CfvHRo5WzwAEthozsBWcs2jLo2cE2CxWcMtD5Ll",
+   "title": "Tribunal de Contas diz que falta mais fiscalização aos benefícios fiscais",
+   "topic": "economia",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Tribunal de Contas",
+    "Benefícios fiscais"
+   ],
+   "tickers": [],
+   "resumo": "O Tribunal de Contas considera que, apesar de ter melhorado, a fiscalização dos benefícios fiscais continua insuficiente, numa despesa fiscal de quase 21 mil milhões de euros.",
+   "img": ""
+  },
+  {
+   "id": "zerozero-1218886",
+   "ts": "2026-10-04T08:36:38Z",
+   "source": "zerozero",
+   "lado": "pt",
+   "url": "https://www.zerozero.pt/noticias/agora-e-oficial-arouca-anuncia-saida-de-vasco-seabra/1218886",
+   "title": "Agora é oficial: Arouca anuncia saída de Vasco Seabra",
+   "topic": "desporto",
+   "sub": "liga",
+   "impacto": "medio",
+   "setores": [
+    "Arouca",
+    "Rio Ave"
+   ],
+   "tickers": [],
+   "resumo": "O FC Arouca anunciou a saída do treinador Vasco Seabra, de 43 anos, que segue para o Rio Ave.",
+   "img": "https://www.zerozero.pt/img/noticias/886/imgS620I1218886T20261004093536.jpg"
+  },
+  {
+   "id": "lusa-47881726",
+   "ts": "2026-10-04T08:33:00Z",
+   "source": "Lusa",
+   "lado": "pt",
+   "url": "https://www.lusa.pt/desporto/article/2026-10-04/47881726/marc-márquez-vence-no-japão-e-fica-a-dois-pontos-da-liderança-do-mundial",
+   "title": "Marc Márquez vence no Japão e fica a dois pontos da liderança do Mundial",
+   "topic": "desporto",
+   "sub": "motores",
+   "impacto": "medio",
+   "setores": [
+    "MotoGP"
+   ],
+   "tickers": [],
+   "resumo": "Marc Márquez venceu o Grande Prémio do Japão de MotoGP e reduziu para dois pontos a distância para o líder do Mundial, Jorge Martín.",
+   "img": "https://www.lusa.pt/temp/images/650x420/cache_650x420_Crop_high_47881470_17065486456675.jpg"
+  },
+  {
+   "id": "cnn-6ac20e79d34e53c759c74f39",
+   "ts": "2026-10-04T08:29:08Z",
+   "source": "CNN Portugal",
+   "lado": "pt",
+   "url": "https://cnnportugal.iol.pt/peru/machu-picchu/incendio-no-peru-que-ameaca-acesso-a-machu-picchu-provocou-um-morto/20261004/6ac20e79d34e53c759c74f39",
+   "title": "Incêndio no Peru que ameaça acesso a Machu Picchu provocou um morto",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "baixo",
+   "setores": [
+    "Peru"
+   ],
+   "tickers": [],
+   "resumo": "O fogo avança desde sexta-feira no Vale Sagrado dos Incas, na região de Cuzco, e já causou um morto. Ameaça a estação ferroviária de Ollantaytambo, a mais movimentada para quem segue para Machu Picchu.",
+   "img": "https://img.iol.pt/image/id/14155808/200.jpg"
+  },
+  {
+   "id": "cm-email-nuno-rebelo-20261004",
+   "ts": "2026-10-04T08:21:29Z",
+   "source": "CM",
+   "lado": "pt",
+   "url": "https://m.facebook.com/cmjornal/posts/pfbid02K7gaF4VA77d57Z2vws6Y2mJpy9VmVh45xVv3aZb6wqxryzxW1z3Z7fsVtLjAcEXZl",
+   "title": "Caso das gémeas: email de Nuno Rebelo de Sousa dizia que assunto não tinha evoluído",
+   "topic": "justica",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Caso das gémeas"
+   ],
+   "tickers": [],
+   "resumo": "Num email, Nuno Rebelo de Sousa escreve que um assunto passado à Dra. Maria João Ruela não evoluiu e que ninguém falou com os pais das crianças.",
+   "img": ""
+  },
+  {
+   "id": "lusa-47881630",
+   "ts": "2026-10-04T08:07:00Z",
+   "source": "Lusa",
+   "lado": "pt",
+   "url": "https://www.lusa.pt/international/article/2026-10-04/47881630/chanceler-alemão-em-visita-surpresa-à-ucrânia",
+   "title": "Chanceler alemão em visita surpresa à Ucrânia",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Ucrânia",
+    "Alemanha"
+   ],
+   "tickers": [],
+   "resumo": "O chanceler da Alemanha deslocou-se sem aviso prévio à Ucrânia para demonstrar o apoio de Berlim a Kiev na guerra contra a Rússia.",
+   "img": "https://www.lusa.pt/temp/images/205x135/cache_205x135_Crop_high_47868730_20208788354477.jpg"
+  },
   {
    "id": "as-solberg-sardenha-dia3",
    "ts": "2026-10-04T07:23:44Z",
@@ -161,6 +391,23 @@
    "tickers": [],
    "resumo": "José Condessa venceu o Globo de Ouro de Melhor Ator de Ficção na 30.ª edição da gala. O ator passa da TVI para a SIC e protagoniza 'Avenida Portugal', adaptação portuguesa de 'Avenida Brasil'.",
    "img": "https://www.novagente.pt/wp-content/uploads/2026/10/NOVA-GENTE-DESTAQUE-LUIS-3-1024x640.jpg"
+  },
+  {
+   "id": "abola-gp-bahrain-adiado-20261004",
+   "ts": "2026-10-04T06:15:55Z",
+   "source": "A Bola",
+   "lado": "pt",
+   "url": "https://www.abola.pt/noticias/mau-tempo-adia-arranque-do-gp-do-bahrain-na-malasia-2026100407155504979",
+   "title": "Mau tempo adia arranque do GP do Bahrain",
+   "topic": "desporto",
+   "sub": "motores",
+   "impacto": "baixo",
+   "setores": [
+    "Fórmula 1"
+   ],
+   "tickers": [],
+   "resumo": "O mau tempo obrigou a adiar o arranque do Grande Prémio do Bahrain de Fórmula 1.",
+   "img": "https://sportal365images.com/process/smp-images-production/abola.pt/04102026/2bd44d1c-0a7b-499f-8786-a97b6b3387b0.jpg?operations=autocrop(1200:630)"
   },
   {
    "id": "healthnews-helicopteros-inem-combustivel",
@@ -5007,256 +5254,6 @@
    "tickers": [],
    "resumo": "A quatro meses do julgamento, marcado para 9 de fevereiro de 2027, Marius Borg Høiby dispensou os advogados de defesa. Os novos advogados prometem apresentar novas provas.",
    "img": "https://caras.pt/wp-content/uploads/2026/09/260930_Marius-Borg-1600x900.jpg"
-  },
-  {
-   "id": "obs-macron-madrid-pp-senado",
-   "ts": "2026-09-30T17:58:02Z",
-   "source": "Observador",
-   "lado": "pt",
-   "url": "https://observador.pt/2026/09/30/pp-cria-embaraco-diplomatico-a-sanchez-durante-visita-de-macron-a-madrid/",
-   "title": "PP cria embaraço a Sánchez durante visita de Macron a Madrid",
-   "topic": "mundo",
-   "sub": "",
-   "impacto": "baixo",
-   "setores": [
-    "Espanha",
-    "França"
-   ],
-   "tickers": [],
-   "resumo": "O PP convocou uma reunião extraordinária do Senado durante a visita oficial de Macron e rejeitou aprofundar os laços com França. Sánchez pediu desculpa e o Presidente francês afastou o \"drama\".",
-   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:1870:1051:nowe:0:0/q:70/plain/https://s3.observador.pt/wp-content/uploads/2018/06/23165206/24402369.jpg"
-  },
-  {
-   "id": "eco-governo-volta-prazo",
-   "ts": "2026-09-30T17:54:05Z",
-   "source": "ECO",
-   "lado": "pt",
-   "url": "https://eco.sapo.pt/2026/09/30/governo-pressiona-volta-e-da-duas-semanas-para-apresentar-solucao-para-lixo-nas-ruas/",
-   "title": "Governo pressiona Volta e dá duas semanas para apresentar solução para lixo nas ruas",
-   "topic": "outros",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Volta",
-    "Ambiente"
-   ],
-   "tickers": [],
-   "resumo": "O Ministério do Ambiente deu à Volta até 16 de outubro para apresentar um plano de ação contra o lixo nas ruas associado à recolha de garrafas.",
-   "img": "https://eco.imgix.net/uploads/2026/03/cropped-volta18.jpg"
-  },
-  {
-   "id": "obs-custoias-greve-suspensa",
-   "ts": "2026-09-30T17:41:24Z",
-   "source": "Observador",
-   "lado": "pt",
-   "url": "https://observador.pt/2026/09/30/guardas-do-estabelecimento-prisional-do-porto-suspendem-a-greve-na-segunda-feira/",
-   "title": "Greve na prisão de Custóias suspensa a 5 de outubro",
-   "topic": "justica",
-   "sub": "",
-   "impacto": "baixo",
-   "setores": [
-    "Prisões",
-    "Greve"
-   ],
-   "tickers": [],
-   "resumo": "Os guardas do Estabelecimento Prisional do Porto suspendem a greve, que durava há um mês, na segunda-feira. A direção comprometeu-se ainda a substituir a diretora clínica por um médico de clínica geral.",
-   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:4096:2299:nowe:0:318/q:70/plain/https://s3.observador.pt/wp-content/uploads/2024/10/07141427/jporfirio-concentracao-guardas-prisionais-vale-judeus-01-15-scaled.jpg"
-  },
-  {
-   "id": "cnn-6abd46f8d34e9a786e75a592",
-   "ts": "2026-09-30T17:40:00Z",
-   "source": "CNN Portugal",
-   "lado": "pt",
-   "url": "https://cnnportugal.iol.pt/nuno-homem-de-sa/ator/ator-nuno-homem-de-sa-condenado-a-pena-de-prisao-suspensa-por-violencia-domestica/20260930/6abd46f8d34e9a786e75a592",
-   "title": "Ator Nuno Homem de Sá condenado a pena de prisão suspensa por violência doméstica",
-   "topic": "justica",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Violência doméstica"
-   ],
-   "tickers": [],
-   "resumo": "O ator foi condenado a pena de prisão suspensa e ao pagamento de indemnização à ex-companheira por violência doméstica.",
-   "img": "https://img.iol.pt/image/id/6a313427d34e28842c853763/200.jpg"
-  },
-  {
-   "id": "cnn-6abd3de7d34e9a786e75a563",
-   "ts": "2026-09-30T17:26:00Z",
-   "source": "CNN Portugal",
-   "lado": "pt",
-   "url": "https://cnnportugal.iol.pt/governo/indemnizacoes/governo-desmente-chega-e-garante-que-nao-assumiu-qualquer-compromisso-de-pagar-indemnizacoes-as-antigas-colonias/20260930/6abd3de7d34e9a786e75a563",
-   "title": "Governo desmente Chega e garante que \"não assumiu qualquer compromisso\" de pagar indemnizações às antigas colónias",
-   "topic": "politica",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Chega",
-    "Negócios Estrangeiros"
-   ],
-   "tickers": [],
-   "resumo": "O Ministério dos Negócios Estrangeiros classifica como \"objetivamente falsas\" as alegações do Chega sobre um alegado compromisso de pagar indemnizações às antigas colónias.",
-   "img": "https://img.iol.pt/image/id/6a57d77bd34ef04b4f3f6d46/200.jpg"
-  },
-  {
-   "id": "eco-rendas-especialidade",
-   "ts": "2026-09-30T17:22:06Z",
-   "source": "ECO",
-   "lado": "pt",
-   "url": "https://eco.sapo.pt/2026/09/30/mudancas-nas-regras-das-rendas-baixam-a-especialidade-para-evitar-chumbo/",
-   "title": "Mudanças nas regras das rendas baixam à especialidade para evitar chumbo",
-   "topic": "economia",
-   "sub": "",
-   "impacto": "alto",
-   "setores": [
-    "Arrendamento",
-    "Habitação"
-   ],
-   "tickers": [],
-   "resumo": "As propostas do Governo para alterar o Novo Regime do Arrendamento Urbano seguem para a especialidade sem votação imediata, por falta de apoio parlamentar. PS e Chega sinalizaram posição contrária.",
-   "img": "https://eco.imgix.net/uploads/2026/01/cropped-doc2026010946319938-aps9704.jpg"
-  },
-  {
-   "id": "abola-fpf-premios-mundial",
-   "ts": "2026-09-30T17:20:02Z",
-   "source": "A Bola",
-   "lado": "pt",
-   "url": "https://www.abola.pt/noticias/selecao-fpf-so-pagou-parcialmente-os-premios-do-mundial-2026093017200222577",
-   "title": "Seleção: FPF só pagou parcialmente os prémios do Mundial",
-   "topic": "desporto",
-   "sub": "selecao",
-   "impacto": "medio",
-   "setores": [
-    "Seleção Nacional",
-    "FPF"
-   ],
-   "tickers": [],
-   "resumo": "Jogadores e equipa técnica da Seleção não receberam na totalidade os prémios do Mundial a que tinham direito.",
-   "img": "https://sportal365images.com/process/smp-images-production/abola.pt/30092026/8c6818aa-d5c6-49f1-8b71-a1241ab31158.jpg?operations=autocrop(1200:630)"
-  },
-  {
-   "id": "cm-pfbid0Daw2g7AqZEhbwNx",
-   "ts": "2026-09-30T17:16:18Z",
-   "source": "CM",
-   "lado": "pt",
-   "url": "https://m.facebook.com/cmjornal/posts/pfbid0Daw2g7AqZEhbwNxWebZ6mhQ2D4HfYfRYRj2XqSqeUcmDnKkgh4FUE8RoFJYoLDpGl",
-   "title": "Mais de um milhão de utentes estrangeiros inscritos nos centros de saúde, metade sem médico atribuído",
-   "topic": "saude",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "SNS",
-    "Centros de saúde"
-   ],
-   "tickers": [],
-   "resumo": "No final de agosto estavam inscritos nos centros de saúde mais de um milhão de utentes estrangeiros, dos quais cerca de metade sem médico atribuído.",
-   "img": ""
-  },
-  {
-   "id": "obs-tarefeiros-reuniao-sexta",
-   "ts": "2026-09-30T17:15:26Z",
-   "source": "Observador",
-   "lado": "pt",
-   "url": "https://observador.pt/2026/09/30/ministerio-da-saude-convoca-tarefeiros-para-reuniao-esta-sexta-feira-novos-valores-hora-pagos-aos-medicos-deverao-estar-em-discussao/",
-   "title": "Ministério da Saúde convoca tarefeiros para reunião",
-   "topic": "saude",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "SNS",
-    "Médicos tarefeiros"
-   ],
-   "tickers": [],
-   "resumo": "A dias de ser publicada a portaria com os novos valores/hora dos médicos tarefeiros, o Ministério da Saúde chamou a associação que os representa para uma reunião na sexta-feira.",
-   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2000:1124:nowe:0:105/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/01/19132428/46169369.jpg"
-  },
-  {
-   "id": "lusa-47863448",
-   "ts": "2026-09-30T17:10:00Z",
-   "source": "Lusa",
-   "lado": "pt",
-   "url": "https://www.lusa.pt/article/47863448/seguro-elogia-agência-lusa-e-defende-que-é-essencial-garantir-a-sua-independência",
-   "title": "Seguro elogia agência Lusa e defende que é essencial garantir a sua independência",
-   "topic": "politica",
-   "sub": "",
-   "impacto": "baixo",
-   "setores": [
-    "Lusa",
-    "Comunicação social"
-   ],
-   "tickers": [],
-   "resumo": "O Presidente da República elogiou a agência Lusa e defendeu que garantir a sua independência é essencial para o país.",
-   "img": "https://www.lusa.pt/temp/images/400x248/cache_400x248_Crop_high_47836528_6424463_25092026040539.jpg"
-  },
-  {
-   "id": "zz-1217702",
-   "ts": "2026-09-30T17:09:58Z",
-   "source": "zerozero",
-   "lado": "pt",
-   "url": "https://www.zerozero.pt/noticias/taca-da-liga-i-final-four-i-novamente-jogada-no-estadio-dr-magalhaes-pessoa/1217702",
-   "title": "Taça da Liga: Final Four novamente jogada no Estádio Dr. Magalhães Pessoa",
-   "topic": "desporto",
-   "sub": "liga",
-   "impacto": "baixo",
-   "setores": [
-    "Taça da Liga"
-   ],
-   "tickers": [],
-   "resumo": "Leiria recebe a Final Four da Taça da Liga pela sétima edição consecutiva, de 5 a 9 de janeiro de 2027, no Estádio Dr. Magalhães Pessoa.",
-   "img": "https://www.zerozero.pt/img/noticias/702/imgS620I1217702T20260930180128.jpg"
-  },
-  {
-   "id": "eco-russia-aviso-nuclear-nato-baltico",
-   "ts": "2026-09-30T15:09:48Z",
-   "source": "ECO",
-   "lado": "pt",
-   "url": "https://eco.sapo.pt/2026/09/30/russia-faz-aviso-nuclear-a-nato-com-tensao-no-baltico-a-subir/",
-   "title": "Rússia faz aviso nuclear à NATO com tensão no Báltico a subir",
-   "topic": "mundo",
-   "sub": "",
-   "impacto": "alto",
-   "setores": [
-    "NATO",
-    "Kaliningrado"
-   ],
-   "tickers": [],
-   "resumo": "Moscovo avisou a NATO de que recorrerá a armas nucleares se a aliança tentar isolar Kaliningrado, enclave junto ao Báltico, e acusa-a de seguir um rumo perigoso e imprudente.",
-   "img": "https://eco.imgix.net/uploads/2026/07/cropped-47442079-scaled-3.jpg"
-  },
-  {
-   "id": "nit-avenida-portugal-carminha",
-   "ts": "2026-09-30T15:09:12Z",
-   "source": "NiT",
-   "lado": "pt",
-   "url": "https://www.nit.pt/cultura/televisao/ja-sabemos-quem-vai-ser-a-carminha-em-avenida-portugal-novela-chega-em-2027",
-   "title": "Já sabemos quem vai ser a Carminha em \"Avenida Portugal\". Novela chega em 2027",
-   "topic": "cultura",
-   "sub": "",
-   "impacto": "baixo",
-   "setores": [
-    "SIC",
-    "Telenovela"
-   ],
-   "tickers": [],
-   "resumo": "Margarida Vila-Nova vai interpretar Carminha em Avenida Portugal, adaptação portuguesa da telenovela brasileira Avenida Brasil, que a SIC estreia em 2027.",
-   "img": ""
-  },
-  {
-   "id": "rtp-n1768663",
-   "ts": "2026-09-30T15:03:03Z",
-   "source": "RTP",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/mundo/xi-jinping-pronto-para-reprimir-firmemente-forcas-pela-independencia-de-taiwan_n1768663",
-   "title": "Xi Jinping pronto para \"reprimir firmemente\" forças pela independência de Taiwan",
-   "topic": "mundo",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "China",
-    "Taiwan"
-   ],
-   "tickers": [],
-   "resumo": "O Presidente chinês, Xi Jinping, disse estar determinado a combater as forças pró-independência de Taiwan e a ingerência externa, na véspera do Dia Nacional da República Popular da China.",
-   "img": "https://cdn-images.rtp.pt/icm/noticias/images/78/78e11e6107739cc6ed77950cd56a5e3c?w=350&q=50&rect=0,39,1238,679&auto=format"
   }
  ],
  "contracts": {},
@@ -5295,5 +5292,5 @@
    "nota": "Montenegro vê um \"sinal importante\" do PS; Ventura diz que a abstenção não surpreende porque o PS está \"a governar em conjunto\" com o PSD."
   }
  ],
- "arquivo": 416
+ "arquivo": 430
 }
