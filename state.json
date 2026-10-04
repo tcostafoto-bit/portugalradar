@@ -1,7 +1,79 @@
 {
- "version": "1.1.52",
- "updated": "2026-10-03T23:45:31Z",
+ "version": "1.1.53",
+ "updated": "2026-10-04T05:45:30Z",
  "recent": [
+  {
+   "id": "lusa-47880509",
+   "ts": "2026-10-04T04:50:00Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "Lusa",
+   "title": "Mais de 158 milhões de brasileiros são hoje chamados às urnas para as eleições gerais"
+  },
+  {
+   "id": "lusa-47880506",
+   "ts": "2026-10-04T04:22:00Z",
+   "topic": "outros",
+   "sub": "",
+   "source": "Lusa",
+   "title": "Colisão entre dois veículos ligeiros em Ponte do Rol causa quatro feridos graves"
+  },
+  {
+   "id": "lusa-47880503",
+   "ts": "2026-10-04T04:15:00Z",
+   "topic": "desporto",
+   "sub": "selecao",
+   "source": "Lusa",
+   "title": "Portugal pode hoje garantir 'quartos' da Liga das Nações em pleno caso Ronaldo"
+  },
+  {
+   "id": "lusa-47880500",
+   "ts": "2026-10-04T04:10:00Z",
+   "topic": "saude",
+   "sub": "",
+   "source": "Lusa",
+   "title": "Dependência de álcool quase quadruplicou em Portugal mas só 20% estão em tratamento"
+  },
+  {
+   "id": "obs-noticiario-4h-catalunha-20261004",
+   "ts": "2026-10-04T03:16:39Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "Observador",
+   "title": "4h. Catalunha enfrenta \"mini furacão mediterrâneo\""
+  },
+  {
+   "id": "record-prestianni-estreia-argentina",
+   "ts": "2026-10-04T03:05:00Z",
+   "topic": "desporto",
+   "sub": "benfica",
+   "source": "Record",
+   "title": "Prestianni brilha pela Argentina: estreia-se a marcar e assiste na goleada ao Burkina Faso"
+  },
+  {
+   "id": "obs-noticiario-3h-eua-ira-20261004",
+   "ts": "2026-10-04T02:12:36Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "Observador",
+   "title": "3h. EUA expulsam membros da diplomacia iraniana do país"
+  },
+  {
+   "id": "cm-tarologa-20261004",
+   "ts": "2026-10-04T02:02:57Z",
+   "topic": "justica",
+   "sub": "",
+   "source": "CM",
+   "title": "Falsa taróloga e marido, com antecedentes criminais no Brasil, ficam em prisão preventiva"
+  },
+  {
+   "id": "obs-noticiario-1h-openai-20261004",
+   "ts": "2026-10-04T00:15:19Z",
+   "topic": "tecnologia",
+   "sub": "",
+   "source": "Observador",
+   "title": "1h. Responsável pela segurança da OpenAI demite-se"
+  },
   {
    "id": "cnn-6ac1889fd34e9a786e75acb6",
    "ts": "2026-10-03T23:02:00Z",
@@ -33,6 +105,14 @@
    "sub": "",
    "source": "Observador",
    "title": "Caso das gémeas. Os interrogatórios de Nuno Rebelo de Sousa"
+  },
+  {
+   "id": "record-polo-aquatico-supertacas",
+   "ts": "2026-10-03T22:25:00Z",
+   "topic": "desporto",
+   "sub": "outros",
+   "source": "Record",
+   "title": "Fluvial e Benfica conquistam Supertaças de polo aquático"
   },
   {
    "id": "as-joao-rodrigues-2rm",
@@ -137,6 +217,14 @@
    "sub": "tenis",
    "source": "RTP Desporto",
    "title": "Henrique Rocha apurado para a final do Porto Open sem jogar"
+  },
+  {
+   "id": "as-fia-rally1-2027",
+   "ts": "2026-10-03T20:36:55Z",
+   "topic": "desporto",
+   "sub": "motores",
+   "source": "AutoSport",
+   "title": "FIA aumenta potência dos Rally1 de 2027"
   },
   {
    "id": "rtp-d1769430",
@@ -281,6 +369,14 @@
    "sub": "",
    "source": "CNN Portugal",
    "title": "Motociclista morre em despiste na A28 em Viana do Castelo"
+  },
+  {
+   "id": "ojogo-bednarek-polonia-18133320",
+   "ts": "2026-10-03T18:58:00Z",
+   "topic": "desporto",
+   "sub": "porto",
+   "source": "O Jogo",
+   "title": "Bednarek e o regresso aos golos pela Polónia: \"Devia fazer isto muito mais vezes\""
   },
   {
    "id": "cnn-6ac14fc1d34e9a786e75ac62",
@@ -865,22 +961,6 @@
    "sub": "",
    "source": "HealthNews",
    "title": "PS/Açores acusa Governo de esconder dados. Mónica Seidi responde: \"Não é verdade\""
-  },
-  {
-   "id": "healthnews-igas-assedio",
-   "ts": "2026-10-03T06:14:57Z",
-   "topic": "saude",
-   "sub": "",
-   "source": "HealthNews",
-   "title": "Queixas de assédio na Saúde explodem desde 2021. IGAS só confirma três casos"
-  },
-  {
-   "id": "rtp-d1769082",
-   "ts": "2026-10-02T07:23:59Z",
-   "topic": "desporto",
-   "sub": "benfica",
-   "source": "RTP Desporto",
-   "title": "Acionistas da SAD do Benfica aprovam contas com lucro de 19,1 ME por unanimidade"
   }
  ],
  "paired": [

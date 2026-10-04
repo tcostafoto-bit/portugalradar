@@ -1,25 +1,180 @@
 {
- "version": "1.1.52",
- "updated": "2026-10-03T23:45:31Z",
+ "version": "1.1.53",
+ "updated": "2026-10-04T05:45:30Z",
  "brief": [
   {
-   "texto": "O jato privado de Cristiano Ronaldo tem voo marcado para Riade no domingo, antes do Portugal-Noruega.",
-   "id": "abola-ronaldo-regressa-arabia"
+   "texto": "Brasil vai hoje a votos: mais de 158 milhões de eleitores escolhem entre Lula da Silva e Flávio Bolsonaro.",
+   "id": "lusa-47880509"
   },
   {
-   "texto": "A ministra da Justiça promete resposta até dia 10 sobre o fim da proteção especial a Rui Pinto.",
-   "id": "lusa-47879409"
+   "texto": "Portugal recebe a Noruega às 19h45 no Dragão e pode garantir já os quartos da Liga das Nações, em pleno caso Ronaldo.",
+   "id": "lusa-47880503"
   },
   {
-   "texto": "A presidente do Tribunal de Contas admite recorrer ao Constitucional contra a reforma do Governo.",
+   "texto": "Presidente do Tribunal de Contas admite recorrer ao Constitucional contra a reforma do Governo.",
    "id": "obs-tribunal-contas-constitucional-20261003"
   },
   {
-   "texto": "Os houthis dizem ter atacado uma instalação da Aramco em Riade.",
-   "id": "rtp-n1769435"
+   "texto": "Aviso amarelo de trovoada em seis distritos esta tarde, entre as 12h e as 21h."
   }
  ],
  "items": [
+  {
+   "id": "lusa-47880509",
+   "ts": "2026-10-04T04:50:00Z",
+   "source": "Lusa",
+   "lado": "pt",
+   "url": "https://www.lusa.pt/article/47880509/mais-de-158-milhões-de-brasileiros-são-hoje-chamados-às-urnas-para-as-eleições-gerais",
+   "title": "Mais de 158 milhões de brasileiros são hoje chamados às urnas para as eleições gerais",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "alto",
+   "setores": [
+    "Eleições no Brasil"
+   ],
+   "tickers": [],
+   "resumo": "Mais de 158 milhões de brasileiros votam hoje nas eleições gerais, incluindo a escolha do próximo Presidente, num escrutínio muito polarizado entre Lula da Silva e Flávio Bolsonaro. Em Portugal estão recenseados 134.797 eleitores brasileiros.",
+   "img": "https://www.lusa.pt/temp/images/900x600/cache_900x600_Crop_high_47879794_800207722058997.jpg"
+  },
+  {
+   "id": "lusa-47880506",
+   "ts": "2026-10-04T04:22:00Z",
+   "source": "Lusa",
+   "lado": "pt",
+   "url": "https://www.lusa.pt/national/article/2026-10-04/47880506/colisão-entre-dois-veículos-ligeiros-em-ponte-do-rol-causa-quatro-feridos-graves",
+   "title": "Colisão entre dois veículos ligeiros em Ponte do Rol causa quatro feridos graves",
+   "topic": "outros",
+   "sub": "",
+   "impacto": "baixo",
+   "setores": [
+    "Acidente rodoviário"
+   ],
+   "tickers": [],
+   "resumo": "Uma colisão entre dois veículos ligeiros em Ponte do Rol deixou quatro feridos graves.",
+   "img": ""
+  },
+  {
+   "id": "lusa-47880503",
+   "ts": "2026-10-04T04:15:00Z",
+   "source": "Lusa",
+   "lado": "pt",
+   "url": "https://www.lusa.pt/article/47880503/portugal-pode-hoje-garantir-quartos-da-liga-das-nações-em-pleno-caso-ronaldo",
+   "title": "Portugal pode hoje garantir 'quartos' da Liga das Nações em pleno caso Ronaldo",
+   "topic": "desporto",
+   "sub": "selecao",
+   "impacto": "alto",
+   "setores": [
+    "Liga das Nações"
+   ],
+   "tickers": [],
+   "resumo": "A Seleção recebe hoje a Noruega, às 19h45, no Estádio do Dragão, e pode assegurar já a qualificação para os quartos de final da Liga das Nações, num jogo marcado pela polémica com Cristiano Ronaldo.",
+   "img": "https://www.lusa.pt/temp/images/400x248/cache_400x248_Crop_high_47879439_5024989_03102026054224.jpg"
+  },
+  {
+   "id": "lusa-47880500",
+   "ts": "2026-10-04T04:10:00Z",
+   "source": "Lusa",
+   "lado": "pt",
+   "url": "https://www.lusa.pt/article/47880500/dependência-de-álcool-quase-quadruplicou-em-portugal-mas-só-20-estão-em-tratamento",
+   "title": "Dependência de álcool quase quadruplicou em Portugal mas só 20% estão em tratamento",
+   "topic": "saude",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Álcool"
+   ],
+   "tickers": [],
+   "resumo": "A dependência de álcool cresceu de forma significativa em Portugal, mas apenas cerca de 20% das pessoas afetadas estão em tratamento.",
+   "img": "https://www.lusa.pt/temp/images/400x248/cache_400x248_Crop_high_47857698_3901521_02102026115931.jpg"
+  },
+  {
+   "id": "obs-noticiario-4h-catalunha-20261004",
+   "ts": "2026-10-04T03:16:39Z",
+   "source": "Observador",
+   "lado": "pt",
+   "url": "https://observador.pt/programas/noticiario/as-noticias-das-4h-2420/",
+   "title": "4h. Catalunha enfrenta \"mini furacão mediterrâneo\"",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Espanha",
+    "Mau tempo"
+   ],
+   "tickers": [],
+   "resumo": "As autoridades espanholas pedem aos residentes da Catalunha que fiquem em casa devido a um \"mini furacão mediterrâneo\", numa região sob alerta máximo.",
+   "img": ""
+  },
+  {
+   "id": "record-prestianni-estreia-argentina",
+   "ts": "2026-10-04T03:05:00Z",
+   "source": "Record",
+   "lado": "pt",
+   "url": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/benfica/detalhe/prestianni-brilha-pela-argentina-estreia-se-a-marcar-e-assiste-na-goleada-ao-burkina-faso",
+   "title": "Prestianni brilha pela Argentina: estreia-se a marcar e assiste na goleada ao Burkina Faso",
+   "topic": "desporto",
+   "sub": "benfica",
+   "impacto": "medio",
+   "setores": [
+    "Argentina"
+   ],
+   "tickers": [],
+   "resumo": "O extremo do Benfica voltou a ser titular pela Argentina, marcou na estreia a marcar pela seleção e fez uma assistência na goleada ao Burkina Faso, no Monumental.",
+   "img": "https://cdn.record.pt/images/2026-10/img_1200x721uu2026-10-04-04-05-00-2466234.jpg"
+  },
+  {
+   "id": "obs-noticiario-3h-eua-ira-20261004",
+   "ts": "2026-10-04T02:12:36Z",
+   "source": "Observador",
+   "lado": "pt",
+   "url": "https://observador.pt/programas/noticiario/as-noticias-das-3h-2456/",
+   "title": "3h. EUA expulsam membros da diplomacia iraniana do país",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "EUA",
+    "Irão"
+   ],
+   "tickers": [],
+   "resumo": "Os EUA expulsaram membros da diplomacia iraniana do país. O Departamento de Estado alega que os diplomatas ignoraram as ordens de saída.",
+   "img": ""
+  },
+  {
+   "id": "cm-tarologa-20261004",
+   "ts": "2026-10-04T02:02:57Z",
+   "source": "CM",
+   "lado": "pt",
+   "url": "https://m.facebook.com/cmjornal/posts/pfbid0M71ZPY2RjhK5yCb6PS1FvCy7RitfKp8iz7qEtkv66yRX9weADekPaxFo3BgvU1tBl",
+   "title": "Falsa taróloga e marido, com antecedentes criminais no Brasil, ficam em prisão preventiva",
+   "topic": "justica",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Prisão preventiva"
+   ],
+   "tickers": [],
+   "resumo": "A falsa taróloga e o marido têm antecedentes criminais no Brasil e ficaram ambos em prisão preventiva.",
+   "img": "https://external-ams2-1.xx.fbcdn.net/emg1/v/t13/10752352352436409433?url=https%3A%2F%2Fcdn.cmjornal.pt%2Fimages%2F2026-10%2Fimg_1280x721uu2026-10-03-09-47-45-2312079.jpg&fb_obo=1&utld=cmjornal.pt&_nc_sid=e42f53&_nc_ht=external-ams2-1.xx.fbcdn.net&stp=c0.5000x0.5000f_dst-emg0_p540x282_q75_tt6_u&ccb=18-1&_nc_gid=3dp34fmRYEkf13ew8_zoRQ&_nc_zt=3&_nc_enc=QRteTJTpJbFzAQl0XToX4NVjeVc5Y6nchF0J-fsidi9lj06jQ51tR_iLMTpUDyXRLwNw_dl2I6cUEzMU&oh=06_Q3_DAQ0vOGRXXat1TWKyFQtFOM8q5L8PZ-PGVaXMea5sWKJq&oe=6AC3A476"
+  },
+  {
+   "id": "obs-noticiario-1h-openai-20261004",
+   "ts": "2026-10-04T00:15:19Z",
+   "source": "Observador",
+   "lado": "pt",
+   "url": "https://observador.pt/programas/noticiario/as-noticias-da-1h-2403/",
+   "title": "1h. Responsável pela segurança da OpenAI demite-se",
+   "topic": "tecnologia",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "OpenAI",
+    "IA"
+   ],
+   "tickers": [],
+   "resumo": "David Robinson, responsável pela segurança da OpenAI, demitiu-se e alertou que a empresa não está \"nem perto de ser cuidadosa\", dias depois do cancelamento de um novo modelo por problemas de segurança.",
+   "img": ""
+  },
   {
    "id": "cnn-6ac1889fd34e9a786e75acb6",
    "ts": "2026-10-03T23:02:00Z",
@@ -86,6 +241,23 @@
    "tickers": [],
    "resumo": "Acusado de prevaricação, o filho de Marcelo Rebelo de Sousa negou ter usado a ligação ao pai e remeteu a responsabilidade pelo tratamento das gémeas para o ex-secretário de Estado da Saúde, Lacerda Sales.",
    "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:1278:719:nowe:1:0/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/09/28133106/lacerda-filho-pr-mae-1.jpeg"
+  },
+  {
+   "id": "record-polo-aquatico-supertacas",
+   "ts": "2026-10-03T22:25:00Z",
+   "source": "Record",
+   "lado": "pt",
+   "url": "https://www.record.pt/modalidades/polo-aquatico/detalhe/fluvial-e-benfica-conquistam-supertacas-de-polo-aquatico",
+   "title": "Fluvial e Benfica conquistam Supertaças de polo aquático",
+   "topic": "desporto",
+   "sub": "outros",
+   "impacto": "baixo",
+   "setores": [
+    "Polo aquático"
+   ],
+   "tickers": [],
+   "resumo": "Fluvial e Benfica conquistaram as Supertaças de polo aquático, disputadas em Felgueiras.",
+   "img": "https://cdn.record.pt/images/2026-10/img_1200x721uu2026-10-03-23-25-04-2466211.jpg"
   },
   {
    "id": "as-joao-rodrigues-2rm",
@@ -310,6 +482,23 @@
    ],
    "tickers": [],
    "resumo": "O tenista português Henrique Rocha qualificou-se para a final do Porto Open, challenger 125, sem jogar, devido à desistência do suíço Jerome Kym.",
+   "img": ""
+  },
+  {
+   "id": "as-fia-rally1-2027",
+   "ts": "2026-10-03T20:36:55Z",
+   "source": "AutoSport",
+   "lado": "pt",
+   "url": "https://www.autosport.pt/ralis/fia-aumenta-potencia-dos-rally1-de-2027/",
+   "title": "FIA aumenta potência dos Rally1 de 2027",
+   "topic": "desporto",
+   "sub": "motores",
+   "impacto": "baixo",
+   "setores": [
+    "WRC"
+   ],
+   "tickers": [],
+   "resumo": "A FIA confirmou que os Rally1 ganham potência em 2027, com um restritor de 33 mm em vez de 32 mm, o que dá cerca de 12 cavalos adicionais e ultrapassa os 300 cv.",
    "img": ""
   },
   {
@@ -622,6 +811,23 @@
    "tickers": [],
    "resumo": "Um motociclista morreu num despiste na A28, em Viana do Castelo, no sentido do Porto. Os meios de socorro foram acionados.",
    "img": ""
+  },
+  {
+   "id": "ojogo-bednarek-polonia-18133320",
+   "ts": "2026-10-03T18:58:00Z",
+   "source": "O Jogo",
+   "lado": "pt",
+   "url": "https://www.ojogo.pt/futebol/artigo/bednarek-e-o-regresso-aos-golos-pela-polonia-devia-fazer-isto-muito-mais-vezes/18133320",
+   "title": "Bednarek e o regresso aos golos pela Polónia: \"Devia fazer isto muito mais vezes\"",
+   "topic": "desporto",
+   "sub": "porto",
+   "impacto": "baixo",
+   "setores": [
+    "Polónia"
+   ],
+   "tickers": [],
+   "resumo": "O central do FC Porto marcou pela Polónia, o que não acontecia há oito anos pela seleção polaca.",
+   "img": "https://staticx.noticiasilimitadas.pt/oj/890a7d67-ebc4-4363-a35b-53edb6261ca4_1200x675.jpg"
   },
   {
    "id": "cnn-6ac14fc1d34e9a786e75ac62",
@@ -1910,6 +2116,57 @@
    "tickers": [],
    "resumo": "A IGAS abriu 224 processos por assédio laboral entre janeiro de 2017 e julho de 2026 e confirmou o assédio em apenas três dos casos concluídos. As queixas dispararam desde 2021, sobretudo em 2025.",
    "img": ""
+  },
+  {
+   "id": "rtp-v1769274",
+   "ts": "2026-10-02T21:24:47Z",
+   "source": "RTP",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/desporto/portugal-afastou-os-indicios-de-tensao-e-venceu-em-copenhaga_v1769274",
+   "title": "Portugal afastou os indícios de tensão e venceu em Copenhaga",
+   "topic": "desporto",
+   "sub": "selecao",
+   "impacto": "alto",
+   "setores": [
+    "Liga das Nações"
+   ],
+   "tickers": [],
+   "resumo": "Portugal derrotou a Dinamarca por 4-2, com golos de João Cancelo, Gonçalo Ramos, Vitinha e João Félix, depois de dias intensos no balneário da Seleção.",
+   "img": "https://cdn-images.rtp.pt/icm/images/47/47cbc585d741e89a136c0a60071b41e5_N.jpg?"
+  },
+  {
+   "id": "rtp-d1769263",
+   "ts": "2026-10-02T20:49:42Z",
+   "source": "RTP",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/sporting/sporting-sad-delibera-em-ag-autorizacao-para-emitir-emprestimos-ate-150-me_d1769263",
+   "title": "Sporting SAD delibera em AG autorização para emitir empréstimos até 150 ME",
+   "topic": "desporto",
+   "sub": "sporting",
+   "impacto": "medio",
+   "setores": [
+    "Sporting SAD"
+   ],
+   "tickers": [],
+   "resumo": "A Sporting SAD vai deliberar, numa Assembleia Geral a 26 de outubro, a autorização para emitir um ou mais empréstimos obrigacionistas até 150 milhões de euros.",
+   "img": "https://cdn-images.rtp.pt/icm/noticias/images/10/10d1b45e44eabba1eec2b40eac4dd54e?w=350&q=50&rect=0,73,1233,676&auto=format"
+  },
+  {
+   "id": "zerozero-voo-ronaldo-1218309",
+   "ts": "2026-10-02T12:46:41Z",
+   "source": "zerozero",
+   "lado": "pt",
+   "url": "https://www.zerozero.pt/noticias/voo-n-svw7b-a-fuga-de-cristiano-ronaldo/1218309",
+   "title": "Voo nº SVW7B: a fuga de Cristiano Ronaldo",
+   "topic": "desporto",
+   "sub": "selecao",
+   "impacto": "alto",
+   "setores": [
+    "Cristiano Ronaldo"
+   ],
+   "tickers": [],
+   "resumo": "Na noite de Copenhaga, Cristiano Ronaldo deixou o estágio da Seleção num voo com destino a Madrid, o episódio que deu origem à polémica com Jorge Jesus.",
+   "img": "https://www.zerozero.pt/img/noticias/309/imgS620I1218309T20261002122729.jpg"
   },
   {
    "id": "rtp-d1769082",
@@ -4997,266 +5254,6 @@
    "tickers": [],
    "resumo": "O defesa Rúben Dias estará ao lado de Jorge Jesus na conferência de imprensa de antevisão do Dinamarca-Portugal, e o selecionador vai responder a menos perguntas.",
    "img": "https://staticx.noticiasilimitadas.pt/oj/7f18b188-51f8-42f1-8c15-e07596dc1082_1200x675.jpg"
-  },
-  {
-   "id": "obs-seguro-convergencia-saude-habitacao",
-   "ts": "2026-09-30T13:45:10Z",
-   "source": "Observador",
-   "lado": "pt",
-   "url": "https://observador.pt/2026/09/30/seguro-cita-churchill-e-pede-grande-convergencia-entre-partidos-na-saude-e-educacao/",
-   "title": "Seguro pede \"grande convergência\" na Saúde e Habitação",
-   "topic": "politica",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Presidente da República"
-   ],
-   "tickers": [],
-   "resumo": "O Presidente da República apelou a uma grande convergência entre partidos na Saúde, Educação, Proteção Social e Habitação e reiterou o pedido de uma resposta europeia à crise dos combustíveis.",
-   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2000:1122:nowe:0:111/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/09/30122204/47836533.jpg"
-  },
-  {
-   "id": "obs-lar-clandestino-olhao",
-   "ts": "2026-09-30T13:34:25Z",
-   "source": "Observador",
-   "lado": "pt",
-   "url": "https://observador.pt/2026/09/30/seguranca-social-encerra-lar-clandestino-em-olhao-por-denuncias-de-maus-tratos/",
-   "title": "Lar clandestino encerrado por denúncias de maus-tratos",
-   "topic": "outros",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Segurança Social",
-    "Lares"
-   ],
-   "tickers": [],
-   "resumo": "A Segurança Social encerrou um lar clandestino em Olhão, com 22 idosos, onde as equipas inspetivas encontraram condições graves, falta de pessoal, de higiene e de cuidados básicos de saúde.",
-   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:767:432:nowe:0:0/q:70/plain/https://s3.observador.pt/wp-content/uploads/2019/02/22111414/13521647_770x433_acf_cropped.jpg"
-  },
-  {
-   "id": "rtp-v1768661",
-   "ts": "2026-09-30T13:31:47Z",
-   "source": "RTP",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/desporto/manchester-city-pode-descer-de-divisao-e-perder-titulos-por-escandalo-financeiro_v1768661",
-   "title": "Manchester City pode descer de divisão e perder títulos por escândalo financeiro",
-   "topic": "desporto",
-   "sub": "lafora",
-   "impacto": "medio",
-   "setores": [
-    "Premier League"
-   ],
-   "tickers": [],
-   "resumo": "O Manchester City foi considerado culpado em 115 acusações de violação das regras financeiras e arrisca descer de divisão e perder os títulos conquistados entre 2009 e 2018.",
-   "img": "https://cdn-images.rtp.pt/icm/images/b8/b85608aab72c664c05017afbe24b9c76_N.jpg?"
-  },
-  {
-   "id": "rtp-v1768660",
-   "ts": "2026-09-30T13:30:53Z",
-   "source": "RTP",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/pais/livrarias-e-papelarias-em-risco-de-fechar-porque-estado-deve-reembolso-dos-manuais_v1768660",
-   "title": "Livrarias e papelarias em risco de fechar porque Estado deve reembolso dos manuais",
-   "topic": "economia",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Manuais escolares"
-   ],
-   "tickers": [],
-   "resumo": "Há livrarias e papelarias em risco de encerrar porque o Estado lhes deve o reembolso dos livros escolares gratuitos.",
-   "img": "https://cdn-images.rtp.pt/icm/images/3f/3fb92b555a14078505c676350503a9ac_N.jpg?"
-  },
-  {
-   "id": "rtp-v1768659",
-   "ts": "2026-09-30T13:30:47Z",
-   "source": "RTP",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/pais/tecnicos-superiores-de-diagnostico-do-amadora-sintra-estao-em-greve_v1768659",
-   "title": "Técnicos superiores de diagnóstico do Amadora Sintra estão em greve",
-   "topic": "saude",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Hospital Amadora-Sintra",
-    "Greve"
-   ],
-   "tickers": [],
-   "resumo": "Os técnicos superiores de diagnóstico do Hospital Amadora-Sintra estão em greve, com forte adesão, segundo o sindicato.",
-   "img": "https://cdn-images.rtp.pt/icm/images/fd/fd1b4d6e903d6605d93ba28a4997300b_N.jpg?"
-  },
-  {
-   "id": "rtp-n1768653",
-   "ts": "2026-09-30T13:30:10Z",
-   "source": "RTP",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/pais/ordem-dos-advogados-pede-envio-ao-tc-da-norma-sobre-manobras-dilatorias_n1768653",
-   "title": "Ordem dos Advogados pede envio ao TC da norma sobre manobras dilatórias",
-   "topic": "justica",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Ordem dos Advogados",
-    "Tribunal Constitucional"
-   ],
-   "tickers": [],
-   "resumo": "O bastonário da Ordem dos Advogados pediu que as normas que preveem multas por manobras dilatórias sejam enviadas ao Tribunal Constitucional.",
-   "img": ""
-  },
-  {
-   "id": "rtp-a1-1768656",
-   "ts": "2026-09-30T13:27:03Z",
-   "source": "RTP",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/noticiario-antena1/14h-ministra-do-ambiente-nao-descarta-racionamento-de-combustiveis_a1_1768656",
-   "title": "14h Ministra do Ambiente não descarta racionamento de combustíveis",
-   "topic": "economia",
-   "sub": "",
-   "impacto": "alto",
-   "setores": [
-    "Combustíveis",
-    "Racionamento"
-   ],
-   "tickers": [],
-   "resumo": "A ministra do Ambiente não descartou o racionamento de combustíveis, segundo o noticiário das 14h da Antena 1.",
-   "img": ""
-  },
-  {
-   "id": "obs-abuso-crianca-amarante",
-   "ts": "2026-09-30T13:25:23Z",
-   "source": "Observador",
-   "lado": "pt",
-   "url": "https://observador.pt/2026/09/30/detido-suspeito-de-abuso-sexual-de-crianca-de-13-anos-em-amarante/",
-   "title": "Detido suspeito de abuso de criança de 13 anos em Amarante",
-   "topic": "justica",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Detenções"
-   ],
-   "tickers": [],
-   "resumo": "Um jovem de 21 anos foi detido por suspeita de ter abusado sexualmente da vizinha de 13 anos em Amarante. A investigação começou após a denúncia dos pais.",
-   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:3710:2078:nowe:166:500/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/04/25005555/ilacerda-quadros-penalva-do-castelo9-scaled.jpg"
-  },
-  {
-   "id": "rtp-v1768652",
-   "ts": "2026-09-30T13:22:52Z",
-   "source": "RTP Desporto",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/desporto/champions-feminina-benfica-recebe-bayern-munique_v1768652",
-   "title": "Champions feminina. Benfica recebe Bayern Munique",
-   "topic": "desporto",
-   "sub": "benfica",
-   "impacto": "medio",
-   "setores": [
-    "Liga dos Campeões feminina"
-   ],
-   "tickers": [],
-   "resumo": "O Benfica recebe esta quarta-feira o Bayern Munique, na segunda jornada da Liga dos Campeões feminina; o treinador das águias quer uma equipa audaz para vencer.",
-   "img": "https://cdn-images.rtp.pt/icm/images/c5/c5bbe84ea463e3a474828e898ff37990_N.jpg?"
-  },
-  {
-   "id": "lusa-47861510",
-   "ts": "2026-09-30T13:22:00Z",
-   "source": "Lusa",
-   "lado": "pt",
-   "url": "https://www.lusa.pt/economia/article/2026-09-30/47861510/prestação-da-casa-sobe-em-outubro-nos-contratos-com-euribor-a-3-6-e-12-meses-deco-proteste",
-   "title": "Prestação da casa sobe em outubro nos contratos com Euribor a 3, 6 e 12 meses - Deco Proteste",
-   "topic": "economia",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Crédito à habitação",
-    "Euribor"
-   ],
-   "tickers": [],
-   "resumo": "A Deco Proteste indica que a prestação da casa aumenta em outubro nos contratos indexados às Euribor a 3, 6 e 12 meses.",
-   "img": "https://www.lusa.pt/temp/images/280x168/cache_280x168_Crop_high_45445302_10046299_06082025073124.JPG"
-  },
-  {
-   "id": "eco-dentro-limites-orcamentais-combustiveis",
-   "ts": "2026-09-30T13:19:15Z",
-   "source": "ECO",
-   "lado": "pt",
-   "url": "https://eco.sapo.pt/2026/09/30/dentro-dos-limites-orcamentais-vamos-ate-ao-limite-para-conter-impacto-dos-combustiveis/",
-   "title": "\"Dentro dos limites orçamentais vamos até ao limite\" para conter impacto dos combustíveis",
-   "topic": "economia",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Combustíveis",
-    "Inflação"
-   ],
-   "tickers": [],
-   "resumo": "O ministro da Economia reconheceu que a inflação é o principal desafio da economia, devido aos combustíveis, mas rejeitou medidas que comprometam os limites orçamentais, apontando para apoios pontuais a setores estratégicos.",
-   "img": "https://eco.imgix.net/uploads/2026/08/cropped-whatsapp-image-2026-08-28-at-105339-1-1.jpeg"
-  },
-  {
-   "id": "caras-charles-spencer-harry",
-   "ts": "2026-09-30T13:16:56Z",
-   "source": "Caras",
-   "lado": "pt",
-   "url": "https://caras.pt/realeza/2026-09-30-charles-spencer-defende-o-regresso-do-principe-harry-ao-reino-unido-acho-perfeitamente-normal/",
-   "title": "Charles Spencer defende o regresso do príncipe Harry ao Reino Unido: 'Acho perfeitamente normal'",
-   "topic": "rosa",
-   "sub": "realeza",
-   "impacto": "baixo",
-   "setores": [],
-   "tickers": [],
-   "resumo": "O irmão da princesa Diana comentou a recente visita dos Duques de Sussex ao Reino Unido e considerou o regresso do príncipe Harry perfeitamente normal.",
-   "img": "https://caras.pt/wp-content/uploads/2026/09/260930_1000124330-600x315.jpg"
-  },
-  {
-   "id": "rtp-n1768648",
-   "ts": "2026-09-30T13:13:50Z",
-   "source": "RTP",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/mundo/ferramenta-de-ia-chinesa-instruiu-investigadores-sobre-como-criar-armas-biologicas_n1768648",
-   "title": "Ferramenta de IA chinesa instruiu investigadores sobre como criar armas biológicas",
-   "topic": "tecnologia",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "IA",
-    "Segurança"
-   ],
-   "tickers": [],
-   "resumo": "A empresa chinesa Moonshot está a rever internamente os seus modelos Kimi depois de investigadores os terem levado a explicar como fabricar armas biológicas.",
-   "img": "https://cdn-images.rtp.pt/icm/noticias/images/b3/b3c3ea839a860cb9307a952d17600729?w=350&q=50&rect=0,89,1500,822&auto=format"
-  },
-  {
-   "id": "abola-vagiannidis-alvalade",
-   "ts": "2026-09-30T13:10:40Z",
-   "source": "A Bola",
-   "lado": "pt",
-   "url": "https://www.abola.pt/noticias/sporting-dispensado-da-grecia-vagiannidis-esta-a-caminho-de-alvalade-2026093013060273009",
-   "title": "Sporting: dispensado da Grécia, Vagiannidis está a caminho de Alvalade",
-   "topic": "desporto",
-   "sub": "sporting",
-   "impacto": "medio",
-   "setores": [
-    "Lesões"
-   ],
-   "tickers": [],
-   "resumo": "O lateral-direito Vagiannidis foi dispensado da seleção grega por desconforto muscular e regressa a Portugal para recuperar em Alcochete.",
-   "img": "https://sportal365images.com/process/smp-images-production/abola.pt/10092026/9eb3043f-e563-4f58-8078-b1db37c1f216.jpg?operations=crop(0:189:6433:3808),autocrop(1200:630)"
-  },
-  {
-   "id": "obs-djokovic-nuno-borges-pequim",
-   "ts": "2026-09-30T13:04:33Z",
-   "source": "Observador",
-   "lado": "pt",
-   "url": "https://observador.pt/2026/09/30/ate-a-jogar-a-meio-gas-continua-a-encher-o-balao-djokovic-regressa-com-triunfo-frente-a-nuno-borges-e-faz-o-30-0-em-pequim/",
-   "title": "Até a jogar a meio gás continua a encher o balão em Pequim",
-   "topic": "desporto",
-   "sub": "tenis",
-   "impacto": "medio",
-   "setores": [
-    "ATP 500 Pequim"
-   ],
-   "tickers": [],
-   "resumo": "Novak Djokovic venceu Nuno Borges na primeira ronda do Open da China, em Pequim, apesar de novas dificuldades físicas, e prolongou a série de vitórias no torneio.",
-   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:1500:842:nowe:0:158/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/09/30135922/djokovic-1.jpg"
   }
  ],
  "contracts": {},
@@ -5295,5 +5292,5 @@
    "nota": "Montenegro vê um \"sinal importante\" do PS; Ventura diz que a abstenção não surpreende porque o PS está \"a governar em conjunto\" com o PSD."
   }
  ],
- "arquivo": 383
+ "arquivo": 398
 }
