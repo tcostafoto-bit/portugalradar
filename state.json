@@ -1,7 +1,95 @@
 {
- "version": "1.1.58",
- "updated": "2026-10-04T15:45:29Z",
+ "version": "1.1.59",
+ "updated": "2026-10-04T17:45:31Z",
  "recent": [
+  {
+   "id": "lusa-47883771",
+   "ts": "2026-10-04T17:30:00Z",
+   "topic": "politica",
+   "sub": "",
+   "source": "Lusa",
+   "title": "05 Outubro: Seguro abre ao público jardins e museu do Palácio de Belém"
+  },
+  {
+   "id": "zerozero-1218939",
+   "ts": "2026-10-04T17:29:48Z",
+   "topic": "desporto",
+   "sub": "porto",
+   "source": "zerozero",
+   "title": "FC Porto entra a vencer na Taça da Liga"
+  },
+  {
+   "id": "rtp-n1769553",
+   "ts": "2026-10-04T16:55:57Z",
+   "topic": "politica",
+   "sub": "",
+   "source": "RTP",
+   "title": "Base das Lajes. Governo dos Açores não foi contactado no âmbito do inquérito do MP"
+  },
+  {
+   "id": "lusa-47883702",
+   "ts": "2026-10-04T16:53:00Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "Lusa",
+   "title": "Cônsul-geral do Brasil em Lisboa estima participação na capital em 30%"
+  },
+  {
+   "id": "abola-hoquei-india-28-0-20261004",
+   "ts": "2026-10-04T16:25:42Z",
+   "topic": "desporto",
+   "sub": "hoquei",
+   "source": "A Bola",
+   "title": "Portugal aplica chapa 28 (!!) à Índia na estreia no Mundial"
+  },
+  {
+   "id": "lusa-47883570",
+   "ts": "2026-10-04T16:18:00Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "Lusa",
+   "title": "Brasil/Eleições: Polícia Federal abre investigação contra possível interferência dos EUA"
+  },
+  {
+   "id": "obs-noticiario-17h-lula-20261004",
+   "ts": "2026-10-04T16:14:15Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "Observador",
+   "title": "17h. Eleições Brasil. Lula da Silva vence em vários países"
+  },
+  {
+   "id": "eco-da-semana-20261004",
+   "ts": "2026-10-04T16:11:07Z",
+   "topic": "economia",
+   "sub": "",
+   "source": "ECO",
+   "title": "ECO da Semana: Orçamento para 2027, Rubio em Lisboa e projeções do BdP"
+  },
+  {
+   "id": "record-futuro-ronaldo-selecao-20261004",
+   "ts": "2026-10-04T16:10:28Z",
+   "topic": "desporto",
+   "sub": "selecao",
+   "source": "Record",
+   "title": "Futuro de Ronaldo na Seleção em aberto: não há conversas para jogo de despedida"
+  },
+  {
+   "id": "novagente-carolina-patrocinio-vestido-globos",
+   "ts": "2026-10-04T16:00:00Z",
+   "topic": "rosa",
+   "sub": "famosos",
+   "source": "Nova Gente",
+   "title": "Carolina Patrocínio sofre contratempo em evento da SIC a pouco tempo de começar a emissão: \"Fui a correr...\""
+  },
+  {
+   "id": "abola-sporting-futsal-ponte-de-sor-20261004",
+   "ts": "2026-10-04T15:44:00Z",
+   "topic": "desporto",
+   "sub": "futsal",
+   "source": "A Bola",
+   "title": "Sporting deixa pontos em Ponte de Sor e há novo líder"
+  },
   {
    "id": "obs-djokovic-zverev-20261004",
    "ts": "2026-10-04T15:31:02Z",
@@ -137,6 +225,14 @@
    "sub": "",
    "source": "RTP",
    "title": "Setúbal e Beja sob aviso laranja devido à trovoada e chuva forte"
+  },
+  {
+   "id": "obs-letonia-eleicoes-20261004",
+   "ts": "2026-10-04T13:45:04Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "Observador",
+   "title": "Coligação centrista do primeiro-ministro vence na Letónia"
   },
   {
    "id": "as-evans-campeao-wrc-20261004",
@@ -865,102 +961,6 @@
    "sub": "tenis",
    "source": "RTP Desporto",
    "title": "Henrique Rocha apurado para a final do Porto Open sem jogar"
-  },
-  {
-   "id": "as-fia-rally1-2027",
-   "ts": "2026-10-03T20:36:55Z",
-   "topic": "desporto",
-   "sub": "motores",
-   "source": "AutoSport",
-   "title": "FIA aumenta potência dos Rally1 de 2027"
-  },
-  {
-   "id": "rtp-d1769430",
-   "ts": "2026-10-03T20:34:53Z",
-   "topic": "desporto",
-   "sub": "voleibol",
-   "source": "RTP Desporto",
-   "title": "Central russo Aleksey Kovalchuk reforça voleibol do Sporting"
-  },
-  {
-   "id": "rtp-d1769429",
-   "ts": "2026-10-03T20:32:33Z",
-   "topic": "desporto",
-   "sub": "motores",
-   "source": "RTP Desporto",
-   "title": "João Ferreira segundo em Marrocos, Ventura e Pinto vencem nas respetivas classes"
-  },
-  {
-   "id": "cm-vyjuvek-20261003",
-   "ts": "2026-10-03T20:31:27Z",
-   "topic": "saude",
-   "sub": "",
-   "source": "CM",
-   "title": "Doentes com epidermólise bolhosa continuam à espera de comparticipação do Vyjuvek"
-  },
-  {
-   "id": "obs-espanha-cheias-albacete-20261003",
-   "ts": "2026-10-03T20:31:09Z",
-   "topic": "mundo",
-   "sub": "",
-   "source": "Observador",
-   "title": "Mulher de 102 anos morre em casa devido a cheias em Espanha"
-  },
-  {
-   "id": "rtp-d1769428",
-   "ts": "2026-10-03T20:29:42Z",
-   "topic": "desporto",
-   "sub": "golfe",
-   "source": "RTP Desporto",
-   "title": "Golfista Tomás Melo Gouveia termina em 16.º o Abu Dhabi Challenge"
-  },
-  {
-   "id": "cnn-6ac16563d34e53c759c74ef9",
-   "ts": "2026-10-03T20:27:00Z",
-   "topic": "justica",
-   "sub": "",
-   "source": "CNN Portugal",
-   "title": "Homem encontrado morto em Camarate. PJ a caminho do local"
-  },
-  {
-   "id": "cm-alcafozes-assaltos-20261003",
-   "ts": "2026-10-03T20:15:01Z",
-   "topic": "justica",
-   "sub": "",
-   "source": "CM",
-   "title": "Pelo menos 12 casas assaltadas em Alcafozes nas últimas semanas"
-  },
-  {
-   "id": "lusa-47880203",
-   "ts": "2026-10-03T20:05:00Z",
-   "topic": "politica",
-   "sub": "",
-   "source": "Lusa",
-   "title": "OE2027: PCP acusa PS de estar a contribuir para a \"máscara\" do Chega"
-  },
-  {
-   "id": "rtp-v1769424",
-   "ts": "2026-10-03T20:01:47Z",
-   "topic": "tecnologia",
-   "sub": "",
-   "source": "RTP",
-   "title": "GPT-6.1 Astra. Modelo de IA da OpenAI cancelado por problemas de segurança"
-  },
-  {
-   "id": "abola-ronaldo-regressa-arabia",
-   "ts": "2026-10-03T20:01:14Z",
-   "topic": "desporto",
-   "sub": "selecao",
-   "source": "A Bola",
-   "title": "Em dia de jogo de Portugal, Ronaldo vai regressar à Arábia Saudita"
-  },
-  {
-   "id": "novagente-bb-miguel-david",
-   "ts": "2026-10-03T20:00:00Z",
-   "topic": "rosa",
-   "sub": "reality",
-   "source": "Nova Gente",
-   "title": "Miguel Vicente confronta David Diamond no Big Brother All Stars"
   }
  ],
  "paired": [

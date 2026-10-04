@@ -1,25 +1,217 @@
 {
- "version": "1.1.58",
- "updated": "2026-10-04T15:45:29Z",
+ "version": "1.1.59",
+ "updated": "2026-10-04T17:45:31Z",
  "brief": [
   {
-   "texto": "Beja e Setúbal estão sob aviso laranja devido à trovoada e à chuva forte.",
-   "id": "rtp-n1769519"
+   "texto": "Polícia Federal brasileira abre investigação à alegada interferência dos EUA nas eleições, enquanto Lula lidera nos países onde as urnas já fecharam.",
+   "id": "lusa-47883570"
   },
   {
-   "texto": "Zelensky e Merz assinaram em Kiev acordos de cooperação que somam mais de 8.500 milhões de euros.",
+   "texto": "Zelensky e Merz assinam pacote de ajuda e acordos de cooperação de mais de 8.500 milhões de euros.",
    "id": "rtp-n1769531"
   },
   {
-   "texto": "Portugal pode garantir hoje os quartos de final da Liga das Nações, frente à Noruega, em pleno caso Ronaldo.",
-   "id": "lusa-47880503"
+   "texto": "Portugal joga hoje com a Noruega, no Dragão, com o futuro de Ronaldo na Seleção em aberto.",
+   "id": "record-futuro-ronaldo-selecao-20261004"
   },
   {
-   "texto": "Elfyn Evans é campeão do mundo de ralis pela primeira vez, depois de Solberg se despistar na PowerStage.",
-   "id": "as-evans-campeao-wrc-20261004"
+   "texto": "Orçamento do Estado para 2027 entregue, com aprovação garantida pela abstenção do PS.",
+   "id": "eco-da-semana-20261004"
   }
  ],
  "items": [
+  {
+   "id": "lusa-47883771",
+   "ts": "2026-10-04T17:30:00Z",
+   "source": "Lusa",
+   "lado": "pt",
+   "url": "https://www.lusa.pt/article/47883771/05-outubro-seguro-abre-ao-público-jardins-e-museu-do-palácio-de-belém",
+   "title": "05 Outubro: Seguro abre ao público jardins e museu do Palácio de Belém",
+   "topic": "politica",
+   "sub": "",
+   "impacto": "baixo",
+   "setores": [
+    "5 de Outubro"
+   ],
+   "tickers": [],
+   "resumo": "No âmbito do 5 de Outubro, Seguro abre ao público os jardins e o museu do Palácio de Belém.",
+   "img": ""
+  },
+  {
+   "id": "zerozero-1218939",
+   "ts": "2026-10-04T17:29:48Z",
+   "source": "zerozero",
+   "lado": "pt",
+   "url": "https://www.zerozero.pt/noticias/fc-porto-entra-a-vencer-na-taca-da-liga/1218939",
+   "title": "FC Porto entra a vencer na Taça da Liga",
+   "topic": "desporto",
+   "sub": "porto",
+   "impacto": "baixo",
+   "setores": [
+    "Taça da Liga feminina"
+   ],
+   "tickers": [],
+   "resumo": "O FC Porto estreou-se com uma vitória na Taça da Liga feminina, ao bater o Racing Power por 2-1 na deslocação.",
+   "img": "https://www.zerozero.pt/img/noticias/939/imgS620I1218939T20261004182736.jpg"
+  },
+  {
+   "id": "rtp-n1769553",
+   "ts": "2026-10-04T16:55:57Z",
+   "source": "RTP",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/pais/base-das-lajes-governo-dos-acores-nao-foi-contactado-no-ambito-do-inquerito-do-mp_n1769553",
+   "title": "Base das Lajes. Governo dos Açores não foi contactado no âmbito do inquérito do MP",
+   "topic": "politica",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Base das Lajes",
+    "Açores"
+   ],
+   "tickers": [],
+   "resumo": "O Governo dos Açores diz não ter sido contactado no âmbito do inquérito instaurado pelo Ministério Público à utilização norte-americana da Base das Lajes.",
+   "img": "https://cdn-images.rtp.pt/icm/noticias/images/57/57af5ec8597cf83e6a30c7b45fe04f16?w=350&q=50&rect=0,0,1499,822&auto=format"
+  },
+  {
+   "id": "lusa-47883702",
+   "ts": "2026-10-04T16:53:00Z",
+   "source": "Lusa",
+   "lado": "pt",
+   "url": "https://www.lusa.pt/article/47883702/cônsul-geral-do-brasil-em-lisboa-estima-participação-na-capital-em-30",
+   "title": "Cônsul-geral do Brasil em Lisboa estima participação na capital em 30%",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Eleições no Brasil"
+   ],
+   "tickers": [],
+   "resumo": "O cônsul-geral do Brasil em Lisboa estimou em 30% a participação da comunidade brasileira nas eleições gerais na capital portuguesa.",
+   "img": "https://www.lusa.pt/temp/images/900x600/cache_900x600_Crop_high_47881947_5983710_04102026112106.JPG"
+  },
+  {
+   "id": "abola-hoquei-india-28-0-20261004",
+   "ts": "2026-10-04T16:25:42Z",
+   "source": "A Bola",
+   "lado": "pt",
+   "url": "https://www.abola.pt/noticias/portugal-aplica-chapa-28-a-india-na-estreia-no-mundial-2026100416254290125",
+   "title": "Portugal aplica chapa 28 (!!) à Índia na estreia no Mundial",
+   "topic": "desporto",
+   "sub": "hoquei",
+   "impacto": "medio",
+   "setores": [
+    "Mundial feminino"
+   ],
+   "tickers": [],
+   "resumo": "A seleção feminina de hóquei em patins estreou-se no Mundial com uma goleada de 28-0 sobre a Índia, com 21 golos na primeira parte.",
+   "img": "https://sportal365images.com/process/smp-images-production/abola.pt/04102026/c8c0b3f6-ac13-4ab4-bdae-0c4a4136d294.jpg?operations=autocrop(1200:630)"
+  },
+  {
+   "id": "lusa-47883570",
+   "ts": "2026-10-04T16:18:00Z",
+   "source": "Lusa",
+   "lado": "pt",
+   "url": "https://www.lusa.pt/article/47883570/polícia-federal-brasileira-abre-investigação-contra-possível-interferência-dos-eua-nas-eleições",
+   "title": "Brasil/Eleições: Polícia Federal abre investigação contra possível interferência dos EUA",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "alto",
+   "setores": [
+    "Eleições no Brasil",
+    "EUA"
+   ],
+   "tickers": [],
+   "resumo": "A Polícia Federal brasileira abriu uma investigação à alegada interferência dos Estados Unidos nas eleições gerais, na sequência de uma representação da Advocacia-Geral da União.",
+   "img": "https://www.lusa.pt/temp/images/400x248/cache_400x248_Crop_high_47716467_524276420592467.jpg"
+  },
+  {
+   "id": "obs-noticiario-17h-lula-20261004",
+   "ts": "2026-10-04T16:14:15Z",
+   "source": "Observador",
+   "lado": "pt",
+   "url": "https://observador.pt/programas/noticiario/as-noticias-das-17h-2298/",
+   "title": "17h. Eleições Brasil. Lula da Silva vence em vários países",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Eleições no Brasil"
+   ],
+   "tickers": [],
+   "resumo": "Com as urnas já fechadas no estrangeiro, Lula da Silva está à frente de Flávio Bolsonaro na maioria dos países.",
+   "img": ""
+  },
+  {
+   "id": "eco-da-semana-20261004",
+   "ts": "2026-10-04T16:11:07Z",
+   "source": "ECO",
+   "lado": "pt",
+   "url": "https://eco.sapo.pt/2026/10/04/eco-da-semana-orcamento-para-2027-rubio-em-lisboa-e-projecoes-do-bdp/",
+   "title": "ECO da Semana: Orçamento para 2027, Rubio em Lisboa e projeções do BdP",
+   "topic": "economia",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Orçamento do Estado",
+    "Banco de Portugal"
+   ],
+   "tickers": [],
+   "resumo": "A proposta de Orçamento do Estado para 2027 foi entregue e tem a aprovação garantida com a abstenção do PS. O Banco de Portugal divulgou novas projeções e o secretário de Estado norte-americano, Marco Rubio, visitou Lisboa.",
+   "img": "https://eco.imgix.net/uploads/2026/09/eco-da-semana.jpg"
+  },
+  {
+   "id": "record-futuro-ronaldo-selecao-20261004",
+   "ts": "2026-10-04T16:10:28Z",
+   "source": "Record",
+   "lado": "pt",
+   "url": "https://www.record.pt/futebol/selecoes/detalhe/futuro-de-ronaldo-na-selecao-em-aberto-nao-ha-conversas-para-jogo-de-despedida",
+   "title": "Futuro de Ronaldo na Seleção em aberto: não há conversas para jogo de despedida",
+   "topic": "desporto",
+   "sub": "selecao",
+   "impacto": "alto",
+   "setores": [
+    "Cristiano Ronaldo",
+    "Liga das Nações"
+   ],
+   "tickers": [],
+   "resumo": "Segundo o Record, o cenário de um jogo de despedida de Ronaldo, avançado pelo L'Equipe, não está em discussão. Tudo será decidido depois do encontro com a Noruega.",
+   "img": "https://cdn.record.pt/images/2026-10/img_1200x721uu2026-10-04-17-10-28-2466325.jpg"
+  },
+  {
+   "id": "novagente-carolina-patrocinio-vestido-globos",
+   "ts": "2026-10-04T16:00:00Z",
+   "source": "Nova Gente",
+   "lado": "pt",
+   "url": "https://www.novagente.pt/carolina-patrocinio-sofre-contratempo-em-evento-da-sic-a-pouco-tempo-de-comecar-a-emissao-fui-a-correr/",
+   "title": "Carolina Patrocínio sofre contratempo em evento da SIC a pouco tempo de começar a emissão: \"Fui a correr...\"",
+   "topic": "rosa",
+   "sub": "famosos",
+   "impacto": "baixo",
+   "setores": [
+    "SIC",
+    "Globos de Ouro"
+   ],
+   "tickers": [],
+   "resumo": "O estilista Gonçalo Mello explicou o imprevisto com o vestido de Carolina Patrocínio num evento da SIC, pouco antes do início da emissão.",
+   "img": "https://www.novagente.pt/wp-content/uploads/2026/09/4.jpg"
+  },
+  {
+   "id": "abola-sporting-futsal-ponte-de-sor-20261004",
+   "ts": "2026-10-04T15:44:00Z",
+   "source": "A Bola",
+   "lado": "pt",
+   "url": "https://www.abola.pt/noticias/sporting-deixa-pontos-em-ponte-de-sor-e-ha-novo-lider-2026100415283270063",
+   "title": "Sporting deixa pontos em Ponte de Sor e há novo líder",
+   "topic": "desporto",
+   "sub": "futsal",
+   "impacto": "medio",
+   "setores": [
+    "Liga Placard"
+   ],
+   "tickers": [],
+   "resumo": "O Sporting empatou em Ponte de Sor, com o Eléctrico a marcar o terceiro golo a dois segundos do fim, e perdeu a liderança para o Fundão, vencedor em Portimão.",
+   "img": "https://sportal365images.com/process/smp-images-production/abola.pt/04102026/f2cc2e9f-4f1e-45a6-b893-d58d53d14c3c.jpg?operations=crop(0:57:994:616),autocrop(1200:630)"
+  },
   {
    "id": "obs-djokovic-zverev-20261004",
    "ts": "2026-10-04T15:31:02Z",
@@ -316,6 +508,24 @@
    "tickers": [],
    "resumo": "O IPMA colocou os distritos de Beja e Setúbal sob aviso laranja devido à possibilidade de trovoada e precipitação forte.",
    "img": "https://cdn-images.rtp.pt/icm/noticias/images/4e/4ed3e7dc7a915a002dff13952742c477?w=350&q=50&rect=0,0,1499,822&auto=format"
+  },
+  {
+   "id": "obs-letonia-eleicoes-20261004",
+   "ts": "2026-10-04T13:45:04Z",
+   "source": "Observador",
+   "lado": "pt",
+   "url": "https://observador.pt/2026/10/04/coligacao-centrista-do-primeiro-ministro-vence-eleicoes-na-letonia/",
+   "title": "Coligação centrista do primeiro-ministro vence na Letónia",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "baixo",
+   "setores": [
+    "Eleições",
+    "Letónia"
+   ],
+   "tickers": [],
+   "resumo": "A Lista Unida, coligação centrista do primeiro-ministro Andris Kulbergs, venceu as eleições gerais de sábado na Letónia com 35,3% dos votos.",
+   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2000:1121:nowe:0:0/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/10/04141111/47880477.jpg"
   },
   {
    "id": "as-evans-campeao-wrc-20261004",
@@ -2029,6 +2239,23 @@
    "img": "https://img.iol.pt/image/id/59b6c3a60cf2a96cb1f4cf97/200.jpg"
   },
   {
+   "id": "rtp-d1769427",
+   "ts": "2026-10-03T20:26:14Z",
+   "source": "RTP Desporto",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/fc-porto/fc-porto-conquista-primeira-supertaca-feminina-de-voleibol-ao-vencer-sporting-de-braga_d1769427",
+   "title": "FC Porto conquista primeira Supertaça feminina de voleibol ao vencer Sporting de Braga",
+   "topic": "desporto",
+   "sub": "voleibol",
+   "impacto": "baixo",
+   "setores": [
+    "Supertaça"
+   ],
+   "tickers": [],
+   "resumo": "O FC Porto conquistou pela primeira vez a Supertaça feminina de voleibol, ao vencer o Sporting de Braga por 3-1 em Santo Tirso.",
+   "img": "https://cdn-images.rtp.pt/icm/noticias/images/33/33bbdea51e9182266a13aafcdbfb4990?w=350&q=50&rect=33,0,684,375&auto=format"
+  },
+  {
    "id": "cm-alcafozes-assaltos-20261003",
    "ts": "2026-10-03T20:15:01Z",
    "source": "CM",
@@ -2407,6 +2634,23 @@
    "img": ""
   },
   {
+   "id": "zerozero-1218709",
+   "ts": "2026-10-03T18:14:36Z",
+   "source": "zerozero",
+   "lado": "pt",
+   "url": "https://www.zerozero.pt/noticias/benfica-leva-a-melhor-no-derbi-e-entra-no-campeonato-a-vencer/1218709",
+   "title": "Benfica leva a melhor no dérbi e entra no campeonato a vencer",
+   "topic": "desporto",
+   "sub": "basquetebol",
+   "impacto": "medio",
+   "setores": [
+    "Liga Betclic"
+   ],
+   "tickers": [],
+   "resumo": "O Benfica venceu o Sporting por 84-71 na jornada inaugural da Liga Betclic de basquetebol, com uma reviravolta depois de os leões dominarem até ao fim do terceiro período.",
+   "img": "https://www.zerozero.pt/img/noticias/709/imgS620I1218709T20261003191022.jpg"
+  },
+  {
    "id": "rtp-d1769410",
    "ts": "2026-10-03T18:07:06Z",
    "source": "RTP Desporto",
@@ -2492,6 +2736,23 @@
    "tickers": [],
    "resumo": "Uma sondagem Pitagórica para a TVI/CNN Portugal indica que 42% dão razão a Jorge Jesus na polémica com Cristiano Ronaldo, contra 14% que apoiam o capitão. Os adeptos do Sporting são os que mais defendem a posição de Ronaldo.",
    "img": "https://img.iol.pt/image/id/6ac1160ed34e9a786e75abaf/200.jpg"
+  },
+  {
+   "id": "rtp-d1769407",
+   "ts": "2026-10-03T18:02:21Z",
+   "source": "RTP Desporto",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/motores/pedro-almeida-vence-no-algarve-e-aproxima-se-da-lideranca_d1769407",
+   "title": "Pedro Almeida vence no Algarve e aproxima-se da liderança",
+   "topic": "desporto",
+   "sub": "motores",
+   "impacto": "medio",
+   "setores": [
+    "Campeonato de Portugal de Ralis"
+   ],
+   "tickers": [],
+   "resumo": "Pedro Almeida venceu o Rali Casinos do Algarve e reduziu para seis pontos a distância para o líder do campeonato, Rúben Rodrigues, que abandonou.",
+   "img": "https://cdn-images.rtp.pt/icm/noticias/images/be/be7b7c436e57a316067ce4a41f44d247?w=350&q=50&rect=0,52,704,386&auto=format"
   },
   {
    "id": "rtp-d1769404",
@@ -4986,268 +5247,6 @@
    "tickers": [],
    "resumo": "O Ministério da Educação afastou de funções 62 professores com registo criminal inválido, sublinhando que a invalidez do certificado é incompatível com o exercício de funções com menores. O ministro pediu uma análise urgente e imediata de todas as situações.",
    "img": "https://img.iol.pt/image/id/5d8495e70b7015deb83a6a2e/200.jpg"
-  },
-  {
-   "id": "obs-dar-voz-ao-silencio",
-   "ts": "2026-09-30T22:55:45Z",
-   "source": "Observador",
-   "lado": "pt",
-   "url": "https://observador.pt/2026/09/30/nova-associacao-de-vitimas-de-abusos-sexuais-vai-pedir-a-igreja-abertura-para-auditoria/",
-   "title": "Nova associação de vítimas pede à CEP que aceite auditoria",
-   "topic": "outros",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Igreja",
-    "Abusos"
-   ],
-   "tickers": [],
-   "resumo": "A associação «Dar Voz ao Silêncio» entrega na quinta-feira um dossiê à Conferência Episcopal a pedir abertura da Igreja para uma auditoria aos abusos sexuais. A associação responsabiliza também o Estado pelos abusos cometidos.",
-   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:1538:863:nowe:0:65/q:70/plain/https://s3.observador.pt/wp-content/uploads/2025/11/28114554/igreja-matriz-de-santa-barbara-de-nexe.jpg"
-  },
-  {
-   "id": "caras-marrocos-primeira-ministra",
-   "ts": "2026-09-30T22:50:18Z",
-   "source": "Caras",
-   "lado": "pt",
-   "url": "https://caras.pt/mundo/2026-09-30-quem-e-fatima-ezzahra-el-mansouri-a-mulher-que-faz-historia-ao-assumir-o-governo-de-marrocos/",
-   "title": "Quem é Fatima Ezzahra El Mansouri, a mulher que faz história ao assumir o Governo de Marrocos",
-   "topic": "mundo",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Marrocos"
-   ],
-   "tickers": [],
-   "resumo": "O rei Mohammed VI escolheu Fatima Ezzahra El Mansouri, advogada, antiga ministra e presidente da Câmara de Marraquexe, para chefiar o Governo de Marrocos. É a primeira mulher a ocupar o cargo no país.",
-   "img": "https://caras.pt/wp-content/uploads/2026/09/260930_CARAS-PT-1920-x-1080-px-82-600x315.jpg"
-  },
-  {
-   "id": "obs-bomba-imprensa-ronaldo",
-   "ts": "2026-09-30T22:47:00Z",
-   "source": "Observador",
-   "lado": "pt",
-   "url": "https://observador.pt/2026/09/30/caso-ronaldo-cai-como-uma-bomba-em-portugal-a-reacao-da-imprensa-internacional-a-saida-de-ronaldo-da-selecao/",
-   "title": "\"Bomba em Portugal\": imprensa internacional sobre Ronaldo",
-   "topic": "desporto",
-   "sub": "selecao",
-   "impacto": "medio",
-   "setores": [
-    "Cristiano Ronaldo",
-    "Liga das Nações"
-   ],
-   "tickers": [],
-   "resumo": "Jornais de Espanha ao Reino Unido descrevem uma «enorme crise» em Portugal após a saída de Cristiano Ronaldo do estágio, apontam as palavras do selecionador que «incendiaram tudo» e falam de um fim «iminente» da carreira do capitão na Seleção.",
-   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:4096:2299:nowe:0:129/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/09/23160421/doc20260922478185961ra-21775-scaled.jpg"
-  },
-  {
-   "id": "caras-avenida-portugal-carminha",
-   "ts": "2026-09-30T22:42:04Z",
-   "source": "Caras",
-   "lado": "pt",
-   "url": "https://caras.pt/tv/2026-09-30-sic-oficializa-interprete-de-carminha-em-avenida-portugal-adaptacao-de-avenida-brasil/",
-   "title": "SIC oficializa intérprete de Carminha em 'Avenida Portugal', adaptação de 'Avenida Brasil'",
-   "topic": "rosa",
-   "sub": "famosos",
-   "impacto": "baixo",
-   "setores": [
-    "SIC"
-   ],
-   "tickers": [],
-   "resumo": "Margarida Vila-Nova foi confirmada para o papel de Carminha na versão portuguesa de Avenida Brasil, que a SIC prepara.",
-   "img": "https://caras.pt/wp-content/uploads/2026/09/260930_avenida-brasil-adriana-esteves.jpg-1600x900.jpeg"
-  },
-  {
-   "id": "obs-musk-ia-pentagono",
-   "ts": "2026-09-30T22:25:55Z",
-   "source": "Observador",
-   "lado": "pt",
-   "url": "https://observador.pt/2026/09/30/elon-musk-sera-co-lider-de-projeto-de-ia-do-pentagono-sobre-o-futuro-da-guerra/",
-   "title": "Musk vai co-liderar projeto de IA militar dos EUA",
-   "topic": "mundo",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "EUA",
-    "Inteligência artificial"
-   ],
-   "tickers": [],
-   "resumo": "Elon Musk vai co-liderar um projeto de inteligência artificial do Pentágono dedicado ao futuro da guerra. A nomeação assinala nova reaproximação após os desentendimentos com Trump e um maior envolvimento na indústria militar.",
-   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2000:1122:nowe:0:37/q:70/plain/https://s3.observador.pt/wp-content/uploads/2025/07/09153708/45275410.jpg"
-  },
-  {
-   "id": "eco-bastonario-processo-penal",
-   "ts": "2026-09-30T22:23:53Z",
-   "source": "ECO",
-   "lado": "pt",
-   "url": "https://eco.sapo.pt/2026/09/30/bastonario-dos-advogados-quer-novas-regras-do-processo-penal-no-constitucional/",
-   "title": "Bastonário dos advogados quer novas regras do processo penal no Constitucional",
-   "topic": "justica",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Processo penal",
-    "Advogados"
-   ],
-   "tickers": [],
-   "resumo": "O bastonário da Ordem dos Advogados, João Massano, contesta as novas regras do processo penal que permitem sancionar manobras dilatórias e quer que sejam analisadas pelo Tribunal Constitucional. Defende que o combate à morosidade não pode ser feito à custa dos direitos dos arguidos.",
-   "img": "https://eco.imgix.net/uploads/2025/05/cropped-eco-tomada-de-posse-do-novo-bastonario-dos-advogados-2000px-027-2.jpg"
-  },
-  {
-   "id": "ojogo-18132293",
-   "ts": "2026-09-30T22:20:00Z",
-   "source": "O Jogo",
-   "lado": "pt",
-   "url": "https://www.ojogo.pt/internacional/artigo/ronaldo-ja-nao-esta-em-copenhaga-aviao-privado-partiu-rumo-a-madrid/18132293",
-   "title": "Ronaldo já não está em Copenhaga: avião privado partiu rumo a Madrid",
-   "topic": "desporto",
-   "sub": "selecao",
-   "impacto": "alto",
-   "setores": [
-    "Seleção",
-    "Liga das Nações"
-   ],
-   "tickers": [],
-   "resumo": "Cristiano Ronaldo abandonou o estágio da Seleção Nacional e, segundo O Jogo, tomou a decisão de não voltar a jogar por Portugal.",
-   "img": "https://staticx.noticiasilimitadas.pt/oj/e0b27474-346e-4f3b-a4e7-26d496f107b1_1200x675.jpg"
-  },
-  {
-   "id": "obs-jorge-palma-parlamento",
-   "ts": "2026-09-30T22:07:52Z",
-   "source": "Observador",
-   "lado": "pt",
-   "url": "https://observador.pt/2026/09/30/jorge-palma-parlamento-unanime-no-pesar-e-no-elogio-ao-legado-que-inspirara-geracoes/",
-   "title": "Parlamento homenageia Jorge Palma por unanimidade",
-   "topic": "cultura",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Música",
-    "Jorge Palma"
-   ],
-   "tickers": [],
-   "resumo": "A Assembleia da República aprovou por unanimidade o voto de pesar por Jorge Palma, com familiares e amigos nas galerias, uma salva de palmas e um minuto de silêncio. O voto elogia o legado do músico, que inspirou várias gerações.",
-   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2000:1122:nowe:0:18/q:70/plain/https://s3.observador.pt/wp-content/uploads/2024/05/28112328/41191920.jpg"
-  },
-  {
-   "id": "ng-sergio-duarte-terceira-filha",
-   "ts": "2026-09-30T22:00:57Z",
-   "source": "Nova Gente",
-   "lado": "pt",
-   "url": "https://www.novagente.pt/ja-nasceu-a-terceira-filha-de-sergio-duarte-do-big-brother-e-a-madrinha-e-bem-conhecida/",
-   "title": "Já nasceu a terceira filha de Sérgio Duarte do 'Big Brother' (e a madrinha é bem conhecida)",
-   "topic": "rosa",
-   "sub": "famosos",
-   "impacto": "baixo",
-   "setores": [
-    "Big Brother"
-   ],
-   "tickers": [],
-   "resumo": "Sérgio Duarte, militar da GNR conhecido do Big Brother 2024, e a mulher, Vanda, tiveram a terceira filha, Benedita, a 29 de setembro. A madrinha será Catarina Miranda, segundo a revista.",
-   "img": ""
-  },
-  {
-   "id": "rtp-n1768758",
-   "ts": "2026-09-30T21:28:24Z",
-   "source": "RTP",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/politica/parlamento-vai-discutir-regras-mais-flexiveis-para-contratar-professores-no-privado_n1768758",
-   "title": "Parlamento vai discutir regras mais flexíveis para contratar professores no privado",
-   "topic": "politica",
-   "sub": "",
-   "impacto": "baixo",
-   "setores": [
-    "Educação",
-    "Ensino privado"
-   ],
-   "tickers": [],
-   "resumo": "O Parlamento vai discutir na especialidade duas iniciativas de CDS-PP e IL para flexibilizar a contratação de professores pelos colégios privados, que mereceram críticas das restantes bancadas.",
-   "img": ""
-  },
-  {
-   "id": "obs-benfica-bayern-fem",
-   "ts": "2026-09-30T21:26:03Z",
-   "source": "Observador",
-   "lado": "pt",
-   "url": "https://observador.pt/2026/09/30/benfica-perde-com-o-bayern-munique-3-0-e-sofre-primeira-derrota-da-temporada-na-liga-dos-campeoes-feminina/",
-   "title": "Benfica perde com Bayern nos últimos 16 minutos",
-   "topic": "desporto",
-   "sub": "benfica",
-   "impacto": "medio",
-   "setores": [
-    "Liga dos Campeões feminina"
-   ],
-   "tickers": [],
-   "resumo": "O Benfica perdeu por 3-0 com o Bayern Munique, com golos de Bühl, Harder e Kett na parte final, e sofreu a primeira derrota da época na Liga dos Campeões feminina. Fica em 8.º, com três pontos.",
-   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2000:1122:nowe:0:96/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/09/30215936/47864609.jpg"
-  },
-  {
-   "id": "cnn-6abd7e3a0cf299bc2953e0fd",
-   "ts": "2026-09-30T21:25:00Z",
-   "source": "CNN Portugal",
-   "lado": "pt",
-   "url": "https://cnnportugal.iol.pt/videos/cristiano-ronaldo-ja-esta-no-aeroporto-de-copenhaga-para-partir-rumo-a-madrid/6abd7e3a0cf299bc2953e0fd",
-   "title": "Cristiano Ronaldo já está no aeroporto de Copenhaga para partir rumo a Madrid",
-   "topic": "desporto",
-   "sub": "selecao",
-   "impacto": "alto",
-   "setores": [
-    "Liga das Nações"
-   ],
-   "tickers": [],
-   "resumo": "Cristiano Ronaldo chegou por volta das 22h20 ao aeroporto de Copenhaga, onde o jato privado esperava para partir rumo a Madrid, depois de abandonar o estágio da Seleção.",
-   "img": "https://img.iol.pt/image/id/6abd7efdd34e9a786e75a634/200.jpg"
-  },
-  {
-   "id": "abola-tiago-pereira-sporting",
-   "ts": "2026-09-30T21:23:10Z",
-   "source": "A Bola",
-   "lado": "pt",
-   "url": "https://www.abola.pt/noticias/tiago-pereira-deixa-o-sporting-2026093021182908675",
-   "title": "Tiago Pereira deixa o Sporting",
-   "topic": "desporto",
-   "sub": "atletismo",
-   "impacto": "baixo",
-   "setores": [
-    "Sporting"
-   ],
-   "tickers": [],
-   "resumo": "O saltador olímpico Tiago Pereira, medalhado num Mundial de pista curta, anunciou que deixa o Sporting. O atleta dá a entender que a decisão não foi sua e diz estar triste, mas agradecido.",
-   "img": "https://sportal365images.com/process/smp-images-production/abola.pt/15112024/bae72053-b95f-45a5-8be8-fe7b7defc750.jpg?operations=autocrop(1200:630)"
-  },
-  {
-   "id": "ng-bb-all-stars-erica-expulsa",
-   "ts": "2026-09-30T21:18:29Z",
-   "source": "Nova Gente",
-   "lado": "pt",
-   "url": "https://www.novagente.pt/big-brother-all-stars-erica-acaba-de-ser-expulsa/",
-   "title": "Big Brother All Stars: Érica acaba de ser expulsa",
-   "topic": "rosa",
-   "sub": "reality",
-   "impacto": "medio",
-   "setores": [
-    "Big Brother"
-   ],
-   "tickers": [],
-   "resumo": "Érica foi expulsa do Big Brother All Stars depois de um momento de descontrolo sancionado pelo Big.",
-   "img": ""
-  },
-  {
-   "id": "abola-porto-abc-andebol",
-   "ts": "2026-09-30T21:17:28Z",
-   "source": "A Bola",
-   "lado": "pt",
-   "url": "https://www.abola.pt/noticias/fc-porto-vence-abc-e-iguala-sporting-no-topo-do-campeonato-2026093021172884488",
-   "title": "FC Porto vence ABC e iguala Sporting no topo do campeonato",
-   "topic": "desporto",
-   "sub": "andebol",
-   "impacto": "baixo",
-   "setores": [
-    "Campeonato de andebol"
-   ],
-   "tickers": [],
-   "resumo": "O FC Porto recebeu e bateu o ABC por 39-24, em jogo em atraso da 2.ª jornada, e igualou o Sporting no topo do campeonato de andebol.",
-   "img": "https://sportal365images.com/process/smp-images-production/abola.pt/30092026/267f03cc-f659-4b7d-928e-465aa64adbb2.jpg?operations=crop(0:193:3194:1990),autocrop(1200:630)"
   }
  ],
  "contracts": {},
@@ -5280,5 +5279,5 @@
    "nota": "A Frente Cívica diz que o fim do programa de segurança viola a lei; o programa foi encerrado por alegada falta de compromisso da testemunha e a ministra analisa."
   }
  ],
- "arquivo": 481
+ "arquivo": 496
 }
