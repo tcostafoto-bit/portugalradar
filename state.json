@@ -1,7 +1,103 @@
 {
- "version": "1.1.55",
- "updated": "2026-10-04T09:45:31Z",
+ "version": "1.1.56",
+ "updated": "2026-10-04T11:45:30Z",
  "recent": [
+  {
+   "id": "lusa-47882179",
+   "ts": "2026-10-04T11:17:00Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "Lusa",
+   "title": "Rússia alerta EUA que bloquear satélite Rassvet provocaria guerra espacial"
+  },
+  {
+   "id": "cnn-6ac233360cf22b9f8904dc95",
+   "ts": "2026-10-04T11:06:00Z",
+   "topic": "desporto",
+   "sub": "selecao",
+   "source": "CNN Portugal",
+   "title": "Cristiano Ronaldo abandona Madrid e regressa à Arábia Saudita"
+  },
+  {
+   "id": "novagente-bb-helena-diogo",
+   "ts": "2026-10-04T11:00:00Z",
+   "topic": "rosa",
+   "sub": "reality",
+   "source": "Nova Gente",
+   "title": "Helena Isabel e Diogo Cunha cada vez mais próximos no Big Brother All Stars"
+  },
+  {
+   "id": "rtp-n1769479",
+   "ts": "2026-10-04T10:55:45Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "RTP",
+   "title": "Israel confirma que tentou matar líder político do Hamas em Gaza"
+  },
+  {
+   "id": "cnn-6ac2308fd34e9a786e75ace5",
+   "ts": "2026-10-04T10:55:00Z",
+   "topic": "outros",
+   "sub": "",
+   "source": "CNN Portugal",
+   "title": "Colisão entre carro e bicicleta faz um morto em Leiria"
+  },
+  {
+   "id": "as-wrc-sardenha-powerstage",
+   "ts": "2026-10-04T10:42:01Z",
+   "topic": "desporto",
+   "sub": "motores",
+   "source": "AutoSport",
+   "title": "WRC Sardenha: a PowerStage decide o campeonato entre Evans e Solberg"
+  },
+  {
+   "id": "lusa-47882136",
+   "ts": "2026-10-04T10:35:00Z",
+   "topic": "desporto",
+   "sub": "motores",
+   "source": "Lusa",
+   "title": "Max Verstappen vence GP do Bahrain de Fórmula 1"
+  },
+  {
+   "id": "abola-sudakov-dispensado-20261004",
+   "ts": "2026-10-04T10:33:03Z",
+   "topic": "desporto",
+   "sub": "benfica",
+   "source": "A Bola",
+   "title": "Benfica em alerta: Sudakov dispensado da Ucrânia e já a caminho de Lisboa"
+  },
+  {
+   "id": "cm-contas-falsas-fafe-20261004",
+   "ts": "2026-10-04T10:08:21Z",
+   "topic": "justica",
+   "sub": "",
+   "source": "CM",
+   "title": "Grupo abria contas em bancos de Fafe e Cabeceiras de Basto com documentos falsos"
+  },
+  {
+   "id": "obs-jornais-online-20261004",
+   "ts": "2026-10-04T09:57:09Z",
+   "topic": "justica",
+   "sub": "",
+   "source": "Observador",
+   "title": "Dois homens vão ser julgados por partilharem jornais online"
+  },
+  {
+   "id": "rtp-d1769471",
+   "ts": "2026-10-04T09:37:52Z",
+   "topic": "desporto",
+   "sub": "selecao",
+   "source": "RTP",
+   "title": "Jorge Jesus e Bruno Fernandes apelam à união"
+  },
+  {
+   "id": "cnn-6ac217aa0cf299bc2953e69e",
+   "ts": "2026-10-04T09:30:00Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "CNN Portugal",
+   "title": "Eleitores brasileiros dizem não conseguir votar em Lisboa"
+  },
   {
    "id": "zerozero-1218890",
    "ts": "2026-10-04T09:25:30Z",
@@ -51,6 +147,14 @@
    "title": "Aumento nos combustíveis angustia instituições sociais e ameaça continuidade de apoios"
   },
   {
+   "id": "novagente-pedro-teixeira-matilde-reymao",
+   "ts": "2026-10-04T09:00:00Z",
+   "topic": "rosa",
+   "sub": "famosos",
+   "source": "Nova Gente",
+   "title": "Pedro Teixeira partilha foto de Matilde Reymão e alimenta rumores de namoro"
+  },
+  {
    "id": "nit-aldi-ventoinha-20261004",
    "ts": "2026-10-04T08:56:15Z",
    "topic": "outros",
@@ -91,6 +195,14 @@
    "title": "Incêndio no Peru que ameaça acesso a Machu Picchu provocou um morto"
   },
   {
+   "id": "rtp-v1769468",
+   "ts": "2026-10-04T08:27:47Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "RTP",
+   "title": "Ponte em Kiev atingida por drones russos em dia de visita de chanceler alemão"
+  },
+  {
    "id": "cm-email-nuno-rebelo-20261004",
    "ts": "2026-10-04T08:21:29Z",
    "topic": "justica",
@@ -105,6 +217,14 @@
    "sub": "",
    "source": "Lusa",
    "title": "Chanceler alemão em visita surpresa à Ucrânia"
+  },
+  {
+   "id": "ojogo-pepe-renovar-18133414",
+   "ts": "2026-10-04T07:25:00Z",
+   "topic": "desporto",
+   "sub": "porto",
+   "source": "O Jogo",
+   "title": "Pepê: renovar pelo FC Porto seria excelente"
   },
   {
    "id": "as-solberg-sardenha-dia3",
@@ -841,134 +961,12 @@
    "sub": "sporting",
    "source": "A Bola",
    "title": "Sporting: só num cenário excecional Varandas receberá 890 mil euros em 2026/27"
-  },
-  {
-   "id": "abola-jesus-ronaldo-simbolo",
-   "ts": "2026-10-03T16:07:41Z",
-   "topic": "desporto",
-   "sub": "selecao",
-   "source": "A Bola",
-   "title": "Jorge Jesus: «Ronaldo é um símbolo da Seleção, que isso fique bem claro»"
-  },
-  {
-   "id": "obs-tauromaquia-animal",
-   "ts": "2026-10-03T16:06:28Z",
-   "topic": "cultura",
-   "sub": "",
-   "source": "Observador",
-   "title": "Associação contesta inscrição da tauromaquia como património"
-  },
-  {
-   "id": "caras-meghan-harry-falkland-arms",
-   "ts": "2026-10-03T16:06:22Z",
-   "topic": "rosa",
-   "sub": "realeza",
-   "source": "Caras",
-   "title": "Meghan Markle e o príncipe Harry vistos a almoçar em local histórico; saiba onde"
-  },
-  {
-   "id": "lusa-47879409",
-   "ts": "2026-10-03T16:06:00Z",
-   "topic": "justica",
-   "sub": "",
-   "source": "Lusa",
-   "title": "Ministra da Justiça está a analisar pedidos sobre retirada de proteção especial a Rui Pinto"
-  },
-  {
-   "id": "abola-sudakov-lesao",
-   "ts": "2026-10-03T15:55:02Z",
-   "topic": "desporto",
-   "sub": "benfica",
-   "source": "A Bola",
-   "title": "«Sudakov acha que pode ser uma lesão grave»: Benfica em alerta"
-  },
-  {
-   "id": "record-catia-azevedo-sporting",
-   "ts": "2026-10-03T15:49:14Z",
-   "topic": "desporto",
-   "sub": "atletismo",
-   "source": "Record",
-   "title": "Cátia Azevedo e a saída do Sporting: «O meu marido é atleta do clube e pai mas não foi penalizado. Porquê eu?»"
-  },
-  {
-   "id": "rtp-d1769360",
-   "ts": "2026-10-03T15:24:37Z",
-   "topic": "desporto",
-   "sub": "selecao",
-   "source": "RTP",
-   "title": "Solbakken coloca Portugal entre os melhores da Europa e promete Noruega ambiciosa"
-  },
-  {
-   "id": "obs-democratas-senado-20261003",
-   "ts": "2026-10-03T15:21:47Z",
-   "topic": "mundo",
-   "sub": "",
-   "source": "Observador",
-   "title": "Democratas ganham força e podem controlar o Senado"
-  },
-  {
-   "id": "as-cpr-algarve-pedro-almeida",
-   "ts": "2026-10-03T15:17:45Z",
-   "topic": "desporto",
-   "sub": "motores",
-   "source": "AutoSport",
-   "title": "CPR, Rali do Algarve: Pedro Almeida vence e aproveita deslize de Rúben Rodrigues"
-  },
-  {
-   "id": "rtp-d1769359",
-   "ts": "2026-10-03T15:13:48Z",
-   "topic": "desporto",
-   "sub": "outros",
-   "source": "RTP Desporto",
-   "title": "Judo/Mundiais. Patrícia Sampaio com `estatuto` em sorteio difícil para alguns lusos"
-  },
-  {
-   "id": "rtp-d1769356",
-   "ts": "2026-10-03T15:04:16Z",
-   "topic": "desporto",
-   "sub": "triatlo",
-   "source": "RTP Desporto",
-   "title": "Triatleta Maria Tomé 11.ª classificada na etapa da Taça do Mundo de Roma"
-  },
-  {
-   "id": "cnn-6ac11975d34e53c759c74e3e",
-   "ts": "2026-10-03T15:03:44Z",
-   "topic": "mundo",
-   "sub": "",
-   "source": "CNN Portugal",
-   "title": "Avião com seis pessoas a bordo desaparece no Atlântico durante voo para Boston"
-  },
-  {
-   "id": "caras-tio-ronaldo-estagio",
-   "ts": "2026-10-03T14:56:04Z",
-   "topic": "rosa",
-   "sub": "famosos",
-   "source": "Caras",
-   "title": "Familiar de Cristiano Ronaldo quebra o silêncio sobre saída do estágio: 'Não havia necessidade…'"
-  },
-  {
-   "id": "rtp-n1769367",
-   "ts": "2026-10-03T14:38:57Z",
-   "topic": "mundo",
-   "sub": "",
-   "source": "RTP",
-   "title": "Chamas e fumo numa instalação da petrolífera saudita Aramco perto de Riade"
-  },
-  {
-   "id": "rtp-d1769352",
-   "ts": "2026-10-03T14:37:28Z",
-   "topic": "desporto",
-   "sub": "motores",
-   "source": "RTP Desporto",
-   "title": "Marc Márquez vence sprint no Japão e aproxima-se de Jorge Martín"
   }
  ],
  "paired": [
   "abola-bruno-fernandes-sem-divisoes",
   "abola-pichardo-benfica-tribunal",
   "caras-tio-ronaldo-estagio",
-  "cnn-6abd570fd34e53c759c74883",
-  "lusa-47864031",
   "lusa-47879409",
   "obs-frente-civica-rui-pinto",
   "ojogo-vb-relvado-maritimo-18133327",

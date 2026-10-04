@@ -1,25 +1,232 @@
 {
- "version": "1.1.55",
- "updated": "2026-10-04T09:45:31Z",
+ "version": "1.1.56",
+ "updated": "2026-10-04T11:45:30Z",
  "brief": [
   {
-   "texto": "Mais de 158 milhões de brasileiros votam hoje nas eleições gerais, com 134 mil eleitores recenseados em Portugal.",
+   "texto": "Cristiano Ronaldo regressou à Arábia Saudita no dia do jogo de Portugal com a Noruega, no Dragão.",
+   "id": "cnn-6ac233360cf22b9f8904dc95"
+  },
+  {
+   "texto": "Mais de 158 milhões de brasileiros votam hoje nas eleições gerais, 134 mil deles em Portugal.",
    "id": "lusa-47880509"
   },
   {
-   "texto": "Portugal recebe a Noruega às 19h45, no Dragão, e pode garantir os quartos da Liga das Nações em pleno caso Ronaldo.",
-   "id": "lusa-47880503"
+   "texto": "Israel confirma que tentou matar o líder político interino do Hamas em Gaza.",
+   "id": "rtp-n1769479"
   },
   {
-   "texto": "A subida dos combustíveis ameaça serviços de instituições sociais e a operação dos helicópteros do INEM.",
+   "texto": "Subida dos combustíveis ameaça serviços de instituições sociais como a Comunidade Vida e Paz.",
    "id": "cnn-6ac21837d34e9a786e75acc7"
-  },
-  {
-   "texto": "Chuvas torrenciais fazem dois mortos na Catalunha e há uma pessoa desaparecida.",
-   "id": "obs-chuvas-catalunha-mortos-20261004"
   }
  ],
  "items": [
+  {
+   "id": "lusa-47882179",
+   "ts": "2026-10-04T11:17:00Z",
+   "source": "Lusa",
+   "lado": "pt",
+   "url": "https://www.lusa.pt/international/article/2026-10-04/47882179/rússia-alerta-eua-que-bloquear-satélite-rassvet-provocaria-guerra-espacial",
+   "title": "Rússia alerta EUA que bloquear satélite Rassvet provocaria guerra espacial",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Rússia",
+    "EUA"
+   ],
+   "tickers": [],
+   "resumo": "O subchefe do Conselho de Segurança da Rússia avisou os Estados Unidos das consequências de eventuais planos para bloquear o satélite Rassvet.",
+   "img": "https://www.lusa.pt/temp/images/430x338/cache_430x338_Crop_high_47786444_485529420923547.jpg"
+  },
+  {
+   "id": "cnn-6ac233360cf22b9f8904dc95",
+   "ts": "2026-10-04T11:06:00Z",
+   "source": "CNN Portugal",
+   "lado": "pt",
+   "url": "https://cnnportugal.iol.pt/videos/cristiano-ronaldo-abandona-madrid-e-regressa-a-arabia-saudita/6ac233360cf22b9f8904dc95",
+   "title": "Cristiano Ronaldo abandona Madrid e regressa à Arábia Saudita",
+   "topic": "desporto",
+   "sub": "selecao",
+   "impacto": "alto",
+   "setores": [
+    "Caso Ronaldo",
+    "Liga das Nações"
+   ],
+   "tickers": [],
+   "resumo": "Cristiano Ronaldo partiu do aeroporto de Madrid, onde chegou na quarta-feira, rumo a Riade no seu jato privado, no dia do jogo de Portugal com a Noruega.",
+   "img": "https://img.iol.pt/image/id/6ac237d1d34e9a786e75acec/200.jpg"
+  },
+  {
+   "id": "novagente-bb-helena-diogo",
+   "ts": "2026-10-04T11:00:00Z",
+   "source": "Nova Gente",
+   "lado": "pt",
+   "url": "https://www.novagente.pt/helena-isabel-e-diogo-cunha-protagonizam-momento-na-cama-do-big-brother-fazemos-um-bom-par/",
+   "title": "Helena Isabel e Diogo Cunha cada vez mais próximos no Big Brother All Stars",
+   "topic": "rosa",
+   "sub": "reality",
+   "impacto": "baixo",
+   "setores": [
+    "Big Brother All Stars"
+   ],
+   "tickers": [],
+   "resumo": "Helena Isabel e Diogo Cunha foram vistos juntos na cama a ouvir música clássica, e Helena disse que fazem um bom par.",
+   "img": "https://www.novagente.pt/wp-content/uploads/2026/09/Destaque-856-x-535-2-2.jpg"
+  },
+  {
+   "id": "rtp-n1769479",
+   "ts": "2026-10-04T10:55:45Z",
+   "source": "RTP",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/mundo/israel-confirma-que-tentou-matar-lider-politico-do-hamas-em-gaza_n1769479",
+   "title": "Israel confirma que tentou matar líder político do Hamas em Gaza",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "alto",
+   "setores": [
+    "Gaza",
+    "Hamas"
+   ],
+   "tickers": [],
+   "resumo": "O exército israelita confirmou que tentou matar o líder político interino do Hamas em Gaza, Ali Ahmed al-Amudi, num ataque que fez cinco mortos.",
+   "img": "https://cdn-images.rtp.pt/icm/noticias/images/54/54fc5430fec1caa02b0a2616a720f320?w=350&q=50&rect=0,70,1500,822&auto=format"
+  },
+  {
+   "id": "cnn-6ac2308fd34e9a786e75ace5",
+   "ts": "2026-10-04T10:55:00Z",
+   "source": "CNN Portugal",
+   "lado": "pt",
+   "url": "https://cnnportugal.iol.pt/acidente/ciclista/colisao-entre-carro-e-bicicleta-faz-um-morto-em-leiria/20261004/6ac2308fd34e9a786e75ace5",
+   "title": "Colisão entre carro e bicicleta faz um morto em Leiria",
+   "topic": "outros",
+   "sub": "",
+   "impacto": "baixo",
+   "setores": [
+    "Acidentes"
+   ],
+   "tickers": [],
+   "resumo": "Um homem de 40 anos morreu numa colisão entre um carro e uma bicicleta em Leiria.",
+   "img": "https://img.iol.pt/image/id/5e2203f70cf207193068d7a4/200.jpg"
+  },
+  {
+   "id": "as-wrc-sardenha-powerstage",
+   "ts": "2026-10-04T10:42:01Z",
+   "source": "AutoSport",
+   "lado": "pt",
+   "url": "https://www.autosport.pt/ralis/wrc-rali-da-sardenha-pec16-uma-powerstage-que-vale-um-campeonato/",
+   "title": "WRC Sardenha: a PowerStage decide o campeonato entre Evans e Solberg",
+   "topic": "desporto",
+   "sub": "motores",
+   "impacto": "medio",
+   "setores": [
+    "WRC"
+   ],
+   "tickers": [],
+   "resumo": "Elfyn Evans furou mas manteve o quinto lugar. O título decide-se na PowerStage final entre Evans, com um ponto de vantagem, e Oliver Solberg.",
+   "img": "https://images.autosport.pt/2026/10/mp3sHv1UhfAW2PBBAX88.webp"
+  },
+  {
+   "id": "lusa-47882136",
+   "ts": "2026-10-04T10:35:00Z",
+   "source": "Lusa",
+   "lado": "pt",
+   "url": "https://www.lusa.pt/article/47882136/max-verstappen-vence-gp-do-bahrain-de-fórmula-1",
+   "title": "Max Verstappen vence GP do Bahrain de Fórmula 1",
+   "topic": "desporto",
+   "sub": "motores",
+   "impacto": "medio",
+   "setores": [
+    "Fórmula 1"
+   ],
+   "tickers": [],
+   "resumo": "Max Verstappen (Red Bull) venceu o Grande Prémio do Bahrain de Fórmula 1, a primeira vitória do piloto neerlandês esta temporada, numa corrida disputada em Sepang e condicionada pela chuva.",
+   "img": "https://www.lusa.pt/temp/images/400x248/cache_400x248_Crop_high_47882018_19390815898650.jpg"
+  },
+  {
+   "id": "abola-sudakov-dispensado-20261004",
+   "ts": "2026-10-04T10:33:03Z",
+   "source": "A Bola",
+   "lado": "pt",
+   "url": "https://www.abola.pt/noticias/benfica-em-alerta-sudakov-dispensado-da-ucrania-e-ja-a-caminho-de-lisboa-2026100410330302198",
+   "title": "Benfica em alerta: Sudakov dispensado da Ucrânia e já a caminho de Lisboa",
+   "topic": "desporto",
+   "sub": "benfica",
+   "impacto": "medio",
+   "setores": [
+    "Lesões"
+   ],
+   "tickers": [],
+   "resumo": "O médio do Benfica sofreu uma lesão no joelho esquerdo ao serviço da Ucrânia e foi dispensado pela seleção para fazer exames em Lisboa.",
+   "img": "https://sportal365images.com/process/smp-images-production/abola.pt/03102026/e7abc36c-7026-42cb-b7f5-e3107b306f8b.jpg?operations=crop(373:823:5285:3586),autocrop(1200:630)"
+  },
+  {
+   "id": "cm-contas-falsas-fafe-20261004",
+   "ts": "2026-10-04T10:08:21Z",
+   "source": "CM",
+   "lado": "pt",
+   "url": "https://m.facebook.com/cmjornal/posts/pfbid02kEeyg63ZKqQLf9D8Xz4GLfEc1Nr2pzgnxahDBDQdEhHUDi5WayLZeornq2bJRTkbl",
+   "title": "Grupo abria contas em bancos de Fafe e Cabeceiras de Basto com documentos falsos",
+   "topic": "justica",
+   "sub": "",
+   "impacto": "baixo",
+   "setores": [
+    "Burla"
+   ],
+   "tickers": [],
+   "resumo": "Um grupo abria contas bancárias em Fafe e Cabeceiras de Basto com documentos falsos, segundo o Correio da Manhã.",
+   "img": ""
+  },
+  {
+   "id": "obs-jornais-online-20261004",
+   "ts": "2026-10-04T09:57:09Z",
+   "source": "Observador",
+   "lado": "pt",
+   "url": "https://observador.pt/2026/10/04/dois-homens-vao-ser-julgados-por-partilharem-jornais-online-grupo-impresa-pede-mais-de-600-mil-euros/",
+   "title": "Dois homens vão ser julgados por partilharem jornais online",
+   "topic": "justica",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Direitos de autor"
+   ],
+   "tickers": [],
+   "resumo": "Dois homens, um deles oficial da Força Aérea, vão ser julgados no primeiro julgamento em Portugal por partilha ilegal de jornais online em grupos com milhares de membros. O grupo Impresa pede mais de 600 mil euros.",
+   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2000:1124:nowe:0:105/q:70/plain/https://s3.observador.pt/wp-content/uploads/2017/11/21211806/15923012.jpg"
+  },
+  {
+   "id": "rtp-d1769471",
+   "ts": "2026-10-04T09:37:52Z",
+   "source": "RTP",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/ligadasnacoes/jorge-jesus-e-bruno-fernandes-apelam-a-uniao_d1769471",
+   "title": "Jorge Jesus e Bruno Fernandes apelam à união",
+   "topic": "desporto",
+   "sub": "selecao",
+   "impacto": "alto",
+   "setores": [
+    "Liga das Nações"
+   ],
+   "tickers": [],
+   "resumo": "Em entrevista à RTP Antena 1, Jorge Jesus diz que não quer ser um fator de desestabilização, depois dos assobios na chegada ao Porto. Bruno Fernandes também apela à união.",
+   "img": "https://cdn-images.rtp.pt/icm/noticias/images/71/715c736f9974f75ba9b35fae0666aab4?w=350&q=50&rect=0,178,1500,822&auto=format"
+  },
+  {
+   "id": "cnn-6ac217aa0cf299bc2953e69e",
+   "ts": "2026-10-04T09:30:00Z",
+   "source": "CNN Portugal",
+   "lado": "pt",
+   "url": "https://cnnportugal.iol.pt/videos/eleitores-brasileiros-dizem-nao-conseguir-votar-em-lisboa-e-uma-vergonha/6ac217aa0cf299bc2953e69e",
+   "title": "Eleitores brasileiros dizem não conseguir votar em Lisboa",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Eleições no Brasil"
+   ],
+   "tickers": [],
+   "resumo": "Eleitores relatam mudanças nas secções de voto em Lisboa e dizem não ter conseguido resolver o problema no local. A Associação Brasileira de Portugal acompanha alguns dos casos.",
+   "img": "https://img.iol.pt/image/id/6ac21e9ed34e53c759c74f47/200.jpg"
+  },
   {
    "id": "zerozero-1218890",
    "ts": "2026-10-04T09:25:30Z",
@@ -127,6 +334,23 @@
    "img": "https://img.iol.pt/image/id/693c1dc3d34e3caad84c4f07/200.jpg"
   },
   {
+   "id": "novagente-pedro-teixeira-matilde-reymao",
+   "ts": "2026-10-04T09:00:00Z",
+   "source": "Nova Gente",
+   "lado": "pt",
+   "url": "https://www.novagente.pt/namoro-confirmado-pedro-teixeira-partilha-foto-de-matilde-reymao-com-detalhe-que-parece-dizer-tudo/",
+   "title": "Pedro Teixeira partilha foto de Matilde Reymão e alimenta rumores de namoro",
+   "topic": "rosa",
+   "sub": "famosos",
+   "impacto": "baixo",
+   "setores": [
+    "TVI"
+   ],
+   "tickers": [],
+   "resumo": "Pedro Teixeira publicou no Instagram uma foto de Matilde Reymão com um cão e um coração na legenda, o que sugere que a relação é pública.",
+   "img": "https://www.novagente.pt/wp-content/uploads/2026/09/nv-miniatura-655148.jpg"
+  },
+  {
    "id": "nit-aldi-ventoinha-20261004",
    "ts": "2026-10-04T08:56:15Z",
    "source": "NiT",
@@ -215,6 +439,23 @@
    "img": "https://img.iol.pt/image/id/14155808/200.jpg"
   },
   {
+   "id": "rtp-v1769468",
+   "ts": "2026-10-04T08:27:47Z",
+   "source": "RTP",
+   "lado": "pt",
+   "url": "https://www.rtp.pt/noticias/mundo/ponte-em-kiev-atingida-por-drones-russos-em-dia-de-visita-de-chanceler-alemao_v1769468",
+   "title": "Ponte em Kiev atingida por drones russos em dia de visita de chanceler alemão",
+   "topic": "mundo",
+   "sub": "",
+   "impacto": "medio",
+   "setores": [
+    "Ucrânia"
+   ],
+   "tickers": [],
+   "resumo": "A ponte norte sobre o rio Dnipro, em Kiev, foi atingida por drones russos, segundo o autarca da capital ucraniana, no dia da visita do chanceler alemão.",
+   "img": "https://cdn-images.rtp.pt/icm/noticias/images/51/516bc3db7c13cbb3f86894061af8d255?w=350&q=50&rect=0,189,1500,822&auto=format"
+  },
+  {
    "id": "cm-email-nuno-rebelo-20261004",
    "ts": "2026-10-04T08:21:29Z",
    "source": "CM",
@@ -248,6 +489,23 @@
    "tickers": [],
    "resumo": "O chanceler da Alemanha deslocou-se sem aviso prévio à Ucrânia para demonstrar o apoio de Berlim a Kiev na guerra contra a Rússia.",
    "img": "https://www.lusa.pt/temp/images/205x135/cache_205x135_Crop_high_47868730_20208788354477.jpg"
+  },
+  {
+   "id": "ojogo-pepe-renovar-18133414",
+   "ts": "2026-10-04T07:25:00Z",
+   "source": "O Jogo",
+   "lado": "pt",
+   "url": "https://www.ojogo.pt/futebol/artigo/pepe-em-exclusivo-renovar-pelo-fc-porto-seria-excelente-amo-este-clube/18133414",
+   "title": "Pepê: renovar pelo FC Porto seria excelente",
+   "topic": "desporto",
+   "sub": "porto",
+   "impacto": "baixo",
+   "setores": [
+    "Renovações"
+   ],
+   "tickers": [],
+   "resumo": "O extremo Pepê disse ao O Jogo que no Dragão tem tudo o que precisa para a carreira e que renovar contrato com o FC Porto seria excelente.",
+   "img": "https://staticx.noticiasilimitadas.pt/oj/d7d000e6-1c31-4593-ab48-35d91da5ac10_1200x675.jpg"
   },
   {
    "id": "as-solberg-sardenha-dia3",
@@ -4989,271 +5247,6 @@
    "tickers": [],
    "resumo": "O líder do Chega acusa os socialistas de quererem estar mais próximos do PSD do que as oposições estiveram do anterior Governo, reagindo à intenção do PS de se abster no Orçamento.",
    "img": "https://img.iol.pt/image/id/6a860de0d34ed0733ba80bc3/200.jpg"
-  },
-  {
-   "id": "cnn-6abd5ac8d34e9a786e75a5e0",
-   "ts": "2026-09-30T19:05:00Z",
-   "source": "CNN Portugal",
-   "lado": "pt",
-   "url": "https://cnnportugal.iol.pt/depressao/sintomas-depressivos/sintomas-depressivos-afetam-40-dos-adolescentes-de-259-escolas-do-pais/20260930/6abd5ac8d34e9a786e75a5e0",
-   "title": "Sintomas depressivos afetam 40% dos adolescentes de 259 escolas do país",
-   "topic": "saude",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Saúde mental",
-    "Escolas"
-   ],
-   "tickers": [],
-   "resumo": "Quarenta por cento dos adolescentes de 259 escolas apresentaram sintomas depressivos, um quarto deles moderados a graves, segundo dados do programa no último ano letivo.",
-   "img": "https://img.iol.pt/image/id/620a2e3f0cf21a10a41f31ad/200.jpg"
-  },
-  {
-   "id": "zz-1217778",
-   "ts": "2026-09-30T19:02:53Z",
-   "source": "zerozero",
-   "lado": "pt",
-   "url": "https://www.zerozero.pt/noticias/avancada-do-fc-porto-sofre-rotura-do-ligamento-cruzado-e-e-submetida-a-operacao/1217778",
-   "title": "Avançada do FC Porto sofre rotura do ligamento cruzado e é submetida a operação",
-   "topic": "desporto",
-   "sub": "porto",
-   "impacto": "baixo",
-   "setores": [
-    "Futebol feminino"
-   ],
-   "tickers": [],
-   "resumo": "O FC Porto anunciou que a avançada brasileira Mylena Freitas sofreu rotura do ligamento cruzado anterior do joelho esquerdo e vai ser operada.",
-   "img": "https://www.zerozero.pt/img/noticias/778/imgS620I1217778T20260930200133.jpg"
-  },
-  {
-   "id": "lusa-47864031",
-   "ts": "2026-09-30T19:00:00Z",
-   "source": "Lusa",
-   "lado": "pt",
-   "url": "https://www.lusa.pt/article/47864031/oe-2027-montenegro-sublinha-sinal-importante-dado-pelo-ps",
-   "title": "OE 2027: Montenegro sublinha \"sinal importante\" dado pelo PS",
-   "topic": "politica",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Orçamento do Estado",
-    "PS"
-   ],
-   "tickers": [],
-   "resumo": "O primeiro-ministro destacou o sinal importante dado pelo PS quanto à eventual viabilização do Orçamento do Estado para 2027 e elogiou o sentido de responsabilidade dos socialistas.",
-   "img": "https://www.lusa.pt/temp/images/900x600/cache_900x600_Crop_high_47863930_3970038_30092026074050.JPG"
-  },
-  {
-   "id": "obs-tennessee-execucao-suspensa",
-   "ts": "2026-09-30T18:56:17Z",
-   "source": "Observador",
-   "lado": "pt",
-   "url": "https://observador.pt/2026/09/30/tribunal-dos-eua-suspende-execucao-de-mulher-horas-antes-da-sentenca/",
-   "title": "Tennessee. Pena de morte suspensa horas antes da execução",
-   "topic": "mundo",
-   "sub": "",
-   "impacto": "baixo",
-   "setores": [
-    "Estados Unidos",
-    "Pena de morte"
-   ],
-   "tickers": [],
-   "resumo": "Um tribunal do Tennessee suspendeu a execução por injeção letal de uma mulher condenada por um homicídio cometido em 1995. Seria a primeira execução de uma mulher em 200 anos no estado.",
-   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2000:1122:nowe:0:114/q:70/plain/https://s3.observador.pt/wp-content/uploads/2025/10/15030850/42216344.jpg"
-  },
-  {
-   "id": "nit-black-coffee-brejcha",
-   "ts": "2026-09-30T18:49:38Z",
-   "source": "NiT",
-   "lado": "pt",
-   "url": "https://www.nit.pt/cultura/musica/caos-apos-concerto-de-black-coffee-no-parque-papa-francisco-obriga-a-cancelar-o-de-boris-brejcha",
-   "title": "Caos após concerto de Black Coffee no Parque Papa Francisco obriga a cancelar o de Boris Brejcha",
-   "topic": "cultura",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Música",
-    "Loures"
-   ],
-   "tickers": [],
-   "resumo": "A Câmara de Loures cancelou o concerto de Boris Brejcha, marcado para 4 de outubro no Parque Papa Francisco, após problemas no concerto de Black Coffee a 27 de setembro.",
-   "img": "https://www.nit.pt/wp-content/uploads/2026/09/a0f0deddfc715b318894ec70f25c78da.png"
-  },
-  {
-   "id": "eco-idd-fincantieri-alfeite",
-   "ts": "2026-09-30T18:47:30Z",
-   "source": "ECO",
-   "lado": "pt",
-   "url": "https://eco.sapo.pt/2026/09/30/idd-portugal-defence-e-ficantieri-fazem-joint-venture-para-revitalizar-arsenal-do-alfeite/",
-   "title": "idD Portugal Defence e Fincantieri fazem joint venture para revitalizar Arsenal do Alfeite",
-   "topic": "economia",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Defesa",
-    "Arsenal do Alfeite"
-   ],
-   "tickers": [],
-   "resumo": "A idD Portugal Defence e a italiana Fincantieri vão criar uma joint venture para revitalizar o Arsenal do Alfeite. A transição demora cerca de um ano e, segundo a Defesa, sem perda de postos de trabalho.",
-   "img": "https://eco.imgix.net/uploads/2024/07/cropped-29603064-scaled-1.jpg"
-  },
-  {
-   "id": "rtp-d1768722",
-   "ts": "2026-09-30T18:45:46Z",
-   "source": "RTP",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/selecao-nacional/a-seu-tempo-direi-a-verdade-cristiano-ronaldo-confirma-saida-do-estagio-da-selecao_d1768722",
-   "title": "\"A seu tempo direi a verdade\". Cristiano Ronaldo confirma saída do estágio da seleção",
-   "topic": "desporto",
-   "sub": "selecao",
-   "impacto": "alto",
-   "setores": [
-    "Seleção Nacional",
-    "Liga das Nações"
-   ],
-   "tickers": [],
-   "resumo": "Cristiano Ronaldo confirmou nas redes sociais que deixou o estágio orientado por Jorge Jesus. \"A seu tempo direi a verdade a todos os portugueses\", escreveu o capitão no Instagram.",
-   "img": "https://cdn-images.rtp.pt/icm/noticias/images/f0/f04c22e01fc49c62239a1fa82ca6cf1d?w=350&q=50&rect=328,615,3995,2190&auto=format"
-  },
-  {
-   "id": "eco-cesa-acores-deficit",
-   "ts": "2026-09-30T18:34:50Z",
-   "source": "ECO",
-   "lado": "pt",
-   "url": "https://eco.sapo.pt/2026/09/30/conselho-economico-e-social-dos-acores-preocupado-com-evolucao-das-financas-da-regiao/",
-   "title": "Conselho Económico e Social dos Açores preocupado com evolução das finanças da região",
-   "topic": "economia",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Açores",
-    "Finanças públicas"
-   ],
-   "tickers": [],
-   "resumo": "O Conselho Económico e Social dos Açores alerta para um défice de 5% do PIB regional em 2025 (305,5 milhões de euros) e para as consequências do fim do PRR.",
-   "img": "https://eco.imgix.net/uploads/2026/09/cropped-doc2025090145574939nv1420250829.jpg"
-  },
-  {
-   "id": "ng-cristina-ferreira-primeira-dama",
-   "ts": "2026-09-30T18:30:00Z",
-   "source": "Nova Gente",
-   "lado": "pt",
-   "url": "https://www.novagente.pt/cristina-ferreira-reage-as-criticas-a-primeira-dama-e-deixa-aviso-primeiro-informa-se-depois-fala/",
-   "title": "Cristina Ferreira reage às críticas à primeira-dama: \"Primeiro informa-se, depois fala\"",
-   "topic": "rosa",
-   "sub": "famosos",
-   "impacto": "baixo",
-   "setores": [
-    "TVI"
-   ],
-   "tickers": [],
-   "resumo": "Cristina Ferreira defendeu a primeira-dama das críticas ao véu que usou numa audiência com o Papa, aconselhando a verificar os factos antes de comentar.",
-   "img": ""
-  },
-  {
-   "id": "obs-mi5-china-universidades",
-   "ts": "2026-09-30T18:23:42Z",
-   "source": "Observador",
-   "lado": "pt",
-   "url": "https://observador.pt/2026/09/30/mi5-acusa-china-de-usar-organizacao-para-espiar-investigacoes-em-universidades-britanicas/",
-   "title": "MI5: China usou organização para espiar universidades",
-   "topic": "mundo",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Reino Unido",
-    "China"
-   ],
-   "tickers": [],
-   "resumo": "Num alerta sem precedentes, o MI5 diz que uma organização chinesa financiou investigação em universidades britânicas para fins de espionagem, incluindo temas como IA e cibersegurança.",
-   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2000:1123:nowe:0:25/q:70/plain/https://s3.observador.pt/wp-content/uploads/2024/01/07030838/42076203.jpg"
-  },
-  {
-   "id": "rtp-d1768718",
-   "ts": "2026-09-30T18:21:28Z",
-   "source": "RTP",
-   "lado": "pt",
-   "url": "https://www.rtp.pt/noticias/futebol-internacional/central-internacional-ingles-chris-smalling-reforca-o-fc-porto-a-custo-zero_d1768718",
-   "title": "Central internacional inglês Chris Smalling reforça o FC Porto a custo zero",
-   "topic": "desporto",
-   "sub": "porto",
-   "impacto": "medio",
-   "setores": [
-    "Reforços"
-   ],
-   "tickers": [],
-   "resumo": "O defesa-central inglês Chris Smalling é reforço do FC Porto, como jogador livre depois de deixar o Al-Fayha, da Arábia Saudita.",
-   "img": "https://cdn-images.rtp.pt/icm/noticias/images/5e/5ec595b044ff0e5e0417c1626c8a2e43?w=350&q=50&rect=0,82,1600,877&auto=format"
-  },
-  {
-   "id": "record-vagiannidis-lesao",
-   "ts": "2026-09-30T18:20:00Z",
-   "source": "Record",
-   "lado": "pt",
-   "url": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/sporting/detalhe/vagiannidis-tem-suspeita-de-rotura-muscular-lateral-do-sporting-ja-esta-em-transito-para-ser-reavaliado",
-   "title": "Vagiannidis com suspeita de rotura muscular e em reavaliação",
-   "topic": "desporto",
-   "sub": "sporting",
-   "impacto": "medio",
-   "setores": [
-    "Lesões"
-   ],
-   "tickers": [],
-   "resumo": "O lateral-direito do Sporting saiu lesionado no Alemanha-Grécia e há suspeita de rotura muscular. O jogador segue para ser reavaliado.",
-   "img": "https://cdn.record.pt/images/2026-09/img_1200x721uu2026-09-30-19-20-32-2465600.jpg"
-  },
-  {
-   "id": "obs-procurador-porto-magistrados",
-   "ts": "2026-09-30T18:18:47Z",
-   "source": "Observador",
-   "lado": "pt",
-   "url": "https://observador.pt/2026/09/30/procurador-geral-regional-do-porto-denuncia-falta-de-magistrados/",
-   "title": "Procurador-geral do Porto denuncia falta de magistrados",
-   "topic": "justica",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Ministério Público",
-    "Tribunais"
-   ],
-   "tickers": [],
-   "resumo": "O relatório anual da Procuradoria-Geral Regional do Porto indica que nenhum tribunal funcionou com o mínimo legal de magistrados em 2025 e que os inquéritos-crime subiram mais de 6%.",
-   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:1778:1000:nowe:119:0/q:70/plain/https://s3.observador.pt/wp-content/uploads/2025/10/16174529/tribunal-judicial-da-comarca-do-porto.jpg"
-  },
-  {
-   "id": "obs-mosquito-alto-minho",
-   "ts": "2026-09-30T18:15:36Z",
-   "source": "Observador",
-   "lado": "pt",
-   "url": "https://observador.pt/2026/09/30/uls-confirma-presenca-do-mosquito-transmissor-do-dengue-zika-e-chikungunya-no-alto-minho/",
-   "title": "Mosquito do dengue, zika e chikungunya no Alto Minho",
-   "topic": "saude",
-   "sub": "",
-   "impacto": "medio",
-   "setores": [
-    "Saúde pública",
-    "Dengue"
-   ],
-   "tickers": [],
-   "resumo": "A Unidade Local de Saúde do Alto Minho confirmou a presença do Aedes albopictus em três concelhos. Não há mosquitos infetados nem casos de transmissão local.",
-   "img": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:1002:563:nowe:0:52/q:70/plain/https://s3.observador.pt/wp-content/uploads/2024/03/20150705/42469414.jpg"
-  },
-  {
-   "id": "caras-marius-borg-advogados",
-   "ts": "2026-09-30T18:08:28Z",
-   "source": "Caras",
-   "lado": "pt",
-   "url": "https://caras.pt/realeza/2026-09-30-marius-borg-substitui-advogados-de-defesa-e-contrata-nova-equipa/",
-   "title": "Marius Borg substitui advogados de defesa e contrata nova equipa",
-   "topic": "rosa",
-   "sub": "realeza",
-   "impacto": "medio",
-   "setores": [
-    "Realeza norueguesa"
-   ],
-   "tickers": [],
-   "resumo": "A quatro meses do julgamento, marcado para 9 de fevereiro de 2027, Marius Borg Høiby dispensou os advogados de defesa. Os novos advogados prometem apresentar novas provas.",
-   "img": "https://caras.pt/wp-content/uploads/2026/09/260930_Marius-Borg-1600x900.jpg"
   }
  ],
  "contracts": {},
@@ -5284,13 +5277,7 @@
    "b": "lusa-47879409",
    "tema": "Proteção a Rui Pinto: legalidade em causa",
    "nota": "A Frente Cívica diz que o fim do programa de segurança viola a lei; o programa foi encerrado por alegada falta de compromisso da testemunha e a ministra analisa."
-  },
-  {
-   "a": "cnn-6abd570fd34e53c759c74883",
-   "b": "lusa-47864031",
-   "tema": "Abstenção do PS no OE2027",
-   "nota": "Montenegro vê um \"sinal importante\" do PS; Ventura diz que a abstenção não surpreende porque o PS está \"a governar em conjunto\" com o PSD."
   }
  ],
- "arquivo": 430
+ "arquivo": 445
 }
