@@ -1,7 +1,103 @@
 {
- "version": "1.1.53",
- "updated": "2026-10-04T05:45:30Z",
+ "version": "1.1.54",
+ "updated": "2026-10-04T07:45:32Z",
  "recent": [
+  {
+   "id": "as-solberg-sardenha-dia3",
+   "ts": "2026-10-04T07:23:44Z",
+   "topic": "desporto",
+   "sub": "motores",
+   "source": "AutoSport",
+   "title": "WRC, Rali da Sardenha: Solberg vence primeiro troço do último dia"
+  },
+  {
+   "id": "cnn-6ac1ffa6d34e9a786e75acb9",
+   "ts": "2026-10-04T07:21:00Z",
+   "topic": "justica",
+   "sub": "",
+   "source": "CNN Portugal",
+   "title": "Homem esfaqueado por três suspeitos em Almada. Vítima está em estado grave"
+  },
+  {
+   "id": "rtp-n1769456",
+   "ts": "2026-10-04T07:12:41Z",
+   "topic": "outros",
+   "sub": "",
+   "source": "RTP",
+   "title": "Criminalidade juvenil e delitos no meio digital aumentam no 1.º semestre"
+  },
+  {
+   "id": "cnn-6ac1fe29d34e53c759c74f2b",
+   "ts": "2026-10-04T07:09:00Z",
+   "topic": "justica",
+   "sub": "",
+   "source": "CNN Portugal",
+   "title": "Dois homens esfaqueados de madrugada em Lisboa. Suspeito está em fuga"
+  },
+  {
+   "id": "as-albuquerque-petit-le-mans",
+   "ts": "2026-10-04T07:08:08Z",
+   "topic": "desporto",
+   "sub": "motores",
+   "source": "AutoSport",
+   "title": "IMSA: Filipe Albuquerque termina em 4.º nas 10 Horas de Petit Le Mans"
+  },
+  {
+   "id": "rtp-n1769441",
+   "ts": "2026-10-04T07:00:33Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "RTP",
+   "title": "Trump apela ao voto em Ohio para travar avanço democrata e manter controlo do Senado"
+  },
+  {
+   "id": "as-guilherme-oliveira-gtwc-barcelona",
+   "ts": "2026-10-04T07:00:00Z",
+   "topic": "desporto",
+   "sub": "motores",
+   "source": "AutoSport",
+   "title": "GTWC Europe, Barcelona: Guilherme Oliveira vence corrida 1 na Silver Cup"
+  },
+  {
+   "id": "novagente-condessa-globo-ouro",
+   "ts": "2026-10-04T07:00:00Z",
+   "topic": "rosa",
+   "sub": "famosos",
+   "source": "Nova Gente",
+   "title": "José Condessa vence Globo de Ouro e já prepara novo desafio na SIC"
+  },
+  {
+   "id": "healthnews-helicopteros-inem-combustivel",
+   "ts": "2026-10-04T06:08:44Z",
+   "topic": "saude",
+   "sub": "",
+   "source": "HealthNews",
+   "title": "Helicópteros do INEM à beira do colapso: combustível sobe 80% e empresa exige ajuda urgente"
+  },
+  {
+   "id": "novagente-miguel-vieira-milao",
+   "ts": "2026-10-04T06:00:00Z",
+   "topic": "rosa",
+   "sub": "famosos",
+   "source": "Nova Gente",
+   "title": "Miguel Vieira encerra Semana da Moda de Milão com a coleção 'Back to Black'"
+  },
+  {
+   "id": "as-luis-caetano-clio-rally5",
+   "ts": "2026-10-04T05:52:16Z",
+   "topic": "desporto",
+   "sub": "motores",
+   "source": "AutoSport",
+   "title": "Luís Caetano vence no Algarve e assegura o Challenge Clio Rally5"
+  },
+  {
+   "id": "lusa-47881146",
+   "ts": "2026-10-04T04:59:00Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "Lusa",
+   "title": "Japão protesta junto de EUA após detenção de militar por homicídio em Okinawa"
+  },
   {
    "id": "lusa-47880509",
    "ts": "2026-10-04T04:50:00Z",
@@ -33,6 +129,30 @@
    "sub": "",
    "source": "Lusa",
    "title": "Dependência de álcool quase quadruplicou em Portugal mas só 20% estão em tratamento"
+  },
+  {
+   "id": "lusa-47880513",
+   "ts": "2026-10-04T04:01:00Z",
+   "topic": "saude",
+   "sub": "",
+   "source": "Lusa",
+   "title": "Dados não confirmam perceção do aumento da toxicodependência"
+  },
+  {
+   "id": "lusa-47880512",
+   "ts": "2026-10-04T04:01:00Z",
+   "topic": "saude",
+   "sub": "",
+   "source": "Lusa",
+   "title": "Unidade de tratamento do jogo recebeu 50 utentes e caso com dívida de 3 milhões"
+  },
+  {
+   "id": "lusa-47881145",
+   "ts": "2026-10-04T03:44:00Z",
+   "topic": "mundo",
+   "sub": "",
+   "source": "Lusa",
+   "title": "Coreia do Norte reconhece teste de mísseis em plena tensão com Seul"
   },
   {
    "id": "obs-noticiario-4h-catalunha-20261004",
@@ -73,6 +193,14 @@
    "sub": "",
    "source": "Observador",
    "title": "1h. Responsável pela segurança da OpenAI demite-se"
+  },
+  {
+   "id": "record-costinha-roupeiros-cr7",
+   "ts": "2026-10-04T00:00:00Z",
+   "topic": "desporto",
+   "sub": "selecao",
+   "source": "Record",
+   "title": "Cristiano Ronaldo não deixou a Seleção sozinho: descubra quem o seguiu"
   },
   {
    "id": "cnn-6ac1889fd34e9a786e75acb6",
@@ -257,6 +385,14 @@
    "sub": "",
    "source": "Observador",
    "title": "Mulher de 102 anos morre em casa devido a cheias em Espanha"
+  },
+  {
+   "id": "rtp-d1769428",
+   "ts": "2026-10-03T20:29:42Z",
+   "topic": "desporto",
+   "sub": "golfe",
+   "source": "RTP Desporto",
+   "title": "Golfista Tomás Melo Gouveia termina em 16.º o Abu Dhabi Challenge"
   },
   {
    "id": "cnn-6ac16563d34e53c759c74ef9",
@@ -731,6 +867,14 @@
    "title": "André Ventura assume presidência da comissão de inquérito a Luís Neves"
   },
   {
+   "id": "rtp-d1769355",
+   "ts": "2026-10-03T14:03:31Z",
+   "topic": "desporto",
+   "sub": "tenis",
+   "source": "RTP Desporto",
+   "title": "Tenista Francisco Cabral cai nos quartos de final do torneio de pares de Pequim"
+  },
+  {
    "id": "obs-espanha-manifestacao-habitacao",
    "ts": "2026-10-03T14:01:47Z",
    "topic": "mundo",
@@ -817,150 +961,6 @@
    "sub": "selecao",
    "source": "Observador",
    "title": "Cartaz de apoio a Ronaldo, afixado no Porto, foi retirado"
-  },
-  {
-   "id": "lusa-47878498",
-   "ts": "2026-10-03T12:10:00Z",
-   "topic": "mundo",
-   "sub": "",
-   "source": "Lusa",
-   "title": "Ucrânia: Rússia avisa diplomatas e estrangeiros para abandonarem Kiev"
-  },
-  {
-   "id": "rtp-n1769327",
-   "ts": "2026-10-03T11:53:22Z",
-   "topic": "economia",
-   "sub": "",
-   "source": "RTP",
-   "title": "Cerca de 325 milhões de barris libertados das reservas estratégicas de petróleo"
-  },
-  {
-   "id": "zerozero-tavares-dallmann-1218603",
-   "ts": "2026-10-03T11:45:45Z",
-   "topic": "desporto",
-   "sub": "benfica",
-   "source": "zerozero",
-   "title": "Fernando Tavares revela: «Existiu um pré-acordo para que Linda Dallmann representasse o Benfica»"
-  },
-  {
-   "id": "lusa-47878325",
-   "ts": "2026-10-03T11:32:00Z",
-   "topic": "justica",
-   "sub": "",
-   "source": "Lusa",
-   "title": "PJ detém no aeroporto de Lisboa três mulheres com 11 Kg de cocaína"
-  },
-  {
-   "id": "cm-ovomcare-20261003",
-   "ts": "2026-10-03T11:29:29Z",
-   "topic": "saude",
-   "sub": "",
-   "source": "CM",
-   "title": "Clínica de fertilidade Ovomcare, em Cascais, faliu e afetou cerca de 200 clientes"
-  },
-  {
-   "id": "obs-viseu-incendio-urbano-20261003",
-   "ts": "2026-10-03T11:28:29Z",
-   "topic": "tempo",
-   "sub": "",
-   "source": "Observador",
-   "title": "Incêndio urbano em Viseu: uma vítima mortal e cinco feridos"
-  },
-  {
-   "id": "lusa-47878271",
-   "ts": "2026-10-03T11:24:00Z",
-   "topic": "tempo",
-   "sub": "",
-   "source": "Lusa",
-   "title": "Greve na easyJet com total adesão e cancelamentos podem chegar a 90% - Sindicato"
-  },
-  {
-   "id": "obs-noticiario-12h-oe-ps",
-   "ts": "2026-10-03T11:14:22Z",
-   "topic": "politica",
-   "sub": "",
-   "source": "Observador",
-   "title": "12h. OE 2027. PS diz que viabilização não é carta branca"
-  },
-  {
-   "id": "cm-bombeiro-agualva-20261003",
-   "ts": "2026-10-03T11:04:18Z",
-   "topic": "justica",
-   "sub": "",
-   "source": "CM",
-   "title": "Bombeiro de Agualva-Cacém filmado a roubar artigo de idoso que socorria em casa"
-  },
-  {
-   "id": "zerozero-jota-celtic-1218601",
-   "ts": "2026-10-03T10:58:02Z",
-   "topic": "desporto",
-   "sub": "lafora",
-   "source": "zerozero",
-   "title": "Jota volta a jogar pelo Celtic 18 meses depois"
-  },
-  {
-   "id": "eco-premium-setembro-20261003",
-   "ts": "2026-10-03T10:37:26Z",
-   "topic": "economia",
-   "sub": "",
-   "source": "ECO",
-   "title": "Mercedes e BMW lideram segmento premium em setembro e luxo soma 16 carros"
-  },
-  {
-   "id": "eco-prova-dos-9-salarios",
-   "ts": "2026-10-03T10:15:52Z",
-   "topic": "economia",
-   "sub": "",
-   "source": "ECO",
-   "title": "Prova dos 9. Salários subiram mesmo 15% nos últimos dois anos como diz Montenegro?"
-  },
-  {
-   "id": "obs-frente-civica-rui-pinto",
-   "ts": "2026-10-03T09:18:35Z",
-   "topic": "justica",
-   "sub": "",
-   "source": "Observador",
-   "title": "Frente Cívica questiona retirada de proteção a Rui Pinto"
-  },
-  {
-   "id": "obs-marvila-alunos-sem-professor",
-   "ts": "2026-10-03T09:11:37Z",
-   "topic": "outros",
-   "sub": "",
-   "source": "Observador",
-   "title": "300 alunos sem professor de 1º ciclo nas escolas de Marvila"
-  },
-  {
-   "id": "eco-montenegro-estrasburgo",
-   "ts": "2026-10-03T08:24:22Z",
-   "topic": "politica",
-   "sub": "",
-   "source": "ECO",
-   "title": "Montenegro em Estrasburgo com orçamento da UE em discussão"
-  },
-  {
-   "id": "cnn-6ac0bb11d34e53c759c74dd6",
-   "ts": "2026-10-03T08:21:01Z",
-   "topic": "mundo",
-   "sub": "",
-   "source": "CNN Portugal",
-   "title": "Emirados Árabes Unidos confirmam que copiloto da Flydubai tinha intenções \"terroristas\""
-  },
-  {
-   "id": "healthnews-tarefeiros-portaria",
-   "ts": "2026-10-03T06:19:07Z",
-   "topic": "saude",
-   "sub": "",
-   "source": "HealthNews",
-   "title": "Ministra ouve tarefeiros, portaria dos honorários continua no segredo dos deuses"
-  },
-  {
-   "id": "healthnews-ps-acores-seidi",
-   "ts": "2026-10-03T06:18:22Z",
-   "topic": "saude",
-   "sub": "",
-   "source": "HealthNews",
-   "title": "PS/Açores acusa Governo de esconder dados. Mónica Seidi responde: \"Não é verdade\""
   }
  ],
  "paired": [
