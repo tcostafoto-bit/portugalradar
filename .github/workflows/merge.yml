@@ -1,13 +1,7 @@
 name: Fundir notícias da caixa de entrada
 
 on:
-  push:
-    paths:
-      - "inbox/**"
-      - "seo_build.py"
-  workflow_dispatch:
-  schedule:
-    - cron: "*/15 * * * *"   # vai buscar os lotes deixados no Notion pela tarefa agendada
+  workflow_dispatch:   # sincronismos pausados (manutenção): só corre à mão
 
 permissions:
   contents: write
